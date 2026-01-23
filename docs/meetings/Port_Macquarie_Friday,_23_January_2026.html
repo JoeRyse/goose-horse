@@ -1,0 +1,741 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Port Macquarie - Pro Form</title>
+        <style>
+            /* BASE STYLES */
+            body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; color: #000; margin: 0; padding: 30px; background: #fff; }
+            .container { max_width: 1000px; margin: 0 auto; }
+            a { text-decoration: none; color: #000; }
+            
+            /* HEADER (Logo Left) */
+            .header { display: flex; align-items: center; border-bottom: 3px solid #000; padding-bottom: 20px; margin-bottom: 30px; }
+            .logo { max-height: 90px; margin-right: 30px; display: block; }
+            .header-info h1 { margin: 0; font-size: 28px; text-transform: uppercase; letter-spacing: 1px; line-height: 1; }
+            .meta { font-size: 14px; color: #333; margin-top: 8px; font-weight: 500; }
+            
+            /* RACE SECTION Container */
+            .race-section { margin-bottom: 40px; break-inside: avoid; border: 1px solid #ccc; background: #fff; }
+            
+            /* RACE HEADER (Black Bar) */
+            .race-header { background: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .race-title { font-weight: 700; font-size: 18px; }
+            .race-conf { font-weight: 600; font-size: 13px; background: #fff; color: #000; padding: 4px 10px; border-radius: 2px; text-transform: uppercase; }
+            
+            /* DETAILED PICKS PANELS */
+            .picks-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; padding: 20px; background: #f9f9f9; border-bottom: 1px solid #ccc; }
+            .pick-panel { background: #fff; border: 1px solid #ddd; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+            /* Strong top borders for B&W distinction */
+            .panel-top { border-top: 4px solid #000; }
+            .panel-danger { border-top: 4px solid #555; }
+            .panel-value { border-top: 4px solid #999; }
+            
+            .panel-label { font-weight: 900; font-size: 11px; text-transform: uppercase; margin-bottom: 10px; display: block; letter-spacing: 0.5px; }
+            .pick-main { font-size: 16px; font-weight: 700; margin-bottom: 5px; }
+            .pick-detail { font-size: 12px; color: #444; font-style: italic; line-height: 1.4; }
+            .rating-box { display: inline-block; background: #000; color: #fff; padding: 2px 6px; font-size: 11px; margin-left: 5px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            
+            /* CONTENDERS TABLE */
+            .table-container { padding: 0 20px 20px 20px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+            th { text-align: left; background: #eee; border-bottom: 2px solid #000; padding: 8px 12px; font-size: 11px; text-transform: uppercase; font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+            tr:last-child td { border-bottom: none; }
+            
+            /* Highlight Top Pick Row */
+            .row-top-pick { background-color: #f0f0f0; font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .row-top-pick td { border-bottom: 1px solid #ccc; }
+            
+            /* STRATEGY FOOTER */
+            .strategy-footer { background: #f4f4f4; border-top: 1px solid #ccc; padding: 15px 20px; font-size: 12px; }
+            .strat-row { margin-bottom: 8px; }
+            .strat-label { font-weight: 900; text-decoration: underline; margin-right: 8px; }
+            
+            /* UTILS */
+            .btn-print { position: fixed; top: 20px; right: 20px; background: #000; color: #fff; padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 4px; cursor: pointer; border: none; font-size: 14px; z-index: 100; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+            .btn-print:hover { background: #333; }
+            
+            /* PRINT MEDIA QUERY */
+            @media print {
+                body { padding: 0; background: #fff; }
+                .container { max-width: 100%; }
+                .btn-print { display: none !important; }
+                .race-section { page-break-inside: avoid; border: 2px solid #000; margin-bottom: 30px; }
+                .race-header { background: #000 !important; color: #fff !important; }
+                .picks-container { background: #fff !important; border-bottom: 2px solid #000; }
+                .pick-panel { box-shadow: none; border: 1px solid #000; }
+                .row-top-pick { background-color: #eee !important; border: 1px solid #000; }
+                th { background: #ddd !important; border-bottom: 2px solid #000; }
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn-print" onclick="window.print()">🖨️ PRINT FORM GUIDE</button>
+    
+        <div class="container">
+            <div class="header">
+                <img src="../logo.png" class="logo" alt="Logo">
+                <div class="header-info">
+                    <h1>Port Macquarie Professional Form</h1>
+                    <div class="meta">Friday, 23 January 2026 • Good 4 • Weather: N/A</div>
+                </div>
+            </div>
+    
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 1 - </div>
+                <div class="race-conf">High (4.5 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #9 Bohemian Art 
+                        <span class="rating-box">95</span>
+                    </div>
+                    <div class="pick-detail">Provincial placings at Wyong and Newcastle rate highly against this field; looks ready to win.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #7 Surpasser
+                        <span class="rating-box" style="background:#555">92</span>
+                    </div>
+                    <div class="pick-detail">Lees/Bullock combination always dangerous; lightly raced with upside.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #4 William's Smile
+                    </div>
+                    <div class="pick-detail">Odds: $14.00 <br> Consistent placegetter who maps well here.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">9</td>
+                <td>Bohemian Art</td>
+                <td><span style="font-weight:700">95</span></td>
+                <td>8</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">7</td>
+                <td>Surpasser</td>
+                <td><span style="font-weight:700">92</span></td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">4</td>
+                <td>William's Smile</td>
+                <td><span style="font-weight:700">88</span></td>
+                <td>5</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">10</td>
+                <td>Castelle</td>
+                <td><span style="font-weight:700">86</span></td>
+                <td>7</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 9 / 4, 7, 10</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 9 / 4, 7, 10 / 1, 4, 7, 10</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Keying #9 Bohemian Art to win given the form advantage.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 2 - </div>
+                <div class="race-conf">Low (2 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #5 Velka 
+                        <span class="rating-box">90</span>
+                    </div>
+                    <div class="pick-detail">Solid return at Taree and finds a very thin race here.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #8 Dirty Does It
+                        <span class="rating-box" style="background:#555">85</span>
+                    </div>
+                    <div class="pick-detail">Honest performer who should be in the finish.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #13 Toke
+                    </div>
+                    <div class="pick-detail">Odds: $12.00 <br> Can improve second-up.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">5</td>
+                <td>Velka</td>
+                <td><span style="font-weight:700">90</span></td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">8</td>
+                <td>Dirty Does It</td>
+                <td><span style="font-weight:700">85</span></td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">13</td>
+                <td>Toke</td>
+                <td><span style="font-weight:700">82</span></td>
+                <td>7</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">6</td>
+                <td>Blue Dane</td>
+                <td><span style="font-weight:700">80</span></td>
+                <td>13</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 5, 8 / 5, 6, 8, 13</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 5, 8 / 5, 6, 8, 13 / 5, 6, 8, 12, 13</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Boxing the top two selections mainly, keeping it simple in a low confidence race.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 3 - </div>
+                <div class="race-conf">High (4.5 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #1 Introducing 
+                        <span class="rating-box">100</span>
+                    </div>
+                    <div class="pick-detail">Massive class drop from BM82/Highway grade. Clear top rater.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #2 Veecee
+                        <span class="rating-box" style="background:#555">96</span>
+                    </div>
+                    <div class="pick-detail">Resuming off a trial win, proven fresh performer.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #4 Seymour Stars
+                    </div>
+                    <div class="pick-detail">Odds: $3.60 <br> Unbeaten in two starts, could be anything.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">1</td>
+                <td>Introducing</td>
+                <td><span style="font-weight:700">100</span></td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">2</td>
+                <td>Veecee</td>
+                <td><span style="font-weight:700">96</span></td>
+                <td>4</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">4</td>
+                <td>Seymour Stars</td>
+                <td><span style="font-weight:700">94</span></td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">3</td>
+                <td>Ex Wife</td>
+                <td><span style="font-weight:700">92</span></td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 1 / 2, 4</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 1 / 2, 3, 4 / 2, 3, 4, 5</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Introducing is a standout win bet. Veecee and Seymour Stars fighting for the minors.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 4 - </div>
+                <div class="race-conf">Medium (3 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #3 Piccaderro 
+                        <span class="rating-box">94</span>
+                    </div>
+                    <div class="pick-detail">Provincial form is superior; maps well.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #1 Chistota
+                        <span class="rating-box" style="background:#555">90</span>
+                    </div>
+                    <div class="pick-detail">Maher stable debutant with trial win.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #4 Wan Lost
+                    </div>
+                    <div class="pick-detail">Odds: TBA <br> Lees/Bullock combination with solid trial background.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">3</td>
+                <td>Piccaderro</td>
+                <td><span style="font-weight:700">94</span></td>
+                <td>8</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">1</td>
+                <td>Chistota</td>
+                <td><span style="font-weight:700">90</span></td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">4</td>
+                <td>Wan Lost</td>
+                <td><span style="font-weight:700">88</span></td>
+                <td>5</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">7</td>
+                <td>Zous Apollo</td>
+                <td><span style="font-weight:700">82</span></td>
+                <td>9</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 3 / 1, 4, 7</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 3 / 1, 4, 7 / 1, 4, 7, 10</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Piccaderro brings the exposed form. The debutants are the main dangers.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 5 - </div>
+                <div class="race-conf">High (5 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #1 Heir Apparent 
+                        <span class="rating-box">105</span>
+                    </div>
+                    <div class="pick-detail">Massive class drop from Randwick BM78 placing. Best bet of the day.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #9 Savoca
+                        <span class="rating-box" style="background:#555">96</span>
+                    </div>
+                    <div class="pick-detail">Good 3rd at Beaumont BM64 last start. Strong danger.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #3 Debussy
+                    </div>
+                    <div class="pick-detail">Odds: $7.50 <br> Drops from BM82 company. Maps well.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">1</td>
+                <td>Heir Apparent</td>
+                <td><span style="font-weight:700">105</span></td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">9</td>
+                <td>Savoca</td>
+                <td><span style="font-weight:700">96</span></td>
+                <td>4</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">3</td>
+                <td>Debussy</td>
+                <td><span style="font-weight:700">92</span></td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">8</td>
+                <td>Love Child</td>
+                <td><span style="font-weight:700">88</span></td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 1 / 3, 9</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 1 / 3, 9 / 2, 3, 8, 9</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Heir Apparent should win on class. Keying him to beat the other class runners.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 6 - </div>
+                <div class="race-conf">High (4 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #5 Song For Rosie 
+                        <span class="rating-box">98</span>
+                    </div>
+                    <div class="pick-detail">Provincial form is superior. Ready to peak.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #1 Calypso Rocket
+                        <span class="rating-box" style="background:#555">96</span>
+                    </div>
+                    <div class="pick-detail">Dominant maiden winner here last start. Bullock sticks.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #9 Lune D'excellence
+                    </div>
+                    <div class="pick-detail">Odds: $6.00 <br> Strong win at Taree. Stable in form.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">5</td>
+                <td>Song For Rosie</td>
+                <td><span style="font-weight:700">98</span></td>
+                <td>8</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">1</td>
+                <td>Calypso Rocket</td>
+                <td><span style="font-weight:700">96</span></td>
+                <td>13</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">9</td>
+                <td>Lune D'excellence</td>
+                <td><span style="font-weight:700">94</span></td>
+                <td>7</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">2</td>
+                <td>Rose Of Dubai</td>
+                <td><span style="font-weight:700">90</span></td>
+                <td>10</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 5, 1 / 1, 5, 9, 2</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 5, 1 / 1, 5, 9, 2 / 1, 2, 5, 9, 10</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Top two look the strongest. Boxing them with dangers.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 7 - </div>
+                <div class="race-conf">Medium (3.5 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #1 Yendy 
+                        <span class="rating-box">102</span>
+                    </div>
+                    <div class="pick-detail">Class runner. Brisbane form lines superior. Won here previously.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #3 Jaex
+                        <span class="rating-box" style="background:#555">98</span>
+                    </div>
+                    <div class="pick-detail">Consistent provincial performer. Hard to beat.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #5 Miss Rebel
+                    </div>
+                    <div class="pick-detail">Odds: $4.20 <br> Good run two back. Highway form respects.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">1</td>
+                <td>Yendy</td>
+                <td><span style="font-weight:700">102</span></td>
+                <td>11</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">3</td>
+                <td>Jaex</td>
+                <td><span style="font-weight:700">98</span></td>
+                <td>10</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">5</td>
+                <td>Miss Rebel</td>
+                <td><span style="font-weight:700">96</span></td>
+                <td>8</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">6</td>
+                <td>Moscow Circus</td>
+                <td><span style="font-weight:700">94</span></td>
+                <td>7</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 1 / 3, 5, 6</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 1 / 3, 5, 6 / 3, 5, 6, 8, 11</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Yendy on top. Include Jaex and Miss Rebel in exotics.</div>
+            </div>
+        </div>
+        
+        <div class="race-section">
+            <div class="race-header">
+                <div class="race-title">RACE 8 - </div>
+                <div class="race-conf">Low (2.5 Stars)</div>
+            </div>
+            
+            <div class="picks-container">
+                <div class="pick-panel panel-top">
+                    <span class="panel-label">⭐ BEST BET / TOP PICK</span>
+                    <div class="pick-main">
+                        #2 Yorikiri 
+                        <span class="rating-box">96</span>
+                    </div>
+                    <div class="pick-detail">Class drop from Prov BM64. Paul Perry stable.</div>
+                </div>
+                
+                <div class="pick-panel panel-danger">
+                    <span class="panel-label">⚠️ THE DANGER</span>
+                    <div class="pick-main">
+                        #1 Golden Honour
+                        <span class="rating-box" style="background:#555">94</span>
+                    </div>
+                    <div class="pick-detail">Consistent and reliable at this level.</div>
+                </div>
+                
+                <div class="pick-panel panel-value">
+                    <span class="panel-label">💰 VALUE PLAY</span>
+                    <div class="pick-main">
+                        #10 Damons On A Bender
+                    </div>
+                    <div class="pick-detail">Odds: $1.85 <br> Progressive maiden winner. Lightly raced.</div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Barrier</th><th>Verdict</th></tr></thead>
+                    <tbody>
+        
+            <tr class="row-top-pick">
+                <td style="font-weight:bold">2</td>
+                <td>Yorikiri</td>
+                <td><span style="font-weight:700">96</span></td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">1</td>
+                <td>Golden Honour</td>
+                <td><span style="font-weight:700">94</span></td>
+                <td>4</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">10</td>
+                <td>Damons On A Bender</td>
+                <td><span style="font-weight:700">92</span></td>
+                <td>17</td>
+                <td>-</td>
+            </tr>
+            
+            <tr class="">
+                <td style="font-weight:bold">4</td>
+                <td>Externus</td>
+                <td><span style="font-weight:700">90</span></td>
+                <td>15</td>
+                <td>-</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="strategy-footer">
+                <div class="strat-row"><span class="strat-label">EXACTA STAKE:</span> 2, 1 / 1, 2, 4, 10</div>
+                <div class="strat-row"><span class="strat-label">TRIFECTA STAKE:</span> 1, 2 / 1, 2, 4, 10 / 1, 2, 4, 10, 11</div>
+                <div style="margin-top:8px; font-style:italic;">Note: Yorikiri has the class but fitness is a query. Golden Honour is the safe option.</div>
+            </div>
+        </div>
+        </div></body></html>
