@@ -3,59 +3,79 @@
     <html>
     <head>
         <title>World Handicapper HQ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-            body { font-family: sans-serif; background: #0f172a; color: white; padding: 40px; }
-            .container { max-width: 800px; margin: 0 auto; }
-            h1 { text-align: center; color: #f1c40f; text-transform: uppercase; letter-spacing: 2px; }
-            .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 40px; }
-            .card { background: #1e293b; padding: 20px; border-radius: 8px; border: 1px solid #334155; transition: transform 0.2s; }
-            .card:hover { transform: translateY(-5px); border-color: #f1c40f; }
-            .card h3 { margin: 0 0 10px 0; }
-            .btn { display: inline-block; background: #f1c40f; color: #0f172a; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
+            body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #ffffff; color: #333; }
+            .hero { text-align: center; padding: 50px 20px; background: #fff; border-bottom: 4px solid #003366; }
+            .logo { max-height: 120px; margin-bottom: 20px; }
+            h1 { margin: 0; color: #003366; text-transform: uppercase; font-size: 2.2rem; font-weight: 800; }
+            .subtitle { color: #666; font-size: 1.1rem; margin-top: 5px; }
+            .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+            .section-title { border-bottom: 3px solid #ff6b00; padding-bottom: 10px; margin: 50px 0 30px 0; font-size: 1.6rem; color: #003366; font-weight: 700; }
+            .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
+            .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; transition: all 0.2s; text-decoration: none; color: #333; display: block; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+            .card:hover { transform: translateY(-4px); box-shadow: 0 12px 20px rgba(0,0,0,0.1); border-color: #ff6b00; }
+            .card-body { padding: 20px; }
+            .track-name { font-size: 1.3rem; font-weight: 700; color: #003366; display: block; }
+            .status { color: #ff6b00; font-size: 0.8rem; font-weight: 800; margin-top: 15px; display: block; text-transform: uppercase; }
         </style>
     </head>
     <body>
+        <div class="hero">
+            <img src="logo.png" class="logo">
+            <h1>World Handicapper</h1>
+            <div class="subtitle">Professional Racing Intelligence</div>
+        </div>
         <div class="container">
-            <h1>World Handicapper Pro</h1>
-            <p style="text-align:center; color:#94a3b8;">Latest Professional Analysis</p>
-            <div class="card-grid">
-    
-            <div class="card">
-                <h3>Canterbury Park 2026-01-23</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Canterbury_Park_2026-01-23.html" class="btn">View Analysis</a>
-            </div>
-        
-            <div class="card">
-                <h3>Emerald 2026-01-23</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Emerald_2026-01-23.html" class="btn">View Analysis</a>
-            </div>
-        
-            <div class="card">
-                <h3>Moruya Friday, January 23, 2026</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Moruya_Friday,_January_23,_2026.html" class="btn">View Analysis</a>
-            </div>
-        
-            <div class="card">
-                <h3>Port Macquarie Friday, 23 January 2026</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Port_Macquarie_Friday,_23_January_2026.html" class="btn">View Analysis</a>
-            </div>
-        
-            <div class="card">
-                <h3>Santa Anita Park 2026-01-15</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Santa_Anita_Park_2026-01-15.html" class="btn">View Analysis</a>
-            </div>
-        
-            <div class="card">
-                <h3>Tamworth 2026-01-21</h3>
-                <span style="color:#64748b; font-size:0.9em;">Analysis Complete</span><br>
-                <a href="meetings/Tamworth_2026-01-21.html" class="btn">View Analysis</a>
-            </div>
-        
+    <div class="section-title">🌍 International Racing</div><div class="grid">
+            <a href="meetings/Tamworth_2026-01-21.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Tamworth 2026-01-21</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Saratoga_Sunday_08-17-25.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Saratoga Sunday 08-17-25</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Santa_Anita_Park_2026-01-15.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Santa Anita Park 2026-01-15</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Port_Macquarie_Friday,_23_January_2026.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Port Macquarie Friday, 23 January 2026</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Moruya_Friday,_January_23,_2026.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Moruya Friday, January 23, 2026</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Emerald_2026-01-23.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Emerald 2026-01-23</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
+            
+            <a href="meetings/Canterbury_Park_2026-01-23.html" class="card">
+                <div class="card-body">
+                    <span class="track-name">Canterbury Park 2026-01-23</span>
+                    <span class="status">● View Form</span>
+                </div>
+            </a>
             </div>
         </div>
     </body>
