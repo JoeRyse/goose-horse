@@ -1,8 +1,8 @@
 @echo off
-cd %~dp0
+cd /d "C:\Users\joery\OneDrive\Desktop\RacingAI\world-handicapper"
 echo 🚀 Deploying to GitHub...
 git add .
-git commit -m "New Race Card Update"
+git commit -m "Daily Update: %date%"
 git push origin main
 echo ✅ Site is Live!
-pause
+timeout /t 5
