@@ -6,6 +6,7 @@ import json
 import time
 import re
 import subprocess
+import base64
 from datetime import datetime
 
 # --- CONFIGURATION ---
@@ -19,18 +20,24 @@ MEETINGS_DIR = os.path.join(DOCS_DIR, "meetings")
 LOGIC_DIR = os.path.join(BASE_DIR, "logic")
 TEMP_DIR = os.path.join(BASE_DIR, "temp")
 
-# Ensure directories exist
 for d in [DATA_DIR, DOCS_DIR, MEETINGS_DIR, LOGIC_DIR, TEMP_DIR]:
     os.makedirs(d, exist_ok=True)
 
-# --- SESSION STATE ---
-if 'html_content' not in st.session_state: st.session_state.html_content = None
-if 'preview_html' not in st.session_state: st.session_state.preview_html = None
-if 'report_filename' not in st.session_state: st.session_state.report_filename = None
-if 'raw_response' not in st.session_state: st.session_state.raw_response = ""
-if 'data_ready' not in st.session_state: st.session_state.data_ready = False
-
 # --- HELPER FUNCTIONS ---
+
+def get_base64_logo():
+    """Tries to find logo.png in multiple spots and encode it."""
+    # Check 1: Root Folder
+    path = os.path.join(BASE_DIR, "logo.png")
+    if not os.path.exists(path):
+        # Check 2: Docs Folder
+        path = os.path.join(DOCS_DIR, "logo.png")
+    
+    if os.path.exists(path):
+        with open(path, "rb") as image_file:
+            encoded = base64.b64encode(image_file.read()).decode()
+        return f"data:image/png;base64,{encoded}", path
+    return "", None
 
 def clean_json_string(json_str):
     json_str = re.sub(r'```json\s*', '', json_str)
@@ -38,16 +45,17 @@ def clean_json_string(json_str):
     return json_str.strip()
 
 def is_valid_pick(pick):
-    """Checks if a pick actually contains a horse name and isn't a placeholder."""
     if not pick: return False
     name = str(pick.get('name', '')).strip().lower()
-    # Filter out common AI placeholders
-    invalid_terms = ['none', 'n/a', 'null', 'no danger', 'no threat', 'no value', '', 'tbd']
-    return name and name not in invalid_terms
+    invalid = ['none', 'n/a', 'null', 'no danger', 'no threat', 'tbd', 'horse name']
+    return name and name not in invalid
 
 def update_homepage():
+    """Rebuilds index.html using the Unified Header Design."""
     files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
     grouped_files = {}
+    
+    # Sort files
     for f in files:
         country = "International"
         try:
@@ -58,7 +66,39 @@ def update_homepage():
         if country not in grouped_files: grouped_files[country] = []
         grouped_files[country].append(f)
 
-    html = """<!DOCTYPE html><html><head><title>Exacta AI</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f8fafc; color: #333; } .hero { background: #fff; border-bottom: 4px solid #003366; padding: 40px 0; } .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; } .section-title { border-bottom: 3px solid #ff6b00; padding-bottom: 10px; margin: 40px 0 20px 0; font-size: 1.5rem; color: #003366; font-weight: 700; } .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; } .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; text-decoration: none; color: #333; display: block; box-shadow: 0 2px 4px rgba(0,0,0,0.05); } .card:hover { transform: translateY(-3px); border-color: #ff6b00; } .card-body { padding: 20px; } .track-name { font-size: 1.2rem; font-weight: 700; color: #0f172a; display: block; } .status { color: #ff6b00; font-size: 0.8rem; font-weight: 700; margin-top: 10px; display: block; text-transform: uppercase; }</style></head><body><div class="hero"><div class="container" style="padding:0"><h1>Race Intelligence</h1></div></div><div class="container">"""
+    # Get Logo
+    logo_src, _ = get_base64_logo()
+    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:3rem; margin-right:20px;">🏇</span>'
+
+    # HTML Generator (MATCHING RACE CARD STYLE)
+    html = f"""<!DOCTYPE html><html lang="en"><head><title>Exacta AI</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+    body {{ margin: 0; font-family: 'Segoe UI', sans-serif; background: #f8fafc; color: #333; }}
+    .container {{ max-width: 1000px; margin: 0 auto; padding: 40px 20px; }}
+    
+    /* UNIFIED HEADER STYLE */
+    .header {{ display: flex; align-items: center; border-bottom: 4px solid #003366; padding-bottom: 20px; margin-bottom: 30px; background: #fff; padding: 30px; }}
+    .logo {{ max-height: 80px; margin-right: 20px; }}
+    .header-info h1 {{ margin: 0; font-size: 2.5rem; color: #003366; text-transform: uppercase; font-weight: 800; }}
+    .header-info .meta {{ color: #64748b; font-weight: 600; margin-top: 5px; font-size: 1.1rem; }}
+    
+    .section-title {{ border-bottom: 3px solid #ff6b00; padding-bottom: 10px; margin: 40px 0 20px 0; font-size: 1.5rem; color: #003366; font-weight: 700; }}
+    .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }}
+    .card {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; text-decoration: none; color: #333; display: block; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: transform 0.2s; }}
+    .card:hover {{ transform: translateY(-3px); border-color: #ff6b00; }}
+    .card-body {{ padding: 20px; }}
+    .track-name {{ font-size: 1.2rem; font-weight: 700; color: #0f172a; display: block; }}
+    .status {{ color: #ff6b00; font-size: 0.8rem; font-weight: 700; margin-top: 10px; display: block; text-transform: uppercase; }}
+    </style></head><body>
+    
+    <div class="header">
+        {logo_html}
+        <div class="header-info">
+            <h1>Race Intelligence</h1>
+            <div class="meta">Professional Handicapping Database</div>
+        </div>
+    </div>
+    
+    <div class="container">"""
     
     display_order = ["USA", "Australia", "UK", "Japan", "International"]
     for key in display_order:
@@ -78,7 +118,10 @@ def update_homepage():
         html += "</div>"
     
     html += "</div></body></html>"
-    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
+    
+    # WRITE FILE
+    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f:
+        f.write(html)
 
 def generate_meeting_html(data, region_override, is_preview_mode=False):
     country = data.get('meta', {}).get('jurisdiction', region_override)
@@ -86,7 +129,10 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
     track_cond = data.get('meta', {}).get('track_condition', 'Standard')
     
-    # --- FIND BEST BETS OF THE DAY ---
+    logo_src, _ = get_base64_logo()
+    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:3rem; margin-right:20px;">🏇</span>'
+
+    # Best Bets
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
@@ -106,7 +152,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">Race {bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
         best_bets_html += '</div></div>'
 
-    # --- NAVIGATION ---
     nav_links = ""
     if not is_preview_mode:
         for r in data.get('races', []):
@@ -156,7 +201,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     
     <div class="header">
         <div style="display:flex;align-items:center">
-            <img src="../logo.png" class="logo" alt="Exacta AI" onerror="this.style.display='none'">
+            {logo_html}
             <div class="header-info">
                 <h1>{track_name}</h1>
                 <div class="meta">{track_date} • {track_cond}</div>
@@ -182,7 +227,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         top_class = "panel-best" if is_best_bet else "panel-top"
         top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
-        # --- SMART FILTERING ---
         dang = r.get('picks', {}).get('danger_horse', {})
         show_danger = is_valid_pick(dang)
         
@@ -199,7 +243,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             
         if show_danger:
             html += f"""<div class="pick-box panel-danger"><b>⚠️ DANGER: #{dang.get('number','')} {dang.get('name','')}</b><br><small>{dang.get('reason','')}</small></div>"""
-            
         if show_value:
             html += f"""<div class="pick-box panel-value"><b>💰 VALUE: #{val.get('number','')} {val.get('name','')}</b><br><small>{val.get('reason','')}</small></div>"""
             
@@ -218,7 +261,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     html += "</div></body></html>"
     return html
 
-# --- AUTO-UPDATE INDEX ---
+# --- AUTO-UPDATE INDEX ON START ---
 update_homepage()
 
 # --- SIDEBAR ---
@@ -226,14 +269,30 @@ st.sidebar.header("⚙️ Settings")
 if "GEMINI_API_KEY" in os.environ: del os.environ["GEMINI_API_KEY"]
 api_key = st.sidebar.text_input("Gemini API Key", type="password")
 
+# --- ADMIN DEPLOY SECTION ---
+st.sidebar.markdown("---")
+st.sidebar.header("🚀 Admin & Diagnostics")
+if st.sidebar.button("🔄 Force Rebuild Index"):
+    update_homepage()
+    st.sidebar.success(f"Index Rebuilt at {datetime.now().strftime('%H:%M:%S')}")
+    # Diagnostics
+    logo_src, logo_path = get_base64_logo()
+    if logo_path:
+        st.sidebar.info(f"✅ Logo found at: {logo_path}")
+    else:
+        st.sidebar.error("❌ Logo NOT found. Please add 'logo.png' to the app folder.")
+
+if st.sidebar.button("🚀 Deploy to Website"):
+    try:
+        subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
+        st.sidebar.success("Deploy script triggered!")
+    except Exception as e:
+        st.sidebar.error(f"Deploy failed: {e}")
+
+st.sidebar.markdown("---")
+
 st.sidebar.subheader("🤖 AI Model")
-model_options = [
-    "gemini-1.5-flash",
-    "gemini-1.5-pro",
-    "gemini-2.0-flash-exp",
-    "gemini-3-pro-preview",
-    "Custom"
-]
+model_options = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash-exp", "gemini-3-pro-preview", "Custom"]
 target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
 if target_model == "Custom":
     target_model = st.sidebar.text_input("Enter Model Name", value="gemini-1.5-pro")
@@ -248,17 +307,14 @@ try:
     with open(os.path.join(DATA_DIR, "track_db.json"), "r") as f: track_db = json.load(f)
 except: pass
 
-st.sidebar.markdown("---")
 country_options = list(track_db.keys()) if track_db else ["USA", "Australia", "International"]
 selected_country = st.sidebar.selectbox("Region", country_options)
 
-# Track Selection with Manual Entry
 selected_track_data = None
 selected_track_name = "Unknown"
 if track_db and selected_country in track_db:
     track_list = list(track_db[selected_country].keys()) + ["Other (Manual Entry)"]
     selected_track_name = st.sidebar.selectbox("Track", track_list)
-    
     if selected_track_name == "Other (Manual Entry)":
         selected_track_name = st.sidebar.text_input("Enter Track Name", value="Unknown Track")
         selected_track_data = None
@@ -274,9 +330,15 @@ if not os.path.exists(os.path.join(LOGIC_DIR, system_file)) and "UK" in region_c
 
 # --- MAIN UI ---
 st.title(f"🏆 Exacta AI: {selected_track_name}")
-
 uploaded_file = st.file_uploader(f"Upload {region_code} PDF", type="pdf")
 scratches = st.text_area("📋 Scratchings / Updates", height=70)
+
+# SESSION STATE INIT
+if 'html_content' not in st.session_state: st.session_state.html_content = None
+if 'preview_html' not in st.session_state: st.session_state.preview_html = None
+if 'report_filename' not in st.session_state: st.session_state.report_filename = None
+if 'raw_response' not in st.session_state: st.session_state.raw_response = ""
+if 'data_ready' not in st.session_state: st.session_state.data_ready = False
 
 if st.button("Analyze Race Card (Preview Only)", type="primary"):
     if not uploaded_file or not api_key:
@@ -284,37 +346,33 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
     else:
         with st.spinner(f"Reading and Analyzing with {target_model}..."):
             try:
-                # 1. SAVE UPLOAD TO TEMP FILE
                 temp_pdf_path = os.path.join(TEMP_DIR, "current_card.pdf")
-                with open(temp_pdf_path, "wb") as f:
-                    f.write(uploaded_file.getbuffer())
+                with open(temp_pdf_path, "wb") as f: f.write(uploaded_file.getbuffer())
 
-                # 2. UPLOAD TO GEMINI (VISION API)
                 remote_file = genai.upload_file(temp_pdf_path, mime_type="application/pdf")
                 while remote_file.state.name == "PROCESSING":
                     time.sleep(1)
                     remote_file = genai.get_file(remote_file.name)
 
-                # 3. LOAD LOGIC
                 logic_path = os.path.join(LOGIC_DIR, system_file)
                 logic_content = open(logic_path, 'r', encoding='utf-8').read() if os.path.exists(logic_path) else ""
-                
-                if selected_track_data:
-                    track_facts = json.dumps(selected_track_data)
-                else:
-                    track_facts = "No historical bias data available. Rely on general handicapping principles."
+                track_facts = json.dumps(selected_track_data) if selected_track_data else "No historical bias data."
 
-                # 4. SEND TO AI
                 model = genai.GenerativeModel(target_model, generation_config={"response_mime_type": "application/json"})
                 
+                # FIXED PROMPT TO STOP RACE 0
                 prompt = f"""
                 You are a Professional Handicapper ({region_code}).
                 
                 [TASK]
-                Analyze the uploaded PDF. Extract structured data for EVERY RACE found.
+                Look at the PDF. Identify EVERY race (Race 1, Race 2...). 
+                Extract the data.
+                
+                [INSTRUCTIONS]
+                - Do NOT output 'Race 0'. Start at Race 1.
+                - If NO danger/value exists, set name to "None".
                 
                 [STRICT OUTPUT SCHEMA]
-                Return JSON with this structure:
                 {{
                   "meta": {{ "track": "Track Name", "date": "YYYY-MM-DD", "track_condition": "Fast/Firm" }},
                   "races": [
@@ -327,18 +385,13 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                         "danger_horse": {{ "number": "2", "name": "Horse Name", "reason": "Reason" }},
                         "value_bet": {{ "number": "3", "name": "Horse Name", "odds": "10-1", "reason": "Reason" }}
                       }},
-                      "exotic_strategy": {{ "exacta": "Box 1,2 or 1 Standout / 2,3,4", "trifecta": "..." }},
+                      "exotic_strategy": {{ "exacta": "Box 1,2", "trifecta": "..." }},
                       "contenders": [
-                        {{ "number": "1", "name": "Horse Name", "rating": 95, "verdict": "Top Pick" }},
-                        {{ "number": "2", "name": "Horse Name", "rating": 90, "verdict": "Danger" }}
+                        {{ "number": "1", "name": "Horse Name", "rating": 95, "verdict": "Top Pick" }}
                       ]
                     }}
                   ]
                 }}
-                
-                [IMPORTANT]
-                - If there is NO clear Danger or Value bet, set the name to "None".
-                - Do NOT force a selection if the data doesn't support it.
                 
                 [TRACK FACTS] {track_facts}
                 [SYSTEM RULES] {logic_content}
@@ -348,7 +401,6 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 response = model.generate_content([prompt, remote_file])
                 st.session_state.raw_response = response.text 
                 
-                # 5. PARSE
                 json_str = clean_json_string(response.text)
                 data = json.loads(json_str)
                 
@@ -359,8 +411,10 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 
                 if not data["meta"].get("date"): data["meta"]["date"] = datetime.today().strftime('%Y-%m-%d')
                 if not data["meta"].get("track_condition"): data["meta"]["track_condition"] = "Standard"
+                
+                if data.get('races') and str(data['races'][0].get('number')) == "0":
+                    st.warning("⚠️ Warning: AI returned 'Race 0'. It may have failed to read the PDF text.")
 
-                # 6. GENERATE PREVIEW
                 html_full = generate_meeting_html(data, region_code, is_preview_mode=False)
                 html_preview = generate_meeting_html(data, region_code, is_preview_mode=True)
                 
@@ -368,7 +422,6 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 safe_track = str(data['meta']['track']).replace(' ', '_')
                 filename = f"{safe_track}_{safe_date}.html"
                 
-                # 7. UPDATE STATE
                 st.session_state.html_content = html_full
                 st.session_state.preview_html = html_preview
                 st.session_state.report_filename = filename
@@ -377,33 +430,32 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
             except Exception as e:
                 st.error(f"Error: {e}")
 
-# --- DISPLAY RESULTS & DEPLOY BUTTON ---
+# --- DISPLAY RESULTS & DEPLOY ---
 if st.session_state.data_ready:
     st.markdown("---")
     st.success("✅ Analysis Complete! Review below.")
     
     col1, col2, col3 = st.columns([1, 1, 3])
-    
     with col1:
-        if st.button("💾 Save & Publish to Website", type="primary"):
+        update_idx = st.checkbox("Auto-Update Index.html", value=True)
+        if st.button("💾 Save & Publish", type="primary"):
             filepath = os.path.join(MEETINGS_DIR, st.session_state.report_filename)
             with open(filepath, "w", encoding='utf-8') as f:
                 f.write(st.session_state.html_content)
             
-            update_homepage()
+            if update_idx:
+                update_homepage()
+                st.success("Index Updated.")
+            else:
+                st.info("File saved. Index NOT updated.")
+                
             try:
                 subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
-                st.success("Published & Deploying!")
-            except:
-                st.success("Saved locally (Deploy script not found).")
+                st.success("Deploy script triggered!")
+            except: pass
             
     with col2:
-        st.download_button(
-            label="⬇️ Download HTML",
-            data=st.session_state.html_content,
-            file_name=st.session_state.report_filename,
-            mime="text/html"
-        )
+        st.download_button("⬇️ Download HTML", st.session_state.html_content, st.session_state.report_filename, "text/html")
     
     st.markdown("### 📝 Live Report Preview")
     components.html(st.session_state.preview_html, height=800, scrolling=True)
