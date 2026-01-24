@@ -37,6 +37,14 @@ def clean_json_string(json_str):
     json_str = re.sub(r'```\s*$', '', json_str)
     return json_str.strip()
 
+def is_valid_pick(pick):
+    """Checks if a pick actually contains a horse name and isn't a placeholder."""
+    if not pick: return False
+    name = str(pick.get('name', '')).strip().lower()
+    # Filter out common AI placeholders
+    invalid_terms = ['none', 'n/a', 'null', 'no danger', 'no threat', 'no value', '', 'tbd']
+    return name and name not in invalid_terms
+
 def update_homepage():
     files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
     grouped_files = {}
@@ -83,7 +91,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
         top_pick = r.get('picks', {}).get('top_pick', {})
-        if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and top_pick.get('name'):
+        if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and is_valid_pick(top_pick):
             best_bets.append({
                 "race": r.get('number'),
                 "horse": f"#{top_pick.get('number')} {top_pick.get('name')}",
@@ -114,7 +122,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     html{{scroll-behavior:smooth}}
     .container{{max-width:1000px;margin:0 auto}}
     
-    /* BRANDED HEADER */
     .header{{display:flex;align-items:center;justify-content:space-between;border-bottom:4px solid #003366;padding-bottom:20px;margin-bottom:20px}}
     .logo{{max-height:80px;margin-right:20px}}
     .header-info h1{{margin:0;font-size:2rem;color:#003366;text-transform:uppercase;font-weight:800}}
@@ -168,7 +175,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         r_num = r.get('number', '?')
         confidence = str(r.get('confidence_level', ''))
         
-        # --- DYNAMIC DISPLAY LOGIC ---
         is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
         
         top = r.get('picks', {}).get('top_pick', {})
@@ -176,13 +182,12 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         top_class = "panel-best" if is_best_bet else "panel-top"
         top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
+        # --- SMART FILTERING ---
         dang = r.get('picks', {}).get('danger_horse', {})
-        dang_name = dang.get('name', '')
-        show_danger = dang_name and str(dang_name).lower() not in ['none', 'n/a', 'null']
+        show_danger = is_valid_pick(dang)
         
         val = r.get('picks', {}).get('value_bet', {})
-        val_name = val.get('name', '')
-        show_value = val_name and str(val_name).lower() not in ['none', 'n/a', 'null']
+        show_value = is_valid_pick(val)
         
         exacta_strat = r.get('exotic_strategy', {}).get('exacta', '')
         exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
@@ -247,18 +252,16 @@ st.sidebar.markdown("---")
 country_options = list(track_db.keys()) if track_db else ["USA", "Australia", "International"]
 selected_country = st.sidebar.selectbox("Region", country_options)
 
+# Track Selection with Manual Entry
 selected_track_data = None
 selected_track_name = "Unknown"
-
-# --- MANUAL TRACK ENTRY LOGIC ---
 if track_db and selected_country in track_db:
-    # Add option for manual entry
     track_list = list(track_db[selected_country].keys()) + ["Other (Manual Entry)"]
     selected_track_name = st.sidebar.selectbox("Track", track_list)
     
     if selected_track_name == "Other (Manual Entry)":
         selected_track_name = st.sidebar.text_input("Enter Track Name", value="Unknown Track")
-        selected_track_data = None # No specific bias data
+        selected_track_data = None
     else:
         selected_track_data = track_db[selected_country][selected_track_name]
 
@@ -296,11 +299,10 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 logic_path = os.path.join(LOGIC_DIR, system_file)
                 logic_content = open(logic_path, 'r', encoding='utf-8').read() if os.path.exists(logic_path) else ""
                 
-                # Handle Manual Entry vs Database Entry
                 if selected_track_data:
                     track_facts = json.dumps(selected_track_data)
                 else:
-                    track_facts = "No historical bias data available. Rely strictly on race card data and general handicapping principles."
+                    track_facts = "No historical bias data available. Rely on general handicapping principles."
 
                 # 4. SEND TO AI
                 model = genai.GenerativeModel(target_model, generation_config={"response_mime_type": "application/json"})
@@ -322,8 +324,8 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                       "confidence_level": "High (or Low/Medium)",
                       "picks": {{
                         "top_pick": {{ "number": "1", "name": "Horse Name", "reason": "Reason" }},
-                        "danger_horse": {{ "number": "2", "name": "Horse Name", "reason": "Reason (or 'None')" }},
-                        "value_bet": {{ "number": "3", "name": "Horse Name", "odds": "10-1", "reason": "Reason (or 'None')" }}
+                        "danger_horse": {{ "number": "2", "name": "Horse Name", "reason": "Reason" }},
+                        "value_bet": {{ "number": "3", "name": "Horse Name", "odds": "10-1", "reason": "Reason" }}
                       }},
                       "exotic_strategy": {{ "exacta": "Box 1,2 or 1 Standout / 2,3,4", "trifecta": "..." }},
                       "contenders": [
@@ -333,6 +335,10 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                     }}
                   ]
                 }}
+                
+                [IMPORTANT]
+                - If there is NO clear Danger or Value bet, set the name to "None".
+                - Do NOT force a selection if the data doesn't support it.
                 
                 [TRACK FACTS] {track_facts}
                 [SYSTEM RULES] {logic_content}
@@ -348,12 +354,13 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 
                 if isinstance(data, list): data = data[0] if data else {}
                 if "meta" not in data: data["meta"] = {}
-                # Update meta with manual name if necessary
-                if selected_track_name != "Unknown": data["meta"]["track"] = selected_track_name
+                if selected_track_name != "Unknown" and "Manual" not in selected_track_name: 
+                    data["meta"]["track"] = selected_track_name
+                
                 if not data["meta"].get("date"): data["meta"]["date"] = datetime.today().strftime('%Y-%m-%d')
                 if not data["meta"].get("track_condition"): data["meta"]["track_condition"] = "Standard"
 
-                # 6. GENERATE PREVIEW (No Write to Disk)
+                # 6. GENERATE PREVIEW
                 html_full = generate_meeting_html(data, region_code, is_preview_mode=False)
                 html_preview = generate_meeting_html(data, region_code, is_preview_mode=True)
                 
@@ -361,7 +368,7 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 safe_track = str(data['meta']['track']).replace(' ', '_')
                 filename = f"{safe_track}_{safe_date}.html"
                 
-                # 7. UPDATE STATE (But Don't Save Yet)
+                # 7. UPDATE STATE
                 st.session_state.html_content = html_full
                 st.session_state.preview_html = html_preview
                 st.session_state.report_filename = filename
@@ -378,7 +385,6 @@ if st.session_state.data_ready:
     col1, col2, col3 = st.columns([1, 1, 3])
     
     with col1:
-        # DEPLOY BUTTON
         if st.button("💾 Save & Publish to Website", type="primary"):
             filepath = os.path.join(MEETINGS_DIR, st.session_state.report_filename)
             with open(filepath, "w", encoding='utf-8') as f:
@@ -402,7 +408,6 @@ if st.session_state.data_ready:
     st.markdown("### 📝 Live Report Preview")
     components.html(st.session_state.preview_html, height=800, scrolling=True)
 
-# --- DEBUG EXPANDER ---
 if st.session_state.raw_response:
     with st.expander("🔍 View Raw AI Response (Debug)"):
         st.text(st.session_state.raw_response)
