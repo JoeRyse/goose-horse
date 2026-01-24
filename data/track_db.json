@@ -1,141 +1,189 @@
 {
-  "USA": {
-    "Saratoga": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Deep, tiring track ('Graveyard of Champions'). Rail is often dead/deep in sprints. Favors Stalkers/Closers more than typical dirt tracks. Inner Turf is tight/speed favoring; Outer Turf is fair.",
-      "tier": "Tier 1 (Elite)"
-    },
-    "Del Mar": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Short stretch (919 ft). Inside posts (1-3) dominant in routes. Speed/Pressers favored on dirt. Turf is narrow and firm.",
-      "tier": "Tier 1 (Elite Summer)"
-    },
-    "Gulfstream Park": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf/Tapeta",
-      "bias_notes": "THE SPEED TRACK. 6F sprints are Wire-to-Wire dominated. Golden Rail is common. One-turn mile plays like a sprint. Turf turns are extremely tight (The Parking Lot) - wide trips are death.",
-      "tier": "Tier 1 (Winter) / Tier 2 (Summer)"
-    },
-    "Santa Anita": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Speed favoring dirt, but turns to Closer/Stalker bias on wet/sealed tracks (Dead Rail inversion). Hillside Turf (6.5F) favors Closers; Flat Turf is fair.",
-      "tier": "Tier 1 (Premier West)"
-    },
-    "Keeneland": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Short stretch (1/16th pole finish). Fair dirt track but inside speed holds in routes. Turf is wide and sweeping - excellent for Closers. Wesley Ward 2YOs dominate April sprints.",
-      "tier": "Tier 1 (Boutique)"
-    },
-    "Churchill Downs": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Cuppy surface (breaks away). Horse-for-Course is critical. One-turn mile favors speed/cutbacks. Turf trending toward speed.",
-      "tier": "Tier 1 (Major)"
-    },
-    "Aqueduct": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Winter Inner Track (Legacy/Main): Dead Rail is common Jan-Mar; Outside flow is better. Sprints favor outside pressers. Inner Turf tight; Outer Turf fair.",
-      "tier": "Tier 2 (Winter) / Tier 1.5 (Spring)"
-    },
-    "Belmont Park": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Big Sandy. Massive 1.5m oval. Sweeping turns allow Closers to maintain momentum. One-turn routes favor outside flow. Fairest turf in America.",
-      "tier": "Tier 1 (Elite)"
-    },
-    "Tampa Bay Downs": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt/Turf",
-      "bias_notes": "Dirt is sandy/cuppy. Rail can be dead. Turf course is gritty and rewards stamina.",
-      "tier": "Tier 2"
-    },
-    "Oaklawn Park": {
-      "direction": "Counter-Clockwise",
-      "surface": "Dirt",
-      "bias_notes": "Short stretch. Speed favoring but often has a 'Golden Rail' path in the slop.",
-      "tier": "Tier 1 (Winter)"
-    }
-  },
   "Australia": {
     "Flemington": {
-      "direction": "Counter-Clockwise (Left)",
-      "surface": "Turf",
-      "bias_notes": "Long 1200m straight (The Straight Six). Wide tracks often favored. Swoopers paradise on the circle.",
-      "tier": "Premier"
+      "direction": "Counter-Clockwise",
+      "surface": "Turf (StrathAyr)",
+      "bias_notes": "Tier 1 (HQ). Straight Six (1200m) is wind dependent. 1400m/1600m very fair. 2500m is the 'Graveyard of Champions'. Wide track allows swoopers. Barrier Impact: Low (3/10).",
+      "tier": "Tier 1 (Metro)"
     },
     "Randwick": {
-      "direction": "Clockwise (Right)",
-      "surface": "Turf",
-      "bias_notes": "Fair track but 'The Rise' in the straight tests stamina. Can favor leaders when rail is out 6m+.",
-      "tier": "Premier"
-    },
-    "Rosehill": {
-      "direction": "Clockwise (Right)",
-      "surface": "Turf",
-      "bias_notes": "Tight turns. Leaders/On-pace runners historically favored. Hard to make ground from back.",
-      "tier": "Premier"
+      "direction": "Clockwise",
+      "surface": "Turf (Kikuyu)",
+      "bias_notes": "Tier 1 (HQ). Features 'The Rise' in straight testing stamina. Heavy tracks shift bias to extreme outside rail. 1600m start disadvantages outside barriers. Barrier Impact: Moderate (6/10).",
+      "tier": "Tier 1 (Metro)"
     },
     "Moonee Valley": {
-      "direction": "Counter-Clockwise (Left)",
-      "surface": "Turf",
-      "bias_notes": "The 'Saucer'. Extremely tight turns. Short straight (173m). Leader bias is huge.",
-      "tier": "Major"
+      "direction": "Counter-Clockwise",
+      "surface": "Turf (StrathAyr)",
+      "bias_notes": "Tier 1. Tightest metro track. 173m straight. CRITICAL LEADER BIAS. Barriers 1-3 are gold; Wide barriers are a graveyard. Races won from 600m mark. Barrier Impact: Critical (9/10).",
+      "tier": "Tier 1 (Metro)"
     },
     "Caulfield": {
-      "direction": "Counter-Clockwise (Left)",
+      "direction": "Counter-Clockwise",
       "surface": "Turf",
-      "bias_notes": "Tight turns but long-ish straight. Can be leaderish if rail is true.",
-      "tier": "Premier"
+      "bias_notes": "Tier 1. Sharp turns, triangular shape. On-Pace bias. 1400m 'dog-leg' start favors inside significantly. Momentum runners (3-wide with cover) can swoop late. Barrier Impact: High (7/10).",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Rosehill": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1. Premier 'On-Pace' track. Hard to make ground from back despite 408m straight. Specialists thrive here. Golden Slipper 1200m favors middle gates (4-8).",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Eagle Farm": {
+      "direction": "Clockwise",
+      "surface": "Turf (Couch)",
+      "bias_notes": "Tier 1. 'Randwick of the North'. Spacious and fair. Drains rapidly. Bias favors runners getting off the fence (3-4 lanes) in straight. Form transfer from Doomben is strong.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Doomben": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1. Tight, saucer-shaped. Leader/On-Pace critical. 1350m start makes wide draw a killer. Barrier Impact: Critical (8/10).",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Ascot": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1 (WA). 294m uphill straight tests stamina. 'Fremantle Doctor' tailwind aids leaders in summer. Leaders who kick on the bend are hard to run down.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Sandown": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1. Hillside: Galloper's track, uphill finish, favors stayers. Lakeside: Tighter, prone to on-pace bias if rail is out.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Canterbury": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1. EXTREME LEADER BIAS. 'Jump and Run' tactics essential. Banked turns slingshot leaders. Barrier Impact: Extreme (9.5/10).",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Warwick Farm": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1. Triangular shape. Leader biased. Sharp home turn punishes horses hung wide. Local trained horses (Baker) often have advantage.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Belmont": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1 (Winter). Handles wet well. Fairer than Ascot; flat straight allows swoopers.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Morphettville": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 1 (SA). Course Proper: Very fair, wide turns. The Parks: Tighter, favors on-pace. Adelaide class often lags Melbourne by 2-3 lengths.",
+      "tier": "Tier 1 (Metro)"
+    },
+    "Gold Coast": {
+      "direction": "Clockwise",
+      "surface": "Turf / Polytrack",
+      "bias_notes": "Tier 2. Tight, turning track. Polytrack is consistent/on-pace. Turf favors inside draws (8/10 impact).",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Sunshine Coast": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Big sweeping bends. One of the few QLD tracks where you can win from last.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Newcastle": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Huge, spacious. 415m uphill straight. Fair. Form translates to Randwick.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Gosford": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Tight, rectangular. Leaders track. Short straight. Barrier Impact: High (8/10).",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Kembla Grange": {
+      "direction": "Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Sister track to Randwick (identical dimensions). Long straight suits big horses. Watch for cross-wind bias.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Geelong": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Premier provincial. Key Spring Carnival lead-up. Very fair drainage.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Mornington": {
+      "direction": "Counter-Clockwise",
+      "surface": "Turf",
+      "bias_notes": "Tier 2. Distinctive 'dip' and uphill run before turn. Very short straight (210m). Specialists thrive. Leader bias common.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Toowoomba": {
+      "direction": "Clockwise",
+      "surface": "Turf (StrathAyr)",
+      "bias_notes": "Tier 2. High altitude. The 'Clifford Park Climb' uphill finish is severe. Specialists dominate.",
+      "tier": "Tier 2 (Provincial)"
+    },
+    "Fannie Bay": {
+      "direction": "Counter-Clockwise",
+      "surface": "Oil-Based Sand (Dirt)",
+      "bias_notes": "Tier 2 (Darwin). UNIQUE. Severe kickback. Leaders/On-Pace only. If not in first 4 at turn, you lose. Must handle heat/dirt.",
+      "tier": "Tier 2 (Provincial)"
+    }
+  },
+  "USA": {
+    "Gulfstream Park": {
+        "direction": "Counter-Clockwise",
+        "surface": "Dirt/Turf/Tapeta",
+        "bias_notes": "THE SPEED TRACK. 6F sprints are Wire-to-Wire dominated. Golden Rail is common. One-turn mile plays like a sprint. Turf turns are extremely tight.",
+        "tier": "Tier 1"
+    },
+    "Saratoga": {
+        "direction": "Counter-Clockwise",
+        "surface": "Dirt/Turf",
+        "bias_notes": "Graveyard of Champions. Deep, tiring track. Rail often dead. Favors Stalkers/Closers.",
+        "tier": "Tier 1"
+    },
+    "Del Mar": {
+        "direction": "Counter-Clockwise",
+        "surface": "Dirt/Turf",
+        "bias_notes": "Short stretch. Speed/Pressers favored on dirt. Turf is narrow and firm.",
+        "tier": "Tier 1"
+    },
+    "Santa Anita": {
+        "direction": "Counter-Clockwise",
+        "surface": "Dirt/Turf",
+        "bias_notes": "Speed favoring dirt, but turns to Closer/Stalker bias on wet/sealed tracks (Dead Rail inversion). Hillside Turf favors Closers.",
+        "tier": "Tier 1"
     }
   },
   "UK": {
     "Ascot": {
-      "direction": "Clockwise (Right)",
+      "direction": "Clockwise",
       "surface": "Turf",
-      "bias_notes": "Stiff uphill finish. Stamina is key. High numbers are often drawn wide on the straight course.",
+      "bias_notes": "Stiff uphill finish. Stamina is key. High numbers often drawn wide on straight course.",
       "tier": "Premier"
     },
     "Newmarket": {
-      "direction": "Clockwise (Right)",
+      "direction": "Clockwise",
       "surface": "Turf",
-      "bias_notes": "The Rowley Mile has a 'Dip' before the finish that unbalances horses. Experience helps.",
-      "tier": "Premier"
-    },
-    "York": {
-      "direction": "Counter-Clockwise (Left)",
-      "surface": "Turf",
-      "bias_notes": "The 'Knavesmire'. Flat, wide, fair galloping track. Speed holds well.",
+      "bias_notes": "Rowley Mile has a 'Dip' before finish. Experience helps.",
       "tier": "Premier"
     }
   },
   "Japan": {
     "Tokyo": {
-      "direction": "Counter-Clockwise (Left)",
+      "direction": "Counter-Clockwise",
       "surface": "Turf/Dirt",
-      "bias_notes": "Massive sweeping turns and a long uphill straight. Closers paradise.",
+      "bias_notes": "Massive sweeping turns and long uphill straight. Closers paradise.",
       "tier": "Premier"
     },
     "Nakayama": {
-      "direction": "Clockwise (Right)",
+      "direction": "Clockwise",
       "surface": "Turf/Dirt",
-      "bias_notes": "Tight turns, short straight with a steep hill. Positional speed is critical.",
-      "tier": "Premier"
-    },
-    "Kyoto": {
-      "direction": "Clockwise (Right)",
-      "surface": "Turf/Dirt",
-      "bias_notes": "Flat and fast. The 'descent' into the straight helps momentum runners.",
-      "tier": "Premier"
-    },
-    "Hanshin": {
-      "direction": "Clockwise (Right)",
-      "surface": "Turf/Dirt",
-      "bias_notes": "Similar to Nakayama but wider. Power course.",
+      "bias_notes": "Tight turns, short straight with steep hill. Positional speed is critical.",
       "tier": "Premier"
     }
   }
