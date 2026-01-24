@@ -78,7 +78,28 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
     track_cond = data.get('meta', {}).get('track_condition', 'Standard')
     
-    # --- NAVIGATION LOGIC ---
+    # --- FIND BEST BETS OF THE DAY ---
+    # We look for races with "High" confidence or "5 Stars"
+    best_bets = []
+    for r in data.get('races', []):
+        conf = str(r.get('confidence_level', ''))
+        top_pick = r.get('picks', {}).get('top_pick', {})
+        if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and top_pick.get('name'):
+            best_bets.append({
+                "race": r.get('number'),
+                "horse": f"#{top_pick.get('number')} {top_pick.get('name')}",
+                "reason": top_pick.get('reason', '')[:100] + "..."
+            })
+    
+    best_bets_html = ""
+    if best_bets:
+        best_bets_html = '<div style="background:#fffbeb; border:2px solid #fbbf24; padding:20px; margin-bottom:30px; border-radius:8px;">'
+        best_bets_html += '<h2 style="margin-top:0; color:#b45309;">🔥 PRIME BETS OF THE DAY</h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px;">'
+        for bb in best_bets[:3]: # Top 3 only
+            best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">Race {bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
+        best_bets_html += '</div></div>'
+
+    # --- NAVIGATION ---
     nav_links = ""
     if not is_preview_mode:
         for r in data.get('races', []):
@@ -96,58 +117,76 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     .race-header{{background:#fff;border-bottom:3px solid #ff6b00;padding:12px 20px;display:flex;justify-content:space-between;font-weight:800;color:#003366;font-size:20px}}
     .nav-btn{{background:#fff;border:1px solid #003366;color:#003366;padding:5px 10px;text-decoration:none;margin-right:5px;border-radius:4px;font-weight:700}}
     .nav-btn:hover{{background:#003366;color:#fff}}
-    .picks-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:15px;background:#f8fafc;border-bottom:1px solid #e2e8f0}}
+    .picks-grid{{display:flex; gap:10px; padding:15px; background:#f8fafc; border-bottom:1px solid #e2e8f0; flex-wrap:wrap;}}
+    .pick-box{{flex:1; min-width:200px; background:#fff; padding:10px; border:1px solid #e2e8f0; border-top:4px solid #94a3b8}}
     
-    /* DYNAMIC PANELS */
-    .pick-box{{background:#fff;padding:10px;border:1px solid #e2e8f0;border-top:4px solid #94a3b8}}
-    .panel-best{{border-top-color:#fbbf24; background-color:#fffbeb}} /* Gold for Best Bet */
-    .panel-top{{border-top-color:#3b82f6}} /* Blue for Top Pick */
-    .panel-danger{{border-top-color:#d97706}} /* Orange */
-    .panel-value{{border-top-color:#10b981}} /* Green */
+    .panel-best{{border-top-color:#fbbf24; background-color:#fffbeb}}
+    .panel-top{{border-top-color:#3b82f6}}
+    .panel-danger{{border-top-color:#d97706}}
+    .panel-value{{border-top-color:#10b981}}
+    
+    .exacta-box{{margin-top:10px; padding:10px; background:#f1f5f9; border-left:4px solid #64748b;}}
+    .exacta-gold{{background:#fffbeb; border-left-color:#fbbf24;}}
     
     table{{width:100%;border-collapse:collapse;margin-top:10px}} th{{background:#f1f5f9;text-align:left;padding:8px}} td{{padding:8px;border-bottom:1px solid #eee}}
     .row-top{{background:#f0f9ff;font-weight:700}}
     </style></head><body>
     <div style="max-width:1000px;margin:0 auto">
     <div class="header"><h1>{track_name}</h1><div>{track_date} • {track_cond}</div></div>
+    
+    {best_bets_html}
+    
     <div style="margin-bottom:20px"><b>RACES:</b> {nav_links}</div>"""
 
     for r in data.get('races', []):
         r_num = r.get('number', '?')
-        confidence = r.get('confidence_level', '')
+        confidence = str(r.get('confidence_level', ''))
         
-        # --- DYNAMIC LABEL LOGIC ---
-        is_best_bet = "5" in confidence or "High" in confidence or "Strong" in confidence
+        # --- DYNAMIC DISPLAY LOGIC ---
+        is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
         
-        if is_best_bet:
-            top_label = "🔥 BEST BET"
-            top_class = "panel-best"
-        else:
-            top_label = "🏁 TOP PICK"
-            top_class = "panel-top"
-
-        # Picks Data
+        # Top Pick (Always Show)
         top = r.get('picks', {}).get('top_pick', {})
-        dang = r.get('picks', {}).get('danger_horse', {})
-        val = r.get('picks', {}).get('value_bet', {})
-        
         top_name = top.get('name', 'N/A')
-        top_reason = top.get('reason', 'No analysis')
+        top_class = "panel-best" if is_best_bet else "panel-top"
+        top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
+        # Danger (Hide if empty or None)
+        dang = r.get('picks', {}).get('danger_horse', {})
+        dang_name = dang.get('name', '')
+        show_danger = dang_name and str(dang_name).lower() not in ['none', 'n/a', 'null']
+        
+        # Value (Hide if empty or None)
+        val = r.get('picks', {}).get('value_bet', {})
+        val_name = val.get('name', '')
+        show_value = val_name and str(val_name).lower() not in ['none', 'n/a', 'null']
+        
+        # Exacta Styling
+        exacta_strat = r.get('exotic_strategy', {}).get('exacta', '')
+        exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
+
         html += f"""<div id="race-{r_num}" class="race-section">
         <div class="race-header"><div>RACE {r_num} - {r.get('distance','')}</div><div>{confidence}</div></div>
         <div class="picks-grid">
-            <div class="pick-box {top_class}"><b>{top_label}: #{top.get('number','')} {top_name}</b><br><small>{top_reason}</small></div>
-            <div class="pick-box panel-danger"><b>⚠️ DANGER: #{dang.get('number','')} {dang.get('name','')}</b><br><small>{dang.get('reason','')}</small></div>
-            <div class="pick-box panel-value"><b>💰 VALUE: #{val.get('number','')} {val.get('name','')}</b><br><small>{val.get('reason','')}</small></div>
-        </div>
+            <div class="pick-box {top_class}"><b>{top_label}: #{top.get('number','')} {top_name}</b><br><small>{top.get('reason','')}</small></div>"""
+            
+        if show_danger:
+            html += f"""<div class="pick-box panel-danger"><b>⚠️ DANGER: #{dang.get('number','')} {dang.get('name','')}</b><br><small>{dang.get('reason','')}</small></div>"""
+            
+        if show_value:
+            html += f"""<div class="pick-box panel-value"><b>💰 VALUE: #{val.get('number','')} {val.get('name','')}</b><br><small>{val.get('reason','')}</small></div>"""
+            
+        html += f"""</div>
         <div style="padding:15px"><table><thead><tr><th>#</th><th>Horse</th><th>Rating</th><th>Verdict</th></tr></thead><tbody>"""
         
         for c in r.get('contenders', [])[:6]:
             style = ' class="row-top"' if str(c.get('number')) == str(top.get('number')) else ''
             html += f"<tr{style}><td>{c.get('number')}</td><td>{c.get('name')}</td><td>{c.get('rating')}</td><td>{c.get('verdict')}</td></tr>"
             
-        html += f"""</tbody></table><div style="margin-top:10px;padding:10px;background:#f8fafc"><b>STRATEGY:</b> {r.get('exotic_strategy',{}).get('exacta','')}</div></div></div>"""
+        if len(exacta_strat) > 3:
+            html += f"""</tbody></table><div class="{exacta_class}"><b>EXACTA STRATEGY:</b> {exacta_strat}</div></div></div>"""
+        else:
+            html += "</tbody></table></div></div>"
     
     html += "</div></body></html>"
     return html
@@ -244,13 +283,13 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                     {{
                       "number": 1,
                       "distance": "6 Furlongs",
-                      "confidence_level": "High",
+                      "confidence_level": "High (or Low/Medium)",
                       "picks": {{
                         "top_pick": {{ "number": "1", "name": "Horse Name", "reason": "Reason" }},
-                        "danger_horse": {{ "number": "2", "name": "Horse Name", "reason": "Reason" }},
-                        "value_bet": {{ "number": "3", "name": "Horse Name", "odds": "10-1", "reason": "Reason" }}
+                        "danger_horse": {{ "number": "2", "name": "Horse Name", "reason": "Reason (or 'None')" }},
+                        "value_bet": {{ "number": "3", "name": "Horse Name", "odds": "10-1", "reason": "Reason (or 'None')" }}
                       }},
-                      "exotic_strategy": {{ "exacta": "1-2", "trifecta": "1-2-3" }},
+                      "exotic_strategy": {{ "exacta": "Box 1,2 or 1 Standout / 2,3,4", "trifecta": "..." }},
                       "contenders": [
                         {{ "number": "1", "name": "Horse Name", "rating": 95, "verdict": "Top Pick" }},
                         {{ "number": "2", "name": "Horse Name", "rating": 90, "verdict": "Danger" }}
