@@ -79,7 +79,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     track_cond = data.get('meta', {}).get('track_condition', 'Standard')
     
     # --- FIND BEST BETS OF THE DAY ---
-    # We look for races with "High" confidence or "5 Stars"
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
@@ -94,8 +93,8 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     best_bets_html = ""
     if best_bets:
         best_bets_html = '<div style="background:#fffbeb; border:2px solid #fbbf24; padding:20px; margin-bottom:30px; border-radius:8px;">'
-        best_bets_html += '<h2 style="margin-top:0; color:#b45309;">🔥 PRIME BETS OF THE DAY</h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px;">'
-        for bb in best_bets[:3]: # Top 3 only
+        best_bets_html += '<h2 style="margin-top:0; color:#b45309; font-size:1.2rem;">🔥 PRIME BETS OF THE DAY</h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px;">'
+        for bb in best_bets[:3]:
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">Race {bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
         best_bets_html += '</div></div>'
 
@@ -111,32 +110,59 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             nav_links += f'<span class="nav-btn" style="cursor:default; opacity:0.7">R{r_num}</span>'
 
     html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
-    <style>body{{font-family:'Segoe UI',sans-serif;background:#fff;color:#0f172a;padding:30px}}
-    .header{{border-bottom:4px solid #003366;padding-bottom:20px;margin-bottom:20px}}
-    .race-section{{margin-bottom:40px;border:1px solid #e2e8f0;background:#fff}}
-    .race-header{{background:#fff;border-bottom:3px solid #ff6b00;padding:12px 20px;display:flex;justify-content:space-between;font-weight:800;color:#003366;font-size:20px}}
+    <style>body{{font-family:'Segoe UI',sans-serif;font-size:12px;color:#0f172a;margin:0;padding:30px;background:#fff}}
+    html{{scroll-behavior:smooth}}
+    .container{{max-width:1000px;margin:0 auto}}
+    
+    /* BRANDED HEADER */
+    .header{{display:flex;align-items:center;justify-content:space-between;border-bottom:4px solid #003366;padding-bottom:20px;margin-bottom:20px}}
+    .logo{{max-height:80px;margin-right:20px}}
+    .header-info h1{{margin:0;font-size:2rem;color:#003366;text-transform:uppercase;font-weight:800}}
+    .meta{{color:#64748b;font-weight:600;margin-top:5px;font-size:1rem}}
+    
+    .print-btn{{background:#fff;border:1px solid #003366;color:#003366;padding:8px 15px;cursor:pointer;font-weight:700;border-radius:4px;transition:0.2s}}
+    .print-btn:hover{{background:#003366;color:#fff}}
+    
+    .race-section{{margin-bottom:30px;border:1px solid #e2e8f0;background:#fff;page-break-inside:avoid}}
+    .race-header{{background:#fff;border-bottom:3px solid #ff6b00;padding:12px 20px;display:flex;justify-content:space-between;font-weight:800;color:#003366;font-size:1.1rem}}
+    
     .nav-btn{{background:#fff;border:1px solid #003366;color:#003366;padding:5px 10px;text-decoration:none;margin-right:5px;border-radius:4px;font-weight:700}}
     .nav-btn:hover{{background:#003366;color:#fff}}
-    .picks-grid{{display:flex; gap:10px; padding:15px; background:#f8fafc; border-bottom:1px solid #e2e8f0; flex-wrap:wrap;}}
-    .pick-box{{flex:1; min-width:200px; background:#fff; padding:10px; border:1px solid #e2e8f0; border-top:4px solid #94a3b8}}
     
-    .panel-best{{border-top-color:#fbbf24; background-color:#fffbeb}}
+    .picks-grid{{display:flex;gap:10px;padding:15px;background:#f8fafc;border-bottom:1px solid #e2e8f0;flex-wrap:wrap}}
+    .pick-box{{flex:1;min-width:200px;background:#fff;padding:10px;border:1px solid #e2e8f0;border-top:4px solid #94a3b8}}
+    
+    .panel-best{{border-top-color:#fbbf24;background-color:#fffbeb}}
     .panel-top{{border-top-color:#3b82f6}}
     .panel-danger{{border-top-color:#d97706}}
     .panel-value{{border-top-color:#10b981}}
     
-    .exacta-box{{margin-top:10px; padding:10px; background:#f1f5f9; border-left:4px solid #64748b;}}
-    .exacta-gold{{background:#fffbeb; border-left-color:#fbbf24;}}
+    .exacta-box{{margin-top:10px;padding:10px;background:#f1f5f9;border-left:4px solid #64748b}}
+    .exacta-gold{{background:#fffbeb;border-left-color:#fbbf24}}
     
     table{{width:100%;border-collapse:collapse;margin-top:10px}} th{{background:#f1f5f9;text-align:left;padding:8px}} td{{padding:8px;border-bottom:1px solid #eee}}
     .row-top{{background:#f0f9ff;font-weight:700}}
+    
+    @media print {{ .nav-btn, .print-btn, .header-tools {{ display: none; }} body {{ padding: 0; }} }}
     </style></head><body>
-    <div style="max-width:1000px;margin:0 auto">
-    <div class="header"><h1>{track_name}</h1><div>{track_date} • {track_cond}</div></div>
+    <div class="container">
+    
+    <div class="header">
+        <div style="display:flex;align-items:center">
+            <img src="../logo.png" class="logo" alt="Exacta AI" onerror="this.style.display='none'">
+            <div class="header-info">
+                <h1>{track_name}</h1>
+                <div class="meta">{track_date} • {track_cond}</div>
+            </div>
+        </div>
+        <div class="header-tools">
+            <button onclick="window.print()" class="print-btn">🖨️ PRINT CARD</button>
+        </div>
+    </div>
     
     {best_bets_html}
     
-    <div style="margin-bottom:20px"><b>RACES:</b> {nav_links}</div>"""
+    <div style="margin-bottom:20px" class="header-tools"><b>JUMP TO:</b> {nav_links}</div>"""
 
     for r in data.get('races', []):
         r_num = r.get('number', '?')
@@ -145,23 +171,19 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         # --- DYNAMIC DISPLAY LOGIC ---
         is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
         
-        # Top Pick (Always Show)
         top = r.get('picks', {}).get('top_pick', {})
         top_name = top.get('name', 'N/A')
         top_class = "panel-best" if is_best_bet else "panel-top"
         top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
-        # Danger (Hide if empty or None)
         dang = r.get('picks', {}).get('danger_horse', {})
         dang_name = dang.get('name', '')
         show_danger = dang_name and str(dang_name).lower() not in ['none', 'n/a', 'null']
         
-        # Value (Hide if empty or None)
         val = r.get('picks', {}).get('value_bet', {})
         val_name = val.get('name', '')
         show_value = val_name and str(val_name).lower() not in ['none', 'n/a', 'null']
         
-        # Exacta Styling
         exacta_strat = r.get('exotic_strategy', {}).get('exacta', '')
         exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
 
@@ -227,9 +249,18 @@ selected_country = st.sidebar.selectbox("Region", country_options)
 
 selected_track_data = None
 selected_track_name = "Unknown"
+
+# --- MANUAL TRACK ENTRY LOGIC ---
 if track_db and selected_country in track_db:
-    selected_track_name = st.sidebar.selectbox("Track", list(track_db[selected_country].keys()))
-    selected_track_data = track_db[selected_country][selected_track_name]
+    # Add option for manual entry
+    track_list = list(track_db[selected_country].keys()) + ["Other (Manual Entry)"]
+    selected_track_name = st.sidebar.selectbox("Track", track_list)
+    
+    if selected_track_name == "Other (Manual Entry)":
+        selected_track_name = st.sidebar.text_input("Enter Track Name", value="Unknown Track")
+        selected_track_data = None # No specific bias data
+    else:
+        selected_track_data = track_db[selected_country][selected_track_name]
 
 # Logic Mapping
 if "USA" in selected_country: region_code, system_file = "USA", "system_usa.md"
@@ -264,7 +295,12 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 # 3. LOAD LOGIC
                 logic_path = os.path.join(LOGIC_DIR, system_file)
                 logic_content = open(logic_path, 'r', encoding='utf-8').read() if os.path.exists(logic_path) else ""
-                track_facts = json.dumps(selected_track_data) if selected_track_data else ""
+                
+                # Handle Manual Entry vs Database Entry
+                if selected_track_data:
+                    track_facts = json.dumps(selected_track_data)
+                else:
+                    track_facts = "No historical bias data available. Rely strictly on race card data and general handicapping principles."
 
                 # 4. SEND TO AI
                 model = genai.GenerativeModel(target_model, generation_config={"response_mime_type": "application/json"})
@@ -312,7 +348,8 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 
                 if isinstance(data, list): data = data[0] if data else {}
                 if "meta" not in data: data["meta"] = {}
-                if not data["meta"].get("track"): data["meta"]["track"] = selected_track_name
+                # Update meta with manual name if necessary
+                if selected_track_name != "Unknown": data["meta"]["track"] = selected_track_name
                 if not data["meta"].get("date"): data["meta"]["date"] = datetime.today().strftime('%Y-%m-%d')
                 if not data["meta"].get("track_condition"): data["meta"]["track_condition"] = "Standard"
 
