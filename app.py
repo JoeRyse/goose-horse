@@ -104,25 +104,21 @@ def update_homepage():
     html += "</div></body></html>"
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
 
-# --- CLEAN CSS ---
+# --- CLEAN CSS (NO SIDEBAR, CENTERED, ROBUST HEADER) ---
 CLEAN_CSS = """
     body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; }
     * { box-sizing: border-box; }
     
-    /* HIDE OLD CRUFT */
-    .sidebar, .sidebar-title, .sidebar-links, .mobile-nav { display: none !important; }
+    /* HIDE SIDEBAR & HOME BUTTONS COMPLETELY */
+    .sidebar, .sidebar-title, .sidebar-links, .side-link, .mobile-nav, .back-home, .top-nav { display: none !important; }
     
-    /* MAIN LAYOUT */
-    .main-content { margin: 0 auto; padding: 20px; max-width: 900px; }
+    /* MAIN LAYOUT - CENTERED */
+    .main-content { margin: 0 auto; padding: 20px; max-width: 1000px; }
     
-    /* TOP NAV */
-    .top-nav { background: #003366; color: white; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
-    .back-link { color: white; text-decoration: none; font-weight: 700; font-size: 0.9rem; }
-    .back-link:hover { text-decoration: underline; }
-    
-    /* HEADER */
-    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 20px; }
-    .logo { max-height: 50px; margin-right: 15px; }
+    /* HEADER - ROBUST LAYOUT */
+    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }
+    .header-branding { display: flex; align-items: center; flex: 1; } 
+    .logo { max-height: 50px; margin-right: 15px; width: auto; }
     .header-info h1 { margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }
     .meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
     
@@ -150,6 +146,7 @@ CLEAN_CSS = """
     .exacta-box { margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }
     .exacta-gold { background: #fffbeb; border-left-color: #fbbf24; }
 
+    /* RESPONSIVE */
     @media (max-width: 768px) {
         .main-content { padding: 10px; }
         .header { flex-direction: column; text-align: center; gap: 10px; padding: 15px; }
@@ -159,8 +156,9 @@ CLEAN_CSS = """
         .race-header { flex-direction: column; gap: 5px; align-items: flex-start; }
     }
     
+    /* PRINT OPTIMIZATION (STRICT) */
     @media print { 
-        .print-btn, .nav-bar, .mobile-nav, .top-nav { display: none !important; } 
+        .print-btn, .nav-bar, .mobile-nav, .back-home, .top-nav { display: none !important; } 
         .main-content { margin: 0 !important; padding: 0 !important; max-width: 100% !important; }
         body { background: white !important; font-size: 11pt; }
         .header { box-shadow: none; border: none; border-bottom: 2px solid #000; padding: 0; margin-bottom: 10px; margin-top: 0; }
@@ -172,7 +170,7 @@ CLEAN_CSS = """
 """
 
 def generate_meeting_html(data, region_override, is_preview_mode=False):
-    """Generates CLEAN HTML with NO SIDEBAR."""
+    """Generates CLEAN HTML with NO SIDEBAR & NO HOME BUTTON. Handles legacy pick structure."""
     country = data.get('meta', {}).get('jurisdiction', region_override)
     track_name = data.get('meta', {}).get('track', 'Unknown Track')
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
@@ -181,11 +179,22 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     logo_src, _ = get_base64_logo()
     logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
 
-    # BEST BETS LOGIC
+    # BEST BETS LOGIC (ROBUST VERSION)
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
+        
+        # ----------------------------------------------------
+        # DATA NORMALIZATION: HANDLE 'SELECTIONS' VS 'PICKS'
+        # ----------------------------------------------------
         selections = r.get('selections', [])
+        if not selections and 'picks' in r:
+            # Fallback for old JSON format
+            p = r['picks']
+            selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
+            # Clean up empty dicts
+            selections = [s for s in selections if s and s.get('name')]
+
         if selections:
             top_pick = selections[0]
             if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and is_valid_pick(top_pick):
@@ -217,14 +226,9 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>{CLEAN_CSS}</style></head><body>
     
-    <div class="top-nav">
-        <a href="../index.html" class="back-link">⬅ DASHBOARD</a>
-        <span style="opacity:0.7; font-size:0.8em">EXACTA AI</span>
-    </div>
-
     <div class="main-content">
         <div class="header">
-            <div style="display:flex;align-items:center">
+            <div class="header-branding">
                 {logo_html}
                 <div class="header-info">
                     <h1>{track_name}</h1>
@@ -251,7 +255,15 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         
         is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
         
+        # ----------------------------------------------------
+        # DATA NORMALIZATION (AGAIN, PER RACE LOOP)
+        # ----------------------------------------------------
         selections = r.get('selections', [])
+        if not selections and 'picks' in r:
+            p = r['picks']
+            selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
+            selections = [s for s in selections if s and s.get('name')]
+
         top = selections[0] if len(selections) > 0 else {}
         
         top_name = top.get('name', 'N/A')
@@ -262,6 +274,8 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         show_danger = is_valid_pick(dang)
         
         exacta_strat = r.get('exotic_strategy', {}).get('strategy', '')
+        if not exacta_strat: exacta_strat = r.get('exotic_strategy', {}).get('exacta', '') # Fallback
+        
         exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
 
         html += f"""<div id="race-{r_num}" class="race-section">
@@ -311,13 +325,10 @@ if st.sidebar.button("🔄 Sync Nav & Deploy"):
         st.sidebar.success("Deploying...")
     except: st.sidebar.error("Deploy script missing.")
 
-# --- AGGRESSIVE FIXER ---
+# --- AGGRESSIVE FIXER (UPDATED FOR HEADER PROTECTION) ---
 if st.sidebar.button("🛠️ Fix Legacy Layouts"):
     count = 0
-    logo_src, _ = get_base64_logo()
-    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
-    
-    with st.spinner("Scrubbing text clutter from old files..."):
+    with st.spinner("Removing Home buttons and Sidebars, protecting Headers..."):
         for f in os.listdir(MEETINGS_DIR):
             if f.endswith(".html"):
                 fp = os.path.join(MEETINGS_DIR, f)
@@ -325,63 +336,29 @@ if st.sidebar.button("🛠️ Fix Legacy Layouts"):
                     with open(fp, "r", encoding="utf-8") as file:
                         content = file.read()
                     
-                    # Extract track name from <title> or filename
-                    title_match = re.search(r'<title>(.*?)</title>', content)
-                    track_name = title_match.group(1) if title_match else f.replace(".html", "").replace("_", " ")
-                    
-                    # Try to extract date from filename
-                    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', f)
-                    track_date = date_match.group(1) if date_match else ""
-                    
-                    # 1. REMOVE OLD SIDEBAR DIV
+                    # 1. REMOVE OLD SIDEBAR
                     content = re.sub(r'<div class="sidebar">.*?</div>', '', content, flags=re.DOTALL)
                     
                     # 2. REMOVE "RACE MEETINGS" TEXT DUMP
                     content = re.sub(r'RACE MEETINGS.*?2026\)', '', content, flags=re.DOTALL)
                     
-                    # 3. REMOVE OLD MOBILE NAV
-                    content = re.sub(r'<a href=.*?class="mobile-nav".*?>.*?</a>', '', content, flags=re.DOTALL)
-                    
-                    # 4. REMOVE OLD TOP NAV (will re-inject clean one)
+                    # 3. REMOVE "TOP NAV" and "HOME BUTTONS"
                     content = re.sub(r'<div class="top-nav">.*?</div>', '', content, flags=re.DOTALL)
+                    content = re.sub(r'<a href=.*?class="mobile-nav".*?>.*?</a>', '', content, flags=re.DOTALL)
+                    content = re.sub(r'<a href=.*?class="back-home".*?>.*?</a>', '', content, flags=re.DOTALL)
                     
-                    # 5. REPLACE CSS WITH CLEAN CSS
+                    # 4. REPLACE CSS WITH CLEAN CSS
                     content = re.sub(r'<style>.*?</style>', f'<style>{CLEAN_CSS}</style>', content, flags=re.DOTALL)
                     
-                    # 6. BUILD CLEAN TOP NAV + HEADER BLOCK
-                    top_nav_html = '''<div class="top-nav"><a href="../index.html" class="back-link">⬅ DASHBOARD</a><span style="opacity:0.7; font-size:0.8em">EXACTA AI</span></div>'''
-                    
-                    header_html = f'''<div class="header">
-            <div style="display:flex;align-items:center">
-                {logo_html}
-                <div class="header-info">
-                    <h1>{track_name}</h1>
-                    <div class="meta">{track_date}</div>
-                </div>
-            </div>
-            <div class="header-tools">
-                <button onclick="window.print()" class="print-btn">🖨️ PRINT</button>
-            </div>
-        </div>'''
-                    
-                    # 7. INJECT TOP NAV IF MISSING
-                    if '<div class="top-nav">' not in content:
-                        content = content.replace('<body>', '<body>\n    ' + top_nav_html)
-                    
-                    # 8. INJECT HEADER IF MISSING (after main-content opens)
-                    if '<div class="header">' not in content:
-                        if '<div class="main-content">' in content:
-                            content = content.replace('<div class="main-content">', '<div class="main-content">\n        ' + header_html)
-                        else:
-                            # If no main-content wrapper, add it after top-nav
-                            content = content.replace(top_nav_html, top_nav_html + '\n\n    <div class="main-content">\n        ' + header_html)
+                    # 5. ENSURE HEADER BRANDING WRAPPER EXISTS (Fixes collapsed headers)
+                    if 'class="header-branding"' not in content and 'class="header"' in content:
+                         content = content.replace('<div style="display:flex;align-items:center">', '<div class="header-branding">')
                     
                     with open(fp, "w", encoding="utf-8") as file:
                         file.write(content)
                     count += 1
-                except Exception as e:
-                    st.sidebar.warning(f"Error on {f}: {e}")
-    st.sidebar.success(f"Fixed {count} legacy files!")
+                except: pass
+    st.sidebar.success(f"Cleaned {count} legacy files!")
 
 st.sidebar.markdown("---")
 st.sidebar.header("📜 Logic Logs")
@@ -517,7 +494,7 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 1. Start at Race 1.
                 2. Provide exactly 3 selections per race in order of preference (1st, 2nd, 3rd).
                 3. EXTRACT SURFACE: Identify the surface (Dirt, Turf, Synthetic) for each race individually from the PDF.
-                4. EXTRACT BARRIER/POST: You must extract the post position (barrier) for every selection.
+                4. EXTRACT BARRIER/POST: You must extract the post position (barrier) for every selection. If only one number exists, use that.
                 5. DANGER HORSE: Only list a danger horse if there is a LEGITIMATE THREAT. If none, set name to "None".
                 6. STRATEGY: Provide a specific betting strategy based on confidence.
                 """
@@ -598,7 +575,16 @@ if st.session_state.data_ready:
                         
                         meta = st.session_state.json_data.get("meta", {})
                         for race in st.session_state.json_data.get("races", []):
+                            
+                            # ----------------------------------------------------
+                            # DATA NORMALIZATION FOR CSV (PER RACE)
+                            # ----------------------------------------------------
                             selections = race.get('selections', [])
+                            if not selections and 'picks' in race:
+                                p = race['picks']
+                                selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
+                                selections = [s for s in selections if s and s.get('name')]
+                            
                             while len(selections) < 3: selections.append({})
                             
                             dang = race.get('danger_horse', {})
