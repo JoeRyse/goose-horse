@@ -50,47 +50,7 @@ def is_valid_pick(pick):
     invalid = ['none', 'n/a', 'null', 'no danger', 'no threat', 'tbd', 'horse name', '', 'no significant danger']
     return name and name not in invalid
 
-# --- NAVIGATION & SYNC LOGIC ---
-
-def generate_sidebar_content():
-    files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
-    files.sort(reverse=True)
-    
-    links_html = ""
-    for f in files:
-        name = f.replace(".html", "").replace("_", " ")
-        if "202" in name: 
-            parts = name.split("202")
-            name = f"{parts[0]} ({'202'+parts[1][:1]})"
-        links_html += f'<a href="{f}" class="side-link">{name}</a>'
-        
-    return f"""
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <a href="../index.html" class="back-home">🏠 DASHBOARD</a>
-        </div>
-        <div class="sidebar-title">RACE MEETINGS</div>
-        <div class="sidebar-links">
-            {links_html}
-        </div>
-    </div>
-    """
-
-def sync_global_navigation():
-    new_sidebar = generate_sidebar_content()
-    files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
-    count = 0
-    for f in files:
-        filepath = os.path.join(MEETINGS_DIR, f)
-        try:
-            with open(filepath, "r", encoding="utf-8") as file: content = file.read()
-            pattern = r'<div class="sidebar">.*?</div>'
-            if re.search(pattern, content, re.DOTALL):
-                new_content = re.sub(pattern, new_sidebar, content, flags=re.DOTALL, count=1)
-                with open(filepath, "w", encoding="utf-8") as file: file.write(new_content)
-                count += 1
-        except: pass
-    return count
+# --- HOMEPAGE GENERATION ---
 
 def update_homepage():
     files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
@@ -144,7 +104,75 @@ def update_homepage():
     html += "</div></body></html>"
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
 
+# --- CLEAN CSS ---
+CLEAN_CSS = """
+    body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; }
+    * { box-sizing: border-box; }
+    
+    /* HIDE OLD CRUFT */
+    .sidebar, .sidebar-title, .sidebar-links, .mobile-nav { display: none !important; }
+    
+    /* MAIN LAYOUT */
+    .main-content { margin: 0 auto; padding: 20px; max-width: 900px; }
+    
+    /* TOP NAV */
+    .top-nav { background: #003366; color: white; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+    .back-link { color: white; text-decoration: none; font-weight: 700; font-size: 0.9rem; }
+    .back-link:hover { text-decoration: underline; }
+    
+    /* HEADER */
+    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 20px; }
+    .logo { max-height: 50px; margin-right: 15px; }
+    .header-info h1 { margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }
+    .meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
+    
+    .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; }
+    
+    /* RACES */
+    .nav-bar { background: #fff; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+    .nav-btn { background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; }
+    .nav-btn:hover { background: #003366; color: white; border-color: #003366; }
+    
+    .race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); page-break-inside: avoid; }
+    .race-header { background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #003366; font-size: 1.1rem; }
+    
+    .picks-grid { display: flex; gap: 10px; padding: 15px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+    .pick-box { flex: 1; background: #fff; padding: 10px; border: 1px solid #e2e8f0; border-top: 4px solid #94a3b8; border-radius: 4px; }
+    .panel-best { border-top-color: #fbbf24; background-color: #fffbeb; }
+    .panel-top { border-top-color: #3b82f6; }
+    .panel-danger { border-top-color: #d97706; }
+    
+    .table-container { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 0; min-width: 500px; }
+    th { background: #f1f5f9; text-align: left; padding: 8px; font-size: 0.9rem; color: #475569; }
+    td { padding: 8px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
+    .row-top { background: #f0f9ff; font-weight: 700; color: #003366; }
+    .exacta-box { margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }
+    .exacta-gold { background: #fffbeb; border-left-color: #fbbf24; }
+
+    @media (max-width: 768px) {
+        .main-content { padding: 10px; }
+        .header { flex-direction: column; text-align: center; gap: 10px; padding: 15px; }
+        .logo { margin: 0; }
+        .header-tools { width: 100%; display: flex; justify-content: center; }
+        .picks-grid { flex-direction: column; }
+        .race-header { flex-direction: column; gap: 5px; align-items: flex-start; }
+    }
+    
+    @media print { 
+        .print-btn, .nav-bar, .mobile-nav, .top-nav { display: none !important; } 
+        .main-content { margin: 0 !important; padding: 0 !important; max-width: 100% !important; }
+        body { background: white !important; font-size: 11pt; }
+        .header { box-shadow: none; border: none; border-bottom: 2px solid #000; padding: 0; margin-bottom: 10px; margin-top: 0; }
+        .race-section { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+        .picks-grid { background: #fff; border: none; }
+        .pick-box { border: 1px solid #000; }
+        th { background: #eee !important; -webkit-print-color-adjust: exact; }
+    }
+"""
+
 def generate_meeting_html(data, region_override, is_preview_mode=False):
+    """Generates CLEAN HTML with NO SIDEBAR."""
     country = data.get('meta', {}).get('jurisdiction', region_override)
     track_name = data.get('meta', {}).get('track', 'Unknown Track')
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
@@ -153,8 +181,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     logo_src, _ = get_base64_logo()
     logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
 
-    sidebar_content = generate_sidebar_content()
-
+    # BEST BETS LOGIC
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
@@ -171,7 +198,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     best_bets_html = ""
     if best_bets:
         best_bets_html = '<div style="background:#fffbeb; border:2px solid #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;">'
-        best_bets_html += '<h2 style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex; align-items:center;">🔥 <span style="margin-left:8px">PRIME BETS (High Confidence Only)</span></h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;">'
+        best_bets_html += '<h2 style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex; align-items:center;">🔥 <span style="margin-left:8px">PRIME BETS</span></h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;">'
         for bb in best_bets[:3]:
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
         best_bets_html += '</div></div>'
@@ -188,79 +215,14 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
 
     html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {{ font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; }}
-    * {{ box-sizing: border-box; }}
+    <style>{CLEAN_CSS}</style></head><body>
     
-    /* SIDEBAR */
-    .sidebar {{ position: fixed; left: 0; top: 0; bottom: 0; width: 240px; background: #003366; overflow-y: auto; padding: 20px; color: white; display: flex; flex-direction: column; z-index: 100; }}
-    .sidebar-title {{ font-size: 0.9rem; font-weight: 800; margin-bottom: 10px; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.7; }}
-    .side-link {{ color: rgba(255,255,255,0.8); text-decoration: none; padding: 10px; display: block; border-radius: 4px; margin-bottom: 2px; transition: 0.2s; font-size: 0.95rem; }}
-    .side-link:hover {{ background: rgba(255,255,255,0.1); color: white; padding-left: 15px; }}
-    .back-home {{ background: #ff6b00; color: white; text-align: center; padding: 12px; border-radius: 4px; text-decoration: none; font-weight: 700; display: block; }}
-    
-    /* MAIN LAYOUT */
-    .main-content {{ margin-left: 240px; padding: 10px 20px 20px 20px; max-width: 1100px; }}
-    
-    /* HEADER */
-    .header {{ display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }}
-    .logo {{ max-height: 50px; margin-right: 15px; }}
-    .header-info h1 {{ margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }}
-    .meta {{ color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }}
-    
-    .print-btn {{ background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; }}
-    
-    /* NAV & RACES */
-    .nav-bar {{ background: #fff; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }}
-    .nav-btn {{ background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; }}
-    .nav-btn:hover {{ background: #003366; color: white; border-color: #003366; }}
-    
-    .race-section {{ margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); page-break-inside: avoid; }}
-    .race-header {{ background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #003366; font-size: 1.1rem; }}
-    
-    .picks-grid {{ display: flex; gap: 10px; padding: 15px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }}
-    .pick-box {{ flex: 1; background: #fff; padding: 10px; border: 1px solid #e2e8f0; border-top: 4px solid #94a3b8; border-radius: 4px; }}
-    .panel-best {{ border-top-color: #fbbf24; background-color: #fffbeb; }}
-    .panel-top {{ border-top-color: #3b82f6; }}
-    .panel-danger {{ border-top-color: #d97706; }}
-    
-    .table-container {{ overflow-x: auto; }}
-    table {{ width: 100%; border-collapse: collapse; margin-top: 0; min-width: 500px; }}
-    th {{ background: #f1f5f9; text-align: left; padding: 8px; font-size: 0.9rem; color: #475569; }}
-    td {{ padding: 8px; border-bottom: 1px solid #eee; font-size: 0.95rem; }}
-    .row-top {{ background: #f0f9ff; font-weight: 700; color: #003366; }}
-    .exacta-box {{ margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }}
-    .exacta-gold {{ background: #fffbeb; border-left-color: #fbbf24; }}
-
-    @media (max-width: 768px) {{
-        .sidebar {{ display: none; }}
-        .main-content {{ margin-left: 0; padding: 10px; }}
-        .header {{ flex-direction: column; text-align: center; gap: 10px; padding: 15px; }}
-        .logo {{ margin: 0; }}
-        .header-tools {{ width: 100%; display: flex; justify-content: center; }}
-        .picks-grid {{ flex-direction: column; }}
-        .race-header {{ flex-direction: column; gap: 5px; align-items: flex-start; }}
-        .mobile-nav {{ display: block; background: #003366; color: white; padding: 10px; text-align: center; font-weight: bold; text-decoration: none; margin: -10px -10px 15px -10px; }}
-    }}
-    @media (min-width: 769px) {{ .mobile-nav {{ display: none; }} }}
-    
-    @media print {{ 
-        .sidebar, .print-btn, .mobile-nav, .nav-bar {{ display: none !important; }} 
-        .main-content {{ margin: 0 !important; padding: 0 !important; max-width: 100% !important; }}
-        body {{ background: white !important; font-size: 11pt; }}
-        .header {{ box-shadow: none; border: none; border-bottom: 2px solid #000; padding: 0; margin-bottom: 10px; }}
-        .race-section {{ box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }}
-        .picks-grid {{ background: #fff; border: none; }}
-        .pick-box {{ border: 1px solid #000; }}
-        th {{ background: #eee !important; -webkit-print-color-adjust: exact; }}
-    }}
-    </style></head><body>
-    
-    {sidebar_content}
+    <div class="top-nav">
+        <a href="../index.html" class="back-link">⬅ DASHBOARD</a>
+        <span style="opacity:0.7; font-size:0.8em">EXACTA AI</span>
+    </div>
 
     <div class="main-content">
-        <a href="../index.html" class="mobile-nav">🏠 HOME / DASHBOARD</a>
-
         <div class="header">
             <div style="display:flex;align-items:center">
                 {logo_html}
@@ -342,13 +304,84 @@ api_key = st.sidebar.text_input("Gemini API Key", value=default_key, type="passw
 st.sidebar.markdown("---")
 st.sidebar.header("🚀 Admin")
 if st.sidebar.button("🔄 Sync Nav & Deploy"):
-    count = sync_global_navigation()
     update_homepage()
-    st.sidebar.success(f"Synced {count} files & Updated Index.")
+    st.sidebar.success(f"Updated Dashboard Index.")
     try:
         subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
         st.sidebar.success("Deploying...")
     except: st.sidebar.error("Deploy script missing.")
+
+# --- AGGRESSIVE FIXER ---
+if st.sidebar.button("🛠️ Fix Legacy Layouts"):
+    count = 0
+    logo_src, _ = get_base64_logo()
+    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
+    
+    with st.spinner("Scrubbing text clutter from old files..."):
+        for f in os.listdir(MEETINGS_DIR):
+            if f.endswith(".html"):
+                fp = os.path.join(MEETINGS_DIR, f)
+                try:
+                    with open(fp, "r", encoding="utf-8") as file:
+                        content = file.read()
+                    
+                    # Extract track name from <title> or filename
+                    title_match = re.search(r'<title>(.*?)</title>', content)
+                    track_name = title_match.group(1) if title_match else f.replace(".html", "").replace("_", " ")
+                    
+                    # Try to extract date from filename
+                    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', f)
+                    track_date = date_match.group(1) if date_match else ""
+                    
+                    # 1. REMOVE OLD SIDEBAR DIV
+                    content = re.sub(r'<div class="sidebar">.*?</div>', '', content, flags=re.DOTALL)
+                    
+                    # 2. REMOVE "RACE MEETINGS" TEXT DUMP
+                    content = re.sub(r'RACE MEETINGS.*?2026\)', '', content, flags=re.DOTALL)
+                    
+                    # 3. REMOVE OLD MOBILE NAV
+                    content = re.sub(r'<a href=.*?class="mobile-nav".*?>.*?</a>', '', content, flags=re.DOTALL)
+                    
+                    # 4. REMOVE OLD TOP NAV (will re-inject clean one)
+                    content = re.sub(r'<div class="top-nav">.*?</div>', '', content, flags=re.DOTALL)
+                    
+                    # 5. REPLACE CSS WITH CLEAN CSS
+                    content = re.sub(r'<style>.*?</style>', f'<style>{CLEAN_CSS}</style>', content, flags=re.DOTALL)
+                    
+                    # 6. BUILD CLEAN TOP NAV + HEADER BLOCK
+                    top_nav_html = '''<div class="top-nav"><a href="../index.html" class="back-link">⬅ DASHBOARD</a><span style="opacity:0.7; font-size:0.8em">EXACTA AI</span></div>'''
+                    
+                    header_html = f'''<div class="header">
+            <div style="display:flex;align-items:center">
+                {logo_html}
+                <div class="header-info">
+                    <h1>{track_name}</h1>
+                    <div class="meta">{track_date}</div>
+                </div>
+            </div>
+            <div class="header-tools">
+                <button onclick="window.print()" class="print-btn">🖨️ PRINT</button>
+            </div>
+        </div>'''
+                    
+                    # 7. INJECT TOP NAV IF MISSING
+                    if '<div class="top-nav">' not in content:
+                        content = content.replace('<body>', '<body>\n    ' + top_nav_html)
+                    
+                    # 8. INJECT HEADER IF MISSING (after main-content opens)
+                    if '<div class="header">' not in content:
+                        if '<div class="main-content">' in content:
+                            content = content.replace('<div class="main-content">', '<div class="main-content">\n        ' + header_html)
+                        else:
+                            # If no main-content wrapper, add it after top-nav
+                            content = content.replace(top_nav_html, top_nav_html + '\n\n    <div class="main-content">\n        ' + header_html)
+                    
+                    with open(fp, "w", encoding="utf-8") as file:
+                        file.write(content)
+                    count += 1
+                except Exception as e:
+                    st.sidebar.warning(f"Error on {f}: {e}")
+    st.sidebar.success(f"Fixed {count} legacy files!")
 
 st.sidebar.markdown("---")
 st.sidebar.header("📜 Logic Logs")
@@ -397,10 +430,7 @@ if track_db and selected_country in track_db:
     
     if selected_track_name == "Other (Manual Entry)":
         selected_track_name = st.sidebar.text_input("Enter Track Name", value="Unknown Track")
-        
-        # REMOVED SURFACE SELECTOR (Corrected Logic)
         manual_direction = st.sidebar.radio("Track Direction", ["Counter-Clockwise (Left)", "Clockwise (Right)", "Straight/Chute"], index=0)
-        
         selected_track_data = {
             "bias_notes": f"Manual Entry. Direction: {manual_direction}. Surface varies per race.",
             "direction": manual_direction
@@ -608,11 +638,9 @@ if st.session_state.data_ready:
                 except Exception as e:
                     st.error(f"Failed to log to CSV: {e}")
             
-            count = sync_global_navigation()
-            
             if update_idx:
                 update_homepage()
-                st.success(f"Saved HTML, Logged Top 3 & Barrier to CSV & Synced {count} files.")
+                st.success(f"Saved HTML & Updated Dashboard.")
             
             try:
                 subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
