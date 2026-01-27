@@ -391,36 +391,55 @@ if api_key:
     st.sidebar.success(f"Ready: {target_model}")
 
 # --- TRACK DB LOADER ---
+# --- TRACK DB LOADER (UPDATED) ---
 track_db = {}
 try:
     with open(os.path.join(DATA_DIR, "track_db.json"), "r") as f: track_db = json.load(f)
 except: pass
 
+# Add USA_Harness to options if it exists in JSON, otherwise default keys
 country_options = list(track_db.keys()) if track_db else ["USA", "Australia", "International"]
-selected_country = st.sidebar.selectbox("Region", country_options)
+selected_country = st.sidebar.selectbox("Region/Type", country_options)
 
 selected_track_data = None
 selected_track_name = "Unknown"
+
 if track_db and selected_country in track_db:
     track_list = list(track_db[selected_country].keys()) + ["Other (Manual Entry)"]
     selected_track_name = st.sidebar.selectbox("Track", track_list)
     
     if selected_track_name == "Other (Manual Entry)":
         selected_track_name = st.sidebar.text_input("Enter Track Name", value="Unknown Track")
-        manual_direction = st.sidebar.radio("Track Direction", ["Counter-Clockwise (Left)", "Clockwise (Right)", "Straight/Chute"], index=0)
+        # Added Passing Lane toggle for manual harness tracks
+        has_passing_lane = st.sidebar.checkbox("Has Passing Lane?", value=False)
         selected_track_data = {
-            "bias_notes": f"Manual Entry. Direction: {manual_direction}. Surface varies per race.",
-            "direction": manual_direction
+            "bias_notes": f"Manual Entry. Passing Lane: {has_passing_lane}.",
+            "passing_lane": has_passing_lane
         }
     else:
         selected_track_data = track_db[selected_country][selected_track_name]
 
-if "USA" in selected_country: region_code, system_file = "USA", "system_usa.md"
-elif "Australia" in selected_country: region_code, system_file = "Australia", "system_aus.md"
-elif "UK" in selected_country: region_code, system_file = "UK", "system_uk.md"
-else: region_code, system_file = "International", "system_aus.md"
-if not os.path.exists(os.path.join(LOGIC_DIR, system_file)) and "UK" in region_code: system_file = "system_aus.md"
+# --- SYSTEM LOGIC SELECTOR (UPDATED FOR HARNESS) ---
+if "Harness" in selected_country: 
+    region_code = "Harness"
+    system_file = "system_harness.md"  # <--- NEW LOGIC FILE
+elif "USA" in selected_country: 
+    region_code = "USA" 
+    system_file = "system_usa.md"
+elif "Australia" in selected_country: 
+    region_code = "Australia" 
+    system_file = "system_aus.md"
+elif "UK" in selected_country: 
+    region_code = "UK" 
+    system_file = "system_uk.md"
+else: 
+    region_code = "International" 
+    system_file = "system_aus.md"
 
+# Fallback if file doesn't exist
+if not os.path.exists(os.path.join(LOGIC_DIR, system_file)): 
+    st.warning(f"System file {system_file} not found. Using Standard.")
+    system_file = "system_usa.md"
 # --- MAIN PAGE ---
 st.title(f"🏆 Exacta AI: {selected_track_name}")
 uploaded_file = st.file_uploader(f"Upload {region_code} PDF", type="pdf")

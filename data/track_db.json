@@ -1,210 +1,898 @@
 {
-  "Australia": {
-    "Flemington": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf (StrathAyr)",
-      "bias_notes": "Tier 1 (HQ). Straight Six (1200m) is wind dependent. 1400m/1600m very fair. 2500m is the 'Graveyard of Champions'. Wide track allows swoopers. Barrier Impact: Low (3/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Wagga": {
-            "direction": "Clockwise (Right)",
-            "bias_notes": "Wagga (MTC): Triangular track layout. 420m straight. 1200m start is tricky for inside gates. 1400m chute allows leaders to control. Generally fair but favors horses that can corner well."
-        },
-        "Bunbury": {
-            "direction": "Counter-Clockwise (Left)",
-            "bias_notes": "Bunbury (New Track): Velvetene turf on sand profile. Drains very fast (Good 4 likely). 20m width gives room, but the 'Fremantle Doctor' wind often helps leaders in the back straight."
-        },
-    "Randwick": {
-      "direction": "Clockwise",
-      "surface": "Turf (Kikuyu)",
-      "bias_notes": "Tier 1 (HQ). Features 'The Rise' in straight testing stamina. Heavy tracks shift bias to extreme outside rail. 1600m start disadvantages outside barriers. Barrier Impact: Moderate (6/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Moonee Valley": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf (StrathAyr)",
-      "bias_notes": "Tier 1. Tightest metro track. 173m straight. CRITICAL LEADER BIAS. Barriers 1-3 are gold; Wide barriers are a graveyard. Races won from 600m mark. Barrier Impact: Critical (9/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Pinjarra": {
-            "direction": "Counter-Clockwise (Left)",
-            "bias_notes": "Pinjarra Park: Spacious 2000m circuit with a long home straight. Very fair track that allows backmarkers to swoop. Suits big-striding horses. Watch for the afternoon sea breeze ('The Doctor') which can create a headwind in the straight."
-        },
-    "Kilcoy": {
-            "direction": "Clockwise (Right)",
-            "bias_notes": "Kilcoy: 'The Go-Kart Track'. Tiny 1276m circumference with a miniscule 143m straight. Critical Leader Bias. You must lead or box seat. Swooping from back is geometrically impossible. Surface is Kikuyu (Hard/Fast in summer)."
-        },
-    "Caulfield": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. Sharp turns, triangular shape. On-Pace bias. 1400m 'dog-leg' start favors inside significantly. Momentum runners (3-wide with cover) can swoop late. Barrier Impact: High (7/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Rosehill": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. Premier 'On-Pace' track. Hard to make ground from back despite 408m straight. Specialists thrive here. Golden Slipper 1200m favors middle gates (4-8).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Eagle Farm": {
-      "direction": "Clockwise",
-      "surface": "Turf (Couch)",
-      "bias_notes": "Tier 1. 'Randwick of the North'. Spacious and fair. Drains rapidly. Bias favors runners getting off the fence (3-4 lanes) in straight. Form transfer from Doomben is strong.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Doomben": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. Tight, saucer-shaped. Leader/On-Pace critical. 1350m start makes wide draw a killer. Barrier Impact: Critical (8/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Ascot": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1 (WA). 294m uphill straight tests stamina. 'Fremantle Doctor' tailwind aids leaders in summer. Leaders who kick on the bend are hard to run down.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Sandown": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. Hillside: Galloper's track, uphill finish, favors stayers. Lakeside: Tighter, prone to on-pace bias if rail is out.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Canterbury": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. EXTREME LEADER BIAS. 'Jump and Run' tactics essential. Banked turns slingshot leaders. Barrier Impact: Extreme (9.5/10).",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Warwick Farm": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1. Triangular shape. Leader biased. Sharp home turn punishes horses hung wide. Local trained horses (Baker) often have advantage.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Belmont": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1 (Winter). Handles wet well. Fairer than Ascot; flat straight allows swoopers.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Morphettville": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 1 (SA). Course Proper: Very fair, wide turns. The Parks: Tighter, favors on-pace. Adelaide class often lags Melbourne by 2-3 lengths.",
-      "tier": "Tier 1 (Metro)"
-    },
-    "Gold Coast": {
-      "direction": "Clockwise",
-      "surface": "Turf / Polytrack",
-      "bias_notes": "Tier 2. Tight, turning track. Polytrack is consistent/on-pace. Turf favors inside draws (8/10 impact).",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Sunshine Coast": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Big sweeping bends. One of the few QLD tracks where you can win from last.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Newcastle": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Huge, spacious. 415m uphill straight. Fair. Form translates to Randwick.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Gosford": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Tight, rectangular. Leaders track. Short straight. Barrier Impact: High (8/10).",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Kembla Grange": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Sister track to Randwick (identical dimensions). Long straight suits big horses. Watch for cross-wind bias.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Geelong": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Premier provincial. Key Spring Carnival lead-up. Very fair drainage.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Mornington": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Tier 2. Distinctive 'dip' and uphill run before turn. Very short straight (210m). Specialists thrive. Leader bias common.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Toowoomba": {
-      "direction": "Clockwise",
-      "surface": "Turf (StrathAyr)",
-      "bias_notes": "Tier 2. High altitude. The 'Clifford Park Climb' uphill finish is severe. Specialists dominate.",
-      "tier": "Tier 2 (Provincial)"
-    },
-    "Fannie Bay": {
-      "direction": "Counter-Clockwise",
-      "surface": "Oil-Based Sand (Dirt)",
-      "bias_notes": "Tier 2 (Darwin). UNIQUE. Severe kickback. Leaders/On-Pace only. If not in first 4 at turn, you lose. Must handle heat/dirt.",
-      "tier": "Tier 2 (Provincial)"
-    }
-  },
-  "USA": {
-    "Fair Grounds": {
-            "direction": "Counter-Clockwise (Left)",
-            "bias_notes": "Fair Grounds (NOLA): DIRT - Extremely long stretch (1,346 ft). Closers have a fair chance compared to other speed-favoring tracks. Watch for 'Dead Rail' days. TURF - Wide course, favors late kicks."
-        },
-    "Gulfstream Park": {
-        "direction": "Counter-Clockwise",
-        "surface": "Dirt/Turf/Tapeta",
-        "bias_notes": "THE SPEED TRACK. 6F sprints are Wire-to-Wire dominated. Golden Rail is common. One-turn mile plays like a sprint. Turf turns are extremely tight.",
-        "tier": "Tier 1"
-    },
+  "USA_Thoroughbred": {
     "Saratoga": {
-        "direction": "Counter-Clockwise",
-        "surface": "Dirt/Turf",
-        "bias_notes": "Graveyard of Champions. Deep, tiring track. Rail often dead. Favors Stalkers/Closers.",
-        "tier": "Tier 1"
+      "location": "Saratoga Springs, NY",
+      "surface": "Dirt",
+      "distance": "1 1/8 Miles",
+      "bias_notes": "The Graveyard of Champions. Fair track overall but rail position matters. Late in meet can become deep and favor closers.",
+      "handicapping_angles": {
+        "surface_bias": "Check rail position daily. 18+ feet can favor speed.",
+        "pace_scenario": "Long stretch allows closers but honest pace required."
+      }
     },
-    "Del Mar": {
-        "direction": "Counter-Clockwise",
-        "surface": "Dirt/Turf",
-        "bias_notes": "Short stretch. Speed/Pressers favored on dirt. Turf is narrow and firm.",
-        "tier": "Tier 1"
+    "Belmont_Park": {
+      "location": "Elmont, NY",
+      "surface": "Dirt",
+      "distance": "1 1/2 Miles",
+      "bias_notes": "Big Sandy. Large circumference means fair track. Closers can win from anywhere.",
+      "handicapping_angles": {
+        "pace_scenario": "Closers love Belmont. Even sprints allow come-from-behind wins."
+      }
     },
-    "Santa Anita": {
-        "direction": "Counter-Clockwise",
-        "surface": "Dirt/Turf",
-        "bias_notes": "Speed favoring dirt, but turns to Closer/Stalker bias on wet/sealed tracks (Dead Rail inversion). Hillside Turf favors Closers.",
-        "tier": "Tier 1"
+    "Gulfstream_Park": {
+      "location": "Hallandale Beach, FL",
+      "surface": "Dirt/Turf/Tapeta",
+      "distance": "1 1/8 Miles",
+      "bias_notes": "THE SPEED TRACK. 6F sprints are Wire-to-Wire dominated. Golden Rail is common.",
+      "handicapping_angles": {
+        "dirt_sprints": "6F races are dominated by the lead horse.",
+        "one_turn_mile": "Post 1 is disadvantaged; Posts 3-6 are ideal."
+      }
+    },
+    "Santa_Anita": {
+      "location": "Arcadia, CA",
+      "surface": "Dirt/Turf",
+      "distance": "1 Mile",
+      "bias_notes": "Dirt track can get very hard and fast. When 'sealed' (wet), it moves up inside speed significantly.",
+      "handicapping_angles": {
+        "hillside_turf_course": "Unique downhill 6.5f sprint. Specialists ONLY.",
+        "dirt_miles": "Two turns. Speed holds well."
+      }
+    },
+    "Del_Mar": {
+      "location": "Del Mar, CA",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Short stretch. Speed/Pressers favored on dirt. Turf is narrow and firm.",
+      "handicapping_angles": {
+        "surface_bias": "Speed has slight edge due to one-mile configuration.",
+        "turf_notes": "Inside posts slight advantage on turf."
+      }
+    },
+    "Churchill_Downs": {
+      "location": "Louisville, KY",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Home of the Derby. Track plays relatively fair due to longer stretch.",
+      "handicapping_angles": {
+        "surface_bias": "Generally fair. Long stretch allows closers.",
+        "pace_scenario": "Derby/Oaks fields create chaos. Favors stalkers."
+      }
+    },
+    "Keeneland": {
+      "location": "Lexington, KY",
+      "surface": "Dirt",
+      "distance": "1 1/16 Miles",
+      "bias_notes": "Short stretch means speed can steal. Rail position critical.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias due to short stretch.",
+        "turf_notes": "Excellent turf. Inside posts slight advantage."
+      }
+    },
+    "Oaklawn_Park": {
+      "location": "Hot Springs, AR",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Track plays fair - can develop speed or closer bias depending on maintenance.",
+      "handicapping_angles": {
+        "surface_bias": "Generally fair but check patterns."
+      }
+    },
+    "Fair_Grounds": {
+      "location": "New Orleans, LA",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Deep, tiring track. Extremely long stretch. Closers have a fair chance.",
+      "handicapping_angles": {
+        "surface_bias": "Can be deep and tiring - stamina matters.",
+        "turf_notes": "Wide turf course, favors late kicks."
+      }
+    },
+    "Tampa_Bay_Downs": {
+      "location": "Tampa, FL",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "One-mile track but plays fairer than most. Sandy surface.",
+      "handicapping_angles": {
+        "surface_bias": "Fairer than typical one-mile track but speed still has edge.",
+        "turf_notes": "Smaller turf but well-maintained. Inside posts advantage."
+      }
+    },
+    "Parx_Racing": {
+      "location": "Bensalem, PA",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "One-mile track with sharp turns. Speed bias exists. Inside posts have significant edge.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias, especially sprint distances. Inside posts dominant.",
+        "pace_scenario": "Get the lead or sit right behind."
+      }
+    },
+    "Monmouth_Park": {
+      "location": "Oceanport, NJ",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "The Shore. Generally fair track. Haskell attracts elite 3YOs.",
+      "handicapping_angles": {
+        "surface_bias": "Generally fair to slight speed favor.",
+        "jockey_angles": "Paco Lopez dominates here."
+      }
+    },
+    "Laurel_Park": {
+      "location": "Laurel, MD",
+      "surface": "Dirt",
+      "distance": "1 1/8 Miles",
+      "bias_notes": "Maryland's primary track. Fair track overall.",
+      "handicapping_angles": {
+        "surface_bias": "Generally fair but can develop speed bias."
+      }
+    },
+    "Woodbine": {
+      "location": "Toronto, ON",
+      "surface": "Tapeta (Synthetic)",
+      "distance": "1 Mile",
+      "bias_notes": "Premier Synthetic track. Tapeta surface plays fair but favors closers/stalkers more than dirt.",
+      "handicapping_angles": {
+        "surface_bias": "Synthetic favors horses who can sustain a run. Late kick is vital.",
+        "turf_notes": "E.P. Taylor Turf Course is massive (1.5 miles) - very fair."
+      }
+    },
+    "Kentucky_Downs": {
+      "location": "Franklin, KY",
+      "surface": "Turf Only",
+      "distance": "1 5/16 Miles",
+      "bias_notes": "Unique European-style course with elevation changes. NO DIRT.",
+      "handicapping_angles": {
+        "surface_bias": "Unique course - experience matters enormously.",
+        "pace_scenario": "Horses need to rate and handle the hills. Closers often thrive."
+      }
+    },
+    "Colonial_Downs": {
+      "location": "New Kent, VA",
+      "surface": "Dirt",
+      "distance": "1 1/4 Miles",
+      "bias_notes": "Huge dirt track (1.25 miles), massive turf course. Very fair.",
+      "handicapping_angles": {
+        "surface_bias": "Large track = fair track.",
+        "turf_notes": "Secretariat Turf Course is widest in country."
+      }
+    },
+    "Horseshoe_Indianapolis": {
+      "location": "Shelbyville, IN",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Fairer than many regional ovals. Strong IN-bred program.",
+      "handicapping_angles": {
+        "surface_bias": "Generally fair."
+      }
+    },
+    "Hawthorne": {
+      "location": "Stickney, IL",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Long stretch makes it one of the fairest one-mile tracks. Closers can get there.",
+      "handicapping_angles": {
+        "surface_bias": "Fairer than typical one-mile due to long stretch."
+      }
+    },
+    "Emerald_Downs": {
+      "location": "Auburn, WA",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Pacific Northwest. Speed bias - inside posts advantage.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias on dirt."
+      }
+    },
+    "Turf_Paradise": {
+      "location": "Phoenix, AZ",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Desert track. Speed bias on dirt. Turf course is tight.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias - inside posts advantage."
+      }
+    },
+    "Sunland_Park": {
+      "location": "Sunland Park, NM",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Border track. Speed bias. Sunland Derby is key prep.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias on one-mile track."
+      }
+    },
+    "Zia_Park": {
+      "location": "Hobbs, NM",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Speed favoring. Inside posts advantage.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias."
+      }
+    },
+    "Delta_Downs": {
+      "location": "Vinton, LA",
+      "surface": "Dirt",
+      "distance": "6 Furlongs",
+      "bias_notes": "THE BULLRING. 6-furlong oval. Extreme speed bias. Inside posts are critical.",
+      "handicapping_angles": {
+        "surface_bias": "EXTREME speed bias. If you aren't in front or 2nd, you lose."
+      }
+    },
+    "Penn_National": {
+      "location": "Grantville, PA",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Night racing. Speed bias - inside posts advantage.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias on dirt."
+      }
+    },
+    "Finger_Lakes": {
+      "location": "Farmington, NY",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Upstate NY bullring. Strong speed bias. Inside posts critical.",
+      "handicapping_angles": {
+        "surface_bias": "Strong speed bias. Inside posts dominate."
+      }
+    },
+    "Thistledown": {
+      "location": "North Randall, OH",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "Cleveland. Speed bias - inside posts advantage.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias - inside posts advantage."
+      }
+    },
+    "Belterra_Park": {
+      "location": "Cincinnati, OH",
+      "surface": "Dirt",
+      "distance": "1 Mile",
+      "bias_notes": "River downs. Speed favors on dirt. Small turf favors inside.",
+      "handicapping_angles": {
+        "surface_bias": "Speed favors on dirt."
+      }
     }
   },
-  "UK": {
-    "Ascot": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Stiff uphill finish. Stamina is key. High numbers often drawn wide on straight course.",
-      "tier": "Premier"
+  "Australia_Thoroughbred": {
+    "New_South_Wales": {
+      "Metropolitan": {
+        "Royal_Randwick": {
+          "location": "Randwick, Sydney",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "410m",
+          "bias_notes": "Two tracks: Kensington (inner) and Course Proper. Course Proper is fair with 'The Rise'. Kensington favors on-pace.",
+          "handicapping_angles": {
+            "track_bias": "Course Proper is fair. Kensington favors on-pace.",
+            "wet_track_notes": "Heavy tracks favor outside rail."
+          }
+        },
+        "Rosehill_Gardens": {
+          "location": "Sydney",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "408m",
+          "bias_notes": "Premier 'On-Pace' track despite long straight. Specialists thrive here.",
+          "handicapping_angles": {
+            "track_bias": "Moderate on-pace bias.",
+            "barrier_draw": "Inside barriers advantaged in sprints."
+          }
+        },
+        "Canterbury_Park": {
+          "location": "Sydney",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "280m",
+          "bias_notes": "SMALL TRACK. Extreme leader bias. Jump and Run tactics essential.",
+          "handicapping_angles": {
+            "track_bias": "STRONG LEADER BIAS. Night racing.",
+            "barrier_draw": "CRITICAL - inside barriers advantage."
+          }
+        },
+        "Warwick_Farm": {
+          "location": "Sydney",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "360m",
+          "bias_notes": "Mid-size track. Triangular shape. On-pace bias.",
+          "handicapping_angles": {
+            "track_bias": "Moderate on-pace bias."
+          }
+        }
+      },
+      "Provincial": {
+        "Newcastle": {
+          "location": "Newcastle",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "Huge, spacious track. Very fair. Form translates to Randwick.",
+          "handicapping_angles": {
+            "track_bias": "Generally fair. Closers competitive."
+          }
+        },
+        "Goulburn": {
+          "location": "Goulburn",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "390m",
+          "bias_notes": "The 'Randwick of the South'. Big, spacious, fair. Sydney stables dominate.",
+          "handicapping_angles": {
+            "tempo": "Long straight allows backmarkers to swoop.",
+            "class_factor": "Big Sydney stables dominate here."
+          }
+        },
+        "Kembla_Grange": {
+          "location": "Illawarra",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "350m",
+          "bias_notes": "Sister track to Randwick (identical dimensions). Long straight.",
+          "handicapping_angles": {
+            "track_bias": "Slight on-pace but fair."
+          }
+        },
+        "Gosford": {
+          "location": "Central Coast",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "350m",
+          "bias_notes": "Tight, rectangular track. Leaders track.",
+          "handicapping_angles": {
+            "track_bias": "Moderate on-pace bias.",
+            "barrier_draw": "Inside barriers advantage."
+          }
+        }
+      }
     },
-    "Newmarket": {
-      "direction": "Clockwise",
-      "surface": "Turf",
-      "bias_notes": "Rowley Mile has a 'Dip' before finish. Experience helps.",
-      "tier": "Premier"
+    "Victoria": {
+      "Metropolitan": {
+        "Flemington": {
+          "location": "Melbourne",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "450m",
+          "bias_notes": "Headquarters. Wide, sweeping turns. Swoopers paradise. 1200m Straight Six is unique.",
+          "handicapping_angles": {
+            "track_bias": "VERY FAIR. Closers love Flemington.",
+            "barrier_draw": "Less critical due to long straight."
+          }
+        },
+        "Moonee_Valley": {
+          "location": "Melbourne",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "173m",
+          "bias_notes": "The Saucer. Tightest metro track. CRITICAL LEADER BIAS.",
+          "handicapping_angles": {
+            "track_bias": "EXTREME ON-PACE BIAS. Must be forward.",
+            "barrier_draw": "CRITICAL - inside barriers gold."
+          }
+        },
+        "Caulfield": {
+          "location": "Melbourne",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "363m",
+          "bias_notes": "Triangular shape. On-pace bias but closers can win with momentum.",
+          "handicapping_angles": {
+            "track_bias": "Moderate on-pace bias.",
+            "barrier_draw": "Inside barriers advantage."
+          }
+        },
+        "Sandown": {
+          "location": "Melbourne",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "481m (Hillside)",
+          "bias_notes": "Two tracks: Hillside (fairer) and Lakeside (tighter). Hillside favors stayers.",
+          "handicapping_angles": {
+            "track_bias": "Hillside: Fair/Closer. Lakeside: On-pace."
+          }
+        }
+      }
+    },
+    "Queensland": {
+      "Eagle_Farm": {
+        "location": "Brisbane",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "straight_length": "450m",
+        "bias_notes": "Spacious and fair. Drains rapidly. Favors runners getting off the fence.",
+        "handicapping_angles": {
+          "track_bias": "Generally fair. Closers can feature."
+        }
+      },
+      "Doomben": {
+        "location": "Brisbane",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "straight_length": "310m",
+        "bias_notes": "Tight, saucer-shaped. Leader/On-Pace critical.",
+        "handicapping_angles": {
+          "track_bias": "On-pace bias. Inside barriers advantage.",
+          "barrier_draw": "Critical."
+        }
+      },
+      "Gold_Coast": {
+        "location": "Gold Coast",
+        "track_type": "Turf/Poly",
+        "direction": "Clockwise",
+        "straight_length": "300m",
+        "bias_notes": "Tight track. Magic Millions venue. On-pace bias.",
+        "handicapping_angles": {
+          "track_bias": "On-pace bias.",
+          "barrier_draw": "Inside critical."
+        }
+      }
+    },
+    "Western_Australia": {
+      "Ascot": {
+        "location": "Perth",
+        "track_type": "Turf",
+        "direction": "Counter-Clockwise",
+        "straight_length": "350m",
+        "bias_notes": "Uphill straight tests stamina. 'Fremantle Doctor' wind aids leaders.",
+        "handicapping_angles": {
+          "track_bias": "Generally fair but speed has edge.",
+          "isolation_notes": "WA form lines distinct from East Coast."
+        }
+      },
+      "Belmont_Park_WA": {
+        "location": "Perth",
+        "track_type": "Turf",
+        "direction": "Counter-Clockwise",
+        "straight_length": "350m",
+        "bias_notes": "Winter track. Handles wet well. Fairer than Ascot.",
+        "handicapping_angles": {
+          "track_bias": "Slight on-pace bias."
+        }
+      }
     }
   },
-  "Japan": {
-    "Tokyo": {
-      "direction": "Counter-Clockwise",
-      "surface": "Turf/Dirt",
-      "bias_notes": "Massive sweeping turns and long uphill straight. Closers paradise.",
-      "tier": "Premier"
+  "Asia_Thoroughbred": {
+    "Hong_Kong": {
+      "Sha_Tin": {
+        "location": "Sha Tin",
+        "track_type": "Turf + All-Weather",
+        "direction": "Clockwise",
+        "straight_length": "430m",
+        "bias_notes": "Generally FAIR. 430m straight allows closers. Rail position (A, B, C courses) moves and significantly affects bias. AWT favors on-pace.",
+        "handicapping_angles": {
+          "track_bias": "Turf: Fair. AWT: On-pace/Inner.",
+          "rail_position": "CRITICAL. A course = tightest. C course = widest.",
+          "class_factor": "Class system is rigid. Class 1 is elite."
+        }
+      },
+      "Happy_Valley": {
+        "location": "Hong Kong Island",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "straight_length": "280m",
+        "bias_notes": "TIGHT TRACK with SHORT STRAIGHT. Strong on-pace/leader bias. Inside barriers critical.",
+        "handicapping_angles": {
+          "track_bias": "STRONG ON-PACE BIAS. Must be forward.",
+          "barrier_draw": "CRITICAL - Inside barriers (1-4) dominate.",
+          "pace_scenario": "Deep closers have almost no chance."
+        }
+      }
     },
-    "Nakayama": {
-      "direction": "Clockwise",
-      "surface": "Turf/Dirt",
-      "bias_notes": "Tight turns, short straight with steep hill. Positional speed is critical.",
-      "tier": "Premier"
+    "Japan": {
+      "Tokyo_Racecourse": {
+        "location": "Fuchu, Tokyo",
+        "track_type": "Turf + Dirt",
+        "direction": "Counter-clockwise",
+        "straight_length": "525.9m",
+        "bias_notes": "VERY FAIR track - longest straight in Japan. Closers can win from anywhere. Japan Cup venue.",
+        "handicapping_angles": {
+          "track_bias": "Very fair. Closers love Tokyo.",
+          "pace_scenario": "Genuinely run races allow closers to reel in leaders."
+        }
+      },
+      "Nakayama_Racecourse": {
+        "location": "Chiba",
+        "track_type": "Turf + Dirt",
+        "direction": "Clockwise",
+        "straight_length": "310m",
+        "bias_notes": "TIGHT TRACK with SHORT STRAIGHT. Strong on-pace bias compared to Tokyo. Uphill finish.",
+        "handicapping_angles": {
+          "track_bias": "On-pace bias. Uphill finish tests stamina.",
+          "barrier_draw": "Inside barriers favored."
+        }
+      },
+      "Tokyo_City_Keiba_Ohi": {
+        "location": "Ohi, Tokyo",
+        "status": "NAR - Premier",
+        "track_type": "Dirt (Sand)",
+        "direction": "Clockwise",
+        "straight_length": "386m",
+        "bias_notes": "Also known as 'Ohi'. Night racing. Exclusively DIRT (Deep Sand). NAR racing (Local). Requires power.",
+        "handicapping_angles": {
+          "kickback": "Sand kickback is severe. Horses on rail suffer. Outside draws (tactical speed) often better.",
+          "pedigree": "Ignore Turf form. Look for 'Dirt' sires.",
+          "track_bias": "Dirt racing - on-pace typically favored but kickback avoidance is key."
+        }
+      }
+    },
+    "United_Arab_Emirates": {
+      "Meydan": {
+        "location": "Dubai",
+        "track_type": "Turf + Dirt",
+        "direction": "Counter-clockwise",
+        "straight_length": "400m+ (Both)",
+        "bias_notes": "World-class venue. Dubai World Cup Night ($35M). Generally fair tracks.",
+        "handicapping_angles": {
+          "track_bias": "Turf: Fair. Dirt: Can favor speed but fair overall.",
+          "class_factor": "World Cup Night is ELITE."
+        }
+      }
+    },
+    "Saudi_Arabia": {
+      "King_Abdulaziz_Racecourse": {
+        "location": "Riyadh",
+        "track_type": "Turf + Dirt",
+        "direction": "Counter-clockwise",
+        "straight_length": "400m+",
+        "bias_notes": "Host of the Saudi Cup ($20M). Both surfaces. Major February meeting.",
+        "handicapping_angles": {
+          "track_bias": "Dirt: Fair with long straight. Speed slight edge.",
+          "saudi_cup_notes": "Saudi Cup (1800m dirt) favors tactical speed."
+        }
+      }
     }
+  },
+  "Europe_Thoroughbred": {
+    "United_Kingdom": {
+      "Flat_Tracks": {
+        "Ascot": {
+          "location": "Berkshire",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "2f 166y",
+          "bias_notes": "STIFF UPHILL FINISH. Straight course (5f-1m) fair. Round course has sweeping bends.",
+          "handicapping_angles": {
+            "track_bias": "Uphill finish demands stamina. High draws favored on soft ground (Straight).",
+            "class_factor": "Royal Ascot is world-class."
+          }
+        },
+        "Epsom_Downs": {
+          "location": "Surrey",
+          "track_type": "Turf",
+          "direction": "Counter-clockwise",
+          "bias_notes": "UNIQUE - Horseshoe shaped, severe camber, downhill into Tattenham Corner. Agility matters.",
+          "handicapping_angles": {
+            "track_bias": "LOW DRAWS FAVORED. Horses must handle camber.",
+            "pace_scenario": "Downhill section speeds up pace."
+          }
+        },
+        "Newmarket": {
+          "location": "Suffolk",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "bias_notes": "Rowley Mile (Spring/Autumn) and July Course. Wide, galloping, fair.",
+          "handicapping_angles": {
+            "track_bias": "The Dip can catch horses out. High draws often favored in big fields."
+          }
+        },
+        "York": {
+          "location": "Yorkshire",
+          "track_type": "Turf",
+          "direction": "Counter-clockwise",
+          "bias_notes": "The Knavesmire. Very flat, wide, galloping. Fairest track in UK.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair. Best horse wins."
+          }
+        },
+        "Goodwood": {
+          "location": "Sussex",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "bias_notes": "Undulating, tricky. Downhill sections. Not fair - specialists thrive.",
+          "handicapping_angles": {
+            "track_bias": "Low draws favored. Balance essential."
+          }
+        },
+        "Wolverhampton": {
+          "location": "West Midlands",
+          "track_type": "Tapeta (AW)",
+          "direction": "Counter-clockwise",
+          "bias_notes": "Tight AW track. Short straight. Kickback issues.",
+          "handicapping_angles": {
+            "track_bias": "Low draws advantage in sprints. Handy horses preferred."
+          }
+        },
+        "Southwell": {
+          "location": "Nottinghamshire",
+          "track_type": "Tapeta (New) / Formerly Fibresand",
+          "direction": "Counter-clockwise",
+          "bias_notes": "Recently converted to Tapeta. Galloping AW track.",
+          "handicapping_angles": {
+            "track_bias": "Fairer than Wolverhampton."
+          }
+        },
+        "Kempton_Park": {
+          "location": "Surrey",
+          "track_type": "Polytrack (AW)",
+          "direction": "Clockwise",
+          "bias_notes": "Right-handed AW. Fairer than Lingfield but speed handy.",
+          "handicapping_angles": {
+            "track_bias": "High draw disadvantage in routes."
+          }
+        }
+      }
+    },
+    "Ireland": {
+      "The_Curragh": {
+        "location": "Kildare",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "HQ of Irish racing. Wide, galloping, fair. All 5 Classics run here.",
+        "handicapping_angles": {
+          "track_bias": "Very fair. Best horse wins."
+        }
+      },
+      "Leopardstown": {
+        "location": "Dublin",
+        "track_type": "Turf",
+        "direction": "Counter-clockwise",
+        "bias_notes": "Premier dual-purpose track. Fair galloping nature.",
+        "handicapping_angles": {
+          "track_bias": "Generally fair."
+        }
+      },
+      "Galway": {
+        "location": "Galway",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "Tight, undulating, tricky. Festival track.",
+        "handicapping_angles": {
+          "track_bias": "Low draws advantage. Course specialists."
+        }
+      }
+    },
+    "France": {
+      "Longchamp": {
+        "location": "Paris",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "Grande Piste is fair with long straight. Arc venue. False straight.",
+        "handicapping_angles": {
+          "track_bias": "Grande Piste: Fair. False straight can deceive."
+        }
+      },
+      "Chantilly": {
+        "location": "Oise",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "French Derby venue. Fair track.",
+        "handicapping_angles": {
+          "track_bias": "Generally fair."
+        }
+      },
+      "Deauville": {
+        "location": "Normandy",
+        "track_type": "Turf + Fibresand",
+        "direction": "Clockwise",
+        "bias_notes": "Summer mecca. Flat, fair track.",
+        "handicapping_angles": {
+          "track_bias": "Fair. Good straight."
+        }
+      }
+    }
+  },
+  "USA_Harness": {
+    "Meadowlands": {
+      "type": "Harness",
+      "layout": "1 Mile",
+      "passing_lane": false,
+      "bias_notes": "The Big M. Long stretch favors closers. Speed does not hold well."
+    },
+    "Yonkers": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Speed favor. Hard to win from outside (7 & 8). Passing lane helps pocket sitters."
+    },
+    "Northfield_Park": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Inside speed bias. 'Flying Turn' helps leaders corner fast."
+    },
+    "Mohegan_Sun_Pocono": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Compromise track. Speed usually holds but closers can win."
+    },
+    "Harrahs_Philadelphia": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Similar to Pocono. Speed has slight edge."
+    },
+    "Hoosier_Park": {
+      "type": "Harness",
+      "layout": "7/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Long stretch. Closers have a real chance."
+    },
+    "Scioto_Downs": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Ohio speed track. Inside posts preferred."
+    },
+    "Red_Mile": {
+      "type": "Harness",
+      "layout": "1 Mile",
+      "passing_lane": false,
+      "bias_notes": "Clay surface. Very fast. Favors speed/closers with elite turns of foot."
+    },
+    "Saratoga_Harness": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Classic half-mile speed bias. Inside posts dominate."
+    },
+    "Freehold": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Classic half-mile speed bias. Posts 1-3 dominate."
+    },
+    "Vernon_Downs": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Five-eighths provides some closer opportunities but speed dominates class levels."
+    },
+    "Batavia_Downs": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Western NY half-miler. Standard half-mile speed bias."
+    },
+    "Buffalo_Raceway": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Half-mile track. Standard speed bias."
+    },
+    "Hawthorne_Harness": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Five-eighths allows versatile horses to succeed."
+    },
+    "Running_Aces": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Minnesota harness. Seasonal racing."
+    },
+    "Cal_Expo": {
+      "type": "Harness",
+      "layout": "1 Mile",
+      "passing_lane": false,
+      "bias_notes": "West Coast harness. Mile configuration favors closers."
+    }
+  },
+  "Canada_Harness": {
+    "Woodbine_Mohawk_Park": {
+      "type": "Harness",
+      "location": "Milton, ON",
+      "layout": "Seven-Eighths Mile Oval",
+      "stretch_length": "1050 ft",
+      "surface": "Crushed Stone/Limestone",
+      "passing_lane": false,
+      "purse_level": "Premier",
+      "key_stakes": ["Maple Leaf Trot", "Metro Pace", "Canadian Pacing Derby", "Pepsi North America Cup"],
+      "bias_notes": "Canada's premier harness track. Seven-eighths layout allows both speed and closers. North America Cup is continent's richest race.",
+      "handicapping_angles": {
+        "post_position": "Posts 1-5 preferred. Larger circumference makes posts 6-8 more playable than half-milers.",
+        "pace_scenario": "Balanced track. Both front-end speed and closers can win. Look for horses that can close in :26 low quarters.",
+        "class_drops": "Ontario Sire Stakes (OSS) horses are typically well-bred and well-trained. OSS droppers into overnight are live.",
+        "driver_factor": "James MacDonald, Bob McClure, Doug McNair, Sylvain Filion, Jody Jamieson - deep colony of elite reinsmen.",
+        "track_condition": "Well-maintained year-round racing. Handles Canadian weather well with strong drainage.",
+        "currency_note": "Purses in CAD. Convert for comparing class levels to US tracks."
+      }
+    },
+    "Flamboro_Downs": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Speed bias. Inside posts critical."
+    },
+    "Western_Fair": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "London's bullring. Speed, speed, speed."
+    },
+    "Rideau_Carleton": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Ottawa. Balanced bias."
+    },
+    "Georgian_Downs": {
+      "type": "Harness",
+      "layout": "Half-Mile",
+      "passing_lane": true,
+      "bias_notes": "Standard half-mile speed bias."
+    },
+    "Century_Downs": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "Alberta premier. 5/8 layout balanced."
+    },
+    "Fraser_Downs": {
+      "type": "Harness",
+      "layout": "5/8 Mile",
+      "passing_lane": false,
+      "bias_notes": "British Columbia. 5/8 layout."
+    }
+  },
+  "Australia_Harness": {
+    "Menangle_Park": {
+      "type": "Harness",
+      "layout": "1000m (5/8 Mile)",
+      "passing_lane": false,
+      "bias_notes": "Premier track. Big, spacious. Speed holds but closers can swoop."
+    },
+    "Tabcorp_Park_Melton": {
+      "type": "Harness",
+      "layout": "1000m",
+      "passing_lane": false,
+      "bias_notes": "Victoria's HQ. Mobile starts favor speed."
+    },
+    "Gloucester_Park": {
+      "type": "Harness",
+      "layout": "800m (Half-Mile)",
+      "passing_lane": false,
+      "bias_notes": "Perth's bullring. Leaders and pocket sitters dominate."
+    },
+    "Albion_Park": {
+      "type": "Harness",
+      "layout": "1000m",
+      "passing_lane": true,
+      "bias_notes": "Brisbane HQ. Passing lane (Sprint Lane) available."
+    },
+    "Addington_Raceway": {
+      "type": "Harness",
+      "layout": "1000m",
+      "passing_lane": false,
+      "bias_notes": "NZ Premier. Balanced."
+    },
+    "Alexandra_Park": {
+      "type": "Harness",
+      "layout": "880m",
+      "passing_lane": false,
+      "bias_notes": "NZ North Island. Smaller track, slight on-pace bias."
+    }
+  },
+  "Europe_Harness": {
+    "Vincennes": {
+      "type": "Harness (Trot)",
+      "layout": "2100m+ (Variable)",
+      "passing_lane": false,
+      "bias_notes": "Paris. Uphill/Downhill sections. Stamina test. No passing lane."
+    },
+    "Solvalla": {
+      "type": "Harness (Trot)",
+      "layout": "1000m",
+      "passing_lane": false,
+      "bias_notes": "Sweden. Fast track. Volt starts common."
+    }
+  },
+  "metadata": {
+    "version": "7.0 (Final Master)",
+    "notes": "Unified database covering Australia, USA, UK, Europe, Asia, and Global Harness with detailed Canadian profiles."
   }
 }
