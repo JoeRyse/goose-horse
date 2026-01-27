@@ -46,7 +46,6 @@ def clean_json_string(json_str):
 
 def is_valid_pick(pick):
     if not pick: return False
-    # Check if it's a NoneType or empty dict
     if pick is None: return False
     name = str(pick.get('name', '')).strip().lower()
     invalid = ['none', 'n/a', 'null', 'no danger', 'no threat', 'tbd', 'horse name', '', 'no significant danger']
@@ -129,27 +128,29 @@ def update_homepage():
     html += "</div></body></html>"
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
 
-# --- IMPROVED CSS FOR NAVIGATION ---
+# --- CLEAN CSS ---
 CLEAN_CSS = """
     body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; padding-top: 70px; }
     * { box-sizing: border-box; }
     
-    /* HIDE SIDEBAR & HOME BUTTONS COMPLETELY */
     .sidebar, .sidebar-title, .sidebar-links, .side-link, .mobile-nav, .back-home, .top-nav { display: none !important; }
     
-    /* MAIN LAYOUT */
     .main-content { margin: 0 auto; padding: 20px; max-width: 1000px; }
     
-    /* HEADER */
-    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }
     .header-branding { display: flex; align-items: center; flex: 1; } 
     .logo { max-height: 50px; margin-right: 15px; width: auto; }
     .header-info h1 { margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }
     .meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
     
-    .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; }
+    .header-tools { display: flex; gap: 10px; align-items: center; }
     
-    /* STICKY NAV BAR (FIXED) */
+    .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; }
+    
+    .btn-home { background: #64748b; border: 1px solid #475569; color: #fff; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; font-size: 14px; }
+    .btn-home:hover { background: #475569; }
+
+    /* STICKY NAV BAR */
     .nav-bar { 
         position: fixed; top: 0; left: 0; right: 0; 
         background: #003366; 
@@ -176,7 +177,6 @@ CLEAN_CSS = """
     }
     .nav-btn:hover { background: #ff6b00; border-color: #ff6b00; }
     
-    /* RACE CARDS */
     .race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); scroll-margin-top: 80px; }
     .race-header { background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #003366; font-size: 1.1rem; }
     
@@ -201,14 +201,14 @@ CLEAN_CSS = """
     }
     
     @media print { 
-        .nav-bar, .print-btn { display: none !important; } 
+        .nav-bar, .print-btn, .btn-home { display: none !important; } 
         body { padding-top: 0; background: white; }
         .race-section { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
     }
 """
 
 def generate_meeting_html(data, region_override, is_preview_mode=False):
-    """Generates CLEAN HTML with STICKY NAV."""
+    """Generates CLEAN HTML with STICKY NAV and DASHBOARD BUTTON."""
     country = data.get('meta', {}).get('jurisdiction', region_override)
     track_name = data.get('meta', {}).get('track', 'Unknown Track')
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
@@ -217,13 +217,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     logo_src, _ = get_base64_logo()
     logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
 
-    # NAV LINKS GENERATION
-    nav_links = ""
-    for r in data.get('races', []):
-        r_num = r.get('number', '0')
-        nav_links += f'<a href="#race-{r_num}" class="nav-btn">Race {r_num}</a>'
-
-    # BEST BETS
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
@@ -250,6 +243,11 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
         best_bets_html += '</div></div>'
 
+    nav_links = ""
+    for r in data.get('races', []):
+        r_num = r.get('number', '0')
+        nav_links += f'<a href="#race-{r_num}" class="nav-btn">Race {r_num}</a>'
+
     html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>{CLEAN_CSS}</style></head><body>
@@ -269,6 +267,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
                 </div>
             </div>
             <div class="header-tools">
+                <a href="../index.html" class="btn-home">🏠 Dashboard</a>
                 <button onclick="window.print()" class="print-btn">🖨️ PRINT</button>
             </div>
         </div>
@@ -314,7 +313,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         html += f"""</div>
         <div class="table-container"><table><thead><tr><th>#</th><th>Horse</th><th>Reasoning / Notes</th></tr></thead><tbody>"""
         
-        for s in selections[:4]: # Display Top 4
+        for s in selections[:4]:
             style = ' class="row-top"' if str(s.get('number')) == str(top.get('number')) else ''
             html += f"<tr{style}><td>{s.get('number')}</td><td>{s.get('name')}</td><td>{s.get('reason')}</td></tr>"
             
@@ -368,6 +367,10 @@ if st.sidebar.button("🛠️ Fix Legacy Layouts"):
                     content = re.sub(r'<style>.*?</style>', f'<style>{CLEAN_CSS}</style>', content, flags=re.DOTALL)
                     if 'class="header-branding"' not in content and 'class="header"' in content:
                          content = content.replace('<div style="display:flex;align-items:center">', '<div class="header-branding">')
+                    # ADD HOME BUTTON IF MISSING
+                    if 'class="btn-home"' not in content and 'class="header-tools"' in content:
+                        content = content.replace('<div class="header-tools">', '<div class="header-tools"><a href="../index.html" class="btn-home">🏠 Dashboard</a>')
+                    
                     with open(fp, "w", encoding="utf-8") as file:
                         file.write(content)
                     count += 1
