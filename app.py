@@ -129,24 +129,55 @@ def update_homepage():
     html += "</div></body></html>"
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
 
-# --- CLEAN CSS ---
+# --- IMPROVED CSS FOR NAVIGATION ---
 CLEAN_CSS = """
-    body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; }
+    body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; padding-top: 70px; }
     * { box-sizing: border-box; }
     
+    /* HIDE SIDEBAR & HOME BUTTONS COMPLETELY */
     .sidebar, .sidebar-title, .sidebar-links, .side-link, .mobile-nav, .back-home, .top-nav { display: none !important; }
     
+    /* MAIN LAYOUT */
     .main-content { margin: 0 auto; padding: 20px; max-width: 1000px; }
     
-    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }
+    /* HEADER */
+    .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
     .header-branding { display: flex; align-items: center; flex: 1; } 
     .logo { max-height: 50px; margin-right: 15px; width: auto; }
     .header-info h1 { margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }
     .meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
     
-    .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; }
+    .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; }
     
-    .race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); page-break-inside: avoid; }
+    /* STICKY NAV BAR (FIXED) */
+    .nav-bar { 
+        position: fixed; top: 0; left: 0; right: 0; 
+        background: #003366; 
+        padding: 10px 20px; 
+        z-index: 1000; 
+        display: flex; 
+        align-items: center; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .nav-label { font-weight: 700; color: #fff; margin-right: 15px; font-size: 0.9rem; }
+    .nav-btn { 
+        background: rgba(255,255,255,0.15); 
+        color: #fff; 
+        padding: 6px 12px; 
+        text-decoration: none; 
+        border-radius: 4px; 
+        font-weight: 600; 
+        font-size: 0.9rem; 
+        margin-right: 8px;
+        transition: background 0.2s;
+        border: 1px solid rgba(255,255,255,0.2);
+    }
+    .nav-btn:hover { background: #ff6b00; border-color: #ff6b00; }
+    
+    /* RACE CARDS */
+    .race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); scroll-margin-top: 80px; }
     .race-header { background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #003366; font-size: 1.1rem; }
     
     .picks-grid { display: flex; gap: 10px; padding: 15px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
@@ -166,26 +197,18 @@ CLEAN_CSS = """
     @media (max-width: 768px) {
         .main-content { padding: 10px; }
         .header { flex-direction: column; text-align: center; gap: 10px; padding: 15px; }
-        .logo { margin: 0; }
-        .header-tools { width: 100%; display: flex; justify-content: center; }
         .picks-grid { flex-direction: column; }
-        .race-header { flex-direction: column; gap: 5px; align-items: flex-start; }
     }
     
     @media print { 
-        .print-btn, .nav-bar, .mobile-nav, .back-home, .top-nav { display: none !important; } 
-        .main-content { margin: 0 !important; padding: 0 !important; max-width: 100% !important; }
-        body { background: white !important; font-size: 11pt; }
-        .header { box-shadow: none; border: none; border-bottom: 2px solid #000; padding: 0; margin-bottom: 10px; margin-top: 0; }
-        .race-section { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
-        .picks-grid { background: #fff; border: none; }
-        .pick-box { border: 1px solid #000; }
-        th { background: #eee !important; -webkit-print-color-adjust: exact; }
+        .nav-bar, .print-btn { display: none !important; } 
+        body { padding-top: 0; background: white; }
+        .race-section { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
     }
 """
 
 def generate_meeting_html(data, region_override, is_preview_mode=False):
-    """Generates CLEAN HTML with NO SIDEBAR & NO HOME BUTTON. Handles legacy pick structure."""
+    """Generates CLEAN HTML with STICKY NAV."""
     country = data.get('meta', {}).get('jurisdiction', region_override)
     track_name = data.get('meta', {}).get('track', 'Unknown Track')
     track_date = data.get('meta', {}).get('date', 'Unknown Date')
@@ -194,12 +217,16 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     logo_src, _ = get_base64_logo()
     logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
 
-    # BEST BETS LOGIC
+    # NAV LINKS GENERATION
+    nav_links = ""
+    for r in data.get('races', []):
+        r_num = r.get('number', '0')
+        nav_links += f'<a href="#race-{r_num}" class="nav-btn">Race {r_num}</a>'
+
+    # BEST BETS
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
-        
-        # Data Normalization
         selections = r.get('selections', [])
         if not selections and 'picks' in r:
             p = r['picks']
@@ -223,19 +250,14 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
         best_bets_html += '</div></div>'
 
-    nav_links = ""
-    if not is_preview_mode:
-        for r in data.get('races', []):
-            r_num = r.get('number', '0')
-            nav_links += f'<a href="#race-{r_num}" class="nav-btn">R{r_num}</a>'
-    else:
-        for r in data.get('races', []):
-            r_num = r.get('number', '0')
-            nav_links += f'<span class="nav-btn" style="cursor:default; opacity:0.7">R{r_num}</span>'
-
     html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>{CLEAN_CSS}</style></head><body>
+    
+    <div class="nav-bar">
+        <span class="nav-label">{track_name}</span>
+        {nav_links}
+    </div>
     
     <div class="main-content">
         <div class="header">
@@ -251,12 +273,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
             </div>
         </div>
         
-        {best_bets_html}
-        
-        <div class="nav-bar">
-            <span style="font-weight:700; color:#64748b; margin-right:10px;">JUMP TO:</span>
-            {nav_links}
-        </div>"""
+        {best_bets_html}"""
 
     for r in data.get('races', []):
         r_num = r.get('number', '?')
@@ -279,7 +296,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
         dang = r.get('danger_horse', {})
-        show_danger = is_valid_pick(dang) # Only show if valid
+        show_danger = is_valid_pick(dang)
         
         exacta_strat = r.get('exotic_strategy', {}).get('strategy', '')
         if not exacta_strat: exacta_strat = r.get('exotic_strategy', {}).get('exacta', '')
@@ -297,8 +314,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         html += f"""</div>
         <div class="table-container"><table><thead><tr><th>#</th><th>Horse</th><th>Reasoning / Notes</th></tr></thead><tbody>"""
         
-        # DISPLAY TOP 4 SELECTIONS
-        for s in selections[:4]:
+        for s in selections[:4]: # Display Top 4
             style = ' class="row-top"' if str(s.get('number')) == str(top.get('number')) else ''
             html += f"<tr{style}><td>{s.get('number')}</td><td>{s.get('name')}</td><td>{s.get('reason')}</td></tr>"
             
@@ -594,7 +610,7 @@ if st.session_state.data_ready:
                             'p1_num', 'p1_barrier', 'p1_name', 'p1_reason', 
                             'p2_num', 'p2_barrier', 'p2_name', 'p2_reason', 
                             'p3_num', 'p3_barrier', 'p3_name', 'p3_reason', 
-                            'p4_num', 'p4_barrier', 'p4_name', 'p4_reason', # Added 4th pick
+                            'p4_num', 'p4_barrier', 'p4_name', 'p4_reason', 
                             'danger_num', 'danger_barrier', 'danger_name', 'danger_reason',
                             'confidence', 'ai_model', 'temperature'
                         ]
@@ -612,7 +628,7 @@ if st.session_state.data_ready:
                                 selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
                                 selections = [s for s in selections if s and s.get('name')]
                             
-                            while len(selections) < 4: selections.append({}) # Ensure 4 slots
+                            while len(selections) < 4: selections.append({})
                             
                             dang = race.get('danger_horse', {})
                             
