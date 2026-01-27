@@ -46,20 +46,20 @@ def clean_json_string(json_str):
 
 def is_valid_pick(pick):
     if not pick: return False
+    # Check if it's a NoneType or empty dict
+    if pick is None: return False
     name = str(pick.get('name', '')).strip().lower()
     invalid = ['none', 'n/a', 'null', 'no danger', 'no threat', 'tbd', 'horse name', '', 'no significant danger']
     return name and name not in invalid
 
-# --- TRACK DB RECURSIVE HELPERS (THE FIX) ---
+# --- TRACK DB RECURSIVE HELPERS ---
 def get_all_tracks_from_region(data):
     """Recursively finds all track names in a nested JSON region."""
     tracks = []
     if isinstance(data, dict):
         for k, v in data.items():
-            # If it has "bias_notes" or "location", it's a TRACK
             if isinstance(v, dict) and ("bias_notes" in v or "location" in v):
                 tracks.append(k)
-            # If it's a folder (like "New_South_Wales"), dig deeper
             elif isinstance(v, dict):
                 tracks.extend(get_all_tracks_from_region(v))
     return sorted(list(set(tracks)))
@@ -129,18 +129,15 @@ def update_homepage():
     html += "</div></body></html>"
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
 
-# --- CLEAN CSS (NO SIDEBAR, CENTERED, ROBUST HEADER) ---
+# --- CLEAN CSS ---
 CLEAN_CSS = """
     body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; }
     * { box-sizing: border-box; }
     
-    /* HIDE SIDEBAR & HOME BUTTONS COMPLETELY */
     .sidebar, .sidebar-title, .sidebar-links, .side-link, .mobile-nav, .back-home, .top-nav { display: none !important; }
     
-    /* MAIN LAYOUT - CENTERED */
     .main-content { margin: 0 auto; padding: 20px; max-width: 1000px; }
     
-    /* HEADER - ROBUST LAYOUT */
     .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }
     .header-branding { display: flex; align-items: center; flex: 1; } 
     .logo { max-height: 50px; margin-right: 15px; width: auto; }
@@ -148,11 +145,6 @@ CLEAN_CSS = """
     .meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
     
     .print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; }
-    
-    /* RACES */
-    .nav-bar { background: #fff; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
-    .nav-btn { background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; }
-    .nav-btn:hover { background: #003366; color: white; border-color: #003366; }
     
     .race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); page-break-inside: avoid; }
     .race-header { background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800; color: #003366; font-size: 1.1rem; }
@@ -171,7 +163,6 @@ CLEAN_CSS = """
     .exacta-box { margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }
     .exacta-gold { background: #fffbeb; border-left-color: #fbbf24; }
 
-    /* RESPONSIVE */
     @media (max-width: 768px) {
         .main-content { padding: 10px; }
         .header { flex-direction: column; text-align: center; gap: 10px; padding: 15px; }
@@ -181,7 +172,6 @@ CLEAN_CSS = """
         .race-header { flex-direction: column; gap: 5px; align-items: flex-start; }
     }
     
-    /* PRINT OPTIMIZATION (STRICT) */
     @media print { 
         .print-btn, .nav-bar, .mobile-nav, .back-home, .top-nav { display: none !important; } 
         .main-content { margin: 0 !important; padding: 0 !important; max-width: 100% !important; }
@@ -204,20 +194,16 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     logo_src, _ = get_base64_logo()
     logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
 
-    # BEST BETS LOGIC (ROBUST VERSION)
+    # BEST BETS LOGIC
     best_bets = []
     for r in data.get('races', []):
         conf = str(r.get('confidence_level', ''))
         
-        # ----------------------------------------------------
-        # DATA NORMALIZATION: HANDLE 'SELECTIONS' VS 'PICKS'
-        # ----------------------------------------------------
+        # Data Normalization
         selections = r.get('selections', [])
         if not selections and 'picks' in r:
-            # Fallback for old JSON format
             p = r['picks']
             selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
-            # Clean up empty dicts
             selections = [s for s in selections if s and s.get('name')]
 
         if selections:
@@ -280,9 +266,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         
         is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
         
-        # ----------------------------------------------------
-        # DATA NORMALIZATION (AGAIN, PER RACE LOOP)
-        # ----------------------------------------------------
         selections = r.get('selections', [])
         if not selections and 'picks' in r:
             p = r['picks']
@@ -296,10 +279,10 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
         
         dang = r.get('danger_horse', {})
-        show_danger = is_valid_pick(dang)
+        show_danger = is_valid_pick(dang) # Only show if valid
         
         exacta_strat = r.get('exotic_strategy', {}).get('strategy', '')
-        if not exacta_strat: exacta_strat = r.get('exotic_strategy', {}).get('exacta', '') # Fallback
+        if not exacta_strat: exacta_strat = r.get('exotic_strategy', {}).get('exacta', '')
         
         exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
 
@@ -314,7 +297,8 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         html += f"""</div>
         <div class="table-container"><table><thead><tr><th>#</th><th>Horse</th><th>Reasoning / Notes</th></tr></thead><tbody>"""
         
-        for s in selections[:3]:
+        # DISPLAY TOP 4 SELECTIONS
+        for s in selections[:4]:
             style = ' class="row-top"' if str(s.get('number')) == str(top.get('number')) else ''
             html += f"<tr{style}><td>{s.get('number')}</td><td>{s.get('name')}</td><td>{s.get('reason')}</td></tr>"
             
@@ -350,7 +334,7 @@ if st.sidebar.button("🔄 Sync Nav & Deploy"):
         st.sidebar.success("Deploying...")
     except: st.sidebar.error("Deploy script missing.")
 
-# --- AGGRESSIVE FIXER (UPDATED FOR HEADER PROTECTION) ---
+# --- AGGRESSIVE FIXER ---
 if st.sidebar.button("🛠️ Fix Legacy Layouts"):
     count = 0
     with st.spinner("Removing Home buttons and Sidebars, protecting Headers..."):
@@ -360,25 +344,14 @@ if st.sidebar.button("🛠️ Fix Legacy Layouts"):
                 try:
                     with open(fp, "r", encoding="utf-8") as file:
                         content = file.read()
-                    
-                    # 1. REMOVE OLD SIDEBAR
                     content = re.sub(r'<div class="sidebar">.*?</div>', '', content, flags=re.DOTALL)
-                    
-                    # 2. REMOVE "RACE MEETINGS" TEXT DUMP
                     content = re.sub(r'RACE MEETINGS.*?2026\)', '', content, flags=re.DOTALL)
-                    
-                    # 3. REMOVE "TOP NAV" and "HOME BUTTONS"
                     content = re.sub(r'<div class="top-nav">.*?</div>', '', content, flags=re.DOTALL)
                     content = re.sub(r'<a href=.*?class="mobile-nav".*?>.*?</a>', '', content, flags=re.DOTALL)
                     content = re.sub(r'<a href=.*?class="back-home".*?>.*?</a>', '', content, flags=re.DOTALL)
-                    
-                    # 4. REPLACE CSS WITH CLEAN CSS
                     content = re.sub(r'<style>.*?</style>', f'<style>{CLEAN_CSS}</style>', content, flags=re.DOTALL)
-                    
-                    # 5. ENSURE HEADER BRANDING WRAPPER EXISTS (Fixes collapsed headers)
                     if 'class="header-branding"' not in content and 'class="header"' in content:
                          content = content.replace('<div style="display:flex;align-items:center">', '<div class="header-branding">')
-                    
                     with open(fp, "w", encoding="utf-8") as file:
                         file.write(content)
                     count += 1
@@ -421,7 +394,6 @@ try:
     with open(os.path.join(DATA_DIR, "track_db.json"), "r") as f: track_db = json.load(f)
 except: pass
 
-# MAPPING REGIONS TO JSON KEYS
 REGION_MAP = {
     "Australia": "Australia_Thoroughbred",
     "USA (Thoroughbred)": "USA_Thoroughbred",
@@ -433,7 +405,6 @@ REGION_MAP = {
     "Europe (Harness)": "Europe_Harness"
 }
 
-# Country selection
 country_options = list(REGION_MAP.keys())
 selected_country_label = st.sidebar.selectbox("Region/Type", country_options)
 selected_country_key = REGION_MAP[selected_country_label]
@@ -441,9 +412,8 @@ selected_country_key = REGION_MAP[selected_country_label]
 selected_track_data = None
 selected_track_name = "Unknown"
 
-# --- FLATTEN TRACK LIST (THE FIX) ---
+# --- FLATTEN TRACK LIST ---
 if track_db and selected_country_key in track_db:
-    # Use the helper to find ALL tracks in this region (including nested ones)
     track_list = get_all_tracks_from_region(track_db[selected_country_key])
     track_list = ["Other (Manual Entry)"] + track_list
     selected_track_name = st.sidebar.selectbox("Track", track_list)
@@ -456,7 +426,6 @@ if track_db and selected_country_key in track_db:
             "passing_lane": has_passing_lane
         }
     else:
-        # Use helper to FIND the specific track object deep in the JSON
         selected_track_data = find_track_data(track_db[selected_country_key], selected_track_name)
 
 # --- SYSTEM LOGIC SELECTOR ---
@@ -476,14 +445,9 @@ else:
     region_code = "International" 
     system_file = "system_aus.md"
 
-# Fallback if file doesn't exist
 if not os.path.exists(os.path.join(LOGIC_DIR, system_file)): 
-    # Try generic fallback
-    if "Harness" in region_code:
-         # Write default harness logic if missing
-         pass # Assume user will create it or use existing logic
-    else:
-         system_file = "system_usa.md" # Default fallback
+    if "Harness" not in region_code:
+         system_file = "system_usa.md"
 
 # --- MAIN PAGE ---
 st.title(f"🏆 Exacta AI: {selected_track_name}")
@@ -537,7 +501,8 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                       "selections": [
                         {{ "number": "1", "barrier": "4", "name": "Horse A", "reason": "Detailed reasoning..." }},
                         {{ "number": "2", "barrier": "2", "name": "Horse B", "reason": "Detailed reasoning..." }},
-                        {{ "number": "3", "barrier": "9", "name": "Horse C", "reason": "Detailed reasoning..." }}
+                        {{ "number": "3", "barrier": "9", "name": "Horse C", "reason": "Detailed reasoning..." }},
+                        {{ "number": "4", "barrier": "5", "name": "Horse D", "reason": "Detailed reasoning..." }}
                       ],
                       "danger_horse": {{ "number": "4", "barrier": "1", "name": "Horse D", "reason": "Why it is a threat" }},
                       "exotic_strategy": {{ "strategy": "Win Bet #1, Exacta Box 1-2, Trifecta 1 / 2,3 / ALL" }}
@@ -556,10 +521,10 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 
                 [CRITICAL INSTRUCTIONS]
                 1. Start at Race 1.
-                2. Provide exactly 3 selections per race in order of preference (1st, 2nd, 3rd).
+                2. Provide exactly 4 selections per race in strict order of preference (1st, 2nd, 3rd, 4th).
                 3. EXTRACT SURFACE: Identify the surface (Dirt, Turf, Synthetic) for each race individually from the PDF.
                 4. EXTRACT BARRIER/POST: You must extract the post position (barrier) for every selection. If only one number exists, use that.
-                5. DANGER HORSE: Only list a danger horse if there is a LEGITIMATE THREAT. If none, set name to "None".
+                5. DANGER HORSE RULE: Only list a Danger Horse if there is a LEGITIMATE threat (e.g. class drop, track specialist). If the Top Pick is a standout (High Confidence) and the field is weak, set "danger_horse": null (or "None"). Do NOT force a danger horse if none exists.
                 6. STRATEGY: Provide a specific betting strategy based on confidence.
                 """
                 
@@ -629,6 +594,7 @@ if st.session_state.data_ready:
                             'p1_num', 'p1_barrier', 'p1_name', 'p1_reason', 
                             'p2_num', 'p2_barrier', 'p2_name', 'p2_reason', 
                             'p3_num', 'p3_barrier', 'p3_name', 'p3_reason', 
+                            'p4_num', 'p4_barrier', 'p4_name', 'p4_reason', # Added 4th pick
                             'danger_num', 'danger_barrier', 'danger_name', 'danger_reason',
                             'confidence', 'ai_model', 'temperature'
                         ]
@@ -640,16 +606,13 @@ if st.session_state.data_ready:
                         meta = st.session_state.json_data.get("meta", {})
                         for race in st.session_state.json_data.get("races", []):
                             
-                            # ----------------------------------------------------
-                            # DATA NORMALIZATION FOR CSV (PER RACE)
-                            # ----------------------------------------------------
                             selections = race.get('selections', [])
                             if not selections and 'picks' in race:
                                 p = race['picks']
                                 selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
                                 selections = [s for s in selections if s and s.get('name')]
                             
-                            while len(selections) < 3: selections.append({})
+                            while len(selections) < 4: selections.append({}) # Ensure 4 slots
                             
                             dang = race.get('danger_horse', {})
                             
@@ -675,6 +638,11 @@ if st.session_state.data_ready:
                                 'p3_barrier': selections[2].get('barrier', ''),
                                 'p3_name': selections[2].get('name', ''),
                                 'p3_reason': selections[2].get('reason', ''),
+
+                                'p4_num': selections[3].get('number', ''),
+                                'p4_barrier': selections[3].get('barrier', ''),
+                                'p4_name': selections[3].get('name', ''),
+                                'p4_reason': selections[3].get('reason', ''),
                                 
                                 'danger_num': dang.get('number', ''),
                                 'danger_barrier': dang.get('barrier', ''),
