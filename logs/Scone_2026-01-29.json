@@ -7,94 +7,126 @@
     "races": [
         {
             "number": 1,
+            "distance": "900m",
+            "surface": "Turf",
             "confidence_level": "High (4.5 Stars)",
-            "analysis_summary": "A field of first starters where trial form is king. Better By Far represents the elite Waterhouse/Bott stable and won a Randwick trial by nearly 3 lengths. This is a significant class edge over local country horses.",
+            "analysis_summary": "Waterhouse/Bott 2YO making debut. Won trial at Randwick in fast time. The 'Unexposed Elite' protocol applies here strongly. Looks a class above this field.",
             "picks": {
                 "top_pick": {
                     "number": "3",
                     "name": "Better By Far",
                     "rating": 105,
-                    "reason": "Waterhouse/Bott 2yo with dominant trial win at Randwick. 'Unexposed Elite' protocol applies."
+                    "reason": "Waterhouse/Bott 2YO, won Randwick trial, elite stable placement."
                 },
                 "danger_horse": {
-                    "number": "2",
-                    "name": "Savage Look",
-                    "rating": 96,
-                    "reason": "Local trainer Rodney Northam has excellent strike rate with 2yos. Won trial well."
+                    "number": "6",
+                    "name": "Sambuca Sky",
+                    "rating": 94,
+                    "reason": "Nathan Doyle stable, solid trial form."
                 },
                 "value_bet": {
-                    "number": "5",
-                    "name": "Rubelin",
-                    "odds": "$11.00",
-                    "reason": "Drawn barrier 1 and won a trial at Dubbo. Could pinch a place at odds."
+                    "number": "2",
+                    "name": "Savage Look",
+                    "odds": "$10.00",
+                    "reason": "Won trial at Muswellbrook, local stable respect."
                 },
                 "fourth_pick": {
-                    "number": "6",
-                    "name": "Sambuca Sky"
+                    "number": "5",
+                    "name": "Rubelin"
                 }
             },
             "exotic_strategy": {
                 "exacta": "3 / 2, 5, 6",
                 "trifecta": "3 / 2, 5, 6 / 2, 4, 5, 6",
-                "rationale": "Keying #3 to win. It should be too fast and too professional for these."
+                "rationale": "Keying #3 to win. It should be too fast."
             },
             "contenders": [
                 {
                     "number": "3",
                     "name": "Better By Far",
                     "barrier": "7",
-                    "weight": "123",
+                    "jockey": "Zac Wadick",
+                    "trainer": "Gai Waterhouse & Adrian Bott",
+                    "weight": "56kg",
                     "rating": 105,
-                    "probability": 45.0
-                },
-                {
-                    "number": "2",
-                    "name": "Savage Look",
-                    "barrier": "3",
-                    "weight": "128",
-                    "rating": 96,
-                    "probability": 20.0
-                },
-                {
-                    "number": "5",
-                    "name": "Rubelin",
-                    "barrier": "1",
-                    "weight": "123",
-                    "rating": 92,
-                    "probability": 12.0
+                    "win_probability": 55.0,
+                    "place_probability": 90.0,
+                    "show_probability": 95.0,
+                    "form": "Trial Won",
+                    "class_rating": 95,
+                    "speed_figure": 100
                 },
                 {
                     "number": "6",
                     "name": "Sambuca Sky",
                     "barrier": "4",
-                    "weight": "123",
-                    "rating": 90,
-                    "probability": 10.0
+                    "jockey": "Ashley Morgan",
+                    "trainer": "Nathan Doyle",
+                    "weight": "56kg",
+                    "rating": 94,
+                    "win_probability": 15.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "Trial 2nd",
+                    "class_rating": 85,
+                    "speed_figure": 90
+                },
+                {
+                    "number": "2",
+                    "name": "Savage Look",
+                    "barrier": "3",
+                    "jockey": "Reece Jones",
+                    "trainer": "Rodney Northam",
+                    "weight": "58kg",
+                    "rating": 92,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "Trial Won",
+                    "class_rating": 84,
+                    "speed_figure": 88
+                },
+                {
+                    "number": "5",
+                    "name": "Rubelin",
+                    "barrier": "1",
+                    "jockey": "Izzy Neale",
+                    "trainer": "Brett Robb",
+                    "weight": "56kg",
+                    "rating": 88,
+                    "win_probability": 8.0,
+                    "place_probability": 30.0,
+                    "show_probability": 45.0,
+                    "form": "Trial Won",
+                    "class_rating": 82,
+                    "speed_figure": 85
                 }
             ]
         },
         {
             "number": 2,
+            "distance": "2200m",
+            "surface": "Turf",
             "confidence_level": "Medium (3 Stars)",
-            "analysis_summary": "Southerly Buster drops significantly in grade from Metro/Provincial BM78/66 level to a Country BM66. Despite the weight, the class edge is distinct.",
+            "analysis_summary": "Southerly Buster drops back from BM78 grade to BM66. Strong form two back in this grade. Flaming Moon is the progressive type stepping up.",
             "picks": {
                 "top_pick": {
                     "number": "2",
                     "name": "Southerly Buster",
-                    "rating": 100,
-                    "reason": "Class dropper. Last run in BM78 grade. Massive edge in this company."
+                    "rating": 98,
+                    "reason": "Class drop from BM78, proven at this level."
                 },
                 "danger_horse": {
                     "number": "6",
                     "name": "Flaming Moon",
-                    "rating": 97,
-                    "reason": "Last start winner in BM58. Cummings stable. On an upward spiral."
+                    "rating": 96,
+                    "reason": "Last start winner, progressive mare."
                 },
                 "value_bet": {
                     "number": "7",
                     "name": "Spenzalot",
-                    "odds": "$5.00",
-                    "reason": "Consistent type who ran well at this distance range last start."
+                    "odds": "$6.00",
+                    "reason": "Consistent placegetter, maps well."
                 },
                 "fourth_pick": {
                     "number": "4",
@@ -102,450 +134,658 @@
                 }
             },
             "exotic_strategy": {
-                "exacta": "2, 6 / 2, 6, 7",
-                "trifecta": "2, 6 / 2, 4, 6, 7 / 2, 4, 6, 7, 8",
-                "rationale": "Box the top two class horses and cover the consistent #7."
+                "exacta": "2, 6 / 2, 4, 6, 7",
+                "trifecta": "2, 6 / 2, 4, 6, 7 / 2, 4, 6, 7, 9",
+                "rationale": "Box the top two in exacta, go wider in trifecta."
             },
             "contenders": [
                 {
                     "number": "2",
                     "name": "Southerly Buster",
                     "barrier": "9",
-                    "weight": "133",
-                    "rating": 100,
-                    "probability": 30.0
+                    "jockey": "Aaron Bullock",
+                    "trainer": "Scott Singleton",
+                    "weight": "60.5kg",
+                    "rating": 98,
+                    "win_probability": 30.0,
+                    "place_probability": 65.0,
+                    "show_probability": 80.0,
+                    "form": "6226",
+                    "class_rating": 92,
+                    "speed_figure": 95
                 },
                 {
                     "number": "6",
                     "name": "Flaming Moon",
                     "barrier": "1",
-                    "weight": "128",
-                    "rating": 97,
-                    "probability": 25.0
+                    "jockey": "Mitchell Bell",
+                    "trainer": "Edward Cummings",
+                    "weight": "56kg",
+                    "rating": 96,
+                    "win_probability": 28.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "71",
+                    "class_rating": 88,
+                    "speed_figure": 96
                 },
                 {
                     "number": "7",
                     "name": "Spenzalot",
                     "barrier": "2",
-                    "weight": "130",
-                    "rating": 94,
-                    "probability": 15.0
+                    "jockey": "Mikayla Weir",
+                    "trainer": "Scott Singleton",
+                    "weight": "56kg",
+                    "rating": 92,
+                    "win_probability": 15.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "322",
+                    "class_rating": 85,
+                    "speed_figure": 90
                 },
                 {
                     "number": "4",
                     "name": "She's Got Teeth",
                     "barrier": "5",
-                    "weight": "129",
-                    "rating": 92,
-                    "probability": 12.0
+                    "jockey": "Grant Buckley",
+                    "trainer": "Terry Wicks",
+                    "weight": "56.5kg",
+                    "rating": 90,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "2601",
+                    "class_rating": 86,
+                    "speed_figure": 89
                 }
             ]
         },
         {
             "number": 3,
-            "confidence_level": "High (4 Stars)",
-            "analysis_summary": "Are You Kidding brings the lethal Messara/Bullock combination to a country maiden. Ran 2nd on debut and should improve sharply.",
+            "distance": "1100m",
+            "surface": "Turf",
+            "confidence_level": "Medium (3.5 Stars)",
+            "analysis_summary": "Messara/Gavranich stable at Scone is a dominant force. Are You Kidding ran well on debut and should improve. On One is a trial winner from the Cavanough yard.",
             "picks": {
                 "top_pick": {
                     "number": "3",
                     "name": "Are You Kidding",
-                    "rating": 102,
-                    "reason": "Messara/Bullock combination at Scone is striking at >30%. Strong debut 2nd."
+                    "rating": 100,
+                    "reason": "Local specialist stable, strong debut 2nd."
                 },
                 "danger_horse": {
-                    "number": "8",
-                    "name": "Zo Frilling",
-                    "rating": 95,
-                    "reason": "Resuming with solid form references. Placed in stronger maidens previously."
-                },
-                "value_bet": {
                     "number": "6",
                     "name": "On One",
-                    "odds": "$16.00",
-                    "reason": "First starter from Cavanough yard who won a trial. Watch market."
+                    "rating": 95,
+                    "reason": "Trial winner, Cavanough stable respected."
+                },
+                "value_bet": {
+                    "number": "12",
+                    "name": "Silent Serenade",
+                    "odds": "$8.00",
+                    "reason": "Consistent form, placed 3 of 4."
                 },
                 "fourth_pick": {
-                    "number": "12",
-                    "name": "Silent Serenade"
+                    "number": "8",
+                    "name": "Zo Frilling"
                 }
             },
             "exotic_strategy": {
                 "exacta": "3 / 6, 8, 12",
-                "trifecta": "3 / 6, 8, 12 / 1, 6, 8, 10, 12",
-                "rationale": "Banker #3. The stable does not miss often in these races."
+                "trifecta": "3 / 6, 8, 12 / 1, 6, 8, 12",
+                "rationale": "Banker #3."
             },
             "contenders": [
                 {
                     "number": "3",
                     "name": "Are You Kidding",
                     "barrier": "14",
-                    "weight": "128",
-                    "rating": 102,
-                    "probability": 40.0
-                },
-                {
-                    "number": "8",
-                    "name": "Zo Frilling",
-                    "barrier": "5",
-                    "weight": "126",
-                    "rating": 95,
-                    "probability": 18.0
+                    "jockey": "Aaron Bullock",
+                    "trainer": "Paul Messara & Leah Gavranich",
+                    "weight": "57.5kg",
+                    "rating": 100,
+                    "win_probability": 35.0,
+                    "place_probability": 70.0,
+                    "show_probability": 85.0,
+                    "form": "2",
+                    "class_rating": 90,
+                    "speed_figure": 98
                 },
                 {
                     "number": "6",
                     "name": "On One",
                     "barrier": "6",
-                    "weight": "127",
-                    "rating": 90,
-                    "probability": 10.0
+                    "jockey": "Mitchell Bell",
+                    "trainer": "Brett & Georgie Cavanough",
+                    "weight": "57.5kg",
+                    "rating": 95,
+                    "win_probability": 20.0,
+                    "place_probability": 50.0,
+                    "show_probability": 65.0,
+                    "form": "Trial Won",
+                    "class_rating": 85,
+                    "speed_figure": 92
                 },
                 {
                     "number": "12",
                     "name": "Silent Serenade",
                     "barrier": "1",
-                    "weight": "122",
-                    "rating": 88,
-                    "probability": 8.0
+                    "jockey": "Reece Jones",
+                    "trainer": "Tim Mcintosh",
+                    "weight": "55.5kg",
+                    "rating": 92,
+                    "win_probability": 15.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "233",
+                    "class_rating": 84,
+                    "speed_figure": 90
+                },
+                {
+                    "number": "8",
+                    "name": "Zo Frilling",
+                    "barrier": "5",
+                    "jockey": "Ashley Morgan",
+                    "trainer": "Nikki Pollock",
+                    "weight": "57kg",
+                    "rating": 90,
+                    "win_probability": 10.0,
+                    "place_probability": 35.0,
+                    "show_probability": 50.0,
+                    "form": "x4x",
+                    "class_rating": 82,
+                    "speed_figure": 88
                 }
             ]
         },
         {
             "number": 4,
-            "confidence_level": "Medium (3.5 Stars)",
-            "analysis_summary": "St Faith's contested a Listed race on debut. Even finishing down the track, that class experience is superior to a country maiden field.",
+            "distance": "900m",
+            "surface": "Turf",
+            "confidence_level": "Medium (3 Stars)",
+            "analysis_summary": "St Faith's resumes for the Archibald stable. Showed ability on debut in a Listed race (though beaten far) and a maiden placing. Short trip suits fresh.",
             "picks": {
                 "top_pick": {
                     "number": "5",
                     "name": "St Faith's",
                     "rating": 98,
-                    "reason": "Debuted in the Listed Woodlands Stakes. Drops to a country maiden. Huge class edge."
+                    "reason": "Resuming, placed on debut, stable quality."
                 },
                 "danger_horse": {
                     "number": "1",
                     "name": "Proclivity",
                     "rating": 96,
-                    "reason": "Bullock rides. Placed at Newcastle previously. Strong contender."
+                    "reason": "Placed at Newcastle, strong form lines."
                 },
                 "value_bet": {
-                    "number": "11",
-                    "name": "Straight South",
-                    "odds": "$20.00",
-                    "reason": "Improved 2nd last start. Getting closer."
+                    "number": "3",
+                    "name": "Diva Rouge",
+                    "odds": "$7.00",
+                    "reason": "Placed at track/distance previously."
                 },
                 "fourth_pick": {
-                    "number": "8",
-                    "name": "Perfect Force"
+                    "number": "11",
+                    "name": "Straight South"
                 }
             },
             "exotic_strategy": {
-                "exacta": "1, 5 / 1, 5, 8, 11",
-                "trifecta": "1, 5 / 1, 5, 8, 11 / 1, 5, 8, 11",
-                "rationale": "Two horse race between the class runners #1 and #5."
+                "exacta": "1, 5 / 1, 3, 5, 11",
+                "trifecta": "1, 5 / 1, 3, 5, 11 / 1, 3, 5, 11",
+                "rationale": "Box top two with savers."
             },
             "contenders": [
                 {
                     "number": "5",
                     "name": "St Faith's",
                     "barrier": "11",
-                    "weight": "122",
+                    "jockey": "Mitchell Bell",
+                    "trainer": "Annabel & Rob Archibald",
+                    "weight": "57.5kg",
                     "rating": 98,
-                    "probability": 35.0
+                    "win_probability": 32.0,
+                    "place_probability": 65.0,
+                    "show_probability": 80.0,
+                    "form": "26x",
+                    "class_rating": 88,
+                    "speed_figure": 95
                 },
                 {
                     "number": "1",
                     "name": "Proclivity",
                     "barrier": "8",
-                    "weight": "130",
+                    "jockey": "Aaron Bullock",
+                    "trainer": "Brett & Georgie Cavanough",
+                    "weight": "59kg",
                     "rating": 96,
-                    "probability": 30.0
+                    "win_probability": 28.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "266x",
+                    "class_rating": 87,
+                    "speed_figure": 94
+                },
+                {
+                    "number": "3",
+                    "name": "Diva Rouge",
+                    "barrier": "7",
+                    "jockey": "Jenny Duggan",
+                    "trainer": "Jake Hull",
+                    "weight": "57.5kg",
+                    "rating": 90,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "34x",
+                    "class_rating": 84,
+                    "speed_figure": 88
                 },
                 {
                     "number": "11",
                     "name": "Straight South",
                     "barrier": "2",
-                    "weight": "126",
+                    "jockey": "Izzy Neale",
+                    "trainer": "Alex Martyn",
+                    "weight": "55.5kg",
                     "rating": 88,
-                    "probability": 10.0
-                },
-                {
-                    "number": "8",
-                    "name": "Perfect Force",
-                    "barrier": "5",
-                    "weight": "123",
-                    "rating": 87,
-                    "probability": 8.0
+                    "win_probability": 8.0,
+                    "place_probability": 30.0,
+                    "show_probability": 45.0,
+                    "form": "520",
+                    "class_rating": 82,
+                    "speed_figure": 86
                 }
             ]
         },
         {
             "number": 5,
-            "confidence_level": "Medium (3 Stars)",
-            "analysis_summary": "Almonzo brings strong Newcastle form to Scone. The Lees/Bullock combination is formidable in this region.",
+            "distance": "1400m",
+            "surface": "Turf",
+            "confidence_level": "High (4 Stars)",
+            "analysis_summary": "Master Zous drops significantly in class from Metro maidens to a Country maiden. Ran 2nd at Canterbury two starts back. That form is superior.",
             "picks": {
                 "top_pick": {
-                    "number": "1",
-                    "name": "Almonzo",
-                    "rating": 99,
-                    "reason": "Kris Lees & Aaron Bullock. Placed at Newcastle (Provincial) which is superior form."
+                    "number": "5",
+                    "name": "Master Zous",
+                    "rating": 102,
+                    "reason": "Provincial Tax reverse - dropping from Metro to Country. 2nd at Canterbury is gold form."
                 },
                 "danger_horse": {
                     "number": "4",
                     "name": "Canadian Fling",
                     "rating": 97,
-                    "reason": "Waterhouse/Bott runner. Placed at Gosford last start. Will be on pace."
+                    "reason": "Waterhouse/Bott runner, 3rd at Gosford."
                 },
                 "value_bet": {
-                    "number": "5",
-                    "name": "Master Zous",
-                    "odds": "$3.50",
-                    "reason": "Ran 2nd at Canterbury (Metro) two starts back. That form wins this."
+                    "number": "10",
+                    "name": "Savanna Golden Boy",
+                    "odds": "$8.50",
+                    "reason": "2nd at Gosford last start, improving."
                 },
                 "fourth_pick": {
-                    "number": "10",
-                    "name": "Savanna Golden Boy"
+                    "number": "1",
+                    "name": "Almonzo"
                 }
             },
             "exotic_strategy": {
-                "exacta": "Box 1, 4, 5",
-                "trifecta": "1, 4, 5 / 1, 4, 5 / 1, 4, 5, 7, 10",
-                "rationale": "Strong trio at the top. Box them."
+                "exacta": "5 / 1, 4, 10",
+                "trifecta": "5 / 1, 4, 10 / 1, 2, 4, 7, 10",
+                "rationale": "Master Zous is the clear standout on class."
             },
             "contenders": [
                 {
-                    "number": "1",
-                    "name": "Almonzo",
-                    "barrier": "6",
-                    "weight": "130",
-                    "rating": 99,
-                    "probability": 28.0
+                    "number": "5",
+                    "name": "Master Zous",
+                    "barrier": "8",
+                    "jockey": "Lee Magorrian",
+                    "trainer": "Sara Ryan",
+                    "weight": "58kg",
+                    "rating": 102,
+                    "win_probability": 40.0,
+                    "place_probability": 80.0,
+                    "show_probability": 90.0,
+                    "form": "025",
+                    "class_rating": 95,
+                    "speed_figure": 100
                 },
                 {
                     "number": "4",
                     "name": "Canadian Fling",
                     "barrier": "11",
-                    "weight": "128",
+                    "jockey": "Zac Wadick",
+                    "trainer": "Gai Waterhouse & Adrian Bott",
+                    "weight": "58kg",
                     "rating": 97,
-                    "probability": 25.0
-                },
-                {
-                    "number": "5",
-                    "name": "Master Zous",
-                    "barrier": "8",
-                    "weight": "128",
-                    "rating": 96,
-                    "probability": 22.0
+                    "win_probability": 25.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "3",
+                    "class_rating": 90,
+                    "speed_figure": 94
                 },
                 {
                     "number": "10",
                     "name": "Savanna Golden Boy",
                     "barrier": "9",
-                    "weight": "123",
+                    "jockey": "Chad Lever",
+                    "trainer": "Daniel Robinson",
+                    "weight": "55.5kg",
+                    "rating": 92,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "942",
+                    "class_rating": 85,
+                    "speed_figure": 89
+                },
+                {
+                    "number": "1",
+                    "name": "Almonzo",
+                    "barrier": "6",
+                    "jockey": "Aaron Bullock",
+                    "trainer": "Kris Lees",
+                    "weight": "59kg",
                     "rating": 90,
-                    "probability": 10.0
+                    "win_probability": 10.0,
+                    "place_probability": 35.0,
+                    "show_probability": 50.0,
+                    "form": "36x",
+                    "class_rating": 84,
+                    "speed_figure": 88
                 }
             ]
         },
         {
             "number": 6,
-            "confidence_level": "Low (2 Stars)",
-            "analysis_summary": "Open race. Shutter drops from Class 3 to BM58 and maps well. Ghaznavi is consistent in this grade.",
+            "distance": "1600m",
+            "surface": "Turf",
+            "confidence_level": "Medium (3 Stars)",
+            "analysis_summary": "Shutter drops in class from a CL3 to BM58. Ran 4th in that higher grade. Ghaznavi is consistent and brings solid form.",
             "picks": {
                 "top_pick": {
                     "number": "3",
                     "name": "Shutter",
-                    "rating": 94,
-                    "reason": "Ran 4th in a Class 3 last start. Drops to BM58. Proven at track."
+                    "rating": 98,
+                    "reason": "Class drop from CL3, 4th last start was good."
                 },
                 "danger_horse": {
                     "number": "5",
                     "name": "Ghaznavi",
-                    "rating": 93,
-                    "reason": "Runner-up in this grade last start. Consistent."
+                    "rating": 96,
+                    "reason": "Consistent, 2nd last start in this grade."
                 },
                 "value_bet": {
-                    "number": "2",
-                    "name": "Big Short",
-                    "odds": "$10.00",
-                    "reason": "Drops from BM66. Has won 3 times on Good tracks."
+                    "number": "8",
+                    "name": "Questionable",
+                    "odds": "$6.00",
+                    "reason": "2nd in CL1, racing well."
                 },
                 "fourth_pick": {
-                    "number": "8",
-                    "name": "Questionable"
+                    "number": "1",
+                    "name": "Dwayne"
                 }
             },
             "exotic_strategy": {
-                "exacta": "3, 5 / 2, 3, 5, 8",
-                "trifecta": "3, 5 / 2, 3, 5, 8 / 2, 3, 4, 5, 8, 9",
-                "rationale": "Wide open race. Go wide in exotics."
+                "exacta": "3, 5 / 1, 3, 5, 8",
+                "trifecta": "3, 5 / 1, 3, 5, 8 / 1, 2, 3, 5, 8",
+                "rationale": "Focus on the class runners #3 and #5."
             },
             "contenders": [
                 {
                     "number": "3",
                     "name": "Shutter",
                     "barrier": "10",
-                    "weight": "132",
-                    "rating": 94,
-                    "probability": 22.0
+                    "jockey": "Deon Le Roux",
+                    "trainer": "Lou Mary",
+                    "weight": "60kg",
+                    "rating": 98,
+                    "win_probability": 28.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "1x4",
+                    "class_rating": 92,
+                    "speed_figure": 96
                 },
                 {
                     "number": "5",
                     "name": "Ghaznavi",
                     "barrier": "5",
-                    "weight": "131",
-                    "rating": 93,
-                    "probability": 20.0
+                    "jockey": "Jenny Duggan",
+                    "trainer": "Cameron Crockett",
+                    "weight": "59.5kg",
+                    "rating": 96,
+                    "win_probability": 25.0,
+                    "place_probability": 55.0,
+                    "show_probability": 70.0,
+                    "form": "72",
+                    "class_rating": 90,
+                    "speed_figure": 94
                 },
                 {
-                    "number": "2",
-                    "name": "Big Short",
-                    "barrier": "2",
-                    "weight": "133",
-                    "rating": 91,
-                    "probability": 15.0
+                    "number": "1",
+                    "name": "Dwayne",
+                    "barrier": "13",
+                    "jockey": "Liberty Smyth",
+                    "trainer": "Nathan Doyle",
+                    "weight": "62.5kg",
+                    "rating": 93,
+                    "win_probability": 15.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "21",
+                    "class_rating": 88,
+                    "speed_figure": 92
                 },
                 {
                     "number": "8",
                     "name": "Questionable",
                     "barrier": "1",
-                    "weight": "126",
-                    "rating": 90,
-                    "probability": 12.0
+                    "jockey": "Chelsea Hillier",
+                    "trainer": "Rodney Northam",
+                    "weight": "57kg",
+                    "rating": 91,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "52",
+                    "class_rating": 86,
+                    "speed_figure": 90
                 }
             ]
         },
         {
             "number": 7,
+            "distance": "1200m",
+            "surface": "Turf",
             "confidence_level": "Medium (3 Stars)",
-            "analysis_summary": "Vierville resumes with a big weight but brings superior class (Metro/Provincial form). Quick Sharp is a last start winner in this grade.",
+            "analysis_summary": "Quick Sharp won well last start in BM58 grade. Mirai San is consistent in CL1. Vierville resumes for Cavanough.",
             "picks": {
                 "top_pick": {
-                    "number": "2",
-                    "name": "Vierville",
-                    "rating": 98,
-                    "reason": "Resuming. Has won fresh before. Class above these despite the 62.5kg (after claim)."
-                },
-                "danger_horse": {
                     "number": "5",
                     "name": "Quick Sharp",
-                    "rating": 96,
-                    "reason": "Last start winner in this grade. Northam stable flying."
+                    "rating": 97,
+                    "reason": "Last start winner in this grade, improving."
                 },
-                "value_bet": {
+                "danger_horse": {
                     "number": "4",
                     "name": "Mirai San",
-                    "odds": "$4.50",
-                    "reason": "Consistent. Placed last two. Maps well."
+                    "rating": 95,
+                    "reason": "Consistent, 2nd last start in CL1."
+                },
+                "value_bet": {
+                    "number": "2",
+                    "name": "Vierville",
+                    "odds": "$6.00",
+                    "reason": "Resuming for strong stable, has ability."
                 },
                 "fourth_pick": {
-                    "number": "1",
-                    "name": "Iknowyou"
+                    "number": "10",
+                    "name": "Shine Your Light"
                 }
             },
             "exotic_strategy": {
-                "exacta": "2, 5 / 1, 2, 4, 5",
-                "trifecta": "2, 5 / 1, 2, 4, 5 / 1, 2, 4, 5, 6",
-                "rationale": "Class runners to the fore."
+                "exacta": "4, 5 / 2, 4, 5, 10",
+                "trifecta": "4, 5 / 2, 4, 5, 10 / 2, 4, 5, 9, 10",
+                "rationale": "Quick Sharp and Mirai San look the reliable pair."
             },
             "contenders": [
-                {
-                    "number": "2",
-                    "name": "Vierville",
-                    "barrier": "2",
-                    "weight": "137",
-                    "rating": 98,
-                    "probability": 28.0
-                },
                 {
                     "number": "5",
                     "name": "Quick Sharp",
                     "barrier": "1",
-                    "weight": "134",
-                    "rating": 96,
-                    "probability": 25.0
+                    "jockey": "Leeshelle Small",
+                    "trainer": "Rodney Northam",
+                    "weight": "61kg",
+                    "rating": 97,
+                    "win_probability": 28.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "31",
+                    "class_rating": 90,
+                    "speed_figure": 95
                 },
                 {
                     "number": "4",
                     "name": "Mirai San",
                     "barrier": "11",
-                    "weight": "134",
-                    "rating": 94,
-                    "probability": 18.0
+                    "jockey": "Ella Drew",
+                    "trainer": "Scott Singleton",
+                    "weight": "61kg",
+                    "rating": 95,
+                    "win_probability": 22.0,
+                    "place_probability": 50.0,
+                    "show_probability": 65.0,
+                    "form": "32",
+                    "class_rating": 88,
+                    "speed_figure": 93
                 },
                 {
-                    "number": "1",
-                    "name": "Iknowyou",
-                    "barrier": "6",
-                    "weight": "137",
-                    "rating": 92,
-                    "probability": 12.0
+                    "number": "2",
+                    "name": "Vierville",
+                    "barrier": "2",
+                    "jockey": "Mitchell Bell",
+                    "trainer": "Brett & Georgie Cavanough",
+                    "weight": "62kg",
+                    "rating": 93,
+                    "win_probability": 18.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "4x",
+                    "class_rating": 89,
+                    "speed_figure": 90
+                },
+                {
+                    "number": "10",
+                    "name": "Shine Your Light",
+                    "barrier": "13",
+                    "jockey": "Gabrielle Johnston",
+                    "trainer": "John Ramsey",
+                    "weight": "59kg",
+                    "rating": 90,
+                    "win_probability": 12.0,
+                    "place_probability": 40.0,
+                    "show_probability": 55.0,
+                    "form": "63",
+                    "class_rating": 85,
+                    "speed_figure": 88
                 }
             ]
         },
         {
             "number": 8,
-            "confidence_level": "Medium (3 Stars)",
-            "analysis_summary": "Beyond My Ken was narrowly beaten carrying big weight last start. Super Freds drops massively in class from BM74 to BM58.",
+            "distance": "900m",
+            "surface": "Turf",
+            "confidence_level": "High (4 Stars)",
+            "analysis_summary": "Super Freds drops massively in class from BM74/68 to BM58. Despite the weight, he should be too classy. Beyond My Ken is the danger.",
             "picks": {
                 "top_pick": {
-                    "number": "1",
-                    "name": "Beyond My Ken",
-                    "rating": 97,
-                    "reason": "Carried 138lbs (62.5kg) last start and missed by a nose. Tough horse."
-                },
-                "danger_horse": {
                     "number": "3",
                     "name": "Super Freds",
-                    "rating": 96,
-                    "reason": "Drops from BM74/68 grade. This is a huge class drop to BM58."
+                    "rating": 105,
+                    "reason": "Massive class drop (BM74 -> BM58). Rating 137 is superior."
+                },
+                "danger_horse": {
+                    "number": "1",
+                    "name": "Beyond My Ken",
+                    "rating": 98,
+                    "reason": "2nd last start, consistent form."
                 },
                 "value_bet": {
-                    "number": "6",
-                    "name": "Bent As Hell",
-                    "odds": "$20.00",
-                    "reason": "Resuming. Has ability and draws well."
+                    "number": "5",
+                    "name": "Signatories",
+                    "odds": "$8.00",
+                    "reason": "Resuming, won fresh previously."
                 },
                 "fourth_pick": {
-                    "number": "2",
-                    "name": "Ran Na Lady"
+                    "number": "6",
+                    "name": "Bent As Hell"
                 }
             },
             "exotic_strategy": {
-                "exacta": "1, 3 / 1, 2, 3, 6",
-                "trifecta": "1, 3 / 1, 2, 3, 6 / 1, 2, 3, 6, 7",
-                "rationale": "Top two have a clear ratings edge."
+                "exacta": "3 / 1, 5, 6",
+                "trifecta": "3 / 1, 5, 6 / 1, 4, 5, 6, 7",
+                "rationale": "Super Freds is the class runner to anchor."
             },
             "contenders": [
-                {
-                    "number": "1",
-                    "name": "Beyond My Ken",
-                    "barrier": "8",
-                    "weight": "140",
-                    "rating": 97,
-                    "probability": 30.0
-                },
                 {
                     "number": "3",
                     "name": "Super Freds",
                     "barrier": "1",
-                    "weight": "137",
-                    "rating": 96,
-                    "probability": 28.0
+                    "jockey": "Shannen Llewellyn",
+                    "trainer": "Jay Hopkins",
+                    "weight": "62kg",
+                    "rating": 105,
+                    "win_probability": 40.0,
+                    "place_probability": 80.0,
+                    "show_probability": 90.0,
+                    "form": "230",
+                    "class_rating": 98,
+                    "speed_figure": 102
+                },
+                {
+                    "number": "1",
+                    "name": "Beyond My Ken",
+                    "barrier": "8",
+                    "jockey": "Ella Drew",
+                    "trainer": "Scott Singleton",
+                    "weight": "63.5kg",
+                    "rating": 98,
+                    "win_probability": 25.0,
+                    "place_probability": 60.0,
+                    "show_probability": 75.0,
+                    "form": "72",
+                    "class_rating": 90,
+                    "speed_figure": 95
+                },
+                {
+                    "number": "5",
+                    "name": "Signatories",
+                    "barrier": "13",
+                    "jockey": "Mitchell Bell",
+                    "trainer": "Brett & Georgie Cavanough",
+                    "weight": "61.5kg",
+                    "rating": 94,
+                    "win_probability": 15.0,
+                    "place_probability": 45.0,
+                    "show_probability": 60.0,
+                    "form": "7x",
+                    "class_rating": 88,
+                    "speed_figure": 92
                 },
                 {
                     "number": "6",
                     "name": "Bent As Hell",
                     "barrier": "4",
-                    "weight": "132",
+                    "jockey": "Christian Reith",
+                    "trainer": "Rodney Ollerton",
+                    "weight": "60kg",
                     "rating": 90,
-                    "probability": 12.0
-                },
-                {
-                    "number": "2",
-                    "name": "Ran Na Lady",
-                    "barrier": "12",
-                    "weight": "140",
-                    "rating": 89,
-                    "probability": 10.0
+                    "win_probability": 8.0,
+                    "place_probability": 30.0,
+                    "show_probability": 45.0,
+                    "form": "36x",
+                    "class_rating": 85,
+                    "speed_figure": 88
                 }
             ]
         }
