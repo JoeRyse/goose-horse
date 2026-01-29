@@ -605,6 +605,28 @@
             "track_bias": "Low draws advantage in sprints. Handy horses preferred."
           }
         },
+        "Lingfield_Park": {
+          "location": "Lingfield, Surrey",
+          "track_type": "Polytrack (AW) + Turf",
+          "direction": "Left-handed (Counter-clockwise)",
+          "bias_notes": "The AW track is sharp and undulating with a famous downhill run into the home straight. Momentum is everything—horses must be balanced. The Turf track is also sharp and tests handling.",
+          "handicapping_angles": {
+            "track_bias_aw": "Sharp turns favor handy horses. The downhill run into the straight creates a 'slingshot' effect—closers must get moving *before* the turn.",
+            "draw_bias": "Low draws (1-4) strongly favored in sprints (5f-6f) on the AW. Wide draws are a death sentence in short races.",
+            "pace_scenario": "Tactical speed is king. Slow starters often get trapped behind horses struggling with the downhill gradient."
+          }
+        },
+        "Chelmsford_City": {
+          "location": "Chelmsford, Essex",
+          "track_type": "Polytrack (AW)",
+          "direction": "Left-handed (Counter-clockwise)",
+          "bias_notes": "A wide, galloping track with sweeping bends (formerly Great Leighs). Despite its width, it is notoriously favorable to front-runners and horses racing prominently.",
+          "handicapping_angles": {
+            "track_bias": "Strong 'Prominent' bias. It is surprisingly difficult to come from behind here, likely due to kickback severity. Leaders often don't stop.",
+            "kickback": "Severe kickback. Horses buried in the pack often resent it and spit the bit.",
+            "draw_bias": "Fairer than Lingfield due to wide bends, but you do not want to be posted 3-wide facing the breeze."
+          }
+        },
         "Southwell": {
           "location": "Nottinghamshire",
           "track_type": "Tapeta (New) / Formerly Fibresand",
