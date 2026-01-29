@@ -237,7 +237,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     
     best_bets_html = ""
     if best_bets:
-        best_bets_html = '<div style="background:#fffbeb; border:2px solid #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;">'
+        best_bets_html = '<div class="prime-bets" style="background:#fffbeb; border:2px solid #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;">'
         best_bets_html += '<h2 style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex; align-items:center;">🔥 <span style="margin-left:8px">PRIME BETS</span></h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;">'
         for bb in best_bets[:3]:
             best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
@@ -322,7 +322,7 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         else:
             html += "</tbody></table></div></div>"
     
-    html += "</div></body></html>"
+    html += "</div></div></body></html>"
     return html
 
 # --- AUTO-UPDATE INDEX ON START ---
@@ -368,9 +368,16 @@ if st.sidebar.button("🛠️ Fix Legacy Layouts"):
                     if 'class="header-branding"' not in content and 'class="header"' in content:
                          content = content.replace('<div style="display:flex;align-items:center">', '<div class="header-branding">')
                     # ADD HOME BUTTON IF MISSING
-                    if 'class="btn-home"' not in content and 'class="header-tools"' in content:
-                        content = content.replace('<div class="header-tools">', '<div class="header-tools"><a href="../index.html" class="btn-home">🏠 Dashboard</a>')
+                    if 'class="header-branding"' not in content and 'class="header"' in content:
+                         content = content.replace('<div style="display:flex;align-items:center">', '<div class="header-branding">')
                     
+                    # 6. INJECT RACES WRAPPER (For 2-column print on old files)
+                    if 'class="races-wrapper"' not in content:
+                        # Inject start tag before the first race
+                        content = re.sub(r'(<div id="race-.*?class="race-section">)', r'<div class="races-wrapper">\1', content, count=1)
+                        # Inject end tag before body close
+                        content = content.replace('</div></body>', '</div></div></body>')
+
                     with open(fp, "w", encoding="utf-8") as file:
                         file.write(content)
                     count += 1
