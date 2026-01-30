@@ -346,6 +346,26 @@
             "track_bias": "Moderate on-pace bias.",
             "barrier_draw": "Inside barriers advantage."
           }
+        },
+        "Taree": {
+          "location": "Mid North Coast, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "350m",
+          "bias_notes": "Tight turning track. On-pace runners have an advantage, especially with the rail out.",
+          "handicapping_angles": {
+            "track_bias": "Favor leaders and horses drawing inside."
+          }
+        },
+        "Bathurst": {
+          "location": "Central West, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "380m",
+          "bias_notes": "The Billy Souaud Track. Fair surface with a decent straight. Backmarkers get their chance.",
+          "handicapping_angles": {
+            "track_bias": "Fairer than most country tracks."
+          }
         }
       }
     },
@@ -394,6 +414,19 @@
             "track_bias": "Hillside: Fair/Closer. Lakeside: On-pace."
           }
         }
+      },
+      "Provincial": {
+        "Cranbourne": {
+          "location": "Cranbourne, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "300m",
+          "bias_notes": "Large, spacious track but long turns can trap horses wide. Night racing venue.",
+          "handicapping_angles": {
+            "track_bias": "Fair, but on-pace favored when rail is out.",
+            "night_racing": "Check for form under lights."
+          }
+        }
       }
     },
     "Queensland": {
@@ -428,6 +461,16 @@
           "track_bias": "On-pace bias.",
           "barrier_draw": "Inside critical."
         }
+      },
+      "Dalby": {
+        "location": "Darling Downs, QLD",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "straight_length": "300m",
+        "bias_notes": "Tight country circuit. Leaders track, especially over short trips.",
+        "handicapping_angles": {
+          "track_bias": "Speed bias is significant."
+        }
       }
     },
     "Western_Australia": {
@@ -450,6 +493,19 @@
         "bias_notes": "Winter track. Handles wet well. Fairer than Ascot.",
         "handicapping_angles": {
           "track_bias": "Slight on-pace bias."
+        }
+      }
+    },
+    "Tasmania": {
+      "Launceston": {
+        "location": "Mowbray, Tasmania",
+        "track_type": "Turf",
+        "direction": "Counter-Clockwise",
+        "straight_length": "230m",
+        "bias_notes": "Night racing venue. Short straight makes it hard to make up ground from the back.",
+        "handicapping_angles": {
+          "track_bias": "Strong on-pace bias due to short straight.",
+          "barrier_draw": "Inside draws essential."
         }
       }
     }
@@ -541,6 +597,19 @@
         "handicapping_angles": {
           "track_bias": "Dirt: Fair with long straight. Speed slight edge.",
           "saudi_cup_notes": "Saudi Cup (1800m dirt) favors tactical speed."
+        }
+      }
+    },
+    "South_Korea": {
+      "Busan": {
+        "location": "Busan, South Korea",
+        "track_type": "Sand/Dirt",
+        "direction": "Counter-Clockwise",
+        "straight_length": "460m",
+        "bias_notes": "Left-handed. Sand surface. Long straight allows closers, but kickback is significant.",
+        "handicapping_angles": {
+          "track_bias": "Sand track. Power runners preferred.",
+          "kickback": "Avoid horses stuck on the rail behind leaders."
         }
       }
     }
@@ -703,6 +772,19 @@
         "handicapping_angles": {
           "track_bias": "Fair. Good straight."
         }
+      }
+    }
+  },
+  "New_Zealand_Thoroughbred": {
+    "Te_Rapa": {
+      "location": "Hamilton, NZ",
+      "track_type": "Turf",
+      "direction": "Counter-Clockwise",
+      "straight_length": "400m",
+      "bias_notes": "Premier Waikato track. Left-handed. Generally fair but sand-based profile drains well.",
+      "handicapping_angles": {
+        "track_bias": "Fair, but on-pace in sprint races is good.",
+        "surface": "Handles rain better than most."
       }
     }
   },
