@@ -426,6 +426,17 @@
             "track_bias": "Fair, but on-pace favored when rail is out.",
             "night_racing": "Check for form under lights."
           }
+        },
+        "Kyneton": {
+          "location": "Macedon Ranges, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "250m",
+          "bias_notes": "Tight track with a short straight. Leaders and on-pace runners have a significant advantage.",
+          "handicapping_angles": {
+            "track_bias": "Strong on-pace bias.",
+            "barrier_draw": "Inside barriers critical due to tight turns."
+          }
         }
       }
     },
@@ -471,6 +482,16 @@
         "handicapping_angles": {
           "track_bias": "Speed bias is significant."
         }
+      },
+      "Ipswich": {
+        "location": "Ipswich, QLD",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "straight_length": "300m",
+        "bias_notes": "The 'Eye Liner' track. Notoriously tight with a short straight. Leaders often win.",
+        "handicapping_angles": {
+          "track_bias": "Strong leader bias. Difficult to swoop from the back."
+        }
       }
     },
     "Western_Australia": {
@@ -493,6 +514,21 @@
         "bias_notes": "Winter track. Handles wet well. Fairer than Ascot.",
         "handicapping_angles": {
           "track_bias": "Slight on-pace bias."
+        }
+      }
+    },
+    "South_Australia": {
+      "Metropolitan": {
+        "Morphettville": {
+          "location": "Adelaide",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "334m",
+          "bias_notes": "Two tracks: Main and Parks. Main track is fair and spacious. Parks track is tighter and favors on-pace runners.",
+          "handicapping_angles": {
+            "track_bias": "Main: Fair. Parks: On-pace/Inside.",
+            "rail_position": "Rail out on Parks track exacerbates leader bias."
+          }
         }
       }
     },
