@@ -5,17 +5,24 @@ import re
 from google import genai
 from google.genai import types
 import PyPDF2
+import glob
 
 # --- CONFIGURATION ---
 DB_FILE = "racing_ledger.db"
 RESULTS_DIR = "results"
 
-# 🔑 PASTE YOUR API KEY HERE
-MY_API_KEY = "AIzaSyB-OJQdPXG7eyTxU2H84ReOtv_v-cvh7ls"
+# --- API KEY SETUP ---
+api_key = os.environ.get("GEMINI_API_KEY")
+if not api_key:
+    try:
+        # Try to find a local key file or prompt
+        api_key = input("🔑 Enter your Gemini API Key: ").strip()
+    except:
+        pass
 
 # Initialize Client
 try:
-    client = genai.Client(api_key=MY_API_KEY, http_options={'api_version': 'v1alpha'})
+    client = genai.Client(api_key=api_key, http_options={'api_version': 'v1alpha'})
 except Exception as e:
     print(f"Error initializing AI: {e}")
     exit()
@@ -119,7 +126,7 @@ def parse_results_with_ai(text):
     print("   🤖 Asking AI to extract results (this takes a few seconds)...")
     try:
         response = client.models.generate_content(
-            model='gemini-2.0-flash-exp', 
+            model='gemini-1.5-flash', 
             contents=f"{SYSTEM_PROMPT}\n\nDATA:\n{text[:50000]}", 
             config=types.GenerateContentConfig(
                 response_mime_type='application/json'
@@ -199,15 +206,20 @@ def main():
         os.makedirs(RESULTS_DIR)
         return
 
-    files = [f for f in os.listdir(RESULTS_DIR) if f.lower().endswith('.pdf')]
+    # Recursive search for PDFs
+    files = glob.glob(os.path.join(RESULTS_DIR, "**/*.pdf"), recursive=True)
     
     for filename in files:
         print(f"\n📄 Reading: {filename}...")
-        filepath = os.path.join(RESULTS_DIR, filename)
+        filepath = filename
         text = extract_text_from_pdf(filepath)
         data = parse_results_with_ai(text)
         if data:
             save_results_to_db(data)
+            
+            # Optional: Move processed files
+            # new_path = filename.replace("results", "results/processed")
+            # os.rename(filename, new_path)
 
 if __name__ == "__main__":
     main()
