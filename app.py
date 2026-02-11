@@ -422,6 +422,7 @@ except: pass
 
 REGION_MAP = {
     "Australia": "Australia_Thoroughbred",
+    "New Zealand": "New_Zealand_Thoroughbred",
     "USA (Thoroughbred)": "USA_Thoroughbred",
     "USA (Harness)": "USA_Harness",
     "Europe": "Europe_Thoroughbred",
