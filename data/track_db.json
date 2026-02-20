@@ -351,6 +351,20 @@
           "barrier_draw": "Relatively fair, though inside draws are preferred from the 1100m sprint start."
         }
       },
+      "Australian_Capital_Territory": {
+      "Canberra": {
+        "location": "Canberra, ACT",
+        "track_type": "Turf / Synthetic (Acton)",
+        "direction": "Clockwise",
+        "straight_length": "400m",
+        "bias_notes": "Thoroughbred Park features two tracks. The Course Proper (Turf) is a spacious, fair track with a 400m straight. The Acton Track (Synthetic) is used primarily in winter and often favors horses racing on the pace.",
+        "handicapping_angles": {
+          "track_bias": "Turf: Very fair, allows swoopers. Synthetic (Acton): Often favors on-pace runners and inside draws.",
+          "surface": "Always check if the meeting is on the Acton track, as synthetic form does not always translate to turf.",
+          "barrier_draw": "Inside barriers are highly advantageous on the Acton track, but less critical on the main Turf course."
+        }
+      }
+    },
       "Provincial": {
         "Newcastle": {
           "location": "Newcastle",
@@ -371,6 +385,39 @@
           "handicapping_angles": {
             "tempo": "Long straight allows backmarkers to swoop.",
             "class_factor": "Big Sydney stables dominate here."
+          }
+        },
+        "Quirindi": {
+          "location": "Quirindi, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "A challenging, undulating country track with tight turns. However, it features a long 400m home straight that gives backmarkers plenty of room to wind up.",
+          "handicapping_angles": {
+            "track_bias": "Relatively fair. While the tight corners help on-pace runners save ground, the long straight ensures swoopers get their chance.",
+            "barrier_draw": "Wide draws are a notable disadvantage from the 1400m start due to the track layout."
+          }
+        },
+        "Seymour": {
+          "location": "Seymour, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "380m",
+          "bias_notes": "A very spacious and wide track that underwent a major surface rebuild in recent years. With broad, sweeping turns and a generous 380m straight, it is known as a premium, fair galloping track.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair. The wide track layout allows every horse to get their chance. Backmarkers have plenty of time and room to swoop.",
+            "barrier_draw": "Relatively fair across all distances due to the wide circuit and long runs into the turns."
+          }
+        },
+        "Terang": {
+          "location": "Terang, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "A spacious country track with sweeping turns and a generous 400m home straight. The long run home features a slight uphill gradient, making it a genuine stamina test.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair track. The long, uphill straight gives backmarkers plenty of time to wind up and swoop, while heavily testing the fitness of front-runners.",
+            "barrier_draw": "Relatively fair across most distances due to the wide track and generous runs into the turns."
           }
         },
         "Kembla_Grange": {
