@@ -271,6 +271,18 @@
             "wet_track_notes": "Heavy tracks favor outside rail."
           }
         },
+        "Albury": {
+          "location": "Albury, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "A spacious, flat regional track located on the NSW/VIC border. It features a generous 400m home straight, making it a premium and very fair galloping surface.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair. The long straight gives backmarkers plenty of time and room to wind up and swoop, so genuine tempo in the race will favor the closers.",
+            "barrier_draw": "Generally fair across most distances due to the wide track, but inside barriers are helpful from the short 900m and 1000m sprint starts.",
+            "border_form": "Because of its location, you will frequently see Victorian horses crossing the border to race here. Always cross-reference Victorian country form against the local NSW form."
+          }
+        },
         "Nowra": {
           "location": "Nowra, NSW",
           "track_type": "Turf",
@@ -302,6 +314,17 @@
           "handicapping_angles": {
             "track_bias": "STRONG LEADER BIAS. Night racing.",
             "barrier_draw": "CRITICAL - inside barriers advantage."
+          }
+        },
+        "Warwick": {
+          "location": "Warwick, QLD",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "320m",
+          "bias_notes": "A regional country track in Queensland. It is a relatively tight circuit with a short 320m home straight, meaning horses that race prominently have a distinct tactical advantage.",
+          "handicapping_angles": {
+            "track_bias": "On-pace bias is prevalent. Horses drawn wide who have to go back early often find it too difficult to make up ground.",
+            "barrier_draw": "Inside barriers are highly advantageous, particularly in the shorter 800m to 1200m sprints."
           }
         },
         "Esperance": {
@@ -914,6 +937,20 @@
           "pace_scenario": "Genuinely run races allow closers to reel in leaders."
         }
       },
+      "Japan_Racing": {
+      "Urawa": {
+        "location": "Saitama, Japan",
+        "track_type": "Dirt",
+        "direction": "Anti-Clockwise",
+        "straight_length": "220m",
+        "bias_notes": "A small NAR dirt track featuring a very tight, flat oval and an extremely short 220m home straight. Because of this layout, early tactical speed is absolutely critical.",
+        "handicapping_angles": {
+          "track_bias": "Massive on-pace bias. Front-runners and prominent stalkers dominate here. It is incredibly difficult for backmarkers to swoop and win.",
+          "barrier_draw": "Inside barriers are highly advantageous. Saving ground around the tight turns is crucial for conserving energy.",
+          "surface": "This is a dirt-only track. Do not confuse NAR local dirt form with JRA (Japan Racing Association) turf form."
+        }
+      }
+    },
       "Nakayama_Racecourse": {
         "location": "Chiba",
         "track_type": "Turf + Dirt",
