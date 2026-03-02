@@ -1,17 +1,3 @@
-"Caribbean_Racing": {
-      "Caymanas_Park": {
-        "location": "St. Catherine, Jamaica",
-        "track_type": "Dirt",
-        "direction": "Anti-Clockwise",
-        "straight_length": "400m",
-        "bias_notes": "Jamaica's sole racetrack is a 9-furlong dirt oval featuring a sweeping 400m home straight. It also utilizes a specialized chute for entirely straight 5-furlong dashes.",
-        "handicapping_angles": {
-          "track_bias": "The generous 400m stretch gives closers plenty of time to run down leaders, making it a fair galloping track. However, early speed dominates the straight 5-furlong sprint course.",
-          "surface": "This is a dirt-only track (sand and loam) with no turf course. Be cautious of imported horses with strictly turf pedigrees.",
-          "class_factor": "Caymanas occasionally hosts North American invaders (often from Gulfstream Park) for major events like the Mouttet Mile. Always cross-reference imported horses' class ratings against the local Jamaican standard."
-        }
-      }
-    }
 {
   "USA_Thoroughbred": {
     "Saratoga": {
@@ -433,6 +419,29 @@
           "handicapping_angles": {
             "tempo": "Long straight allows backmarkers to swoop.",
             "class_factor": "Big Sydney stables dominate here."
+          }
+        },
+        "Thangool": {
+          "location": "Thangool, QLD",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "Short (Country Standard)",
+          "bias_notes": "A regional country circuit (Forde Park) located near Biloela in Central Queensland. As a traditional tight bush track, it features sharp turns and a short run home, placing a heavy premium on early speed.",
+          "handicapping_angles": {
+            "track_bias": "Strong on-pace bias. Due to the tight corners and brief straight, horses that settle in the back half of the field find it incredibly difficult to make up ground.",
+            "barrier_draw": "Inside barriers are highly advantageous across all sprint distances, allowing horses to save ground and secure forward positioning.",
+            "class_factor": "This is a Central Queensland bush track. Always cross-reference form lines from nearby regional hubs like Rockhampton, Emerald, and Mackay."
+          }
+        },
+        "York": {
+          "location": "York, WA",
+          "track_type": "Turf",
+          "direction": "Anti-Clockwise",
+          "straight_length": "320m",
+          "bias_notes": "A fast-paced country circuit located east of Perth with a 1661m circumference. It features a short 320m home straight, making early speed and forward positioning a massive advantage.",
+          "handicapping_angles": {
+            "track_bias": "Strong on-pace bias. The short 320m straight makes it very difficult for backmarkers to make up significant ground late.",
+            "barrier_draw": "Inside barriers are highly advantageous, especially in shorter sprints, allowing horses to save ground before the short run home."
           }
         },
         "Quirindi": {
