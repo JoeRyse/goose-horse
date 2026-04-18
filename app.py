@@ -333,11 +333,20 @@ st.sidebar.header("⚙️ Settings")
 
 default_key = ""
 try:
-    if "GOOGLE_API_KEY" in st.secrets:
+    # Check for both common naming conventions so it catches your key no matter what
+    if "GEMINI_API_KEY" in st.secrets:
+        default_key = st.secrets["GEMINI_API_KEY"]
+    elif "GOOGLE_API_KEY" in st.secrets:
         default_key = st.secrets["GOOGLE_API_KEY"]
 except: pass
 
-api_key = st.sidebar.text_input("Gemini API Key", value=default_key, type="password")
+# The .strip() at the end is the magic bullet—it instantly deletes any accidental blank spaces
+api_key = st.sidebar.text_input("Gemini API Key", value=default_key, type="password").strip()
+
+# Set environment variables as a backup, which helps stabilize file uploads
+if api_key:
+    os.environ["GOOGLE_API_KEY"] = api_key
+    os.environ["GEMINI_API_KEY"] = api_key
 
 st.sidebar.markdown("---")
 st.sidebar.header("🚀 Admin")
@@ -398,7 +407,7 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
 
 model_options = [
-    "gemini-3-pro-preview", 
+    "gemini-3.1-pro-preview", 
     "gemini-2.0-flash-exp", 
     "gemini-1.5-pro", 
     "gemini-1.5-flash"
