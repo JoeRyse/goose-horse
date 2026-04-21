@@ -65,13 +65,33 @@ IF Horse is dropping 2+ levels in the "NW" (Non-Winners) condition ladder:
 IF Horse is dropping from Stakes/OSS (Ontario Sires Stakes) to overnight conditions:
     BONUS = +5 points
 
-// 5. DRIVER / TRAINER INTENT
-IF Driver is a Tier 1 Catch Driver (e.g., J. MacDonald, S. Filion, B. McClure, D. McNair, L. Roy):
-    BONUS = +2 points
-IF Driver is switching FROM a Trainer/Driver TO a Tier 1 Catch Driver:
-    BONUS = +4 points (The ultimate "Go" signal)
+// ##### 5. CLASS & PURSE EQUALIZATION - Track Size Par Adjustment
+**CRITICAL RULE:** In Harness Racing, class equalization is a combination of Purse Power and Track Size. You MUST penalize horses shipping in from smaller regional tracks and upgrade horses dropping from premier tracks.
 
-// 6. GAIT & BREAKS (The Strikeout Rule)
+* **THE FORMULA:** `Normalized_Rating = Raw_Rating + (Source_Track_Points - Todays_Track_Points)`
+* **APPLICATION:** Look at the `par_adjustment` object for today's track. (e.g., Mohawk is a Tier 1 7/8-Mile track worth +10 points. Flamboro is a Tier 3 Half-Mile track worth 0 points). A horse winning easily at Flamboro and shipping to Mohawk suffers a (0 - 10 = -10) point penalty to their rating due to the grueling stretch.
+
+
+// 6. CLASS LEVEL EQUALIZATION - The "Par Adjustment Matrix"
+
+CRITICAL RULE: When evaluating a standardbred's past performances, you MUST mathematically adjust their speed/class ratings based on the track they are shipping from. You will be provided the `par_adjustment` object for today's track. IF today's track does NOT have a `par_adjustment` object, assume a Baseline of 0.0.
+
+* THE FORMULA: Normalized_Rating = Raw_Rating + (Source_Track_Points - Todays_Track_Points)
+
+* THE HARNESS TIERS:
+  - Tier 1 (Grand Circuit / Elite 7/8 & 1 Mile): +10.0 points (e.g., Mohawk, Meadowlands)
+  - Tier 2 (Premium Regional 5/8 & Half): +5.0 points (e.g., Yonkers, Pocono, Hoosier)
+  - Tier 3 (Standard Regional Baseline): 0.0 points (e.g., Flamboro, Northfield, Freehold)
+  - Tier 4 (Lower Tier / Seasonal): -5.0 points (e.g., Batavia, Buffalo)
+
+* HOW TO APPLY: 
+  - Look at the `points` value in today's `par_adjustment`.
+  - Estimate the `points` value of the track the horse last raced at based on the Tiers above.
+  - Example: A horse earned an 85 Rating at Flamboro Downs (Tier 3 Baseline: 0.0) and is shipping to Woodbine Mohawk Park (Tier 1 Elite: 10.0).
+  - Calculation: 85 + (0.0 - 10.0) = 75 Normalized Rating.
+  - Apply an extra -2 point penalty if a horse is shipping from a Half-Mile track to a 7/8 or 1-Mile track for the first time in 3 starts (stamina penalty).
+
+// 7. GAIT & BREAKS (The Strikeout Rule)
 IF Horse broke stride (x) in 2 of its last 3 starts:
     PENALTY = -8 points (Unplayable except as extreme deep value)
 IF Horse broke stride (x) last start BUT has a clean qualifier since:

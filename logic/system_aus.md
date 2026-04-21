@@ -193,43 +193,16 @@ Wide barriers (10+): Less critical, time to settle
 
 ---
 
-### 5. CLASS LEVEL CHANGES - The "Provincial Tax"
+### 5. CLASS LEVEL EQUALIZATION - The "Par Adjustment Matrix"
 
-**TRIGGER:** Horse stepping up from Provincial/Country to Metropolitan
+**CRITICAL RULE:** When evaluating a horse's past performances, you MUST mathematically adjust their speed and class figures based on the track they are shipping from. You will be provided the `par_adjustment` object for today's track. **IF today's track does NOT have a `par_adjustment` object, assume a Baseline of 0.0.**
 
-**Provincial Tracks Include:**
-- Newcastle, Gosford, Wyong
-- Gold Coast, Sunshine Coast, Ipswich  
-- Bendigo, Ballarat, Geelong
-- Any "TAB" track outside major metros
-
-**Metropolitan Tracks Include:**
-- Sydney: Randwick, Rosehill, Canterbury, Warwick Farm
-- Melbourne: Flemington, Caulfield, Moonee Valley, Sandown
-- Brisbane: Eagle Farm, Doomben
-
-**THE TAX:**
-```
-IF last_start_track = Provincial AND today_track = Metropolitan:
-    Deduct -5 from Speed Figure
-    Deduct -4 from Class Rating
-    
-    IF horse_is_favorite (odds <= $3.00):
-        Label as "VULNERABLE FAVORITE"
-    
-    EXCEPTION - Ignore Tax IF:
-        Won last start by 2.5+ lengths
-```
-
-**Example:**
-- Horse won at Gosford (provincial) by 1.2L
-- Now at Randwick (metro)
-- Speed 98 becomes 93
-- Class 90 becomes 86
-- If favorite: Flag as vulnerable
-
----
-
+* **THE FORMULA:** `Normalized_Rating = Raw_Rating + (Source_Track_Points - Todays_Track_Points)`
+* **HOW TO APPLY:** 
+  * Look at the `points` value in today's `par_adjustment` (or use 0.0 if missing).
+  * Estimate the points value of the track the horse last raced at based on the Australian tier system (Elite Metro = +5.0, State Metro = +2.5, Provincial = 0.0, Bush Country = -5.0).
+  * Example: A horse earned a 95 Rating at Gosford (Tier 3 Baseline: 0.0) and is racing today at Royal Randwick (Tier 1 Elite: +5.0).
+  * Calculation: 95 + (0.0 - 5.0) = 90 Normalized Rating.
 ### 6. JOCKEY AND TRAINER FACTORS
 
 #### The "Unexposed Elite" Bonus
