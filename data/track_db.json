@@ -1307,6 +1307,38 @@
           "points": 0.0
         }
       },
+      "Geelong": {
+          "location": "Geelong, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "380m",
+          "bias_notes": "A spacious, premium provincial circuit. Features broad, sweeping turns and a generous 380m home straight, making it a very fair galloping surface.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair. The long straight gives backmarkers plenty of time and room to wind up and swoop.",
+            "barrier_draw": "Relatively fair across most distances due to the wide track layout, though inside draws help in shorter sprints."
+          },
+          "par_adjustment": {
+            "tier": "Tier 3 (Provincial Baseline)",
+            "lengths": 0.0,
+            "points": 0.0
+          }
+        },
+        "Murray_Bridge": {
+          "location": "Murray Bridge, SA",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "420m",
+          "bias_notes": "A massive, spacious provincial circuit. Features sweeping turns and a very long home straight, making it a premium and fair galloping surface.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair. The wide layout and long straight give backmarkers plenty of time to swoop, ensuring the best horse usually wins.",
+            "barrier_draw": "Very forgiving across most distances due to the large circumference and generous runs into the first turn."
+          },
+          "par_adjustment": {
+            "tier": "Tier 4 (Premium Country)",
+            "lengths": -1.0,
+            "points": -2.5
+          }
+        },
       "Sunshine_Coast": {
         "location": "Caloundra, QLD",
         "track_type": "Turf",
