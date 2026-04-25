@@ -279,6 +279,22 @@
         "points": 0.0
       }
     },
+    "Aqueduct": {
+      "location": "Ozone Park, NY",
+      "surface": "Dirt/Turf",
+      "distance": "1 1/8 Miles",
+      "bias_notes": "Winter/Spring grind. DEAD RAIL is common in winter. Outside flow is heavily favored over the inside paths.",
+      "handicapping_angles": {
+        "surface_bias": "Sprints still favor speed, but 'Outside Speed' is vastly superior to 'Rail Speed'. Downgrade horses drawn in Post 1 or 2 if the rail is dead.",
+        "turf_notes": "Inner Turf is tight and inside-speed favoring. Outer Turf is wide and fair."
+      },
+      "par_adjustment": { 
+        "tier": "Tier 2 (Winter/Spring)", 
+        "lengths": 2.4, 
+        "points": 6.0, 
+        "algorithm_note": "Strong New York winter form. Standard penalty applied if shipping to Tier 1 tracks like Saratoga or Belmont." 
+      }
+    },
     "Turf_Paradise": {
       "location": "Phoenix, AZ",
       "surface": "Dirt",
@@ -1337,6 +1353,40 @@
             "tier": "Tier 4 (Premium Country)",
             "lengths": -1.0,
             "points": -2.5
+          }
+        },
+        "Werribee": {
+          "location": "Werribee, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "275m",
+          "bias_notes": "A tight provincial circuit located southwest of Melbourne. It features a very short 275m home straight, making it a classic 'horses for courses' track where momentum is key.",
+          "handicapping_angles": {
+            "track_bias": "Strong on-pace bias. Because the straight is so short, horses settling in the back half of the field find it incredibly difficult to reel in the leaders.",
+            "barrier_draw": "Inside barriers are highly advantageous, allowing horses to save ground and secure a forward position before the short run home."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 3 (Provincial Baseline)", 
+            "lengths": 0.0, 
+            "points": 0.0, 
+            "algorithm_note": "Baseline track." 
+          }
+        },
+        "Coffs_Harbour": {
+          "location": "Mid North Coast, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "420m",
+          "bias_notes": "A spacious coastal track with a 1630m circumference and a generous 420m home straight. It generally plays very fairly due to the long run home, giving swoopers plenty of time.",
+          "handicapping_angles": {
+            "track_bias": "Extremely fair track. The 420m straight provides every horse a chance, ensuring closers and backmarkers are rarely severely disadvantaged.",
+            "barrier_draw": "Fair across most starting points, though inside draws are slightly beneficial from the 1000m and 1200m chute starts."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 4 (Premium Country)", 
+            "lengths": -1.0, 
+            "points": -2.5, 
+            "algorithm_note": "Spacious regional country form. Requires standard penalty when shipping to Metro." 
           }
         },
       "Sunshine_Coast": {
