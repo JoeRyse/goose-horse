@@ -819,6 +819,73 @@
             "points": -2.5
           }
         },
+        "Hobart": {
+        "location": "Elwick, Tasmania",
+        "track_type": "Turf",
+        "direction": "Counter-Clockwise",
+        "straight_length": "350m",
+        "bias_notes": "Premier track in southern Tasmania. Features a slightly uphill 350m home straight.",
+        "handicapping_angles": {
+          "track_bias": "Generally fair, but the uphill straight can test stamina late. On-pace runners can be advantaged when the rail is out.",
+          "barrier_draw": "Plays fairly across most distances."
+        },
+        "par_adjustment": { 
+          "tier": "Tier 3 (Provincial Baseline)", 
+          "lengths": 0.0, 
+          "points": 0.0, 
+          "algorithm_note": "Tasmanian premier form. Anchors evenly to mainland provincial baseline." 
+        }
+      },
+      "Narromine": {
+          "location": "Orana Region, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "300m",
+          "bias_notes": "A flat, country circuit in central-western NSW. The relatively short 300m straight means horses coming from the tail of the field often struggle to make up the required ground.",
+          "handicapping_angles": {
+            "track_bias": "Moderate to strong on-pace bias. Look for horses with tactical speed that can settle in the first four.",
+            "barrier_draw": "Inside barriers are highly advantageous, especially in sprint races."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 5 (Bush/Tight Country)", 
+            "lengths": -2.0, 
+            "points": -5.0, 
+            "algorithm_note": "Deep regional form. Extreme class penalty applied if shipping to Metro venues." 
+          }
+        },
+        "Albany": {
+        "location": "Albany, WA",
+        "track_type": "Turf",
+        "direction": "Counter-Clockwise",
+        "straight_length": "340m",
+        "bias_notes": "A prominent regional track in the Great Southern region of WA. It features a 1600m circumference and a fair 340m home straight. Coastal weather and wind can play a massive factor here.",
+        "handicapping_angles": {
+          "track_bias": "Plays relatively fair, though momentum is key. Horses that get rolling out wide on the turn often sustain their run.",
+          "weather_factor": "Always check wind direction; a strong headwind in the straight can kill front-runners and set it up for swoopers."
+        },
+        "par_adjustment": { 
+          "tier": "Tier 5 (Bush/Tight Country)", 
+          "lengths": -2.0, 
+          "points": -5.0, 
+          "algorithm_note": "Regional WA form. Requires heavy penalty when shipping to Ascot or Belmont Park." 
+        }
+      },
+      "Port_Augusta": {
+          "location": "Port Augusta, SA",
+          "track_type": "Dirt / Sand",
+          "direction": "Counter-Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "South Australia's premier dirt track. The unique sand/dirt surface means course specialists thrive here. Horses making their debut on this surface often struggle significantly with the kickback.",
+          "handicapping_angles": {
+            "surface_bias": "SPECIALIST TRACK. Proven dirt form is critical. Because kickback is severe, horses that can lead or sit just off the pace outside of the kickback hold a distinct advantage."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 5 (Bush/Tight Country)", 
+            "lengths": -2.0, 
+            "points": -5.0, 
+            "algorithm_note": "Deep regional dirt form. Extreme class penalty applied if shipping to turf Metro venues like Morphettville." 
+          }
+        },
         "Bathurst": {
           "location": "Central West, NSW",
           "track_type": "Turf",
