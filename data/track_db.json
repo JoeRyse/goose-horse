@@ -902,6 +902,23 @@
             "algorithm_note": "Low-grade form. Extreme penalty applied if shipping to Metro." 
           }
         },
+        "Strathalbyn": {
+          "location": "Fleurieu Peninsula, SA",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "250m",
+          "bias_notes": "A tight provincial circuit in South Australia. It features a very short 250m home straight, making it a classic 'horses for courses' track where momentum and track position are critical.",
+          "handicapping_angles": {
+            "track_bias": "Strong on-pace bias. Because the straight is so short, horses settling in the back half of the field find it incredibly difficult to reel in the leaders.",
+            "barrier_draw": "Inside barriers are highly advantageous, allowing horses to save ground and secure a forward position before the short run home."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 5 (Bush/Tight Country)", 
+            "lengths": -2.0, 
+            "points": -5.0, 
+            "algorithm_note": "Tight regional SA form. Extreme class penalty applied if shipping to spacious Metro venues like Morphettville." 
+          }
+        },
         "Bathurst": {
           "location": "Central West, NSW",
           "track_type": "Turf",
