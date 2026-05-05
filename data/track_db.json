@@ -1273,6 +1273,23 @@
           "points": 0.0
         }
       },
+      "Warrnambool": {
+          "location": "Warrnambool, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "305m",
+          "bias_notes": "Home of the famous May Racing Carnival. Features a relatively tight circuit with a short 305m home straight. The track can become extremely heavy during winter.",
+          "handicapping_angles": {
+            "track_bias": "Moderate to strong on-pace bias. The short straight makes it difficult for deep closers to make up ground.",
+            "weather_factor": "Wet track form is absolutely critical here, especially from May through August. Heavy track specialists thrive."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 3 (Provincial Baseline)", 
+            "lengths": 0.0, 
+            "points": 0.0, 
+            "algorithm_note": "Baseline track. Standard provincial form." 
+          }
+        },
       "Scone": {
         "location": "Scone, NSW",
         "track_type": "Turf",
@@ -1692,6 +1709,24 @@
           "track_bias": "On-pace bias. Uphill finish tests stamina."
         }
       },
+      "Nagoya": {
+        "location": "Yatomi, Aichi, Japan",
+        "track_type": "Dirt",
+        "direction": "Right-handed (Clockwise)",
+        "straight_length": "300m",
+        "bias_notes": "Relocated to Yatomi in 2022. The new track features a longer 300m home straight and wider turns compared to the old Nagoya bullring. While still a dirt track, the new layout is much fairer to closers.",
+        "handicapping_angles": {
+          "track_bias": "Early speed and on-pace runners still hold an inherent advantage on the dirt, but the longer stretch means outside swoopers now have a legitimate chance to run them down.",
+          "kickback": "Standard dirt kickback applies. Inside horses must break sharply to secure position and avoid getting shuffled back into the dust."
+        },
+        "par_adjustment": { 
+          "tier": "Tier 4 (NAR Regional)", 
+          "lengths": -1.0, 
+          "points": -2.5, 
+          "algorithm_note": "Regional NAR dirt form. Significant penalty applied if shipping up to premier JRA venues." 
+        }
+      },
+      
       "Funabashi": {
         "location": "Funabashi, Chiba, Japan",
         "track_type": "Dirt (Left-handed)",
