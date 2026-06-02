@@ -1553,6 +1553,40 @@
           "points": 2.5
         }
       },
+      "Echuca": {
+          "location": "Echuca, VIC",
+          "track_type": "Turf",
+          "direction": "Counter-Clockwise",
+          "straight_length": "350m",
+          "bias_notes": "A flat, fair country track located on the Murray River. It features sweeping turns and a reliable 350m home straight that gives all runners a balanced opportunity.",
+          "handicapping_angles": {
+            "track_bias": "Generally plays highly fair. On dry days, horses with tactical early speed hold an edge, but the layout doesn't unfairly penalize backmarkers.",
+            "barrier_draw": "Inside barriers are moderately helpful over the shorter sprint distances (1000m - 1200m) due to the run up to the first turn."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 3 (Provincial Baseline)", 
+            "lengths": 0.0, 
+            "points": 0.0, 
+            "algorithm_note": "Baseline country form. Standard equalization applies." 
+          }
+        },
+        "Moree": {
+          "location": "North West Region, NSW",
+          "track_type": "Turf",
+          "direction": "Clockwise",
+          "straight_length": "400m",
+          "bias_notes": "A spacious, completely flat country circuit. Despite having a long 400m home straight that theoretically gives swoopers time, the local regional fields typically play heavily to forward-placed runners on top of the ground.",
+          "handicapping_angles": {
+            "track_bias": "Slight on-pace bias despite the long run home. Deep backmarkers can find it tough to reel in fit, rolling country front-runners.",
+            "barrier_draw": "Relatively fair across middle distances, but drawing low helps navigate the early positioning phases in tight sprints."
+          },
+          "par_adjustment": { 
+            "tier": "Tier 5 (Bush/Tight Country)", 
+            "lengths": -2.0, 
+            "points": -5.0, 
+            "algorithm_note": "Deep regional country form. High penalty required if shipping to Metro or Tier 2 Provincial venues." 
+          }
+        },
       "Bunbury": {
         "location": "Bunbury, WA",
         "track_type": "Turf",
