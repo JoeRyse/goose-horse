@@ -365,6 +365,22 @@
         "points": 0.0
       }
     },
+    "Mountaineer": {
+      "location": "New Cumberland, WV",
+      "surface": "Dirt/Turf",
+      "distance": "1 Mile",
+      "bias_notes": "Night racing staple in West Virginia. The dirt track generally favors early speed, particularly in sprint races.",
+      "handicapping_angles": {
+        "surface_bias": "Speed bias is prevalent on the dirt. Inside posts hold a distinct advantage over the one-mile oval.",
+        "class_factor": "Fields are heavily populated with low-level claimers. Horses dropping in from stronger regional circuits (like Laurel Park or Parx) often have a massive class edge."
+      },
+      "par_adjustment": { 
+        "tier": "Tier 3", 
+        "lengths": 0.0, 
+        "points": 0.0, 
+        "algorithm_note": "Baseline track. Standard regional form." 
+      }
+    },
     "Finger_Lakes": {
       "location": "Farmington, NY",
       "surface": "Dirt",
