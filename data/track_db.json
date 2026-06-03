@@ -2020,6 +2020,23 @@
         "track_bias": "Extremely fair."
       }
     },
+    "Cambridge": {
+      "location": "Cambridge, Waikato, NZ",
+      "track_type": "Synthetic (Polytrack)",
+      "direction": "Counter-Clockwise",
+      "straight_length": "380m",
+      "bias_notes": "New Zealand's premier synthetic all-weather track. Because the surface is so uniform, it plays very fairly, though horses drawn wide can be forced to work extremely hard on the turns.",
+      "handicapping_angles": {
+        "surface_bias": "SYNTHETIC SPECIALISTS. Grass form does not always translate to the Polytrack. Look for horses with proven synthetic form or tactical speed to secure the rail.",
+        "barrier_draw": "Inside barriers hold a distinct advantage, as saving ground around the synthetic turns is crucial."
+      },
+      "par_adjustment": { 
+        "tier": "Tier 3 (Provincial Baseline)", 
+        "lengths": 0.0, 
+        "points": 0.0, 
+        "algorithm_note": "Synthetic baseline form. Standard equalization applies." 
+      }
+    },
     "Manawatu": {
       "location": "Palmerston North (Awapuni), NZ",
       "track_type": "Turf",
