@@ -2132,6 +2132,35 @@
       "points": -5.0
     }
   },
+  "Windsor": {
+    "track_code": "WND",
+    "location": "Berkshire, UK",
+    "nicknames": ["Royal Windsor", "The Figure of Eight"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1 Mile 4 Furlongs (Figure of Eight)",
+        "surface": "Turf",
+        "stretch_length": "Approx 4.5 Furlongs",
+        "bias_notes": "A completely flat track with a highly unique figure-of-eight layout. In races over 1m 2f, horses must navigate both left-handed and right-handed turns. The 5F and 6F sprints are relatively straight but feature a slight dog-leg right.",
+        "post_bias": "In large field sprints (5F-6F), high numbers (stands-side) historically hold an advantage. When the ground is soft, the entire field will usually drift to the stands-side rail searching for better ground."
+      }
+    },
+    "handicapping_angles": {
+      "the_figure_eight_agility": "Because of the sharp turns in both directions, large, long-striding horses often struggle to maintain their rhythm. Heavily upgrade smaller, nimble, athletic horses with proven form on sharp tracks.",
+      "flat_speed_advantage": "Unlike the stiff, grueling uphill finishes of Carlisle or Leicester, Windsor is totally flat. On Good/Firm ground, front-runners and prominent racers ('E' and 'P' types) are extremely difficult to catch.",
+      "monday_night_specialists": "Windsor is the premier track for Monday night summer racing in the UK. Certain southern-based trainers heavily target these meetings, and 'horses for courses' is a massive factor here."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional UK)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
         "Lingfield_Park": {
           "location": "Lingfield, Surrey",
           "track_type": "Polytrack (AW) + Turf",
