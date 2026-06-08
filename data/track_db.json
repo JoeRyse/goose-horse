@@ -523,22 +523,35 @@
             "points": 5.0
           }
         },
-        "Canterbury_Park": {
-          "location": "Sydney",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "280m",
-          "bias_notes": "SMALL TRACK. Extreme leader bias. Jump and Run tactics essential.",
-          "handicapping_angles": {
-            "track_bias": "STRONG LEADER BIAS. Night racing.",
-            "barrier_draw": "CRITICAL - inside barriers advantage."
-          },
-          "par_adjustment": {
-            "tier": "Tier 3 (Provincial Baseline)",
-            "lengths": 0.0,
-            "points": 0.0
-          }
-        },
+       "Canterbury_Park": {
+    "track_code": "CANT",
+    "location": "Sydney, NSW",
+    "nicknames": ["The Friday Night Lights"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,567 metres",
+        "surface": "Turf",
+        "stretch_length": "280 metres",
+        "bias_notes": "A very tight, circular track. With one of the shortest straights in Australian metropolitan racing (280m), this is a heavily leader-dominated circuit. 'Jump and run' tactics are essential here.",
+        "post_bias": "Inside barriers (1-4) are a massive advantage. Horses drawn wide are frequently forced to expend too much early energy to cross, or are trapped wide on the tight turns."
+      }
+    },
+    "handicapping_angles": {
+      "the_night_racing_specialist": "Canterbury frequently hosts Friday night racing. Some horses thrive under the lights while others get agitated. Upgrade proven night-racing performers.",
+      "on_pace_necessity": "Downgrade deep closers (backmarkers) heavily. Unless the pace collapses completely, it is mathematically incredibly difficult to make up 4+ lengths in a 280m straight.",
+      "rail_position_shifts": "When the rail is moved out past 3m, the inside speed bias becomes even more extreme."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1.5 (State/Mid Metro)",
+      "class_rating": 98,
+      "speed_par_offsets": {
+        "turf_sprint": "+2.0",
+        "turf_route": "+1.5"
+      },
+      "lengths": 1.0,
+      "points": 2.5
+    }
+  },
         "Warwick": {
           "location": "Warwick, QLD",
           "track_type": "Turf",
@@ -933,6 +946,35 @@
             "algorithm_note": "Deep regional dirt form. Extreme class penalty applied if shipping to turf Metro venues like Morphettville." 
           }
         },
+        "Mornington": {
+    "track_code": "MORN",
+    "location": "Mornington Peninsula, VIC",
+    "nicknames": [],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,800 metres",
+        "surface": "Turf",
+        "stretch_length": "210 metres",
+        "bias_notes": "A highly unique, 'figure-eight' style track with a notoriously short 210m home straight. The run into the home turn is downhill, causing horses to naturally speed up, but the short straight is sharply uphill.",
+        "post_bias": "Inside barriers are highly advantageous. The sharp turns and short straight make it very difficult to loop the field from out wide."
+      }
+    },
+    "handicapping_angles": {
+      "the_mornington_specialist": "Because of the downhill turn and uphill finish, Mornington is the ultimate 'horses for courses' track. Heavily upgrade horses with previous wins at this specific venue.",
+      "momentum_runners": "The uphill straight stops weak front-runners dead in their tracks. Look for horses that can secure an economical run just behind the leaders (the 'box seat') and pop out at the top of the short straight.",
+      "class_drop_shippers": "Horses dropping back from Metro racing at Caulfield or Sandown often find the provincial company here much easier, provided they can handle the tight turns."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Provincial Baseline)",
+      "class_rating": 92,
+      "speed_par_offsets": {
+        "turf_sprint": "0.0",
+        "turf_route": "0.0"
+      },
+      "lengths": 0.0,
+      "points": 0.0
+    }
+  },
         "Quirindi": {
           "location": "Quirindi, NSW",
           "track_type": "Turf",
@@ -949,23 +991,64 @@
             "algorithm_note": "Low-grade form. Extreme penalty applied if shipping to Metro." 
           }
         },
-        "Strathalbyn": {
-          "location": "Fleurieu Peninsula, SA",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "250m",
-          "bias_notes": "A tight provincial circuit in South Australia. It features a very short 250m home straight, making it a classic 'horses for courses' track where momentum and track position are critical.",
-          "handicapping_angles": {
-            "track_bias": "Strong on-pace bias. Because the straight is so short, horses settling in the back half of the field find it incredibly difficult to reel in the leaders.",
-            "barrier_draw": "Inside barriers are highly advantageous, allowing horses to save ground and secure a forward position before the short run home."
-          },
-          "par_adjustment": { 
-            "tier": "Tier 5 (Bush/Tight Country)", 
-            "lengths": -2.0, 
-            "points": -5.0, 
-            "algorithm_note": "Tight regional SA form. Extreme class penalty applied if shipping to spacious Metro venues like Morphettville." 
-          }
-        },
+       "Strathalbyn": {
+    "track_code": "SBYN",
+    "location": "Fleurieu Peninsula, SA",
+    "nicknames": [],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,690 metres",
+        "surface": "Turf",
+        "stretch_length": "250 metres",
+        "bias_notes": "A picturesque but extremely tight provincial circuit. The 250m home straight is very short, ensuring that momentum and track position entering the final turn dictate the winner in the vast majority of races.",
+        "post_bias": "Inside barriers are critical, particularly in sprint distances. Being caught wide on the continuous turns drains a horse's finishing burst."
+      }
+    },
+    "handicapping_angles": {
+      "the_backmarker_fade": "Severely downgrade horses whose past performances show them regularly settling in the back half of the field. They will simply run out of real estate here.",
+      "tactical_speed_premium": "Upgrade horses with enough tactical speed to cross the field early and secure the rail. The leader or the horse sitting outside the leader wins the lion's share of races.",
+      "metro_shipping_penalty": "Form here is strictly regional. If evaluating a horse's past performance at Strathalbyn for a race at Morphettville, apply the maximum class penalty."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush/Tight Country)",
+      "class_rating": 85,
+      "speed_par_offsets": {
+        "turf_sprint": "-3.0",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
+  "Ballina": {
+    "track_code": "BLNA",
+    "location": "Northern Rivers, NSW",
+    "nicknames": [],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,600 metres",
+        "surface": "Turf",
+        "stretch_length": "320 metres",
+        "bias_notes": "A coastal regional circuit with tight turns and a relatively short 320m home straight. The defining characteristic of Ballina is the weather; it is heavily influenced by coastal rain systems.",
+        "post_bias": "Generally favors horses drawn low to middle. In heavy conditions, the inside rail often cuts out, and jockeys will steer toward the middle of the track in the straight."
+      }
+    },
+    "handicapping_angles": {
+      "the_mudlark_bias": "Wet track form is absolutely critical here. Always check the track rating (Soft or Heavy). Upgrade proven 'swimmers' and heavily downgrade horses that only perform on Good (dry) tracks.",
+      "tight_turn_stamina": "While the straight is slightly longer than extreme bullrings, deep closers still struggle to loop the field. Look for on-pace or mid-pack stalkers.",
+      "northern_rivers_circuit": "Form lines from nearby tracks like Lismore and Murwillumbah translate perfectly to Ballina, but apply heavy class penalties if this form is being tested in Sydney or Brisbane metro races."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush/Tight Country)",
+      "class_rating": 85,
+      "speed_par_offsets": {
+        "turf_sprint": "-3.0",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
         "Bathurst": {
           "location": "Central West, NSW",
           "track_type": "Turf",
