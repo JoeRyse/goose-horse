@@ -2016,6 +2016,93 @@
             "track_bias": "Low draws advantage in sprints."
           }
         },
+        "Leicester": {
+    "track_code": "LEI",
+    "location": "Leicestershire, UK",
+    "nicknames": ["Oadby"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1 Mile 6 Furlongs",
+        "surface": "Turf",
+        "stretch_length": "Approx 4 Furlongs",
+        "bias_notes": "Right-handed, oval-shaped track with a steady, punishing climb over the final 3 furlongs. It is a severe test of stamina, especially when the ground is soft.",
+        "post_bias": "In sprints (5F-6F), high draw numbers (stands-side) historically hold an advantage on soft or heavy ground."
+      }
+    },
+    "handicapping_angles": {
+      "the_stamina_test": "Downgrade one-dimensional speed horses (E types). Because of the uphill finish, horses dropping down in distance (e.g., from 7F down to 6F) often out-finish horses stretching out.",
+      "stands_side_rail": "When the track is rated Soft or Heavy, look for horses drawn high that possess the tactical speed to grab the stands-side rail.",
+      "class_drop_shippers": "Upgrade horses shipping from Tier 2 tracks like Newmarket or Ascot dropping into Class 4 or 5 handicaps here."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional UK)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
+  "Carlisle": {
+    "track_code": "CAR",
+    "location": "Cumbria, UK",
+    "nicknames": [],
+    "courses": {
+      "main_turf": {
+        "circumference": "1 Mile 4 Furlongs",
+        "surface": "Turf",
+        "stretch_length": "Approx 3.5 Furlongs",
+        "bias_notes": "Right-handed, pear-shaped galloping track. The final 3.5 furlongs are entirely uphill, creating one of the most testing finishes in British racing.",
+        "post_bias": "In sprints, high numbers have a distinct advantage when the ground gets soft, as runners will naturally gravitate towards the stands-side rail for better footing."
+      }
+    },
+    "handicapping_angles": {
+      "stamina_over_speed": "Downgrade pure front-runners in sprints unless they have proven winning form over a furlong further. The final two furlongs will stop a tired horse dead in its tracks.",
+      "course_specialists": "Because the uphill drag is so unique, heavily upgrade previous Carlisle winners. 'Horses for courses' is a massive factor here.",
+      "northern_circuit_form": "Form lines from nearby stiff tracks like Pontefract or Beverley translate well here."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional UK)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
+  "Angers": {
+    "track_code": "ANG",
+    "location": "Écouflant, France",
+    "nicknames": ["Eventard"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,000 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Right-handed, relatively flat provincial track with sweeping turns. It generally plays fair, but momentum is key entering the 400m straight.",
+        "post_bias": "Low barriers (inside posts) are generally advantageous over shorter trips (up to 1600m) to save ground on the continuous turning layout."
+      }
+    },
+    "handicapping_angles": {
+      "tactical_speed_premium": "Unlike stiff UK tracks, tactical early speed is rewarded here due to the flat nature of the straight. Upgrade 'P' (Presser) types who sit just off the leaders.",
+      "parisian_shippers": "Classic Tier 4 French provincial circuit. Be highly cautious of horses shipping down from elite Parisian tracks (Longchamp, Chantilly, Saint-Cloud) unless they are dropping significantly in class and have shown recent fitness.",
+      "turn_momentum": "Deep closers ('S' types) can struggle if they are forced 4 or 5 wide on the final sweeping turn into the straight."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Provincial France)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "turf_sprint": "-3.0",
+        "turf_route": "-2.5"
+      },
+      "lengths": -3.0,
+      "points": -6.0
+    }
+  },
         "Lingfield_Park": {
           "location": "Lingfield, Surrey",
           "track_type": "Polytrack (AW) + Turf",
