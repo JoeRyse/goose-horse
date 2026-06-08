@@ -179,21 +179,35 @@
         "points": 5.0
       }
     },
-    "Parx_Racing": {
-      "location": "Bensalem, PA",
-      "surface": "Dirt",
-      "distance": "1 Mile",
-      "bias_notes": "One-mile track with sharp turns. Speed bias exists. Inside posts have significant edge.",
-      "handicapping_angles": {
-        "surface_bias": "Speed bias, especially sprint distances. Inside posts dominant.",
-        "pace_scenario": "Get the lead or sit right behind."
-      },
-      "par_adjustment": {
-        "tier": "Tier 3 (Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+"Parx_Racing": {
+    "track_code": "PRX",
+    "location": "Bensalem, PA",
+    "nicknames": ["Philadelphia Park"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "972 feet",
+        "bias_notes": "Historically a 'Golden Rail' track. The dirt surface is hard and fast, rewarding horses that can secure the lead or sit prominently on the rail.",
+        "post_bias": "Posts 1-4 are consistently advantageous in sprints."
       }
     },
+    "handicapping_angles": {
+      "speed_bias": "Aggressively favor front-runners and pressers. Deep closers are frequently neutralized.",
+      "one_turn_mile": "The one-turn mile at Parx is a speed-dominant event. Inside speed is extremely dangerous here.",
+      "mid-atlantic_shippers": "Be wary of horses shipping in from Laurel or Penn National; Parx often plays faster than those tracks."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Baseline)",
+      "class_rating": 90,
+      "speed_par_offsets": {
+        "dirt_sprint": "0.0",
+        "dirt_route": "0.0"
+      },
+      "lengths": 0.0,
+      "points": 0.0
+    }
+  },
     "Monmouth_Park": {
       "location": "Oceanport, NJ",
       "surface": "Dirt",
@@ -396,50 +410,93 @@
         "points": 0.0
       }
     },
-    "Mountaineer": {
-      "location": "New Cumberland, WV",
-      "surface": "Dirt/Turf",
-      "distance": "1 Mile",
-      "bias_notes": "Night racing staple in West Virginia. The dirt track generally favors early speed, particularly in sprint races.",
-      "handicapping_angles": {
-        "surface_bias": "Speed bias is prevalent on the dirt. Inside posts hold a distinct advantage over the one-mile oval.",
-        "class_factor": "Fields are heavily populated with low-level claimers. Horses dropping in from stronger regional circuits (like Laurel Park or Parx) often have a massive class edge."
-      },
-      "par_adjustment": { 
-        "tier": "Tier 3", 
-        "lengths": 0.0, 
-        "points": 0.0, 
-        "algorithm_note": "Baseline track. Standard regional form." 
+   "Mountaineer": {
+    "track_code": "MNR",
+    "location": "New Cumberland, WV",
+    "nicknames": ["The Mountain"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "990 feet",
+        "bias_notes": "A night-racing specialist circuit. Similar to Finger Lakes, early speed holds a persistent edge. The surface can change dramatically during the meet.",
+        "post_bias": "Outside posts can be tricky in routes, but the track is generally fair regarding post draw."
       }
     },
+    "handicapping_angles": {
+      "pace_scenario": "Speed dominates. Look for horses that have recorded high 'Early' speed figures in previous starts.",
+      "class_droppers": "Horses dropping in from major circuits are common; evaluate their recent competitive level carefully.",
+      "turf_routes": "If races are moved to the dirt from the turf (MTO), re-evaluate all contenders based strictly on their dirt speed figures."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "dirt_sprint": "-2.5",
+        "dirt_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
     "Finger_Lakes": {
-      "location": "Farmington, NY",
-      "surface": "Dirt",
-      "distance": "1 Mile",
-      "bias_notes": "Upstate NY bullring. Strong speed bias. Inside posts critical.",
-      "handicapping_angles": {
-        "surface_bias": "Strong speed bias. Inside posts dominate."
-      },
-      "par_adjustment": {
-        "tier": "Tier 3 (Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+    "track_code": "FL",
+    "location": "Farmington, NY",
+    "nicknames": ["The Thumb"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "960 feet",
+        "bias_notes": "A classic speed-favoring track. The short stretch makes it difficult for deep closers to make up ground, particularly in sprint races where early speed is often decisive.",
+        "post_bias": "Inside posts are advantageous in sprints due to the short run to the first turn."
       }
     },
-    "Thistledown": {
-      "location": "North Randall, OH",
-      "surface": "Dirt",
-      "distance": "1 Mile",
-      "bias_notes": "Cleveland. Speed bias - inside posts advantage.",
-      "handicapping_angles": {
-        "surface_bias": "Speed bias - inside posts advantage."
+    "handicapping_angles": {
+      "the_saratoga_drop": "Upgrade horses shipping in from Saratoga that are dropping significantly in class; they often find this surface and competition much easier.",
+      "pace_dominance": "Focus on 'E' (Early Speed) runners. Late-running closers are often at a significant disadvantage unless a pace duel destroys the front-runners.",
+      "nysb_races": "New York-bred restricted races are common; check trainer win percentages specifically with NY-breds."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "dirt_sprint": "-2.0",
+        "dirt_route": "-1.5"
       },
-      "par_adjustment": {
-        "tier": "Tier 3 (Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+      "lengths": -3.0,
+      "points": -7.0
+    }
+  },
+ "Thistledown": {
+    "track_code": "TDN",
+    "location": "North Randall, OH",
+    "nicknames": [],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "990 feet",
+        "bias_notes": "A flat, speed-favoring track. The stretch is long enough to permit some closing, but the overall surface speed usually favors those who can dominate the early fractions.",
+        "post_bias": "Inside posts are helpful, but the track is generally fair to all early speed types."
       }
     },
+    "handicapping_angles": {
+      "early_pace": "Horses that can set or stalk the pace are consistently the most profitable bets.",
+      "trainer_trends": "Keep an eye on dominant local trainers who specialize in claiming levels.",
+      "wet_track_bias": "When the track is off, speed bias often intensifies."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "dirt_sprint": "-2.5",
+        "dirt_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
     "Belterra_Park": {
       "location": "Cincinnati, OH",
       "surface": "Dirt",
@@ -2467,22 +2524,35 @@
     }
   },
   "Canada_Harness": {
-    "Woodbine_Mohawk_Park": {
-      "type": "Harness",
-      "location": "Milton, ON",
-      "layout": "Seven-Eighths Mile Oval",
-      "stretch_length": "1050 ft",
-      "passing_lane": false,
-      "bias_notes": "Canada's premier harness track. Seven-eighths layout allows both speed and closers.",
-      "handicapping_angles": {
-        "post_position": "Posts 1-5 preferred. Larger circumference makes posts 6-8 more playable than half-milers."
-      },
-      "par_adjustment": {
-        "tier": "Tier 3 (Half-Mile Bullring Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+   "Woodbine_Mohawk_Park": {
+    "track_code": "WBS",
+    "location": "Milton, ON, Canada",
+    "nicknames": ["Mohawk", "The Mecca of Canadian Harness Racing"],
+    "courses": {
+      "main_track": {
+        "circumference": "7/8 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "1,095 feet",
+        "bias_notes": "A massive 7/8-mile oval with sweeping, banked turns and a grueling 1,095-foot home stretch. Because there is NO passing lane (sprint lane), drivers cannot simply sit locked in the pocket hoping for an inside opening. They must pull out and engage.",
+        "post_bias": "Posts 4, 5, and 6 are statistically the most dominant. The inside rail (Post 1) can sometimes be a trap if a horse lacks gate speed, as they will get shuffled back. Post 10 is incredibly difficult, but much more winnable here than on a half-mile bullring."
       }
     },
+    "handicapping_angles": {
+      "the_bullring_tax": "Heavily downgrade horses shipping in from half-mile tracks (like Flamboro or Western Fair) who are used to short 400-foot stretches. They frequently 'hit the wall' at the 7/8 pole and get swallowed by Mohawk regulars.",
+      "first_over_grinders": "Because there is no passing lane, heavily upgrade horses with proven 'First-Over' (uncovered on the outside) toughness. The ability to grind outside the leader without cover is the most valuable trait at this track.",
+      "class_drop_plunge": "Mohawk features the highest purses in Canada. When a horse drops from the Preferred/Free-For-All ranks down into mid-level condition claimers, they possess a massive class edge. Do not ignore heavy class droppers here."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite Harness)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "pace": "+5.0",
+        "trot": "+4.0"
+      },
+      "lengths": 0.0,
+      "points": 10.0
+    }
+  },
     "Flamboro_Downs": {
       "type": "Harness",
       "layout": "Half-Mile",
