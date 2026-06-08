@@ -2386,17 +2386,35 @@
         "points": 10.0
       }
     },
-    "Yonkers": {
-      "type": "Harness",
-      "layout": "Half-Mile",
-      "passing_lane": true,
-      "bias_notes": "Speed favor. Hard to win from outside (7 & 8). Passing lane helps pocket sitters.",
-      "par_adjustment": {
-        "tier": "Tier 3 (Half-Mile Bullring Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+    "Yonkers_Raceway": {
+    "track_code": "YR",
+    "location": "Yonkers, NY",
+    "nicknames": ["The Hilltop"],
+    "courses": {
+      "main_track": {
+        "circumference": "1/2 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "400 feet",
+        "bias_notes": "A classic half-mile 'bullring' track. Because the turns are tight and the home stretch is incredibly short, early gate speed and inside positioning are paramount to success.",
+        "post_bias": "Posts 1 through 4 hold a massive statistical advantage. Post 8 is the 'Death Trap' with a historically abysmal win percentage (often under 5%). Horses drawn outside must have elite gate speed to cross over early, or they are effectively eliminated."
       }
     },
+    "handicapping_angles": {
+      "the_half_mile_bias": "Heavily downgrade deep closers. If a horse cannot leave the gate quickly or secure the pocket, it is nearly impossible to loop the field 3-wide on these tight turns.",
+      "the_big_track_shipper_trap": "Apply caution to horses shipping in from 1-mile (Meadowlands) or 7/8-mile (Mohawk) tracks. Even if they have higher class or speed figures, large-striding horses frequently struggle to navigate Yonkers' tight turns.",
+      "driver_aggressiveness": "With no passing lane and a short stretch, heavily upgrade aggressive drivers who 'send' their horses off the gate to secure the lead or the two-hole before the first turn."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Elite Half-Mile)",
+      "class_rating": 95,
+      "speed_par_offsets": {
+        "pace": "-2.0",
+        "trot": "-2.5"
+      },
+      "lengths": 0.0,
+      "points": 5.0
+    }
+  },
     "Northfield_Park": {
       "type": "Harness",
       "layout": "Half-Mile",
