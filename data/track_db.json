@@ -1477,21 +1477,64 @@
             "algorithm_note": "Baseline track. Standard provincial form." 
           }
         },
-      "Scone": {
-        "location": "Scone, NSW",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "400m",
-        "bias_notes": "Located in the Hunter Valley breeding heartland. Massive, premium track.",
-        "handicapping_angles": {
-          "track_bias": "Extremely fair."
-        },
-        "par_adjustment": {
-          "tier": "Tier 2 (Premier Provincial)",
-          "lengths": 0.5,
-          "points": 1.0
-        }
+        "Donald": {
+    "track_code": "DON",
+    "location": "Donald, Victoria",
+    "nicknames": ["Donald Racing Centre"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,747 metres",
+        "surface": "Turf",
+        "stretch_length": "350 metres",
+        "bias_notes": "Counter-Clockwise. A relatively flat and spacious country circuit. The sweeping turns and solid 350m home straight generally provide a very fair racing surface, giving all run styles a legitimate chance.",
+        "post_bias": "Inside to middle barriers (1-6) are preferred, particularly in the 1000m to 1200m sprints, as jockeys need to secure a position quickly before navigating the sweeping bends."
+      }
+    },
+    "handicapping_angles": {
+      "country_fairness": "Unlike tighter bush 'bullrings', Donald's spacious layout means backmarkers are not severely disadvantaged. Do not immediately cross out 'Swoopers' (Closers) if the early pace scenario is projected to be fast.",
+      "regional_form_lines": "Form from similar Wimmera/Mallee regional tracks like Murtoa, Horsham, or Stawell translates perfectly here. However, apply strict class penalties if evaluating a Donald winner stepping up to Metro (Caulfield/Flemington) or Premium Provincial (Ballarat/Geelong) grade.",
+      "summer_firming": "During the warmer months, the track often gets quite firm (Good 3 or Good 4). In these conditions, 'jump and run' on-pace horses (E types) gain a slight advantage as it becomes harder for closers to make up ground on the firm surface."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Standard Country)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
       },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
+      "Scone": {
+    "track_code": "SCON",
+    "location": "Hunter Valley, NSW",
+    "nicknames": ["The Horse Capital of Australia"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,902 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Clockwise. A magnificent, expansive track that is universally considered one of the fairest in New South Wales. The sweeping turns and long 400m straight ensure that every horse gets their chance, whether leading or swooping from the back.",
+        "post_bias": "Because of the wide, sweeping nature of the track and long runs to the first turn in most distances (especially the 1100m and 1300m chutes), outside barrier draws are far less penalizing here than at standard NSW country tracks."
+      }
+    },
+    "handicapping_angles": {
+      "the_hunter_valley_premium": "Because Scone is surrounded by elite breeding farms, local trainers (like Paul Messara) often debut highly touted, incredibly well-bred horses here. Always respect first-starters from elite local yards.",
+      "swooper_friendly": "Unlike tight NSW tracks like Canterbury or Wyong, Scone’s 400m straight allows deep closers to build through their gears. Heavily upgrade horses with strong late sectionals; pure front-runners are often run down in the final 50m.",
+      "carnival_form_translation": "During the Scone Cup Carnival (May), the form is effectively Metropolitan grade. Horses that perform well here during the carnival should be given minimal class penalties when shipping to Randwick or Rosehill."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3.5 (Premium Country)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.5",
+        "turf_route": "-1.0"
+      },
+      "lengths": -1.0,
+      "points": -3.0
+    }
+  },
       "Wangaratta": {
         "location": "Wangaratta, VIC",
         "track_type": "Turf",
@@ -2386,6 +2429,36 @@
         "points": 10.0
       }
     },
+    "Northfield_Park": {
+    "track_code": "NFLD",
+    "location": "Northfield, OH",
+    "nicknames": ["The Home of the Flying Turns"],
+    "courses": {
+      "main_track": {
+        "circumference": "1/2 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "440 feet",
+        "passing_lane": true,
+        "bias_notes": "A highly unique half-mile track famous for its heavily banked 'Flying Turns'. These banked turns allow horses to sustain their momentum while racing two or three-wide much better than flat half-mile tracks. It also features an open stretch (passing lane).",
+        "post_bias": "Inside posts (1-4) are highly advantageous, but because of the banked turns, outside posts are not an absolute death sentence compared to tracks like Yonkers. Post 8 requires extreme gate speed to overcome."
+      }
+    },
+    "handicapping_angles": {
+      "the_passing_lane_pocket": "Unlike Mohawk or Yonkers, Northfield HAS an open stretch. Heavily upgrade horses with high early speed drawn inside that can secure the 'pocket' (2nd on the rail), as they are guaranteed a clear inside lane to challenge the leader late.",
+      "the_flying_turns_swoop": "Because of the banked turns, do not immediately discount horses forced to race on the outside (first-over or three-wide). Wide sweepers can sustain momentum here, especially if a speed duel up front causes a pace collapse.",
+      "ohio_circuit_shippers": "As the premium hub for Ohio racing, form lines here are incredibly strong. Apply class penalties to horses shipping in from smaller fair tracks or lesser regional venues."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Premium Regional Half-Mile)",
+      "class_rating": 90,
+      "speed_par_offsets": {
+        "pace": "-1.0",
+        "trot": "-1.5"
+      },
+      "lengths": 0.0,
+      "points": 3.0
+    }
+  },
     "Yonkers_Raceway": {
     "track_code": "YR",
     "location": "Yonkers, NY",
