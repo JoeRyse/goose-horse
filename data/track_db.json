@@ -106,20 +106,42 @@
       }
     },
     "Churchill_Downs": {
-      "location": "Louisville, KY",
-      "surface": "Dirt",
-      "distance": "1 Mile",
-      "bias_notes": "Home of the Derby. Track plays relatively fair due to longer stretch.",
-      "handicapping_angles": {
-        "surface_bias": "Generally fair. Long stretch allows closers.",
-        "pace_scenario": "Derby/Oaks fields create chaos. Favors stalkers."
+    "track_code": "CD",
+    "location": "Louisville, KY",
+    "nicknames": ["The Twin Spires", "Home of the Kentucky Derby"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "1,234 feet",
+        "bias_notes": "A 1-mile oval featuring one of the longest home stretches in North America (1,234 feet). The dirt surface can vary heavily depending on weather, sometimes playing cuppy and tiring, and other times becoming a lightning-fast 'highway'. Because of the long stretch, deep closers have a significantly better chance here than at tight-turn tracks like Parx or Thistledown.",
+        "post_bias": "In 1 Mile dirt races (run out of the one-turn chute), outside posts are generally fine. In two-turn routes (1 1/16 miles or longer), inside posts hold an advantage, as saving ground on both turns is crucial."
       },
-      "par_adjustment": {
-        "tier": "Tier 1 (Major)",
-        "lengths": 4.0,
-        "points": 9.0
+      "matt_winn_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "900 feet (approx)",
+        "bias_notes": "Located inside the main track, this 7/8-mile oval is much tighter than the sprawling dirt course. Because the turns are sharper, tactical speed and ground-saving trips are vital. The turf course handles rain decently, but can develop a distinct 'outside paths' bias when heavily chewed up.",
+        "post_bias": "Inside posts are advantageous in 1 Mile and 1 1/16 mile turf routes due to the short run to the first turn."
       }
     },
+    "handicapping_angles": {
+      "horses_for_courses": "Churchill Downs has one of the highest 'Horses for Courses' predictability ratings in the country. Heavily upgrade horses with proven winning form specifically over the Churchill dirt, as many horses simply refuse to run over this unique surface.",
+      "the_long_stretch_swoop": "In route races, heavily downgrade front-runners ('E' types) who have a history of folding in the final furlong. The 1,234-foot stretch will completely expose horses lacking genuine stamina.",
+      "the_shipper_advantage": "In undercard stakes and allowance races, respect horses shipping in from tough circuits like New York (Aqueduct/Saratoga) or Gulfstream Park, as they often outclass local Midwest horses."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Max)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "dirt_sprint": "+3.5",
+        "dirt_route": "+4.0",
+        "turf": "+3.0"
+      },
+      "lengths": 4.0,
+      "points": 10.0
+    }
+  },
     "Keeneland": {
       "location": "Lexington, KY",
       "surface": "Dirt",
