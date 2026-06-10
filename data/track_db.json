@@ -2639,16 +2639,35 @@
       }
     },
     "Hoosier_Park": {
-      "type": "Harness",
-      "layout": "7/8 Mile",
-      "passing_lane": false,
-      "bias_notes": "Long stretch. Closers have a real chance.",
-      "par_adjustment": {
-        "tier": "Tier 1 (Big Track / Premier)",
-        "lengths": 0.0,
-        "points": 10.0
+    "track_code": "HOP",
+    "location": "Anderson, IN",
+    "nicknames": ["Harrah's Hoosier Park"],
+    "courses": {
+      "main_track": {
+        "circumference": "7/8 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "1,255 feet",
+        "passing_lane": true,
+        "bias_notes": "A massive 7/8-mile track featuring an open stretch (passing lane) and an incredibly long 1,255-foot home straight. Because of this massive runway and the passing lane, 'wire-to-wire' speed is very difficult to sustain. The track heavily rewards patient drivers who sit in the pocket or swoop late.",
+        "post_bias": "Posts 4, 5, and 6 are statistically dominant. Inside posts (1-3) are highly advantageous IF the horse has enough gate speed to secure the pocket, but can be a trap for slow starters. Outside posts (8-10) are difficult, but much more winnable here than on a half-mile track due to the long stretch."
       }
     },
+    "handicapping_angles": {
+      "the_endless_stretch_swoop": "Heavily downgrade one-dimensional front-runners. The 1,255-foot stretch is a graveyard for tired leaders. Upgrade deep closers who can draft at the back of the pack and explode in the final 1/4 mile.",
+      "the_bullring_tax": "Aggressively apply the 'Bullring Tax' to horses shipping in from half-mile Ohio tracks (like Northfield or Miami Valley). Horses used to short 400-foot stretches frequently 'hit the wall' at the 7/8 pole and get swallowed by Hoosier regulars.",
+      "the_passing_lane_pocket": "The absolute best trip at Hoosier Park is the 'two-hole' (pocket). Heavily upgrade horses with high tactical speed drawn inside that can secure the spot right behind the leader, as the passing lane gives them a clear, unimpeded shot in the massive stretch."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Premium 7/8 Mile)",
+      "class_rating": 95,
+      "speed_par_offsets": {
+        "pace": "+2.0",
+        "trot": "+1.5"
+      },
+      "lengths": 0.0,
+      "points": 5.0
+    }
+  },
     "Scioto_Downs": {
       "type": "Harness",
       "layout": "5/8 Mile",
