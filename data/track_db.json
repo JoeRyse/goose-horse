@@ -548,6 +548,35 @@
             "points": -2.5
           }
         },
+        "Randwick_Kensington": {
+    "track_code": "KENS",
+    "location": "Sydney, NSW",
+    "nicknames": ["Kenso"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,100 metres",
+        "surface": "Turf (StrathAyr Base)",
+        "stretch_length": "401 metres",
+        "bias_notes": "Clockwise. Set inside the main Randwick course, the Kensington track utilizes an all-weather StrathAyr (sand base) construction. Because it drains exceptionally well, it often plays firmer and faster than the main track, frequently generating a strong on-pace and rail bias.",
+        "post_bias": "Inside barriers (1-4) are highly advantageous across all sprint trips. Because the circuit is tighter than the Course Proper, being caught three-wide without cover here is significantly more punishing."
+      }
+    },
+    "handicapping_angles": {
+      "the_strathayr_speed_bias": "When the track is rated Good, it frequently becomes a 'leader's track'. Heavily upgrade early speed ('E' types) and rail-skimming pressers. Deep closers ('S' types) often run out of time to catch the leaders despite the 401m straight.",
+      "the_wet_weather_mirage": "Kenso handles rain better than almost any track in Sydney. While surrounding tracks might race as Heavy, Kenso often plays much better (e.g., Soft 6). Do not immediately apply extreme 'mudlark' logic unless there is torrential rain during the meeting.",
+      "midweek_metro_strength": "This is Sydney's premier midweek venue. Winners of midweek Kenso handicaps possess elite form that translates very well when stepping up to Saturday Metro grade on the main Randwick or Rosehill tracks."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Metro Midweek)",
+      "class_rating": 92,
+      "speed_par_offsets": {
+        "turf_sprint": "-0.5",
+        "turf_route": "-0.5"
+      },
+      "lengths": 0.0,
+      "points": -1.0
+    }
+  },
         "Nowra": {
           "location": "Nowra, NSW",
           "track_type": "Turf",
@@ -1398,18 +1427,32 @@
           }
         },
         "Sale": {
-          "location": "Gippsland, VIC",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "350m",
-          "bias_notes": "Greenwattle Racecourse. Generally a fair and galloping track.",
+          "track_code": "SALE",
+          "location": "Sale, Gippsland, VIC",
+          "nicknames": ["Greenwattle", "The Flemington of the East"],
+          "courses": {
+            "main_turf": {
+              "circumference": "1,920 metres",
+              "surface": "Turf",
+              "stretch_length": "353 metres",
+              "bias_notes": "Counter-Clockwise. An outstanding, expansive provincial track. It features wide, sweeping turns and a generous home straight. It is universally regarded as one of the fairest tracks in Australia, giving every horse (leaders and deep closers) a legitimate chance.",
+              "post_bias": "Incredibly fair overall. The only slight disadvantage is for horses drawn very wide (10+) in the 1100m and 1200m sprint chutes, as they can occasionally get caught 3-wide without cover on the sweeping turn."
+            }
+          },
           "handicapping_angles": {
-            "track_bias": "Fair track. Gives backmarkers a chance."
+            "the_fair_track_factor": "Because Sale is so spacious, one-dimensional front-runners who rely on tight turns to steal races are highly vulnerable here. Heavily upgrade 'Swoopers' (closers) and horses with long, sustained galloping strides.",
+            "the_metro_raid": "Elite Melbourne metropolitan trainers (from Caulfield, Cranbourne, and Pakenham) constantly send their promising horses to Sale for 'easy' provincial kills. Always respect horses dropping from Metro midweek grades into Sale handicaps.",
+            "winter_heavy_form": "During the Victorian winter, Sale can become incredibly deep and heavy. When the track is rated Heavy 8 or worse, look for proven 'mudlarks' and downgrade horses whose only wins are on Good (dry) surfaces."
           },
           "par_adjustment": {
-            "tier": "Tier 4 (Premium Country)",
+            "tier": "Tier 3 (Premium Provincial)",
+            "class_rating": 88,
+            "speed_par_offsets": {
+              "turf_sprint": "-1.0",
+              "turf_route": "-1.0"
+            },
             "lengths": -1.0,
-            "points": -2.5
+            "points": -3.0
           }
         }
       }
@@ -2396,6 +2439,43 @@
         "algorithm_note": "Synthetic baseline form. Standard equalization applies." 
       }
     },
+    "Riccarton_Park": {
+    "track_code": "RIC",
+    "location": "Christchurch, Canterbury, NZ",
+    "nicknames": ["The Home of the New Zealand Cup"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,400 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Counter-Clockwise (Left-Handed). A massive, sprawling galloping track that is widely considered the fairest in New Zealand. The huge circumference and long 400m home straight give every horse a legitimate opportunity, whether leading or swooping from the back.",
+        "post_bias": "Because of the sheer size of the track and long runs to the first turn, outside barrier draws are far less penalizing here than at almost any other New Zealand venue."
+      },
+      "polytrack": {
+        "circumference": "1,900 metres",
+        "surface": "Synthetic (Polytrack)",
+        "stretch_length": "360 metres",
+        "bias_notes": "Counter-Clockwise (Left-Handed). An all-weather alternative surface. While synthetic tracks often inherently feature a leader/rail bias, the generous 360m straight here provides a surprisingly fair run-in for closers compared to tighter synthetic tracks.",
+        "post_bias": "Inside barriers hold a slight advantage over the 1200m to 1400m synthetic trips, as saving ground around the turns is mathematically crucial on artificial surfaces."
+      }
+    },
+    "handicapping_angles": {
+      "the_swooper_paradise": "The massive 400m turf straight functions much like Flemington in Australia. Heavily upgrade deep closers ('Swoopers') who possess elite late sectionals. One-dimensional front-runners often tire and are swallowed up in the final 100m.",
+      "cup_week_class": "During the NZ Cup Carnival in November, Riccarton hosts elite Group 1 racing, drawing the best from the North Island. Horses that perform well here against deep, high-class fields should carry heavily upgraded form when returning to standard South Island provincial tracks.",
+      "synthetic_specialists": "When racing is moved to the Polytrack, always upgrade horses with proven synthetic form or tactical early speed. Grass ratings do not always seamlessly translate to the artificial surface."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (New Zealand Premier)",
+      "class_rating": 95,
+      "speed_par_offsets": {
+        "turf_sprint": "+1.5",
+        "turf_route": "+2.0",
+        "synthetic": "+1.0"
+      },
+      "lengths": 1.0,
+      "points": 3.0
+    }
+  },
     "Manawatu": {
       "location": "Palmerston North (Awapuni), NZ",
       "track_type": "Turf",
