@@ -76,20 +76,49 @@
       }
     },
     "Santa_Anita": {
-      "location": "Arcadia, CA",
-      "surface": "Dirt/Turf",
-      "distance": "1 Mile",
-      "bias_notes": "Dirt track can get very hard and fast. When 'sealed' (wet), it moves up inside speed significantly.",
-      "handicapping_angles": {
-        "hillside_turf_course": "Unique downhill 6.5f sprint. Specialists ONLY.",
-        "dirt_miles": "Two turns. Speed holds well."
+    "track_code": "SA",
+    "location": "Arcadia, CA",
+    "nicknames": ["The Great Race Place"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "900 feet",
+        "bias_notes": "A 1-mile dirt oval that historically plays extremely hard and fast. It frequently develops a 'Golden Rail' bias that heavily favors early speed ('E' types) and rail-skimming trips. Deep closers often struggle on the dirt unless there is a suicidal pace duel.",
+        "post_bias": "Inside posts are advantageous in sprints, provided the horse has the gate speed to utilize the position. In two-turn routes, saving ground on the tight turns is critical."
       },
-      "par_adjustment": {
-        "tier": "Tier 1 (Insulated West)",
-        "lengths": 4.5,
-        "points": 10.0
+      "main_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "900 feet",
+        "bias_notes": "A flat, fast turf course that plays reasonably fair, though tactical speed is generally preferred over deep closing styles.",
+        "post_bias": "Inside to middle draws are optimal. Wide draws in two-turn turf routes are a severe penalty."
+      },
+      "downhill_turf": {
+        "circumference": "Approx. 6.5 Furlongs",
+        "surface": "Turf (with Dirt Crossing)",
+        "stretch_length": "900 feet",
+        "bias_notes": "One of the most unique layouts in America. Horses start at the top of the hill, run down a right-hand bend, cross the main dirt track, and finish on the main turf stretch. Agility and experience are paramount.",
+        "post_bias": "Outside posts are actually preferred here, as they allow horses a clear, unimpeded run down the hill before making the right-hand turn and dirt crossing."
       }
     },
+    "handicapping_angles": {
+      "downhill_specialists": "The downhill turf course requires a highly specific skill set. Heavily upgrade 'Horses for Courses' who have proven they can handle the right-hand turn and the visual distraction of the dirt crossing.",
+      "the_west_coast_island": "Southern California racing is highly insulated. Top-tier Santa Anita form is elite, but apply caution when California horses ship East (e.g., to Churchill or Belmont), as they often struggle to adapt to deeper, more tiring dirt surfaces.",
+      "golden_rail_watch": "Always monitor the early dirt races. If wire-to-wire rail runners dominate the first few events, aggressively upgrade inside speed horses for the remainder of the card."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite West Coast)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "dirt_sprint": "+4.0",
+        "dirt_route": "+4.5",
+        "turf": "+3.5"
+      },
+      "lengths": 5.0,
+      "points": 12.0
+    }
+  },
     "Del_Mar": {
       "location": "Del Mar, CA",
       "surface": "Dirt",
@@ -260,20 +289,78 @@
       }
     },
     "Woodbine": {
-      "location": "Toronto, ON",
-      "surface": "Tapeta (Synthetic)",
-      "distance": "1 Mile",
-      "bias_notes": "Premier Synthetic track. Tapeta surface plays fair but favors closers/stalkers more than dirt.",
-      "handicapping_angles": {
-        "surface_bias": "Synthetic favors horses who can sustain a run. Late kick is vital.",
-        "turf_notes": "E.P. Taylor Turf Course is massive (1.5 miles) - very fair."
+    "track_code": "WO",
+    "location": "Toronto, ON, Canada",
+    "nicknames": ["Woodbine"],
+    "courses": {
+      "main_tapeta": {
+        "circumference": "1 Mile",
+        "surface": "Synthetic (Tapeta)",
+        "stretch_length": "975 feet",
+        "bias_notes": "An all-weather Tapeta surface that plays much closer to turf than dirt. It is incredibly fair and highly penalizes one-dimensional front-runners. Sustained momentum and late closing kicks ('Swoopers') are heavily rewarded.",
+        "post_bias": "Extremely fair. Outside posts are not heavily penalized in sprint chutes because riders have time to find cover. Saving ground on the turns in routes is still mathematically beneficial."
       },
-      "par_adjustment": {
-        "tier": "Tier 2 (Regional Premier)",
-        "lengths": 2.0,
-        "points": 5.0
+      "ep_taylor_turf": {
+        "circumference": "1 1/2 Miles",
+        "surface": "Turf",
+        "stretch_length": "1,440 feet",
+        "bias_notes": "A massive, sweeping European-style turf course with a grueling 1,440-foot home stretch. It is the ultimate closer's paradise. Pure speed horses almost always collapse in the final furlong.",
+        "post_bias": "Very fair due to the massive circumference. Wide sweeps are entirely possible."
+      },
+      "inner_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "975 feet",
+        "bias_notes": "A standard North American-style turf oval sitting inside the main track. Considerably tighter than the E.P. Taylor course, placing a higher premium on tactical early speed and inside positioning.",
+        "post_bias": "Inside posts hold an advantage here, unlike the outer turf course."
       }
     },
+    "handicapping_angles": {
+      "the_synthetic_shift": "Heavily upgrade turf specialists when races are moved off the grass onto the Tapeta. Conversely, aggressively downgrade horses shipping in whose only good form is on traditional deep dirt tracks (like Saratoga or Parx), as dirt form frequently fails to translate to Tapeta.",
+      "the_endless_stretch": "On the E.P. Taylor turf course, completely toss 'Need-the-Lead' types in route races. The 1,440-foot stretch will expose any horse lacking genuine stamina.",
+      "shipper_class_evaluation": "Top-tier shippers from elite US turf hubs (like Belmont or Gulfstream) frequently perform exceptionally well here, but local Tapeta specialists hold a distinct home-court advantage on the main track."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1.5 (Premier Canada)",
+      "class_rating": 96,
+      "speed_par_offsets": {
+        "synthetic_sprint": "+1.5",
+        "synthetic_route": "+2.0",
+        "turf": "+3.0"
+      },
+      "lengths": 2.0,
+      "points": 5.0
+    }
+  },
+    "Assiniboia_Downs": {
+    "track_code": "ASD",
+    "location": "Winnipeg, MB, Canada",
+    "nicknames": ["ASD"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "6 1/2 Furlongs",
+        "surface": "Dirt",
+        "stretch_length": "990 feet",
+        "bias_notes": "A very tight 6.5-furlong oval. Because the track is smaller than standard 1-mile circuits, the turns are tight, which inherently creates a massive advantage for horses with early speed and inside positioning. Deep closers are at a severe disadvantage.",
+        "post_bias": "Inside posts (1-4) hold a significant statistical advantage, particularly in sprint races. Horses drawn wide (7+) are frequently caught out wide on the tight turns and forced to cover far too much ground."
+      }
+    },
+    "handicapping_angles": {
+      "the_bullring_speed_bias": "Aggressively upgrade pure front-runners ('E' types) and rail-skimming pressers. If a horse can clear the field early from an inside draw, they are incredibly difficult to run down on this tight layout.",
+      "the_century_mile_shipper_trap": "Apply extreme caution to horses shipping in from Century Mile (Alberta). Century Mile is a massive, expansive 1-mile track. Large, long-striding closers who ran well at Century frequently struggle to navigate the tight, sharp turns at Assiniboia.",
+      "woodbine_class_droppers": "Horses shipping from Woodbine down to Assiniboia are taking a massive class drop. However, do not blindly bet them if they lack tactical early speed; class alone cannot overcome being caught 5-wide on the turns here."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional Canada)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "dirt_sprint": "-2.5",
+        "dirt_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
     "Kentucky_Downs": {
       "location": "Franklin, KY",
       "surface": "Turf Only",
@@ -346,22 +433,50 @@
         "points": 0.0
       }
     },
-    "Aqueduct": {
-      "location": "Ozone Park, NY",
-      "surface": "Dirt/Turf",
-      "distance": "1 1/8 Miles",
-      "bias_notes": "Winter/Spring grind. DEAD RAIL is common in winter. Outside flow is heavily favored over the inside paths.",
-      "handicapping_angles": {
-        "surface_bias": "Sprints still favor speed, but 'Outside Speed' is vastly superior to 'Rail Speed'. Downgrade horses drawn in Post 1 or 2 if the rail is dead.",
-        "turf_notes": "Inner Turf is tight and inside-speed favoring. Outer Turf is wide and fair."
+   "Aqueduct": {
+    "track_code": "AQU",
+    "location": "Queens, NY",
+    "nicknames": ["The Big A"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 1/8 Miles",
+        "surface": "Dirt",
+        "stretch_length": "1,155 feet",
+        "bias_notes": "A massive 1 1/8-mile dirt oval. During the winter months, the track frequently develops a severe 'DEAD RAIL'. Jockeys will deliberately steer 3 to 4 paths wide looking for the better, faster ground. Outside flow and outside momentum are the dominant biases.",
+        "post_bias": "Because of the winter dead rail, inside posts (1-2) can be a severe disadvantage in dirt sprints. Mid-to-outside draws are highly preferred so horses can immediately establish 'Outside Speed'."
       },
-      "par_adjustment": { 
-        "tier": "Tier 2 (Winter/Spring)", 
-        "lengths": 2.4, 
-        "points": 6.0, 
-        "algorithm_note": "Strong New York winter form. Standard penalty applied if shipping to Tier 1 tracks like Saratoga or Belmont." 
+      "outer_turf": {
+        "circumference": "1 Mile",
+        "surface": "Turf",
+        "stretch_length": "1,155 feet",
+        "bias_notes": "A sweeping 1-mile turf course. Generally plays very fair to all run styles.",
+        "post_bias": "Fair across the board, though saving some ground around the wide, sweeping turns is always beneficial."
+      },
+      "inner_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "1,034 feet",
+        "bias_notes": "A tighter 7/8-mile inner turf course. Because the turns are significantly sharper than the outer course, it distinctly favors tactical early speed and rail-skimming trips.",
+        "post_bias": "Inside posts (1-4) hold a distinct advantage here due to the tighter geometry and shorter run into the first turn."
       }
     },
+    "handicapping_angles": {
+      "the_winter_dead_rail": "During the winter meet, aggressively downgrade horses breaking from the inside rail unless they possess the tactical speed to immediately cross over and get 3-paths wide. Upgrade 'Outside Speed' over 'Rail Speed'.",
+      "the_seasonal_tier_shift": "Aqueduct operates as a Tier 2 track in the harsh winter, but bumps up to a Tier 1.5 track in the Spring and Fall when elite New York stables return. Apply a heavier class penalty (+8 lengths) during the Spring/Fall meets than in the Winter (+6 lengths).",
+      "the_outside_flow": "In route races on the dirt, horses that can secure a clear, wide stalking trip ('Outside Flow') frequently run down horses stuck battling on the slower inside rail."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Winter) / Tier 1.5 (Spring/Fall)",
+      "class_rating": 95,
+      "speed_par_offsets": {
+        "dirt_sprint": "+2.0",
+        "dirt_route": "+2.5",
+        "turf": "+2.0"
+      },
+      "lengths": 6.0,
+      "points": 10.0
+    }
+  },
     "Turf_Paradise": {
       "location": "Phoenix, AZ",
       "surface": "Dirt",
@@ -851,20 +966,34 @@
           }
         },
         "Seymour": {
-          "location": "Seymour, VIC",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "380m",
-          "bias_notes": "A very spacious and wide track.",
-          "handicapping_angles": {
-            "track_bias": "Extremely fair."
-          },
-          "par_adjustment": {
-            "tier": "Tier 4 (Premium Country)",
-            "lengths": -1.0,
-            "points": -2.5
-          }
-        },
+    "track_code": "SEYM",
+    "location": "Seymour, VIC",
+    "nicknames": ["The Heart of Victoria's Thoroughbred Country"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,800 metres",
+        "surface": "Turf",
+        "stretch_length": "380 metres",
+        "bias_notes": "Counter-Clockwise. Reconstructed and widened to 23 metres, Seymour is a highly regarded, spacious, and fair track. The 380m home straight gives swoopers every possible chance, while the sweeping turns allow for momentum building.",
+        "post_bias": "Generally very fair due to the long runs into the first turn, especially from the 1100m to 1300m sprint chutes which provide a massive straight run before the bend. Wide barriers are far less of a penalty here than at tighter Victorian country tracks."
+      }
+    },
+    "handicapping_angles": {
+      "the_fair_track_swoop": "Because the track is expansive and the straight is 380m long, one-dimensional front-runners often tire. Heavily upgrade 'Swoopers' (closers) with strong late sectionals.",
+      "the_chute_advantage": "In 1100m, 1200m, and 1300m sprints, do not heavily penalize wide draws. The chute starts provide a very long, straight run before cornering, allowing jockeys plenty of time to slot in and find cover without burning early energy.",
+      "metro_trainer_targets": "Given its proximity to Melbourne and premium surface, elite Metro trainers (Hayes, Freedman, Maher) frequently send high-quality progressive horses here. Respect these runners heavily when dropping from Metro midweek or Saturday grade."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3.5 (Premium Country)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.0",
+        "turf_route": "-1.0"
+      },
+      "lengths": -1.0,
+      "points": -3.0
+    }
+  },
         "Terang": {
           "location": "Terang, VIC",
           "track_type": "Turf",
@@ -896,20 +1025,34 @@
           }
         },
         "Gosford": {
-          "location": "Central Coast",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "350m",
-          "bias_notes": "Tight, rectangular track. Leaders track.",
-          "handicapping_angles": {
-            "track_bias": "Moderate on-pace bias."
-          },
-          "par_adjustment": {
-            "tier": "Tier 3 (Provincial Baseline)",
-            "lengths": 0.0,
-            "points": 0.0
-          }
-        },
+    "track_code": "GOSF",
+    "location": "Gosford, Central Coast, NSW",
+    "nicknames": ["The Entertainment Grounds"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,710 metres",
+        "surface": "Turf",
+        "stretch_length": "250 metres",
+        "bias_notes": "Clockwise. A notoriously tight, turning circuit with a very short 250m straight. It heavily favors on-pace runners and horses that can corner sharply. Deep closers are at a massive disadvantage as they simply run out of runway to wind up.",
+        "post_bias": "Inside barriers (1-4) are a massive advantage, particularly in sprints (1000m, 1100m, 1200m). Horses drawn wide must expend significant early energy to cross over, or they risk being caught wide on the tight, continuous turns."
+      }
+    },
+    "handicapping_angles": {
+      "the_tight_track_bias": "Aggressively upgrade early speed ('E' types) and rail-skimming pressers. Heavily downgrade pure 'Swoopers' (closers) unless they have drawn an inside barrier and the early pace is projected to be suicidal.",
+      "the_sydney_raiders": "As a premier NSW Provincial track located near Sydney, elite Metropolitan trainers (Waller, Cummings, Waterhouse/Bott) frequently raid this track. Always respect horses dropping back from midweek Metro grades (like Canterbury or Kensington).",
+      "horses_for_courses": "Because the geometry is so tight, large-striding horses often become unbalanced here. Heavily upgrade smaller, agile horses with proven winning form specifically at the Gosford circuit."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Premium Provincial)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.0",
+        "turf_route": "-1.0"
+      },
+      "lengths": -1.0,
+      "points": -3.0
+    }
+  },
         "Queanbeyan": {
           "location": "Queanbeyan, NSW",
           "track_type": "Turf",
@@ -957,21 +1100,35 @@
             "points": -5.0
           }
         },
-        "Mackay": {
-          "location": "Mackay, QLD",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "310m",
-          "bias_notes": "A tight North Queensland provincial circuit.",
-          "handicapping_angles": {
-            "track_bias": "Strong on-pace bias."
-          },
-          "par_adjustment": {
-            "tier": "Tier 3 (Provincial Baseline)",
-            "lengths": 0.0,
-            "points": 0.0
-          }
-        },
+       "Mackay": {
+    "track_code": "MKAY",
+    "location": "Mackay (Ooralea), QLD",
+    "nicknames": ["Ooralea Racecourse"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,600 metres",
+        "surface": "Turf (StrathAyr Base)",
+        "stretch_length": "310 metres",
+        "bias_notes": "Clockwise. A tight, narrow provincial track (only 18m wide) that is almost continuously turning. Because of the StrathAyr base, it drains exceptionally well and frequently races on firm surfaces. The tight geometry and short 310m home straight heavily favor on-pace runners who can secure the inside rail.",
+        "post_bias": "Inside barriers (1-4) hold a significant advantage. Because the track is so narrow and constantly turning, horses drawn wide are forced to cover excessive extra ground and often struggle to cross over without expending massive energy."
+      }
+    },
+    "handicapping_angles": {
+      "the_strathayr_drainage": "Because of its elite StrathAyr profile, Mackay handles rain far better than standard Queensland provincial tracks. Do not over-penalize form or aggressively upgrade 'mudlarks' based solely on local wet weather forecasts unless the rain is torrential and sustained.",
+      "tight_turning_bias": "Aggressively downgrade deep closers ('Swoopers'). The 310m straight and constant turns make it incredibly difficult to loop the field. Heavily upgrade front-runners ('E' types) and rail-skimming pressers.",
+      "northern_qld_raiders": "Mackay sits on the primary North Queensland coastal circuit. Form lines from Rockhampton and Townsville translate well, but apply a strict class penalty to horses shipping in from smaller surrounding bush/dirt tracks (like Bowen or Home Hill)."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Provincial QLD)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.0",
+        "turf_route": "-1.5"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
         "Tamworth": {
           "location": "Tamworth, NSW",
           "track_type": "Turf",
@@ -2521,16 +2678,35 @@
   },
   "USA_Harness": {
     "Meadowlands": {
-      "type": "Harness",
-      "layout": "1 Mile",
-      "passing_lane": false,
-      "bias_notes": "The Big M. Long stretch favors closers. Speed does not hold well.",
-      "par_adjustment": {
-        "tier": "Tier 1 (Big Track / Premier)",
-        "lengths": 0.0,
-        "points": 10.0
+    "track_code": "M",
+    "location": "East Rutherford, NJ",
+    "nicknames": ["The Big M", "The Mecca of Harness Racing"],
+    "courses": {
+      "main_track": {
+        "circumference": "1 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "985 feet",
+        "passing_lane": false,
+        "bias_notes": "A massive 1-mile oval. Widely considered the fairest track in harness racing. The broad sweeping turns and long 985-foot stretch mean horses can win from almost anywhere, allowing deep closers a legitimate chance to swoop the field.",
+        "post_bias": "Extremely fair. Outside posts (8-10) are a disadvantage, but much less severe than on 1/2 or 5/8-mile tracks because the long straightaways give drivers ample time to slot in and find cover."
       }
     },
+    "handicapping_angles": {
+      "the_class_epicenter": "This is the premier class hub. When a horse ships out of the Meadowlands to race at smaller regional tracks (like Yonkers, Pocono, or Harrah's Philadelphia), they possess a massive class edge. Conversely, regional horses shipping in frequently struggle with the mile distance and intense fractional speed.",
+      "the_long_stretch_swoop": "Heavily upgrade horses with elite final-quarter speed (e.g., sub-26.0 seconds). The long stretch exposes front-runners who lack pure stamina, and 'first-over' grinding trips are less punishing here than on tighter tracks.",
+      "pace_meltdown_potential": "Because drivers know the track is fair, early speed duels are common. Always look for deep closers when the early pace projects to be contentious."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite 1-Mile)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "pace": "+6.0",
+        "trot": "+5.0"
+      },
+      "lengths": 0.0,
+      "points": 10.0
+    }
+  },
     "Northfield_Park": {
     "track_code": "NFLD",
     "location": "Northfield, OH",
