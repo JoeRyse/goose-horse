@@ -2336,16 +2336,51 @@
   "Europe_Thoroughbred": {
     "United_Kingdom": {
       "Flat_Tracks": {
-        "Ascot": {
-          "location": "Berkshire",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "2f 166y",
-          "bias_notes": "STIFF UPHILL FINISH. Straight course fair.",
-          "handicapping_angles": {
-            "track_bias": "Uphill finish demands stamina."
-          }
-        },
+       "Ascot_UK": {
+  "track_code": "ASC",
+  "location": "Ascot, Berkshire, UK",
+  "nicknames": ["The Home of Royal Ascot", "Headquarters of the Royal Meeting"],
+  "courses": {
+    "straight_course": {
+      "circumference": "1 Mile (Straight)",
+      "surface": "Turf (Sand/Gravel Raft Base)",
+      "stretch_length": "1 Mile",
+      "bias_notes": "A straight galloping track used for races from 5f up to 1 Mile. There are no bends, but the topography features a downhill gradient for the first 2 furlongs before hitting a punishing 73-foot uphill climb over the final 2 furlongs to the winning post. This gradient frequently exhausts front-runners who set too fast a pace, heavily rewarding patient stalkers and deep closers.",
+      "post_bias": "Draw bias is heavily dictated by track condition. On Good/Firm ground, a 'Golden Highway' often forms on the near/stands side, massively advantaging High numbers (Stalls 20-32). When the ground is Soft/Heavy, the bias violently flips as Low numbers (far side) frequently find unpoached, better ground."
+    },
+    "round_course": {
+      "circumference": "14 Furlongs (1m 6f)",
+      "surface": "Turf",
+      "stretch_length": "2 1/2 Furlongs (500m)",
+      "bias_notes": "Right-Handed. A large, galloping triangular circuit. Despite a downhill run into Swinley Bottom, the track finishes with the same stiff uphill drag as the straight course. The turn into the relatively short home straight is sweeping, allowing prominently ridden horses to kick for home effectively, but stamina is severely tested.",
+      "post_bias": "In races from 1 Mile to 1 1/4 Miles on the round course, inside (Low) draws are advantageous to save ground around the first bend. However, in large-field handicaps 1 1/2 Miles or longer, extreme low draws (1-4) are highly disadvantaged due to traffic bottlenecks entering the short run-in. Middle to high draws perform significantly better by sustaining uninterrupted momentum."
+    },
+    "jumps_course": {
+      "circumference": "13 Furlongs (1m 5f)",
+      "surface": "Turf (Hurdle and Chase)",
+      "stretch_length": "240 Yards",
+      "bias_notes": "Features 10 stiff chase fences per circuit, including plain fences, open ditches, and water jumps. Regarded as a severe jumping test. Success heavily relies on jumping fluently and freewheeling economically down the Swinley Bottom descent to conserve aerobic capacity for the uphill 240-yard run-in.",
+      "post_bias": "N/A"
+    }
+  },
+  "handicapping_angles": {
+    "the_uphill_drag": "The defining characteristic of Ascot is the uphill finish. Heavily downgrade 'Need-the-Lead' front-runners in straight-course races. Pure speed is far less valuable here than the ability to sustain a long, grinding gallop.",
+    "the_golden_highway": "During the summer (particularly Royal Ascot week) on fast ground, aggressively upgrade horses drawn high (stands side) in big-field straight-course handicaps (e.g., Royal Hunt Cup, Wokingham Stakes, Britannia Stakes).",
+    "royal_class_elite": "During Royal Ascot, trainer angles are paramount. Apply massive upgrades to Group horses trained by elite yards (like Aidan O'Brien or John Gosden), particularly when supported in the market. Charlie Appleby's runners historically underperform market expectations as favourites in large Royal Ascot handicaps.",
+    "algorithmic_roi_upgrades": "Aggressively upgrade Roger Varian favorites (+156% historical ROI) and Karl Burke/Wathnan Racing 2YOs at double-digit SPs (+202% ROI). In races over 2 miles, target the DOBbing (Double or Bust) strategy on horses priced between 2.02 and 4.25 BSP."
+  },
+  "par_adjustment": {
+    "tier": "Tier 1 (Elite European)",
+    "class_rating": 100,
+    "speed_par_offsets": {
+      "turf_sprint": "+2.0",
+      "turf_route": "+2.5",
+      "jumps": "+3.0"
+    },
+    "lengths": 3.0,
+    "points": 10.0
+  }
+},
         "Epsom_Downs": {
           "location": "Surrey",
           "track_type": "Turf",
