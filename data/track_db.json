@@ -1138,21 +1138,93 @@
             "points": 0.0
           }
         },
+        "Kilcoy": {
+    "track_code": "KCOY",
+    "location": "Kilcoy, QLD",
+    "nicknames": ["Moonee Valley of the North", "The Short Course"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,276 metres",
+        "surface": "Turf (Kikuyu Grass)",
+        "stretch_length": "143 metres",
+        "bias_notes": "Clockwise. An exceptionally tight, circular track with one of the shortest home straights in Australia (only 143m). Because the straight provides almost zero time to wind up, momentum and early speed are absolutely crucial. The track inherently possesses a massive bias towards front-runners and horses that race on the pace.",
+        "post_bias": "Inside barriers (1-4) are a massive advantage across all starts, particularly the unique 800m and 875m dashes. Horses drawn wide (8+) are at a severe disadvantage, as they are forced to cover extra ground on the continuous tight turns with no straight to recover the lost lengths."
+      }
+    },
+    "handicapping_angles": {
+      "the_extreme_speed_bias": "Heavily upgrade pure front-runners ('E' types) and rail-skimming pressers with explosive gate speed. Conversely, aggressively downgrade deep closers ('Swoopers'); if a horse is not in the first four rounding the home turn, their race is effectively over.",
+      "specialist_track_form": "Because the geometry is so extreme, 'Horses for Courses' is a massive angle here. Heavily upgrade horses with proven winning form specifically at Kilcoy, and apply caution to large-striding gallopers shipping in from massive, sprawling tracks like Sunshine Coast or Eagle Farm.",
+      "the_kikuyu_cushion": "The track is covered in Kikuyu grass, which provides a thick cushion and holds together reasonably well during wet weather. Wet track ratings (Soft/Heavy) here often play slightly faster than standard dirt-based provincial tracks."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Country QLD)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
+  "Ballarat_Synthetic": {
+    "track_code": "BRTS",
+    "location": "Ballarat (Dowling Forest), VIC",
+    "nicknames": ["The Polytrack"],
+    "courses": {
+      "polytrack": {
+        "circumference": "1,900 metres",
+        "surface": "Synthetic (Polytrack)",
+        "stretch_length": "320 metres",
+        "bias_notes": "Counter-Clockwise. An all-weather synthetic Polytrack constructed inside the main turf course. Unlike older, tighter synthetic tracks, it features broad, sweeping turns and a solid 320m straight. While synthetic surfaces naturally favor horses that can save ground on the rail, the spacious layout ensures that closers get a legitimate chance if the early pace is genuine.",
+        "post_bias": "Inside barriers (1-4) hold a distinct advantage, particularly over the 1000m to 1200m sprint distances. Being caught three-wide without cover on a synthetic surface is generally a severe penalty because horses struggle to generate the same wide, sweeping momentum they can on grass."
+      }
+    },
+    "handicapping_angles": {
+      "polytrack_specialists": "Always heavily upgrade horses with proven synthetic form (Polytrack or Tapeta). Grass ratings do not always seamlessly translate to artificial surfaces. Some horses despise the kickback, while 'synthetic specialists' will grow a leg on this surface.",
+      "the_kickback_factor": "Unlike turf, the Polytrack generates a decent amount of kickback (flying material). Downgrade timid stalkers drawn inside who lack early speed and are prone to getting buried in the pack, as they often resent the kickback and drop the bit.",
+      "the_pakenham_translation": "Form translates beautifully between the Pakenham Synthetic track and Ballarat Synthetic. Both are spacious Victorian Polytracks. Upgrade horses shipping between these two venues who possess strong underlying synthetic speed figures."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3.5 (Premium Country Synthetic)",
+      "class_rating": 85,
+      "speed_par_offsets": {
+        "synthetic_sprint": "+1.5",
+        "synthetic_route": "+2.0"
+      },
+      "lengths": 1.0,
+      "points": 3.0
+    }
+  },
         "Taree": {
-          "location": "Mid North Coast, NSW",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "350m",
-          "bias_notes": "Tight turning track. On-pace runners have an advantage.",
-          "handicapping_angles": {
-            "track_bias": "Favor leaders and horses drawing inside."
-          },
-          "par_adjustment": {
-            "tier": "Tier 5 (Bush Country)",
-            "lengths": -2.0,
-            "points": -5.0
-          }
-        },
+    "track_code": "TAR",
+    "location": "Taree, Mid-North Coast, NSW",
+    "nicknames": ["Manning Valley Race Club"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,530 metres",
+        "surface": "Turf",
+        "stretch_length": "350 metres",
+        "bias_notes": "Clockwise. A somewhat uniquely shaped triangular circuit with tight, sweeping turns. Because of the tighter geometry and moderate 350m home straight, it generally plays with a distinct on-pace/leader bias. The track features a Kikuyu grass base, meaning it holds together remarkably well during wet weather compared to other country tracks.",
+        "post_bias": "Inside barriers (1-5) are a distinct advantage across all sprint distances (1000m - 1400m). Horses drawn wide must either expend significant early energy to cross over or risk being caught wide on the tight turns, which is a massive penalty here."
+      }
+    },
+    "handicapping_angles": {
+      "the_triangle_speed_bias": "Because of the triangular layout and tight corners, pure front-runners ('E' types) and prominent stalkers have a significant edge. Heavily downgrade deep closers ('Swoopers') unless they have drawn an inside barrier and can save ground the entire trip.",
+      "wet_weather_durability": "Do not aggressively apply 'mudlark' extreme wet-track logic too early here. Taree's Kikuyu matting drains and handles rain much better than standard NSW bush tracks, often racing firmer than the official rating suggests.",
+      "country_championship_form": "As a key track for the Mid-North Coast Country Championships qualifiers, form from elite local trainers (like Kris Lees when he sends horses up from Newcastle) is incredibly strong. Always respect horses dropping back from Provincial (Newcastle/Wyong) grade."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Standard Country)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.0",
+        "turf_route": "-1.5"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
        "Mackay": {
     "track_code": "MKAY",
     "location": "Mackay (Ooralea), QLD",
