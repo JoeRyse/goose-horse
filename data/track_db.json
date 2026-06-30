@@ -2348,16 +2348,42 @@
           "track_bias": "Fairer than most dirt tracks due to the spiral turn."
         }
       },
-      "Tokyo_City_Keiba_Ohi": {
-        "location": "Ohi, Tokyo",
-        "track_type": "Dirt (Sand)",
-        "direction": "Clockwise",
-        "straight_length": "386m",
-        "bias_notes": "Also known as 'Ohi'. Night racing. Exclusively DIRT.",
-        "handicapping_angles": {
-          "kickback": "Sand kickback is severe."
-        }
+      "Tokyo_City_Keiba": {
+    "track_code": "TCK",
+    "location": "Shinagawa, Tokyo, Japan",
+    "nicknames": ["Ohi Racecourse", "Oi Racecourse", "The Mecca of Dirt Racing"],
+    "courses": {
+      "main_dirt_outer": {
+        "circumference": "1,600 metres",
+        "surface": "Deep Sand / Volcanic Ash",
+        "stretch_length": "386 metres",
+        "bias_notes": "Right-Handed. A sprawling, flat dirt oval. The surface is composed of 70mm of loose cushion sand over volcanic ash, making it significantly deeper, slower, and more stamina-draining than traditional North American dirt tracks. Because of the long 386m homestretch, one-dimensional front-runners often run out of gas, making it a very fair track for closers.",
+        "post_bias": "In the standard 2,000m route races, horses start in the homestretch and have a massive 500m run into the first turn. Because of this long run-up, outside barriers are rarely a severe penalty, and the track generally plays incredibly fair across all posts."
       },
+      "inner_dirt": {
+        "circumference": "1,400 metres",
+        "surface": "Deep Sand / Volcanic Ash",
+        "stretch_length": "286 metres",
+        "bias_notes": "Right-Handed. The inner oval is tighter with a significantly shorter straight (286m). Unlike the outer course, this configuration heavily favors tactical early speed and rail-skimming trips.",
+        "post_bias": "Inside barriers (1-4) hold a distinct advantage here due to the sharper turns and shorter home straight."
+      }
+    },
+    "handicapping_angles": {
+      "the_deep_sand_stamina": "Never handicap TCK using traditional American speed logic. The deep sand surface demands grueling stamina. Heavily downgrade pure 'speed' horses that lack proven endurance, and upgrade grinding 'First-Over' types who can sustain a long, heavy gallop.",
+      "the_jra_invader_tax": "Elite JRA (Japan Racing Association) horses frequently ship into TCK for massive stakes races. While they usually possess a massive class advantage, apply caution if they have never raced on NAR deep sand. Some brilliant JRA dirt horses completely fail to handle the heavier, slower TCK surface.",
+      "the_outer_stretch_swoop": "In route races on the 1,600m outer track, heavily upgrade deep closers ('Swoopers'). The 386m straight will mercilessly expose front-runners who set too fast a pace in the deep sand."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1.5 (Japan NAR Premier)",
+      "class_rating": 96,
+      "speed_par_offsets": {
+        "dirt_sprint": "+3.0",
+        "dirt_route": "+4.0"
+      },
+      "lengths": 2.0,
+      "points": 5.0
+    }
+  },
       "Kawasaki": {
         "location": "Kawasaki, Kanagawa, Japan",
         "track_type": "Dirt",
