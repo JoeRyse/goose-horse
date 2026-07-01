@@ -746,7 +746,7 @@
             "points": -2.5
           }
         },
-        "Randwick_Kensington": {
+       "Randwick_Kensington": {
     "track_code": "KENS",
     "location": "Sydney, NSW",
     "nicknames": ["Kenso"],
@@ -755,7 +755,7 @@
         "circumference": "2,100 metres",
         "surface": "Turf (StrathAyr Base)",
         "stretch_length": "401 metres",
-        "bias_notes": "Clockwise. Set inside the main Randwick course, the Kensington track utilizes an all-weather StrathAyr (sand base) construction. Because it drains exceptionally well, it often plays firmer and faster than the main track, frequently generating a strong on-pace and rail bias.",
+        "bias_notes": "Clockwise. Set inside the main Randwick course, the Kensington track utilizes an all-weather StrathAyr (sand base) construction. It features a somewhat narrow 18-metre width at the winning post. Because it drains exceptionally well, it often plays firmer and faster than the main track, frequently generating a strong on-pace and rail bias.",
         "post_bias": "Inside barriers (1-4) are highly advantageous across all sprint trips. Because the circuit is tighter than the Course Proper, being caught three-wide without cover here is significantly more punishing."
       }
     },
@@ -1231,6 +1231,35 @@
       },
       "lengths": -2.0,
       "points": -5.0
+    }
+  },
+  "Sandown_Lakeside": {
+    "track_code": "SANL",
+    "location": "Springvale, Melbourne, VIC",
+    "nicknames": ["Lakeside", "Ladbrokes Park Lakeside"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,857 metres",
+        "surface": "Turf",
+        "stretch_length": "407 metres",
+        "bias_notes": "Counter-Clockwise. The inner of the two Sandown circuits. While tighter than the Hillside track, it still features a generous 407m home straight. On firm ground, the track plays very fairly, allowing horses to build momentum around the sweeping turns. However, when the track becomes rain-affected (Soft/Heavy), the inside rail can quickly become a 'no-go zone', heavily advantaging horses swooping down the outside.",
+        "post_bias": "In 1200m and 1300m sprints, the turns come up somewhat quickly, meaning inside barriers hold an advantage to avoid being trapped wide. In the 1400m and 1600m events, the long straight and generous run-ins make barrier position far less critical, giving wide-drawn horses ample opportunity to find cover."
+      }
+    },
+    "handicapping_angles": {
+      "the_wet_weather_swoop": "When the Sandown Lakeside track is downgraded to Soft or Heavy, immediately look for 'Swoopers' (closers) drawing middle-to-outside barriers. The inside lanes frequently chop out, creating a massive advantage for horses making their runs down the center of the track.",
+      "the_hillside_translator": "Sandown Lakeside is tighter than the outer Hillside circuit. Large, long-striding gallopers who thrive on the massive expanses of Flemington or Sandown Hillside can sometimes struggle with the sharper bends here. Upgrade agile, tactical horses dropping back from Hillside to Lakeside.",
+      "midweek_metro_class": "As Melbourne's premier midweek workhorse track, form out of Sandown Lakeside BM64 and BM70 races is extremely strong. Horses winning here frequently measure up well when transitioning to Saturday Metro grade at Flemington or Caulfield."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Metro Midweek)",
+      "class_rating": 94,
+      "speed_par_offsets": {
+        "turf_sprint": "-0.5",
+        "turf_route": "-0.5"
+      },
+      "lengths": 1.0,
+      "points": 3.0
     }
   },
        "Mackay": {
@@ -1770,21 +1799,35 @@
       }
     },
     "Queensland": {
-      "Eagle_Farm": {
-        "location": "Brisbane",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "450m",
-        "bias_notes": "Spacious and fair. Drains rapidly.",
-        "handicapping_angles": {
-          "track_bias": "Generally fair. Closers can feature."
-        },
-        "par_adjustment": {
-          "tier": "Tier 1.5 (State Metro)",
-          "lengths": 1.0,
-          "points": 2.5
-        }
+     "Eagle_Farm": {
+    "track_code": "E FM",
+    "location": "Brisbane, QLD",
+    "nicknames": ["The Farm", "Queensland's Headquarters"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,027 metres",
+        "surface": "Turf",
+        "stretch_length": "434 metres",
+        "bias_notes": "Clockwise. A sprawling, expansive galloping track and the premier venue in Queensland. The massive 2,027m circumference and sweeping turns allow large-striding horses to maintain their momentum. The defining feature is the 434m home straight, which has a subtle, exhausting uphill incline from the 800m mark to the winning post. This gradient heavily tests stamina, frequently allowing deep closers ('Swoopers') to run down tiring leaders in the final 100m.",
+        "post_bias": "In sprints (1000m to 1200m), middle-to-wide draws (5-8) often fare surprisingly well as riders have plenty of time to find cover and avoid early speed duels. In route and staying races (1600m+), inside barriers (1-4) hold a significant advantage by saving ground around the long, sweeping turns."
+      }
+    },
+    "handicapping_angles": {
+      "the_uphill_stamina_test": "Heavily downgrade pure 'Need-the-Lead' sprinters, particularly those shipping in from tighter tracks like Doomben. The 434m uphill straight exposes horses lacking genuine stamina, making this one of the best tracks in Australia to back 'Swoopers'.",
+      "the_doomben_flip": "Eagle Farm is directly across the road from Doomben, but they play completely differently. Doomben is a tight front-runner's track; Eagle Farm is a sprawling closer's track. Aggressively upgrade horses who ran well late at Doomben but ran out of room, as they will relish the massive open spaces of Eagle Farm.",
+      "big_striding_gallopers": "Large, long-striding horses who often become unbalanced on tight provincial circuits (like Kilcoy or Ipswich) absolutely thrive here. Upgrade horses described in form guides as having a 'bounding' or long-reaching action."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Metropolitan QLD)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "turf_sprint": "+2.0",
+        "turf_route": "+2.5"
       },
+      "lengths": 5.0,
+      "points": 10.0
+    }
+  },
       "Doomben": {
         "location": "Brisbane",
         "track_type": "Turf",
