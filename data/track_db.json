@@ -165,6 +165,43 @@
         "points": 12.0
       }
     },
+    "Delaware_Park": {
+    "track_code": "DEL",
+    "location": "Wilmington, DE",
+    "nicknames": ["DelPark", "Home of the Delaware Handicap"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "995 feet",
+        "bias_notes": "A standard 1-mile dirt oval with a generous 995-foot home stretch. While generally fair, it can occasionally develop a strong inside/speed bias depending on weather and track maintenance. The long stretch gives 'Swoopers' (closers) ample runway to catch tiring front-runners in two-turn route races.",
+        "post_bias": "In 5.5f and 6f sprints, inside and middle posts are preferred, particularly for horses with early speed. In two-turn routes, inside posts (1-4) hold a tactical advantage for saving ground around the turns."
+      },
+      "main_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "800 feet (approx)",
+        "bias_notes": "Set inside the main track, this is a much tighter 7/8-mile (7 furlongs) oval. Because of the sharper turns and relatively short straightaway, tactical early speed and rail-skimming trips are absolutely critical. Pure closers frequently run out of ground.",
+        "post_bias": "Inside posts hold a massive advantage here. Outside draws (8+) in two-turn turf routes (like 1 1/16 miles) are severely punished due to the incredibly short run into the first turn."
+      }
+    },
+    "handicapping_angles": {
+      "turf_tactical_speed": "On the grass, aggressively upgrade stalkers and pressers ('P' types) drawn inside. The tight 7-furlong configuration makes it incredibly difficult for deep closers to loop the field.",
+      "the_mid_atlantic_shipper": "Delaware Park is a massive intersection for the Mid-Atlantic circuit. Form lines from Laurel Park, Parx, and Monmouth intersect here. Respect horses dropping out of tough Monmouth or Laurel allowance races into Delaware claimers.",
+      "the_golden_rail_watch": "Always monitor the first few dirt races of the card. If wire-to-wire rail runners dominate, aggressively upgrade inside speed horses for the rest of the day, as DEL can quickly become a 'Golden Rail' speed highway."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Mid-Atlantic Summer)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "dirt_sprint": "-1.0",
+        "dirt_route": "-0.5",
+        "turf": "-1.5"
+      },
+      "lengths": 0.0,
+      "points": -3.0
+    }
+  },
     "Churchill_Downs": {
     "track_code": "CD",
     "location": "Louisville, KY",
@@ -640,55 +677,55 @@
     "Finger_Lakes": {
     "track_code": "FL",
     "location": "Farmington, NY",
-    "nicknames": ["The Thumb"],
+    "nicknames": ["The Thumb", "FLGR"],
     "courses": {
       "main_dirt": {
         "circumference": "1 Mile",
-        "surface": "Dirt",
+        "surface": "Dirt (Sandy Loam)",
         "stretch_length": "960 feet",
-        "bias_notes": "A classic speed-favoring track. The short stretch makes it difficult for deep closers to make up ground, particularly in sprint races where early speed is often decisive.",
-        "post_bias": "Inside posts are advantageous in sprints due to the short run to the first turn."
+        "bias_notes": "A standard 1-mile dirt oval with a 960-foot home stretch and chutes for 6-furlong and 1 1/4-mile races. The track relies entirely on dirt racing, and the surface can frequently develop a strong inside/speed bias, particularly during the dry summer months. Because the corners are relatively standard, early positioning is critical.",
+        "post_bias": "In the standard 5f to 6f sprint dashes, inside and middle posts (1-4) hold a significant statistical advantage. Wide draws are punished unless the horse possesses enough explosive early speed to cross over before the first turn. In two-turn route races, saving ground on the inside is highly preferred."
       }
     },
     "handicapping_angles": {
-      "the_saratoga_drop": "Upgrade horses shipping in from Saratoga that are dropping significantly in class; they often find this surface and competition much easier.",
-      "pace_dominance": "Focus on 'E' (Early Speed) runners. Late-running closers are often at a significant disadvantage unless a pace duel destroys the front-runners.",
-      "nysb_races": "New York-bred restricted races are common; check trainer win percentages specifically with NY-breds."
+      "the_downstate_shipper": "Finger Lakes is the primary landing spot for horses dropping out of the ultra-competitive 'downstate' NYRA circuit (Aqueduct, Belmont, Saratoga). Aggressively upgrade horses shipping into Finger Lakes from NYRA tracks, as they typically hold a massive inherent class edge over the local stalwarts.",
+      "inside_speed_dominance": "Particularly in sprints, pure early speed ('E' types) drawn on the inside rail are incredibly potent. If an inside-drawn horse projects to be the lone speed on paper, they are extremely difficult to run down.",
+      "weather_dependent_surface": "As a track operating in upstate New York from spring through late autumn, the sandy loam surface can drastically change with precipitation. Monitor early races on wet days; if the rail becomes deep and tiring (a 'dead rail'), immediately upgrade outside stalkers."
     },
     "par_adjustment": {
-      "tier": "Tier 4 (Regional)",
+      "tier": "Tier 4 (Regional New York)",
       "class_rating": 80,
       "speed_par_offsets": {
         "dirt_sprint": "-2.0",
-        "dirt_route": "-1.5"
+        "dirt_route": "-2.5"
       },
-      "lengths": -3.0,
-      "points": -7.0
+      "lengths": -2.0,
+      "points": -5.0
     }
   },
  "Thistledown": {
     "track_code": "TDN",
     "location": "North Randall, OH",
-    "nicknames": [],
+    "nicknames": ["JACK Thistledown Racino", "Home of the Ohio Derby"],
     "courses": {
       "main_dirt": {
         "circumference": "1 Mile",
         "surface": "Dirt",
-        "stretch_length": "990 feet",
-        "bias_notes": "A flat, speed-favoring track. The stretch is long enough to permit some closing, but the overall surface speed usually favors those who can dominate the early fractions.",
-        "post_bias": "Inside posts are helpful, but the track is generally fair to all early speed types."
+        "stretch_length": "978 feet",
+        "bias_notes": "A standard 1-mile dirt oval with absolutely no turf course. The track generally plays very fast and frequently develops a distinct inside speed bias, particularly in the 5F and 6F sprints. However, the generous 978-foot home straight ensures that if a suicidal early speed duel occurs, stalkers have plenty of room to grind down the leaders in route races.",
+        "post_bias": "In sprints (5f to 6f), inside posts (1-3) hold a massive statistical advantage, particularly for horses with explosive gate speed. In route races, the post bias is far more balanced, though saving ground on the first turn is always mathematically preferred."
       }
     },
     "handicapping_angles": {
-      "early_pace": "Horses that can set or stalk the pace are consistently the most profitable bets.",
-      "trainer_trends": "Keep an eye on dominant local trainers who specialize in claiming levels.",
-      "wet_track_bias": "When the track is off, speed bias often intensifies."
+      "the_inside_speed_highway": "Aggressively upgrade pure front-runners ('E' types) drawn on the inside rail in sprint races. If a horse can secure the rail early without being pressed, they are incredibly difficult to run down on this surface.",
+      "regional_class_droppers": "Because Thistledown hosts a massive number of claiming races, 'class dropping' is a primary angle. Respect horses shipping in and dropping down from tougher allowance company at Presque Isle Downs, Churchill, or even Indiana Grand.",
+      "ohio_derby_invaders": "For the track's marquee race (The Ohio Derby), heavily upgrade shippers coming from elite Tier 1 tracks (like Churchill Downs or Belmont). Local Ohio stalwarts frequently struggle with the massive step up in class when the national operations invade."
     },
     "par_adjustment": {
-      "tier": "Tier 4 (Regional)",
+      "tier": "Tier 4 (Regional/Midwest)",
       "class_rating": 82,
       "speed_par_offsets": {
-        "dirt_sprint": "-2.5",
+        "dirt_sprint": "-1.5",
         "dirt_route": "-2.0"
       },
       "lengths": -2.0,
@@ -2972,6 +3009,36 @@
       },
       "lengths": 0.0,
       "points": 3.0
+    }
+  },
+  "Monticello_Raceway": {
+    "track_code": "MR",
+    "location": "Monticello, NY",
+    "nicknames": ["The Mighty M"],
+    "courses": {
+      "main_track": {
+        "circumference": "1/2 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "500 feet",
+        "passing_lane": true,
+        "bias_notes": "A classic 1/2-mile oval featuring an open stretch (passing lane). Because it is a tight half-mile bullring, early speed and inside positioning are inherently dominant. However, the presence of the passing lane fundamentally alters stretch dynamics, providing a massive strategic advantage to the horse sitting in the 'two-hole' (pocket).",
+        "post_bias": "Inside posts (1-4) hold a severe statistical advantage, with Posts 1 and 2 being incredibly powerful. Outside posts (7-8) are a massive penalty; horses drawn wide on this tight half-mile geometry are frequently caught outside on the turns and face a grueling, ground-loss trip."
+      }
+    },
+    "handicapping_angles": {
+      "the_passing_lane_pocket": "The absolute best trip at Monticello is sitting right behind the leader on the rail. Heavily upgrade inside-drawn horses with tactical speed who can secure the pocket, as they can save ground around the tight turns and shoot down the passing lane in the stretch without tipping wide.",
+      "the_bullring_outside_trap": "Aggressively downgrade horses drawn in Posts 7 and 8. Unless they have overwhelming early gate speed to clear the field immediately, they will likely be 'parked' outside or forced to drop to the rear, making winning mathematically very difficult.",
+      "the_yonkers_shipper": "Monticello serves as a regional circuit that frequently draws class-droppers from tougher New York and Pennsylvania tracks. Always respect horses shipping in from Yonkers or Pocono Downs, as they often outclass the local daytime claiming stalwarts."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Regional Half-Mile)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "pace": "-2.0",
+        "trot": "-2.5"
+      },
+      "lengths": -2.0,
+      "points": -5.0
     }
   },
     "Yonkers_Raceway": {
