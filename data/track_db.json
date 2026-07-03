@@ -10,28 +10,28 @@
         "circumference": "1 1/8 Miles",
         "surface": "Dirt",
         "stretch_length": "1,144 feet",
-        "bias_notes": "Deep, sandy surface that becomes highly tiring late in the summer meet. Early speed dominates short sprints (under 6.5F), but the deep surface chews up one-dimensional speed in routes.",
-        "post_bias": "Inside posts are a massive advantage at 1 1/8 miles because the starting gate is located immediately before the first turn."
+        "bias_notes": "Deep, sandy loam surface that tires horses out and requires high energy expenditure. Wire-to-wire is difficult in 6F sprints. The deep surface chews up one-dimensional speed in routes.",
+        "post_bias": "Inside posts are a massive advantage at 1 1/8 miles due to the short run to the first turn, BUT beware of the 'Dead Rail' (1-2 path) in sprints where Post 1 is often a distinct disadvantage."
       },
       "mellon_turf_outer": {
         "circumference": "1 Mile",
         "surface": "Turf",
         "stretch_length": "1,144 feet",
-        "bias_notes": "Wider sweeping turns. Tactical speed or mid-pack stalkers tend to excel. Early speed generally struggles to go wire-to-wire here.",
+        "bias_notes": "Wider sweeping turns. Fair and closer-friendly. Tactical speed or mid-pack stalkers tend to excel. Early speed generally struggles to go wire-to-wire here.",
         "post_bias": "Outside posts (7 and higher) historically perform disproportionately well on this outer course compared to the inner turf."
       },
       "inner_turf": {
         "circumference": "7/8 Mile",
         "surface": "Turf",
         "stretch_length": "1,164 feet",
-        "bias_notes": "Features very tight, sharp turns. Visually favors smaller, athletic horses that can corner well over large, long-striding bulky horses.",
-        "post_bias": "The inside three posts offer a significant advantage, especially at 1 mile and 1 1/16 miles."
+        "bias_notes": "Features very tight, sharp turns. Distinctly SPEED FAVORING. Visually favors smaller, athletic horses that can corner well over large, long-striding bulky horses.",
+        "post_bias": "The inside posts (1-4) are dominant and offer a significant advantage, especially at 1 mile and 1 1/16 miles."
       }
     },
     "handicapping_angles": {
+      "algorithmic_flag": "Downgrade 'Need-the-Lead' (E) types with low stamina on the dirt. Aggressively upgrade Stalkers/Pressers who can sit off the pace.",
       "the_belmont_flip": "Downgrade horses whose best speed figures came in 1-turn routes at Belmont. Upgrade true 2-turn route specialists coming from tracks like Churchill, Aqueduct, or past Saratoga meets.",
       "late_meet_fade": "As the meet progresses into August, the dirt rail often becomes 'dead' and cuppy, shifting the route bias heavily toward closers.",
-      "juvenile_sprints": "In 2-year-old dirt sprints under 6 furlongs, early speed on the pace or within a length of the lead wins at a nearly 50% rate.",
       "turf_trip_quality": "On the grass, trip quality (saving ground, avoiding traffic) dictates winners more than raw speed figures. Wide-drawn closers in big fields are highly vulnerable."
     },
     "par_adjustment": {
@@ -45,7 +45,7 @@
       "lengths": 6.0,
       "points": 15.0
     }
-  },    
+  }, 
     "Belmont_Park": {
       "location": "Elmont, NY",
       "surface": "Dirt",
@@ -1004,20 +1004,34 @@
           }
         },
         "Goulburn": {
-          "location": "Goulburn",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "390m",
-          "bias_notes": "The 'Randwick of the South'. Big, spacious, fair.",
-          "handicapping_angles": {
-            "class_factor": "Big Sydney stables dominate here."
-          },
-          "par_adjustment": {
-            "tier": "Tier 3 (Provincial Baseline)",
-            "lengths": 0.0,
-            "points": 0.0
-          }
-        },
+    "track_code": "GOUL",
+    "location": "Goulburn, NSW",
+    "nicknames": ["Goulburn & District Racing Club", "Australia's Oldest Inland City"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,750 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Clockwise. A highly regarded, modern country track featuring a perfectly symmetrical oval shape. The 1,750m circumference and generous 400m home straight make it one of the fairest galloping tracks on the New South Wales country and provincial circuits, giving all running styles a legitimate chance.",
+        "post_bias": "Extremely fair. The track utilizes two massive chutes for the 1000m and 1600m starts, which provide long, uninterrupted straight runs before the first corner. Wide barriers are rarely a severe penalty here compared to tighter NSW country tracks."
+      }
+    },
+    "handicapping_angles": {
+      "the_fairway_swoop": "Because the track is so spacious and features a massive 400m straight, one-dimensional 'Need-the-Lead' front runners often find themselves exposed in the final furlong. Upgrade 'Swoopers' (closers) with sustained galloping strides.",
+      "the_chute_allowance": "In 1000m and 1600m events, do not aggressively downgrade horses drawn wide. The chutes provide a massive runway to balance up and find cover without burning excessive early energy.",
+      "country_championships_quality": "As a premier NSW country racing hub, Goulburn attracts high-quality regional horses as well as elite Sydney metropolitan trainers looking for confidence-boosting maiden or class 1 wins. Respect Metro-grade shippers heavily."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3.5 (Premium Country NSW)",
+      "class_rating": 86,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.0",
+        "turf_route": "-1.0"
+      },
+      "lengths": -1.0,
+      "points": -3.0
+    }
+  },
         "Thangool": {
           "location": "Thangool, QLD",
           "track_type": "Turf",
@@ -1329,20 +1343,34 @@
     }
   },
         "Tamworth": {
-          "location": "Tamworth, NSW",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "380m",
-          "bias_notes": "A premier country track in NSW.",
-          "handicapping_angles": {
-            "track_bias": "Generally fair."
-          },
-          "par_adjustment": {
-            "tier": "Tier 4 (Premium Country)",
-            "lengths": -1.0,
-            "points": -2.5
-          }
-        },
+    "track_code": "TAMW",
+    "location": "Tamworth, NSW",
+    "nicknames": ["Capital of Country Racing"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,830 metres",
+        "surface": "Turf (Kikuyu Grass)",
+        "stretch_length": "360 metres",
+        "bias_notes": "Clockwise. A highly regarded New South Wales country circuit. The track features a well-cambered turn from the 800m mark, which assists horses making wide runs. However, the relatively short 360m home straight generally rewards horses that race on or near the pace.",
+        "post_bias": "Inside barriers hold a tactical advantage, particularly in sprint races. The kikuyu grass surface handles racing well, but leaders who can dictate terms entering the straight are incredibly tough to run down."
+      }
+    },
+    "handicapping_angles": {
+      "the_cambered_swoop": "While it is largely an on-pace track, the positive camber on the home turn allows well-balanced horses to build momentum from the back. Do not entirely dismiss closers if the early pace is heavily contested.",
+      "country_championship_hub": "Tamworth is a major regional hub. Respect horses trained by elite local stables or horses dropping back from provincial grades (like Newcastle or Wyong).",
+      "the_kikuyu_durability": "The kikuyu surface provides a good cushion and holds together well in moderate rain, often racing better than its official wet track rating."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Premium Country NSW)",
+      "class_rating": 84,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.5",
+        "turf_route": "-1.5"
+      },
+      "lengths": -1.0,
+      "points": -3.0
+    }
+  },
         "Hobart": {
         "location": "Elwick, Tasmania",
         "track_type": "Turf",
@@ -1698,20 +1726,34 @@
           }
         },
         "Moe": {
-          "location": "Moe, VIC",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "300m",
-          "bias_notes": "A spacious Gippsland track.",
-          "handicapping_angles": {
-            "track_bias": "Plays relatively fair on Good/Soft surfaces."
-          },
-          "par_adjustment": {
-            "tier": "Tier 3 (Provincial Baseline)",
-            "lengths": 0.0,
-            "points": 0.0
-          }
-        },
+    "track_code": "MOE",
+    "location": "Moe, VIC",
+    "nicknames": ["Moe Racing Club", "Gippsland's Premier Track"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,720 metres",
+        "surface": "Turf",
+        "stretch_length": "250 metres",
+        "bias_notes": "Counter-Clockwise. A relatively flat country track with an incredibly short 250m home straight. Because the final stretch is so brief, the track naturally creates a massive bias toward front-runners ('E' types) and horses that can race prominently on the pace. Closers ('Swoopers') must begin their runs well before the home turn, forcing them wide.",
+        "post_bias": "Inside barriers (1-7) hold a severe statistical advantage, particularly in the 1100m and 1200m sprint events. Horses drawn wide (barrier 9+) face a significant disadvantage, as they either burn too much energy crossing over or are forced to cover extra ground on the turns."
+      }
+    },
+    "handicapping_angles": {
+      "the_short_straight_trap": "Aggressively downgrade deep closers. With only 250 metres of straight runway, horses settling in the back half of the field will almost always run out of ground, even if a pace duel occurs up front.",
+      "the_gippsland_heavy": "Like many tracks in the Gippsland region, Moe frequently races on deeply rain-affected surfaces (Heavy 8 to Heavy 10) during the Victorian winter. Heavily upgrade proven 'mudlarks' who have documented success on genuinely heavy going, as winter races here often become a slog.",
+      "barrier_bias_penalty": "Apply a strict speed-figure penalty to horses drawn wide (outside barrier 9) in sprint races. The ground loss on this tight track layout is highly detrimental to finishing positions."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Country VIC)",
+      "class_rating": 82,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.0",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -4.0
+    }
+  },
         "Sandown": {
           "location": "Melbourne",
           "track_type": "Turf",
@@ -2091,20 +2133,34 @@
         }
       },
       "Ipswich": {
-        "location": "Ipswich, QLD",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "300m",
-        "bias_notes": "The 'Eye Liner' track. Notoriously tight.",
-        "handicapping_angles": {
-          "track_bias": "Strong leader bias."
-        },
-        "par_adjustment": {
-          "tier": "Tier 3 (Provincial Baseline)",
-          "lengths": 0.0,
-          "points": 0.0
-        }
+    "track_code": "IPSW",
+    "location": "Ipswich (Bundamba), QLD",
+    "nicknames": ["Bundamba"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,746 metres",
+        "surface": "Turf",
+        "stretch_length": "300 metres",
+        "bias_notes": "Clockwise. A notoriously tight track with a very short 300m home straight. The track features a long, sweeping turn starting from the 1000m mark all the way into the short straight. This geometry creates a massive on-pace and front-runner bias. Closers frequently run out of ground.",
+        "post_bias": "Inside barriers (1-4) are an immense advantage. Horses drawn wide are forced to either burn significant early energy to cross over or risk being caught wide on the continuous sweeping turn, which is a massive penalty here."
+      }
+    },
+    "handicapping_angles": {
+      "the_bundamba_speed_bias": "Heavily upgrade pure early speed ('E' types) and rail-skimming tactical stalkers. Aggressively downgrade deep closers ('Swoopers'), as the 300m straight rarely gives them enough time to reel in the leaders.",
+      "specialist_track_form": "Because the shape is so unique and tight, 'Horses for Courses' is a massive angle. Heavily upgrade horses with proven winning form specifically at Ipswich, as large-striding gallopers often fail to handle the continuous corners.",
+      "provincial_metropolitan_bridge": "Ipswich frequently hosts strong provincial fields and the famous Ipswich Cup. Top-tier Ipswich form often measures up well when horses step up to midweek Metropolitan grade at Doomben due to similar tight-turning characteristics."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Premium Provincial QLD)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.0",
+        "turf_route": "-1.0"
       },
+      "lengths": 0.0,
+      "points": -2.0
+    }
+  },
       "Geelong": {
           "location": "Geelong, VIC",
           "track_type": "Turf",
@@ -2427,15 +2483,41 @@
       },
       
       "Funabashi": {
-        "location": "Funabashi, Chiba, Japan",
-        "track_type": "Dirt (Left-handed)",
-        "direction": "Counter-clockwise",
-        "straight_length": "308m",
-        "bias_notes": "Famous for its unique 'Spiral Turn' design.",
-        "handicapping_angles": {
-          "track_bias": "Fairer than most dirt tracks due to the spiral turn."
-        }
+    "track_code": "FUNA",
+    "location": "Funabashi, Chiba, Japan",
+    "nicknames": ["Heartbeat Nighter"],
+    "courses": {
+      "main_dirt_outer": {
+        "circumference": "1,400 metres",
+        "surface": "Deep Sand",
+        "stretch_length": "308 metres",
+        "bias_notes": "Left-Handed. A unique dirt oval featuring 'spiral curves'—the angles are wider entering the corners and tighter exiting them. Because of this geometry, horses are naturally forced to slow down and drift outward as they exit the turns. This frequently causes wide-drawn horses to lose significant ground and momentum. The 308m straight is fair, but the cornering dynamics heavily favor horses that can hug the inside rail.",
+        "post_bias": "Inside barriers hold a distinct advantage across all distances because of the spiral corners. Horses caught three-wide exiting the tight bends bleed massive amounts of momentum."
       },
+      "inner_dirt": {
+        "circumference": "1,250 metres",
+        "surface": "Deep Sand",
+        "stretch_length": "308 metres",
+        "bias_notes": "Left-Handed. The inner dirt circuit is tighter overall but shares the exact same 308m home straight. Tactical speed and early positioning are highly prioritized here.",
+        "post_bias": "Inside barriers (1-4) are highly advantageous. Wide draws are a severe penalty."
+      }
+    },
+    "handicapping_angles": {
+      "the_spiral_corner_trap": "Aggressively downgrade horses drawn wide who lack the early explosive speed to cross over. The 'spiral' nature of the turns means that horses caught on the outside will be slung even wider upon exiting, resulting in brutal ground loss.",
+      "the_nar_deep_sand": "Like most regional NAR tracks, the surface is a deep, heavy sand that demands grueling stamina. Do not blindly translate fast, firm dirt form from JRA tracks; heavily upgrade horses with proven grinding ability over this specific deep sand profile.",
+      "night_racing_specialists": "Funabashi is famous for its 'Heartbeat Nighter' events under the lights. Upgrade horses with proven form under artificial lighting, as some horses react poorly to the visual shadows on the track."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Japan NAR Premier)",
+      "class_rating": 94,
+      "speed_par_offsets": {
+        "dirt_sprint": "+2.0",
+        "dirt_route": "+2.5"
+      },
+      "lengths": 1.0,
+      "points": 3.0
+    }
+  },
       "Tokyo_City_Keiba": {
     "track_code": "TCK",
     "location": "Shinagawa, Tokyo, Japan",
