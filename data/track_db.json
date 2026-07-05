@@ -466,21 +466,80 @@
         "points": 5.0
       }
     },
-    "Colonial_Downs": {
-      "location": "New Kent, VA",
-      "surface": "Dirt",
-      "distance": "1 1/4 Miles",
-      "bias_notes": "Huge dirt track (1.25 miles), massive turf course. Very fair.",
-      "handicapping_angles": {
-        "surface_bias": "Large track = fair track.",
-        "turf_notes": "Secretariat Turf Course is widest in country."
+   "Colonial_Downs": {
+    "track_code": "CNL",
+    "location": "New Kent, VA",
+    "nicknames": ["Home of the Secretariat Turf Course"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 1/4 Miles",
+        "surface": "Dirt",
+        "stretch_length": "1,142 feet",
+        "bias_notes": "An absolute behemoth. The 1 1/4-mile circumference features sprawling, sweeping turns and a massive 1,142-foot stretch. Dirt speed horses used to tight Mid-Atlantic bullrings (like Charles Town or Timonium) frequently collapse here. It is a closer's paradise.",
+        "post_bias": "Incredibly fair. The sheer size of the track means outside posts are rarely a mathematical disadvantage, as riders have an eternity to find position."
       },
-      "par_adjustment": {
-        "tier": "Tier 2 (Regional Premier)",
-        "lengths": 2.0,
-        "points": 5.0
+      "secretariat_turf": {
+        "circumference": "1 1/8 Miles (Outer)",
+        "surface": "Turf",
+        "stretch_length": "1,000+ feet",
+        "bias_notes": "The widest turf course in North America. It often utilizes multiple inner and outer rail settings. Because it is so wide with sweeping turns, traffic trouble is minimized, and the best horse generally wins. Deep closers who need a long runway absolutely thrive here.",
+        "post_bias": "One of the few turf courses in America where wide posts are not a severe penalty. The massive width and gentle turns allow outside horses to swoop the field without bleeding extreme momentum."
       }
     },
+    "handicapping_angles": {
+      "the_turf_mecca_shipper": "Colonial attracts massive turf fields with shippers converging from New York, Kentucky, Maryland, and Florida. Look for horses dropping out of graded stakes company at Belmont or Churchill into high-level Colonial allowances.",
+      "stamina_over_speed": "On both dirt and turf, prioritize stamina and finishing kick over early speed. One-dimensional 'E' types from tighter tracks routinely build big leads on the backstretch only to completely crater in the final furlong.",
+      "the_wide_swoop_upgrade": "Because of the gentle turns and massive width of the turf course, 'Swoopers' making wide, sustained runs are highly dangerous. Do not penalize a horse for a wide trip here as heavily as you would at a track like Gulfstream."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2.5 (Premium Mid-Atlantic Summer)",
+      "class_rating": 90,
+      "speed_par_offsets": {
+        "dirt_sprint": "-0.5",
+        "dirt_route": "0.0",
+        "turf": "+1.0"
+      },
+      "lengths": 1.0,
+      "points": 2.0
+    }
+  },
+    "Ellis_Park": {
+    "track_code": "ELP",
+    "location": "Henderson, KY",
+    "nicknames": ["The Pea Patch"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 1/8 Miles",
+        "surface": "Dirt",
+        "stretch_length": "1,175 feet",
+        "bias_notes": "A massive 1 1/8-mile dirt oval with one of the longest home stretches in North America (1,175 feet). Because of this sprawling layout, one-dimensional front-runners ('Need-the-Lead' types) are highly vulnerable. It is one of the fairest dirt tracks in the country, heavily rewarding patient rides and deep closers ('Swoopers').",
+        "post_bias": "Extremely fair. The long run into the turns in route races allows wide-drawn horses ample time to slot in and find cover. In 1-mile dirt races, horses start out of a chute, mitigating extreme outside post disadvantages."
+      },
+      "main_turf": {
+        "circumference": "1 Mile",
+        "surface": "Turf",
+        "stretch_length": "900 feet (approx)",
+        "bias_notes": "Set inside the massive dirt track, the turf course plays a bit tighter but still offers a fair run. Tactical speed is more important on the grass here than on the main dirt track.",
+        "post_bias": "Inside to middle posts (1-6) are preferred in turf routes to save ground on the tighter grass turns."
+      }
+    },
+    "handicapping_angles": {
+      "the_churchill_spillover": "Ellis Park inherits the Kentucky horse population from Churchill Downs. Heavily respect horses dropping slightly in class from tough Churchill spring allowance or maiden special weight (MSW) races, as they possess a massive class edge over regional shippers from Indiana or Ohio.",
+      "the_endless_stretch": "Aggressively downgrade pure speed horses on the dirt, particularly in route races. The 1,175-foot stretch will ruthlessly expose any horse lacking genuine stamina. Upgrade off-the-pace runners.",
+      "the_pea_patch_heat": "Racing runs through July and August in intense heat and humidity. Look for horses that have proven they can maintain their form through the brutal midwestern summer weather."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Kentucky Summer)",
+      "class_rating": 92,
+      "speed_par_offsets": {
+        "dirt_sprint": "-0.5",
+        "dirt_route": "0.0",
+        "turf": "-0.5"
+      },
+      "lengths": 1.0,
+      "points": 2.0
+    }
+  },
     "Horseshoe_Indianapolis": {
       "location": "Shelbyville, IN",
       "surface": "Dirt",
