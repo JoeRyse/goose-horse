@@ -541,19 +541,42 @@
     }
   },
     "Horseshoe_Indianapolis": {
-      "location": "Shelbyville, IN",
-      "surface": "Dirt",
-      "distance": "1 Mile",
-      "bias_notes": "Fairer than many regional ovals. Strong IN-bred program.",
-      "handicapping_angles": {
-        "surface_bias": "Generally fair."
+    "track_code": "IND",
+    "location": "Shelbyville, IN",
+    "nicknames": ["The Shoe", "Indiana Grand"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1 Mile",
+        "surface": "Dirt",
+        "stretch_length": "990 feet",
+        "bias_notes": "A standard 1-mile dirt oval. The track generally plays fairly, but depending on weather conditions and compaction (as the track also hosts Quarter Horse sprints), an inside speed bias can frequently develop. However, the generous 990-foot home stretch ensures that if a suicidal early speed duel occurs, closers have plenty of room to grind down the leaders.",
+        "post_bias": "Fair across the board. In 5f to 6f sprints, inside and middle posts (1-5) are generally preferred to establish early tactical position without losing ground."
       },
-      "par_adjustment": {
-        "tier": "Tier 3 (Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+      "main_turf": {
+        "circumference": "7/8 Mile",
+        "surface": "Turf",
+        "stretch_length": "900 feet (approx)",
+        "bias_notes": "Set inside the main dirt track, this tighter 7/8-mile turf course strongly rewards tactical speed and ground-saving trips. Deep closers ('Swoopers') frequently struggle to make up ground on the tighter turns.",
+        "post_bias": "Inside posts hold a strong advantage. Wide draws (8+) are highly penalized in two-turn turf routes due to the incredibly short run into the first turn."
       }
     },
+    "handicapping_angles": {
+      "the_kentucky_shipper": "Horseshoe Indianapolis is a major landing spot for horses dropping out of the ultra-competitive Kentucky circuit (Churchill Downs, Keeneland). Aggressively upgrade horses shipping in from Kentucky, as they typically hold a massive inherent class edge over the local Indiana-bred stalwarts.",
+      "tactical_turf_speed": "On the grass, aggressively upgrade stalkers and pressers ('P' types) drawn inside. The tight 7-furlong configuration makes it mathematically difficult for deep closers to loop the field without bleeding extreme momentum.",
+      "quarter_horse_compaction": "Because the track alternates Thoroughbred races with Quarter Horse dashes, the main dirt surface is heavily compacted. Monitor early races; if wire-to-wire speed dominates the first few dirt routes, aggressively upgrade 'Need-the-Lead' types for the remainder of the card."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Midwest Premier)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "dirt_sprint": "-1.0",
+        "dirt_route": "-1.0",
+        "turf": "-1.5"
+      },
+      "lengths": 0.0,
+      "points": -3.0
+    }
+  },
     "Hawthorne": {
       "location": "Stickney, IL",
       "surface": "Dirt",
