@@ -2259,22 +2259,64 @@
             "points": 0.0
           }
         },
+        "Mildura": {
+    "track_code": "MILD",
+    "location": "Mildura, VIC",
+    "nicknames": ["Sunraysia's Premier Track"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,765 metres",
+        "surface": "Turf (Loam Base)",
+        "stretch_length": "350 metres",
+        "bias_notes": "Counter-Clockwise. Located in the Sunraysia region, this country track features a 1,765m circumference with a relatively short 350m home straight. The soil profile is a sandy loam that drains exceptionally well, meaning it frequently races firm and fast. While it is up to 20 metres wide in the straight and well-cambered, the tighter turns naturally create a disadvantage for horses caught wide.",
+        "post_bias": "Inside barriers (1-5) are highly preferred across most sprint distances. Because the turns are relatively tight, being caught three-wide without cover on the bends is a massive penalty. Wide draws are a significant worry here unless the horse has elite early gate speed to cross over."
+      }
+    },
+    "handicapping_angles": {
+      "the_firm_track_flyer": "Thanks to the Mallee region's dry climate and loam base, the track frequently races in the Good 3 or Good 4 range. Heavily upgrade horses with elite 'dry track' form and downgrade 'mudlarks' who need the sting out of the ground.",
+      "tight_turn_momentum": "Because of the tighter turns and the short 350m straight, it naturally favors horses that race on the pace. Aggressively downgrade deep closers ('Swoopers') who draw wide, as they rarely have the runway needed to wind up and catch the leaders.",
+      "regional_shipper_strength": "Mildura frequently attracts shippers from South Australia (such as Murray Bridge or Morphettville) due to its border location. Interstate shippers from SA metropolitan or premium provincial grades usually outclass the local regional stalwarts."
+    },
+    "par_adjustment": {
+      "tier": "Tier 4 (Country VIC)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "turf_sprint": "-1.5",
+        "turf_route": "-1.5"
+      },
+      "lengths": -2.0,
+      "points": -4.0
+    }
+  },
         "Murray_Bridge": {
-          "location": "Murray Bridge, SA",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "420m",
-          "bias_notes": "A massive, spacious provincial circuit. Features sweeping turns and a very long home straight, making it a premium and fair galloping surface.",
-          "handicapping_angles": {
-            "track_bias": "Extremely fair. The wide layout and long straight give backmarkers plenty of time to swoop, ensuring the best horse usually wins.",
-            "barrier_draw": "Very forgiving across most distances due to the large circumference and generous runs into the first turn."
-          },
-          "par_adjustment": {
-            "tier": "Tier 4 (Premium Country)",
-            "lengths": -1.0,
-            "points": -2.5
-          }
-        },
+    "track_code": "MUBR",
+    "location": "Murray Bridge (Gifford Hill), SA",
+    "nicknames": ["Gifford Hill", "The Fairway"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,160 metres",
+        "surface": "Turf",
+        "stretch_length": "450 metres",
+        "bias_notes": "Counter-Clockwise. The new Gifford Hill layout is a massive, sprawling track that is a generous 30 metres wide. It features a beautifully cambered, sweeping home turn and a punishing 450m home straight. It is universally regarded as one of the fairest tracks in South Australia. The long straight and wide expanse virtually eliminate early speed bias, giving every horse (especially deep closers) a legitimate chance.",
+        "post_bias": "Extremely fair. Because the track is 30 metres wide and the runs into the first turns are generally generous, wide barriers (outside draws) are far less of a penalty here than at Morphettville or tighter SA provincial tracks. Horses have ample time to find cover and balance up."
+      }
+    },
+    "handicapping_angles": {
+      "the_gifford_hill_swoop": "Heavily downgrade one-dimensional front-runners ('Need-the-Lead' types) who rely on tight turns to steal races. The massive 450m straight will ruthlessly expose any horse lacking genuine stamina. Aggressively upgrade 'Swoopers' (closers) with a strong late turn of foot.",
+      "metropolitan_class_alternate": "Murray Bridge frequently hosts premium Saturday Metro meetings when Morphettville is resting. Always treat Saturday Murray Bridge form with the exact same respect (Class Rating) as Morphettville form, and upgrade horses stepping back to midweek country/provincial grades from this track.",
+      "free_draining_profile": "The Gifford Hill track was engineered from scratch with a state-of-the-art, free-draining sand profile. It handles winter rain significantly better than most South Australian tracks. Do not over-penalize form based on minor rain, and wait for genuinely heavy, sustained downpours before applying strict 'mudlark' wet-track logic."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Premium Provincial / Metro Alternate)",
+      "class_rating": 92,
+      "speed_par_offsets": {
+        "turf_sprint": "-0.5",
+        "turf_route": "0.0"
+      },
+      "lengths": 1.0,
+      "points": -1.0
+    }
+  },
         "Werribee": {
           "location": "Werribee, VIC",
           "track_type": "Turf",
