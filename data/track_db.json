@@ -932,22 +932,35 @@
             "points": -5.0
           }
         },
-        "Rosehill_Gardens": {
-          "location": "Sydney",
-          "track_type": "Turf",
-          "direction": "Clockwise",
-          "straight_length": "408m",
-          "bias_notes": "Premier 'On-Pace' track despite long straight. Specialists thrive here.",
-          "handicapping_angles": {
-            "track_bias": "Moderate on-pace bias.",
-            "barrier_draw": "Inside barriers advantaged in sprints."
-          },
-          "par_adjustment": {
-            "tier": "Tier 1 (Elite Metro)",
-            "lengths": 2.0,
-            "points": 5.0
-          }
-        },
+        "Rosehill": {
+    "track_code": "RHIL",
+    "location": "Sydney, NSW",
+    "nicknames": ["Rosehill Gardens", "Home of the Golden Slipper"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,048 metres",
+        "surface": "Turf",
+        "stretch_length": "408 metres",
+        "bias_notes": "Clockwise. A mostly square-shaped track featuring sweeping corners and a long 408m home straight. While it is spacious, the turns are sharper than its sister track Randwick. A defining feature is that 1100m and 1200m sprints jump from a unique chute inside the course proper, creating an almost hairpin turn into the straight. It generally plays fairly, but historically favors 'on-pace' runners that can secure a forward position without burning too much early energy.",
+        "post_bias": "Inside barriers (1-5) hold a massive advantage in 1100m and 1200m sprints due to the sharp dog-leg turn from the chute. Over middle distances (1400m+), the spacious layout means outside barriers are less of a penalty, though saving ground is always beneficial."
+      }
+    },
+    "handicapping_angles": {
+      "the_chute_hairpin": "For 1100m and 1200m sprints, aggressively downgrade horses drawn wide (9+) unless they possess explosive gate speed. The sharp turn out of the chute frequently forces wide runners four or five deep, causing them to bleed massive momentum.",
+      "on_pace_premium": "Despite the generous 408m straight, deep closers can struggle to make up ground due to the tight cornering before straightening. Upgrade tactical 'P' (Presser) and 'E' (Early) types that can naturally settle in the first four positions.",
+      "the_wet_weather_shift": "When the track downgrades to Soft or Heavy, the inside rail often deteriorates rapidly. Monitor early races; if jockeys begin steering their mounts wide into the straight, immediately upgrade horses drawn middle-to-wide who can easily find the unpoached ground."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite Metro NSW)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "turf_sprint": "+2.0",
+        "turf_route": "+2.5"
+      },
+      "lengths": 5.0,
+      "points": 12.0
+    }
+  },
        "Canterbury_Park": {
     "track_code": "CANT",
     "location": "Sydney, NSW",
@@ -1242,31 +1255,31 @@
         },
         "Gosford": {
     "track_code": "GOSF",
-    "location": "Gosford, Central Coast, NSW",
+    "location": "Gosford, NSW",
     "nicknames": ["The Entertainment Grounds"],
     "courses": {
       "main_turf": {
         "circumference": "1,710 metres",
         "surface": "Turf",
         "stretch_length": "250 metres",
-        "bias_notes": "Clockwise. A notoriously tight, turning circuit with a very short 250m straight. It heavily favors on-pace runners and horses that can corner sharply. Deep closers are at a massive disadvantage as they simply run out of runway to wind up.",
-        "post_bias": "Inside barriers (1-4) are a massive advantage, particularly in sprints (1000m, 1100m, 1200m). Horses drawn wide must expend significant early energy to cross over, or they risk being caught wide on the tight, continuous turns."
+        "bias_notes": "Clockwise. A notoriously tight provincial track on the Central Coast. Its defining feature is a very short 250m home straight. Because the final sprint is so brief and the turns are tight, the track naturally creates a massive bias toward front-runners ('E' types) and horses drawn inside. Sweeping closers frequently run out of time and ground.",
+        "post_bias": "Inside barriers (1-4) are highly advantageous. Horses drawn wide face a severe statistical penalty as they are often forced to work hard early to cross over, or risk being caught wide on the continuous tight turns."
       }
     },
     "handicapping_angles": {
-      "the_tight_track_bias": "Aggressively upgrade early speed ('E' types) and rail-skimming pressers. Heavily downgrade pure 'Swoopers' (closers) unless they have drawn an inside barrier and the early pace is projected to be suicidal.",
-      "the_sydney_raiders": "As a premier NSW Provincial track located near Sydney, elite Metropolitan trainers (Waller, Cummings, Waterhouse/Bott) frequently raid this track. Always respect horses dropping back from midweek Metro grades (like Canterbury or Kensington).",
-      "horses_for_courses": "Because the geometry is so tight, large-striding horses often become unbalanced here. Heavily upgrade smaller, agile horses with proven winning form specifically at the Gosford circuit."
+      "the_bullring_trap": "Aggressively downgrade deep closers ('Swoopers'). With only 250 metres of straight runway, horses settling in the back half of the field will almost always run out of ground. Heavily upgrade pure early speed and rail-skimming tactical stalkers.",
+      "provincial_metropolitan_bridge": "Gosford often hosts high-quality provincial fields and off-season Metropolitan runners. Form from tighter Sydney tracks like Canterbury often translates perfectly to Gosford's tight geometry.",
+      "wide_barrier_penalty": "Apply a strict downgrade to horses drawn wide (barrier 9+). Due to the tight circumference (1,710m), ground loss on the turns is highly detrimental and very difficult to recover from."
     },
     "par_adjustment": {
-      "tier": "Tier 3 (Premium Provincial)",
+      "tier": "Tier 3 (Premium Provincial NSW)",
       "class_rating": 88,
       "speed_par_offsets": {
-        "turf_sprint": "-1.0",
-        "turf_route": "-1.0"
+        "turf_sprint": "-1.5",
+        "turf_route": "-2.0"
       },
-      "lengths": -1.0,
-      "points": -3.0
+      "lengths": 0.0,
+      "points": -2.0
     }
   },
         "Queanbeyan": {
@@ -1725,20 +1738,41 @@
     "Victoria": {
       "Metropolitan": {
         "Flemington": {
-          "location": "Melbourne",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "450m",
-          "bias_notes": "Headquarters. Wide, sweeping turns. Swoopers paradise.",
-          "handicapping_angles": {
-            "track_bias": "VERY FAIR. Closers love Flemington."
-          },
-          "par_adjustment": {
-            "tier": "Tier 1 (Elite Metro)",
-            "lengths": 2.0,
-            "points": 5.0
-          }
-        },
+    "track_code": "FLEM",
+    "location": "Melbourne, VIC",
+    "nicknames": ["HQ", "The Headquarters"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,312 metres",
+        "surface": "Turf",
+        "stretch_length": "450 metres",
+        "bias_notes": "Counter-Clockwise. A massive, sweeping, open circuit widely considered one of the fairest tracks in the world. The continuous, spacious turns and a long 450m home straight ensure every horse gets its chance. True staying capabilities and sustained momentum are heavily rewarded here.",
+        "post_bias": "On the round course, barriers are incredibly fair due to the long, generous runs before entering the turns. Outside barriers are rarely a death sentence, as horses have ample time to find a rhythm and slot into the moving line."
+      },
+      "straight_six": {
+        "circumference": "1,200 metres (Straight)",
+        "surface": "Turf",
+        "stretch_length": "1,200 metres",
+        "bias_notes": "A pure, world-famous 1,200m straight course used for all sprints under 1400m. Racing down the straight is highly tactical and prone to wind and track group biases. Horses often split into distinct fields (Inside vs. Outside rail).",
+        "post_bias": "Highly dependent on the day's wind direction and track preparation. Historically, in large fields, the outside rail (high barrier numbers) holds a massive advantage because the outside grandstand rail often provides a faster, firmer surface and protection from head-winds."
+      }
+    },
+    "handicapping_angles": {
+      "the_straight_six_specialist": "Straight-track racing requires a completely different respiratory and balancing skillset. Do not assume a horse with elite form around turns will handle the straight. Aggressively upgrade horses with proven 'Straight Six' performance profiles.",
+      "grand_stamina_test": "Flemington's long straight and continuous gallop ruthlessly find out horses with distance/stamina limitations. Downgrade horses extending in distance who barely held on at tighter venues like Moonee Valley or Caulfield.",
+      "track_groups_and_drag": "In straight races, look for where the key speed horses are drawn. Slower horses will try to link up and 'drag' behind the fast tempo. If the key speed draws high, the entire race will migrate to the outside rail."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite Metro HQ)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "turf_sprint": "+2.5",
+        "turf_route": "+3.0"
+      },
+      "lengths": 5.0,
+      "points": 12.0
+    }
+  },
         "Moonee_Valley": {
           "location": "Melbourne",
           "track_type": "Turf",
@@ -2012,20 +2046,34 @@
     }
   },
       "Doomben": {
-        "location": "Brisbane",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "310m",
-        "bias_notes": "Tight, saucer-shaped. Leader/On-Pace critical.",
-        "handicapping_angles": {
-          "track_bias": "On-pace bias. Inside barriers advantage."
-        },
-        "par_adjustment": {
-          "tier": "Tier 1.5 (State Metro)",
-          "lengths": 1.0,
-          "points": 2.5
-        }
+    "track_code": "DOOM",
+    "location": "Brisbane, QLD",
+    "nicknames": ["The Garden Track"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,715 metres",
+        "surface": "Turf",
+        "stretch_length": "350 metres",
+        "bias_notes": "Clockwise. A relatively tight, flat metropolitan track with a short 350m home straight. Unlike its spacious neighbor Eagle Farm, Doomben heavily favors tactical speed and horses that can settle on the pace or in the 'box seat'. The tight turns make it difficult for wide, sweeping closers to make up ground efficiently.",
+        "post_bias": "Inside barriers (1-4) are highly advantageous, especially in short sprints (1050m and 1110m) where the run to the first turn is very short. Wide draws are severe penalties unless the horse possesses elite gate speed to clear the field."
+      }
+    },
+    "handicapping_angles": {
+      "tactical_speed_premium": "Aggressively upgrade horses with high tactical speed ('E' or 'P' types) who draw inside. Downgrade pure backmarkers ('Swoopers') unless the early pace projection shows a massive, unsustainable speed duel.",
+      "eagle_farm_alternate": "Always compare a horse's form between Doomben and Eagle Farm. Many horses are track specialists; heavy, long-striding types who flounder on Doomben's tight turns often explode when moving to Eagle Farm's massive straight, and vice versa.",
+      "wet_track_behavior": "Doomben tends to degrade quickly when heavy subtropical rain hits, often creating an off-rail 'fast lane' out wide in the straight as the inside becomes chopped up. Check early races on wet days to see if jockeys are steering wide."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1.5 (Metro Premier)",
+      "class_rating": 96,
+      "speed_par_offsets": {
+        "turf_sprint": "+0.5",
+        "turf_route": "+1.0"
       },
+      "lengths": 3.0,
+      "points": 6.0
+    }
+  },
       "Rockhampton": {
         "location": "Rockhampton, QLD",
         "track_type": "Turf",
@@ -2177,20 +2225,42 @@
         }
       },
       "Gold_Coast": {
-        "location": "Gold Coast",
-        "track_type": "Turf/Poly",
-        "direction": "Clockwise",
-        "straight_length": "300m",
-        "bias_notes": "Tight track. Magic Millions venue. On-pace bias.",
-        "handicapping_angles": {
-          "track_bias": "On-pace bias."
-        },
-        "par_adjustment": {
-          "tier": "Tier 3 (Provincial Baseline)",
-          "lengths": 0.0,
-          "points": 0.0
-        }
+    "track_code": "GCST",
+    "location": "Gold Coast, QLD",
+    "nicknames": ["Aquis Park", "The Coast"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,885 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Clockwise. Following its complete architectural redevelopment, the turf course features a state-of-the-art sand profile designed for elite drainage. It boasts a spacious layout with a 400m home straight. While designed to be exceptionally fair, a distinct inside-to-middle pace bias can emerge during the dense summer carnival meetings or when the rail is shifted out. The introduction of premium night racing brings rapid moisture shifts into play during evening cards.",
+        "post_bias": "In short turf dashes (900m to 1100m), the run to the first turn arrives quickly, making inside barriers (1-4) highly advantageous. For route distances (1400m and up), the sweeping turns allow wider gates a much fairer opportunity to find cover in the moving line."
       },
+      "polytrack_synthetic": {
+        "circumference": "1,609 metres",
+        "surface": "Polytrack (Synthetic)",
+        "stretch_length": "350 metres",
+        "bias_notes": "Clockwise. The all-weather synthetic track is positioned inside the main turf oval. It features a tighter layout with a 350m straight. Kickback is virtually non-existent, but the surface acts as a true grinding environment that demands high baseline fitness. It rewards tactical speed and well-conditioned pressers who can maintain an even, true tempo.",
+        "post_bias": "Inside positions are highly preferred. Because the synthetic oval is tighter than the course proper, getting caught wide on the turns results in severe ground loss that is difficult to recover from on this surface."
+      }
+    },
+    "handicapping_angles": {
+      "the_magic_millions_class_spike": "During the premium January carnival, the local Queensland form lines are completely invaded by elite Tier 1 metropolitan stables from Sydney and Melbourne. Local provincial form must be heavily downgraded against these high-class metropolitan shippers.",
+      "polytrack_fitness_premium": "When meetings are transferred to or held on the Polytrack, shift away from standard turf turn-of-foot metrics. Prioritize horses with proven synthetic records, high tactical gate speed, and deep fitness profiles, as synthetic racing heavily penalizes under-conditioned runners.",
+      "night_racing_moisture": "With night racing now a core feature at the venue, track parameters alter as the sun sets. The cooling evening air brings moisture to the top of the turf, which can cause the track to speed up or favor horses who can skip over a dew-affected surface. Monitor the early races under lights for sudden bias shifts."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Premium Provincial / Metro Alternate)",
+      "class_rating": 92,
+      "speed_par_offsets": {
+        "turf_sprint": "0.0",
+        "turf_route": "+0.5",
+        "synthetic": "-1.0"
+      },
+      "lengths": 1.0,
+      "points": 2.0
+    }
+  },
       "Dalby": {
         "location": "Darling Downs, QLD",
         "track_type": "Turf",
@@ -2488,20 +2558,41 @@
     "South_Australia": {
       "Metropolitan": {
         "Morphettville": {
-          "location": "Adelaide",
-          "track_type": "Turf",
-          "direction": "Counter-Clockwise",
-          "straight_length": "334m",
-          "bias_notes": "Two tracks: Main and Parks. Main track is fair and spacious. Parks track is tighter.",
-          "handicapping_angles": {
-            "track_bias": "Main: Fair. Parks: On-pace/Inside."
-          },
-          "par_adjustment": {
-            "tier": "Tier 1.5 (State Metro)",
-            "lengths": 1.0,
-            "points": 2.5
-          }
-        }
+    "track_code": "MORPH",
+    "location": "Adelaide, SA",
+    "nicknames": ["SAJC HQ", "South Australia's Headquarters"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,339 metres",
+        "surface": "Turf",
+        "stretch_length": "334 metres",
+        "bias_notes": "Counter-Clockwise. The course proper is a spacious, flat, and extremely fair galloping track. With a generous 32-metre width and wide, sweeping turns (4% camber), it gives every running style a legitimate chance. Large-striding horses can build and maintain their momentum without severe interruption.",
+        "post_bias": "Extremely fair. Thanks to long runs from the various chutes (such as the 1200m and 1600m starts) into the first turn, outside barriers are rarely a severe disadvantage on the main track."
+      },
+      "parks_turf": {
+        "circumference": "2,100 metres",
+        "surface": "Turf",
+        "stretch_length": "305 metres",
+        "bias_notes": "Counter-Clockwise. The Parks track (opened in 2009) sits inside the main circuit and plays completely differently. It is significantly tighter, narrower (25m wide), and features a short 305m straight. This geometry heavily favors tactical speed, on-pace runners ('E' and 'P' types), and agility. Deep closers often run out of ground.",
+        "post_bias": "Inside barriers (1-5) are highly advantageous. Because the turns are tighter, horses caught three-wide without cover bleed massive amounts of momentum, making outside barriers a severe penalty."
+      }
+    },
+    "handicapping_angles": {
+      "the_dual_track_flip": "Always check which track they are racing on. Aggressively upgrade nimble, tactical speed horses on the Parks track. Conversely, upgrade large, sweeping 'Swoopers' stepping off the Parks track onto the spacious Main track where they finally have room to wind up.",
+      "the_interstate_raid": "During the Adelaide Autumn Carnival (April/May), the local form lines are heavily tested by elite Tier 1 interstate shippers from Victoria and New South Wales. Always respect highly-rated Victorian invaders dropping in to steal SA black-type races.",
+      "wet_weather_migration": "When the Adelaide winter sets in and the track downgrades into the Heavy range, the inside rail often chops out. Monitor the early races; if jockeys begin steering their mounts down the center or outside fence in the straight, upgrade wide-drawn closers."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1.5 (SA Metro HQ)",
+      "class_rating": 96,
+      "speed_par_offsets": {
+        "turf_sprint": "+0.5",
+        "turf_route": "+1.0"
+      },
+      "lengths": 3.0,
+      "points": 6.0
+    }
+  }
       },
       "Provincial": {
         "Gawler": {
