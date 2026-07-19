@@ -2754,6 +2754,42 @@
           "track_bias": "Turf: Fair. AWT: On-pace/Inner."
         }
       },
+      "Seoul": {
+    "track_code": "SEO",
+    "location": "Gwacheon, Seoul, South Korea",
+    "nicknames": ["LetsRun Park Seoul"],
+    "courses": {
+      "main_sand_outer": {
+        "circumference": "1,800 metres",
+        "surface": "Deep Sand",
+        "stretch_length": "380 metres",
+        "bias_notes": "Left-Handed (Counter-Clockwise). The premier track in South Korea. The surface is exceptionally deep sand, which makes it one of the most stamina-draining dirt/sand circuits in the world. It races much slower and heavier than North American dirt tracks. Because of the heavy kickback and deep surface, early speed and prominent positioning are massively rewarded. Passing tired horses in the stretch is visually grinding.",
+        "post_bias": "Inside barriers (1-4) hold a significant advantage across most distances. Horses drawn wide are forced to expend massive amounts of early energy in the deep sand to cross over, frequently leaving them empty for the 380m stretch drive."
+      },
+      "inner_sand": {
+        "circumference": "1,600 metres",
+        "surface": "Deep Sand",
+        "stretch_length": "350 metres (approx)",
+        "bias_notes": "Left-Handed. Set inside the main track, this tighter layout is used for certain distance configurations. The tight corners heavily amplify the advantage of inside draws and early gate speed.",
+        "post_bias": "Inside posts are critical. Wide draws are highly penalizing due to the tighter geometry and shorter run into the first turn."
+      }
+    },
+    "handicapping_angles": {
+      "the_deep_sand_stamina": "Never translate fast, firm North American or Australian dirt form directly to Seoul. The deep sand demands grueling stamina. Heavily downgrade pure 'speed' horses that lack proven endurance, and aggressively upgrade grinding, tough types.",
+      "the_kickback_factor": "The kickback here is brutal. Horses that draw inside but lack the gate speed to hold their position will be swallowed in a cloud of heavy sand, causing many to drop the bit. Heavily upgrade 'E' (Early speed) types that can clear the field early.",
+      "korea_cup_invaders": "During the international Korea Cup and Sprint (September), elite Japanese (JRA/NAR) dirt horses routinely dominate the local Korean stars due to their vast class edge and experience on deep sand. Apply massive upgrades to Japanese shippers."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Premier Asian Sand)",
+      "class_rating": 94,
+      "speed_par_offsets": {
+        "dirt_sprint": "+1.5",
+        "dirt_route": "+2.0"
+      },
+      "lengths": 2.0,
+      "points": 5.0
+    }
+  },
       "Happy_Valley": {
         "location": "Hong Kong Island",
         "track_type": "Turf",
