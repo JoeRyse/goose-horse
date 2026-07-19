@@ -1039,20 +1039,33 @@
         }
       },
       "Hawkesbury": {
-        "location": "Clarendon, NSW",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "380m",
-        "bias_notes": "A premier provincial circuit that often attracts elite Sydney metro stables.",
-        "handicapping_angles": {
-          "track_bias": "Extremely fair track.",
-          "class_factor": "Sydney metropolitan form lines are very strong here."
-        },
-        "par_adjustment": {
-          "tier": "Tier 2 (Premier Provincial)",
-          "lengths": 0.5,
-          "points": 1.0
-        }
+    "track_code": "HAWK",
+    "location": "Clarendon, NSW",
+    "nicknames": ["Hawkesbury Race Club", "The Provincial Premier"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,070 metres",
+        "surface": "Turf",
+        "stretch_length": "380 metres",
+        "bias_notes": "Clockwise. A large, slightly square-shaped circuit featuring sweeping turns and a generous 380m home straight with a subtle uphill gradient to the winning post. Because of its massive size and fair geometry, it gives every running style a legitimate opportunity to win, operating very much like a spacious Metropolitan track. The long straight and uphill finish relentlessly test a horse's stamina.",
+        "post_bias": "Extremely fair. The long, uninterrupted runs out of the chutes into the first turn (especially from the 1000m and 1300m starts) give wide-drawn horses ample time to slot in and find cover without burning excessive early energy."
+      }
+    },
+    "handicapping_angles": {
+      "the_metro_spillover": "Given its proximity to Sydney, elite Metropolitan trainers (Waller, Cummings, Waterhouse/Bott) frequently use Hawkesbury to debut highly-touted prospects or drop horses down from Saturday city class for a confidence-boosting win. Heavily respect Sydney metro shippers.",
+      "the_uphill_swoop": "The 380m uphill straight frequently exhausts one-dimensional front-runners ('Need-the-Lead' types) who went out too hard. Aggressively upgrade 'Swoopers' (deep closers) with proven late sectionals, as the track allows them to build uninterrupted momentum.",
+      "stand_alone_saturday_class": "Hawkesbury hosts a massive Stand-Alone Saturday meeting in late autumn. Form coming out of this specific carnival is elite Metropolitan grade. Horses performing well during this meeting should carry a massive class advantage when returning to standard provincial midweek races."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Premier Provincial NSW)",
+      "class_rating": 94,
+      "speed_par_offsets": {
+        "turf_sprint": "+0.5",
+        "turf_route": "+1.0"
+      },
+      "lengths": 1.0,
+      "points": 3.0
+    }
       },
       "Kingscote": {
         "location": "Kangaroo Island, SA",
@@ -1488,23 +1501,35 @@
       "points": -3.0
     }
   },
-        "Hobart": {
-        "location": "Elwick, Tasmania",
-        "track_type": "Turf",
-        "direction": "Counter-Clockwise",
-        "straight_length": "350m",
-        "bias_notes": "Premier track in southern Tasmania. Features a slightly uphill 350m home straight.",
-        "handicapping_angles": {
-          "track_bias": "Generally fair, but the uphill straight can test stamina late. On-pace runners can be advantaged when the rail is out.",
-          "barrier_draw": "Plays fairly across most distances."
-        },
-        "par_adjustment": { 
-          "tier": "Tier 3 (Provincial Baseline)", 
-          "lengths": 0.0, 
-          "points": 0.0, 
-          "algorithm_note": "Tasmanian premier form. Anchors evenly to mainland provincial baseline." 
-        }
+       "Hobart": {
+    "track_code": "HOBA",
+    "location": "Elwick, Tasmania",
+    "nicknames": ["Elwick Racecourse", "Tasmanian HQ"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,990 metres",
+        "surface": "Turf (StrathAyr)",
+        "stretch_length": "350 metres",
+        "bias_notes": "Counter-Clockwise. The premier racing venue in southern Tasmania. Reconstructed with an elite 28-metre wide StrathAyr profile, it is a spacious, modern, and extremely fair galloping track. The defining feature is the 350m home straight, which features a distinct, gradual uphill gradient. This incline ruthlessly tests stamina in the final furlong and frequently exposes one-dimensional front-runners.",
+        "post_bias": "Plays relatively fairly across all distances due to the wide, expansive track layout. However, in larger fields, horses drawn extremely wide (10+) must possess the tactical speed to cross over and find cover early, or they risk burning too much fuel before the uphill drag."
+      }
+    },
+    "handicapping_angles": {
+      "the_uphill_stamina_test": "The uphill straight stops weak front-runners dead in their tracks. Heavily upgrade 'Swoopers' (closers) with proven stamina and strong late sectionals. Horses stepping back slightly in distance (e.g., from 1600m to 1400m) often out-finish horses attempting to stretch out.",
+      "the_strathayr_drainage": "Because the track features a premium StrathAyr sand profile, it drains exceptionally well and handles winter weather better than standard dirt-based provincial tracks. Do not aggressively upgrade extreme 'mudlarks' unless the track has suffered torrential, sustained rain and is genuinely rated Heavy 8 or worse.",
+      "the_mainland_shipper": "As the headquarters of Tasmanian racing, local elite form is strong. However, heavily respect horses shipping over from the Victorian mainland—particularly those dropping out of Melbourne midweek metro races or premium provincial tracks like Ballarat and Geelong—as they often possess a distinct class edge over the local stalwarts."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Provincial Baseline / TAS HQ)",
+      "class_rating": 90,
+      "speed_par_offsets": {
+        "turf_sprint": "0.0",
+        "turf_route": "0.0"
       },
+      "lengths": 0.0,
+      "points": 0.0
+    }
+  },
       "Narromine": {
           "location": "Orana Region, NSW",
           "track_type": "Turf",
@@ -1540,21 +1565,34 @@
         }
       },
       "Port_Augusta": {
-          "location": "Port Augusta, SA",
-          "track_type": "Dirt / Sand",
-          "direction": "Counter-Clockwise",
-          "straight_length": "400m",
-          "bias_notes": "South Australia's premier dirt track. The unique sand/dirt surface means course specialists thrive here. Horses making their debut on this surface often struggle significantly with the kickback.",
-          "handicapping_angles": {
-            "surface_bias": "SPECIALIST TRACK. Proven dirt form is critical. Because kickback is severe, horses that can lead or sit just off the pace outside of the kickback hold a distinct advantage."
-          },
-          "par_adjustment": { 
-            "tier": "Tier 5 (Bush/Tight Country)", 
-            "lengths": -2.0, 
-            "points": -5.0, 
-            "algorithm_note": "Deep regional dirt form. Extreme class penalty applied if shipping to turf Metro venues like Morphettville." 
-          }
-        },
+    "track_code": "PT A",
+    "location": "Port Augusta, SA",
+    "nicknames": ["The Dirt"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1,600 metres",
+        "surface": "Dirt / Sand",
+        "stretch_length": "400 metres",
+        "bias_notes": "Counter-Clockwise. South Australia's premier dirt track. The surface is a unique sand/dirt mix that creates severe kickback. The 1,600m circumference makes the turns relatively tight, but it features a generous 400m home straight. Because the kickback is so blinding, horses making their debut on this surface often panic and drop the bit entirely.",
+        "post_bias": "Inside barriers (1-4) hold a distinct advantage, but *only* if the horse possesses the early gate speed to clear the field. A horse drawn in barrier 1 that misses the start will be completely buried in the kickback."
+      }
+    },
+    "handicapping_angles": {
+      "the_dirt_specialist": "SPECIALIST TRACK. Proven dirt form is absolutely critical here. Heavily upgrade tough, older country horses with multiple wins at Port Augusta. Conversely, apply extreme caution to high-priced horses shipping in from turf tracks for the first time.",
+      "kickback_survival": "Because the kickback is so severe, horses that can lead or sit just off the pace *outside* of the kickback hold a massive advantage. Downgrade timid stalkers drawn inside who lack early speed.",
+      "regional_form_penalty": "This is deep regional dirt form. If you are evaluating a horse whose past performances are built at Port Augusta, you must apply the maximum class penalty if they are shipping down to turf Metro venues like Morphettville."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush / Deep Regional SA)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "dirt_sprint": "-2.5",
+        "dirt_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
         "Mornington": {
     "track_code": "MORN",
     "location": "Mornington Peninsula, VIC",
@@ -1771,6 +1809,43 @@
       },
       "lengths": 5.0,
       "points": 12.0
+    }
+  },
+  "Coleraine": {
+    "track_code": "COLR",
+    "location": "Coleraine, VIC",
+    "nicknames": ["Home of the Great Western Steeplechase"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,600 metres",
+        "surface": "Turf",
+        "stretch_length": "350 metres",
+        "bias_notes": "Counter-Clockwise. A highly undulating, tight country circuit. The 1,600m circumference means the turns are sharp, and the rolling nature of the track severely tests the balance of large, long-striding horses. This geometry naturally creates a strong bias toward agile, on-pace runners who can handle the rises and falls without losing momentum.",
+        "post_bias": "Inside barriers (1-4) hold a distinct statistical advantage, particularly in sprint races up to 1200m. Horses drawn wide are frequently forced to cover excessive extra ground on the continuous tight turns."
+      },
+      "jumps_course": {
+        "circumference": "1,600 metres",
+        "surface": "Turf (Hurdles / Steeplechase)",
+        "stretch_length": "350 metres",
+        "bias_notes": "Counter-Clockwise. Famous for its historic steeplechase events. The undulating terrain makes jumping here a severe test of stamina and jumping technique. Agility, a low jumping trajectory, and the ability to conserve energy on the uphill climbs are highly rewarded.",
+        "post_bias": "Barrier draws are largely irrelevant in jumps route races, but early tactical positioning to secure a clear sightline of the first few obstacles is absolutely critical."
+      }
+    },
+    "handicapping_angles": {
+      "the_undulating_trap": "Because the track features significant rises and falls, heavily downgrade horses that rely on a long, flat, sustained galloping action, as they often become unbalanced here. Aggressively upgrade nimble, tactical types ('Horses for Courses') who can effortlessly navigate the undulations.",
+      "on_pace_necessity": "Downgrade deep closers ('Swoopers') on the flat. The combination of tight turns and rolling terrain makes it incredibly difficult to loop the field from the back of the pack. Front-runners and rail-skimming pressers win the lion's share of flat races.",
+      "elite_jumps_shippers": "In jumps races, heavily respect horses trained by elite jumps yards (e.g., Symon Wilde or Ciaron Maher) shipping in. The unique technical demands of the Coleraine steeplechase course require top-tier schooling, making class drops from major jumps tracks highly potent."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush/Tight Country VIC)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0",
+        "jumps": "-3.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
     }
   },
         "Moonee_Valley": {
@@ -2444,20 +2519,42 @@
           }
         },
       "Sunshine_Coast": {
-        "location": "Caloundra, QLD",
-        "track_type": "Turf",
-        "direction": "Clockwise",
-        "straight_length": "400m",
-        "bias_notes": "Corbould Park. Big, spacious, galloping track.",
-        "handicapping_angles": {
-          "track_bias": "Generally fair."
-        },
-        "par_adjustment": {
-          "tier": "Tier 3 (Provincial Baseline)",
-          "lengths": 0.0,
-          "points": 0.0
-        }
+    "track_code": "SCTC",
+    "location": "Caloundra, QLD",
+    "nicknames": ["Corbould Park", "Sunshine Coast Turf Club"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,967 metres",
+        "surface": "Turf",
+        "stretch_length": "400 metres",
+        "bias_notes": "Clockwise. A massive, wide, and sprawling galloping track widely regarded as one of the fairest and most reliable turf surfaces in Queensland. Features broad, sweeping turns and a generous 400m home straight. The track's wide layout means every horse gets an unhindered opportunity to find clear running, virtually eliminating extreme pace biases.",
+        "post_bias": "Extremely fair across all distances. Long run-ins from major starting chutes (like the 1200m and 1400m starts) give wide-drawn horses ample time to establish position and find cover without burning excessive fuel."
       },
+      "synthetic_polytrack": {
+        "circumference": "1,760 metres",
+        "surface": "Polytrack (Synthetic)",
+        "stretch_length": "330 metres",
+        "bias_notes": "Clockwise. Positioned inside the main turf oval, this high-performance all-weather synthetic track features tighter corners and a slightly shorter straight. It provides uniform footing but creates a more grinding environment that favors tactical early speed and rail-skimming runs.",
+        "post_bias": "Inside positions hold a moderate advantage due to the tighter turning configuration of the inner synthetic ring. Wide draws require tactical gate speed to cross over effectively."
+      }
+    },
+    "handicapping_angles": {
+      "the_spacious_gallop": "On the turf, aggressively downgrade one-dimensional front-runners who rely on tight turns to pinch races. The long 400m straight and wide lanes heavily reward large-striding gallopers and genuine 'Swoopers' with high baseline stamina.",
+      "metro_alternate_meetings": "Sunshine Coast frequently hosts high-quality Friday night cards and serves as a major provincial alternate for Brisbane metropolitan stables. Form from meetings here measures up strongly against midweek metropolitan form lines.",
+      "synthetic_track_inversion": "When turf meetings are transferred to the Polytrack due to severe weather, shift completely away from standard grass turn-of-foot metrics. Prioritize synthetic specialists, high tactical gate speed, and peak fitness profiles."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Provincial Baseline QLD)",
+      "class_rating": 88,
+      "speed_par_offsets": {
+        "turf_sprint": "0.0",
+        "turf_route": "0.0",
+        "synthetic": "-1.0"
+      },
+      "lengths": 0.0,
+      "points": 0.0
+    }
+  },
       "Townsville": {
         "location": "Cluden Park, QLD",
         "track_type": "Turf",
