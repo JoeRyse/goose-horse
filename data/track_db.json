@@ -2149,6 +2149,35 @@
       "points": 6.0
     }
   },
+  "Blackall": {
+    "track_code": "BKLL",
+    "location": "Blackall, QLD",
+    "nicknames": ["The Heart of the Barcoo"],
+    "courses": {
+      "main_dirt": {
+        "circumference": "1,600 metres",
+        "surface": "Dirt / Sand",
+        "stretch_length": "300 metres",
+        "bias_notes": "Clockwise. A classic outback Queensland dirt circuit. The surface is completely composed of dirt and sand, which creates significant, heavy kickback during a race. The flat layout and relatively short 300m home straight heavily favor horses that can jump cleanly, dictate the pace, and stay out of the dust cloud. Deep closers are at a massive mathematical and physical disadvantage.",
+        "post_bias": "Inside barriers (1-4) are highly advantageous. Securing the rail and the lead (or sitting 'outside-leader') is critical to avoid the blinding dirt kickback. Wide draws force horses to either burn maximum energy to cross over or drop to the rear and eat dirt."
+      }
+    },
+    "handicapping_angles": {
+      "outback_dirt_specialists": "Turf ratings do not translate here. Heavily upgrade horses with proven form on the Central West dirt circuit (e.g., Barcaldine, Longreach, Roma). Horses stepping onto the dirt for the first time—regardless of their grass speed figures—are massive risks.",
+      "kickback_survival": "Aggressively upgrade pure front-runners ('E' types) and downgrade 'Swoopers'. If a horse is known to be a timid stalker or slow out of the gates, the heavy outback kickback will frequently cause them to resent the race and drop the bit entirely.",
+      "the_coastal_class_drop": "Horses occasionally ship inland from coastal provincial turf tracks like Rockhampton or Mackay. While they possess a massive class edge on paper, treat them with caution unless their running style shows elite early gate speed to stay out of the dirt."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush / Outback Dirt QLD)",
+      "class_rating": 78,
+      "speed_par_offsets": {
+        "dirt_sprint": "-3.0",
+        "dirt_route": "-2.5"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
       "Rockhampton": {
         "location": "Rockhampton, QLD",
         "track_type": "Turf",
@@ -2351,6 +2380,35 @@
           "points": 0.0
         }
       },
+      "Gunnedah": {
+    "track_code": "GUNN",
+    "location": "Gunnedah, NSW",
+    "nicknames": ["Riverside Racecourse"],
+    "courses": {
+      "main_turf": {
+        "circumference": "1,800 metres",
+        "surface": "Turf",
+        "stretch_length": "200 metres",
+        "bias_notes": "Clockwise. A country circuit set alongside the Namoi River. Its absolute defining characteristic is a notoriously short 200m home straight. Because the run home is so incredibly brief, the track plays with a massive on-pace and front-runner bias. Deep closers ('Swoopers') are at a severe mathematical disadvantage unless the early pace completely collapses.",
+        "post_bias": "Inside barriers (1-4) hold a massive advantage, particularly in the 1000m and 1250m sprint dashes. Horses drawn wide must expend significant early energy to cross over or risk being caught wide on the turns, which is heavily penalizing given the lack of a straight to recover in."
+      }
+    },
+    "handicapping_angles": {
+      "the_bullring_trap": "Aggressively downgrade deep closers ('S' types). With only 200 metres of straight runway, horses settling in the back half of the field will almost always run out of real estate, regardless of their closing splits. Heavily upgrade pure early speed ('E' types).",
+      "the_tamworth_spillover": "Gunnedah sits in the North-West racing region, meaning it frequently shares horse populations with Tamworth and Armidale. However, Tamworth features a 360m straight; horses that rely on a long wind-up at Tamworth will often fail to navigate the sharp turn and short straight here.",
+      "regional_class_penalty": "This is deep regional country form. If you are evaluating a horse whose past performances are built primarily at Gunnedah, you must apply the maximum class penalty if they are shipping down to Provincial tracks (like Newcastle or Hawkesbury) or Metro venues."
+    },
+    "par_adjustment": {
+      "tier": "Tier 5 (Bush/Tight Country NSW)",
+      "class_rating": 80,
+      "speed_par_offsets": {
+        "turf_sprint": "-2.5",
+        "turf_route": "-2.0"
+      },
+      "lengths": -2.0,
+      "points": -5.0
+    }
+  },
       "Balaklava": {
         "location": "Balaklava, SA",
         "track_type": "Turf",
@@ -2710,19 +2768,41 @@
       }
     },
     "Pakenham": {
-      "location": "Pakenham, VIC",
-      "track_type": "Turf",
-      "direction": "Counter-Clockwise",
-      "straight_length": "480m",
-      "bias_notes": "A modern, wide track with a massive 480m straight.",
-      "handicapping_angles": {
-        "track_bias": "Extremely Fair."
+    "track_code": "PAKM",
+    "location": "Pakenham (Tynong), VIC",
+    "nicknames": ["Racing.com Park", "Southside Racing"],
+    "courses": {
+      "main_turf": {
+        "circumference": "2,400 metres",
+        "surface": "Turf",
+        "stretch_length": "480 metres",
+        "bias_notes": "Counter-Clockwise. One of the newest, widest, and most spacious tracks in Australia. The massive 2,400m circumference, sweeping turns, and grueling 480m home straight make it an incredibly fair galloping surface. The long straight heavily rewards stamina, completely eliminating the 'tight-turn leader bias' and giving deep closers ('Swoopers') every possible chance to wind up.",
+        "post_bias": "Extremely fair. The 1000m, 1100m, and 1200m sprint races start from a chute that connects gently to the top of the straight, meaning outside barriers are of very little consequence. Wide draws in route races are also easily overcome due to the generous, sweeping nature of the turns."
       },
-      "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+      "synthetic_polytrack": {
+        "circumference": "2,000 metres",
+        "surface": "Polytrack (Synthetic)",
+        "stretch_length": "330 metres (approx)",
+        "bias_notes": "Counter-Clockwise. Positioned alongside the main turf course. While significantly more spacious and fairer than older synthetic tracks, it still produces a grinding environment where kickback can be a factor. Tactical speed and rail-skimming trips hold a natural mathematical advantage over wide, sweeping runs.",
+        "post_bias": "Inside barriers hold a moderate advantage, particularly over 1000m and 1200m dashes. Being caught three-wide without cover on the synthetic surface bleeds crucial momentum that is hard to recover."
       }
+    },
+    "handicapping_angles": {
+      "the_spacious_gallop": "On the turf, aggressively downgrade one-dimensional front-runners ('Need-the-Lead' types) who rely on tight turns to pinch races. The 480m straight will ruthlessly expose any horse lacking genuine stamina. Upgrade large-striding gallopers and genuine 'Swoopers'.",
+      "metro_spillover_targets": "Because of its elite facilities and proximity to Cranbourne/Melbourne, top metropolitan trainers (like Moody, Busuttin/Young) frequently send highly-touted horses here for confidence-boosting wins. Form out of Pakenham maidens and BM64s often translates perfectly to Metro Saturday grade.",
+      "synthetic_specialists": "When racing on the Polytrack during the winter months, shift completely away from standard grass turn-of-foot metrics. Prioritize horses with proven synthetic records, high tactical gate speed, and deep fitness profiles, as synthetic racing heavily penalizes under-conditioned runners."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2.5 (Premium Provincial VIC / Metro Alternate)",
+      "class_rating": 90,
+      "speed_par_offsets": {
+        "turf_sprint": "0.0",
+        "turf_route": "0.0",
+        "synthetic": "-1.0"
+      },
+      "lengths": 0.0,
+      "points": 0.0
+    }
     },
     "Tasmania": {
       "Launceston": {
