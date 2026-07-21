@@ -1,0 +1,41 @@
+{
+    "track_code": "GCST",
+    "location": "Gold Coast, QLD",
+    "nicknames": [
+        "Aquis Park",
+        "The Coast"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,885 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise. Following its complete architectural redevelopment, the turf course features a state-of-the-art sand profile designed for elite drainage. It boasts a spacious layout with a 400m home straight. While designed to be exceptionally fair, a distinct inside-to-middle pace bias can emerge during the dense summer carnival meetings or when the rail is shifted out. The introduction of premium night racing brings rapid moisture shifts into play during evening cards.",
+            "post_bias": "In short turf dashes (900m to 1100m), the run to the first turn arrives quickly, making inside barriers (1-4) highly advantageous. For route distances (1400m and up), the sweeping turns allow wider gates a much fairer opportunity to find cover in the moving line."
+        },
+        "polytrack_synthetic": {
+            "circumference": "1,609 metres",
+            "surface": "Polytrack (Synthetic)",
+            "stretch_length": "350 metres",
+            "bias_notes": "Clockwise. The all-weather synthetic track is positioned inside the main turf oval. It features a tighter layout with a 350m straight. Kickback is virtually non-existent, but the surface acts as a true grinding environment that demands high baseline fitness. It rewards tactical speed and well-conditioned pressers who can maintain an even, true tempo.",
+            "post_bias": "Inside positions are highly preferred. Because the synthetic oval is tighter than the course proper, getting caught wide on the turns results in severe ground loss that is difficult to recover from on this surface."
+        }
+    },
+    "handicapping_angles": {
+        "the_magic_millions_class_spike": "During the premium January carnival, the local Queensland form lines are completely invaded by elite Tier 1 metropolitan stables from Sydney and Melbourne. Local provincial form must be heavily downgraded against these high-class metropolitan shippers.",
+        "polytrack_fitness_premium": "When meetings are transferred to or held on the Polytrack, shift away from standard turf turn-of-foot metrics. Prioritize horses with proven synthetic records, high tactical gate speed, and deep fitness profiles, as synthetic racing heavily penalizes under-conditioned runners.",
+        "night_racing_moisture": "With night racing now a core feature at the venue, track parameters alter as the sun sets. The cooling evening air brings moisture to the top of the turf, which can cause the track to speed up or favor horses who can skip over a dew-affected surface. Monitor the early races under lights for sudden bias shifts."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Premium Provincial / Metro Alternate)",
+        "class_rating": 92,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5",
+            "synthetic": "-1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "Australia_Thoroughbred_Queensland"
+}

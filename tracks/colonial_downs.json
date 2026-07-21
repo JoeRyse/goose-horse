@@ -1,0 +1,40 @@
+{
+    "track_code": "CNL",
+    "location": "New Kent, VA",
+    "nicknames": [
+        "Home of the Secretariat Turf Course"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/4 Miles",
+            "surface": "Dirt",
+            "stretch_length": "1,142 feet",
+            "bias_notes": "An absolute behemoth. The 1 1/4-mile circumference features sprawling, sweeping turns and a massive 1,142-foot stretch. Dirt speed horses used to tight Mid-Atlantic bullrings (like Charles Town or Timonium) frequently collapse here. It is a closer's paradise.",
+            "post_bias": "Incredibly fair. The sheer size of the track means outside posts are rarely a mathematical disadvantage, as riders have an eternity to find position."
+        },
+        "secretariat_turf": {
+            "circumference": "1 1/8 Miles (Outer)",
+            "surface": "Turf",
+            "stretch_length": "1,000+ feet",
+            "bias_notes": "The widest turf course in North America. It often utilizes multiple inner and outer rail settings. Because it is so wide with sweeping turns, traffic trouble is minimized, and the best horse generally wins. Deep closers who need a long runway absolutely thrive here.",
+            "post_bias": "One of the few turf courses in America where wide posts are not a severe penalty. The massive width and gentle turns allow outside horses to swoop the field without bleeding extreme momentum."
+        }
+    },
+    "handicapping_angles": {
+        "the_turf_mecca_shipper": "Colonial attracts massive turf fields with shippers converging from New York, Kentucky, Maryland, and Florida. Look for horses dropping out of graded stakes company at Belmont or Churchill into high-level Colonial allowances.",
+        "stamina_over_speed": "On both dirt and turf, prioritize stamina and finishing kick over early speed. One-dimensional 'E' types from tighter tracks routinely build big leads on the backstretch only to completely crater in the final furlong.",
+        "the_wide_swoop_upgrade": "Because of the gentle turns and massive width of the turf course, 'Swoopers' making wide, sustained runs are highly dangerous. Do not penalize a horse for a wide trip here as heavily as you would at a track like Gulfstream."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2.5 (Premium Mid-Atlantic Summer)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "dirt_sprint": "-0.5",
+            "dirt_route": "0.0",
+            "turf": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

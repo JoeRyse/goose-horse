@@ -1,0 +1,30 @@
+{
+    "track_code": "CAR",
+    "location": "Cumbria, UK",
+    "nicknames": [],
+    "courses": {
+        "main_turf": {
+            "circumference": "1 Mile 4 Furlongs",
+            "surface": "Turf",
+            "stretch_length": "Approx 3.5 Furlongs",
+            "bias_notes": "Right-handed, pear-shaped galloping track. The final 3.5 furlongs are entirely uphill, creating one of the most testing finishes in British racing.",
+            "post_bias": "In sprints, high numbers have a distinct advantage when the ground gets soft, as runners will naturally gravitate towards the stands-side rail for better footing."
+        }
+    },
+    "handicapping_angles": {
+        "stamina_over_speed": "Downgrade pure front-runners in sprints unless they have proven winning form over a furlong further. The final two furlongs will stop a tired horse dead in its tracks.",
+        "course_specialists": "Because the uphill drag is so unique, heavily upgrade previous Carlisle winners. 'Horses for courses' is a massive factor here.",
+        "northern_circuit_form": "Form lines from nearby stiff tracks like Pontefract or Beverley translate well here."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Regional UK)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.5",
+            "turf_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+}

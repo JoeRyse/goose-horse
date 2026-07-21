@@ -1,0 +1,33 @@
+{
+    "track_code": "RHIL",
+    "location": "Sydney, NSW",
+    "nicknames": [
+        "Rosehill Gardens",
+        "Home of the Golden Slipper"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,048 metres",
+            "surface": "Turf",
+            "stretch_length": "408 metres",
+            "bias_notes": "Clockwise. A mostly square-shaped track featuring sweeping corners and a long 408m home straight. While it is spacious, the turns are sharper than its sister track Randwick. A defining feature is that 1100m and 1200m sprints jump from a unique chute inside the course proper, creating an almost hairpin turn into the straight. It generally plays fairly, but historically favors 'on-pace' runners that can secure a forward position without burning too much early energy.",
+            "post_bias": "Inside barriers (1-5) hold a massive advantage in 1100m and 1200m sprints due to the sharp dog-leg turn from the chute. Over middle distances (1400m+), the spacious layout means outside barriers are less of a penalty, though saving ground is always beneficial."
+        }
+    },
+    "handicapping_angles": {
+        "the_chute_hairpin": "For 1100m and 1200m sprints, aggressively downgrade horses drawn wide (9+) unless they possess explosive gate speed. The sharp turn out of the chute frequently forces wide runners four or five deep, causing them to bleed massive momentum.",
+        "on_pace_premium": "Despite the generous 408m straight, deep closers can struggle to make up ground due to the tight cornering before straightening. Upgrade tactical 'P' (Presser) and 'E' (Early) types that can naturally settle in the first four positions.",
+        "the_wet_weather_shift": "When the track downgrades to Soft or Heavy, the inside rail often deteriorates rapidly. Monitor early races; if jockeys begin steering their mounts wide into the straight, immediately upgrade horses drawn middle-to-wide who can easily find the unpoached ground."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Elite Metro NSW)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+2.0",
+            "turf_route": "+2.5"
+        },
+        "lengths": 5.0,
+        "points": 12.0
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Metropolitan"
+}

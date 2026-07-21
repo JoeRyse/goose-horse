@@ -1,0 +1,31 @@
+{
+  "saratoga_harness": {
+    "track_code": "SAR_H",
+    "location": "Saratoga Springs, NY",
+    "nicknames": ["Saratoga Harness"],
+    "courses": {
+      "main_track": {
+        "circumference": "1/2 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "400 feet",
+        "passing_lane": true,
+        "bias_notes": "Classic half-mile speed bias. Inside posts dominate due to tight turns and short stretches, but the passing lane allows pocket-sitters a chance to angle out.",
+        "post_bias": "Posts 1-4 hold a strong tactical advantage. Outside posts (7-8) face severe ground loss."
+      }
+    },
+    "handicapping_angles": {
+      "half_mile_speed_bias": "Heavily upgrade early speed ('E' types) drawn inside. Closers are severely compromised unless a suicidal pace duel causes a total meltdown.",
+      "passing_lane_pocket": "The pocket-sitter behind the leader has a major advantage down the passing lane."
+    },
+    "par_adjustment": {
+      "tier": "Tier 3 (Half-Mile Bullring Baseline)",
+      "class_rating": 84,
+      "speed_par_offsets": {
+        "pace": "-2.0",
+        "trot": "-2.5"
+      },
+      "lengths": 0.0,
+      "points": 0.0
+    },
+    "region_group": "USA_Harness"
+  },

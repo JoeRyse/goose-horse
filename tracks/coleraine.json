@@ -1,0 +1,40 @@
+{
+    "track_code": "COLR",
+    "location": "Coleraine, VIC",
+    "nicknames": [
+        "Home of the Great Western Steeplechase"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf",
+            "stretch_length": "350 metres",
+            "bias_notes": "Counter-Clockwise. A highly undulating, tight country circuit. The 1,600m circumference means the turns are sharp, and the rolling nature of the track severely tests the balance of large, long-striding horses. This geometry naturally creates a strong bias toward agile, on-pace runners who can handle the rises and falls without losing momentum.",
+            "post_bias": "Inside barriers (1-4) hold a distinct statistical advantage, particularly in sprint races up to 1200m. Horses drawn wide are frequently forced to cover excessive extra ground on the continuous tight turns."
+        },
+        "jumps_course": {
+            "circumference": "1,600 metres",
+            "surface": "Turf (Hurdles / Steeplechase)",
+            "stretch_length": "350 metres",
+            "bias_notes": "Counter-Clockwise. Famous for its historic steeplechase events. The undulating terrain makes jumping here a severe test of stamina and jumping technique. Agility, a low jumping trajectory, and the ability to conserve energy on the uphill climbs are highly rewarded.",
+            "post_bias": "Barrier draws are largely irrelevant in jumps route races, but early tactical positioning to secure a clear sightline of the first few obstacles is absolutely critical."
+        }
+    },
+    "handicapping_angles": {
+        "the_undulating_trap": "Because the track features significant rises and falls, heavily downgrade horses that rely on a long, flat, sustained galloping action, as they often become unbalanced here. Aggressively upgrade nimble, tactical types ('Horses for Courses') who can effortlessly navigate the undulations.",
+        "on_pace_necessity": "Downgrade deep closers ('Swoopers') on the flat. The combination of tight turns and rolling terrain makes it incredibly difficult to loop the field from the back of the pack. Front-runners and rail-skimming pressers win the lion's share of flat races.",
+        "elite_jumps_shippers": "In jumps races, heavily respect horses trained by elite jumps yards (e.g., Symon Wilde or Ciaron Maher) shipping in. The unique technical demands of the Coleraine steeplechase course require top-tier schooling, making class drops from major jumps tracks highly potent."
+    },
+    "par_adjustment": {
+        "tier": "Tier 5 (Bush/Tight Country VIC)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.5",
+            "turf_route": "-2.0",
+            "jumps": "-3.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+}

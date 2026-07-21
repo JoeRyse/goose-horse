@@ -1,0 +1,32 @@
+{
+    "track_code": "LEI",
+    "location": "Leicestershire, UK",
+    "nicknames": [
+        "Oadby"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1 Mile 6 Furlongs",
+            "surface": "Turf",
+            "stretch_length": "Approx 4 Furlongs",
+            "bias_notes": "Right-handed, oval-shaped track with a steady, punishing climb over the final 3 furlongs. It is a severe test of stamina, especially when the ground is soft.",
+            "post_bias": "In sprints (5F-6F), high draw numbers (stands-side) historically hold an advantage on soft or heavy ground."
+        }
+    },
+    "handicapping_angles": {
+        "the_stamina_test": "Downgrade one-dimensional speed horses (E types). Because of the uphill finish, horses dropping down in distance (e.g., from 7F down to 6F) often out-finish horses stretching out.",
+        "stands_side_rail": "When the track is rated Soft or Heavy, look for horses drawn high that possess the tactical speed to grab the stands-side rail.",
+        "class_drop_shippers": "Upgrade horses shipping from Tier 2 tracks like Newmarket or Ascot dropping into Class 4 or 5 handicaps here."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Regional UK)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.5",
+            "turf_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+}

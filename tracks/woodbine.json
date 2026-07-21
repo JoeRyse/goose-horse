@@ -1,0 +1,47 @@
+{
+    "track_code": "WO",
+    "location": "Toronto, ON, Canada",
+    "nicknames": [
+        "Woodbine"
+    ],
+    "courses": {
+        "main_tapeta": {
+            "circumference": "1 Mile",
+            "surface": "Synthetic (Tapeta)",
+            "stretch_length": "975 feet",
+            "bias_notes": "An all-weather Tapeta surface that plays much closer to turf than dirt. It is incredibly fair and highly penalizes one-dimensional front-runners. Sustained momentum and late closing kicks ('Swoopers') are heavily rewarded.",
+            "post_bias": "Extremely fair. Outside posts are not heavily penalized in sprint chutes because riders have time to find cover. Saving ground on the turns in routes is still mathematically beneficial."
+        },
+        "ep_taylor_turf": {
+            "circumference": "1 1/2 Miles",
+            "surface": "Turf",
+            "stretch_length": "1,440 feet",
+            "bias_notes": "A massive, sweeping European-style turf course with a grueling 1,440-foot home stretch. It is the ultimate closer's paradise. Pure speed horses almost always collapse in the final furlong.",
+            "post_bias": "Very fair due to the massive circumference. Wide sweeps are entirely possible."
+        },
+        "inner_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "975 feet",
+            "bias_notes": "A standard North American-style turf oval sitting inside the main track. Considerably tighter than the E.P. Taylor course, placing a higher premium on tactical early speed and inside positioning.",
+            "post_bias": "Inside posts hold an advantage here, unlike the outer turf course."
+        }
+    },
+    "handicapping_angles": {
+        "the_synthetic_shift": "Heavily upgrade turf specialists when races are moved off the grass onto the Tapeta. Conversely, aggressively downgrade horses shipping in whose only good form is on traditional deep dirt tracks (like Saratoga or Parx), as dirt form frequently fails to translate to Tapeta.",
+        "the_endless_stretch": "On the E.P. Taylor turf course, completely toss 'Need-the-Lead' types in route races. The 1,440-foot stretch will expose any horse lacking genuine stamina.",
+        "shipper_class_evaluation": "Top-tier shippers from elite US turf hubs (like Belmont or Gulfstream) frequently perform exceptionally well here, but local Tapeta specialists hold a distinct home-court advantage on the main track."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1.5 (Premier Canada)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "synthetic_sprint": "+1.5",
+            "synthetic_route": "+2.0",
+            "turf": "+3.0"
+        },
+        "lengths": 2.0,
+        "points": 5.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

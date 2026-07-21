@@ -1,0 +1,32 @@
+{
+    "track_code": "MKAY",
+    "location": "Mackay (Ooralea), QLD",
+    "nicknames": [
+        "Ooralea Racecourse"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf (StrathAyr Base)",
+            "stretch_length": "310 metres",
+            "bias_notes": "Clockwise. A tight, narrow provincial track (only 18m wide) that is almost continuously turning. Because of the StrathAyr base, it drains exceptionally well and frequently races on firm surfaces. The tight geometry and short 310m home straight heavily favor on-pace runners who can secure the inside rail.",
+            "post_bias": "Inside barriers (1-4) hold a significant advantage. Because the track is so narrow and constantly turning, horses drawn wide are forced to cover excessive extra ground and often struggle to cross over without expending massive energy."
+        }
+    },
+    "handicapping_angles": {
+        "the_strathayr_drainage": "Because of its elite StrathAyr profile, Mackay handles rain far better than standard Queensland provincial tracks. Do not over-penalize form or aggressively upgrade 'mudlarks' based solely on local wet weather forecasts unless the rain is torrential and sustained.",
+        "tight_turning_bias": "Aggressively downgrade deep closers ('Swoopers'). The 310m straight and constant turns make it incredibly difficult to loop the field. Heavily upgrade front-runners ('E' types) and rail-skimming pressers.",
+        "northern_qld_raiders": "Mackay sits on the primary North Queensland coastal circuit. Form lines from Rockhampton and Townsville translate well, but apply a strict class penalty to horses shipping in from smaller surrounding bush/dirt tracks (like Bowen or Home Hill)."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Provincial QLD)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.0",
+            "turf_route": "-1.5"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+}

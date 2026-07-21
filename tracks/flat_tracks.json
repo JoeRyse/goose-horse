@@ -1,0 +1,324 @@
+{
+    "Ascot_UK": {
+        "track_code": "ASC",
+        "location": "Ascot, Berkshire, UK",
+        "nicknames": [
+            "The Home of Royal Ascot",
+            "Headquarters of the Royal Meeting"
+        ],
+        "courses": {
+            "straight_course": {
+                "circumference": "1 Mile (Straight)",
+                "surface": "Turf (Sand/Gravel Raft Base)",
+                "stretch_length": "1 Mile",
+                "bias_notes": "A straight galloping track used for races from 5f up to 1 Mile. There are no bends, but the topography features a downhill gradient for the first 2 furlongs before hitting a punishing 73-foot uphill climb over the final 2 furlongs to the winning post. This gradient frequently exhausts front-runners who set too fast a pace, heavily rewarding patient stalkers and deep closers.",
+                "post_bias": "Draw bias is heavily dictated by track condition. On Good/Firm ground, a 'Golden Highway' often forms on the near/stands side, massively advantaging High numbers (Stalls 20-32). When the ground is Soft/Heavy, the bias violently flips as Low numbers (far side) frequently find unpoached, better ground."
+            },
+            "round_course": {
+                "circumference": "14 Furlongs (1m 6f)",
+                "surface": "Turf",
+                "stretch_length": "2 1/2 Furlongs (500m)",
+                "bias_notes": "Right-Handed. A large, galloping triangular circuit. Despite a downhill run into Swinley Bottom, the track finishes with the same stiff uphill drag as the straight course. The turn into the relatively short home straight is sweeping, allowing prominently ridden horses to kick for home effectively, but stamina is severely tested.",
+                "post_bias": "In races from 1 Mile to 1 1/4 Miles on the round course, inside (Low) draws are advantageous to save ground around the first bend. However, in large-field handicaps 1 1/2 Miles or longer, extreme low draws (1-4) are highly disadvantaged due to traffic bottlenecks entering the short run-in. Middle to high draws perform significantly better by sustaining uninterrupted momentum."
+            },
+            "jumps_course": {
+                "circumference": "13 Furlongs (1m 5f)",
+                "surface": "Turf (Hurdle and Chase)",
+                "stretch_length": "240 Yards",
+                "bias_notes": "Features 10 stiff chase fences per circuit, including plain fences, open ditches, and water jumps. Regarded as a severe jumping test. Success heavily relies on jumping fluently and freewheeling economically down the Swinley Bottom descent to conserve aerobic capacity for the uphill 240-yard run-in.",
+                "post_bias": "N/A"
+            }
+        },
+        "handicapping_angles": {
+            "the_uphill_drag": "The defining characteristic of Ascot is the uphill finish. Heavily downgrade 'Need-the-Lead' front-runners in straight-course races. Pure speed is far less valuable here than the ability to sustain a long, grinding gallop.",
+            "the_golden_highway": "During the summer (particularly Royal Ascot week) on fast ground, aggressively upgrade horses drawn high (stands side) in big-field straight-course handicaps (e.g., Royal Hunt Cup, Wokingham Stakes, Britannia Stakes).",
+            "royal_class_elite": "During Royal Ascot, trainer angles are paramount. Apply massive upgrades to Group horses trained by elite yards (like Aidan O'Brien or John Gosden), particularly when supported in the market. Charlie Appleby's runners historically underperform market expectations as favourites in large Royal Ascot handicaps.",
+            "algorithmic_roi_upgrades": "Aggressively upgrade Roger Varian favorites (+156% historical ROI) and Karl Burke/Wathnan Racing 2YOs at double-digit SPs (+202% ROI). In races over 2 miles, target the DOBbing (Double or Bust) strategy on horses priced between 2.02 and 4.25 BSP."
+        },
+        "par_adjustment": {
+            "tier": "Tier 1 (Elite European)",
+            "class_rating": 100,
+            "speed_par_offsets": {
+                "turf_sprint": "+2.0",
+                "turf_route": "+2.5",
+                "jumps": "+3.0"
+            },
+            "lengths": 3.0,
+            "points": 10.0
+        }
+    },
+    "Killarney": {
+        "track_code": "KIL",
+        "location": "Killarney, County Kerry, Ireland",
+        "nicknames": [
+            "Ireland's Most Scenic Racecourse"
+        ],
+        "courses": {
+            "flat_turf": {
+                "circumference": "Approx. 9 1/2 Furlongs (1m 1 1/2f)",
+                "surface": "Turf",
+                "stretch_length": "Under 3 Furlongs (Dog-legged)",
+                "bias_notes": "Left-Handed. An undulating and extremely sharp track. Uniquely for Flat racing, there are no races staged at a mile or less (no sprints). The turn immediately after the winning post is notoriously tight. Because the horses are almost always on the turn up to the line, it heavily rewards agile, well-balanced horses.",
+                "post_bias": "There is no massive mathematical draw bias, but tactically, low numbers (inside draws) are preferred. Because the track is constantly turning left, being caught wide around the final bends is a severe penalty that bleeds extreme momentum."
+            },
+            "national_hunt": {
+                "circumference": "Approx. 9 1/2 Furlongs",
+                "surface": "Turf (Hurdle/Chase)",
+                "stretch_length": "1 Furlong Run-In",
+                "bias_notes": "Left-Handed. The jumps course is equally sharp and testing for big, cumbersome jumpers. The chase course features six fences per circuit, with three located in the dog-legged home straight. The run-in after the final fence is only about a furlong, meaning late closers have very little time to make up ground.",
+                "post_bias": "N/A"
+            }
+        },
+        "handicapping_angles": {
+            "the_scenic_bullring": "Killarney is essentially a sharp, undulating provincial bullring. Heavily downgrade massive, long-striding horses who need long galloping straights to build momentum. Aggressively upgrade nimble, tactical types ('Horses for Courses') who can effortlessly navigate the tight bends.",
+            "festival_target_yards": "Because Killarney races in distinct boutique summer festivals (May, July, August), elite yards (like Willie Mullins, Gordon Elliott, or Aidan O'Brien) frequently target specific races for high prize money. Always respect top-tier shippers arriving for the festival days.",
+            "the_kerry_weather_watch": "Located in the southwest of Ireland, the ground can change from Good/Yielding to Soft/Heavy incredibly fast. When the rain hits, the sharp track quickly turns into a grueling stamina test. Always verify the going on the day of the race."
+        },
+        "par_adjustment": {
+            "tier": "Tier 3.5 (Irish Provincial Summer)",
+            "class_rating": 86,
+            "speed_par_offsets": {
+                "turf_route": "-1.5",
+                "jumps": "-2.0"
+            },
+            "lengths": -1.0,
+            "points": -3.0
+        }
+    },
+    "Epsom_Downs": {
+        "location": "Surrey",
+        "track_type": "Turf",
+        "direction": "Counter-clockwise",
+        "bias_notes": "UNIQUE - Horseshoe shaped, severe camber.",
+        "handicapping_angles": {
+            "track_bias": "LOW DRAWS FAVORED."
+        }
+    },
+    "Newmarket": {
+        "location": "Suffolk",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "Rowley Mile and July Course. Wide, galloping, fair.",
+        "handicapping_angles": {
+            "track_bias": "The Dip can catch horses out."
+        }
+    },
+    "York": {
+        "location": "Yorkshire",
+        "track_type": "Turf",
+        "direction": "Counter-clockwise",
+        "bias_notes": "The Knavesmire. Very flat, wide, galloping. Fairest track in UK.",
+        "handicapping_angles": {
+            "track_bias": "Extremely fair."
+        }
+    },
+    "Goodwood": {
+        "location": "Sussex",
+        "track_type": "Turf",
+        "direction": "Clockwise",
+        "bias_notes": "Undulating, tricky. Downhill sections.",
+        "handicapping_angles": {
+            "track_bias": "Low draws favored. Balance essential."
+        }
+    },
+    "Wolverhampton": {
+        "location": "West Midlands",
+        "track_type": "Tapeta (AW)",
+        "direction": "Counter-clockwise",
+        "bias_notes": "Tight AW track. Short straight.",
+        "handicapping_angles": {
+            "track_bias": "Low draws advantage in sprints."
+        }
+    },
+    "Leicester": {
+        "track_code": "LEI",
+        "location": "Leicestershire, UK",
+        "nicknames": [
+            "Oadby"
+        ],
+        "courses": {
+            "main_turf": {
+                "circumference": "1 Mile 6 Furlongs",
+                "surface": "Turf",
+                "stretch_length": "Approx 4 Furlongs",
+                "bias_notes": "Right-handed, oval-shaped track with a steady, punishing climb over the final 3 furlongs. It is a severe test of stamina, especially when the ground is soft.",
+                "post_bias": "In sprints (5F-6F), high draw numbers (stands-side) historically hold an advantage on soft or heavy ground."
+            }
+        },
+        "handicapping_angles": {
+            "the_stamina_test": "Downgrade one-dimensional speed horses (E types). Because of the uphill finish, horses dropping down in distance (e.g., from 7F down to 6F) often out-finish horses stretching out.",
+            "stands_side_rail": "When the track is rated Soft or Heavy, look for horses drawn high that possess the tactical speed to grab the stands-side rail.",
+            "class_drop_shippers": "Upgrade horses shipping from Tier 2 tracks like Newmarket or Ascot dropping into Class 4 or 5 handicaps here."
+        },
+        "par_adjustment": {
+            "tier": "Tier 4 (Regional UK)",
+            "class_rating": 82,
+            "speed_par_offsets": {
+                "turf_sprint": "-2.5",
+                "turf_route": "-2.0"
+            },
+            "lengths": -2.0,
+            "points": -5.0
+        }
+    },
+    "Carlisle": {
+        "track_code": "CAR",
+        "location": "Cumbria, UK",
+        "nicknames": [],
+        "courses": {
+            "main_turf": {
+                "circumference": "1 Mile 4 Furlongs",
+                "surface": "Turf",
+                "stretch_length": "Approx 3.5 Furlongs",
+                "bias_notes": "Right-handed, pear-shaped galloping track. The final 3.5 furlongs are entirely uphill, creating one of the most testing finishes in British racing.",
+                "post_bias": "In sprints, high numbers have a distinct advantage when the ground gets soft, as runners will naturally gravitate towards the stands-side rail for better footing."
+            }
+        },
+        "handicapping_angles": {
+            "stamina_over_speed": "Downgrade pure front-runners in sprints unless they have proven winning form over a furlong further. The final two furlongs will stop a tired horse dead in its tracks.",
+            "course_specialists": "Because the uphill drag is so unique, heavily upgrade previous Carlisle winners. 'Horses for courses' is a massive factor here.",
+            "northern_circuit_form": "Form lines from nearby stiff tracks like Pontefract or Beverley translate well here."
+        },
+        "par_adjustment": {
+            "tier": "Tier 4 (Regional UK)",
+            "class_rating": 82,
+            "speed_par_offsets": {
+                "turf_sprint": "-2.5",
+                "turf_route": "-2.0"
+            },
+            "lengths": -2.0,
+            "points": -5.0
+        }
+    },
+    "Angers": {
+        "track_code": "ANG",
+        "location": "\u00c9couflant, France",
+        "nicknames": [
+            "Eventard"
+        ],
+        "courses": {
+            "main_turf": {
+                "circumference": "2,000 metres",
+                "surface": "Turf",
+                "stretch_length": "400 metres",
+                "bias_notes": "Right-handed, relatively flat provincial track with sweeping turns. It generally plays fair, but momentum is key entering the 400m straight.",
+                "post_bias": "Low barriers (inside posts) are generally advantageous over shorter trips (up to 1600m) to save ground on the continuous turning layout."
+            }
+        },
+        "handicapping_angles": {
+            "tactical_speed_premium": "Unlike stiff UK tracks, tactical early speed is rewarded here due to the flat nature of the straight. Upgrade 'P' (Presser) types who sit just off the leaders.",
+            "parisian_shippers": "Classic Tier 4 French provincial circuit. Be highly cautious of horses shipping down from elite Parisian tracks (Longchamp, Chantilly, Saint-Cloud) unless they are dropping significantly in class and have shown recent fitness.",
+            "turn_momentum": "Deep closers ('S' types) can struggle if they are forced 4 or 5 wide on the final sweeping turn into the straight."
+        },
+        "par_adjustment": {
+            "tier": "Tier 4 (Provincial France)",
+            "class_rating": 80,
+            "speed_par_offsets": {
+                "turf_sprint": "-3.0",
+                "turf_route": "-2.5"
+            },
+            "lengths": -3.0,
+            "points": -6.0
+        }
+    },
+    "Toulouse": {
+        "track_code": "TOU",
+        "location": "Toulouse, France",
+        "nicknames": [
+            "La C\u00e9pi\u00e8re"
+        ],
+        "courses": {
+            "main_turf": {
+                "circumference": "1,875 metres",
+                "surface": "Turf",
+                "stretch_length": "400 metres",
+                "bias_notes": "A right-handed, flat, oval track. It is the premier racing venue in the South-West of France. Generally very fair with a sweeping final turn and a solid 400m straight.",
+                "post_bias": "Low barrier draws (inside posts) are a distinct advantage in races between 1400m and 2000m, as wide runners lose significant ground on the continuous bends."
+            }
+        },
+        "handicapping_angles": {
+            "south_west_hq": "As a premier South-West track, local elite trainers (like J.C. Rouget or F. Rohaut) regularly target this venue. Upgrade their runners heavily when returning from tougher Parisian trips.",
+            "winter_bog": "During the autumn and winter months, the track can become extremely deep and holding ('Lourd'). Proven heavy track specialists ('mudlarks') are absolutely essential in these conditions.",
+            "tactical_positioning": "While the 400m straight is fair, the tight final bend often slingshots the leaders. Horses sitting in the 'box seat' (3rd or 4th on the rail) historically excel here, as deep closers can be forced very wide on the turn."
+        },
+        "par_adjustment": {
+            "tier": "Tier 3.5 (Premium Provincial France)",
+            "class_rating": 85,
+            "speed_par_offsets": {
+                "turf_sprint": "-2.0",
+                "turf_route": "-1.5"
+            },
+            "lengths": -2.0,
+            "points": -5.0
+        }
+    },
+    "Windsor": {
+        "track_code": "WND",
+        "location": "Berkshire, UK",
+        "nicknames": [
+            "Royal Windsor",
+            "The Figure of Eight"
+        ],
+        "courses": {
+            "main_turf": {
+                "circumference": "1 Mile 4 Furlongs (Figure of Eight)",
+                "surface": "Turf",
+                "stretch_length": "Approx 4.5 Furlongs",
+                "bias_notes": "A completely flat track with a highly unique figure-of-eight layout. In races over 1m 2f, horses must navigate both left-handed and right-handed turns. The 5F and 6F sprints are relatively straight but feature a slight dog-leg right.",
+                "post_bias": "In large field sprints (5F-6F), high numbers (stands-side) historically hold an advantage. When the ground is soft, the entire field will usually drift to the stands-side rail searching for better ground."
+            }
+        },
+        "handicapping_angles": {
+            "the_figure_eight_agility": "Because of the sharp turns in both directions, large, long-striding horses often struggle to maintain their rhythm. Heavily upgrade smaller, nimble, athletic horses with proven form on sharp tracks.",
+            "flat_speed_advantage": "Unlike the stiff, grueling uphill finishes of Carlisle or Leicester, Windsor is totally flat. On Good/Firm ground, front-runners and prominent racers ('E' and 'P' types) are extremely difficult to catch.",
+            "monday_night_specialists": "Windsor is the premier track for Monday night summer racing in the UK. Certain southern-based trainers heavily target these meetings, and 'horses for courses' is a massive factor here."
+        },
+        "par_adjustment": {
+            "tier": "Tier 4 (Regional UK)",
+            "class_rating": 82,
+            "speed_par_offsets": {
+                "turf_sprint": "-2.5",
+                "turf_route": "-2.0"
+            },
+            "lengths": -2.0,
+            "points": -5.0
+        }
+    },
+    "Lingfield_Park": {
+        "location": "Lingfield, Surrey",
+        "track_type": "Polytrack (AW) + Turf",
+        "direction": "Left-handed (Counter-clockwise)",
+        "bias_notes": "AW track is sharp and undulating with a downhill run.",
+        "handicapping_angles": {
+            "track_bias_aw": "Sharp turns favor handy horses."
+        }
+    },
+    "Chelmsford_City": {
+        "location": "Chelmsford, Essex",
+        "track_type": "Polytrack (AW)",
+        "direction": "Left-handed (Counter-clockwise)",
+        "bias_notes": "A wide, galloping track with sweeping bends.",
+        "handicapping_angles": {
+            "track_bias": "Strong 'Prominent' bias."
+        }
+    },
+    "Southwell": {
+        "location": "Nottinghamshire",
+        "track_type": "Tapeta",
+        "direction": "Counter-clockwise",
+        "bias_notes": "Recently converted to Tapeta. Galloping AW track.",
+        "handicapping_angles": {
+            "track_bias": "Fairer than Wolverhampton."
+        }
+    },
+    "Kempton_Park": {
+        "location": "Surrey",
+        "track_type": "Polytrack (AW)",
+        "direction": "Clockwise",
+        "bias_notes": "Right-handed AW. Fairer than Lingfield.",
+        "handicapping_angles": {
+            "track_bias": "High draw disadvantage in routes."
+        }
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom"
+}

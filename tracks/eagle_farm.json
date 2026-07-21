@@ -1,0 +1,33 @@
+{
+    "track_code": "E FM",
+    "location": "Brisbane, QLD",
+    "nicknames": [
+        "The Farm",
+        "Queensland's Headquarters"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,027 metres",
+            "surface": "Turf",
+            "stretch_length": "434 metres",
+            "bias_notes": "Clockwise. A sprawling, expansive galloping track and the premier venue in Queensland. The massive 2,027m circumference and sweeping turns allow large-striding horses to maintain their momentum. The defining feature is the 434m home straight, which has a subtle, exhausting uphill incline from the 800m mark to the winning post. This gradient heavily tests stamina, frequently allowing deep closers ('Swoopers') to run down tiring leaders in the final 100m.",
+            "post_bias": "In sprints (1000m to 1200m), middle-to-wide draws (5-8) often fare surprisingly well as riders have plenty of time to find cover and avoid early speed duels. In route and staying races (1600m+), inside barriers (1-4) hold a significant advantage by saving ground around the long, sweeping turns."
+        }
+    },
+    "handicapping_angles": {
+        "the_uphill_stamina_test": "Heavily downgrade pure 'Need-the-Lead' sprinters, particularly those shipping in from tighter tracks like Doomben. The 434m uphill straight exposes horses lacking genuine stamina, making this one of the best tracks in Australia to back 'Swoopers'.",
+        "the_doomben_flip": "Eagle Farm is directly across the road from Doomben, but they play completely differently. Doomben is a tight front-runner's track; Eagle Farm is a sprawling closer's track. Aggressively upgrade horses who ran well late at Doomben but ran out of room, as they will relish the massive open spaces of Eagle Farm.",
+        "big_striding_gallopers": "Large, long-striding horses who often become unbalanced on tight provincial circuits (like Kilcoy or Ipswich) absolutely thrive here. Upgrade horses described in form guides as having a 'bounding' or long-reaching action."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Metropolitan QLD)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+2.0",
+            "turf_route": "+2.5"
+        },
+        "lengths": 5.0,
+        "points": 10.0
+    },
+    "region_group": "Australia_Thoroughbred_Queensland"
+}

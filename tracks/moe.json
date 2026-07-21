@@ -1,0 +1,33 @@
+{
+    "track_code": "MOE",
+    "location": "Moe, VIC",
+    "nicknames": [
+        "Moe Racing Club",
+        "Gippsland's Premier Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,720 metres",
+            "surface": "Turf",
+            "stretch_length": "250 metres",
+            "bias_notes": "Counter-Clockwise. A relatively flat country track with an incredibly short 250m home straight. Because the final stretch is so brief, the track naturally creates a massive bias toward front-runners ('E' types) and horses that can race prominently on the pace. Closers ('Swoopers') must begin their runs well before the home turn, forcing them wide.",
+            "post_bias": "Inside barriers (1-7) hold a severe statistical advantage, particularly in the 1100m and 1200m sprint events. Horses drawn wide (barrier 9+) face a significant disadvantage, as they either burn too much energy crossing over or are forced to cover extra ground on the turns."
+        }
+    },
+    "handicapping_angles": {
+        "the_short_straight_trap": "Aggressively downgrade deep closers. With only 250 metres of straight runway, horses settling in the back half of the field will almost always run out of ground, even if a pace duel occurs up front.",
+        "the_gippsland_heavy": "Like many tracks in the Gippsland region, Moe frequently races on deeply rain-affected surfaces (Heavy 8 to Heavy 10) during the Victorian winter. Heavily upgrade proven 'mudlarks' who have documented success on genuinely heavy going, as winter races here often become a slog.",
+        "barrier_bias_penalty": "Apply a strict speed-figure penalty to horses drawn wide (outside barrier 9) in sprint races. The ground loss on this tight track layout is highly detrimental to finishing positions."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Country VIC)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.0",
+            "turf_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -4.0
+    },
+    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+}

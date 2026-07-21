@@ -1,0 +1,41 @@
+{
+    "track_code": "DMR",
+    "location": "Del Mar, CA",
+    "nicknames": [
+        "Where the Turf Meets the Surf",
+        "Bing Crosby's Track"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "919 feet",
+            "bias_notes": "A standard 1-mile dirt oval with a 919-foot home stretch. During the summer meet, the track can change drastically depending on the weather and marine layer. Generally, it favors tactical early speed, but extreme inside speed biases (Golden Rails) often materialize for short periods during the meet. Kickback can be significant.",
+            "post_bias": "Fairly balanced in sprint races, though extreme outside posts in large fields struggle. In 1-mile dirt races, horses start very close to the first turn, making inside posts (1-4) a massive advantage."
+        },
+        "jimmy_durante_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "840 feet",
+            "bias_notes": "Set inside the main dirt track, featuring a unique diagonal chute for 1 1/16 mile and 1 1/8 mile races. The turns are tight and the stretch is relatively short. Tactical speed and saving ground are absolutely paramount. Deep, wide-sweeping closers frequently run out of time.",
+            "post_bias": "Inside and middle posts are highly preferred. In 1 Mile turf races, outside posts (9+) are a severe disadvantage due to the extremely short run into the first turn. Avoid wide-drawn horses lacking gate speed."
+        }
+    },
+    "handicapping_angles": {
+        "the_marine_layer_effect": "Monitor the weather closely. When the coastal marine layer rolls in and the track retains moisture, the dirt often becomes 'tighter' and highly speed-favoring. When the track is dry and deep, upgrade stalkers.",
+        "turf_tactical_speed": "On the Jimmy Durante Turf Course, aggressively upgrade horses drawn inside who possess tactical early speed. The tight corners and short stretch make looping the field 3- or 4-wide incredibly difficult without bleeding massive momentum.",
+        "ship_and_win_invaders": "Del Mar runs a lucrative 'Ship & Win' program that attracts high-quality horses from out of state (East Coast, Midwest). Always respect out-of-state shippers, especially those from top-tier trainers who target this specific meet."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Summer Elite)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "dirt_sprint": "+2.0",
+            "dirt_route": "+2.5",
+            "turf": "+2.0"
+        },
+        "lengths": 5.0,
+        "points": 12.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

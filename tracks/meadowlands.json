@@ -1,0 +1,31 @@
+"meadowlands": {
+    "track_code": "M",
+    "location": "East Rutherford, NJ",
+    "nicknames": ["The Big M", "The Mecca of Harness Racing"],
+    "courses": {
+      "main_track": {
+        "circumference": "1 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "985 feet",
+        "passing_lane": false,
+        "bias_notes": "A massive 1-mile oval. Widely considered the fairest track in harness racing. Broad sweeping turns and a long stretch allow deep closers a legitimate chance.",
+        "post_bias": "Extremely fair. Outside posts (8-10) are a disadvantage, but much less severe than on smaller tracks due to long straightaways."
+      }
+    },
+    "handicapping_angles": {
+      "the_class_epicenter": "This is the premier class hub. Horses shipping out of the Meadowlands to regional tracks hold a massive class edge.",
+      "the_long_stretch_swoop": "Heavily upgrade horses with elite final-quarter speed (sub-26 seconds). Front-runners lacking pure stamina get exposed."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite 1-Mile)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "pace": "+6.0",
+        "trot": "+5.0"
+      },
+      "lengths": 0.0,
+      "points": 10.0
+    },
+    "region_group": "USA_Harness"
+  },
+  

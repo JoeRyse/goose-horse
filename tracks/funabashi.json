@@ -1,0 +1,39 @@
+{
+    "track_code": "FUNA",
+    "location": "Funabashi, Chiba, Japan",
+    "nicknames": [
+        "Heartbeat Nighter"
+    ],
+    "courses": {
+        "main_dirt_outer": {
+            "circumference": "1,400 metres",
+            "surface": "Deep Sand",
+            "stretch_length": "308 metres",
+            "bias_notes": "Left-Handed. A unique dirt oval featuring 'spiral curves'\u2014the angles are wider entering the corners and tighter exiting them. Because of this geometry, horses are naturally forced to slow down and drift outward as they exit the turns. This frequently causes wide-drawn horses to lose significant ground and momentum. The 308m straight is fair, but the cornering dynamics heavily favor horses that can hug the inside rail.",
+            "post_bias": "Inside barriers hold a distinct advantage across all distances because of the spiral corners. Horses caught three-wide exiting the tight bends bleed massive amounts of momentum."
+        },
+        "inner_dirt": {
+            "circumference": "1,250 metres",
+            "surface": "Deep Sand",
+            "stretch_length": "308 metres",
+            "bias_notes": "Left-Handed. The inner dirt circuit is tighter overall but shares the exact same 308m home straight. Tactical speed and early positioning are highly prioritized here.",
+            "post_bias": "Inside barriers (1-4) are highly advantageous. Wide draws are a severe penalty."
+        }
+    },
+    "handicapping_angles": {
+        "the_spiral_corner_trap": "Aggressively downgrade horses drawn wide who lack the early explosive speed to cross over. The 'spiral' nature of the turns means that horses caught on the outside will be slung even wider upon exiting, resulting in brutal ground loss.",
+        "the_nar_deep_sand": "Like most regional NAR tracks, the surface is a deep, heavy sand that demands grueling stamina. Do not blindly translate fast, firm dirt form from JRA tracks; heavily upgrade horses with proven grinding ability over this specific deep sand profile.",
+        "night_racing_specialists": "Funabashi is famous for its 'Heartbeat Nighter' events under the lights. Upgrade horses with proven form under artificial lighting, as some horses react poorly to the visual shadows on the track."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Japan NAR Premier)",
+        "class_rating": 94,
+        "speed_par_offsets": {
+            "dirt_sprint": "+2.0",
+            "dirt_route": "+2.5"
+        },
+        "lengths": 1.0,
+        "points": 3.0
+    },
+    "region_group": "Asia_Thoroughbred_Japan"
+}

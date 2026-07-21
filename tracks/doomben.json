@@ -1,0 +1,32 @@
+{
+    "track_code": "DOOM",
+    "location": "Brisbane, QLD",
+    "nicknames": [
+        "The Garden Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,715 metres",
+            "surface": "Turf",
+            "stretch_length": "350 metres",
+            "bias_notes": "Clockwise. A relatively tight, flat metropolitan track with a short 350m home straight. Unlike its spacious neighbor Eagle Farm, Doomben heavily favors tactical speed and horses that can settle on the pace or in the 'box seat'. The tight turns make it difficult for wide, sweeping closers to make up ground efficiently.",
+            "post_bias": "Inside barriers (1-4) are highly advantageous, especially in short sprints (1050m and 1110m) where the run to the first turn is very short. Wide draws are severe penalties unless the horse possesses elite gate speed to clear the field."
+        }
+    },
+    "handicapping_angles": {
+        "tactical_speed_premium": "Aggressively upgrade horses with high tactical speed ('E' or 'P' types) who draw inside. Downgrade pure backmarkers ('Swoopers') unless the early pace projection shows a massive, unsustainable speed duel.",
+        "eagle_farm_alternate": "Always compare a horse's form between Doomben and Eagle Farm. Many horses are track specialists; heavy, long-striding types who flounder on Doomben's tight turns often explode when moving to Eagle Farm's massive straight, and vice versa.",
+        "wet_track_behavior": "Doomben tends to degrade quickly when heavy subtropical rain hits, often creating an off-rail 'fast lane' out wide in the straight as the inside becomes chopped up. Check early races on wet days to see if jockeys are steering wide."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1.5 (Metro Premier)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 3.0,
+        "points": 6.0
+    },
+    "region_group": "Australia_Thoroughbred_Queensland"
+}

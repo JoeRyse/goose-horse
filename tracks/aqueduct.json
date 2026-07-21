@@ -1,0 +1,47 @@
+{
+    "track_code": "AQU",
+    "location": "Queens, NY",
+    "nicknames": [
+        "The Big A"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/8 Miles",
+            "surface": "Dirt",
+            "stretch_length": "1,155 feet",
+            "bias_notes": "A massive 1 1/8-mile dirt oval. During the winter months, the track frequently develops a severe 'DEAD RAIL'. Jockeys will deliberately steer 3 to 4 paths wide looking for the better, faster ground. Outside flow and outside momentum are the dominant biases.",
+            "post_bias": "Because of the winter dead rail, inside posts (1-2) can be a severe disadvantage in dirt sprints. Mid-to-outside draws are highly preferred so horses can immediately establish 'Outside Speed'."
+        },
+        "outer_turf": {
+            "circumference": "1 Mile",
+            "surface": "Turf",
+            "stretch_length": "1,155 feet",
+            "bias_notes": "A sweeping 1-mile turf course. Generally plays very fair to all run styles.",
+            "post_bias": "Fair across the board, though saving some ground around the wide, sweeping turns is always beneficial."
+        },
+        "inner_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "1,034 feet",
+            "bias_notes": "A tighter 7/8-mile inner turf course. Because the turns are significantly sharper than the outer course, it distinctly favors tactical early speed and rail-skimming trips.",
+            "post_bias": "Inside posts (1-4) hold a distinct advantage here due to the tighter geometry and shorter run into the first turn."
+        }
+    },
+    "handicapping_angles": {
+        "the_winter_dead_rail": "During the winter meet, aggressively downgrade horses breaking from the inside rail unless they possess the tactical speed to immediately cross over and get 3-paths wide. Upgrade 'Outside Speed' over 'Rail Speed'.",
+        "the_seasonal_tier_shift": "Aqueduct operates as a Tier 2 track in the harsh winter, but bumps up to a Tier 1.5 track in the Spring and Fall when elite New York stables return. Apply a heavier class penalty (+8 lengths) during the Spring/Fall meets than in the Winter (+6 lengths).",
+        "the_outside_flow": "In route races on the dirt, horses that can secure a clear, wide stalking trip ('Outside Flow') frequently run down horses stuck battling on the slower inside rail."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Winter) / Tier 1.5 (Spring/Fall)",
+        "class_rating": 95,
+        "speed_par_offsets": {
+            "dirt_sprint": "+2.0",
+            "dirt_route": "+2.5",
+            "turf": "+2.0"
+        },
+        "lengths": 6.0,
+        "points": 10.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

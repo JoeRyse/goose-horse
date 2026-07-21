@@ -1,0 +1,49 @@
+{
+    "track_code": "SAR",
+    "location": "Saratoga Springs, NY",
+    "nicknames": [
+        "The Spa",
+        "The Graveyard of Champions"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/8 Miles",
+            "surface": "Dirt",
+            "stretch_length": "1,144 feet",
+            "bias_notes": "Deep, sandy surface that becomes highly tiring late in the summer meet. Early speed dominates short sprints (under 6.5F), but the deep surface chews up one-dimensional speed in routes.",
+            "post_bias": "Inside posts are a massive advantage at 1 1/8 miles because the starting gate is located immediately before the first turn."
+        },
+        "mellon_turf_outer": {
+            "circumference": "1 Mile",
+            "surface": "Turf",
+            "stretch_length": "1,144 feet",
+            "bias_notes": "Wider sweeping turns. Tactical speed or mid-pack stalkers tend to excel. Early speed generally struggles to go wire-to-wire here.",
+            "post_bias": "Outside posts (7 and higher) historically perform disproportionately well on this outer course compared to the inner turf."
+        },
+        "inner_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "1,164 feet",
+            "bias_notes": "Features very tight, sharp turns. Visually favors smaller, athletic horses that can corner well over large, long-striding bulky horses.",
+            "post_bias": "The inside three posts offer a significant advantage, especially at 1 mile and 1 1/16 miles."
+        }
+    },
+    "handicapping_angles": {
+        "the_belmont_flip": "Downgrade horses whose best speed figures came in 1-turn routes at Belmont. Upgrade true 2-turn route specialists coming from tracks like Churchill, Aqueduct, or past Saratoga meets.",
+        "late_meet_fade": "As the meet progresses into August, the dirt rail often becomes 'dead' and cuppy, shifting the route bias heavily toward closers.",
+        "juvenile_sprints": "In 2-year-old dirt sprints under 6 furlongs, early speed on the pace or within a length of the lead wins at a nearly 50% rate.",
+        "turf_trip_quality": "On the grass, trip quality (saving ground, avoiding traffic) dictates winners more than raw speed figures. Wide-drawn closers in big fields are highly vulnerable."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Max)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "dirt_sprint": "+5.0",
+            "dirt_route": "+2.5",
+            "turf": "+4.0"
+        },
+        "lengths": 6.0,
+        "points": 15.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

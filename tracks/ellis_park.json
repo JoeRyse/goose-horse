@@ -1,0 +1,40 @@
+{
+    "track_code": "ELP",
+    "location": "Henderson, KY",
+    "nicknames": [
+        "The Pea Patch"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/8 Miles",
+            "surface": "Dirt",
+            "stretch_length": "1,175 feet",
+            "bias_notes": "A massive 1 1/8-mile dirt oval with one of the longest home stretches in North America (1,175 feet). Because of this sprawling layout, one-dimensional front-runners ('Need-the-Lead' types) are highly vulnerable. It is one of the fairest dirt tracks in the country, heavily rewarding patient rides and deep closers ('Swoopers').",
+            "post_bias": "Extremely fair. The long run into the turns in route races allows wide-drawn horses ample time to slot in and find cover. In 1-mile dirt races, horses start out of a chute, mitigating extreme outside post disadvantages."
+        },
+        "main_turf": {
+            "circumference": "1 Mile",
+            "surface": "Turf",
+            "stretch_length": "900 feet (approx)",
+            "bias_notes": "Set inside the massive dirt track, the turf course plays a bit tighter but still offers a fair run. Tactical speed is more important on the grass here than on the main dirt track.",
+            "post_bias": "Inside to middle posts (1-6) are preferred in turf routes to save ground on the tighter grass turns."
+        }
+    },
+    "handicapping_angles": {
+        "the_churchill_spillover": "Ellis Park inherits the Kentucky horse population from Churchill Downs. Heavily respect horses dropping slightly in class from tough Churchill spring allowance or maiden special weight (MSW) races, as they possess a massive class edge over regional shippers from Indiana or Ohio.",
+        "the_endless_stretch": "Aggressively downgrade pure speed horses on the dirt, particularly in route races. The 1,175-foot stretch will ruthlessly expose any horse lacking genuine stamina. Upgrade off-the-pace runners.",
+        "the_pea_patch_heat": "Racing runs through July and August in intense heat and humidity. Look for horses that have proven they can maintain their form through the brutal midwestern summer weather."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Kentucky Summer)",
+        "class_rating": 92,
+        "speed_par_offsets": {
+            "dirt_sprint": "-0.5",
+            "dirt_route": "0.0",
+            "turf": "-0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

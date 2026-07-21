@@ -1,0 +1,47 @@
+{
+    "track_code": "SA",
+    "location": "Arcadia, CA",
+    "nicknames": [
+        "The Great Race Place"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "900 feet",
+            "bias_notes": "A 1-mile dirt oval that historically plays extremely hard and fast. It frequently develops a 'Golden Rail' bias that heavily favors early speed ('E' types) and rail-skimming trips. Deep closers often struggle on the dirt unless there is a suicidal pace duel.",
+            "post_bias": "Inside posts are advantageous in sprints, provided the horse has the gate speed to utilize the position. In two-turn routes, saving ground on the tight turns is critical."
+        },
+        "main_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "900 feet",
+            "bias_notes": "A flat, fast turf course that plays reasonably fair, though tactical speed is generally preferred over deep closing styles.",
+            "post_bias": "Inside to middle draws are optimal. Wide draws in two-turn turf routes are a severe penalty."
+        },
+        "downhill_turf": {
+            "circumference": "Approx. 6.5 Furlongs",
+            "surface": "Turf (with Dirt Crossing)",
+            "stretch_length": "900 feet",
+            "bias_notes": "One of the most unique layouts in America. Horses start at the top of the hill, run down a right-hand bend, cross the main dirt track, and finish on the main turf stretch. Agility and experience are paramount.",
+            "post_bias": "Outside posts are actually preferred here, as they allow horses a clear, unimpeded run down the hill before making the right-hand turn and dirt crossing."
+        }
+    },
+    "handicapping_angles": {
+        "downhill_specialists": "The downhill turf course requires a highly specific skill set. Heavily upgrade 'Horses for Courses' who have proven they can handle the right-hand turn and the visual distraction of the dirt crossing.",
+        "the_west_coast_island": "Southern California racing is highly insulated. Top-tier Santa Anita form is elite, but apply caution when California horses ship East (e.g., to Churchill or Belmont), as they often struggle to adapt to deeper, more tiring dirt surfaces.",
+        "golden_rail_watch": "Always monitor the early dirt races. If wire-to-wire rail runners dominate the first few events, aggressively upgrade inside speed horses for the remainder of the card."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Elite West Coast)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "dirt_sprint": "+4.0",
+            "dirt_route": "+4.5",
+            "turf": "+3.5"
+        },
+        "lengths": 5.0,
+        "points": 12.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

@@ -1,0 +1,32 @@
+{
+    "track_code": "MILD",
+    "location": "Mildura, VIC",
+    "nicknames": [
+        "Sunraysia's Premier Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,765 metres",
+            "surface": "Turf (Loam Base)",
+            "stretch_length": "350 metres",
+            "bias_notes": "Counter-Clockwise. Located in the Sunraysia region, this country track features a 1,765m circumference with a relatively short 350m home straight. The soil profile is a sandy loam that drains exceptionally well, meaning it frequently races firm and fast. While it is up to 20 metres wide in the straight and well-cambered, the tighter turns naturally create a disadvantage for horses caught wide.",
+            "post_bias": "Inside barriers (1-5) are highly preferred across most sprint distances. Because the turns are relatively tight, being caught three-wide without cover on the bends is a massive penalty. Wide draws are a significant worry here unless the horse has elite early gate speed to cross over."
+        }
+    },
+    "handicapping_angles": {
+        "the_firm_track_flyer": "Thanks to the Mallee region's dry climate and loam base, the track frequently races in the Good 3 or Good 4 range. Heavily upgrade horses with elite 'dry track' form and downgrade 'mudlarks' who need the sting out of the ground.",
+        "tight_turn_momentum": "Because of the tighter turns and the short 350m straight, it naturally favors horses that race on the pace. Aggressively downgrade deep closers ('Swoopers') who draw wide, as they rarely have the runway needed to wind up and catch the leaders.",
+        "regional_shipper_strength": "Mildura frequently attracts shippers from South Australia (such as Murray Bridge or Morphettville) due to its border location. Interstate shippers from SA metropolitan or premium provincial grades usually outclass the local regional stalwarts."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Country VIC)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "turf_sprint": "-1.5",
+            "turf_route": "-1.5"
+        },
+        "lengths": -2.0,
+        "points": -4.0
+    },
+    "region_group": "Australia_Thoroughbred_Queensland"
+}

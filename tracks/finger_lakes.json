@@ -1,0 +1,33 @@
+{
+    "track_code": "FL",
+    "location": "Farmington, NY",
+    "nicknames": [
+        "The Thumb",
+        "FLGR"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt (Sandy Loam)",
+            "stretch_length": "960 feet",
+            "bias_notes": "A standard 1-mile dirt oval with a 960-foot home stretch and chutes for 6-furlong and 1 1/4-mile races. The track relies entirely on dirt racing, and the surface can frequently develop a strong inside/speed bias, particularly during the dry summer months. Because the corners are relatively standard, early positioning is critical.",
+            "post_bias": "In the standard 5f to 6f sprint dashes, inside and middle posts (1-4) hold a significant statistical advantage. Wide draws are punished unless the horse possesses enough explosive early speed to cross over before the first turn. In two-turn route races, saving ground on the inside is highly preferred."
+        }
+    },
+    "handicapping_angles": {
+        "the_downstate_shipper": "Finger Lakes is the primary landing spot for horses dropping out of the ultra-competitive 'downstate' NYRA circuit (Aqueduct, Belmont, Saratoga). Aggressively upgrade horses shipping into Finger Lakes from NYRA tracks, as they typically hold a massive inherent class edge over the local stalwarts.",
+        "inside_speed_dominance": "Particularly in sprints, pure early speed ('E' types) drawn on the inside rail are incredibly potent. If an inside-drawn horse projects to be the lone speed on paper, they are extremely difficult to run down.",
+        "weather_dependent_surface": "As a track operating in upstate New York from spring through late autumn, the sandy loam surface can drastically change with precipitation. Monitor early races on wet days; if the rail becomes deep and tiring (a 'dead rail'), immediately upgrade outside stalkers."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Regional New York)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "dirt_sprint": "-2.0",
+            "dirt_route": "-2.5"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

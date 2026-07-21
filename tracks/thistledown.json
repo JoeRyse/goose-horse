@@ -1,0 +1,33 @@
+{
+    "track_code": "TDN",
+    "location": "North Randall, OH",
+    "nicknames": [
+        "JACK Thistledown Racino",
+        "Home of the Ohio Derby"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "978 feet",
+            "bias_notes": "A standard 1-mile dirt oval with absolutely no turf course. The track generally plays very fast and frequently develops a distinct inside speed bias, particularly in the 5F and 6F sprints. However, the generous 978-foot home straight ensures that if a suicidal early speed duel occurs, stalkers have plenty of room to grind down the leaders in route races.",
+            "post_bias": "In sprints (5f to 6f), inside posts (1-3) hold a massive statistical advantage, particularly for horses with explosive gate speed. In route races, the post bias is far more balanced, though saving ground on the first turn is always mathematically preferred."
+        }
+    },
+    "handicapping_angles": {
+        "the_inside_speed_highway": "Aggressively upgrade pure front-runners ('E' types) drawn on the inside rail in sprint races. If a horse can secure the rail early without being pressed, they are incredibly difficult to run down on this surface.",
+        "regional_class_droppers": "Because Thistledown hosts a massive number of claiming races, 'class dropping' is a primary angle. Respect horses shipping in and dropping down from tougher allowance company at Presque Isle Downs, Churchill, or even Indiana Grand.",
+        "ohio_derby_invaders": "For the track's marquee race (The Ohio Derby), heavily upgrade shippers coming from elite Tier 1 tracks (like Churchill Downs or Belmont). Local Ohio stalwarts frequently struggle with the massive step up in class when the national operations invade."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Regional/Midwest)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "dirt_sprint": "-1.5",
+            "dirt_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

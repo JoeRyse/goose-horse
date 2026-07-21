@@ -1,0 +1,41 @@
+{
+    "track_code": "MNR",
+    "location": "New Cumberland, WV",
+    "nicknames": [
+        "Mountaineer Park",
+        "Waterford Park"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "905 feet",
+            "bias_notes": "A standard 1-mile dirt oval with a moderately long 905-foot stretch. The surface can vary significantly depending on West Virginia weather, frequently becoming deep and tiring. Unlike tighter bullrings, the generous stretch gives closers a fair shot if the early pace is contested.",
+            "post_bias": "Fair across the board in route races, but inside-to-middle draws are preferred in 5f and 6f dashes to establish early position."
+        },
+        "main_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "700 feet (approx)",
+            "bias_notes": "A tight 7/8-mile turf course inside the main dirt track. Because of the sharp turns and shorter stretch, tactical early speed and rail-skimming trips are absolutely critical. Pure closers ('Swoopers') are at a massive disadvantage here.",
+            "post_bias": "Inside posts (1-4) hold a massive advantage. Outside draws (8+) in turf routes are a severe penalty due to the incredibly short run to the first turn."
+        }
+    },
+    "handicapping_angles": {
+        "the_shipper_advantage": "Mountaineer frequently draws horses dropping in class from tougher regional circuits (like Mahoning Valley, Thistledown, or even Presque Isle). Always upgrade horses shipping in from tougher allowance or claiming company.",
+        "turf_tactical_speed": "On the grass, aggressively downgrade 'Need-the-Lead' front runners who have drawn outside, as they will burn too much energy crossing over. Heavily upgrade stalkers drawn inside who can save ground and pounce on the tight turn.",
+        "wet_weather_slogging": "During the rainy season, the Mountaineer dirt track can become incredibly deep and heavy. Look for proven 'mudlarks' who have historically won on 'Off' tracks, and downgrade speed horses that tire late on fast tracks."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Regional/Midwest)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "dirt_sprint": "-1.5",
+            "dirt_route": "-2.0",
+            "turf": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

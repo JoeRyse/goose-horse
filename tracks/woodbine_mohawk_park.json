@@ -1,0 +1,31 @@
+"woodbine_mohawk_park": {
+    "track_code": "WBS",
+    "location": "Milton, ON, Canada",
+    "nicknames": ["Mohawk", "The Mecca of Canadian Harness Racing"],
+    "courses": {
+      "main_track": {
+        "circumference": "7/8 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "1,095 feet",
+        "passing_lane": false,
+        "bias_notes": "A massive 7/8-mile oval with sweeping, banked turns and a grueling 1,095-foot home straight. No passing lane means drivers must pull and race actively.",
+        "post_bias": "Posts 4, 5, and 6 are statistically most dominant. Post 1 can be a trap if the horse lacks early gate speed."
+      }
+    },
+    "handicapping_angles": {
+      "the_bullring_tax": "Heavily downgrade horses shipping in from half-mile tracks who are used to short stretches.",
+      "first_over_grinders": "Because there is no passing lane, heavily upgrade horses with proven 'First-Over' (uncovered) grit and stamina."
+    },
+    "par_adjustment": {
+      "tier": "Tier 1 (Elite Harness)",
+      "class_rating": 100,
+      "speed_par_offsets": {
+        "pace": "+5.0",
+        "trot": "+4.0"
+      },
+      "lengths": 0.0,
+      "points": 10.0
+    },
+    "region_group": "Canada_Harness"
+  }
+}

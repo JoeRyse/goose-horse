@@ -1,0 +1,41 @@
+{
+    "track_code": "SCTC",
+    "location": "Caloundra, QLD",
+    "nicknames": [
+        "Corbould Park",
+        "Sunshine Coast Turf Club"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,967 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise. A massive, wide, and sprawling galloping track widely regarded as one of the fairest and most reliable turf surfaces in Queensland. Features broad, sweeping turns and a generous 400m home straight. The track's wide layout means every horse gets an unhindered opportunity to find clear running, virtually eliminating extreme pace biases.",
+            "post_bias": "Extremely fair across all distances. Long run-ins from major starting chutes (like the 1200m and 1400m starts) give wide-drawn horses ample time to establish position and find cover without burning excessive fuel."
+        },
+        "synthetic_polytrack": {
+            "circumference": "1,760 metres",
+            "surface": "Polytrack (Synthetic)",
+            "stretch_length": "330 metres",
+            "bias_notes": "Clockwise. Positioned inside the main turf oval, this high-performance all-weather synthetic track features tighter corners and a slightly shorter straight. It provides uniform footing but creates a more grinding environment that favors tactical early speed and rail-skimming runs.",
+            "post_bias": "Inside positions hold a moderate advantage due to the tighter turning configuration of the inner synthetic ring. Wide draws require tactical gate speed to cross over effectively."
+        }
+    },
+    "handicapping_angles": {
+        "the_spacious_gallop": "On the turf, aggressively downgrade one-dimensional front-runners who rely on tight turns to pinch races. The long 400m straight and wide lanes heavily reward large-striding gallopers and genuine 'Swoopers' with high baseline stamina.",
+        "metro_alternate_meetings": "Sunshine Coast frequently hosts high-quality Friday night cards and serves as a major provincial alternate for Brisbane metropolitan stables. Form from meetings here measures up strongly against midweek metropolitan form lines.",
+        "synthetic_track_inversion": "When turf meetings are transferred to the Polytrack due to severe weather, shift completely away from standard grass turn-of-foot metrics. Prioritize synthetic specialists, high tactical gate speed, and peak fitness profiles."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (Provincial Baseline QLD)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "0.0",
+            "synthetic": "-1.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
+    },
+    "region_group": "Australia_Thoroughbred_Queensland"
+}

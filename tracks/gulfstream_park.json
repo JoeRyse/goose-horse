@@ -1,0 +1,50 @@
+{
+    "track_code": "GP",
+    "location": "Hallandale Beach, FL",
+    "nicknames": [
+        "The Conveyor Belt",
+        "The Speed Track"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/8 Miles",
+            "surface": "Dirt",
+            "stretch_length": "898 feet",
+            "bias_notes": "A 1 1/8-mile oval notorious for being 'The Conveyor Belt'. The surface is hard, fast, and sandy, producing severe kickback. It frequently plays with a massive 'GOLDEN RAIL' bias. Pure early speed on the inside is incredibly dominant, especially in 6F sprints.",
+            "post_bias": "Inside posts are gold in sprints IF the horse has the speed to clear. However, in the unique One-Turn Mile (run out of a chute), Post 1 is a severe disadvantage because horses get pinned inside; Posts 3-6 are ideal."
+        },
+        "main_turf": {
+            "circumference": "1 Mile",
+            "surface": "Turf",
+            "stretch_length": "900 feet",
+            "bias_notes": "A fast, flat turf course that requires tactical speed. Deep closers can win if the pace melts down, but 'ground-saving' trips hugging the rail are generally required to hit the board.",
+            "post_bias": "Inside to middle posts are preferred. Outside posts (8+) in two-turn turf routes (1 1/16 miles) are a massive disadvantage due to the extremely short run into the first turn."
+        },
+        "tapeta": {
+            "circumference": "1 Mile & 70 Yards (Inner)",
+            "surface": "Synthetic (Tapeta)",
+            "stretch_length": "900 feet",
+            "bias_notes": "The inner synthetic track provides a perfectly fair, forgiving surface. Unlike the main dirt track, speed is highly vulnerable here. The Tapeta heavily rewards patient stalkers and deep closers ('Swoopers').",
+            "post_bias": "Very fair across the board. Outside posts are not heavily penalized as riders have plenty of time to find cover."
+        }
+    },
+    "handicapping_angles": {
+        "the_golden_rail_wire": "In dirt sprints, heavily upgrade 'Need-the-Lead' (E) types drawn inside. If they miss the break, they lose, but if they clear early, they are nearly impossible to run down.",
+        "kickback_elimination": "Because the kickback on the dirt is so severe, aggressively downgrade stalkers drawn inside (Posts 1-3) who lack early speed. They will get buried in flying sand and frequently stop running.",
+        "the_championship_meet_shift": "Gulfstream is dynamically tiered. During the Winter Championship Meet (Dec-Mar), it is an elite Tier 1 track. During the Summer (Apr-Nov), it drops to a Tier 2 track. Adjust shipper class penalties heavily based on the season.",
+        "tapeta_turf_translators": "When turf races are rained off onto the Tapeta, heavily upgrade horses with proven turf form over those with only dirt form. Grass mechanics translate beautifully to the synthetic."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Winter) / Tier 2 (Summer)",
+        "class_rating": 98,
+        "speed_par_offsets": {
+            "dirt_sprint": "+3.5",
+            "dirt_route": "+2.5",
+            "turf": "+2.0",
+            "synthetic": "+1.5"
+        },
+        "lengths": 10.0,
+        "points": 12.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

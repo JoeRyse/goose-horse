@@ -1,0 +1,30 @@
+"yonkers_raceway": {
+    "track_code": "YR",
+    "location": "Yonkers, NY",
+    "nicknames": ["The Hilltop"],
+    "courses": {
+      "main_track": {
+        "circumference": "1/2 Mile",
+        "surface": "Crushed Limestone",
+        "stretch_length": "400 feet",
+        "passing_lane": false,
+        "bias_notes": "A classic half-mile 'bullring' track with tight turns and an incredibly short home stretch. No passing lane means position is everything.",
+        "post_bias": "Posts 1 through 4 hold a massive statistical advantage. Post 8 is the 'Death Trap' with an abysmal win percentage."
+      }
+    },
+    "handicapping_angles": {
+      "the_half_mile_bias": "Heavily downgrade deep closers. If a horse cannot leave the gate quickly or secure the pocket, it is nearly impossible to loop the field 3-wide.",
+      "driver_aggressiveness": "Heavily upgrade aggressive drivers who 'send' their horses off the gate to secure the lead or the two-hole before the first turn."
+    },
+    "par_adjustment": {
+      "tier": "Tier 2 (Elite Half-Mile)",
+      "class_rating": 95,
+      "speed_par_offsets": {
+        "pace": "-2.0",
+        "trot": "-2.5"
+      },
+      "lengths": 0.0,
+      "points": 5.0
+    },
+    "region_group": "USA_Harness"
+  },

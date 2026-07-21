@@ -1,0 +1,32 @@
+{
+    "track_code": "PT A",
+    "location": "Port Augusta, SA",
+    "nicknames": [
+        "The Dirt"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1,600 metres",
+            "surface": "Dirt / Sand",
+            "stretch_length": "400 metres",
+            "bias_notes": "Counter-Clockwise. South Australia's premier dirt track. The surface is a unique sand/dirt mix that creates severe kickback. The 1,600m circumference makes the turns relatively tight, but it features a generous 400m home straight. Because the kickback is so blinding, horses making their debut on this surface often panic and drop the bit entirely.",
+            "post_bias": "Inside barriers (1-4) hold a distinct advantage, but *only* if the horse possesses the early gate speed to clear the field. A horse drawn in barrier 1 that misses the start will be completely buried in the kickback."
+        }
+    },
+    "handicapping_angles": {
+        "the_dirt_specialist": "SPECIALIST TRACK. Proven dirt form is absolutely critical here. Heavily upgrade tough, older country horses with multiple wins at Port Augusta. Conversely, apply extreme caution to high-priced horses shipping in from turf tracks for the first time.",
+        "kickback_survival": "Because the kickback is so severe, horses that can lead or sit just off the pace *outside* of the kickback hold a massive advantage. Downgrade timid stalkers drawn inside who lack early speed.",
+        "regional_form_penalty": "This is deep regional dirt form. If you are evaluating a horse whose past performances are built at Port Augusta, you must apply the maximum class penalty if they are shipping down to turf Metro venues like Morphettville."
+    },
+    "par_adjustment": {
+        "tier": "Tier 5 (Bush / Deep Regional SA)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "dirt_sprint": "-2.5",
+            "dirt_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+}

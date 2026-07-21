@@ -1,0 +1,40 @@
+{
+    "track_code": "FLEM",
+    "location": "Melbourne, VIC",
+    "nicknames": [
+        "HQ",
+        "The Headquarters"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,312 metres",
+            "surface": "Turf",
+            "stretch_length": "450 metres",
+            "bias_notes": "Counter-Clockwise. A massive, sweeping, open circuit widely considered one of the fairest tracks in the world. The continuous, spacious turns and a long 450m home straight ensure every horse gets its chance. True staying capabilities and sustained momentum are heavily rewarded here.",
+            "post_bias": "On the round course, barriers are incredibly fair due to the long, generous runs before entering the turns. Outside barriers are rarely a death sentence, as horses have ample time to find a rhythm and slot into the moving line."
+        },
+        "straight_six": {
+            "circumference": "1,200 metres (Straight)",
+            "surface": "Turf",
+            "stretch_length": "1,200 metres",
+            "bias_notes": "A pure, world-famous 1,200m straight course used for all sprints under 1400m. Racing down the straight is highly tactical and prone to wind and track group biases. Horses often split into distinct fields (Inside vs. Outside rail).",
+            "post_bias": "Highly dependent on the day's wind direction and track preparation. Historically, in large fields, the outside rail (high barrier numbers) holds a massive advantage because the outside grandstand rail often provides a faster, firmer surface and protection from head-winds."
+        }
+    },
+    "handicapping_angles": {
+        "the_straight_six_specialist": "Straight-track racing requires a completely different respiratory and balancing skillset. Do not assume a horse with elite form around turns will handle the straight. Aggressively upgrade horses with proven 'Straight Six' performance profiles.",
+        "grand_stamina_test": "Flemington's long straight and continuous gallop ruthlessly find out horses with distance/stamina limitations. Downgrade horses extending in distance who barely held on at tighter venues like Moonee Valley or Caulfield.",
+        "track_groups_and_drag": "In straight races, look for where the key speed horses are drawn. Slower horses will try to link up and 'drag' behind the fast tempo. If the key speed draws high, the entire race will migrate to the outside rail."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Elite Metro HQ)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+2.5",
+            "turf_route": "+3.0"
+        },
+        "lengths": 5.0,
+        "points": 12.0
+    },
+    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+}

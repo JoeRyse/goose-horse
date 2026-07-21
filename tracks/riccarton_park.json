@@ -1,0 +1,40 @@
+{
+    "track_code": "RIC",
+    "location": "Christchurch, Canterbury, NZ",
+    "nicknames": [
+        "The Home of the New Zealand Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,400 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Counter-Clockwise (Left-Handed). A massive, sprawling galloping track that is widely considered the fairest in New Zealand. The huge circumference and long 400m home straight give every horse a legitimate opportunity, whether leading or swooping from the back.",
+            "post_bias": "Because of the sheer size of the track and long runs to the first turn, outside barrier draws are far less penalizing here than at almost any other New Zealand venue."
+        },
+        "polytrack": {
+            "circumference": "1,900 metres",
+            "surface": "Synthetic (Polytrack)",
+            "stretch_length": "360 metres",
+            "bias_notes": "Counter-Clockwise (Left-Handed). An all-weather alternative surface. While synthetic tracks often inherently feature a leader/rail bias, the generous 360m straight here provides a surprisingly fair run-in for closers compared to tighter synthetic tracks.",
+            "post_bias": "Inside barriers hold a slight advantage over the 1200m to 1400m synthetic trips, as saving ground around the turns is mathematically crucial on artificial surfaces."
+        }
+    },
+    "handicapping_angles": {
+        "the_swooper_paradise": "The massive 400m turf straight functions much like Flemington in Australia. Heavily upgrade deep closers ('Swoopers') who possess elite late sectionals. One-dimensional front-runners often tire and are swallowed up in the final 100m.",
+        "cup_week_class": "During the NZ Cup Carnival in November, Riccarton hosts elite Group 1 racing, drawing the best from the North Island. Horses that perform well here against deep, high-class fields should carry heavily upgraded form when returning to standard South Island provincial tracks.",
+        "synthetic_specialists": "When racing is moved to the Polytrack, always upgrade horses with proven synthetic form or tactical early speed. Grass ratings do not always seamlessly translate to the artificial surface."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (New Zealand Premier)",
+        "class_rating": 95,
+        "speed_par_offsets": {
+            "turf_sprint": "+1.5",
+            "turf_route": "+2.0",
+            "synthetic": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 3.0
+    },
+    "region_group": "New_Zealand_Thoroughbred"
+}

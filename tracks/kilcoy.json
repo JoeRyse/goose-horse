@@ -1,0 +1,33 @@
+{
+    "track_code": "KCOY",
+    "location": "Kilcoy, QLD",
+    "nicknames": [
+        "Moonee Valley of the North",
+        "The Short Course"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,276 metres",
+            "surface": "Turf (Kikuyu Grass)",
+            "stretch_length": "143 metres",
+            "bias_notes": "Clockwise. An exceptionally tight, circular track with one of the shortest home straights in Australia (only 143m). Because the straight provides almost zero time to wind up, momentum and early speed are absolutely crucial. The track inherently possesses a massive bias towards front-runners and horses that race on the pace.",
+            "post_bias": "Inside barriers (1-4) are a massive advantage across all starts, particularly the unique 800m and 875m dashes. Horses drawn wide (8+) are at a severe disadvantage, as they are forced to cover extra ground on the continuous tight turns with no straight to recover the lost lengths."
+        }
+    },
+    "handicapping_angles": {
+        "the_extreme_speed_bias": "Heavily upgrade pure front-runners ('E' types) and rail-skimming pressers with explosive gate speed. Conversely, aggressively downgrade deep closers ('Swoopers'); if a horse is not in the first four rounding the home turn, their race is effectively over.",
+        "specialist_track_form": "Because the geometry is so extreme, 'Horses for Courses' is a massive angle here. Heavily upgrade horses with proven winning form specifically at Kilcoy, and apply caution to large-striding gallopers shipping in from massive, sprawling tracks like Sunshine Coast or Eagle Farm.",
+        "the_kikuyu_cushion": "The track is covered in Kikuyu grass, which provides a thick cushion and holds together reasonably well during wet weather. Wet track ratings (Soft/Heavy) here often play slightly faster than standard dirt-based provincial tracks."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Country QLD)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "turf_sprint": "-2.5",
+            "turf_route": "-2.0"
+        },
+        "lengths": -2.0,
+        "points": -5.0
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+}

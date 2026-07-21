@@ -1,0 +1,40 @@
+{
+    "track_code": "MORPH",
+    "location": "Adelaide, SA",
+    "nicknames": [
+        "SAJC HQ",
+        "South Australia's Headquarters"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,339 metres",
+            "surface": "Turf",
+            "stretch_length": "334 metres",
+            "bias_notes": "Counter-Clockwise. The course proper is a spacious, flat, and extremely fair galloping track. With a generous 32-metre width and wide, sweeping turns (4% camber), it gives every running style a legitimate chance. Large-striding horses can build and maintain their momentum without severe interruption.",
+            "post_bias": "Extremely fair. Thanks to long runs from the various chutes (such as the 1200m and 1600m starts) into the first turn, outside barriers are rarely a severe disadvantage on the main track."
+        },
+        "parks_turf": {
+            "circumference": "2,100 metres",
+            "surface": "Turf",
+            "stretch_length": "305 metres",
+            "bias_notes": "Counter-Clockwise. The Parks track (opened in 2009) sits inside the main circuit and plays completely differently. It is significantly tighter, narrower (25m wide), and features a short 305m straight. This geometry heavily favors tactical speed, on-pace runners ('E' and 'P' types), and agility. Deep closers often run out of ground.",
+            "post_bias": "Inside barriers (1-5) are highly advantageous. Because the turns are tighter, horses caught three-wide without cover bleed massive amounts of momentum, making outside barriers a severe penalty."
+        }
+    },
+    "handicapping_angles": {
+        "the_dual_track_flip": "Always check which track they are racing on. Aggressively upgrade nimble, tactical speed horses on the Parks track. Conversely, upgrade large, sweeping 'Swoopers' stepping off the Parks track onto the spacious Main track where they finally have room to wind up.",
+        "the_interstate_raid": "During the Adelaide Autumn Carnival (April/May), the local form lines are heavily tested by elite Tier 1 interstate shippers from Victoria and New South Wales. Always respect highly-rated Victorian invaders dropping in to steal SA black-type races.",
+        "wet_weather_migration": "When the Adelaide winter sets in and the track downgrades into the Heavy range, the inside rail often chops out. Monitor the early races; if jockeys begin steering their mounts down the center or outside fence in the straight, upgrade wide-drawn closers."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1.5 (SA Metro HQ)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 3.0,
+        "points": 6.0
+    },
+    "region_group": "Australia_Thoroughbred_South_Australia_Metropolitan"
+}

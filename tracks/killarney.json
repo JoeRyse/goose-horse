@@ -1,0 +1,39 @@
+{
+    "track_code": "KIL",
+    "location": "Killarney, County Kerry, Ireland",
+    "nicknames": [
+        "Ireland's Most Scenic Racecourse"
+    ],
+    "courses": {
+        "flat_turf": {
+            "circumference": "Approx. 9 1/2 Furlongs (1m 1 1/2f)",
+            "surface": "Turf",
+            "stretch_length": "Under 3 Furlongs (Dog-legged)",
+            "bias_notes": "Left-Handed. An undulating and extremely sharp track. Uniquely for Flat racing, there are no races staged at a mile or less (no sprints). The turn immediately after the winning post is notoriously tight. Because the horses are almost always on the turn up to the line, it heavily rewards agile, well-balanced horses.",
+            "post_bias": "There is no massive mathematical draw bias, but tactically, low numbers (inside draws) are preferred. Because the track is constantly turning left, being caught wide around the final bends is a severe penalty that bleeds extreme momentum."
+        },
+        "national_hunt": {
+            "circumference": "Approx. 9 1/2 Furlongs",
+            "surface": "Turf (Hurdle/Chase)",
+            "stretch_length": "1 Furlong Run-In",
+            "bias_notes": "Left-Handed. The jumps course is equally sharp and testing for big, cumbersome jumpers. The chase course features six fences per circuit, with three located in the dog-legged home straight. The run-in after the final fence is only about a furlong, meaning late closers have very little time to make up ground.",
+            "post_bias": "N/A"
+        }
+    },
+    "handicapping_angles": {
+        "the_scenic_bullring": "Killarney is essentially a sharp, undulating provincial bullring. Heavily downgrade massive, long-striding horses who need long galloping straights to build momentum. Aggressively upgrade nimble, tactical types ('Horses for Courses') who can effortlessly navigate the tight bends.",
+        "festival_target_yards": "Because Killarney races in distinct boutique summer festivals (May, July, August), elite yards (like Willie Mullins, Gordon Elliott, or Aidan O'Brien) frequently target specific races for high prize money. Always respect top-tier shippers arriving for the festival days.",
+        "the_kerry_weather_watch": "Located in the southwest of Ireland, the ground can change from Good/Yielding to Soft/Heavy incredibly fast. When the rain hits, the sharp track quickly turns into a grueling stamina test. Always verify the going on the day of the race."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3.5 (Irish Provincial Summer)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "turf_route": "-1.5",
+            "jumps": "-2.0"
+        },
+        "lengths": -1.0,
+        "points": -3.0
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+}

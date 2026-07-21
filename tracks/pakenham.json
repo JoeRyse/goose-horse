@@ -1,0 +1,41 @@
+{
+    "track_code": "PAKM",
+    "location": "Pakenham (Tynong), VIC",
+    "nicknames": [
+        "Racing.com Park",
+        "Southside Racing"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,400 metres",
+            "surface": "Turf",
+            "stretch_length": "480 metres",
+            "bias_notes": "Counter-Clockwise. One of the newest, widest, and most spacious tracks in Australia. The massive 2,400m circumference, sweeping turns, and grueling 480m home straight make it an incredibly fair galloping surface. The long straight heavily rewards stamina, completely eliminating the 'tight-turn leader bias' and giving deep closers ('Swoopers') every possible chance to wind up.",
+            "post_bias": "Extremely fair. The 1000m, 1100m, and 1200m sprint races start from a chute that connects gently to the top of the straight, meaning outside barriers are of very little consequence. Wide draws in route races are also easily overcome due to the generous, sweeping nature of the turns."
+        },
+        "synthetic_polytrack": {
+            "circumference": "2,000 metres",
+            "surface": "Polytrack (Synthetic)",
+            "stretch_length": "330 metres (approx)",
+            "bias_notes": "Counter-Clockwise. Positioned alongside the main turf course. While significantly more spacious and fairer than older synthetic tracks, it still produces a grinding environment where kickback can be a factor. Tactical speed and rail-skimming trips hold a natural mathematical advantage over wide, sweeping runs.",
+            "post_bias": "Inside barriers hold a moderate advantage, particularly over 1000m and 1200m dashes. Being caught three-wide without cover on the synthetic surface bleeds crucial momentum that is hard to recover."
+        }
+    },
+    "handicapping_angles": {
+        "the_spacious_gallop": "On the turf, aggressively downgrade one-dimensional front-runners ('Need-the-Lead' types) who rely on tight turns to pinch races. The 480m straight will ruthlessly expose any horse lacking genuine stamina. Upgrade large-striding gallopers and genuine 'Swoopers'.",
+        "metro_spillover_targets": "Because of its elite facilities and proximity to Cranbourne/Melbourne, top metropolitan trainers (like Moody, Busuttin/Young) frequently send highly-touted horses here for confidence-boosting wins. Form out of Pakenham maidens and BM64s often translates perfectly to Metro Saturday grade.",
+        "synthetic_specialists": "When racing on the Polytrack during the winter months, shift completely away from standard grass turn-of-foot metrics. Prioritize horses with proven synthetic records, high tactical gate speed, and deep fitness profiles, as synthetic racing heavily penalizes under-conditioned runners."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2.5 (Premium Provincial VIC / Metro Alternate)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "0.0",
+            "synthetic": "-1.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
+    },
+    "region_group": "Australia_Thoroughbred"
+}

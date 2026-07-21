@@ -1,0 +1,40 @@
+{
+    "track_code": "MTH",
+    "location": "Oceanport, NJ",
+    "nicknames": [
+        "The Shore's Greatest Stretch"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "990 feet",
+            "bias_notes": "A 1-mile dirt oval historically known for a massive and consistent early speed bias. The lightning-fast surface and relatively tight turns frequently favor 'need-the-lead' front-runners ('E' types). It is notoriously difficult for deep closers to make up ground on the dirt here unless a fierce pace meltdown occurs.",
+            "post_bias": "In short sprints (5.5F to 6F), inside and middle posts are highly preferred. The combination of early speed and an inside rail draw is an incredibly deadly angle here. In two-turn dirt routes, inside posts (1-3) hold a massive advantage; outside posts (8+) are highly detrimental."
+        },
+        "main_turf": {
+            "circumference": "7/8 Mile",
+            "surface": "Turf",
+            "stretch_length": "900 feet",
+            "bias_notes": "A tighter 7/8-mile turf course. Because the turns are sharper and the layout is smaller than premium turf courses (like Belmont), tactical speed and ground-saving trips are highly rewarded. However, unlike the dirt, the turf course plays much fairer to stalkers and mid-pack closers.",
+            "post_bias": "Inside posts hold a strong advantage. Wide sweeps on this turf course often result in significant ground loss, and outside posts in turf routes should generally be downgraded."
+        }
+    },
+    "handicapping_angles": {
+        "the_speed_bias_highway": "Never ignore pure early speed ('E' types) on the Monmouth dirt, even if they are stepping up in class. If a horse projects to be the lone speed on paper, heavily upgrade them.",
+        "aggressive_jockey_upgrade": "Monmouth heavily rewards aggressive, speed-riding jockeys who immediately send their mounts to the front (e.g., local kingpin Paco Lopez). Upgrade horses with high early speed drawn inside with these types of riders.",
+        "the_shipper_advantage": "Monmouth draws heavily from the New York and Florida circuits. Respect horses dropping out of tough Belmont/Saratoga allowances or Gulfstream Park winter meets, as they frequently outclass the local New Jersey-bred stalwarts."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Premium Summer)",
+        "class_rating": 94,
+        "speed_par_offsets": {
+            "dirt_sprint": "+2.5",
+            "dirt_route": "+2.0",
+            "turf": "+1.5"
+        },
+        "lengths": 3.0,
+        "points": 7.0
+    },
+    "region_group": "USA_Thoroughbred"
+}

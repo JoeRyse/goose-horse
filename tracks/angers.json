@@ -1,0 +1,32 @@
+{
+    "track_code": "ANG",
+    "location": "\u00c9couflant, France",
+    "nicknames": [
+        "Eventard"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,000 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Right-handed, relatively flat provincial track with sweeping turns. It generally plays fair, but momentum is key entering the 400m straight.",
+            "post_bias": "Low barriers (inside posts) are generally advantageous over shorter trips (up to 1600m) to save ground on the continuous turning layout."
+        }
+    },
+    "handicapping_angles": {
+        "tactical_speed_premium": "Unlike stiff UK tracks, tactical early speed is rewarded here due to the flat nature of the straight. Upgrade 'P' (Presser) types who sit just off the leaders.",
+        "parisian_shippers": "Classic Tier 4 French provincial circuit. Be highly cautious of horses shipping down from elite Parisian tracks (Longchamp, Chantilly, Saint-Cloud) unless they are dropping significantly in class and have shown recent fitness.",
+        "turn_momentum": "Deep closers ('S' types) can struggle if they are forced 4 or 5 wide on the final sweeping turn into the straight."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (Provincial France)",
+        "class_rating": 80,
+        "speed_par_offsets": {
+            "turf_sprint": "-3.0",
+            "turf_route": "-2.5"
+        },
+        "lengths": -3.0,
+        "points": -6.0
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+}
