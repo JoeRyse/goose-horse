@@ -11,6 +11,7 @@ import sqlite3
 import pandas as pd
 from datetime import datetime
 
+
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
 
@@ -229,6 +230,8 @@ def update_homepage():
     </style></head><body>
     <div class="header">{logo_html}<div class="header-info"><h1>Race Intelligence</h1><div class="meta">Professional Handicapping Database</div></div></div>
     <div class="container">"""
+
+    
     
     for key in grouped_files.keys():
          html += f'<div class="section-title">{key} Racing</div><div class="grid">'

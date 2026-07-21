@@ -1,0 +1,37 @@
+{
+    "track_code": "LAD",
+    "location": "Bossier City, LA",
+    "nicknames": [
+        "Louisiana Downs"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 Mile",
+            "surface": "Dirt",
+            "stretch_length": "1,010 feet",
+            "bias_notes": "Standard 1-mile oval with a fair stretch run. Speed plays very well, particularly on dry surfaces, but tracking speeds and outside pressing types can get home effectively due to the moderate 1,010-foot stretch."
+        },
+        "franks_turf": {
+            "circumference": "7 Furlongs and 50 Feet",
+            "surface": "Turf",
+            "stretch_length": "940 feet",
+            "bias_notes": "The inner turf course favors horses with tactical speed who can sit just off the pace. Rail speed is often preserved when the course is kept firm."
+        }
+    },
+    "handicapping_angles": {
+        "speed_favoring_dirt": "In route races on the main dirt track, prioritize early/presser types ('E' or 'EP') who can secure position before the far turn.",
+        "turf_tactical_speed": "Downgrade deep closers on the turf course unless a swift pace duel develops up front."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (Regional Track)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "dirt_sprint": "0.0",
+            "dirt_route": "0.0",
+            "turf": "-1.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
+    },
+    "region_group": "USA_Thoroughbred"
+}
