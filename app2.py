@@ -333,7 +333,7 @@ if st.sidebar.button("🔄 Sync Nav & Deploy"):
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
-model_options = ["gemini-3.1-pro-preview", "gemini-2.0-flash-exp", "gemini-1.5-pro", "gemini-1.5-flash"]
+model_options = ["gemini-3.1-pro-preview", "gemini-2.0-flash-exp", "gemini-3.5-flash", "gemini-1.5-flash"]
 target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
 if st.sidebar.checkbox("Type a Custom Model Name?"):
     target_model = st.sidebar.text_input("Model Name", value="gemini-experimental")
@@ -431,39 +431,45 @@ with tab_handicap:
                     track_facts = json.dumps(selected_track_data) if selected_track_data else "No historical bias data."
 
                     system_instruction = f"""
-                    You are a Professional Handicapper ({region_code}).
+                    You are a Data Extraction Engine for racing ({region_code}).
                     [SYSTEM RULES & LOGIC]
                     {logic_content}
                     [TRACK BIAS & FACTS]
                     {track_facts}
                     [STRICT OUTPUT SCHEMA]
-                    Return ONLY a valid JSON object. No Markdown blocks.
-                    {{
-                      "meta": {{ "track": "Track Name", "date": "YYYY-MM-DD", "track_condition": "Fast/Firm" }},
-                      "races": [
-                        {{
-                          "number": 1, "distance": "6 Furlongs", "surface": "Dirt", "confidence_level": "High (or Low/Medium)",
-                          "selections": [
-                            {{ "number": "1", "barrier": "4", "name": "Horse A", "rating": 105, "reason": "Reasoning..." }},
-                            {{ "number": "2", "barrier": "2", "name": "Horse B", "rating": 100, "reason": "Reasoning..." }},
-                            {{ "number": "3", "barrier": "9", "name": "Horse C", "rating": 95, "reason": "Reasoning..." }},
-                            {{ "number": "4", "barrier": "5", "name": "Horse D", "rating": 92, "reason": "Reasoning..." }}
-                          ],
-                          "danger_horse": {{ "number": "5", "barrier": "1", "name": "Horse E", "rating": 98, "reason": "Why it is a threat" }},
-                          "exotic_strategy": {{ "strategy": "Win Bet #1, Exacta Box 1-2, Trifecta 1 / 2,3 / ALL" }}
-                        }}
-                      ]
-                    }}
+                    Return ONLY a valid JSON array. No Markdown blocks.
+                    [
+                      {{
+                        "race_number": 1,
+                        "distance_surface": "1200m Soft5",
+                        "confidence_level": "High", 
+                        "contenders": [
+                          {{
+                            "program_number": "1",
+                            "barrier": "4",
+                            "horse_name": "Horse Name",
+                            "handicapper_notes": "Professional note here.",
+                            "features": {{
+                                "ai_holistic_score": 95,
+                                "running_style": "Leader",
+                                "is_lone_speed": true,
+                                "distance_transition": "None",
+                                "trouble_trip": "None",
+                                "is_danger_horse": false
+                            }}
+                          }}
+                        ]
+                      }}
+                    ]
                     """
 
                     user_prompt = f"""
-                    [TASK] Analyze the attached PDF. Extract data and apply logic.
+                    [TASK] Analyze the attached PDF. Extract features for EVERY active horse.
                     [UPDATES/SCRATCHES] {scratches}
                     [CRITICAL INSTRUCTIONS]
-                    1. Provide exactly 4 selections per race.
-                    2. EXTRACT SURFACE for each race (Dirt, Turf, Synthetic).
-                    3. EXTRACT BARRIER/POST for every selection.
-                    4. DANGER HORSE: Set to null if no legitimate threat exists.
+                    1. YOU MUST PROCESS EVERY SINGLE RACE ON THE CARD. Do not stop early! If there are 10 races, output 10 races.
+                    2. Evaluate EVERY active horse in each race.
+                    3. Assign a "confidence_level" ("High", "Medium", or "Low") to each race based on how competitive or chaotic the field is.
                     """
                     
                     model = genai.GenerativeModel(target_model, system_instruction=system_instruction, generation_config={"response_mime_type": "application/json", "temperature": creativity_temp})
@@ -471,19 +477,120 @@ with tab_handicap:
                     st.session_state.raw_response = response.text 
                     
                     json_str = clean_json_string(response.text)
-                    data = json.loads(json_str)
+                    raw_extracted_data = json.loads(json_str)
+                    
+                    # 1. LOAD OPTIMIZED WEIGHTS (Defaults to Saratoga baseline)
+                    track_weights = {"lone_speed_bonus": 3, "trouble_trip_bonus": 2, "sprint_route_bonus": -2}
+                    try:
+                        with open(os.path.join(DATA_DIR, "optimized_weights.json"), "r") as f:
+                            all_weights = json.load(f)
+                            if selected_track_name in all_weights:
+                                track_weights = all_weights[selected_track_name]
+                    except: pass
+
+                    # 2. THE BULLETPROOF LOCAL MATH ENGINE
+                    def calculate_local_rating(features):
+                        # Safely grab base speed as a float
+                        try:
+                            score = float(features.get('ai_holistic_score', 80))
+                        except:
+                            score = 80.0
+                        
+                        # Handle AI sometimes sending strings instead of booleans
+                        is_lone = str(features.get('is_lone_speed', '')).strip().lower()
+                        if is_lone == 'true':
+                            score += float(track_weights.get('lone_speed_bonus', 3))
+                            
+                        dist_trans = str(features.get('distance_transition', '')).strip()
+                        if dist_trans == "Stretch-Out":
+                            score += float(track_weights.get('sprint_route_bonus', -2))
+                            
+                        trip = str(features.get('trouble_trip', '')).strip()
+                        if trip == "Grade A":
+                            score += float(track_weights.get('trouble_trip_bonus', 2))
+                        elif trip == "Grade B":
+                            score += float(track_weights.get('trouble_trip_bonus', 1))
+                            
+                        return round(score, 1)
+
+                    # 3. THE DATA BRIDGE
+                    data = {
+                        "meta": {
+                            "track": selected_track_name if selected_track_name != "Unknown" else "Track",
+                            "date": datetime.today().strftime('%Y-%m-%d'),
+                            "track_condition": "Standard"
+                        },
+                        "races": []
+                    }
+                    
+                    races_list = raw_extracted_data if isinstance(raw_extracted_data, list) else raw_extracted_data.get('races', [])
+                    
+                    for race in races_list:
+                        new_race = {
+                            "number": race.get("race_number", 0),
+                            "distance": race.get("distance_surface", ""),
+                            "surface": race.get("distance_surface", "").split(" ")[-1] if " " in race.get("distance_surface", "") else "",
+                            "confidence_level": race.get("confidence_level", "Medium"),
+                            "raw_features_dump": race,
+                            "selections": []
+                        }
+                        
+                        scored_contenders = []
+                        for horse in race.get("contenders", []):
+                            feats = horse.get("features", {})
+                            rating = calculate_local_rating(feats)
+                            ai_notes = horse.get("handicapper_notes", "No notes provided.")
+                            
+                            # This is the critical fix to stop mixing up numbers and gates
+                            prog_num = str(horse.get("program_number", horse.get("number", "")))
+                            barrier_num = str(horse.get("barrier", ""))
+                            
+                            reason = f"{ai_notes}"
+                            tags = []
+                            if str(feats.get('is_lone_speed')).lower() == 'true': tags.append("🔥 Lone Speed")
+                            if feats.get('trouble_trip') and feats.get('trouble_trip') != "None": tags.append(f"⚠️ {feats.get('trouble_trip')}")
+                            if feats.get('distance_transition') and feats.get('distance_transition') != "None": tags.append(f"📏 {feats.get('distance_transition')}")
+                            if tags:
+                                reason += f" | <i>{' • '.join(tags)}</i>"
+                            
+                            scored_contenders.append({
+                                "number": prog_num,         # Maps to the program number column
+                                "barrier": barrier_num,     # Maps to the barrier (PP) column
+                                "name": horse.get("horse_name", "Unknown"),
+                                "rating": rating,
+                                "reason": reason
+                            })
+                        
+                        # 1. Sort everyone by their score first
+                        scored_contenders.sort(key=lambda x: x["rating"], reverse=True)
+                        
+                        # 2. Hunt for the AI's explicitly designated Danger Horse
+                        danger_horse = {}
+                        danger_index_to_remove = -1
+                        
+                        for horse in race.get("contenders", []):
+                            if str(horse.get("features", {}).get("is_danger_horse", "")).strip().lower() == 'true':
+                                target_name = horse.get("horse_name", "Unknown")
+                                for idx, sc in enumerate(scored_contenders):
+                                    if sc["name"] == target_name:
+                                        danger_index_to_remove = idx
+                                        break
+                                break
+                                
+                        # 3. Pull the true Danger Horse out of the sorting queue
+                        if danger_index_to_remove != -1:
+                            danger_horse = scored_contenders.pop(danger_index_to_remove)
+                        elif len(scored_contenders) >= 5:
+                            danger_horse = scored_contenders.pop(4)
+                        else:
+                            danger_horse = scored_contenders.pop() if scored_contenders else {}
+
+                        # 4. Top 4 remaining become your main selections, and the AI's pick becomes Danger
+                        new_race["selections"] = scored_contenders[:4]
+                        new_race["danger_horse"] = danger_horse
+                        
+                        data["races"].append(new_race)
                     st.session_state.json_data = data
-                    
-                    if isinstance(data, list): data = data[0] if data else {}
-                    if "meta" not in data: data["meta"] = {}
-                    if selected_track_name != "Unknown" and "Manual" not in selected_track_name: 
-                        data["meta"]["track"] = selected_track_name
-                    
-                    if not data["meta"].get("date"): data["meta"]["date"] = datetime.today().strftime('%Y-%m-%d')
-                    if not data["meta"].get("track_condition"): data["meta"]["track_condition"] = "Standard"
-                    
-                    if data.get('races') and str(data['races'][0].get('number')) == "0":
-                        st.warning("⚠️ Warning: AI returned 'Race 0'. It may have failed to read the PDF text.")
 
                     html_full = generate_meeting_html(data, region_code, is_preview_mode=False)
                     html_preview = generate_meeting_html(data, region_code, is_preview_mode=True)
@@ -535,8 +642,8 @@ with tab_handicap:
                                     date, track, race_number, distance, surface, condition,
                                     p1_num, p1_barrier, p1_name, p1_reason, p2_num, p2_barrier, p2_name, p2_reason,
                                     p3_num, p3_barrier, p3_name, p3_reason, p4_num, p4_barrier, p4_name, p4_reason,
-                                    danger_num, danger_barrier, danger_name, danger_reason, confidence, ai_model, temperature
-                                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                    danger_num, danger_barrier, danger_name, danger_reason, confidence, ai_model, temperature, raw_features
+                                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                             ''', (
                                 meta.get('date'), meta.get('track'), str(race.get('number')), race.get('distance', ''), race.get('surface', ''), meta.get('track_condition', ''),
                                 selections[0].get('number', 'N/A'), selections[0].get('barrier', ''), selections[0].get('name', 'N/A'), selections[0].get('reason', 'N/A'),
@@ -544,7 +651,7 @@ with tab_handicap:
                                 selections[2].get('number', ''), selections[2].get('barrier', ''), selections[2].get('name', ''), selections[2].get('reason', ''),
                                 selections[3].get('number', ''), selections[3].get('barrier', ''), selections[3].get('name', ''), selections[3].get('reason', ''),
                                 dang.get('number', ''), dang.get('barrier', ''), dang.get('name', ''), dang.get('reason', ''),
-                                race.get('confidence_level', ''), target_model, creativity_temp
+                                race.get('confidence_level', ''), target_model, creativity_temp, json.dumps(race.get('raw_features_dump', {}))
                             ))
                         conn.commit()
                         conn.close()
