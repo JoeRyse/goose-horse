@@ -1,0 +1,40 @@
+{
+    "track_code": "PINJ",
+    "location": "Pinjarra, WA",
+    "nicknames": [
+        "Pinjarra Park",
+        "Scarpside"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,837 metres",
+            "surface": "Turf",
+            "stretch_length": "336 metres",
+            "bias_notes": "Anti-clockwise provincial circuit. Sweeping turns with excellent cambering. Features a unique 1,000m straight chute, making it the only straight course in Western Australia. Inside barriers hold a mild advantage in 1200m sprint races.",
+            "post_bias": "Inside barriers (1-6) hold a slight statistical edge in 1200m sprint events off the turn, but the 1000m straight chute provides a fair test across all barriers."
+        },
+        "scarpside_turf": {
+            "circumference": "2,039 metres",
+            "surface": "Turf",
+            "stretch_length": "456 metres",
+            "bias_notes": "The outer/longer circuit featuring the longest home straight in Western Australia (456m). Highly accommodating to swoopers and off-pace runners due to the expansive straightaway.",
+            "post_bias": "Extremely fair course. Outside barriers are non-detrimental over 1300m to 1800m trips due to long backstretch runs."
+        }
+    },
+    "handicapping_angles": {
+        "straight_1000m_specialists": "Upgrade horses with proven straight-track experience for 1000m events. Without turns, horses with sustained balance and true straight-line speed excel.",
+        "scarpside_swooper_upgrade": "When racing on the Scarpside track layout, upgrade strong late closers ('S' or 'P' types) who benefit from the grueling 456m home stretch.",
+        "main_course_sprint_bias": "On the original course, favor horses with tactical speed ('E' or 'EP') in 1200m races to secure position before the home turn."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Major WA Provincial)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "turf_sprint": "-1.5",
+            "turf_route": "-1.5"
+        },
+        "lengths": -1.0,
+        "points": -2.0
+    },
+    "region_group": "Australia_Thoroughbred"
+}

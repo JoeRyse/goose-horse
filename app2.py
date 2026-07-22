@@ -545,13 +545,21 @@ with tab_handicap:
                     """
 
                     user_prompt = f"""
-                    [TASK] Analyze the attached PDF. Extract features for EVERY active horse.
-                    [UPDATES/SCRATCHES] {scratches}
-                    [CRITICAL INSTRUCTIONS]
-                    1. YOU MUST PROCESS EVERY SINGLE RACE ON THE CARD. Do not stop early! If there are 10 races, output 10 races.
-                    2. Evaluate EVERY active horse in each race.
-                    3. Assign a "confidence_level" ("High", "Medium", or "Low") to each race based on how competitive or chaotic the field is.
-                    """
+[TASK] Analyze the attached PDF for {selected_track}. Extract thorough, deep feature analysis for EVERY active horse.
+[TRACK PROFILE] {current_track_profile}
+[ACTIVE WEIGHTS] Lone Speed: {active_weights.get('lone_speed_bonus', 0)}, Trouble Trip: {active_weights.get('trouble_trip_bonus', 0)}, Class Offset: {active_weights.get('class_offset', 0)}
+[UPDATES/SCRATCHES] {scratches}
+
+[CRITICAL INSTRUCTIONS - NO SHORTCUTS]
+1. PROCESS EVERY SINGLE RACE ON THE CARD. Do not truncate! If there are 10 races, output 10 races.
+2. EVALUATE EVERY ACTIVE HORSE IN DETAIL:
+   - NEVER use lazy summaries like "2nd last start" or "form looks okay".
+   - Break down specific past performance metrics: recent speed figures, pace pressuring ability, running style (E, EP, P, S), and performance on this specific track geometry/surface.
+   - Note key handicapping flags: class drops/rises, equipment changes (blinkers on/off), layoff status, and driver/jockey switches.
+3. PREDICTION & CONFIDENCE METRICS:
+   - Assign a "confidence_level" ("High", "Medium", or "Low") based on field clarity and pace dynamics.
+   - Generate a clear "suggested_wager" (e.g., Exacta Box, Key Trifecta, or Single) tailored to the race structure.
+"""
                     
                     model = genai.GenerativeModel(target_model, system_instruction=system_instruction, generation_config={"response_mime_type": "application/json", "temperature": creativity_temp})
                     response = model.generate_content([user_prompt, remote_file])
