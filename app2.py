@@ -31,7 +31,6 @@ for d in [DATA_DIR, DOCS_DIR, MEETINGS_DIR, LOGIC_DIR, TEMP_DIR, LOGS_DIR, TRACK
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 
 def init_db():
-    """Initializes the database schema and migrates missing payout columns if needed."""
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     
@@ -46,49 +45,101 @@ def init_db():
         p4_num TEXT, p4_barrier TEXT, p4_name TEXT, p4_reason TEXT,
         danger_num TEXT, danger_barrier TEXT, danger_name TEXT, danger_reason TEXT,
         confidence TEXT, ai_model TEXT, temperature REAL, raw_features TEXT,
+        exotic_strategy TEXT DEFAULT '',
         timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
     )
     ''')
     
+    # Migrate missing columns for predictions
+    c.execute("PRAGMA table_info(predictions)")
+    pred_cols = [col[1] for col in c.fetchall()]
+    if "exotic_strategy" not in pred_cols:
+        c.execute("ALTER TABLE predictions ADD COLUMN exotic_strategy TEXT DEFAULT ''")
+
     # Table 2: Actual Results
     c.execute('''
     CREATE TABLE IF NOT EXISTS results (
-        date TEXT,
-        track TEXT,
-        race_number TEXT,
-        win_num TEXT,
-        place_num TEXT,
-        show_num TEXT,
-        win_payout REAL DEFAULT 0.0,
-        exacta_payout REAL DEFAULT 0.0,
-        trifecta_payout REAL DEFAULT 0.0,
-        superfecta_payout REAL DEFAULT 0.0,
+        date TEXT, track TEXT, race_number TEXT, win_num TEXT, place_num TEXT, show_num TEXT,
+        win_payout REAL DEFAULT 0.0, place_payout REAL DEFAULT 0.0, show_payout REAL DEFAULT 0.0,
+        p2_place_payout REAL DEFAULT 0.0, p2_show_payout REAL DEFAULT 0.0, p3_show_payout REAL DEFAULT 0.0,
+        exacta_payout REAL DEFAULT 0.0, trifecta_payout REAL DEFAULT 0.0, superfecta_payout REAL DEFAULT 0.0,
         scratches TEXT DEFAULT 'None',
         PRIMARY KEY (date, track, race_number)
     )
     ''')
     
-    # MIGRATION: Safely add missing columns to existing results table
-    c.execute("PRAGMA table_info(results)")
-    existing_cols = [col[1] for col in c.fetchall()]
-    
-    new_cols = [
-        ("win_payout", "REAL DEFAULT 0.0"),
-        ("exacta_payout", "REAL DEFAULT 0.0"),
-        ("trifecta_payout", "REAL DEFAULT 0.0"),
-        ("superfecta_payout", "REAL DEFAULT 0.0"),
-        ("scratches", "TEXT DEFAULT 'None'")
-    ]
-    
-    for col_name, col_type in new_cols:
-        if col_name not in existing_cols:
-            c.execute(f"ALTER TABLE results ADD COLUMN {col_name} {col_type}")
-            
     conn.commit()
     conn.close()
 
 init_db()
+def save_results_to_db(track_name, meeting_date, parsed_races):
+    """
+    Saves parsed raw race results into SQLite database (master_betting_history.db).
+    Stores program numbers, full WPS payouts (Win/Place/Show), and exotic payouts.
+    """
+    clean_date_str = pd.to_datetime(meeting_date).strftime('%Y-%m-%d')
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
 
+    for race in parsed_races:
+        race_num = race.get("race_number")
+        if not race_num:
+            continue
+
+        finishers = race.get("finishers", [])
+
+        # Program Numbers
+        win_num = str(finishers[0]["number"]).strip() if len(finishers) > 0 else None
+        place_num = str(finishers[1]["number"]).strip() if len(finishers) > 1 else None
+        show_num = str(finishers[2]["number"]).strip() if len(finishers) > 2 else None
+
+        # 1st Place Payouts
+        win_pay = float(finishers[0].get("win", 0.0)) if len(finishers) > 0 else 0.0
+        place_pay = float(finishers[0].get("place", 0.0)) if len(finishers) > 0 else 0.0
+        show_pay = float(finishers[0].get("show", 0.0)) if len(finishers) > 0 else 0.0
+
+        # 2nd & 3rd Place Payouts
+        p2_place_pay = float(finishers[1].get("place", 0.0)) if len(finishers) > 1 else 0.0
+        p2_show_pay = float(finishers[1].get("show", 0.0)) if len(finishers) > 1 else 0.0
+        p3_show_pay = float(finishers[2].get("show", 0.0)) if len(finishers) > 2 else 0.0
+
+        # Exotics & Scratches
+        exacta_pay = float(race["exacta"]["payout"]) if race.get("exacta") and race["exacta"].get("payout") else 0.0
+        trifecta_pay = float(race["trifecta"]["payout"]) if race.get("trifecta") and race["trifecta"].get("payout") else 0.0
+        super_pay = float(race["superfecta"]["payout"]) if race.get("superfecta") and race["superfecta"].get("payout") else 0.0
+        scratches = race.get("scratches", "None")
+
+        cursor.execute("""
+            INSERT INTO results (
+                date, track, race_number, win_num, place_num, show_num, 
+                win_payout, place_payout, show_payout,
+                p2_place_payout, p2_show_payout, p3_show_payout,
+                exacta_payout, trifecta_payout, superfecta_payout, scratches
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(date, track, race_number) DO UPDATE SET
+                win_num = excluded.win_num,
+                place_num = excluded.place_num,
+                show_num = excluded.show_num,
+                win_payout = excluded.win_payout,
+                place_payout = excluded.place_payout,
+                show_payout = excluded.show_payout,
+                p2_place_payout = excluded.p2_place_payout,
+                p2_show_payout = excluded.p2_show_payout,
+                p3_show_payout = excluded.p3_show_payout,
+                exacta_payout = excluded.exacta_payout,
+                trifecta_payout = excluded.trifecta_payout,
+                superfecta_payout = excluded.superfecta_payout,
+                scratches = excluded.scratches
+        """, (
+            clean_date_str, track_name, str(race_num), win_num, place_num, show_num,
+            win_pay, place_pay, show_pay,
+            p2_place_pay, p2_show_pay, p3_show_pay,
+            exacta_pay, trifecta_pay, super_pay, scratches
+        ))
+
+    conn.commit()
+    conn.close()
 # --- PARSER & DB HELPERS ---
 def parse_raw_race_results(raw_text):
     """
@@ -172,53 +223,46 @@ def parse_raw_race_results(raw_text):
     return parsed_races
 
 
-def save_results_to_db(track_name, meeting_date, parsed_races):
-    """
-    Saves parsed raw race results into SQLite database (master_betting_history.db).
-    Ensures dates and table columns match the predictions schema cleanly.
-    """
-    clean_date_str = pd.to_datetime(meeting_date).strftime('%Y-%m-%d')
+def save_predictions_to_db(data):
     conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-
-    for race in parsed_races:
-        race_num = race.get("race_number")
-        if not race_num:
-            continue
-
-        finishers = race.get("finishers", [])
-
-        win_num = finishers[0]["number"] if len(finishers) > 0 else None
-        place_num = finishers[1]["number"] if len(finishers) > 1 else None
-        show_num = finishers[2]["number"] if len(finishers) > 2 else None
-
-        win_pay = finishers[0]["win"] if len(finishers) > 0 else 0.0
-        exacta_pay = race["exacta"]["payout"] if race.get("exacta") else 0.0
-        trifecta_pay = race["trifecta"]["payout"] if race.get("trifecta") else 0.0
-        super_pay = race["superfecta"]["payout"] if race.get("superfecta") else 0.0
-
-        scratches = race.get("scratches", "None")
-
-        cursor.execute("""
-            INSERT INTO results (
-                date, track, race_number, win_num, place_num, show_num, 
-                win_payout, exacta_payout, trifecta_payout, superfecta_payout, scratches
-            )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ON CONFLICT(date, track, race_number) DO UPDATE SET
-                win_num = excluded.win_num,
-                place_num = excluded.place_num,
-                show_num = excluded.show_num,
-                win_payout = excluded.win_payout,
-                exacta_payout = excluded.exacta_payout,
-                trifecta_payout = excluded.trifecta_payout,
-                superfecta_payout = excluded.superfecta_payout,
-                scratches = excluded.scratches
-        """, (
-            clean_date_str, track_name, str(race_num), win_num, place_num, show_num,
-            win_pay, exacta_pay, trifecta_pay, super_pay, scratches
+    c = conn.cursor()
+    
+    meeting_date = data.get("meta", {}).get("date", "")
+    track = data.get("meta", {}).get("track", "")
+    
+    for race in data.get("races", []):
+        r_num = str(race.get("number", ""))
+        selections = race.get("selections", [])
+        
+        p1 = selections[0] if len(selections) > 0 else {}
+        p2 = selections[1] if len(selections) > 1 else {}
+        p3 = selections[2] if len(selections) > 2 else {}
+        p4 = selections[3] if len(selections) > 3 else {}
+        dang = race.get("danger_horse", {})
+        
+        # Capture generated strategy string
+        strat_str = str(race.get("exotic_strategy", "")).replace('#$', '#')
+        
+        c.execute('''
+            INSERT INTO predictions (
+                date, track, race_number, distance, surface, condition,
+                p1_num, p1_barrier, p1_name, p1_reason,
+                p2_num, p2_barrier, p2_name, p2_reason,
+                p3_num, p3_barrier, p3_name, p3_reason,
+                p4_num, p4_barrier, p4_name, p4_reason,
+                danger_num, danger_barrier, danger_name, danger_reason,
+                confidence, raw_features, exotic_strategy
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (
+            meeting_date, track, r_num, race.get("distance", ""), race.get("surface", ""), race.get("condition", ""),
+            p1.get("number", ""), p1.get("barrier", ""), p1.get("name", ""), p1.get("reason", ""),
+            p2.get("number", ""), p2.get("barrier", ""), p2.get("name", ""), p2.get("reason", ""),
+            p3.get("number", ""), p3.get("barrier", ""), p3.get("name", ""), p3.get("reason", ""),
+            p4.get("number", ""), p4.get("barrier", ""), p4.get("name", ""), p4.get("reason", ""),
+            dang.get("number", ""), dang.get("barrier", ""), dang.get("name", ""), dang.get("reason", ""),
+            race.get("confidence_level", ""), str(race), strat_str
         ))
-
+        
     conn.commit()
     conn.close()
 
@@ -836,19 +880,19 @@ Return ONLY a valid JSON array. No Markdown blocks.
                         # B. EXOTICS (Exacta & Trifecta tailored to race clarity)
                         if score_gap >= 7.0 and top2 and top3:
                             # Dominant Favorite -> Key Exacta & Trifecta Wheel
-                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #${top1.get('number')} over #${top2.get('number')}, #${top3.get('number')}")
+                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over #{top2.get('number')}, #{top3.get('number')}")
                             if "High" in conf:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #${top1.get('number')} / #${top2.get('number')}, #${top3.get('number')} / #${top2.get('number')}, #${top3.get('number')}, #${top4.get('number') if top4 else 'ALL'}")
+                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} / #{top2.get('number')}, #{top3.get('number')} / #{top2.get('number')}, #{top3.get('number')}, #{top4.get('number') if top4 else 'ALL'}")
                         elif top2 and top3:
                             # Competitive Field -> Exacta / Trifecta Box
                             if danger_horse and danger_horse.get("number") not in [top1.get("number"), top2.get("number"), top3.get("number")]:
                                 # Include Danger Longshot in Exotic Box
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${danger_horse.get('number')} (Includes Danger Threat)")
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{danger_horse.get('number')} (Includes Danger Threat)")
                             else:
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${top3.get('number')}")
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}")
 
                             if "High" in conf or "Medium" in conf:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${top3.get('number')}")
+                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}")
                             else:
                                 strategy_parts.append("<b>🎪 TRIFECTA:</b> NO BET (Low clarity)")
 
@@ -1003,10 +1047,12 @@ with tab_analytics:
             )
 
             if not merged_df.empty:
-                # Ensure numeric types for payouts
-                merged_df['win_payout'] = pd.to_numeric(merged_df['win_payout'], errors='coerce').fillna(0.0)
-                merged_df['exacta_payout'] = pd.to_numeric(merged_df['exacta_payout'], errors='coerce').fillna(0.0)
-                merged_df['trifecta_payout'] = pd.to_numeric(merged_df['trifecta_payout'], errors='coerce').fillna(0.0)
+                # Ensure numeric types for payouts across WPS & Exotics
+                for col in ['win_payout', 'place_payout', 'show_payout', 'p2_place_payout', 'exacta_payout', 'trifecta_payout']:
+                    if col in merged_df.columns:
+                        merged_df[col] = pd.to_numeric(merged_df[col], errors='coerce').fillna(0.0)
+                    else:
+                        merged_df[col] = 0.0
 
                 # --- HIT CALCULATIONS ---
                 merged_df['top_pick_win'] = merged_df.apply(lambda x: str(x['p1_num']).strip() == str(x['win_num']).strip(), axis=1)
@@ -1018,29 +1064,113 @@ with tab_analytics:
                 merged_df['top_pick_board'] = merged_df.apply(
                     lambda x: str(x['p1_num']).strip() in [str(x['win_num']).strip(), str(x['place_num']).strip(), str(x['show_num']).strip()], axis=1)
 
-                # Exacta Box (Top 2 Picks -> $2 wager)
                 merged_df['exacta_hit'] = merged_df.apply(
                     lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip()]) and
                               (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip()]), axis=1)
 
-                # Exacta Box (Top 3 Picks -> $6 wager)
                 merged_df['exacta_top3_hit'] = merged_df.apply(
                     lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
                               (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]), axis=1)
 
-                # Trifecta Box (Top 3 Picks -> $1.20 wager on $0.20 base or $6 on $1)
                 merged_df['trifecta_top3_hit'] = merged_df.apply(
                     lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
                               (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
                               (str(x['show_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]), axis=1)
 
-                # --- FINANCIAL RETURNS ($) ---
-                # $2 Win bet on Top Pick
-                merged_df['win_return'] = merged_df.apply(lambda x: x['win_payout'] if x['top_pick_win'] else 0.0, axis=1)
-                # $1 Exacta Box on Top 2 ($2 total cost)
-                merged_df['exacta_return'] = merged_df.apply(lambda x: x['exacta_payout'] if x['exacta_hit'] else 0.0, axis=1)
-                # $0.20 Trifecta Box on Top 3 ($1.20 total cost)
-                merged_df['trifecta_return'] = merged_df.apply(lambda x: x['trifecta_payout'] if x['trifecta_top3_hit'] else 0.0, axis=1)
+                # --- SELECTIVE STRATEGY ENGINE (READS GENERATED BETTING STRATEGIES) ---
+                def parse_win_strategy(row):
+                    text_context = (
+                        str(row.get('exotic_strategy', '')) + " " +
+                        str(row.get('raw_features', '')) + " " +
+                        str(row.get('p1_reason', ''))
+                    ).replace('#$', '#').upper()
+                    
+                    # 1. Passed Races ($0 Staked)
+                    if "PASS WIN WAGER" in text_context or "PASS WIN WAGERS" in text_context or "PASS" in text_context:
+                        return 0.0, 0.0
+                    
+                    # 2. Strong $10 Win Bet
+                    elif "STRONG $10 WIN" in text_context or "$10 WIN" in text_context:
+                        stake = 10.0
+                        ret = (row['win_payout'] / 2.0 * 10.0) if row['top_pick_win'] else 0.0
+                        return stake, ret
+                    
+                    # 3. $4 Win / $6 Place Split
+                    elif "$4 WIN / $6 PLACE" in text_context:
+                        stake = 10.0
+                        ret = 0.0
+                        if row['top_pick_win']:
+                            ret += (row['win_payout'] / 2.0 * 4.0) + (row['place_payout'] / 2.0 * 6.0)
+                        elif str(row['p1_num']).strip() == str(row['place_num']).strip():
+                            p2_pay = row['p2_place_payout'] if row['p2_place_payout'] > 0 else row['place_payout']
+                            ret += (p2_pay / 2.0 * 6.0)
+                        return stake, ret
+                    
+                    # 4. Standard Active Win Bet ($2.00 Default)
+                    else:
+                        stake = 2.0
+                        ret = row['win_payout'] if row['top_pick_win'] else 0.0
+                        return stake, ret
+
+                def parse_ex_strategy(row):
+                    text_context = (
+                        str(row.get('exotic_strategy', '')) + " " +
+                        str(row.get('raw_features', ''))
+                    ).replace('#$', '#').upper()
+                    
+                    # Check for 3-horse or Danger Exacta Box ($1 base = $6.00 total)
+                    if "EXACTA BOX" in text_context:
+                        stake = 6.0
+                        # Hit if Top 2 finishers land anywhere in Top 3 picks (Tokyo R1 hit!)
+                        hit = row['exacta_hit'] or row['exacta_top3_hit']
+                        ret = row['exacta_payout'] if hit else 0.0
+                        return stake, ret
+                    
+                    # Check for Exacta Key ($2.00 total)
+                    elif "EXACTA KEY" in text_context:
+                        stake = 2.0
+                        ret = row['exacta_payout'] if row['exacta_hit'] else 0.0
+                        return stake, ret
+                    
+                    elif "EXACTA: NO BET" in text_context or "NO BET" in text_context and "EXACTA" not in text_context:
+                        return 0.0, 0.0
+                    
+                    else:
+                        stake = 2.0
+                        ret = row['exacta_payout'] if row['exacta_hit'] else 0.0
+                        return stake, ret
+
+                def parse_tri_strategy(row):
+                    text_context = (
+                        str(row.get('exotic_strategy', '')) + " " +
+                        str(row.get('raw_features', ''))
+                    ).replace('#$', '#').upper()
+                    
+                    if "TRIFECTA: NO BET" in text_context or "NO BET" in text_context and "TRIFECTA" not in text_context:
+                        return 0.0, 0.0
+                    
+                    elif "TRIFECTA WHEEL" in text_context:
+                        stake = 2.0 # Key wheel base
+                        ret = row['trifecta_payout'] if row['trifecta_top3_hit'] else 0.0
+                        return stake, ret
+                    
+                    else:
+                        stake = 1.20 # Standard $0.20 base on 3-horse box ($1.20 total)
+                        ret = row['trifecta_payout'] if row['trifecta_top3_hit'] else 0.0
+                        return stake, ret
+
+                # Apply strategy parsing across rows
+                win_eval = merged_df.apply(parse_win_strategy, axis=1)
+                merged_df['win_staked'] = [e[0] for e in win_eval]
+                merged_df['win_returned'] = [e[1] for e in win_eval]
+
+                ex_eval = merged_df.apply(parse_ex_strategy, axis=1)
+                merged_df['ex_staked'] = [e[0] for e in ex_eval]
+                merged_df['ex_returned'] = [e[1] for e in ex_eval]
+
+                tri_eval = merged_df.apply(parse_tri_strategy, axis=1)
+                merged_df['tri_staked'] = [e[0] for e in tri_eval]
+                merged_df['tri_returned'] = [e[1] for e in tri_eval]
 
                 # --- GLOBAL TRACK FILTER ---
                 st.markdown("---")
@@ -1053,28 +1183,46 @@ with tab_analytics:
                 total_races = len(display_df)
                 st.write(f"*Graded {total_races} completed races.*")
 
-                # --- FINANCIAL ROI METRICS ---
-                st.header("💵 Financial ROI Summary ($2 Base Bets)")
+                # --- SELECTIVE ROI CALCULATIONS ---
+                total_win_staked = display_df['win_staked'].sum()
+                total_win_returned = display_df['win_returned'].sum()
+                win_net = total_win_returned - total_win_staked
+                win_roi = ((win_net) / total_win_staked * 100) if total_win_staked > 0 else 0.0
 
-                # 1. Win ROI ($2 bet per race)
-                total_win_staked = total_races * 2.0
-                total_win_returned = display_df['win_return'].sum()
-                win_roi = ((total_win_returned - total_win_staked) / total_win_staked * 100) if total_win_staked > 0 else 0.0
+                total_ex_staked = display_df['ex_staked'].sum()
+                total_ex_returned = display_df['ex_returned'].sum()
+                ex_net = total_ex_returned - total_ex_staked
+                ex_roi = ((ex_net) / total_ex_staked * 100) if total_ex_staked > 0 else 0.0
 
-                # 2. Exacta Box ROI ($2 bet per race for 2-horse box)
-                total_ex_staked = total_races * 2.0
-                total_ex_returned = display_df['exacta_return'].sum()
-                ex_roi = ((total_ex_returned - total_ex_staked) / total_ex_staked * 100) if total_ex_staked > 0 else 0.0
+                total_tri_staked = display_df['tri_staked'].sum()
+                total_tri_returned = display_df['tri_returned'].sum()
+                tri_net = total_tri_returned - total_tri_staked
+                tri_roi = ((tri_net) / total_tri_staked * 100) if total_tri_staked > 0 else 0.0
 
-                # 3. Trifecta Box ROI ($1.20 bet per race for 3-horse $0.20 box)
-                total_tri_staked = total_races * 1.20
-                total_tri_returned = display_df['trifecta_return'].sum()
-                tri_roi = ((total_tri_returned - total_tri_staked) / total_tri_staked * 100) if total_tri_staked > 0 else 0.0
-
+                # --- FINANCIAL ROI DASHBOARD ---
+                st.header("💵 Selective Strategy ROI (Suggested Wagers Only)")
                 r1, r2, r3 = st.columns(3)
-                r1.metric("Straight $2 Win ROI", f"${total_win_returned:.2f}", f"{win_roi:+.1f}% ROI")
-                r2.metric("Top 2 Exacta Box ROI", f"${total_ex_returned:.2f}", f"{ex_roi:+.1f}% ROI")
-                r3.metric("Top 3 Trifecta Box ROI", f"${total_tri_returned:.2f}", f"{tri_roi:+.1f}% ROI")
+
+                r1.metric(
+                    label="Win Strategy ROI",
+                    value=f"${win_net:+.2f} Net",
+                    delta=f"{win_roi:+.1f}% ROI",
+                    help=f"Active Bets: {len(display_df[display_df['win_staked'] > 0])}/{total_races} races | Total Staked: ${total_win_staked:.2f} | Returned: ${total_win_returned:.2f}"
+                )
+
+                r2.metric(
+                    label="Exacta Strategy ROI",
+                    value=f"${ex_net:+.2f} Net",
+                    delta=f"{ex_roi:+.1f}% ROI",
+                    help=f"Total Staked: ${total_ex_staked:.2f} | Returned: ${total_ex_returned:.2f}"
+                )
+
+                r3.metric(
+                    label="Trifecta Strategy ROI",
+                    value=f"${tri_net:+.2f} Net",
+                    delta=f"{tri_roi:+.1f}% ROI",
+                    help=f"Active Bets: {len(display_df[display_df['tri_staked'] > 0])}/{total_races} races | Total Staked: ${total_tri_staked:.2f} | Returned: ${total_tri_returned:.2f}"
+                )
 
                 st.markdown("---")
                 st.header("📊 Hit Rate Grading Report")
@@ -1100,12 +1248,16 @@ with tab_analytics:
                     surface_stats = display_df.groupby('surface').agg(
                         Top_Pick_Win=('top_pick_win', 'mean'),
                         Danger_Win=('danger_win', 'mean'),
-                        Win_ROI=('win_return', lambda x: ((x.sum() - (len(x)*2.0)) / (len(x)*2.0) * 100) if len(x)>0 else 0.0),
+                        Win_Returned=('win_returned', 'sum'),
+                        Win_Staked=('win_staked', 'sum'),
                         Races=('top_pick_win', 'count')
                     ).reset_index()
+                    
                     surface_stats['Top Pick Win'] = (surface_stats['Top_Pick_Win'] * 100).round(1).astype(str) + '%'
                     surface_stats['Danger Win'] = (surface_stats['Danger_Win'] * 100).round(1).astype(str) + '%'
-                    surface_stats['Win ROI'] = surface_stats['Win_ROI'].round(1).astype(str) + '%'
+                    surface_stats['Win ROI'] = surface_stats.apply(
+                        lambda x: f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%" if x['Win_Staked'] > 0 else "0.0%", axis=1
+                    )
                     st.dataframe(surface_stats[['surface', 'Races', 'Top Pick Win', 'Danger Win', 'Win ROI']], use_container_width=True, hide_index=True)
 
                 with col_b:
@@ -1113,12 +1265,16 @@ with tab_analytics:
                     conf_stats = display_df.groupby('confidence').agg(
                         Top_Pick_Win=('top_pick_win', 'mean'),
                         Danger_Win=('danger_win', 'mean'),
-                        Win_ROI=('win_return', lambda x: ((x.sum() - (len(x)*2.0)) / (len(x)*2.0) * 100) if len(x)>0 else 0.0),
+                        Win_Returned=('win_returned', 'sum'),
+                        Win_Staked=('win_staked', 'sum'),
                         Races=('top_pick_win', 'count')
                     ).reset_index()
+                    
                     conf_stats['Top Pick Win'] = (conf_stats['Top_Pick_Win'] * 100).round(1).astype(str) + '%'
                     conf_stats['Danger Win'] = (conf_stats['Danger_Win'] * 100).round(1).astype(str) + '%'
-                    conf_stats['Win ROI'] = conf_stats['Win_ROI'].round(1).astype(str) + '%'
+                    conf_stats['Win ROI'] = conf_stats.apply(
+                        lambda x: f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%" if x['Win_Staked'] > 0 else "0.0%", axis=1
+                    )
                     st.dataframe(conf_stats[['confidence', 'Races', 'Top Pick Win', 'Danger Win', 'Win ROI']], use_container_width=True, hide_index=True)
 
             else:
