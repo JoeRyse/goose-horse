@@ -789,31 +789,109 @@ Return ONLY a valid JSON array. No Markdown blocks.
                                 "reason": reason
                             })
 
+                        # 1. Sort contenders strictly by rating
                         scored_contenders.sort(key=lambda x: x["rating"], reverse=True)
 
+                        # 2. Identify Danger Horse (Can be 2nd, 3rd, or a live longshot)
                         danger_horse = {}
-                        danger_index_to_remove = -1
-
                         for horse in race.get("contenders", []):
                             if str(horse.get("features", {}).get("is_danger_horse", "")).strip().lower() == 'true':
                                 target_name = horse.get("horse_name", "Unknown")
-                                for idx, sc in enumerate(scored_contenders):
+                                for sc in scored_contenders:
                                     if sc["name"] == target_name:
-                                        danger_index_to_remove = idx
+                                        danger_horse = sc
                                         break
                                 break
 
-                        if danger_index_to_remove != -1:
-                            danger_horse = scored_contenders.pop(danger_index_to_remove)
-                        elif len(scored_contenders) >= 5:
-                            danger_horse = scored_contenders.pop(4)
-                        else:
-                            danger_horse = scored_contenders.pop() if scored_contenders else {}
+                        # Fallback: If AI didn't flag one, select 2nd highest rated if close in score
+                        if not danger_horse and len(scored_contenders) >= 2:
+                            if (scored_contenders[0]["rating"] - scored_contenders[1]["rating"]) <= 5.0:
+                                danger_horse = scored_contenders[1]
 
+                        # Keep Top 4 in Top 4 positions!
                         new_race["selections"] = scored_contenders[:4]
                         new_race["danger_horse"] = danger_horse
 
+                        # ==================================================
+                        # 3. PROFESSIONAL DYNAMIC BETTING STRATEGY ENGINE
+                        # ==================================================
+                        top1 = scored_contenders[0] if len(scored_contenders) > 0 else {}
+                        top2 = scored_contenders[1] if len(scored_contenders) > 1 else {}
+                        top3 = scored_contenders[2] if len(scored_contenders) > 2 else {}
+                        top4 = scored_contenders[3] if len(scored_contenders) > 3 else {}
+
+                        conf = str(race.get("confidence_level", "Medium"))
+                        score_gap = (top1.get("rating", 0) - top2.get("rating", 0)) if top2 else 10.0
+
+                        strategy_parts = []
+
+                        # A. WIN WAGERS (Scales with confidence & score separation)
+                        if "High" in conf or "5 Stars" in conf or score_gap >= 6.0:
+                            strategy_parts.append(f"<b>🎯 WIN:</b> Strong $10 Win on <b>#{top1.get('number')} {top1.get('name')}</b>")
+                        elif "Medium" in conf and score_gap >= 3.0:
+                            strategy_parts.append(f"<b>🎯 WIN:</b> $4 Win / $6 Place on <b>#{top1.get('number')} {top1.get('name')}</b>")
+                        else:
+                            strategy_parts.append("<b>🎯 WIN:</b> PASS Win wager (Low confidence / chaotic field)")
+
+                        # B. EXOTICS (Exacta & Trifecta tailored to race clarity)
+                        if score_gap >= 7.0 and top2 and top3:
+                            # Dominant Favorite -> Key Exacta & Trifecta Wheel
+                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #${top1.get('number')} over #${top2.get('number')}, #${top3.get('number')}")
+                            if "High" in conf:
+                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #${top1.get('number')} / #${top2.get('number')}, #${top3.get('number')} / #${top2.get('number')}, #${top3.get('number')}, #${top4.get('number') if top4 else 'ALL'}")
+                        elif top2 and top3:
+                            # Competitive Field -> Exacta / Trifecta Box
+                            if danger_horse and danger_horse.get("number") not in [top1.get("number"), top2.get("number"), top3.get("number")]:
+                                # Include Danger Longshot in Exotic Box
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${danger_horse.get('number')} (Includes Danger Threat)")
+                            else:
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${top3.get('number')}")
+
+                            if "High" in conf or "Medium" in conf:
+                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> #${top1.get('number')}, #${top2.get('number')}, #${top3.get('number')}")
+                            else:
+                                strategy_parts.append("<b>🎪 TRIFECTA:</b> NO BET (Low clarity)")
+
+                        new_race["exotic_strategy"] = "<br>".join(strategy_parts)
                         data["races"].append(new_race)
+
+                    # ==================================================
+                    # 4. ADVANCED DAILY DOUBLE SCANNER (AFTER RACE LOOP)
+                    # ==================================================
+                    daily_doubles = []
+                    for idx in range(len(data["races"]) - 1):
+                        r1 = data["races"][idx]
+                        r2 = data["races"][idx + 1]
+
+                        r1_conf = str(r1.get("confidence_level", ""))
+                        r2_conf = str(r2.get("confidence_level", ""))
+
+                        r1_picks = r1.get("selections", [])
+                        r2_picks = r2.get("selections", [])
+
+                        if len(r1_picks) >= 2 and len(r2_picks) >= 2:
+                            r1_gap = r1_picks[0].get("rating", 0) - r1_picks[1].get("rating", 0)
+                            r2_gap = r2_picks[0].get("rating", 0) - r2_picks[1].get("rating", 0)
+
+                            # Leg 1 Ticket
+                            if "High" in r1_conf and r1_gap >= 5.0:
+                                r1_ticket = f"#{r1_picks[0].get('number')} (Solo Lock)"
+                            else:
+                                r1_ticket = f"#{r1_picks[0].get('number')}, #{r1_picks[1].get('number')}"
+
+                            # Leg 2 Ticket
+                            if "High" in r2_conf and r2_gap >= 5.0:
+                                r2_ticket = f"#{r2_picks[0].get('number')} (Solo Lock)"
+                            else:
+                                r2_ticket = f"#{r2_picks[0].get('number')}, #{r2_picks[1].get('number')}"
+
+                            if "High" in r1_conf or "High" in r2_conf or "Medium" in r1_conf:
+                                daily_doubles.append(
+                                    f"<b>R{r1.get('number')} ➔ R{r2.get('number')} DAILY DOUBLE:</b> "
+                                    f"Play ({r1_ticket}) with ({r2_ticket})"
+                                )
+
+                    data["daily_doubles"] = daily_doubles
                     st.session_state.json_data = data
 
                     html_full = generate_meeting_html(data, selected_region, is_preview_mode=False)
