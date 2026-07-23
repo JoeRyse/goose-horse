@@ -1,0 +1,1385 @@
+{
+    "meta": {
+        "track": "Del Mar",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Joker Went Wild",
+                        "handicapper_notes": "Possesses solid early speed but has faded late in recent starts. Drops back to a more competitive claiming level.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E/EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Crucible",
+                        "handicapper_notes": "Struggled in recent allowance and claiming events. Speed figures are a step below the top choices here.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Uecker",
+                        "handicapper_notes": "Takes a massive class drop from AOC67500 on turf to CLM16000 on dirt. Best speed figures in the field make him a major threat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Original One",
+                        "handicapper_notes": "Stalker style. Won at MCL32000 earlier this year but has struggled to repeat that performance in higher claiming ranks.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sendit Mo",
+                        "handicapper_notes": "Class drop from SOC25000. Has consistent high speed figures and tactical speed. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Stanford Dropout",
+                        "handicapper_notes": "First start since being reported as a gelding. Returning from a long layoff since November 2025.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Jalisco",
+                        "handicapper_notes": "First start since reported as a gelding. Long layoff since October 2025. Best runs have been in maiden ranks.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sendit Mo",
+                    "rating": 96.0,
+                    "reason": "Class drop from SOC25000. Has consistent high speed figures and tactical speed. The horse to beat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Uecker",
+                    "rating": 94.0,
+                    "reason": "Takes a massive class drop from AOC67500 on turf to CLM16000 on dirt. Best speed figures in the field make him a major threat. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Joker Went Wild",
+                    "rating": 88.0,
+                    "reason": "Possesses solid early speed but has faded late in recent starts. Drops back to a more competitive claiming level."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Original One",
+                    "rating": 82.0,
+                    "reason": "Stalker style. Won at MCL32000 earlier this year but has struggled to repeat that performance in higher claiming ranks."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Uecker",
+                "rating": 94.0,
+                "reason": "Takes a massive class drop from AOC67500 on turf to CLM16000 on dirt. Best speed figures in the field make him a major threat. | <i>\ud83d\udccf Turf to Dirt</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #3, #1<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #5, #3, #1"
+        },
+        {
+            "number": 2,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bullwhacker",
+                        "handicapper_notes": "First-time starter by Candy Ride. Workouts are steady but faces experienced turf sprinters.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Parker's Candy",
+                        "handicapper_notes": "Returning from a long layoff since August 2025. Showed promise in lone start, finishing 3rd in a high-value MSW.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Running Spartan",
+                        "handicapper_notes": "Consistent turf sprinter with multiple placings in similar ranks. Tactical speed is perfect for this tight turf course.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Practical Jack",
+                        "handicapper_notes": "Disappointed in debut on dirt. Switches to turf, which may suit his pedigree, but needs to show improvement.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Bogarts Bucchero",
+                        "handicapper_notes": "Very strong speed figures on turf. Finished a close second in last start at Santa Anita. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Flaubert",
+                        "handicapper_notes": "Returns from a layoff. Best speed figures are competitive, but closing style is disadvantaged on this short-stretch turf course.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Fuzzy Stare",
+                        "handicapper_notes": "Shipped in from Churchill Downs. Disappointed on wet dirt last out but turf pedigree suggests improvement is possible.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bogarts Bucchero",
+                    "rating": 95.0,
+                    "reason": "Very strong speed figures on turf. Finished a close second in last start at Santa Anita. The one to beat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Running Spartan",
+                    "rating": 92.0,
+                    "reason": "Consistent turf sprinter with multiple placings in similar ranks. Tactical speed is perfect for this tight turf course."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Parker's Candy",
+                    "rating": 85.0,
+                    "reason": "Returning from a long layoff since August 2025. Showed promise in lone start, finishing 3rd in a high-value MSW."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Fuzzy Stare",
+                    "rating": 83.0,
+                    "reason": "Shipped in from Churchill Downs. Disappointed on wet dirt last out but turf pedigree suggests improvement is possible. | <i>\ud83d\udccf Dirt to Turf</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Fuzzy Stare",
+                "rating": 83.0,
+                "reason": "Shipped in from Churchill Downs. Disappointed on wet dirt last out but turf pedigree suggests improvement is possible. | <i>\ud83d\udccf Dirt to Turf</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#5 Bogarts Bucchero</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #3, #7 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #5, #3, #2"
+        },
+        {
+            "number": 3,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Low",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "Low",
+                "suggested_wager": "Exacta Box 3, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Vahevala",
+                        "handicapper_notes": "First-time starter by Bodexpress. Workouts are moderate. Inside post is a benefit if she can break cleanly.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Zayda At The Spa",
+                        "handicapper_notes": "First-time starter by Stay Thirsty. Steady morning works but others look faster on paper.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Please Behave",
+                        "handicapper_notes": "The only contender with multiple starts. Placed second in debut and third last out. Holds a distinct experience edge.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Blondys Forza",
+                        "handicapper_notes": "First-time starter by Mo Forza. Solid trainer stats for debut runners. Worth keeping an eye on.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Harkette",
+                        "handicapper_notes": "First-time starter by Stay Thirsty. Moderate workouts at Santa Anita.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Obhayve",
+                        "handicapper_notes": "First-time starter by Dads Caps. Workouts do not jump off the page.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Clubhouse Rose",
+                        "handicapper_notes": "First-time starter by Clubhouse Ride. Workouts are decent but will need to improve on debut.",
+                        "features": {
+                            "ai_holistic_score": 77,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Tam's Swiss Miss",
+                        "handicapper_notes": "First-time starter by Tamarando. Solid pedigree for state-bred ranks.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Shemakesmemad",
+                        "handicapper_notes": "Showed early speed in debut before fading. Experience and early speed are major assets in this field.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Please Behave",
+                    "rating": 90.0,
+                    "reason": "The only contender with multiple starts. Placed second in debut and third last out. Holds a distinct experience edge."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Shemakesmemad",
+                    "rating": 88.0,
+                    "reason": "Showed early speed in debut before fading. Experience and early speed are major assets in this field."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Blondys Forza",
+                    "rating": 80.0,
+                    "reason": "First-time starter by Mo Forza. Solid trainer stats for debut runners. Worth keeping an eye on."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Tam's Swiss Miss",
+                    "rating": 79.0,
+                    "reason": "First-time starter by Tamarando. Solid pedigree for state-bred ranks."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Shemakesmemad",
+                "rating": 88.0,
+                "reason": "Showed early speed in debut before fading. Experience and early speed are major assets in this field."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #9, #4<br><b>\ud83c\udfaa TRIFECTA:</b> NO BET (Low clarity)"
+        },
+        {
+            "number": 4,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 4, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Jennys Wine Girl",
+                        "handicapper_notes": "Excellent turf sprinter. Drops back to SOC after a decent effort in AOC ranks. Inside draw is a massive advantage.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Butterfly Beach",
+                        "handicapper_notes": "Broke maiden last out in gate-to-wire fashion. Stepping up in class but has speed to contend.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Egyptian Mistress",
+                        "handicapper_notes": "Won maiden last out at Santa Anita. Speed figures are competitive but faces tougher here.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Famous Forza",
+                        "handicapper_notes": "Extremely consistent in SOC ranks. Finished a close second last out. High speed figures make her a key contender.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Lady Maryann",
+                        "handicapper_notes": "Veteran closer who often runs out of ground in short turf sprints. Best used underneath in exotics.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Watch Over Us",
+                        "handicapper_notes": "Broke maiden easily on dirt last out. Switches to turf, which is a question mark, but speed is real.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Unbinding (gb)",
+                        "handicapper_notes": "Returns from a layoff. Strong turf pedigree and excellent speed figures from last season. Major threat if ready.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Surfin The Coast",
+                        "handicapper_notes": "Won two back in MCL ranks but struggled in SOC last out. Needs to find more speed.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Unbinding (gb)",
+                    "rating": 95.0,
+                    "reason": "Returns from a layoff. Strong turf pedigree and excellent speed figures from last season. Major threat if ready."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jennys Wine Girl",
+                    "rating": 93.0,
+                    "reason": "Excellent turf sprinter. Drops back to SOC after a decent effort in AOC ranks. Inside draw is a massive advantage."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Famous Forza",
+                    "rating": 92.0,
+                    "reason": "Extremely consistent in SOC ranks. Finished a close second last out. High speed figures make her a key contender."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Lady Maryann",
+                    "rating": 85.0,
+                    "reason": "Veteran closer who often runs out of ground in short turf sprints. Best used underneath in exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Unbinding (gb)",
+                "rating": 95.0,
+                "reason": "Returns from a layoff. Strong turf pedigree and excellent speed figures from last season. Major threat if ready."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#7 Unbinding (gb)</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #1, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #1, #4"
+        },
+        {
+            "number": 5,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Low",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "Low",
+                "suggested_wager": "Exacta Box 5, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Chachacha Ching",
+                        "handicapper_notes": "First-time starter by Stay Thirsty. Workouts are moderate.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Vegas Del Oro",
+                        "handicapper_notes": "First-time starter. Steady morning works but pedigree is modest.",
+                        "features": {
+                            "ai_holistic_score": 73,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Breakaway Babe",
+                        "handicapper_notes": "First-time starter by Jack Milton. Workouts are decent.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Quick Up",
+                        "handicapper_notes": "First-time starter by Stay Thirsty. Solid trainer stats for debut runners.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Dont Short Ur Self",
+                        "handicapper_notes": "First-time starter by Clubhouse Ride. High-profile connections and excellent workouts make her a major threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Thirsty Eterna",
+                        "handicapper_notes": "First-time starter by Stay Thirsty. Workouts are slow.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Imnosurething",
+                        "handicapper_notes": "First-time starter by Modernist. Excellent pedigree and solid workouts at Santa Anita.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Unknown",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Kool It",
+                        "handicapper_notes": "Struggled in debut, finishing far back. Needs to show significant improvement.",
+                        "features": {
+                            "ai_holistic_score": 71,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "She's My Star",
+                        "handicapper_notes": "Well beaten in both career starts. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Island Splash",
+                        "handicapper_notes": "The only contender with a placing. Finished third in debut. Holds a distinct experience advantage.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Dont Short Ur Self",
+                    "rating": 88.0,
+                    "reason": "First-time starter by Clubhouse Ride. High-profile connections and excellent workouts make her a major threat."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Island Splash",
+                    "rating": 87.0,
+                    "reason": "The only contender with a placing. Finished third in debut. Holds a distinct experience advantage."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Imnosurething",
+                    "rating": 85.0,
+                    "reason": "First-time starter by Modernist. Excellent pedigree and solid workouts at Santa Anita."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Quick Up",
+                    "rating": 80.0,
+                    "reason": "First-time starter by Stay Thirsty. Solid trainer stats for debut runners."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Dont Short Ur Self",
+                "rating": 88.0,
+                "reason": "First-time starter by Clubhouse Ride. High-profile connections and excellent workouts make her a major threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #10, #7<br><b>\ud83c\udfaa TRIFECTA:</b> NO BET (Low clarity)"
+        },
+        {
+            "number": 6,
+            "distance": "1 1/16 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 1/16 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Grecian Goddess",
+                        "handicapper_notes": "Returns from a long layoff. Best speed figures are competitive but may need a race.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bojaca Blessing",
+                        "handicapper_notes": "Consistent turf router. Finished a solid third last out in AOC ranks. Tactical speed fits well.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Ribbons",
+                        "handicapper_notes": "Struggled in Grade 1 Oaks last out but previous form in AOC ranks was excellent. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Mi Confesion (arg)",
+                        "handicapper_notes": "Excellent second last out in AOC ranks. Consistent speed figures make her a key contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Pura Vida Princesa",
+                        "handicapper_notes": "Disappointed last out but previous turf route form was solid. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Dreaming Of Abba",
+                        "handicapper_notes": "Decent effort in stakes ranks last out. Consistent speed figures make her a major player.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "The White Lady (fr)",
+                        "handicapper_notes": "Excellent third last out behind Baltic Fire. Very consistent turf router with high speed figures.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Canto Della Terra (ire)",
+                        "handicapper_notes": "Won last out in ALW ranks. Strong turf pedigree and excellent speed figures. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Roselee May",
+                        "handicapper_notes": "Decent fourth last out but speed figures are a step below the top choices.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "The White Lady (fr)",
+                    "rating": 94.0,
+                    "reason": "Excellent third last out behind Baltic Fire. Very consistent turf router with high speed figures."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ribbons",
+                    "rating": 93.0,
+                    "reason": "Struggled in Grade 1 Oaks last out but previous form in AOC ranks was excellent. Major threat."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Canto Della Terra (ire)",
+                    "rating": 92.0,
+                    "reason": "Won last out in ALW ranks. Strong turf pedigree and excellent speed figures. Major threat."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Mi Confesion (arg)",
+                    "rating": 91.0,
+                    "reason": "Excellent second last out in AOC ranks. Consistent speed figures make her a key contender."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "The White Lady (fr)",
+                "rating": 94.0,
+                "reason": "Excellent third last out behind Baltic Fire. Very consistent turf router with high speed figures."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #3, #8<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #3, #8"
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Check's On The Way",
+                        "handicapper_notes": "Struggled last out in AOC ranks. Best speed figures are competitive but needs to find more.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pokerknightatvees",
+                        "handicapper_notes": "Excellent turf router transitioning to dirt. Very high speed figures make him a major threat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "J T's Watch",
+                        "handicapper_notes": "Veteran campaigner who finished a solid second last out in CLM ranks. Stepping up in class.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Majestic Palisades",
+                        "handicapper_notes": "Consistent dirt router. Finished a solid fourth last out in AOC ranks. Major player.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "The G M",
+                        "handicapper_notes": "Won last out in AOC ranks. Excellent speed figures and tactical speed make him a key contender.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Stolen Treasure",
+                        "handicapper_notes": "Decent third last out but speed figures are a step below the top choices.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Cagey Burglar",
+                        "handicapper_notes": "Struggled in recent starts. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "John Metcalfe",
+                        "handicapper_notes": "Disappointed last out in stakes ranks but previous form was solid. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pokerknightatvees",
+                    "rating": 95.0,
+                    "reason": "Excellent turf router transitioning to dirt. Very high speed figures make him a major threat. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "The G M",
+                    "rating": 93.0,
+                    "reason": "Won last out in AOC ranks. Excellent speed figures and tactical speed make him a key contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Majestic Palisades",
+                    "rating": 91.0,
+                    "reason": "Consistent dirt router. Finished a solid fourth last out in AOC ranks. Major player."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "John Metcalfe",
+                    "rating": 88.0,
+                    "reason": "Disappointed last out in stakes ranks but previous form was solid. Can bounce back."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "The G M",
+                "rating": 93.0,
+                "reason": "Won last out in AOC ranks. Excellent speed figures and tactical speed make him a key contender."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Pokerknightatvees</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #2, #5, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #2, #5, #4"
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 6, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Motet",
+                        "handicapper_notes": "Consistent turf router. Finished a solid second last out in CLM ranks. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Rich Of Joy",
+                        "handicapper_notes": "Struggled last out but previous turf route form was solid. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Zarafa",
+                        "handicapper_notes": "Won last out in MCL ranks. Stepping up in class but has speed to contend.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Lady Of Power",
+                        "handicapper_notes": "Decent effort last out but speed figures are a step below the top choices.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Dragon Kat",
+                        "handicapper_notes": "Struggled in recent starts. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Elite Heat (gb)",
+                        "handicapper_notes": "Excellent turf router with high speed figures. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Can't Say That",
+                        "handicapper_notes": "Won last out in MCL ranks. Stepping up in class but has speed to contend.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Saariselka (gb)",
+                        "handicapper_notes": "Struggled in recent starts. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Suntory Time",
+                        "handicapper_notes": "Consistent turf router with solid speed figures. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Green Zone",
+                        "handicapper_notes": "Struggled last out but previous form was solid. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Elite Heat (gb)",
+                    "rating": 95.0,
+                    "reason": "Excellent turf router with high speed figures. The one to beat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Motet",
+                    "rating": 92.0,
+                    "reason": "Consistent turf router. Finished a solid second last out in CLM ranks. Major threat."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Suntory Time",
+                    "rating": 90.0,
+                    "reason": "Consistent turf router with solid speed figures. Major threat."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Lady Of Power",
+                    "rating": 86.0,
+                    "reason": "Decent effort last out but speed figures are a step below the top choices."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Suntory Time",
+                "rating": 90.0,
+                "reason": "Consistent turf router with solid speed figures. Major threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#6 Elite Heat (gb)</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #1, #9<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #1, #9"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#5, #3) with (#5, #3)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#5, #3) with (#3, #9)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#3, #9) with (#7, #1)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#7, #1) with (#5, #10)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#7, #3) with (#2, #5)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#2, #5) with (#6, #1)"
+    ]
+}
