@@ -1,0 +1,1502 @@
+{
+    "meta": {
+        "track": "Warrnambool",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1100m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1100m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Brother Bear",
+                        "handicapper_notes": "Debutant by Ilovethiscity who won a recent Donald jump-out on July 16. John Rowe stable has a modest strike rate, but must respect the trial form.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "16",
+                        "horse_name": "Don't Say No Mikki",
+                        "handicapper_notes": "Resumes. Ran a solid fourth first-up last campaign in a BM56 on soft turf. Won a recent trial at Bendigo. Wide draw is the main obstacle.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Mychemicalromanze",
+                        "handicapper_notes": "First-starter by Widden Valley. Runner-up in a Hamilton jump-out on July 13. Beautifully drawn in barrier 2 but this looks like a tough debut assignment.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "14",
+                        "horse_name": "Ottalaus",
+                        "handicapper_notes": "Resuming. Showed promise last prep with a fourth on heavy ground at Sale. Trial winner at Mornington on July 15 suggests he is ready to fire first-up.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "12",
+                        "horse_name": "Prince Prestigious",
+                        "handicapper_notes": "Debutant by Prince Of Caviar. Runner-up in a Hamilton jump-out on July 13. Trained by Tom Dabernig and gets the services of John Allen. Highly respected.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Shujinko",
+                        "handicapper_notes": "Fitter for a first-up fourth at Mildura over 1200m on a slow track. Has wet track experience and the Preusker stable is always dangerous here.",
+                        "features": {
+                            "ai_holistic_score": 77,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Triple Agent",
+                        "handicapper_notes": "Debutant by Puissance De Lune. Runner-up in a Mortlake jump-out on June 30. Trained on the course, but others look more precocious.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Vintell",
+                        "handicapper_notes": "Resumes. Sat on the speed and boxed on well for third on debut at Mornington on a soft track. Recent trial winner at Wangaratta. Drawn perfectly.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "5",
+                        "horse_name": "Empress Rossa",
+                        "handicapper_notes": "Debutant by Magnus out of Saffrossa. Runner-up in a Hamilton jump-out on July 13. Trained on the course by Symon Wilde. Expect a bold showing.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "13",
+                        "horse_name": "Sundaytoofaraway",
+                        "handicapper_notes": "First-starter by Widden Valley. Finished fourth in a Hamilton jump-out on July 13. Hard to recommend from a wide gate on debut.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "9",
+                        "horse_name": "Sweet Allure",
+                        "handicapper_notes": "Debutant by I Am Invincible. Won a St Arnaud jump-out on July 6. Well-bred filly who commands respect if the market speaks favorably.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13e",
+                        "barrier": "17",
+                        "horse_name": "Social Pages",
+                        "handicapper_notes": "Tracked the speed and boxed on steadily for sixth on debut at Moe on a heavy track. Fitter now and can improve, but the draw is very tough.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "1",
+                    "name": "Vintell",
+                    "rating": 88.0,
+                    "reason": "Resumes. Sat on the speed and boxed on well for third on debut at Mornington on a soft track. Recent trial winner at Wangaratta. Drawn perfectly. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "14",
+                    "name": "Ottalaus",
+                    "rating": 82.0,
+                    "reason": "Resuming. Showed promise last prep with a fourth on heavy ground at Sale. Trial winner at Mornington on July 15 suggests he is ready to fire first-up."
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Shujinko",
+                    "rating": 77.0,
+                    "reason": "Fitter for a first-up fourth at Mildura over 1200m on a slow track. Has wet track experience and the Preusker stable is always dangerous here."
+                },
+                {
+                    "number": "9",
+                    "barrier": "5",
+                    "name": "Empress Rossa",
+                    "rating": 76.0,
+                    "reason": "Debutant by Magnus out of Saffrossa. Runner-up in a Hamilton jump-out on July 13. Trained on the course by Symon Wilde. Expect a bold showing."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "16",
+                "name": "Don't Say No Mikki",
+                "rating": 79.0,
+                "reason": "Resumes. Ran a solid fourth first-up last campaign in a BM56 on soft turf. Won a recent trial at Bendigo. Wide draw is the main obstacle."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "1700m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1700m Heavy10",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Cattleman's Bar",
+                        "handicapper_notes": "Struggled in recent starts, finishing near the tail at Mildura and Donald. Hard to recommend in this company.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Fiorowngood",
+                        "handicapper_notes": "Excellent first-up effort when third at Geelong over 1400m on a heavy track. Fitter for that and should appreciate the step up in distance.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Le Plus Rapide",
+                        "handicapper_notes": "Consistent without winning. Finished fifth at Ballarat Synthetic last start. Has heavy track experience but others look stronger.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Justibella",
+                        "handicapper_notes": "Narrowly beaten when second at Ballarat last start on a heavy track over 1400m. Strips fitter and gets John Allen. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "Needlestick",
+                        "handicapper_notes": "Boxed on steadily for fourth at Geelong over 1400m on heavy ground last start. Improving with racing and has claims.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Victory Blues",
+                        "handicapper_notes": "Struggled in recent synthetic and heavy track runs. Hard to make a case for her in this field.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Justibella",
+                    "rating": 88.0,
+                    "reason": "Narrowly beaten when second at Ballarat last start on a heavy track over 1400m. Strips fitter and gets John Allen. The horse to beat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Fiorowngood",
+                    "rating": 84.0,
+                    "reason": "Excellent first-up effort when third at Geelong over 1400m on a heavy track. Fitter for that and should appreciate the step up in distance."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Le Plus Rapide",
+                    "rating": 65.0,
+                    "reason": "Consistent without winning. Finished fifth at Ballarat Synthetic last start. Has heavy track experience but others look stronger."
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Cattleman's Bar",
+                    "rating": 45.0,
+                    "reason": "Struggled in recent starts, finishing near the tail at Mildura and Donald. Hard to recommend in this company."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "6",
+                "name": "Needlestick",
+                "rating": 74.0,
+                "reason": "Boxed on steadily for fourth at Geelong over 1400m on heavy ground last start. Improving with racing and has claims."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "2000m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "2000m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "He's Electric",
+                        "handicapper_notes": "Struggled last start at Casterton on heavy ground. Form prior on heavy tracks was also below par. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "I'mnodrummerboy",
+                        "handicapper_notes": "Beaten a long way in recent starts on both heavy and synthetic tracks. Needs significant improvement.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Specky Boy",
+                        "handicapper_notes": "Disappointed on synthetic last start, but turf form prior was solid, including a close fourth on heavy ground at Casterton. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "10",
+                        "horse_name": "The Victorious",
+                        "handicapper_notes": "Consistent performer. Placed in his last two starts on wet tracks, including a third at Donald over 2200m. Strong winning chance.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "7",
+                        "horse_name": "Always Free",
+                        "handicapper_notes": "In excellent form. Placed in all three starts this preparation, including a third on synthetic last start. Possesses good early speed.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Bologna Baby",
+                        "handicapper_notes": "Beaten comfortably in recent synthetic runs. Turf form doesn't inspire much confidence. Looking elsewhere.",
+                        "features": {
+                            "ai_holistic_score": 42,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Camegitchee",
+                        "handicapper_notes": "Fair effort when sixth first-up on synthetic. Should appreciate the step up in distance and has drawn well.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Janey Bopper",
+                        "handicapper_notes": "Very consistent on wet tracks. Placed in three of her last four starts, including a third on heavy ground at Casterton. Drawn to get a perfect run.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "6",
+                        "horse_name": "Our Little Cracker",
+                        "handicapper_notes": "Finished seventh at Coleraine last start. Yet to place in seven career starts. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "5",
+                        "horse_name": "Rock On Foxy",
+                        "handicapper_notes": "Struggling for form and beaten a long way in recent heavy track runs. Unlikely to threaten.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "7",
+                    "name": "Always Free",
+                    "rating": 86.0,
+                    "reason": "In excellent form. Placed in all three starts this preparation, including a third on synthetic last start. Possesses good early speed."
+                },
+                {
+                    "number": "4",
+                    "barrier": "10",
+                    "name": "The Victorious",
+                    "rating": 83.0,
+                    "reason": "Consistent performer. Placed in his last two starts on wet tracks, including a third at Donald over 2200m. Strong winning chance."
+                },
+                {
+                    "number": "8",
+                    "barrier": "1",
+                    "name": "Janey Bopper",
+                    "rating": 81.0,
+                    "reason": "Very consistent on wet tracks. Placed in three of her last four starts, including a third on heavy ground at Casterton. Drawn to get a perfect run."
+                },
+                {
+                    "number": "7",
+                    "barrier": "3",
+                    "name": "Camegitchee",
+                    "rating": 68.0,
+                    "reason": "Fair effort when sixth first-up on synthetic. Should appreciate the step up in distance and has drawn well."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "2",
+                "name": "Specky Boy",
+                "rating": 72.0,
+                "reason": "Disappointed on synthetic last start, but turf form prior was solid, including a close fourth on heavy ground at Casterton. Can bounce back."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "2000m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "2000m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Bellonado",
+                        "handicapper_notes": "Struggled in stronger company last start at Sandown. Drops back to BM62 level where he has a much better record. Heavy track winner.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "Epoch",
+                        "handicapper_notes": "In superb form, winning two of his last three starts, including a dominant victory on heavy ground at Donald last start. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "7",
+                        "horse_name": "Darwinian",
+                        "handicapper_notes": "Broke through for a deserved maiden win last start on heavy ground at Casterton. Promising stayer who can go on with it.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Star Of Rossa",
+                        "handicapper_notes": "Disappointed last start on heavy ground at Sandown, but won easily first-up on heavy turf at Hamilton. Drawn to get a soft run.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Up And Under",
+                        "handicapper_notes": "Consistent performer who finished a solid fourth on heavy turf at Cranbourne last start. Hard to dismiss in this field.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Tee Eight",
+                        "handicapper_notes": "Struggled in recent starts, including a last-place finish at Geelong on heavy ground. Needs to improve sharply.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Treasury Place",
+                        "handicapper_notes": "Struggled last start at Geelong, but won on heavy turf at Donald prior to that. Capable of sneaking into the money.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "9",
+                        "horse_name": "Adira River",
+                        "handicapper_notes": "Outclassed in stronger company at Flemington last start. Won easily on heavy turf at Hamilton prior. Major player back in this grade.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "5",
+                        "horse_name": "Hide Your Assets",
+                        "handicapper_notes": "Struggled on synthetic last start. Flat form has been below par recently. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Epoch",
+                    "rating": 91.0,
+                    "reason": "In superb form, winning two of his last three starts, including a dominant victory on heavy ground at Donald last start. The one to beat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "9",
+                    "name": "Adira River",
+                    "rating": 85.0,
+                    "reason": "Outclassed in stronger company at Flemington last start. Won easily on heavy turf at Hamilton prior. Major player back in this grade."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Darwinian",
+                    "rating": 82.0,
+                    "reason": "Broke through for a deserved maiden win last start on heavy ground at Casterton. Promising stayer who can go on with it."
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Up And Under",
+                    "rating": 80.0,
+                    "reason": "Consistent performer who finished a solid fourth on heavy turf at Cranbourne last start. Hard to dismiss in this field."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "8",
+                "name": "Bellonado",
+                "rating": 75.0,
+                "reason": "Struggled in stronger company last start at Sandown. Drops back to BM62 level where he has a much better record. Heavy track winner."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1700m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1700m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Astradeel",
+                        "handicapper_notes": "Outclassed in BM74 grade last start. Drops in class here. Excellent record on heavy tracks (20: 5-5-4). Big weight but a major player.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Like A Tiger",
+                        "handicapper_notes": "Faded in stronger company last start at Sandown. Won on heavy turf at Warrnambool prior. Capable of bouncing back.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Big Rooster",
+                        "handicapper_notes": "Struggled in Adelaide last start, but won easily on heavy turf at Ballarat prior. Strong record on wet tracks.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Reel Deadly",
+                        "horse_name_NZ": false,
+                        "handicapper_notes": "Maiden winner on heavy turf at Cranbourne last start. Has upside and must be respected.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "10",
+                        "horse_name": "Charming Deel",
+                        "handicapper_notes": "Consistent mare who finished a solid second on soft turf at Bendigo last start. Strong record on wet tracks and loves her home deck.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Dreck",
+                        "handicapper_notes": "Disappointed last start at Bendigo, but won on heavy turf at Ballarat prior. Drawn to get a perfect run.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Early Warning",
+                        "handicapper_notes": "Fair effort when fifth at Murray Bridge last start. Wet track record is solid. Place claims.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "11",
+                        "horse_name": "Side Piece",
+                        "handicapper_notes": "Scored a dominant 3.5 len win on heavy turf at Hamilton last start. Tougher here but in great form.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "4",
+                        "horse_name": "Vieux Riche",
+                        "handicapper_notes": "Finished fourth on heavy turf at Casterton last start. Needs to improve to threaten here.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "9",
+                        "horse_name": "Fuwari",
+                        "handicapper_notes": "Resuming. Finished last preparation with a second in BM70 grade. Heavy track winner who is capable first-up.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13e",
+                        "barrier": "7",
+                        "horse_name": "Spanish Snitzel",
+                        "handicapper_notes": "Struggled in recent heavy track runs. Hard to make a case for him in this field.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "10",
+                    "name": "Charming Deel",
+                    "rating": 85.0,
+                    "reason": "Consistent mare who finished a solid second on soft turf at Bendigo last start. Strong record on wet tracks and loves her home deck."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Big Rooster",
+                    "rating": 82.0,
+                    "reason": "Struggled in Adelaide last start, but won easily on heavy turf at Ballarat prior. Strong record on wet tracks."
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Reel Deadly",
+                    "rating": 81.0,
+                    "reason": "Maiden winner on heavy turf at Cranbourne last start. Has upside and must be respected. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "11",
+                    "name": "Side Piece",
+                    "rating": 81.0,
+                    "reason": "Scored a dominant 3.5 len win on heavy turf at Hamilton last start. Tougher here but in great form."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "8",
+                "name": "Astradeel",
+                "rating": 79.0,
+                "reason": "Outclassed in BM74 grade last start. Drops in class here. Excellent record on heavy tracks (20: 5-5-4). Big weight but a major player."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1300m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1300m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "The Narrator",
+                        "handicapper_notes": "Disappointed in stronger company last start. Won easily on heavy turf at Casterton prior. Strong chance back in this grade.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "12",
+                        "horse_name": "Port Louis",
+                        "handicapper_notes": "Scored a dominant 5.5 len win on heavy turf at Hamilton last start. Excellent record on wet tracks (14: 5-0-2). Hard to beat despite the wide draw.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "18",
+                        "horse_name": "Gunado",
+                        "handicapper_notes": "Struggled last start, but finished a close second on heavy turf at Sandown prior. Capable of a bold showing if he gains a start.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Zetheros",
+                        "handicapper_notes": "Won his last two starts, including a dominant victory on synthetic last start. Won on heavy turf prior. In great form and must be respected.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Always Hapi",
+                        "handicapper_notes": "Struggled in recent heavy track runs. Needs to improve sharply to threaten.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "17",
+                        "horse_name": "Miss Top Gun",
+                        "handicapper_notes": "Faded first-up on heavy ground at Bendigo. Fitter now and has a good second-up record. Can improve.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Final Countdown",
+                        "handicapper_notes": "Fair effort when fifth on heavy turf at Bendigo last start. Fitter for recent runs. Place claims.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Finchaven",
+                        "handicapper_notes": "Consistent performer. Placed in his last two starts on wet tracks, including a third at Echuca. Strong chance.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Sephia",
+                        "handicapper_notes": "Excellent first-up effort when second at Geelong on heavy ground. Fitter for that and has a great second-up record. Major player.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "13",
+                        "horse_name": "What You Will",
+                        "handicapper_notes": "Consistent on synthetic, but turf form is a query. Needs to transfer synthetic form to the heavy turf.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "11",
+                        "horse_name": "Terralight",
+                        "handicapper_notes": "Scored a dominant win on heavy turf at Mt Gambier last start. This is tougher but she is in great form.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16e",
+                        "barrier": "14",
+                        "horse_name": "Tallapoosa",
+                        "handicapper_notes": "Solid third on heavy turf at Hamilton last start. Capable of a bold showing if she gains a start.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "12",
+                    "name": "Port Louis",
+                    "rating": 86.0,
+                    "reason": "Scored a dominant 5.5 len win on heavy turf at Hamilton last start. Excellent record on wet tracks (14: 5-0-2). Hard to beat despite the wide draw."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Sephia",
+                    "rating": 85.0,
+                    "reason": "Excellent first-up effort when second at Geelong on heavy ground. Fitter for that and has a great second-up record. Major player."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Zetheros",
+                    "rating": 84.0,
+                    "reason": "Won his last two starts, including a dominant victory on synthetic last start. Won on heavy turf prior. In great form and must be respected."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "The Narrator",
+                    "rating": 82.0,
+                    "reason": "Disappointed in stronger company last start. Won easily on heavy turf at Casterton prior. Strong chance back in this grade."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "5",
+                "name": "Finchaven",
+                "rating": 80.0,
+                "reason": "Consistent performer. Placed in his last two starts on wet tracks, including a third at Echuca. Strong chance."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "1100m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1100m Heavy10",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Moonraker",
+                        "handicapper_notes": "Excellent second on heavy turf at Morphettville last start. Strips fitter and has a great record on wet tracks. Major player.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Cool As Ice",
+                        "handicapper_notes": "Disappointed first-up on heavy ground. Fitter now and has a good second-up record, but needs to improve.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Bazzar",
+                        "handicapper_notes": "Solid third first-up on heavy turf at Ballarat. Fitter for that and has drawn perfectly. Strong chance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Dynamite Dancer",
+                        "handicapper_notes": "Fitter for a solid fourth first-up on heavy ground at Geelong. Excellent second-up record and loves the heavy turf. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Legacy Bel",
+                        "handicapper_notes": "Solid fifth on heavy turf at Sandown last start. Won on heavy turf prior. Consistent performer who must be respected.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "13",
+                        "horse_name": "Frosty Night",
+                        "handicapper_notes": "Resuming. Finished last preparation with a win on heavy turf at Terang. Capable first-up but the draw is tough.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Hughie",
+                        "handicapper_notes": "Disappointed on synthetic last start. Turf form is better, but needs to improve to threaten here.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "Unique Poet",
+                        "handicapper_notes": "Scored a dominant win on heavy turf at Mt Gambier last start. This is much tougher but he is in great form.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "9",
+                        "horse_name": "Queen Christine",
+                        "handicapper_notes": "Faded first-up on heavy ground in Adelaide. Fitter now and has a great second-up record. Can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "7",
+                        "horse_name": "Bella Angelica",
+                        "handicapper_notes": "Struggled on synthetic last start. Won on heavy turf prior. Capable of a bold showing back on turf.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13e",
+                        "barrier": "5",
+                        "horse_name": "Stargust",
+                        "handicapper_notes": "Excellent second on heavy turf at Casterton last start. Strips fitter and has claims if he gains a start.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Moonraker",
+                    "rating": 88.0,
+                    "reason": "Excellent second on heavy turf at Morphettville last start. Strips fitter and has a great record on wet tracks. Major player. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Dynamite Dancer",
+                    "rating": 88.0,
+                    "reason": "Fitter for a solid fourth first-up on heavy ground at Geelong. Excellent second-up record and loves the heavy turf. The one to beat."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Bazzar",
+                    "rating": 82.0,
+                    "reason": "Solid third first-up on heavy turf at Ballarat. Fitter for that and has drawn perfectly. Strong chance."
+                },
+                {
+                    "number": "11",
+                    "barrier": "9",
+                    "name": "Queen Christine",
+                    "rating": 78.0,
+                    "reason": "Faded first-up on heavy ground in Adelaide. Fitter now and has a great second-up record. Can bounce back."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "6",
+                "name": "Legacy Bel",
+                "rating": 80.0,
+                "reason": "Solid fifth on heavy turf at Sandown last start. Won on heavy turf prior. Consistent performer who must be respected."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "3100m Heavy10",
+            "surface": "Heavy10",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "3100m Heavy10",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "10",
+                        "horse_name": "Lodbrok",
+                        "handicapper_notes": "Solid second on heavy turf at Bendigo last start. Strips fitter and has a great record on wet tracks. Major player.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Zoom",
+                        "handicapper_notes": "Solid third over hurdles last start. Flat form has been below par recently, but wet track record is solid.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "9",
+                        "horse_name": "Reddivo",
+                        "handicapper_notes": "Excellent second on heavy turf at Geelong last start. Strips fitter and loves the heavy turf. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Motiver",
+                        "handicapper_notes": "Solid third on heavy turf at Geelong last start. Fitter for recent runs and has drawn perfectly. Strong chance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Golden Garden",
+                        "handicapper_notes": "Scored a dominant win over steeples last start. This is tougher back on the flat, but he is in great form.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "4",
+                        "horse_name": "Eyes To Me",
+                        "handicapper_notes": "Solid second on heavy turf at Mt Gambier last start. Consistent performer who must be respected.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "Brave Eight",
+                        "handicapper_notes": "Struggled last start at Coleraine. Needs to improve sharply to threaten here.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "9",
+                    "name": "Reddivo",
+                    "rating": 88.0,
+                    "reason": "Excellent second on heavy turf at Geelong last start. Strips fitter and loves the heavy turf. The one to beat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "10",
+                    "name": "Lodbrok",
+                    "rating": 85.0,
+                    "reason": "Solid second on heavy turf at Bendigo last start. Strips fitter and has a great record on wet tracks. Major player."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Motiver",
+                    "rating": 85.0,
+                    "reason": "Solid third on heavy turf at Geelong last start. Fitter for recent runs and has drawn perfectly. Strong chance. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Eyes To Me",
+                    "rating": 80.0,
+                    "reason": "Solid second on heavy turf at Mt Gambier last start. Consistent performer who must be respected."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "3",
+                "name": "Golden Garden",
+                "rating": 78.0,
+                "reason": "Scored a dominant win over steeples last start. This is tougher back on the flat, but he is in great form."
+            }
+        }
+    ]
+}

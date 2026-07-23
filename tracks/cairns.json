@@ -1,0 +1,34 @@
+{
+    "location": "Cannon Park, Woree, FNQ, Australia",
+    "region_group": "Australia_Thoroughbred",
+    "jurisdiction": "QLD",
+    "track_type": "Turf",
+    "circumference_m": 1750,
+    "home_straight_m": 230,
+    "direction": "Clockwise",
+    "track_characteristics": {
+        "shape": "Oval with short, tight home straight and sharp turns",
+        "turn_bias": "Heavy bias towards runners positioned on or near the speed due to short 230m straight",
+        "soil_type": "Loam / Sand-based Turf (Drains moderately well in tropical weather)",
+        "cutaway_rail_used": true
+    },
+    "bias_notes": {
+        "general": "Short home straight makes it extremely difficult for backmarkers to make up ground late unless pace is frantic.",
+        "barrier_impact": {
+            "sprints_upto_1250m": "Inside to middle barriers (1-6) hold a significant advantage with short runs to the first turn.",
+            "mile_1400m_1900m": "Barriers 1-5 favoured to secure an economical run on the rail before the tight back straight turn."
+        },
+        "running_styles": {
+            "leader": "High Advantage - Lone leaders on tight turns dominate",
+            "on_pace": "Strong Advantage - Needs to be top 3 at the 400m mark",
+            "midfield": "Moderate Disadvantage - Requires early movement before the home turn",
+            "backmarker": "Severe Disadvantage - Rarely wins without extreme pace battles up front"
+        }
+    },
+    "default_weights": {
+        "lone_speed_bonus": 4.5,
+        "trouble_trip_bonus": 3.0,
+        "sprint_route_bonus": -2.0,
+        "class_offset": 0.0
+    }
+}

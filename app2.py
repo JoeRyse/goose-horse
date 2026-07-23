@@ -693,7 +693,25 @@ Return ONLY a valid JSON array. No Markdown blocks.
                     st.session_state.raw_response = response.text
 
                     json_str = clean_json_string(response.text)
-                    raw_extracted_data = json.loads(json_str)
+
+                    # --- BULLETPROOF JSON REPAIR ENGINE ---
+                    try:
+                        raw_extracted_data = json.loads(json_str)
+                    except json.JSONDecodeError:
+                        # 1. Remove rogue trailing commas before closing brackets/braces
+                        fixed_json = re.sub(r',\s*([\]}])', r'\1', json_str)
+                        # 2. Fix unescaped control characters/newlines inside string quotes
+                        fixed_json = re.sub(r'[\r\n\t]+', ' ', fixed_json)
+                        
+                        try:
+                            raw_extracted_data = json.loads(fixed_json)
+                        except json.JSONDecodeError as e:
+                            # If standard fixes fail, fallback to regex extraction for JSON arrays
+                            match = re.search(r'\[\s*\{.*\}\s*\]', json_str, re.DOTALL)
+                            if match:
+                                raw_extracted_data = json.loads(match.group(0))
+                            else:
+                                raise e
 
                     track_weights = {"lone_speed_bonus": 3, "trouble_trip_bonus": 2, "sprint_route_bonus": -2}
                     try:
