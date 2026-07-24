@@ -14,17 +14,17 @@
                 "race_number": 1,
                 "distance_surface": "7 Furlongs Dirt",
                 "confidence_level": "High",
-                "suggested_wager": "Exacta Box 7, 2, 5",
+                "suggested_wager": "Exacta Box 2, 5, 7",
                 "contenders": [
                     {
                         "program_number": "7",
                         "barrier": "7",
                         "horse_name": "Two By Two By Two",
-                        "handicapper_notes": "Top choice for Brad Cox and Irad Ortiz Jr. Transitioning back to dirt where she ran a solid third at Saratoga last summer.",
+                        "handicapper_notes": "Top contender for the powerful Brad Cox and Irad Ortiz Jr. connection. Moves back to dirt where she has run well in the past.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 92,
+                            "ai_holistic_score": 94,
                             "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "Route to Sprint",
@@ -36,12 +36,12 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Babcie",
-                        "handicapper_notes": "Class Drop Elevator applied. Drops from MSW to MCL20k. Alvarado takes the mount for Giddings.",
+                        "handicapper_notes": "Class Drop Elevator bonus applied. Massive drop from MSW to MCL. Junior Alvarado takes the mount.",
                         "features": {
                             "class_drop_bonus_applied": true,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 88,
-                            "running_style": "S",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "Sprint to Sprint",
                             "trouble_trip": "None",
@@ -52,27 +52,27 @@
                         "program_number": "5",
                         "barrier": "5",
                         "horse_name": "Camille's Legacy",
-                        "handicapper_notes": "Lone Speed (+6) applied. Projected to control the pace from the start under Katie Davis.",
+                        "handicapper_notes": "Consistent tactical speed on dirt. Switched out and finished well last time.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Lone Speed (+6)",
-                            "ai_holistic_score": 82,
-                            "running_style": "E",
-                            "is_lone_speed": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
                             "distance_transition": "Sprint to Sprint",
                             "trouble_trip": "None",
-                            "is_danger_horse": false
+                            "is_danger_horse": true
                         }
                     },
                     {
                         "program_number": "3",
                         "barrier": "3",
                         "horse_name": "Hanna's Hideaway",
-                        "handicapper_notes": "Consistent dirt sprinter who finished third in a muddy MCL25k last out. Stalker style fits well.",
+                        "handicapper_notes": "Solid dirt form with a 3rd place finish last out. Jaime Rodriguez rides.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 80,
+                            "ai_holistic_score": 86,
                             "running_style": "S",
                             "is_lone_speed": false,
                             "distance_transition": "Sprint to Sprint",
@@ -84,11 +84,11 @@
                         "program_number": "6",
                         "barrier": "6",
                         "horse_name": "Big Jackie",
-                        "handicapper_notes": "Class Drop Elevator applied. Drops from MSW to MCL20k. Zayas takes the mount.",
+                        "handicapper_notes": "Class Drop Elevator bonus applied. Dropping from MSW to MCL. Edgard Zayas up.",
                         "features": {
                             "class_drop_bonus_applied": true,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 78,
+                            "ai_holistic_score": 85,
                             "running_style": "S",
                             "is_lone_speed": false,
                             "distance_transition": "Route to Sprint",
@@ -100,11 +100,11 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "All Fun N Games",
-                        "handicapper_notes": "Transitioning from turf route to dirt sprint. Has some minor dirt form at Finger Lakes.",
+                        "handicapper_notes": "Moving from turf route to dirt sprint. Practical Joke filly has some speed figures that fit.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 70,
+                            "ai_holistic_score": 81,
                             "running_style": "S",
                             "is_lone_speed": false,
                             "distance_transition": "Route to Sprint",
@@ -119,36 +119,36 @@
                     "number": "7",
                     "barrier": "7",
                     "name": "Two By Two By Two",
-                    "rating": 92.0,
-                    "reason": "Top choice for Brad Cox and Irad Ortiz Jr. Transitioning back to dirt where she ran a solid third at Saratoga last summer. | <i>\ud83d\udccf Route to Sprint</i>"
+                    "rating": 94.0,
+                    "reason": "Top contender for the powerful Brad Cox and Irad Ortiz Jr. connection. Moves back to dirt where she has run well in the past. | <i>\ud83d\udccf Route to Sprint</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Babcie",
-                    "rating": 88.0,
-                    "reason": "Class Drop Elevator applied. Drops from MSW to MCL20k. Alvarado takes the mount for Giddings. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
-                },
-                {
-                    "number": "6",
-                    "barrier": "6",
-                    "name": "Big Jackie",
-                    "rating": 86.0,
-                    "reason": "Class Drop Elevator applied. Drops from MSW to MCL20k. Zayas takes the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator bonus applied. Massive drop from MSW to MCL. Junior Alvarado takes the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Camille's Legacy",
-                    "rating": 85.0,
-                    "reason": "Lone Speed (+6) applied. Projected to control the pace from the start under Katie Davis. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 87.0,
+                    "reason": "Consistent tactical speed on dirt. Switched out and finished well last time. | <i>\ud83d\udccf Sprint to Sprint</i>"
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Hanna's Hideaway",
-                    "rating": 80.0,
-                    "reason": "Consistent dirt sprinter who finished third in a muddy MCL25k last out. Stalker style fits well. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 86.0,
+                    "reason": "Solid dirt form with a 3rd place finish last out. Jaime Rodriguez rides. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Big Jackie",
+                    "rating": 85.0,
+                    "reason": "Class Drop Elevator bonus applied. Dropping from MSW to MCL. Edgard Zayas up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
                 }
             ],
             "all_contenders": [
@@ -156,53 +156,53 @@
                     "number": "7",
                     "barrier": "7",
                     "name": "Two By Two By Two",
-                    "rating": 92.0,
-                    "reason": "Top choice for Brad Cox and Irad Ortiz Jr. Transitioning back to dirt where she ran a solid third at Saratoga last summer. | <i>\ud83d\udccf Route to Sprint</i>"
+                    "rating": 94.0,
+                    "reason": "Top contender for the powerful Brad Cox and Irad Ortiz Jr. connection. Moves back to dirt where she has run well in the past. | <i>\ud83d\udccf Route to Sprint</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Babcie",
-                    "rating": 88.0,
-                    "reason": "Class Drop Elevator applied. Drops from MSW to MCL20k. Alvarado takes the mount for Giddings. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
-                },
-                {
-                    "number": "6",
-                    "barrier": "6",
-                    "name": "Big Jackie",
-                    "rating": 86.0,
-                    "reason": "Class Drop Elevator applied. Drops from MSW to MCL20k. Zayas takes the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator bonus applied. Massive drop from MSW to MCL. Junior Alvarado takes the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Camille's Legacy",
-                    "rating": 85.0,
-                    "reason": "Lone Speed (+6) applied. Projected to control the pace from the start under Katie Davis. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 87.0,
+                    "reason": "Consistent tactical speed on dirt. Switched out and finished well last time. | <i>\ud83d\udccf Sprint to Sprint</i>"
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Hanna's Hideaway",
-                    "rating": 80.0,
-                    "reason": "Consistent dirt sprinter who finished third in a muddy MCL25k last out. Stalker style fits well. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 86.0,
+                    "reason": "Solid dirt form with a 3rd place finish last out. Jaime Rodriguez rides. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Big Jackie",
+                    "rating": 85.0,
+                    "reason": "Class Drop Elevator bonus applied. Dropping from MSW to MCL. Edgard Zayas up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "All Fun N Games",
-                    "rating": 70.0,
-                    "reason": "Transitioning from turf route to dirt sprint. Has some minor dirt form at Finger Lakes. | <i>\ud83d\udccf Route to Sprint</i>"
+                    "rating": 81.0,
+                    "reason": "Moving from turf route to dirt sprint. Practical Joke filly has some speed figures that fit. | <i>\ud83d\udccf Route to Sprint</i>"
                 }
             ],
             "danger_horse": {
-                "number": "2",
-                "barrier": "2",
-                "name": "Babcie",
-                "rating": 88.0,
-                "reason": "Class Drop Elevator applied. Drops from MSW to MCL20k. Alvarado takes the mount for Giddings. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                "number": "5",
+                "barrier": "5",
+                "name": "Camille's Legacy",
+                "rating": 87.0,
+                "reason": "Consistent tactical speed on dirt. Switched out and finished well last time. | <i>\ud83d\udccf Sprint to Sprint</i>"
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#7 Two By Two By Two</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #2, #6<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #2, #6"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#7 Two By Two By Two</b><br><b>\u2694\ufe0f STRAIGHT EXACTA BOX:</b> #7 with #2<br><b>\u26a0\ufe0f SAVER EXACTA:</b> Key #5 in 2nd position (#7, #2 / #5)<br><b>\ud83c\udfaa TRIFECTA KEY:</b> #7, #2 / #7, #2 / #5"
         },
         {
             "number": 2,
@@ -213,21 +213,21 @@
                 "race_number": 2,
                 "distance_surface": "1 1/16 Miles Turf",
                 "confidence_level": "Medium",
-                "suggested_wager": "Exacta Box 2, 3, 7",
+                "suggested_wager": "Exacta Box 3, 5, 7",
                 "contenders": [
                     {
                         "program_number": "7",
                         "barrier": "7",
                         "horse_name": "Just Peachy",
-                        "handicapper_notes": "Strong debut on turf at Aqueduct earning a massive 118 class rating. Prat rides for Brisset. Major threat stretching out.",
+                        "handicapper_notes": "The clear horse to beat with proven turf routing form. Ran a massive second on debut with a 118 speed figure. Flavien Prat retains the mount.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Tactical",
                             "ai_holistic_score": 92,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Route",
-                            "trouble_trip": "Bumped start",
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
                             "is_danger_horse": false
                         }
                     },
@@ -235,14 +235,46 @@
                         "program_number": "3",
                         "barrier": "3",
                         "horse_name": "Conflict",
-                        "handicapper_notes": "First-time starter by Golden Pal for Brad Cox and Irad Ortiz. Draws the advantageous post 3 on the inner turf.",
+                        "handicapper_notes": "Elite first-time starter for Brad Cox and Irad Ortiz Jr. Sired by turf speed champion Golden Pal. Expect tactical speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical",
+                            "ai_holistic_score": 88,
+                            "running_style": "FTS",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Margie's Girl",
+                        "handicapper_notes": "Classy McPeek trainee transitioning from dirt to turf. Already placed at Saratoga this meet. Pedigree suggests she can handle the grass.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Celebrate",
+                        "handicapper_notes": "Pletcher debutante with a sensational turf pedigree (Medaglia d'Oro out of a Tapit mare). Johnny Velazquez aboard.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 90,
+                            "ai_holistic_score": 85,
                             "running_style": "FTS",
                             "is_lone_speed": false,
-                            "distance_transition": "First Time Starter",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -251,62 +283,30 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Mandy Steph",
-                        "handicapper_notes": "Clement-trained firster by Constitution with excellent turf route pedigree. Inside post 2 is a massive advantage here.",
+                        "handicapper_notes": "Clement-trained newcomer by Constitution. Clement excels with turf route juveniles and Manny Franco is a top local rider.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 88,
+                            "ai_holistic_score": 84,
                             "running_style": "FTS",
                             "is_lone_speed": false,
-                            "distance_transition": "First Time Starter",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
                     },
                     {
-                        "program_number": "5",
-                        "barrier": "5",
-                        "horse_name": "Margie's Girl",
-                        "handicapper_notes": "McPeek trainee has two solid dirt sprints under her belt. Vekoma pedigree suggests turf routing capability.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical",
-                            "ai_holistic_score": 87,
-                            "running_style": "P",
-                            "is_lone_speed": false,
-                            "distance_transition": "Sprint to Route",
-                            "trouble_trip": "None",
-                            "is_danger_horse": true
-                        }
-                    },
-                    {
-                        "program_number": "8",
-                        "barrier": "8",
-                        "horse_name": "Celebrate",
-                        "handicapper_notes": "Pletcher first-time starter by Medaglia d'Oro. Bred to go all day on the grass. Velazquez aboard.",
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Miss Ma'am",
+                        "handicapper_notes": "Draws the rail which is a massive advantage on the tight SAR inner turf course. Should save ground throughout.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 85,
-                            "running_style": "FTS",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
                             "is_lone_speed": false,
-                            "distance_transition": "First Time Starter",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "4",
-                        "barrier": "4",
-                        "horse_name": "Harmony Mill",
-                        "handicapper_notes": "First-time starter by Liam's Map for Raymond Handal. Steady turf works at Saratoga.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 81,
-                            "running_style": "FTS",
-                            "is_lone_speed": false,
-                            "distance_transition": "First Time Starter",
+                            "distance_transition": "Dirt to Turf",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -319,35 +319,35 @@
                     "barrier": "7",
                     "name": "Just Peachy",
                     "rating": 92.0,
-                    "reason": "Strong debut on turf at Aqueduct earning a massive 118 class rating. Prat rides for Brisset. Major threat stretching out. | <i>\u26a0\ufe0f Bumped start \u2022 \ud83d\udccf Sprint to Route</i>"
+                    "reason": "The clear horse to beat with proven turf routing form. Ran a massive second on debut with a 118 speed figure. Flavien Prat retains the mount."
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Conflict",
-                    "rating": 90.0,
-                    "reason": "First-time starter by Golden Pal for Brad Cox and Irad Ortiz. Draws the advantageous post 3 on the inner turf. | <i>\ud83d\udccf First Time Starter</i>"
-                },
-                {
-                    "number": "2",
-                    "barrier": "2",
-                    "name": "Mandy Steph",
                     "rating": 88.0,
-                    "reason": "Clement-trained firster by Constitution with excellent turf route pedigree. Inside post 2 is a massive advantage here. | <i>\ud83d\udccf First Time Starter</i>"
+                    "reason": "Elite first-time starter for Brad Cox and Irad Ortiz Jr. Sired by turf speed champion Golden Pal. Expect tactical speed."
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Margie's Girl",
-                    "rating": 87.0,
-                    "reason": "McPeek trainee has two solid dirt sprints under her belt. Vekoma pedigree suggests turf routing capability. | <i>\ud83d\udccf Sprint to Route</i>"
+                    "rating": 86.0,
+                    "reason": "Classy McPeek trainee transitioning from dirt to turf. Already placed at Saratoga this meet. Pedigree suggests she can handle the grass."
                 },
                 {
                     "number": "8",
                     "barrier": "8",
                     "name": "Celebrate",
                     "rating": 85.0,
-                    "reason": "Pletcher first-time starter by Medaglia d'Oro. Bred to go all day on the grass. Velazquez aboard. | <i>\ud83d\udccf First Time Starter</i>"
+                    "reason": "Pletcher debutante with a sensational turf pedigree (Medaglia d'Oro out of a Tapit mare). Johnny Velazquez aboard."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mandy Steph",
+                    "rating": 84.0,
+                    "reason": "Clement-trained newcomer by Constitution. Clement excels with turf route juveniles and Manny Franco is a top local rider."
                 }
             ],
             "all_contenders": [
@@ -356,90 +356,74 @@
                     "barrier": "7",
                     "name": "Just Peachy",
                     "rating": 92.0,
-                    "reason": "Strong debut on turf at Aqueduct earning a massive 118 class rating. Prat rides for Brisset. Major threat stretching out. | <i>\u26a0\ufe0f Bumped start \u2022 \ud83d\udccf Sprint to Route</i>"
+                    "reason": "The clear horse to beat with proven turf routing form. Ran a massive second on debut with a 118 speed figure. Flavien Prat retains the mount."
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Conflict",
-                    "rating": 90.0,
-                    "reason": "First-time starter by Golden Pal for Brad Cox and Irad Ortiz. Draws the advantageous post 3 on the inner turf. | <i>\ud83d\udccf First Time Starter</i>"
-                },
-                {
-                    "number": "2",
-                    "barrier": "2",
-                    "name": "Mandy Steph",
                     "rating": 88.0,
-                    "reason": "Clement-trained firster by Constitution with excellent turf route pedigree. Inside post 2 is a massive advantage here. | <i>\ud83d\udccf First Time Starter</i>"
+                    "reason": "Elite first-time starter for Brad Cox and Irad Ortiz Jr. Sired by turf speed champion Golden Pal. Expect tactical speed."
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Margie's Girl",
-                    "rating": 87.0,
-                    "reason": "McPeek trainee has two solid dirt sprints under her belt. Vekoma pedigree suggests turf routing capability. | <i>\ud83d\udccf Sprint to Route</i>"
+                    "rating": 86.0,
+                    "reason": "Classy McPeek trainee transitioning from dirt to turf. Already placed at Saratoga this meet. Pedigree suggests she can handle the grass."
                 },
                 {
                     "number": "8",
                     "barrier": "8",
                     "name": "Celebrate",
                     "rating": 85.0,
-                    "reason": "Pletcher first-time starter by Medaglia d'Oro. Bred to go all day on the grass. Velazquez aboard. | <i>\ud83d\udccf First Time Starter</i>"
+                    "reason": "Pletcher debutante with a sensational turf pedigree (Medaglia d'Oro out of a Tapit mare). Johnny Velazquez aboard."
                 },
                 {
-                    "number": "4",
-                    "barrier": "4",
-                    "name": "Harmony Mill",
-                    "rating": 81.0,
-                    "reason": "First-time starter by Liam's Map for Raymond Handal. Steady turf works at Saratoga. | <i>\ud83d\udccf First Time Starter</i>"
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mandy Steph",
+                    "rating": 84.0,
+                    "reason": "Clement-trained newcomer by Constitution. Clement excels with turf route juveniles and Manny Franco is a top local rider."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Miss Ma'am",
+                    "rating": 80.0,
+                    "reason": "Draws the rail which is a massive advantage on the tight SAR inner turf course. Should save ground throughout. | <i>\ud83d\udccf Dirt to Turf</i>"
                 }
             ],
             "danger_horse": {
-                "number": "5",
-                "barrier": "5",
-                "name": "Margie's Girl",
-                "rating": 87.0,
-                "reason": "McPeek trainee has two solid dirt sprints under her belt. Vekoma pedigree suggests turf routing capability. | <i>\ud83d\udccf Sprint to Route</i>"
+                "number": "3",
+                "barrier": "3",
+                "name": "Conflict",
+                "rating": 88.0,
+                "reason": "Elite first-time starter for Brad Cox and Irad Ortiz Jr. Sired by turf speed champion Golden Pal. Expect tactical speed."
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / tight field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #3, #5 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #3, #5"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#7 Just Peachy</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #3, #5<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #3, #5"
         },
         {
             "number": 3,
             "distance": "1 Mile Dirt",
             "surface": "Dirt",
-            "confidence_level": "High",
+            "confidence_level": "Medium-High",
             "raw_features_dump": {
                 "race_number": 3,
                 "distance_surface": "1 Mile Dirt",
-                "confidence_level": "High",
+                "confidence_level": "Medium-High",
                 "suggested_wager": "Exacta Box 6, 8, 9",
                 "contenders": [
                     {
                         "program_number": "6",
                         "barrier": "6",
                         "horse_name": "My Gun's Loaded",
-                        "handicapper_notes": "Sensational winner of her Saratoga debut on June 6 for Chad Brown. Boasts the highest speed figure in the field and has massive upside.",
+                        "handicapper_notes": "Impressive winner at Saratoga on June 6 for Chad Brown. Steps up to allowance company but has massive upside.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 94,
+                            "ai_holistic_score": 92,
                             "running_style": "P",
-                            "is_lone_speed": false,
-                            "distance_transition": "Sprint to Route",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "8",
-                        "barrier": "8",
-                        "horse_name": "Bow Draw",
-                        "handicapper_notes": "Enters off a dominant 9-length victory over this track on July 9. Jose Ortiz rides for Steve Asmussen and will likely press the pace.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 88,
-                            "running_style": "E/P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -450,11 +434,59 @@
                         "program_number": "9",
                         "barrier": "9",
                         "horse_name": "Soundbite",
-                        "handicapper_notes": "Gets a massive jockey upgrade to Irad Ortiz, Jr. Consistently runs speed figures in the low 100s and should get a perfect stalking trip.",
+                        "handicapper_notes": "Massive value at 10-1 morning line. Gets Irad Ortiz Jr. and posted a field-best 91 speed figure last out.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 86,
+                            "ai_holistic_score": 90,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Bow Draw",
+                        "handicapper_notes": "First start for Asmussen after a dominant 9-length win here on July 9. Must be respected.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Krissys Star",
+                        "handicapper_notes": "Consistent early speed runner who should be prominent from the start. Solid exotic candidate.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lika Rolling Stone",
+                        "handicapper_notes": "Significant class relief after contesting the Grade 2 Molly Pitcher last out. Back class makes her a threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
                             "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
@@ -466,44 +498,12 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Bernieandtherose",
-                        "handicapper_notes": "Possesses strong back class as a multiple stakes winner in early 2025. If she can recapture that form, she is a major threat at a price.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 82,
-                            "running_style": "E",
-                            "is_lone_speed": false,
-                            "distance_transition": "Sprint to Route",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "5",
-                        "barrier": "5",
-                        "horse_name": "Krissys Star",
-                        "handicapper_notes": "Consistent performer who finished a solid second in a tough Belmont allowance last time out. Jaime Rodriguez rides.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 80,
-                            "running_style": "E/P",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "7",
-                        "barrier": "7",
-                        "horse_name": "Lika Rolling Stone",
-                        "handicapper_notes": "Deep closer who will need a hot pace to set up her late run. Best used in underneath exotic slots.",
+                        "handicapper_notes": "State-bred stakes winner from last year looking to regain form. Needs to bounce back.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 78,
-                            "running_style": "S",
+                            "running_style": "E/P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -517,36 +517,36 @@
                     "number": "6",
                     "barrier": "6",
                     "name": "My Gun's Loaded",
-                    "rating": 94.0,
-                    "reason": "Sensational winner of her Saratoga debut on June 6 for Chad Brown. Boasts the highest speed figure in the field and has massive upside. | <i>\ud83d\udccf Sprint to Route</i>"
-                },
-                {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Bow Draw",
-                    "rating": 88.0,
-                    "reason": "Enters off a dominant 9-length victory over this track on July 9. Jose Ortiz rides for Steve Asmussen and will likely press the pace."
+                    "rating": 92.0,
+                    "reason": "Impressive winner at Saratoga on June 6 for Chad Brown. Steps up to allowance company but has massive upside."
                 },
                 {
                     "number": "9",
                     "barrier": "9",
                     "name": "Soundbite",
-                    "rating": 86.0,
-                    "reason": "Gets a massive jockey upgrade to Irad Ortiz, Jr. Consistently runs speed figures in the low 100s and should get a perfect stalking trip."
+                    "rating": 90.0,
+                    "reason": "Massive value at 10-1 morning line. Gets Irad Ortiz Jr. and posted a field-best 91 speed figure last out."
                 },
                 {
-                    "number": "2",
-                    "barrier": "2",
-                    "name": "Bernieandtherose",
-                    "rating": 82.0,
-                    "reason": "Possesses strong back class as a multiple stakes winner in early 2025. If she can recapture that form, she is a major threat at a price. | <i>\ud83d\udccf Sprint to Route</i>"
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Bow Draw",
+                    "rating": 87.0,
+                    "reason": "First start for Asmussen after a dominant 9-length win here on July 9. Must be respected."
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Krissys Star",
-                    "rating": 80.0,
-                    "reason": "Consistent performer who finished a solid second in a tough Belmont allowance last time out. Jaime Rodriguez rides."
+                    "rating": 85.0,
+                    "reason": "Consistent early speed runner who should be prominent from the start. Solid exotic candidate."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lika Rolling Stone",
+                    "rating": 83.0,
+                    "reason": "Significant class relief after contesting the Grade 2 Molly Pitcher last out. Back class makes her a threat."
                 }
             ],
             "all_contenders": [
@@ -554,93 +554,77 @@
                     "number": "6",
                     "barrier": "6",
                     "name": "My Gun's Loaded",
-                    "rating": 94.0,
-                    "reason": "Sensational winner of her Saratoga debut on June 6 for Chad Brown. Boasts the highest speed figure in the field and has massive upside. | <i>\ud83d\udccf Sprint to Route</i>"
-                },
-                {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Bow Draw",
-                    "rating": 88.0,
-                    "reason": "Enters off a dominant 9-length victory over this track on July 9. Jose Ortiz rides for Steve Asmussen and will likely press the pace."
+                    "rating": 92.0,
+                    "reason": "Impressive winner at Saratoga on June 6 for Chad Brown. Steps up to allowance company but has massive upside."
                 },
                 {
                     "number": "9",
                     "barrier": "9",
                     "name": "Soundbite",
-                    "rating": 86.0,
-                    "reason": "Gets a massive jockey upgrade to Irad Ortiz, Jr. Consistently runs speed figures in the low 100s and should get a perfect stalking trip."
+                    "rating": 90.0,
+                    "reason": "Massive value at 10-1 morning line. Gets Irad Ortiz Jr. and posted a field-best 91 speed figure last out."
                 },
                 {
-                    "number": "2",
-                    "barrier": "2",
-                    "name": "Bernieandtherose",
-                    "rating": 82.0,
-                    "reason": "Possesses strong back class as a multiple stakes winner in early 2025. If she can recapture that form, she is a major threat at a price. | <i>\ud83d\udccf Sprint to Route</i>"
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Bow Draw",
+                    "rating": 87.0,
+                    "reason": "First start for Asmussen after a dominant 9-length win here on July 9. Must be respected."
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Krissys Star",
-                    "rating": 80.0,
-                    "reason": "Consistent performer who finished a solid second in a tough Belmont allowance last time out. Jaime Rodriguez rides."
+                    "rating": 85.0,
+                    "reason": "Consistent early speed runner who should be prominent from the start. Solid exotic candidate."
                 },
                 {
                     "number": "7",
                     "barrier": "7",
                     "name": "Lika Rolling Stone",
+                    "rating": 83.0,
+                    "reason": "Significant class relief after contesting the Grade 2 Molly Pitcher last out. Back class makes her a threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bernieandtherose",
                     "rating": 78.0,
-                    "reason": "Deep closer who will need a hot pace to set up her late run. Best used in underneath exotic slots."
+                    "reason": "State-bred stakes winner from last year looking to regain form. Needs to bounce back."
                 }
             ],
             "danger_horse": {
-                "number": "9",
-                "barrier": "9",
-                "name": "Soundbite",
-                "rating": 86.0,
-                "reason": "Gets a massive jockey upgrade to Irad Ortiz, Jr. Consistently runs speed figures in the low 100s and should get a perfect stalking trip."
+                "number": "7",
+                "barrier": "7",
+                "name": "Lika Rolling Stone",
+                "rating": 83.0,
+                "reason": "Significant class relief after contesting the Grade 2 Molly Pitcher last out. Back class makes her a threat."
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 My Gun's Loaded</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #6 over (#8, #9)<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #6 / (#8, #9) / (#8, #9, #2)"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 My Gun's Loaded</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #9, #7 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #9, #7"
         },
         {
             "number": 4,
             "distance": "1 Mile Dirt",
             "surface": "Dirt",
-            "confidence_level": "High",
+            "confidence_level": "Medium",
             "raw_features_dump": {
                 "race_number": 4,
                 "distance_surface": "1 Mile Dirt",
-                "confidence_level": "High",
-                "suggested_wager": "Exacta Box 3, 7, 8",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 4, 8",
                 "contenders": [
-                    {
-                        "program_number": "7",
-                        "barrier": "7",
-                        "horse_name": "Rungius",
-                        "handicapper_notes": "Class Drop Elevator applied. Dropping from AOC115000 to CLM20000 is a massive class relief. Bruce Levine trainee is primed for a big effort.",
-                        "features": {
-                            "class_drop_bonus_applied": true,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 95,
-                            "running_style": "P",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
                     {
                         "program_number": "8",
                         "barrier": "8",
                         "horse_name": "Neon Bordeaux",
-                        "handicapper_notes": "Class Drop Elevator applied. Dropping from ALW49000 to CLM20000. Dutrow trainee gets Flavien Prat and should relish this field.",
+                        "handicapper_notes": "Class Drop Elevator applied. Dropping from LRL Allowance to Claiming 20k. Flavien Prat rides for Richard Dutrow, making this one the horse to beat.",
                         "features": {
                             "class_drop_bonus_applied": true,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 94,
-                            "running_style": "S",
+                            "ai_holistic_score": 92,
+                            "running_style": "S/C",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -649,46 +633,62 @@
                         "program_number": "3",
                         "barrier": "3",
                         "horse_name": "Get A Job",
-                        "handicapper_notes": "Class Drop Elevator applied. Dropping from ALW88000 to CLM20000. Linda Rice trainee has back class and early speed.",
+                        "handicapper_notes": "Class Drop Elevator applied. Massive drop from ALW88000. Loves Saratoga but must overcome a long layoff.",
                         "features": {
                             "class_drop_bonus_applied": true,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 92,
+                            "ai_holistic_score": 88,
                             "running_style": "E/P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Rungius",
+                        "handicapper_notes": "Returns from a long layoff for Bruce Levine. Has back class on both dirt and turf. Stalker style fits the Saratoga route profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
                         }
                     },
                     {
                         "program_number": "4",
                         "barrier": "4",
                         "horse_name": "Awesome Empire",
-                        "handicapper_notes": "Consistent performer at this level. Should sit a good tactical trip under Jose Ortiz.",
+                        "handicapper_notes": "Consistent performer at this level. Jose Ortiz aboard is a big plus. Expected to be near the pace early.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 83,
+                            "ai_holistic_score": 84,
                             "running_style": "E/P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Sprint to Route",
                             "trouble_trip": "None",
-                            "is_danger_horse": true
+                            "is_danger_horse": false
                         }
                     },
                     {
                         "program_number": "6",
                         "barrier": "6",
                         "horse_name": "Hours In A Day",
-                        "handicapper_notes": "Linda Rice trainee who has run well at Saratoga before. Closer style fits if the pace gets hot.",
+                        "handicapper_notes": "Linda Rice trainee who should appreciate the drop back to Saratoga. Stalker style could benefit if the pace gets hot.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 80,
-                            "running_style": "S",
+                            "ai_holistic_score": 82,
+                            "running_style": "S/C",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -697,14 +697,14 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Authentic Gallop",
-                        "handicapper_notes": "Joe Sharp trainee who has shown ability on off-tracks but needs to improve on fast dirt.",
+                        "handicapper_notes": "Kendrick Carmouche takes the mount. Needs to recapture winter form from Delta Downs to compete here.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 78,
-                            "running_style": "S",
+                            "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Turf to Dirt",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -713,117 +713,117 @@
             },
             "selections": [
                 {
-                    "number": "7",
-                    "barrier": "7",
-                    "name": "Rungius",
-                    "rating": 95.0,
-                    "reason": "Class Drop Elevator applied. Dropping from AOC115000 to CLM20000 is a massive class relief. Bruce Levine trainee is primed for a big effort. | <i>\ud83d\udd3b Class Drop</i>"
-                },
-                {
                     "number": "8",
                     "barrier": "8",
                     "name": "Neon Bordeaux",
-                    "rating": 94.0,
-                    "reason": "Class Drop Elevator applied. Dropping from ALW49000 to CLM20000. Dutrow trainee gets Flavien Prat and should relish this field. | <i>\ud83d\udd3b Class Drop</i>"
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator applied. Dropping from LRL Allowance to Claiming 20k. Flavien Prat rides for Richard Dutrow, making this one the horse to beat. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Get A Job",
-                    "rating": 92.0,
-                    "reason": "Class Drop Elevator applied. Dropping from ALW88000 to CLM20000. Linda Rice trainee has back class and early speed. | <i>\ud83d\udd3b Class Drop</i>"
+                    "rating": 88.0,
+                    "reason": "Class Drop Elevator applied. Massive drop from ALW88000. Loves Saratoga but must overcome a long layoff. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Rungius",
+                    "rating": 85.0,
+                    "reason": "Returns from a long layoff for Bruce Levine. Has back class on both dirt and turf. Stalker style fits the Saratoga route profile. | <i>\ud83d\udccf Turf to Dirt</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Awesome Empire",
-                    "rating": 83.0,
-                    "reason": "Consistent performer at this level. Should sit a good tactical trip under Jose Ortiz."
+                    "rating": 84.0,
+                    "reason": "Consistent performer at this level. Jose Ortiz aboard is a big plus. Expected to be near the pace early. | <i>\ud83d\udccf Sprint to Route</i>"
                 },
                 {
                     "number": "6",
                     "barrier": "6",
                     "name": "Hours In A Day",
-                    "rating": 80.0,
-                    "reason": "Linda Rice trainee who has run well at Saratoga before. Closer style fits if the pace gets hot."
+                    "rating": 82.0,
+                    "reason": "Linda Rice trainee who should appreciate the drop back to Saratoga. Stalker style could benefit if the pace gets hot. | <i>\ud83d\udccf Route to Route</i>"
                 }
             ],
             "all_contenders": [
                 {
-                    "number": "7",
-                    "barrier": "7",
-                    "name": "Rungius",
-                    "rating": 95.0,
-                    "reason": "Class Drop Elevator applied. Dropping from AOC115000 to CLM20000 is a massive class relief. Bruce Levine trainee is primed for a big effort. | <i>\ud83d\udd3b Class Drop</i>"
-                },
-                {
                     "number": "8",
                     "barrier": "8",
                     "name": "Neon Bordeaux",
-                    "rating": 94.0,
-                    "reason": "Class Drop Elevator applied. Dropping from ALW49000 to CLM20000. Dutrow trainee gets Flavien Prat and should relish this field. | <i>\ud83d\udd3b Class Drop</i>"
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator applied. Dropping from LRL Allowance to Claiming 20k. Flavien Prat rides for Richard Dutrow, making this one the horse to beat. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Get A Job",
-                    "rating": 92.0,
-                    "reason": "Class Drop Elevator applied. Dropping from ALW88000 to CLM20000. Linda Rice trainee has back class and early speed. | <i>\ud83d\udd3b Class Drop</i>"
+                    "rating": 88.0,
+                    "reason": "Class Drop Elevator applied. Massive drop from ALW88000. Loves Saratoga but must overcome a long layoff. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Rungius",
+                    "rating": 85.0,
+                    "reason": "Returns from a long layoff for Bruce Levine. Has back class on both dirt and turf. Stalker style fits the Saratoga route profile. | <i>\ud83d\udccf Turf to Dirt</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Awesome Empire",
-                    "rating": 83.0,
-                    "reason": "Consistent performer at this level. Should sit a good tactical trip under Jose Ortiz."
+                    "rating": 84.0,
+                    "reason": "Consistent performer at this level. Jose Ortiz aboard is a big plus. Expected to be near the pace early. | <i>\ud83d\udccf Sprint to Route</i>"
                 },
                 {
                     "number": "6",
                     "barrier": "6",
                     "name": "Hours In A Day",
-                    "rating": 80.0,
-                    "reason": "Linda Rice trainee who has run well at Saratoga before. Closer style fits if the pace gets hot."
+                    "rating": 82.0,
+                    "reason": "Linda Rice trainee who should appreciate the drop back to Saratoga. Stalker style could benefit if the pace gets hot. | <i>\ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Authentic Gallop",
                     "rating": 78.0,
-                    "reason": "Joe Sharp trainee who has shown ability on off-tracks but needs to improve on fast dirt."
+                    "reason": "Kendrick Carmouche takes the mount. Needs to recapture winter form from Delta Downs to compete here. | <i>\ud83d\udccf Turf to Dirt</i>"
                 }
             ],
             "danger_horse": {
-                "number": "4",
-                "barrier": "4",
-                "name": "Awesome Empire",
-                "rating": 83.0,
-                "reason": "Consistent performer at this level. Should sit a good tactical trip under Jose Ortiz."
+                "number": "7",
+                "barrier": "7",
+                "name": "Rungius",
+                "rating": 85.0,
+                "reason": "Returns from a long layoff for Bruce Levine. Has back class on both dirt and turf. Stalker style fits the Saratoga route profile. | <i>\ud83d\udccf Turf to Dirt</i>"
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#7 Rungius</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #8, #4 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #8, #4"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#8 Neon Bordeaux</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #8, #3, #7<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #8, #3, #7"
         },
         {
             "number": 5,
             "distance": "6 1/2 Furlongs Dirt",
             "surface": "Dirt",
-            "confidence_level": "High",
+            "confidence_level": "Medium-High",
             "raw_features_dump": {
                 "race_number": 5,
                 "distance_surface": "6 1/2 Furlongs Dirt",
-                "confidence_level": "High",
-                "suggested_wager": "Exacta Box 10, 11, 4",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta Box 10, 11, 1, 4",
                 "contenders": [
                     {
                         "program_number": "10",
                         "barrier": "10",
                         "horse_name": "Swaging",
-                        "handicapper_notes": "Linda Rice trainee drops back to dirt after a solid turf effort. Prior dirt win at Aqueduct was highly impressive and fits perfectly here.",
+                        "handicapper_notes": "Top choice. Linda Rice trainee drops out of tough starter allowance company and fits perfectly here.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 89,
+                            "ai_holistic_score": 88,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -832,30 +832,14 @@
                         "program_number": "11",
                         "barrier": "11",
                         "horse_name": "Tedder",
-                        "handicapper_notes": "Massive class drop from high-value allowance company at Churchill. Score boosted due to Class Drop Elevator.",
-                        "features": {
-                            "class_drop_bonus_applied": true,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 88,
-                            "running_style": "S",
-                            "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "4",
-                        "barrier": "4",
-                        "horse_name": "Diamond Child",
-                        "handicapper_notes": "Returns to dirt and drops significantly in class from Saratoga allowance. Score boosted due to Class Drop Elevator.",
+                        "handicapper_notes": "Class Drop Elevator applied. Drops from a massive $127k allowance at Churchill Downs to a $20k claimer.",
                         "features": {
                             "class_drop_bonus_applied": true,
                             "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 86,
-                            "running_style": "E",
+                            "running_style": "S",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -864,14 +848,30 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "Salming",
-                        "handicapper_notes": "Consistent performer at this level. Solid third last out at Belmont at Aqueduct with Manuel Franco retaining the mount.",
+                        "handicapper_notes": "Consistent runner at this level. Finished a solid third last out at Aqueduct with an 81 speed figure.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 83,
+                            "ai_holistic_score": 85,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Diamond Child",
+                        "handicapper_notes": "Class Drop Elevator applied. Drops from a state-bred allowance at Saratoga. Alvarado takes the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -880,147 +880,147 @@
                         "program_number": "8",
                         "barrier": "8",
                         "horse_name": "Rumblyoungmanrumbl",
-                        "handicapper_notes": "Broke maiden nicely last out with a 75 speed figure. Irad Ortiz Jr. takes the mount which is a major rider upgrade.",
+                        "handicapper_notes": "Broke maiden over this track last out. Gets the services of Irad Ortiz, Jr. and should be prominent early.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 81,
+                            "ai_holistic_score": 82,
                             "running_style": "E",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
-                            "is_danger_horse": true
+                            "is_danger_horse": false
                         }
                     },
                     {
                         "program_number": "5",
                         "barrier": "5",
                         "horse_name": "Shellac",
-                        "handicapper_notes": "Jockey change to Ricardo Santana Jr. is a positive. Ran a competitive 80 speed figure last out at Belmont at Aqueduct.",
+                        "handicapper_notes": "Jockey change to Santana. Inconsistent but has back figures that make him competitive if he gets a clean trip.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 80,
+                            "ai_holistic_score": 79,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Sprint to Sprint",
+                            "distance_transition": "None",
                             "trouble_trip": "None",
-                            "is_danger_horse": false
+                            "is_danger_horse": true
                         }
                     }
                 ]
             },
             "selections": [
                 {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Diamond Child",
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator applied. Drops from a state-bred allowance at Saratoga. Alvarado takes the mount. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
                     "number": "10",
                     "barrier": "10",
                     "name": "Swaging",
-                    "rating": 89.0,
-                    "reason": "Linda Rice trainee drops back to dirt after a solid turf effort. Prior dirt win at Aqueduct was highly impressive and fits perfectly here. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 88.0,
+                    "reason": "Top choice. Linda Rice trainee drops out of tough starter allowance company and fits perfectly here."
                 },
                 {
                     "number": "11",
                     "barrier": "11",
                     "name": "Tedder",
-                    "rating": 88.0,
-                    "reason": "Massive class drop from high-value allowance company at Churchill. Score boosted due to Class Drop Elevator. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
-                },
-                {
-                    "number": "4",
-                    "barrier": "4",
-                    "name": "Diamond Child",
                     "rating": 86.0,
-                    "reason": "Returns to dirt and drops significantly in class from Saratoga allowance. Score boosted due to Class Drop Elevator. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                    "reason": "Class Drop Elevator applied. Drops from a massive $127k allowance at Churchill Downs to a $20k claimer. | <i>\ud83d\udd3b Class Drop</i>"
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Salming",
-                    "rating": 83.0,
-                    "reason": "Consistent performer at this level. Solid third last out at Belmont at Aqueduct with Manuel Franco retaining the mount. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 85.0,
+                    "reason": "Consistent runner at this level. Finished a solid third last out at Aqueduct with an 81 speed figure."
                 },
                 {
                     "number": "8",
                     "barrier": "8",
                     "name": "Rumblyoungmanrumbl",
-                    "rating": 81.0,
-                    "reason": "Broke maiden nicely last out with a 75 speed figure. Irad Ortiz Jr. takes the mount which is a major rider upgrade. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 82.0,
+                    "reason": "Broke maiden over this track last out. Gets the services of Irad Ortiz, Jr. and should be prominent early."
                 }
             ],
             "all_contenders": [
                 {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Diamond Child",
+                    "rating": 92.0,
+                    "reason": "Class Drop Elevator applied. Drops from a state-bred allowance at Saratoga. Alvarado takes the mount. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
                     "number": "10",
                     "barrier": "10",
                     "name": "Swaging",
-                    "rating": 89.0,
-                    "reason": "Linda Rice trainee drops back to dirt after a solid turf effort. Prior dirt win at Aqueduct was highly impressive and fits perfectly here. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 88.0,
+                    "reason": "Top choice. Linda Rice trainee drops out of tough starter allowance company and fits perfectly here."
                 },
                 {
                     "number": "11",
                     "barrier": "11",
                     "name": "Tedder",
-                    "rating": 88.0,
-                    "reason": "Massive class drop from high-value allowance company at Churchill. Score boosted due to Class Drop Elevator. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
-                },
-                {
-                    "number": "4",
-                    "barrier": "4",
-                    "name": "Diamond Child",
                     "rating": 86.0,
-                    "reason": "Returns to dirt and drops significantly in class from Saratoga allowance. Score boosted due to Class Drop Elevator. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                    "reason": "Class Drop Elevator applied. Drops from a massive $127k allowance at Churchill Downs to a $20k claimer. | <i>\ud83d\udd3b Class Drop</i>"
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Salming",
-                    "rating": 83.0,
-                    "reason": "Consistent performer at this level. Solid third last out at Belmont at Aqueduct with Manuel Franco retaining the mount. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 85.0,
+                    "reason": "Consistent runner at this level. Finished a solid third last out at Aqueduct with an 81 speed figure."
                 },
                 {
                     "number": "8",
                     "barrier": "8",
                     "name": "Rumblyoungmanrumbl",
-                    "rating": 81.0,
-                    "reason": "Broke maiden nicely last out with a 75 speed figure. Irad Ortiz Jr. takes the mount which is a major rider upgrade. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 82.0,
+                    "reason": "Broke maiden over this track last out. Gets the services of Irad Ortiz, Jr. and should be prominent early."
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Shellac",
-                    "rating": 80.0,
-                    "reason": "Jockey change to Ricardo Santana Jr. is a positive. Ran a competitive 80 speed figure last out at Belmont at Aqueduct. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                    "rating": 79.0,
+                    "reason": "Jockey change to Santana. Inconsistent but has back figures that make him competitive if he gets a clean trip."
                 }
             ],
             "danger_horse": {
-                "number": "8",
-                "barrier": "8",
-                "name": "Rumblyoungmanrumbl",
-                "rating": 81.0,
-                "reason": "Broke maiden nicely last out with a 75 speed figure. Irad Ortiz Jr. takes the mount which is a major rider upgrade. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                "number": "5",
+                "barrier": "5",
+                "name": "Shellac",
+                "rating": 79.0,
+                "reason": "Jockey change to Santana. Inconsistent but has back figures that make him competitive if he gets a clean trip."
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#10 Swaging</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #10, #11, #8 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #10, #11, #8"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#4 Diamond Child</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #10, #5 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #10, #5"
         },
         {
             "number": 6,
             "distance": "5 1/2 Furlongs Turf",
             "surface": "Turf",
-            "confidence_level": "Medium-High",
+            "confidence_level": "Medium",
             "raw_features_dump": {
                 "race_number": 6,
                 "distance_surface": "5 1/2 Furlongs Turf",
-                "confidence_level": "Medium-High",
-                "suggested_wager": "Exacta Box 4, 6, 9 and Trifecta Key 9 with 2, 4, 6, 8",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 6, 9",
                 "contenders": [
                     {
                         "program_number": "9",
                         "barrier": "9",
                         "horse_name": "Girls Wear Pearls",
-                        "handicapper_notes": "The only horse in the field with proven turf sprint experience, having run a strong third over this exact course and distance on July 3. Draws post 9, which perfectly fits the Mellon Outer turf course outside post bias. Flavien Prat takes the mount.",
+                        "handicapper_notes": "Earned a strong speed figure when finishing third on debut over this course on July 3rd. Flavien Prat takes the mount, making her the clear horse to beat with experience.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
+                            "pace_scenario_eval": "Tactical Speed",
                             "ai_holistic_score": 94,
-                            "running_style": "Stalker",
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "Bmp early",
@@ -1031,28 +1031,28 @@
                         "program_number": "4",
                         "barrier": "4",
                         "horse_name": "Quartz Mountain",
-                        "handicapper_notes": "First-time starter by Golden Pal. Trained by Wesley Ward, who is historically lethal with juvenile turf sprinters. Jose Ortiz takes the mount. Expect high early speed.",
+                        "handicapper_notes": "First-time starter for Wesley Ward, who is deadly with juvenile turf sprinters. Jose Ortiz booked to ride. Expect high early speed.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 92,
-                            "running_style": "Front-runner",
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
-                            "is_danger_horse": false
+                            "is_danger_horse": true
                         }
                     },
                     {
                         "program_number": "6",
                         "barrier": "6",
                         "horse_name": "Breaker",
-                        "handicapper_notes": "Todd Pletcher debutante by top sire Into Mischief. Irad Ortiz Jr. takes the mount. Elite connections make this one a major threat on debut.",
+                        "handicapper_notes": "Pletcher and Irad Ortiz Jr. team up with this well-bred first-time starter. Workouts have been steady at Saratoga.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 89,
-                            "running_style": "Stalker",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1060,15 +1060,15 @@
                         }
                     },
                     {
-                        "program_number": "8",
-                        "barrier": "8",
-                        "horse_name": "Sound Of Madness",
-                        "handicapper_notes": "Quality Road first-time starter out of a stakes-placed turf sprinter. Manny Franco rides for William Walden. Outside post 8 fits the track bias.",
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Red Coats Coming",
+                        "handicapper_notes": "Showed early speed at Churchill before tiring to finish third. Luis Saez takes over, which should help her tactical positioning.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 87,
-                            "running_style": "Stalker",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1079,28 +1079,28 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Dazzling",
-                        "handicapper_notes": "Pedigree screams turf (Tapit out of Group-placed turf sprinter Victory Kingdom). Ignore the dirt debut at Churchill; expect a massive step forward on grass.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 86,
-                            "running_style": "Stalker",
-                            "is_lone_speed": false,
-                            "distance_transition": "Dirt to Turf",
-                            "trouble_trip": "Step slow",
-                            "is_danger_horse": true
-                        }
-                    },
-                    {
-                        "program_number": "3",
-                        "barrier": "3",
-                        "horse_name": "Hunter Creek",
-                        "handicapper_notes": "Value play. First-time starter by elite turf sire War Front. Thomas Proctor is capable of winning on debut.",
+                        "handicapper_notes": "Asmussen-trained filly who was step slow on debut at Churchill. Velazquez takes the reins; expect a much better start.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 83,
-                            "running_style": "Stalker",
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Step slow",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Sound Of Madness",
+                        "handicapper_notes": "First-timer for William Walden with Manuel Franco up. Pedigree suggests turf sprint capability. Watch the board.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1115,35 +1115,35 @@
                     "barrier": "9",
                     "name": "Girls Wear Pearls",
                     "rating": 94.0,
-                    "reason": "The only horse in the field with proven turf sprint experience, having run a strong third over this exact course and distance on July 3. Draws post 9, which perfectly fits the Mellon Outer turf course outside post bias. Flavien Prat takes the mount. | <i>\u26a0\ufe0f Bmp early</i>"
+                    "reason": "Earned a strong speed figure when finishing third on debut over this course on July 3rd. Flavien Prat takes the mount, making her the clear horse to beat with experience. | <i>\u26a0\ufe0f Bmp early</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Quartz Mountain",
-                    "rating": 92.0,
-                    "reason": "First-time starter by Golden Pal. Trained by Wesley Ward, who is historically lethal with juvenile turf sprinters. Jose Ortiz takes the mount. Expect high early speed."
+                    "rating": 90.0,
+                    "reason": "First-time starter for Wesley Ward, who is deadly with juvenile turf sprinters. Jose Ortiz booked to ride. Expect high early speed."
                 },
                 {
                     "number": "6",
                     "barrier": "6",
                     "name": "Breaker",
-                    "rating": 89.0,
-                    "reason": "Todd Pletcher debutante by top sire Into Mischief. Irad Ortiz Jr. takes the mount. Elite connections make this one a major threat on debut."
+                    "rating": 88.0,
+                    "reason": "Pletcher and Irad Ortiz Jr. team up with this well-bred first-time starter. Workouts have been steady at Saratoga."
                 },
                 {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Sound Of Madness",
-                    "rating": 87.0,
-                    "reason": "Quality Road first-time starter out of a stakes-placed turf sprinter. Manny Franco rides for William Walden. Outside post 8 fits the track bias."
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Red Coats Coming",
+                    "rating": 85.0,
+                    "reason": "Showed early speed at Churchill before tiring to finish third. Luis Saez takes over, which should help her tactical positioning."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Dazzling",
-                    "rating": 86.0,
-                    "reason": "Pedigree screams turf (Tapit out of Group-placed turf sprinter Victory Kingdom). Ignore the dirt debut at Churchill; expect a massive step forward on grass. | <i>\u26a0\ufe0f Step slow \u2022 \ud83d\udccf Dirt to Turf</i>"
+                    "rating": 83.0,
+                    "reason": "Asmussen-trained filly who was step slow on debut at Churchill. Velazquez takes the reins; expect a much better start. | <i>\u26a0\ufe0f Step slow</i>"
                 }
             ],
             "all_contenders": [
@@ -1152,52 +1152,52 @@
                     "barrier": "9",
                     "name": "Girls Wear Pearls",
                     "rating": 94.0,
-                    "reason": "The only horse in the field with proven turf sprint experience, having run a strong third over this exact course and distance on July 3. Draws post 9, which perfectly fits the Mellon Outer turf course outside post bias. Flavien Prat takes the mount. | <i>\u26a0\ufe0f Bmp early</i>"
+                    "reason": "Earned a strong speed figure when finishing third on debut over this course on July 3rd. Flavien Prat takes the mount, making her the clear horse to beat with experience. | <i>\u26a0\ufe0f Bmp early</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Quartz Mountain",
-                    "rating": 92.0,
-                    "reason": "First-time starter by Golden Pal. Trained by Wesley Ward, who is historically lethal with juvenile turf sprinters. Jose Ortiz takes the mount. Expect high early speed."
+                    "rating": 90.0,
+                    "reason": "First-time starter for Wesley Ward, who is deadly with juvenile turf sprinters. Jose Ortiz booked to ride. Expect high early speed."
                 },
                 {
                     "number": "6",
                     "barrier": "6",
                     "name": "Breaker",
-                    "rating": 89.0,
-                    "reason": "Todd Pletcher debutante by top sire Into Mischief. Irad Ortiz Jr. takes the mount. Elite connections make this one a major threat on debut."
+                    "rating": 88.0,
+                    "reason": "Pletcher and Irad Ortiz Jr. team up with this well-bred first-time starter. Workouts have been steady at Saratoga."
                 },
                 {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Sound Of Madness",
-                    "rating": 87.0,
-                    "reason": "Quality Road first-time starter out of a stakes-placed turf sprinter. Manny Franco rides for William Walden. Outside post 8 fits the track bias."
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Red Coats Coming",
+                    "rating": 85.0,
+                    "reason": "Showed early speed at Churchill before tiring to finish third. Luis Saez takes over, which should help her tactical positioning."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Dazzling",
-                    "rating": 86.0,
-                    "reason": "Pedigree screams turf (Tapit out of Group-placed turf sprinter Victory Kingdom). Ignore the dirt debut at Churchill; expect a massive step forward on grass. | <i>\u26a0\ufe0f Step slow \u2022 \ud83d\udccf Dirt to Turf</i>"
+                    "rating": 83.0,
+                    "reason": "Asmussen-trained filly who was step slow on debut at Churchill. Velazquez takes the reins; expect a much better start. | <i>\u26a0\ufe0f Step slow</i>"
                 },
                 {
-                    "number": "3",
-                    "barrier": "3",
-                    "name": "Hunter Creek",
-                    "rating": 83.0,
-                    "reason": "Value play. First-time starter by elite turf sire War Front. Thomas Proctor is capable of winning on debut."
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sound Of Madness",
+                    "rating": 81.0,
+                    "reason": "First-timer for William Walden with Manuel Franco up. Pedigree suggests turf sprint capability. Watch the board."
                 }
             ],
             "danger_horse": {
-                "number": "2",
-                "barrier": "2",
-                "name": "Dazzling",
-                "rating": 86.0,
-                "reason": "Pedigree screams turf (Tapit out of Group-placed turf sprinter Victory Kingdom). Ignore the dirt debut at Churchill; expect a massive step forward on grass. | <i>\u26a0\ufe0f Step slow \u2022 \ud83d\udccf Dirt to Turf</i>"
+                "number": "4",
+                "barrier": "4",
+                "name": "Quartz Mountain",
+                "rating": 90.0,
+                "reason": "First-time starter for Wesley Ward, who is deadly with juvenile turf sprinters. Jose Ortiz booked to ride. Expect high early speed."
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#9 Girls Wear Pearls</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #9, #4, #2 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #9, #4, #2"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#9 Girls Wear Pearls</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #9, #4, #6<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #9, #4, #6"
         },
         {
             "number": 7,
@@ -1208,17 +1208,17 @@
                 "race_number": 7,
                 "distance_surface": "1 1/16 Miles Turf",
                 "confidence_level": "High",
-                "suggested_wager": "Exacta Box 4, 5, 8",
+                "suggested_wager": "Exacta Box 1, 4, 8",
                 "contenders": [
                     {
-                        "program_number": "4",
-                        "barrier": "4",
-                        "horse_name": "Nonna Lynne",
-                        "handicapper_notes": "Consistent Chad Brown trainee who finished a strong second last time out. Excellent tactical speed fits the inner turf profile perfectly.",
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mommy's Turn",
+                        "handicapper_notes": "Top selection. The Chad Brown and Flavien Prat combination is lethal at Saratoga. This filly won a stakes race over this turf course last summer and is primed for a perfect stalking trip.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical",
-                            "ai_holistic_score": 92,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
                             "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
@@ -1227,30 +1227,14 @@
                         }
                     },
                     {
-                        "program_number": "8",
-                        "barrier": "8",
-                        "horse_name": "Mommy's Turn",
-                        "handicapper_notes": "Disappointed as the favorite last time out but gets Flavien Prat today. Expecting a much sharper effort from this Chad Brown runner.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical",
-                            "ai_holistic_score": 90,
-                            "running_style": "E/P",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "5",
-                        "barrier": "5",
-                        "horse_name": "Starship Pegasus",
-                        "handicapper_notes": "Comes off a sharp win at Aqueduct. Up in class but shows ascending speed figures and handles the distance well.",
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Nonna Lynne",
+                        "handicapper_notes": "Another strong Chad Brown entrant. Highly consistent turf record and comes off a solid second-place finish. Her stalking style fits the inner turf profile perfectly.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 89,
+                            "ai_holistic_score": 92,
                             "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
@@ -1262,12 +1246,28 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "Saratoga Snow",
-                        "handicapper_notes": "Finished third behind Nonna Lynne in her last start. Junior Alvarado retains the mount and she should save ground from the rail.",
+                        "handicapper_notes": "Massive post advantage from the rail on the inner turf. Alvarado will save ground throughout the tight turns and should be flying late. Major threat at a square price.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 87,
-                            "running_style": "P",
+                            "ai_holistic_score": 90,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Starship Pegasus",
+                        "handicapper_notes": "Speed of the race. Carmouche will send her from post 5. If she can clear the field without too much pressure from Hello Beauty, she could prove tough to catch on this tight course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1278,12 +1278,12 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Can't Fool Me",
-                        "horse_notes": "Closer who will need a fast pace to set up her late run. Santana is a positive jockey upgrade.",
+                        "handicapper_notes": "Saves ground from post 2. Santana Jr. is excellent on turf stalkers. Solid speed figures make her a must-use in exotic wagers.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 84,
-                            "running_style": "S",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1291,15 +1291,15 @@
                         }
                     },
                     {
-                        "program_number": "7",
-                        "barrier": "7",
-                        "horse_name": "Golden Rocket",
-                        "handicapper_notes": "Veteran turf campaigner with back class. Can sneak into the superfecta at a price.",
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Sweet Anniversary",
+                        "handicapper_notes": "Gets the services of Jose Ortiz from post 3. Proven turf winner who should appreciate returning to the grass after a dirt prep.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 82,
-                            "running_style": "S",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1310,93 +1310,93 @@
             },
             "selections": [
                 {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mommy's Turn",
+                    "rating": 94.0,
+                    "reason": "Top selection. The Chad Brown and Flavien Prat combination is lethal at Saratoga. This filly won a stakes race over this turf course last summer and is primed for a perfect stalking trip."
+                },
+                {
                     "number": "4",
                     "barrier": "4",
                     "name": "Nonna Lynne",
                     "rating": 92.0,
-                    "reason": "Consistent Chad Brown trainee who finished a strong second last time out. Excellent tactical speed fits the inner turf profile perfectly."
-                },
-                {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Mommy's Turn",
-                    "rating": 90.0,
-                    "reason": "Disappointed as the favorite last time out but gets Flavien Prat today. Expecting a much sharper effort from this Chad Brown runner."
-                },
-                {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Starship Pegasus",
-                    "rating": 89.0,
-                    "reason": "Comes off a sharp win at Aqueduct. Up in class but shows ascending speed figures and handles the distance well."
+                    "reason": "Another strong Chad Brown entrant. Highly consistent turf record and comes off a solid second-place finish. Her stalking style fits the inner turf profile perfectly."
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Saratoga Snow",
-                    "rating": 87.0,
-                    "reason": "Finished third behind Nonna Lynne in her last start. Junior Alvarado retains the mount and she should save ground from the rail."
+                    "rating": 90.0,
+                    "reason": "Massive post advantage from the rail on the inner turf. Alvarado will save ground throughout the tight turns and should be flying late. Major threat at a square price."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Starship Pegasus",
+                    "rating": 88.0,
+                    "reason": "Speed of the race. Carmouche will send her from post 5. If she can clear the field without too much pressure from Hello Beauty, she could prove tough to catch on this tight course."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Can't Fool Me",
-                    "rating": 84.0,
-                    "reason": "No notes provided."
+                    "rating": 85.0,
+                    "reason": "Saves ground from post 2. Santana Jr. is excellent on turf stalkers. Solid speed figures make her a must-use in exotic wagers."
                 }
             ],
             "all_contenders": [
                 {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mommy's Turn",
+                    "rating": 94.0,
+                    "reason": "Top selection. The Chad Brown and Flavien Prat combination is lethal at Saratoga. This filly won a stakes race over this turf course last summer and is primed for a perfect stalking trip."
+                },
+                {
                     "number": "4",
                     "barrier": "4",
                     "name": "Nonna Lynne",
                     "rating": 92.0,
-                    "reason": "Consistent Chad Brown trainee who finished a strong second last time out. Excellent tactical speed fits the inner turf profile perfectly."
-                },
-                {
-                    "number": "8",
-                    "barrier": "8",
-                    "name": "Mommy's Turn",
-                    "rating": 90.0,
-                    "reason": "Disappointed as the favorite last time out but gets Flavien Prat today. Expecting a much sharper effort from this Chad Brown runner."
-                },
-                {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Starship Pegasus",
-                    "rating": 89.0,
-                    "reason": "Comes off a sharp win at Aqueduct. Up in class but shows ascending speed figures and handles the distance well."
+                    "reason": "Another strong Chad Brown entrant. Highly consistent turf record and comes off a solid second-place finish. Her stalking style fits the inner turf profile perfectly."
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Saratoga Snow",
-                    "rating": 87.0,
-                    "reason": "Finished third behind Nonna Lynne in her last start. Junior Alvarado retains the mount and she should save ground from the rail."
+                    "rating": 90.0,
+                    "reason": "Massive post advantage from the rail on the inner turf. Alvarado will save ground throughout the tight turns and should be flying late. Major threat at a square price."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Starship Pegasus",
+                    "rating": 88.0,
+                    "reason": "Speed of the race. Carmouche will send her from post 5. If she can clear the field without too much pressure from Hello Beauty, she could prove tough to catch on this tight course."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Can't Fool Me",
-                    "rating": 84.0,
-                    "reason": "No notes provided."
+                    "rating": 85.0,
+                    "reason": "Saves ground from post 2. Santana Jr. is excellent on turf stalkers. Solid speed figures make her a must-use in exotic wagers."
                 },
                 {
-                    "number": "7",
-                    "barrier": "7",
-                    "name": "Golden Rocket",
-                    "rating": 82.0,
-                    "reason": "Veteran turf campaigner with back class. Can sneak into the superfecta at a price."
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Sweet Anniversary",
+                    "rating": 83.0,
+                    "reason": "Gets the services of Jose Ortiz from post 3. Proven turf winner who should appreciate returning to the grass after a dirt prep."
                 }
             ],
             "danger_horse": {
                 "number": "2",
                 "barrier": "2",
                 "name": "Can't Fool Me",
-                "rating": 84.0,
-                "reason": "No notes provided."
+                "rating": 85.0,
+                "reason": "Saves ground from post 2. Santana Jr. is excellent on turf stalkers. Solid speed figures make her a must-use in exotic wagers."
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#4 Nonna Lynne</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #8, #2 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #8, #2"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#8 Mommy's Turn</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #8, #4, #2 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #8, #4, #2"
         },
         {
             "number": 8,
@@ -1410,33 +1410,17 @@
                 "suggested_wager": "Exacta Box 3, 4, 5",
                 "contenders": [
                     {
-                        "program_number": "3",
-                        "barrier": "3",
-                        "horse_name": "Fully Subscribed",
-                        "handicapper_notes": "High-class filly trained by Chad Brown and ridden by Flavien Prat. Consistently runs speed figures in the high 90s and low 100s. Placed in multiple Grade 1 events recently and looks poised for a peak performance here.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical",
-                            "ai_holistic_score": 96,
-                            "running_style": "P",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
                         "program_number": "4",
                         "barrier": "4",
                         "horse_name": "Scottish Lassie",
-                        "handicapper_notes": "Winner of the Grade 1 CCAOaks at Saratoga last year. Loves this track and has tactical speed to sit just off the early leaders. Major threat under Jose Ortiz.",
+                        "handicapper_notes": "Grade 1 CCAOaks winner who loves Saratoga and is undefeated in two starts over this track. Possesses strong tactical speed and class.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical",
-                            "ai_holistic_score": 95,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 96,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Sprint to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1445,12 +1429,28 @@
                         "program_number": "5",
                         "barrier": "5",
                         "horse_name": "Bless The Broken",
-                        "handicapper_notes": "Extremely consistent Grade 1-placed runner for Brad Cox and Irad Ortiz Jr. Likely to control the early tempo and will be very tough to pass in the stretch.",
+                        "handicapper_notes": "Holistic score boosted due to Post-Scratch Lone Speed. With Eunomia out, she should easily secure an uncontested lead.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Moderate",
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 96,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Fully Subscribed",
+                        "handicapper_notes": "Highly consistent Grade 1 performer who finished second in both the Ogden Phipps and La Troienne. Major threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 94,
-                            "running_style": "E/P",
+                            "running_style": "S",
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
@@ -1461,7 +1461,7 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "Snowyte",
-                        "handicapper_notes": "Gets a massive boost from the rail post position at this 1 1/8 miles configuration. Grade 2-placed runner who can save ground and make a strong late run.",
+                        "handicapper_notes": "Stalker should get a perfect ground-saving trip. Finished a solid second in the Top Flight last time out.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
@@ -1470,14 +1470,14 @@
                             "is_lone_speed": false,
                             "distance_transition": "None",
                             "trouble_trip": "None",
-                            "is_danger_horse": true
+                            "is_danger_horse": false
                         }
                     },
                     {
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Aeolian",
-                        "handicapper_notes": "Second entrant from the Chad Brown barn. Stepping up in class but has shown a lot of promise in allowance ranks. Inside draw is highly beneficial.",
+                        "handicapper_notes": "Chad Brown trainee who was disqualified to second last start but showed excellent late energy. Up-and-comer.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
@@ -1485,7 +1485,7 @@
                             "running_style": "S",
                             "is_lone_speed": false,
                             "distance_transition": "None",
-                            "trouble_trip": "None",
+                            "trouble_trip": "Trouble",
                             "is_danger_horse": false
                         }
                     },
@@ -1493,7 +1493,7 @@
                         "program_number": "7",
                         "barrier": "7",
                         "horse_name": "Valtellina",
-                        "handicapper_notes": "Deep closer who will need a hot pace up front to be effective. Best used underneath in exotic wagers if the top choices beat each other up early.",
+                        "handicapper_notes": "Closer will need a hot pace to set up her late run, which might be difficult to get in this paceless matchup.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
@@ -1509,93 +1509,93 @@
             },
             "selections": [
                 {
-                    "number": "3",
-                    "barrier": "3",
-                    "name": "Fully Subscribed",
-                    "rating": 96.0,
-                    "reason": "High-class filly trained by Chad Brown and ridden by Flavien Prat. Consistently runs speed figures in the high 90s and low 100s. Placed in multiple Grade 1 events recently and looks poised for a peak performance here."
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bless The Broken",
+                    "rating": 99.0,
+                    "reason": "Holistic score boosted due to Post-Scratch Lone Speed. With Eunomia out, she should easily secure an uncontested lead. | <i>\ud83d\udd25 Lone Speed</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Scottish Lassie",
-                    "rating": 95.0,
-                    "reason": "Winner of the Grade 1 CCAOaks at Saratoga last year. Loves this track and has tactical speed to sit just off the early leaders. Major threat under Jose Ortiz."
+                    "rating": 96.0,
+                    "reason": "Grade 1 CCAOaks winner who loves Saratoga and is undefeated in two starts over this track. Possesses strong tactical speed and class. | <i>\ud83d\udccf Sprint to Route</i>"
                 },
                 {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Bless The Broken",
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fully Subscribed",
                     "rating": 94.0,
-                    "reason": "Extremely consistent Grade 1-placed runner for Brad Cox and Irad Ortiz Jr. Likely to control the early tempo and will be very tough to pass in the stretch."
+                    "reason": "Highly consistent Grade 1 performer who finished second in both the Ogden Phipps and La Troienne. Major threat."
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Snowyte",
                     "rating": 88.0,
-                    "reason": "Gets a massive boost from the rail post position at this 1 1/8 miles configuration. Grade 2-placed runner who can save ground and make a strong late run."
+                    "reason": "Stalker should get a perfect ground-saving trip. Finished a solid second in the Top Flight last time out."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Aeolian",
                     "rating": 85.0,
-                    "reason": "Second entrant from the Chad Brown barn. Stepping up in class but has shown a lot of promise in allowance ranks. Inside draw is highly beneficial."
+                    "reason": "Chad Brown trainee who was disqualified to second last start but showed excellent late energy. Up-and-comer. | <i>\u26a0\ufe0f Trouble</i>"
                 }
             ],
             "all_contenders": [
                 {
-                    "number": "3",
-                    "barrier": "3",
-                    "name": "Fully Subscribed",
-                    "rating": 96.0,
-                    "reason": "High-class filly trained by Chad Brown and ridden by Flavien Prat. Consistently runs speed figures in the high 90s and low 100s. Placed in multiple Grade 1 events recently and looks poised for a peak performance here."
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bless The Broken",
+                    "rating": 99.0,
+                    "reason": "Holistic score boosted due to Post-Scratch Lone Speed. With Eunomia out, she should easily secure an uncontested lead. | <i>\ud83d\udd25 Lone Speed</i>"
                 },
                 {
                     "number": "4",
                     "barrier": "4",
                     "name": "Scottish Lassie",
-                    "rating": 95.0,
-                    "reason": "Winner of the Grade 1 CCAOaks at Saratoga last year. Loves this track and has tactical speed to sit just off the early leaders. Major threat under Jose Ortiz."
+                    "rating": 96.0,
+                    "reason": "Grade 1 CCAOaks winner who loves Saratoga and is undefeated in two starts over this track. Possesses strong tactical speed and class. | <i>\ud83d\udccf Sprint to Route</i>"
                 },
                 {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Bless The Broken",
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fully Subscribed",
                     "rating": 94.0,
-                    "reason": "Extremely consistent Grade 1-placed runner for Brad Cox and Irad Ortiz Jr. Likely to control the early tempo and will be very tough to pass in the stretch."
+                    "reason": "Highly consistent Grade 1 performer who finished second in both the Ogden Phipps and La Troienne. Major threat."
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Snowyte",
                     "rating": 88.0,
-                    "reason": "Gets a massive boost from the rail post position at this 1 1/8 miles configuration. Grade 2-placed runner who can save ground and make a strong late run."
+                    "reason": "Stalker should get a perfect ground-saving trip. Finished a solid second in the Top Flight last time out."
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Aeolian",
                     "rating": 85.0,
-                    "reason": "Second entrant from the Chad Brown barn. Stepping up in class but has shown a lot of promise in allowance ranks. Inside draw is highly beneficial."
+                    "reason": "Chad Brown trainee who was disqualified to second last start but showed excellent late energy. Up-and-comer. | <i>\u26a0\ufe0f Trouble</i>"
                 },
                 {
                     "number": "7",
                     "barrier": "7",
                     "name": "Valtellina",
                     "rating": 82.0,
-                    "reason": "Deep closer who will need a hot pace up front to be effective. Best used underneath in exotic wagers if the top choices beat each other up early."
+                    "reason": "Closer will need a hot pace to set up her late run, which might be difficult to get in this paceless matchup."
                 }
             ],
             "danger_horse": {
-                "number": "1",
-                "barrier": "1",
-                "name": "Snowyte",
-                "rating": 88.0,
-                "reason": "Gets a massive boost from the rail post position at this 1 1/8 miles configuration. Grade 2-placed runner who can save ground and make a strong late run."
+                "number": "5",
+                "barrier": "5",
+                "name": "Bless The Broken",
+                "rating": 99.0,
+                "reason": "Holistic score boosted due to Post-Scratch Lone Speed. With Eunomia out, she should easily secure an uncontested lead. | <i>\ud83d\udd25 Lone Speed</i>"
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Fully Subscribed</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #4, #1 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #4, #1"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#5 Bless The Broken</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #4, #3<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #5, #4, #3"
         },
         {
             "number": 9,
@@ -1606,20 +1606,20 @@
                 "race_number": 9,
                 "distance_surface": "1 1/16 Miles Turf",
                 "confidence_level": "High",
-                "suggested_wager": "Exacta Box 1, 2, 6",
+                "suggested_wager": "Exacta Box 2, 6, 7",
                 "contenders": [
                     {
                         "program_number": "6",
                         "barrier": "6",
                         "horse_name": "A Little At First",
-                        "handicapper_notes": "Boasts the highest last-out speed figure (92) on this turf course. Sits perfectly in a tactical position, which is highly favored on the Mellon Outer turf. Irad Ortiz, Jr. takes the mount.",
+                        "handicapper_notes": "Top choice. Boasts the field's best speed figures (92, 95) and gets a massive jockey upgrade to Irad Ortiz Jr. Trainer Horacio De Paz is clicking at 40% this meet.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 95,
+                            "pace_scenario_eval": "Tactical",
+                            "ai_holistic_score": 96,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1628,14 +1628,30 @@
                         "program_number": "2",
                         "barrier": "2",
                         "horse_name": "Voodoo Doll",
-                        "handicapper_notes": "Undefeated in three career starts, showing immense talent for Mark Casse. Stepping up to stakes company but has the speed figures (88) to compete immediately.",
+                        "handicapper_notes": "Undefeated in three career starts for Mark Casse. Showed great determination winning an allowance at Belmont last out and must be respected.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Caroline St. Beat",
+                        "handicapper_notes": "Clement trainee won the Notebook Stakes last fall. Clement excels with turf routers at Saratoga and Franco retains the mount.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 92,
-                            "running_style": "M",
+                            "ai_holistic_score": 89,
+                            "running_style": "S",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1644,14 +1660,30 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "Spirit Of New York",
-                        "handicapper_notes": "Stakes-tested runner for the powerhouse Brad Cox and Jose Ortiz connection. Always runs a competitive race and should get a great stalking trip.",
+                        "handicapper_notes": "Consistently competitive stakes performer for Brad Cox. Sprints back to a route where he has run well in the past.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 90,
-                            "running_style": "M",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Newlyn",
+                        "handicapper_notes": "True two-turn route specialist coming off a solid fourth at Aqueduct. Weaver and Santana are a dangerous combination.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1660,46 +1692,14 @@
                         "program_number": "5",
                         "barrier": "5",
                         "horse_name": "Chummers",
-                        "handicapper_notes": "Prat takes the mount for Handal, representing a massive jockey upgrade. Won easily last out and will be flying late.",
+                        "handicapper_notes": "Raymond Handal trainee won a CLM last out with a solid 86 speed figure. Gets Flavien Prat in the irons today.",
                         "features": {
                             "class_drop_bonus_applied": false,
                             "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 88,
+                            "ai_holistic_score": 83,
                             "running_style": "S",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": true
-                        }
-                    },
-                    {
-                        "program_number": "7",
-                        "barrier": "7",
-                        "horse_name": "Caroline St. Beat",
-                        "handicapper_notes": "Stakes winner returning from a long layoff. Draws the outermost post (7) after scratches, which is historically a major advantage on the Mellon Outer turf.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 86,
-                            "running_style": "M",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "3",
-                        "barrier": "3",
-                        "horse_name": "Newlyn",
-                        "handicapper_notes": "Consistent Weaver trainee who should appreciate the distance. Santana is a highly capable turf rider.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard",
-                            "ai_holistic_score": 84,
-                            "running_style": "M",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Route to Route",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1711,36 +1711,36 @@
                     "number": "6",
                     "barrier": "6",
                     "name": "A Little At First",
-                    "rating": 95.0,
-                    "reason": "Boasts the highest last-out speed figure (92) on this turf course. Sits perfectly in a tactical position, which is highly favored on the Mellon Outer turf. Irad Ortiz, Jr. takes the mount."
+                    "rating": 96.0,
+                    "reason": "Top choice. Boasts the field's best speed figures (92, 95) and gets a massive jockey upgrade to Irad Ortiz Jr. Trainer Horacio De Paz is clicking at 40% this meet. | <i>\ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Voodoo Doll",
                     "rating": 92.0,
-                    "reason": "Undefeated in three career starts, showing immense talent for Mark Casse. Stepping up to stakes company but has the speed figures (88) to compete immediately."
-                },
-                {
-                    "number": "1",
-                    "barrier": "1",
-                    "name": "Spirit Of New York",
-                    "rating": 90.0,
-                    "reason": "Stakes-tested runner for the powerhouse Brad Cox and Jose Ortiz connection. Always runs a competitive race and should get a great stalking trip."
-                },
-                {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Chummers",
-                    "rating": 88.0,
-                    "reason": "Prat takes the mount for Handal, representing a massive jockey upgrade. Won easily last out and will be flying late."
+                    "reason": "Undefeated in three career starts for Mark Casse. Showed great determination winning an allowance at Belmont last out and must be respected. | <i>\ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "7",
                     "barrier": "7",
                     "name": "Caroline St. Beat",
-                    "rating": 86.0,
-                    "reason": "Stakes winner returning from a long layoff. Draws the outermost post (7) after scratches, which is historically a major advantage on the Mellon Outer turf."
+                    "rating": 89.0,
+                    "reason": "Clement trainee won the Notebook Stakes last fall. Clement excels with turf routers at Saratoga and Franco retains the mount. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spirit Of New York",
+                    "rating": 88.0,
+                    "reason": "Consistently competitive stakes performer for Brad Cox. Sprints back to a route where he has run well in the past. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Newlyn",
+                    "rating": 85.0,
+                    "reason": "True two-turn route specialist coming off a solid fourth at Aqueduct. Weaver and Santana are a dangerous combination. | <i>\ud83d\udccf Route to Route</i>"
                 }
             ],
             "all_contenders": [
@@ -1748,77 +1748,77 @@
                     "number": "6",
                     "barrier": "6",
                     "name": "A Little At First",
-                    "rating": 95.0,
-                    "reason": "Boasts the highest last-out speed figure (92) on this turf course. Sits perfectly in a tactical position, which is highly favored on the Mellon Outer turf. Irad Ortiz, Jr. takes the mount."
+                    "rating": 96.0,
+                    "reason": "Top choice. Boasts the field's best speed figures (92, 95) and gets a massive jockey upgrade to Irad Ortiz Jr. Trainer Horacio De Paz is clicking at 40% this meet. | <i>\ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Voodoo Doll",
                     "rating": 92.0,
-                    "reason": "Undefeated in three career starts, showing immense talent for Mark Casse. Stepping up to stakes company but has the speed figures (88) to compete immediately."
-                },
-                {
-                    "number": "1",
-                    "barrier": "1",
-                    "name": "Spirit Of New York",
-                    "rating": 90.0,
-                    "reason": "Stakes-tested runner for the powerhouse Brad Cox and Jose Ortiz connection. Always runs a competitive race and should get a great stalking trip."
-                },
-                {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Chummers",
-                    "rating": 88.0,
-                    "reason": "Prat takes the mount for Handal, representing a massive jockey upgrade. Won easily last out and will be flying late."
+                    "reason": "Undefeated in three career starts for Mark Casse. Showed great determination winning an allowance at Belmont last out and must be respected. | <i>\ud83d\udccf Route to Route</i>"
                 },
                 {
                     "number": "7",
                     "barrier": "7",
                     "name": "Caroline St. Beat",
-                    "rating": 86.0,
-                    "reason": "Stakes winner returning from a long layoff. Draws the outermost post (7) after scratches, which is historically a major advantage on the Mellon Outer turf."
+                    "rating": 89.0,
+                    "reason": "Clement trainee won the Notebook Stakes last fall. Clement excels with turf routers at Saratoga and Franco retains the mount. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spirit Of New York",
+                    "rating": 88.0,
+                    "reason": "Consistently competitive stakes performer for Brad Cox. Sprints back to a route where he has run well in the past. | <i>\ud83d\udccf Sprint to Route</i>"
                 },
                 {
                     "number": "3",
                     "barrier": "3",
                     "name": "Newlyn",
-                    "rating": 84.0,
-                    "reason": "Consistent Weaver trainee who should appreciate the distance. Santana is a highly capable turf rider."
+                    "rating": 85.0,
+                    "reason": "True two-turn route specialist coming off a solid fourth at Aqueduct. Weaver and Santana are a dangerous combination. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Chummers",
+                    "rating": 83.0,
+                    "reason": "Raymond Handal trainee won a CLM last out with a solid 86 speed figure. Gets Flavien Prat in the irons today. | <i>\ud83d\udccf Route to Route</i>"
                 }
             ],
             "danger_horse": {
-                "number": "5",
-                "barrier": "5",
-                "name": "Chummers",
+                "number": "1",
+                "barrier": "1",
+                "name": "Spirit Of New York",
                 "rating": 88.0,
-                "reason": "Prat takes the mount for Handal, representing a massive jockey upgrade. Won easily last out and will be flying late."
+                "reason": "Consistently competitive stakes performer for Brad Cox. Sprints back to a route where he has run well in the past. | <i>\ud83d\udccf Sprint to Route</i>"
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 A Little At First</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #2, #5 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #2, #5"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 A Little At First</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #2, #1 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #2, #1"
         },
         {
             "number": 10,
             "distance": "1 1/2 Miles Turf",
             "surface": "Turf",
-            "confidence_level": "Medium",
+            "confidence_level": "High",
             "raw_features_dump": {
                 "race_number": 10,
                 "distance_surface": "1 1/2 Miles Turf",
-                "confidence_level": "Medium",
-                "suggested_wager": "Exacta Box 4, 5, 9",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 4, 9",
                 "contenders": [
                     {
                         "program_number": "4",
                         "barrier": "4",
                         "horse_name": "Gold Sovereign",
-                        "handicapper_notes": "Elite turf marathon pedigree for Chad Brown and Flavien Prat. Expect a perfect stalking trip on the inner turf.",
+                        "handicapper_notes": "Top choice. Chad Brown and Flavien Prat team up with an English Channel gelding perfectly bred for this marathon distance. Strong second two starts back at 1 3/8 miles.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Standard Stalker",
+                            "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 92,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Stretch out",
+                            "distance_transition": "Route to Marathon",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1827,62 +1827,14 @@
                         "program_number": "9",
                         "barrier": "9",
                         "horse_name": "War And Majesty",
-                        "handicapper_notes": "Proven at this exact 1 1/2 mile distance with a strong second-place finish at Churchill Downs last time out.",
+                        "handicapper_notes": "Major threat. Proven at this exact 1 1/2-mile distance last out at Churchill, finishing a strong second. Luis Saez riding for Dale Romans.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical Speed",
+                            "pace_scenario_eval": "Standard",
                             "ai_holistic_score": 90,
-                            "running_style": "E/P",
-                            "is_lone_speed": false,
-                            "distance_transition": "None",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "5",
-                        "barrier": "5",
-                        "horse_name": "Instantly",
-                        "handicapper_notes": "Highly promising sophomore gets the services of Irad Ortiz Jr. after a solid debut at Churchill.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Closer",
-                            "ai_holistic_score": 89,
-                            "running_style": "C",
-                            "is_lone_speed": false,
-                            "distance_transition": "Stretch out",
-                            "trouble_trip": "None",
-                            "is_danger_horse": true
-                        }
-                    },
-                    {
-                        "program_number": "2",
-                        "barrier": "2",
-                        "horse_name": "Limited Edition",
-                        "handicapper_notes": "Possesses the highest consistent speed figures in the field but must prove he can handle the marathon distance.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Tactical Speed",
-                            "ai_holistic_score": 88,
                             "running_style": "P",
                             "is_lone_speed": false,
-                            "distance_transition": "Stretch out",
-                            "trouble_trip": "None",
-                            "is_danger_horse": false
-                        }
-                    },
-                    {
-                        "program_number": "7",
-                        "barrier": "7",
-                        "horse_name": "Orgonite",
-                        "handicapper_notes": "Excellent second-place finish at 1 3/8 miles last time out. Johnny V will save ground from post 7.",
-                        "features": {
-                            "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Stalker",
-                            "ai_holistic_score": 87,
-                            "running_style": "P",
-                            "is_lone_speed": false,
-                            "distance_transition": "Stretch out",
+                            "distance_transition": "Marathon to Marathon",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1891,14 +1843,62 @@
                         "program_number": "1",
                         "barrier": "1",
                         "horse_name": "Lahainaluna",
-                        "handicapper_notes": "Marathon experience is a plus. Tyler Gaffalione takes the reins for Joe Sharp from the rail.",
+                        "handicapper_notes": "Upgraded via the Belmont Flip angle. Ran a close sixth, beaten only two lengths, at this distance last out at Churchill. Tyler Gaffalione takes the mount.",
                         "features": {
                             "class_drop_bonus_applied": false,
-                            "pace_scenario_eval": "Closer",
-                            "ai_holistic_score": 85,
-                            "running_style": "C",
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "S",
                             "is_lone_speed": false,
-                            "distance_transition": "None",
+                            "distance_transition": "Marathon to Marathon",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Instantly",
+                        "handicapper_notes": "The danger horse. Lightly raced three-year-old making his second career start. Gets a massive jockey upgrade to Irad Ortiz, Jr.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Marathon",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Limited Edition",
+                        "handicapper_notes": "Consistent type who is always in the mix but struggles to win (10-0-3-2 lifetime). Excellent underneath in exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Marathon",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Orgonite",
+                        "handicapper_notes": "Solid third-place finish at 1 3/8 miles last out. Johnny Velazquez up for David Donk. Should save ground from the middle post.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Marathon",
                             "trouble_trip": "None",
                             "is_danger_horse": false
                         }
@@ -1911,35 +1911,35 @@
                     "barrier": "4",
                     "name": "Gold Sovereign",
                     "rating": 92.0,
-                    "reason": "Elite turf marathon pedigree for Chad Brown and Flavien Prat. Expect a perfect stalking trip on the inner turf. | <i>\ud83d\udccf Stretch out</i>"
+                    "reason": "Top choice. Chad Brown and Flavien Prat team up with an English Channel gelding perfectly bred for this marathon distance. Strong second two starts back at 1 3/8 miles. | <i>\ud83d\udccf Route to Marathon</i>"
                 },
                 {
                     "number": "9",
                     "barrier": "9",
                     "name": "War And Majesty",
                     "rating": 90.0,
-                    "reason": "Proven at this exact 1 1/2 mile distance with a strong second-place finish at Churchill Downs last time out."
+                    "reason": "Major threat. Proven at this exact 1 1/2-mile distance last out at Churchill, finishing a strong second. Luis Saez riding for Dale Romans. | <i>\ud83d\udccf Marathon to Marathon</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Lahainaluna",
+                    "rating": 88.0,
+                    "reason": "Upgraded via the Belmont Flip angle. Ran a close sixth, beaten only two lengths, at this distance last out at Churchill. Tyler Gaffalione takes the mount. | <i>\ud83d\udccf Marathon to Marathon</i>"
                 },
                 {
                     "number": "5",
                     "barrier": "5",
                     "name": "Instantly",
-                    "rating": 89.0,
-                    "reason": "Highly promising sophomore gets the services of Irad Ortiz Jr. after a solid debut at Churchill. | <i>\ud83d\udccf Stretch out</i>"
+                    "rating": 86.0,
+                    "reason": "The danger horse. Lightly raced three-year-old making his second career start. Gets a massive jockey upgrade to Irad Ortiz, Jr. | <i>\ud83d\udccf Route to Marathon</i>"
                 },
                 {
                     "number": "2",
                     "barrier": "2",
                     "name": "Limited Edition",
-                    "rating": 88.0,
-                    "reason": "Possesses the highest consistent speed figures in the field but must prove he can handle the marathon distance. | <i>\ud83d\udccf Stretch out</i>"
-                },
-                {
-                    "number": "7",
-                    "barrier": "7",
-                    "name": "Orgonite",
-                    "rating": 87.0,
-                    "reason": "Excellent second-place finish at 1 3/8 miles last time out. Johnny V will save ground from post 7. | <i>\ud83d\udccf Stretch out</i>"
+                    "rating": 84.0,
+                    "reason": "Consistent type who is always in the mix but struggles to win (10-0-3-2 lifetime). Excellent underneath in exotics. | <i>\ud83d\udccf Route to Marathon</i>"
                 }
             ],
             "all_contenders": [
@@ -1948,63 +1948,63 @@
                     "barrier": "4",
                     "name": "Gold Sovereign",
                     "rating": 92.0,
-                    "reason": "Elite turf marathon pedigree for Chad Brown and Flavien Prat. Expect a perfect stalking trip on the inner turf. | <i>\ud83d\udccf Stretch out</i>"
+                    "reason": "Top choice. Chad Brown and Flavien Prat team up with an English Channel gelding perfectly bred for this marathon distance. Strong second two starts back at 1 3/8 miles. | <i>\ud83d\udccf Route to Marathon</i>"
                 },
                 {
                     "number": "9",
                     "barrier": "9",
                     "name": "War And Majesty",
                     "rating": 90.0,
-                    "reason": "Proven at this exact 1 1/2 mile distance with a strong second-place finish at Churchill Downs last time out."
-                },
-                {
-                    "number": "5",
-                    "barrier": "5",
-                    "name": "Instantly",
-                    "rating": 89.0,
-                    "reason": "Highly promising sophomore gets the services of Irad Ortiz Jr. after a solid debut at Churchill. | <i>\ud83d\udccf Stretch out</i>"
-                },
-                {
-                    "number": "2",
-                    "barrier": "2",
-                    "name": "Limited Edition",
-                    "rating": 88.0,
-                    "reason": "Possesses the highest consistent speed figures in the field but must prove he can handle the marathon distance. | <i>\ud83d\udccf Stretch out</i>"
-                },
-                {
-                    "number": "7",
-                    "barrier": "7",
-                    "name": "Orgonite",
-                    "rating": 87.0,
-                    "reason": "Excellent second-place finish at 1 3/8 miles last time out. Johnny V will save ground from post 7. | <i>\ud83d\udccf Stretch out</i>"
+                    "reason": "Major threat. Proven at this exact 1 1/2-mile distance last out at Churchill, finishing a strong second. Luis Saez riding for Dale Romans. | <i>\ud83d\udccf Marathon to Marathon</i>"
                 },
                 {
                     "number": "1",
                     "barrier": "1",
                     "name": "Lahainaluna",
-                    "rating": 85.0,
-                    "reason": "Marathon experience is a plus. Tyler Gaffalione takes the reins for Joe Sharp from the rail."
+                    "rating": 88.0,
+                    "reason": "Upgraded via the Belmont Flip angle. Ran a close sixth, beaten only two lengths, at this distance last out at Churchill. Tyler Gaffalione takes the mount. | <i>\ud83d\udccf Marathon to Marathon</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Instantly",
+                    "rating": 86.0,
+                    "reason": "The danger horse. Lightly raced three-year-old making his second career start. Gets a massive jockey upgrade to Irad Ortiz, Jr. | <i>\ud83d\udccf Route to Marathon</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Limited Edition",
+                    "rating": 84.0,
+                    "reason": "Consistent type who is always in the mix but struggles to win (10-0-3-2 lifetime). Excellent underneath in exotics. | <i>\ud83d\udccf Route to Marathon</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Orgonite",
+                    "rating": 82.0,
+                    "reason": "Solid third-place finish at 1 3/8 miles last out. Johnny Velazquez up for David Donk. Should save ground from the middle post. | <i>\ud83d\udccf Route to Marathon</i>"
                 }
             ],
             "danger_horse": {
                 "number": "5",
                 "barrier": "5",
                 "name": "Instantly",
-                "rating": 89.0,
-                "reason": "Highly promising sophomore gets the services of Irad Ortiz Jr. after a solid debut at Churchill. | <i>\ud83d\udccf Stretch out</i>"
+                "rating": 86.0,
+                "reason": "The danger horse. Lightly raced three-year-old making his second career start. Gets a massive jockey upgrade to Irad Ortiz, Jr. | <i>\ud83d\udccf Route to Marathon</i>"
             },
-            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / tight field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #9, #5<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #9, #5"
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#4 Gold Sovereign</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #9, #5 <i>(Includes Danger Threat)</i><br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #9, #5"
         }
     ],
     "daily_doubles": [
         "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#7, #3)",
         "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#7, #3) with (#6 (Solo Lock))",
-        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#7 (Solo Lock))",
-        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#10 (Solo Lock))",
-        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#10 (Solo Lock)) with (#9 (Solo Lock))",
-        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#4 (Solo Lock))",
-        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#3 (Solo Lock))",
-        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#6 (Solo Lock))",
-        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#4, #9)"
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#8, #3)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#8, #3) with (#4 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#9, #4)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9, #4) with (#8 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#4 (Solo Lock))"
     ]
 }

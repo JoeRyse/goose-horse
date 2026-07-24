@@ -1,16 +1,16 @@
+import base64
+from datetime import datetime
+import json
+import os
+import re
+import sqlite3
+import subprocess
+import time
+import google.generativeai as genai
+from json_repair import repair_json
+import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
-import google.generativeai as genai
-import os
-import json
-import time
-import re
-import subprocess
-import base64
-import sqlite3
-import pandas as pd
-from datetime import datetime
-from json_repair import repair_json  # Add this import
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
@@ -25,18 +25,27 @@ LOGIC_DIR = os.path.join(BASE_DIR, "logic")
 TEMP_DIR = os.path.join(BASE_DIR, "temp")
 TRACKS_DIR = os.path.join(BASE_DIR, "tracks")
 
-for d in [DATA_DIR, DOCS_DIR, MEETINGS_DIR, LOGIC_DIR, TEMP_DIR, LOGS_DIR, TRACKS_DIR]:
-    os.makedirs(d, exist_ok=True)
+for d in [
+    DATA_DIR,
+    DOCS_DIR,
+    MEETINGS_DIR,
+    LOGIC_DIR,
+    TEMP_DIR,
+    LOGS_DIR,
+    TRACKS_DIR,
+]:
+  os.makedirs(d, exist_ok=True)
 
 # UNIFIED DATABASE PATH
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 
+
 def init_db():
-    conn = sqlite3.connect(DB_PATH)
-    c = conn.cursor()
-    
-    # Table 1: Predictions
-    c.execute('''
+  conn = sqlite3.connect(DB_PATH)
+  c = conn.cursor()
+
+  # Table 1: Predictions
+  c.execute("""
     CREATE TABLE IF NOT EXISTS predictions (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         date TEXT, track TEXT, race_number TEXT, distance TEXT, surface TEXT, condition TEXT,
@@ -49,16 +58,18 @@ def init_db():
         exotic_strategy TEXT DEFAULT '',
         timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
     )
-    ''')
-    
-    # Migrate missing columns for predictions
-    c.execute("PRAGMA table_info(predictions)")
-    pred_cols = [col[1] for col in c.fetchall()]
-    if "exotic_strategy" not in pred_cols:
-        c.execute("ALTER TABLE predictions ADD COLUMN exotic_strategy TEXT DEFAULT ''")
+    """)
 
-    # Table 2: Actual Results
-    c.execute('''
+  # Migrate missing columns for predictions
+  c.execute("PRAGMA table_info(predictions)")
+  pred_cols = [col[1] for col in c.fetchall()]
+  if "exotic_strategy" not in pred_cols:
+    c.execute(
+        "ALTER TABLE predictions ADD COLUMN exotic_strategy TEXT DEFAULT ''"
+    )
+
+  # Table 2: Actual Results
+  c.execute("""
     CREATE TABLE IF NOT EXISTS results (
         date TEXT, track TEXT, race_number TEXT, win_num TEXT, place_num TEXT, show_num TEXT,
         win_payout REAL DEFAULT 0.0, place_payout REAL DEFAULT 0.0, show_payout REAL DEFAULT 0.0,
@@ -67,50 +78,80 @@ def init_db():
         scratches TEXT DEFAULT 'None',
         PRIMARY KEY (date, track, race_number)
     )
-    ''')
-    
-    conn.commit()
-    conn.close()
+    """)
+
+  conn.commit()
+  conn.close()
+
 
 init_db()
+
+
 def save_results_to_db(track_name, meeting_date, parsed_races):
-    """
-    Saves parsed raw race results into SQLite database (master_betting_history.db).
-    Stores program numbers, full WPS payouts (Win/Place/Show), and exotic payouts.
-    """
-    clean_date_str = pd.to_datetime(meeting_date).strftime('%Y-%m-%d')
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
+  """Saves parsed raw race results into SQLite database (master_betting_history.db).
 
-    for race in parsed_races:
-        race_num = race.get("race_number")
-        if not race_num:
-            continue
+  Stores program numbers, full WPS payouts (Win/Place/Show), and exotic payouts.
+  """
+  clean_date_str = pd.to_datetime(meeting_date).strftime("%Y-%m-%d")
+  conn = sqlite3.connect(DB_PATH)
+  cursor = conn.cursor()
 
-        finishers = race.get("finishers", [])
+  for race in parsed_races:
+    race_num = race.get("race_number")
+    if not race_num:
+      continue
 
-        # Program Numbers
-        win_num = str(finishers[0]["number"]).strip() if len(finishers) > 0 else None
-        place_num = str(finishers[1]["number"]).strip() if len(finishers) > 1 else None
-        show_num = str(finishers[2]["number"]).strip() if len(finishers) > 2 else None
+    finishers = race.get("finishers", [])
 
-        # 1st Place Payouts
-        win_pay = float(finishers[0].get("win", 0.0)) if len(finishers) > 0 else 0.0
-        place_pay = float(finishers[0].get("place", 0.0)) if len(finishers) > 0 else 0.0
-        show_pay = float(finishers[0].get("show", 0.0)) if len(finishers) > 0 else 0.0
+    # Program Numbers
+    win_num = str(finishers[0]["number"]).strip() if len(finishers) > 0 else None
+    place_num = (
+        str(finishers[1]["number"]).strip() if len(finishers) > 1 else None
+    )
+    show_num = (
+        str(finishers[2]["number"]).strip() if len(finishers) > 2 else None
+    )
 
-        # 2nd & 3rd Place Payouts
-        p2_place_pay = float(finishers[1].get("place", 0.0)) if len(finishers) > 1 else 0.0
-        p2_show_pay = float(finishers[1].get("show", 0.0)) if len(finishers) > 1 else 0.0
-        p3_show_pay = float(finishers[2].get("show", 0.0)) if len(finishers) > 2 else 0.0
+    # 1st Place Payouts
+    win_pay = float(finishers[0].get("win", 0.0)) if len(finishers) > 0 else 0.0
+    place_pay = (
+        float(finishers[0].get("place", 0.0)) if len(finishers) > 0 else 0.0
+    )
+    show_pay = (
+        float(finishers[0].get("show", 0.0)) if len(finishers) > 0 else 0.0
+    )
 
-        # Exotics & Scratches
-        exacta_pay = float(race["exacta"]["payout"]) if race.get("exacta") and race["exacta"].get("payout") else 0.0
-        trifecta_pay = float(race["trifecta"]["payout"]) if race.get("trifecta") and race["trifecta"].get("payout") else 0.0
-        super_pay = float(race["superfecta"]["payout"]) if race.get("superfecta") and race["superfecta"].get("payout") else 0.0
-        scratches = race.get("scratches", "None")
+    # 2nd & 3rd Place Payouts
+    p2_place_pay = (
+        float(finishers[1].get("place", 0.0)) if len(finishers) > 1 else 0.0
+    )
+    p2_show_pay = (
+        float(finishers[1].get("show", 0.0)) if len(finishers) > 1 else 0.0
+    )
+    p3_show_pay = (
+        float(finishers[2].get("show", 0.0)) if len(finishers) > 2 else 0.0
+    )
 
-        cursor.execute("""
+    # Exotics & Scratches
+    exacta_pay = (
+        float(race["exacta"]["payout"])
+        if race.get("exacta") and race["exacta"].get("payout")
+        else 0.0
+    )
+    trifecta_pay = (
+        float(race["trifecta"]["payout"])
+        if race.get("trifecta") and race["trifecta"].get("payout")
+        else 0.0
+    )
+    super_pay = (
+        float(race["superfecta"]["payout"])
+        if race.get("superfecta") and race["superfecta"].get("payout")
+        else 0.0
+    )
+    scratches = race.get("scratches", "None")
+
+    cursor.execute(
+        """
             INSERT INTO results (
                 date, track, race_number, win_num, place_num, show_num, 
                 win_payout, place_payout, show_payout,
@@ -132,119 +173,163 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
                 trifecta_payout = excluded.trifecta_payout,
                 superfecta_payout = excluded.superfecta_payout,
                 scratches = excluded.scratches
-        """, (
-            clean_date_str, track_name, str(race_num), win_num, place_num, show_num,
-            win_pay, place_pay, show_pay,
-            p2_place_pay, p2_show_pay, p3_show_pay,
-            exacta_pay, trifecta_pay, super_pay, scratches
-        ))
+        """,
+        (
+            clean_date_str,
+            track_name,
+            str(race_num),
+            win_num,
+            place_num,
+            show_num,
+            win_pay,
+            place_pay,
+            show_pay,
+            p2_place_pay,
+            p2_show_pay,
+            p3_show_pay,
+            exacta_pay,
+            trifecta_pay,
+            super_pay,
+            scratches,
+        ),
+    )
 
-    conn.commit()
-    conn.close()
+  conn.commit()
+  conn.close()
+
+
 # --- PARSER & DB HELPERS ---
 def parse_raw_race_results(raw_text):
-    """
-    Parses pasted track result text directly into structured data,
-    handling squished table headers, missing spaces, and WPS payout mapping.
-    """
-    clean_text = raw_text.replace('\r', ' ').replace('\n', ' ')
-    race_blocks = re.split(r'(Race \d+ -)', clean_text)
-    parsed_races = []
+  """Parses pasted track result text directly into structured data, handling
 
-    for i in range(1, len(race_blocks), 2):
-        header = race_blocks[i]
-        content = race_blocks[i+1]
+  squished table headers, missing spaces, and WPS payout mapping.
+  """
+  clean_text = raw_text.replace("\r", " ").replace("\n", " ")
+  race_blocks = re.split(r"(Race \d+ -)", clean_text)
+  parsed_races = []
 
-        race_num_match = re.search(r'Race (\d+)', header)
-        race_num = int(race_num_match.group(1)) if race_num_match else None
+  for i in range(1, len(race_blocks), 2):
+    header = race_blocks[i]
+    content = race_blocks[i + 1]
 
-        if 'Race Type:' in content:
-            finisher_text = content.split('Race Type:')[0]
-        else:
-            finisher_text = content
+    race_num_match = re.search(r"Race (\d+)", header)
+    race_num = int(race_num_match.group(1)) if race_num_match else None
 
-        finisher_text = re.sub(r'#?\s*Horse\s*Jockey.*?SHOW', '', finisher_text, flags=re.IGNORECASE)
+    if "Race Type:" in content:
+      finisher_text = content.split("Race Type:")[0]
+    else:
+      finisher_text = content
 
-        runner_matches = re.findall(
-            r'(\d{1,2})([A-Za-z\'\s\.\-]+?)(?=\$|\d{1,2}[A-Za-z]|$)(?:\$(\d+\.\d{2}))?(?:\$(\d+\.\d{2}))?(?:\$(\d+\.\d{2}))?',
-            finisher_text
-        )
+    finisher_text = re.sub(
+        r"#?\s*Horse\s*Jockey.*?SHOW", "", finisher_text, flags=re.IGNORECASE
+    )
 
-        top_finishers = []
-        for rank, match in enumerate(runner_matches[:4], 1):
-            prog_num = match[0]
-            raw_name = match[1].strip()
+    runner_matches = re.findall(
+        r"(\d{1,2})([A-Za-z\'\s\.\-]+?)(?=\$|\d{1,2}[A-Za-z]|$)(?:\$(\d+\.\d{2}))?(?:\$(\d+\.\d{2}))?(?:\$(\d+\.\d{2}))?",
+        finisher_text,
+    )
 
-            if not raw_name or len(raw_name) < 2 or raw_name.upper() in ["WIN", "PLACE", "SHOW"]:
-                continue
+    top_finishers = []
+    for rank, match in enumerate(runner_matches[:4], 1):
+      prog_num = match[0]
+      raw_name = match[1].strip()
 
-            payouts = [float(match[j]) for j in [2, 3, 4] if match[j]]
+      if (
+          not raw_name
+          or len(raw_name) < 2
+          or raw_name.upper() in ["WIN", "PLACE", "SHOW"]
+      ):
+        continue
 
-            win_p, place_p, show_p = 0.0, 0.0, 0.0
+      payouts = [float(match[j]) for j in [2, 3, 4] if match[j]]
 
-            if len(top_finishers) == 0:
-                win_p = payouts[0] if len(payouts) > 0 else 0.0
-                place_p = payouts[1] if len(payouts) > 1 else 0.0
-                show_p = payouts[2] if len(payouts) > 2 else 0.0
-            elif len(top_finishers) == 1:
-                place_p = payouts[0] if len(payouts) > 0 else 0.0
-                show_p = payouts[1] if len(payouts) > 1 else 0.0
-            elif len(top_finishers) == 2:
-                show_p = payouts[0] if len(payouts) > 0 else 0.0
+      win_p, place_p, show_p = 0.0, 0.0, 0.0
 
-            top_finishers.append({
-                "position": len(top_finishers) + 1,
-                "number": prog_num,
-                "name": raw_name,
-                "win": win_p,
-                "place": place_p,
-                "show": show_p
-            })
+      if len(top_finishers) == 0:
+        win_p = payouts[0] if len(payouts) > 0 else 0.0
+        place_p = payouts[1] if len(payouts) > 1 else 0.0
+        show_p = payouts[2] if len(payouts) > 2 else 0.0
+      elif len(top_finishers) == 1:
+        place_p = payouts[0] if len(payouts) > 0 else 0.0
+        show_p = payouts[1] if len(payouts) > 1 else 0.0
+      elif len(top_finishers) == 2:
+        show_p = payouts[0] if len(payouts) > 0 else 0.0
 
-        exacta_match = re.search(r'EXACTA\s*([0-9/]+)\s*\$(\d+\.\d+)', content)
-        trifecta_match = re.search(r'TRIFECTA\s*([0-9/]+)\s*\$(\d+\.\d+)', content)
-        superfecta_match = re.search(r'SUPERFECTA\s*([0-9/A-Z]+)\s*\$(\d+\.\d+)', content)
+      top_finishers.append({
+          "position": len(top_finishers) + 1,
+          "number": prog_num,
+          "name": raw_name,
+          "win": win_p,
+          "place": place_p,
+          "show": show_p,
+      })
 
-        scratches_match = re.search(r'Scratches\s*(.*?)(?=Race \d+|Winning Trainer|$)', content)
-        scratches_str = scratches_match.group(1).strip() if scratches_match else "None"
-        if not scratches_str:
-            scratches_str = "None"
+    exacta_match = re.search(r"EXACTA\s*([0-9/]+)\s*\$(\d+\.\d+)", content)
+    trifecta_match = re.search(r"TRIFECTA\s*([0-9/]+)\s*\$(\d+\.\d+)", content)
+    superfecta_match = re.search(
+        r"SUPERFECTA\s*([0-9/A-Z]+)\s*\$(\d+\.\d+)", content
+    )
 
-        race_data = {
-            "race_number": race_num,
-            "finishers": top_finishers,
-            "exacta": {"combo": exacta_match.group(1), "payout": float(exacta_match.group(2))} if exacta_match else None,
-            "trifecta": {"combo": trifecta_match.group(1), "payout": float(trifecta_match.group(2))} if trifecta_match else None,
-            "superfecta": {"combo": superfecta_match.group(1), "payout": float(superfecta_match.group(2))} if superfecta_match else None,
-            "scratches": scratches_str
+    scratches_match = re.search(
+        r"Scratches\s*(.*?)(?=Race \d+|Winning Trainer|$)", content
+    )
+    scratches_str = (
+        scratches_match.group(1).strip() if scratches_match else "None"
+    )
+    if not scratches_str:
+      scratches_str = "None"
+
+    race_data = {
+        "race_number": race_num,
+        "finishers": top_finishers,
+        "exacta": {
+            "combo": exacta_match.group(1),
+            "payout": float(exacta_match.group(2)),
         }
+        if exacta_match
+        else None,
+        "trifecta": {
+            "combo": trifecta_match.group(1),
+            "payout": float(trifecta_match.group(2)),
+        }
+        if trifecta_match
+        else None,
+        "superfecta": {
+            "combo": superfecta_match.group(1),
+            "payout": float(superfecta_match.group(2)),
+        }
+        if superfecta_match
+        else None,
+        "scratches": scratches_str,
+    }
 
-        parsed_races.append(race_data)
+    parsed_races.append(race_data)
 
-    return parsed_races
+  return parsed_races
 
 
 def save_predictions_to_db(data):
-    conn = sqlite3.connect(DB_PATH)
-    c = conn.cursor()
-    
-    meeting_date = data.get("meta", {}).get("date", "")
-    track = data.get("meta", {}).get("track", "")
-    
-    for race in data.get("races", []):
-        r_num = str(race.get("number", ""))
-        selections = race.get("selections", [])
-        
-        p1 = selections[0] if len(selections) > 0 else {}
-        p2 = selections[1] if len(selections) > 1 else {}
-        p3 = selections[2] if len(selections) > 2 else {}
-        p4 = selections[3] if len(selections) > 3 else {}
-        dang = race.get("danger_horse", {})
-        
-        # Capture generated strategy string
-        strat_str = str(race.get("exotic_strategy", "")).replace('#$', '#')
-        
-        c.execute('''
+  conn = sqlite3.connect(DB_PATH)
+  c = conn.cursor()
+
+  meeting_date = data.get("meta", {}).get("date", "")
+  track = data.get("meta", {}).get("track", "")
+
+  for race in data.get("races", []):
+    r_num = str(race.get("number", ""))
+    selections = race.get("selections", [])
+
+    p1 = selections[0] if len(selections) > 0 else {}
+    p2 = selections[1] if len(selections) > 1 else {}
+    p3 = selections[2] if len(selections) > 2 else {}
+    p4 = selections[3] if len(selections) > 3 else {}
+    dang = race.get("danger_horse", {})
+
+    # Capture generated strategy string
+    strat_str = str(race.get("exotic_strategy", "")).replace("#$", "#")
+
+    c.execute(
+        """
             INSERT INTO predictions (
                 date, track, race_number, distance, surface, condition,
                 p1_num, p1_barrier, p1_name, p1_reason,
@@ -254,148 +339,215 @@ def save_predictions_to_db(data):
                 danger_num, danger_barrier, danger_name, danger_reason,
                 confidence, raw_features, exotic_strategy
             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (
-            meeting_date, track, r_num, race.get("distance", ""), race.get("surface", ""), race.get("condition", ""),
-            p1.get("number", ""), p1.get("barrier", ""), p1.get("name", ""), p1.get("reason", ""),
-            p2.get("number", ""), p2.get("barrier", ""), p2.get("name", ""), p2.get("reason", ""),
-            p3.get("number", ""), p3.get("barrier", ""), p3.get("name", ""), p3.get("reason", ""),
-            p4.get("number", ""), p4.get("barrier", ""), p4.get("name", ""), p4.get("reason", ""),
-            dang.get("number", ""), dang.get("barrier", ""), dang.get("name", ""), dang.get("reason", ""),
-            race.get("confidence_level", ""), str(race), strat_str
-        ))
-        
-    conn.commit()
-    conn.close()
+        """,
+        (
+            meeting_date,
+            track,
+            r_num,
+            race.get("distance", ""),
+            race.get("surface", ""),
+            race.get("condition", ""),
+            p1.get("number", ""),
+            p1.get("barrier", ""),
+            p1.get("name", ""),
+            p1.get("reason", ""),
+            p2.get("number", ""),
+            p2.get("barrier", ""),
+            p2.get("name", ""),
+            p2.get("reason", ""),
+            p3.get("number", ""),
+            p3.get("barrier", ""),
+            p3.get("name", ""),
+            p3.get("reason", ""),
+            p4.get("number", ""),
+            p4.get("barrier", ""),
+            p4.get("name", ""),
+            p4.get("reason", ""),
+            dang.get("number", ""),
+            dang.get("barrier", ""),
+            dang.get("name", ""),
+            dang.get("reason", ""),
+            race.get("confidence_level", ""),
+            str(race),
+            strat_str,
+        ),
+    )
+
+  conn.commit()
+  conn.close()
+
 
 # --- HELPER FUNCTIONS ---
 def get_base64_logo():
-    path = os.path.join(BASE_DIR, "logo.png")
-    if not os.path.exists(path):
-        path = os.path.join(DOCS_DIR, "logo.png")
-    if os.path.exists(path):
-        with open(path, "rb") as image_file:
-            encoded = base64.b64encode(image_file.read()).decode()
-            return f"data:image/png;base64,{encoded}", path
-    return "", None
+  path = os.path.join(BASE_DIR, "logo.png")
+  if not os.path.exists(path):
+    path = os.path.join(DOCS_DIR, "logo.png")
+  if os.path.exists(path):
+    with open(path, "rb") as image_file:
+      encoded = base64.b64encode(image_file.read()).decode()
+      return f"data:image/png;base64,{encoded}", path
+  return "", None
+
 
 def clean_json_string(json_str):
-    json_str = re.sub(r'```json\s*', '', json_str)
-    json_str = re.sub(r'```\s*$', '', json_str)
-    return json_str.strip()
+  json_str = re.sub(r"```json\s*", "", json_str)
+  json_str = re.sub(r"```\s*$", "", json_str)
+  return json_str.strip()
+
 
 def is_valid_pick(pick):
-    if not pick: return False
-    if pick is None: return False
-    name = str(pick.get('name', '')).strip().lower()
-    invalid = ['none', 'n/a', 'null', 'no danger', 'no threat', 'tbd', 'horse name', '', 'no significant danger']
-    return name and name not in invalid
+  if not pick:
+    return False
+  if pick is None:
+    return False
+  name = str(pick.get("name", "")).strip().lower()
+  invalid = [
+      "none",
+      "n/a",
+      "null",
+      "no danger",
+      "no threat",
+      "tbd",
+      "horse name",
+      "",
+      "no significant danger",
+  ]
+  return name and name not in invalid
+
 
 def load_track_catalog():
-    catalog = {}
-    if not os.path.exists(TRACKS_DIR):
-        return catalog
-
-    for filename in os.listdir(TRACKS_DIR):
-        if filename.endswith(".json"):
-            filepath = os.path.join(TRACKS_DIR, filename)
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    raw_group = str(data.get("region_group", "")).upper()
-
-                    if "HARNESS" in raw_group:
-                        category = "Harness"
-                    else:
-                        category = "Thoroughbred"
-
-                    if "AUSTRALIA" in raw_group or "AUS" in raw_group:
-                        region = "Australia"
-                    elif "NEW_ZEALAND" in raw_group or "NZ" in raw_group:
-                        region = "New Zealand"
-                    elif "ASIA" in raw_group or "HONG_KONG" in raw_group or "JAPAN" in raw_group or "KOREA" in raw_group:
-                        region = "Asia"
-                    elif "CANADA" in raw_group:
-                        region = "Canada"
-                    elif "EUROPE" in raw_group or "UK" in raw_group or "FRANCE" in raw_group:
-                        region = "Europe"
-                    elif "USA" in raw_group or "US" in raw_group:
-                        region = "USA"
-                    else:
-                        region = "Other"
-
-                    track_display_name = filename.replace(".json", "").replace("_", " ").title()
-
-                    if category not in catalog:
-                        catalog[category] = {}
-                    if region not in catalog[category]:
-                        catalog[category][region] = []
-
-                    catalog[category][region].append(track_display_name)
-            except:
-                continue
-
-    for cat in catalog:
-        for reg in catalog[cat]:
-            catalog[cat][reg] = sorted(catalog[cat][reg])
-
+  catalog = {}
+  if not os.path.exists(TRACKS_DIR):
     return catalog
 
-def find_track_data(target_name):
-    filename = f"{target_name.lower().replace(' ', '_').replace('-', '_')}.json"
-    filepath = os.path.join(TRACKS_DIR, filename)
+  for filename in os.listdir(TRACKS_DIR):
+    if filename.endswith(".json"):
+      filepath = os.path.join(TRACKS_DIR, filename)
+      try:
+        with open(filepath, "r", encoding="utf-8") as f:
+          data = json.load(f)
+          raw_group = str(data.get("region_group", "")).upper()
 
-    if os.path.exists(filepath):
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except:
-            return {}
-    return {}
+          if "HARNESS" in raw_group:
+            category = "Harness"
+          else:
+            category = "Thoroughbred"
+
+          if "AUSTRALIA" in raw_group or "AUS" in raw_group:
+            region = "Australia"
+          elif "NEW_ZEALAND" in raw_group or "NZ" in raw_group:
+            region = "New Zealand"
+          elif (
+              "ASIA" in raw_group
+              or "HONG_KONG" in raw_group
+              or "JAPAN" in raw_group
+              or "KOREA" in raw_group
+          ):
+            region = "Asia"
+          elif "CANADA" in raw_group:
+            region = "Canada"
+          elif (
+              "EUROPE" in raw_group
+              or "UK" in raw_group
+              or "FRANCE" in raw_group
+          ):
+            region = "Europe"
+          elif "USA" in raw_group or "US" in raw_group:
+            region = "USA"
+          else:
+            region = "Other"
+
+          track_display_name = (
+              filename.replace(".json", "").replace("_", " ").title()
+          )
+
+          if category not in catalog:
+            catalog[category] = {}
+          if region not in catalog[category]:
+            catalog[category][region] = []
+
+          catalog[category][region].append(track_display_name)
+      except:
+        continue
+
+  for cat in catalog:
+    for reg in catalog[cat]:
+      catalog[cat][reg] = sorted(catalog[cat][reg])
+
+  return catalog
+
+
+def find_track_data(target_name):
+  filename = f"{target_name.lower().replace(' ', '_').replace('-', '_')}.json"
+  filepath = os.path.join(TRACKS_DIR, filename)
+
+  if os.path.exists(filepath):
+    try:
+      with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
+    except:
+      return {}
+  return {}
+
 
 OPTIMIZED_WEIGHTS_PATH = os.path.join(DATA_DIR, "optimized_weights.json")
 
+
 def get_weights_for_track(track_name):
-    default_weights = {
-        "lone_speed_bonus": 4,
-        "trouble_trip_bonus": 4,
-        "sprint_route_bonus": -2
-    }
+  default_weights = {
+      "lone_speed_bonus": 4,
+      "trouble_trip_bonus": 4,
+      "sprint_route_bonus": -2,
+  }
 
-    if os.path.exists(OPTIMIZED_WEIGHTS_PATH):
-        try:
-            with open(OPTIMIZED_WEIGHTS_PATH, "r", encoding="utf-8") as f:
-                all_weights = json.load(f)
-                for stored_track, data in all_weights.items():
-                    if stored_track.lower() == track_name.lower():
-                        return data.get("weights", default_weights)
-        except:
-            pass
+  if os.path.exists(OPTIMIZED_WEIGHTS_PATH):
+    try:
+      with open(OPTIMIZED_WEIGHTS_PATH, "r", encoding="utf-8") as f:
+        all_weights = json.load(f)
+        for stored_track, data in all_weights.items():
+          if stored_track.lower() == track_name.lower():
+            return data.get("weights", default_weights)
+    except:
+      pass
 
-    return default_weights
+  return default_weights
+
 
 def update_homepage():
-    files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith('.html')]
-    grouped_files = {}
-    for f in files:
-        country = "International"
-        try:
-            with open(os.path.join(MEETINGS_DIR, f), 'r', encoding='utf-8') as file_obj:
-                content = file_obj.read(500)
-                if "META_COUNTRY" in content:
-                    match = re.search(r'META_COUNTRY:([^\s]+)', content)
-                    if match: country = match.group(1).strip()
-        except: pass
-        if "Aus" in f: country = "Australia"
-        elif "USA" in f: country = "USA"
-        elif "UK" in f: country = "UK"
+  files = [f for f in os.listdir(MEETINGS_DIR) if f.endswith(".html")]
+  grouped_files = {}
+  for f in files:
+    country = "International"
+    try:
+      with open(
+          os.path.join(MEETINGS_DIR, f), "r", encoding="utf-8"
+      ) as file_obj:
+        content = file_obj.read(500)
+        if "META_COUNTRY" in content:
+          match = re.search(r"META_COUNTRY:([^\s]+)", content)
+          if match:
+            country = match.group(1).strip()
+    except:
+      pass
+    if "Aus" in f:
+      country = "Australia"
+    elif "USA" in f:
+      country = "USA"
+    elif "UK" in f:
+      country = "UK"
 
-        if country not in grouped_files: grouped_files[country] = []
-        grouped_files[country].append(f)
+    if country not in grouped_files:
+      grouped_files[country] = []
+    grouped_files[country].append(f)
 
-    logo_src, _ = get_base64_logo()
-    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:3rem; margin-right:20px;">🏇</span>'
+  logo_src, _ = get_base64_logo()
+  logo_html = (
+      f'<img src="{logo_src}" class="logo">'
+      if logo_src
+      else '<span style="font-size:3rem; margin-right:20px;">🏇</span>'
+  )
 
-    html = f"""<!DOCTYPE html><html lang="en"><head><title>Exacta AI</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+  html = f"""<!DOCTYPE html><html lang="en"><head><title>Exacta AI</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>
     body {{ margin: 0; font-family: 'Segoe UI', sans-serif; background: #f8fafc; color: #333; }}
     .container {{ max-width: 1000px; margin: 0 auto; padding: 20px; }}
     .header {{ display: flex; align-items: center; border-bottom: 4px solid #003366; padding-bottom: 20px; margin-bottom: 20px; background: #fff; padding: 20px; }}
@@ -414,14 +566,16 @@ def update_homepage():
     <div class="header">{logo_html}<div class="header-info"><h1>Race Intelligence</h1><div class="meta">Professional Handicapping Database</div></div></div>
     <div class="container">"""
 
-    for key in grouped_files.keys():
-        html += f'<div class="section-title">{key} Racing</div><div class="grid">'
-        for f in sorted(grouped_files[key], reverse=True):
-            display_name = f.replace(".html","").replace("_"," ")
-            html += f'<a href="meetings/{f}" class="card"><div class="card-body"><span class="track-name">{display_name}</span><span class="status">● View Form</span></div></a>'
-        html += "</div>"
-    html += "</div></body></html>"
-    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding='utf-8') as f: f.write(html)
+  for key in grouped_files.keys():
+    html += f'<div class="section-title">{key} Racing</div><div class="grid">'
+    for f in sorted(grouped_files[key], reverse=True):
+      display_name = f.replace(".html", "").replace("_", " ")
+      html += f'<a href="meetings/{f}" class="card"><div class="card-body"><span class="track-name">{display_name}</span><span class="status">● View Form</span></div></a>'
+    html += "</div>"
+  html += "</div></body></html>"
+  with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
+    f.write(html)
+
 
 CLEAN_CSS = """
 body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; padding-top: 70px; }
@@ -474,47 +628,72 @@ body { padding-top: 0; background: white; }
 }
 """
 
+
 def generate_meeting_html(data, region_override, is_preview_mode=False):
-    country = data.get('meta', {}).get('jurisdiction', region_override)
-    track_name = data.get('meta', {}).get('track', 'Unknown Track')
-    track_date = data.get('meta', {}).get('date', 'Unknown Date')
-    track_cond = data.get('meta', {}).get('track_condition', 'Standard')
+  country = data.get("meta", {}).get("jurisdiction", region_override)
+  track_name = data.get("meta", {}).get("track", "Unknown Track")
+  track_date = data.get("meta", {}).get("date", "Unknown Date")
+  track_cond = data.get("meta", {}).get("track_condition", "Standard")
 
-    logo_src, _ = get_base64_logo()
-    logo_html = f'<img src="{logo_src}" class="logo">' if logo_src else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
+  logo_src, _ = get_base64_logo()
+  logo_html = (
+      f'<img src="{logo_src}" class="logo">'
+      if logo_src
+      else '<span style="font-size:2rem; margin-right:15px;">🏇</span>'
+  )
 
-    best_bets = []
-    for r in data.get('races', []):
-        conf = str(r.get('confidence_level', ''))
-        selections = r.get('selections', [])
-        if not selections and 'picks' in r:
-            p = r['picks']
-            selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
-            selections = [s for s in selections if s and s.get('name')]
+  best_bets = []
+  for r in data.get("races", []):
+    conf = str(r.get("confidence_level", ""))
+    selections = r.get("selections", [])
+    if not selections and "picks" in r:
+      p = r["picks"]
+      selections = [
+          p.get("top_pick", {}),
+          p.get("danger_horse", {}),
+          p.get("value_bet", {}),
+      ]
+      selections = [s for s in selections if s and s.get("name")]
 
-        if selections:
-            top_pick = selections[0]
-            if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and is_valid_pick(top_pick):
-                best_bets.append({
-                    "race": r.get('number'),
-                    "horse": f"#{top_pick.get('number')} {top_pick.get('name')}",
-                    "reason": top_pick.get('reason', '')[:100] + "..."
-                })
+    if selections:
+      top_pick = selections[0]
+      if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and is_valid_pick(
+          top_pick
+      ):
+        best_bets.append({
+            "race": r.get("number"),
+            "horse": f"#{top_pick.get('number')} {top_pick.get('name')}",
+            "reason": top_pick.get("reason", "")[:100] + "...",
+        })
 
-    best_bets_html = ""
-    if best_bets:
-        best_bets_html = '<div class="prime-bets" style="background:#fffbeb; border:2px solid #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;">'
-        best_bets_html += '<h2 style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex; align-items:center;">🔥 <span style="margin-left:8px">PRIME BETS</span></h2><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;">'
-        for bb in best_bets[:3]:
-            best_bets_html += f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}: {bb["horse"]}</div><div style="font-size:0.9em; color:#555;">{bb["reason"]}</div></div>'
-        best_bets_html += '</div></div>'
+  best_bets_html = ""
+  if best_bets:
+    best_bets_html = (
+        '<div class="prime-bets" style="background:#fffbeb; border:2px solid'
+        ' #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;"><h2'
+        ' style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex;'
+        ' align-items:center;">🔥 <span style="margin-left:8px">PRIME'
+        ' BETS</span></h2><div style="display:grid;'
+        ' grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));'
+        ' gap:15px;">'
+    )
+    for bb in best_bets[:3]:
+      best_bets_html += (
+          f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}:'
+          f' {bb["horse"]}</div><div style="font-size:0.9em;'
+          f' color:#555;">{bb["reason"]}</div></div>'
+      )
+    best_bets_html += "</div></div>"
 
-    nav_links = ""
-    for r in data.get('races', []):
-        r_num = r.get('number', '0')
-        nav_links += f'<a href="#race-{r_num}" class="nav-btn">Race {r_num}</a>'
+  nav_links = ""
+  for r in data.get("races", []):
+    r_num = r.get("number", "0")
+    nav_links += f'<a href="#race-{r_num}" class="nav-btn">Race {r_num}</a>'
 
-    html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
+  if data.get("daily_doubles"):
+    nav_links += '<a href="#daily-doubles" class="nav-btn" style="background:#ff6b00; border-color:#ff6b00;">🎟️ Daily Doubles</a>'
+
+  html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{track_name}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>{CLEAN_CSS}</style></head><body>
     <div class="nav-bar"><span class="nav-label">{track_name}</span>{nav_links}</div>
@@ -525,60 +704,84 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     </div>
     {best_bets_html}"""
 
-    for r in data.get('races', []):
-        r_num = r.get('number', '?')
-        confidence = str(r.get('confidence_level', ''))
-        surface = str(r.get('surface', ''))
-        if surface: surface = f" ({surface})"
+  for r in data.get("races", []):
+    r_num = r.get("number", "?")
+    confidence = str(r.get("confidence_level", ""))
+    surface = str(r.get("surface", ""))
+    if surface:
+      surface = f" ({surface})"
 
-        is_best_bet = "High" in confidence or "Strong" in confidence or "5 Stars" in confidence
+    is_best_bet = (
+        "High" in confidence
+        or "Strong" in confidence
+        or "5 Stars" in confidence
+    )
 
-        selections = r.get('selections', [])
-        if not selections and 'picks' in r:
-            p = r['picks']
-            selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
-            selections = [s for s in selections if s and s.get('name')]
+    selections = r.get("selections", [])
+    if not selections and "picks" in r:
+      p = r["picks"]
+      selections = [
+          p.get("top_pick", {}),
+          p.get("danger_horse", {}),
+          p.get("value_bet", {}),
+      ]
+      selections = [s for s in selections if s and s.get("name")]
 
-        top = selections[0] if len(selections) > 0 else {}
-        top_name = top.get('name', 'N/A')
-        top_class = "panel-best" if is_best_bet else "panel-top"
-        top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
+    top = selections[0] if len(selections) > 0 else {}
+    top_name = top.get("name", "N/A")
+    top_class = "panel-best" if is_best_bet else "panel-top"
+    top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
 
-        dang = r.get('danger_horse') or {}
-        show_danger = is_valid_pick(dang)
+    dang = r.get("danger_horse") or {}
+    show_danger = is_valid_pick(dang)
 
-        exotic_data = r.get('exotic_strategy', {})
-        if isinstance(exotic_data, dict):
-            exacta_strat = exotic_data.get('strategy', '')
-            if not exacta_strat: exacta_strat = exotic_data.get('exacta', '')
-        elif isinstance(exotic_data, str):
-            exacta_strat = exotic_data
-        else:
-            exacta_strat = "No exotic strategy provided."
+    exotic_data = r.get("exotic_strategy", {})
+    if isinstance(exotic_data, dict):
+      exacta_strat = exotic_data.get("strategy", "")
+      if not exacta_strat:
+        exacta_strat = exotic_data.get("exacta", "")
+    elif isinstance(exotic_data, str):
+      exacta_strat = exotic_data
+    else:
+      exacta_strat = "No exotic strategy provided."
 
-        exacta_class = "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
+    exacta_class = (
+        "exacta-gold" if is_best_bet and len(exacta_strat) > 3 else "exacta-box"
+    )
 
-        html += f"""<div id="race-{r_num}" class="race-section">
+    html += f"""<div id="race-{r_num}" class="race-section">
         <div class="race-header"><div>RACE {r_num} - {r.get('distance','')}{surface}</div><div style="font-size:0.9em; opacity:0.8">{confidence}</div></div>
         <div class="picks-grid">
         <div class="pick-box {top_class}"><b>{top_label}: #{top.get('number','')} {top_name}</b><br><small>{top.get('reason','')}</small></div>"""
 
-        if show_danger:
-            html += f"""<div class="pick-box panel-danger"><b>⚠️ DANGER: #{dang.get('number','')} {dang.get('name','')}</b><br><small>{dang.get('reason','')}</small></div>"""
+    if show_danger:
+      html += f"""<div class="pick-box panel-danger"><b>⚠️ DANGER: #{dang.get('number','')} {dang.get('name','')}</b><br><small>{dang.get('reason','')}</small></div>"""
 
-        html += f"""</div><div class="table-container"><table><thead><tr><th>#</th><th>Horse</th><th>Reasoning / Notes</th></tr></thead><tbody>"""
+    html += f"""</div><div class="table-container"><table><thead><tr><th>#</th><th>Horse</th><th>Reasoning / Notes</th></tr></thead><tbody>"""
 
-        for s in selections[:4]:
-            style = ' class="row-top"' if str(s.get('number')) == str(top.get('number')) else ''
-            html += f"<tr{style}><td>{s.get('number')}</td><td>{s.get('name')}</td><td>{s.get('reason')}</td></tr>"
+    for s in selections[:4]:
+      style = (
+          ' class="row-top"'
+          if str(s.get("number")) == str(top.get("number"))
+          else ""
+      )
+      html += f"<tr{style}><td>{s.get('number')}</td><td>{s.get('name')}</td><td>{s.get('reason')}</td></tr>"
 
-        if len(exacta_strat) > 3:
-            html += f"""</tbody></table></div><div class="{exacta_class}"><b>BETTING STRATEGY:</b> {exacta_strat}</div></div>"""
-        else:
-            html += "</tbody></table></div></div>"
+    if len(exacta_strat) > 3:
+      html += f"""</tbody></table></div><div class="{exacta_class}"><b>BETTING STRATEGY:</b> {exacta_strat}</div></div>"""
+    else:
+      html += "</tbody></table></div></div>"
 
-    html += "</div></div></body></html>"
-    return html
+  # Render Daily Doubles Section at the bottom of the HTML
+  if data.get("daily_doubles"):
+    html += '<div id="daily-doubles" class="race-section" style="padding:20px; background:#fff; border-top:4px solid #003366;"><h2 style="color:#003366; margin-top:0; display:flex; align-items:center;">🎟️ <span style="margin-left:8px">RECOMMENDED DAILY DOUBLE PLAYS</span></h2>'
+    for dd in data["daily_doubles"]:
+      html += f'<div style="background:#f8fafc; border-left:4px solid #ff6b00; padding:12px 18px; margin-bottom:10px; border-radius:6px; font-weight:600; font-size:1rem; color:#1e293b;">{dd}</div>'
+    html += "</div>"
+
+  html += "</div></div></body></html>"
+  return html
+
 
 update_homepage()
 
@@ -587,104 +790,146 @@ st.sidebar.header("⚙️ Settings")
 
 default_key = ""
 try:
-    if "GEMINI_API_KEY" in st.secrets:
-        default_key = st.secrets["GEMINI_API_KEY"]
-    elif "GOOGLE_API_KEY" in st.secrets:
-        default_key = st.secrets["GOOGLE_API_KEY"]
-except: pass
+  if "GEMINI_API_KEY" in st.secrets:
+    default_key = st.secrets["GEMINI_API_KEY"]
+  elif "GOOGLE_API_KEY" in st.secrets:
+    default_key = st.secrets["GOOGLE_API_KEY"]
+except:
+  pass
 
-api_key = st.sidebar.text_input("Gemini API Key", value=default_key, type="password").strip()
+api_key = st.sidebar.text_input(
+    "Gemini API Key", value=default_key, type="password"
+).strip()
 
 if api_key:
-    os.environ["GOOGLE_API_KEY"] = api_key
-    os.environ["GEMINI_API_KEY"] = api_key
+  os.environ["GOOGLE_API_KEY"] = api_key
+  os.environ["GEMINI_API_KEY"] = api_key
 
 st.sidebar.markdown("---")
 st.sidebar.header("🚀 Admin")
 if st.sidebar.button("🔄 Sync Nav & Deploy"):
-    update_homepage()
-    st.sidebar.success("Updated Dashboard Index.")
-    try:
-        subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
-        st.sidebar.success("Deploying...")
-    except: st.sidebar.error("Deploy script missing.")
+  update_homepage()
+  st.sidebar.success("Updated Dashboard Index.")
+  try:
+    subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
+    st.sidebar.success("Deploying...")
+  except:
+    st.sidebar.error("Deploy script missing.")
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
-model_options = ["gemini-3.5-flash","gemini-3.1-pro-preview", "gemini-2.0-flash-exp", "gemini-1.5-flash"]
+model_options = [
+    "gemini-3.5-flash",
+    "gemini-3.1-pro-preview",
+    "gemini-2.0-flash-exp",
+    "gemini-1.5-flash",
+]
 target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
 if st.sidebar.checkbox("Type a Custom Model Name?"):
-    target_model = st.sidebar.text_input("Model Name", value="gemini-experimental")
+  target_model = st.sidebar.text_input(
+      "Model Name", value="gemini-experimental"
+  )
 creativity_temp = st.sidebar.slider("Creativity (Temperature)", 0.0, 1.0, 0.4, 0.1)
 
-if api_key: genai.configure(api_key=api_key)
+if api_key:
+  genai.configure(api_key=api_key)
 
 # --- TRACK DB LOADER ---
 track_catalog = load_track_catalog()
 
 if track_catalog:
-    st.sidebar.markdown("### 🏟️ Meeting Selection")
+  st.sidebar.markdown("### 🏟️ Meeting Selection")
 
-    categories = sorted(list(track_catalog.keys()))
-    selected_category = st.sidebar.selectbox("Category", categories, key="app_cat_select")
+  categories = sorted(list(track_catalog.keys()))
+  selected_category = st.sidebar.selectbox(
+      "Category", categories, key="app_cat_select"
+  )
 
-    regions_in_cat = sorted(list(track_catalog[selected_category].keys()))
-    selected_region = st.sidebar.selectbox("Region", regions_in_cat, key="app_reg_select")
+  regions_in_cat = sorted(list(track_catalog[selected_category].keys()))
+  selected_region = st.sidebar.selectbox(
+      "Region", regions_in_cat, key="app_reg_select"
+  )
 
-    tracks_in_region = track_catalog[selected_category][selected_region]
-    selected_track = st.sidebar.selectbox("Track", tracks_in_region, key="app_track_select")
+  tracks_in_region = track_catalog[selected_category][selected_region]
+  selected_track = st.sidebar.selectbox(
+      "Track", tracks_in_region, key="app_track_select"
+  )
 
-    current_track_profile = find_track_data(selected_track)
-    active_weights = get_weights_for_track(selected_track)
+  current_track_profile = find_track_data(selected_track)
+  active_weights = get_weights_for_track(selected_track)
 
-    st.sidebar.success(f"Loaded: {selected_track}")
+  st.sidebar.success(f"Loaded: {selected_track}")
 else:
-    st.sidebar.warning("No track files found in the 'tracks/' folder.")
-    selected_track = "Saratoga"
-    current_track_profile = {}
-    active_weights = get_weights_for_track(selected_track)
+  st.sidebar.warning("No track files found in the 'tracks/' folder.")
+  selected_track = "Saratoga"
+  current_track_profile = {}
+  active_weights = get_weights_for_track(selected_track)
 
 # ==========================================
 # APP ROUTING (TABS)
 # ==========================================
-tab_handicap, tab_analytics, tab_results = st.tabs(["🏇 Handicapping Engine", "📈 Performance Analytics", "📝 Input Results"])
+tab_handicap, tab_analytics, tab_results = st.tabs([
+    "🏇 Handicapping Engine",
+    "📈 Performance Analytics",
+    "📝 Input Results",
+])
 
 
 # ==========================================
 # TAB 1: HANDICAPPING ENGINE
 # ==========================================
 with tab_handicap:
-    st.title(f"🏆 Exacta AI: {selected_track}")
-    uploaded_file = st.file_uploader(f"Upload {selected_region} PDF", type="pdf")
-    scratches = st.text_area("📋 Scratchings / Updates", height=70)
+  st.title(f"🏆 Exacta AI: {selected_track}")
+  uploaded_file = st.file_uploader(f"Upload {selected_region} PDF", type="pdf")
+  scratches = st.text_area("📋 Scratchings / Updates", height=70)
 
-    if 'html_content' not in st.session_state: st.session_state.html_content = None
-    if 'preview_html' not in st.session_state: st.session_state.preview_html = None
-    if 'report_filename' not in st.session_state: st.session_state.report_filename = None
-    if 'raw_response' not in st.session_state: st.session_state.raw_response = ""
-    if 'data_ready' not in st.session_state: st.session_state.data_ready = False
-    if 'json_data' not in st.session_state: st.session_state.json_data = None
+  if "html_content" not in st.session_state:
+    st.session_state.html_content = None
+  if "preview_html" not in st.session_state:
+    st.session_state.preview_html = None
+  if "report_filename" not in st.session_state:
+    st.session_state.report_filename = None
+  if "raw_response" not in st.session_state:
+    st.session_state.raw_response = ""
+  if "data_ready" not in st.session_state:
+    st.session_state.data_ready = False
+  if "json_data" not in st.session_state:
+    st.session_state.json_data = None
 
-    if st.button("Analyze Race Card (Preview Only)", type="primary"):
-        if not uploaded_file or not api_key:
-            st.error("Please provide an API Key and a PDF file.")
-        else:
-            with st.spinner(f"Reading and Analyzing with {target_model} (Temp: {creativity_temp})..."):
-                try:
-                    temp_pdf_path = os.path.join(TEMP_DIR, "current_card.pdf")
-                    with open(temp_pdf_path, "wb") as f: f.write(uploaded_file.getbuffer())
+  if st.button("Analyze Race Card (Preview Only)", type="primary"):
+    if not uploaded_file or not api_key:
+      st.error("Please provide an API Key and a PDF file.")
+    else:
+      with st.spinner(
+          f"Reading and Analyzing with {target_model} (Temp:"
+          f" {creativity_temp})..."
+      ):
+        try:
+          temp_pdf_path = os.path.join(TEMP_DIR, "current_card.pdf")
+          with open(temp_pdf_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
 
-                    remote_file = genai.upload_file(temp_pdf_path, mime_type="application/pdf")
-                    while remote_file.state.name == "PROCESSING":
-                        time.sleep(1)
-                        remote_file = genai.get_file(remote_file.name)
+          remote_file = genai.upload_file(
+              temp_pdf_path, mime_type="application/pdf"
+          )
+          while remote_file.state.name == "PROCESSING":
+            time.sleep(1)
+            remote_file = genai.get_file(remote_file.name)
 
-                    logic_path = os.path.join(LOGIC_DIR, "handicapper_instructions.txt")
-                    logic_content = open(logic_path, 'r', encoding='utf-8').read() if os.path.exists(logic_path) else "You are an expert handicapper."
-                    track_facts = json.dumps(current_track_profile) if current_track_profile else "No historical bias data."
+          logic_path = os.path.join(LOGIC_DIR, "handicapper_instructions.txt")
+          logic_content = (
+              open(logic_path, "r", encoding="utf-8").read()
+              if os.path.exists(logic_path)
+              else "You are an expert handicapper."
+          )
+          track_facts = (
+              json.dumps(current_track_profile)
+              if current_track_profile
+              else "No historical bias data."
+          )
 
-               # --- 1. SYSTEM INSTRUCTION (Strict Persona & Master Schema) ---
-                    system_instruction = f"""
+          # --- 1. SYSTEM INSTRUCTION (Strict Persona & Master Schema) ---
+          system_instruction = f"""
                     You are an Elite Horse Racing AI Handicapper & Feature Extraction Engine for ({selected_region}).
                     Your primary directive is to strictly evaluate past form, class shifts, pace scenarios, and track biases using the master rules below.
 
@@ -724,47 +969,51 @@ with tab_handicap:
                     ]
                     """
 
-                    # --- 2. MODEL INITIALIZATION & AUTO PRE-SCAN ---
-                    model = genai.GenerativeModel(
-                        target_model,
-                        system_instruction=system_instruction,
-                        generation_config={
-                            "response_mime_type": "application/json",
-                            "temperature": creativity_temp,
-                            "max_output_tokens": 8192,
-                        },
-                    )
+          # --- 2. MODEL INITIALIZATION & AUTO PRE-SCAN ---
+          model = genai.GenerativeModel(
+              target_model,
+              system_instruction=system_instruction,
+              generation_config={
+                  "response_mime_type": "application/json",
+                  "temperature": creativity_temp,
+                  "max_output_tokens": 8192,
+              },
+          )
 
-                    st.info("🔍 Scanning PDF program to detect total races...")
+          st.info("🔍 Scanning PDF program to detect total races...")
 
-                    detector_prompt = (
-                        "Look at the attached PDF program. How many total races are on this card? "
-                        "Respond ONLY with the integer number (e.g. 10)."
-                    )
+          detector_prompt = (
+              "Look at the attached PDF program. How many total races are on this"
+              " card? Respond ONLY with the integer number (e.g. 10)."
+          )
 
-                    try:
-                        count_response = model.generate_content([detector_prompt, remote_file])
-                        match = re.search(r"\d+", count_response.text)
-                        if match:
-                            total_races = int(match.group(0))
-                            st.success(f"📋 Detected **{total_races} Races** on today's card.")
-                        else:
-                            total_races = 10
-                    except Exception as e:
-                        st.warning("⚠️ Could not auto-detect race count. Defaulting to 10 races.")
-                        total_races = 10
+          try:
+            count_response = model.generate_content(
+                [detector_prompt, remote_file]
+            )
+            match = re.search(r"\d+", count_response.text)
+            if match:
+              total_races = int(match.group(0))
+              st.success(f"📋 Detected **{total_races} Races** on today's card.")
+            else:
+              total_races = 10
+          except Exception as e:
+            st.warning(
+                "⚠️ Could not auto-detect race count. Defaulting to 10 races."
+            )
+            total_races = 10
 
-                    # --- 3. RACE-BY-RACE API LOOP ---
-                    raw_extracted_data = []
-                    progress_bar = st.progress(0, text="Starting Race-by-Race Analysis...")
+          # --- 3. RACE-BY-RACE API LOOP ---
+          raw_extracted_data = []
+          progress_bar = st.progress(0, text="Starting Race-by-Race Analysis...")
 
-                    for race_num in range(1, total_races + 1):
-                        progress_bar.progress(
-                            race_num / total_races,
-                            text=f"🐎 Handicapping Race {race_num} of {total_races}...",
-                        )
+          for race_num in range(1, total_races + 1):
+            progress_bar.progress(
+                race_num / total_races,
+                text=f"🐎 Handicapping Race {race_num} of {total_races}...",
+            )
 
-                        race_user_prompt = f"""
+            race_user_prompt = f"""
                         [TASK] Deeply handicap Race {race_num} ONLY from the attached PDF for {selected_track}.
                         [TRACK PROFILE] {current_track_profile}
                         [OFFICIAL SCRATCHES & UPDATES]
@@ -780,629 +1029,959 @@ with tab_handicap:
                             5. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
                         """
 
-                        try:
-                            response = model.generate_content(
-                                [race_user_prompt, remote_file]
-                            )
-                            json_str = clean_json_string(response.text)
+            try:
+              response = model.generate_content(
+                  [race_user_prompt, remote_file]
+              )
+              json_str = clean_json_string(response.text)
 
-                            # --- BULLETPROOF JSON PARSER & REPAIR ENGINE ---
-                            try:
-                                race_json = json.loads(json_str)
-                            except Exception:
-                                try:
-                                    # 1. Use json_repair to auto-fix unescaped quotes, missing commas & unterminated strings
-                                    repaired_str = repair_json(json_str)
-                                    race_json = json.loads(repaired_str)
-                                except Exception:
-                                    # 2. Fallback regex cleanup if json_repair needs extra help
-                                    sanitized = re.sub(
-                                        r"[\r\n\t]+", " ", json_str
-                                    )
-                                    sanitized = re.sub(
-                                        r",\s*([\]}])", r"\1", sanitized
-                                    )
-                                    repaired_str = repair_json(sanitized)
-                                    race_json = json.loads(repaired_str)
-
-                            if (
-                                isinstance(race_json, list)
-                                and len(race_json) > 0
-                            ):
-                                raw_extracted_data.append(race_json[0])
-                            elif isinstance(race_json, dict):
-                                raw_extracted_data.append(race_json)
-
-                        except Exception as e:
-                            st.error(f"⚠️ Error analyzing Race {race_num}: {e}")
-
-                    progress_bar.empty()
-
-                    # --- 4. TRACK WEIGHTS & RATING CALCULATOR ---
-                    track_weights = {"lone_speed_bonus": 3, "trouble_trip_bonus": 2, "sprint_route_bonus": -2}
-                    try:
-                        with open(os.path.join(DATA_DIR, "optimized_weights.json"), "r") as f:
-                            all_weights = json.load(f)
-                            if selected_track in all_weights:
-                                track_weights = all_weights[selected_track]
-                    except:
-                        pass
-
-                    def calculate_local_rating(features):
-                        try:
-                            score = float(features.get('ai_holistic_score', 80))
-                        except:
-                            score = 80.0
-
-                        class_drop = features.get('class_drop_bonus_applied', False)
-                        if str(class_drop).lower() == 'true' and score < 85:
-                            score += 8.0
-
-                        is_lone = str(features.get('is_lone_speed', '')).strip().lower()
-                        if is_lone == 'true':
-                            score += float(track_weights.get('lone_speed_bonus', 3))
-
-                        dist_trans = str(features.get('distance_transition', '')).strip()
-                        if dist_trans == "Stretch-Out":
-                            score += float(track_weights.get('sprint_route_bonus', -2))
-
-                        trip = str(features.get('trouble_trip', '')).strip()
-                        if trip == "Grade A":
-                            score += float(track_weights.get('trouble_trip_bonus', 2))
-                        elif trip == "Grade B":
-                            score += float(track_weights.get('trouble_trip_bonus', 1))
-
-                        return round(score, 1)
-
-                    # --- 5. POST-PROCESSING MASTER ACCUMULATOR ---
-                    data = {
-                        "meta": {
-                            "track": selected_track if selected_track != "Unknown" else "Saratoga",
-                            "date": datetime.today().strftime('%Y-%m-%d'),
-                            "track_condition": "Standard"
-                        },
-                        "races": []
-                    }
-
-                    for race in raw_extracted_data:
-                        new_race = {
-                            "number": race.get("race_number", 0),
-                            "distance": race.get("distance_surface", ""),
-                            "surface": race.get("distance_surface", "").split(" ")[-1] if " " in race.get("distance_surface", "") else "",
-                            "confidence_level": race.get("confidence_level", "Medium"),
-                            "raw_features_dump": race,
-                            "selections": [],
-                            "all_contenders": []
-                        }
-
-                        scored_contenders = []
-                        for horse in race.get("contenders", []):
-                            feats = horse.get("features", {})
-                            rating = calculate_local_rating(feats)
-                            ai_notes = horse.get("handicapper_notes", "No notes provided.")
-
-                            prog_num = str(horse.get("program_number", horse.get("number", "")))
-                            barrier_num = str(horse.get("barrier", ""))
-
-                            reason = f"{ai_notes}"
-                            tags = []
-                            if str(feats.get('class_drop_bonus_applied')).lower() == 'true':
-                                tags.append("🔻 Class Drop")
-                            if str(feats.get('is_lone_speed')).lower() == 'true':
-                                tags.append("🔥 Lone Speed")
-                            if feats.get('trouble_trip') and feats.get('trouble_trip') != "None":
-                                tags.append(f"⚠️ {feats.get('trouble_trip')}")
-                            if feats.get('distance_transition') and feats.get('distance_transition') != "None":
-                                tags.append(f"📏 {feats.get('distance_transition')}")
-                                
-                            if tags:
-                                reason += f" | <i>{' • '.join(tags)}</i>"
-
-                            scored_contenders.append({
-                                "number": prog_num,
-                                "barrier": barrier_num,
-                                "name": horse.get("horse_name", "Unknown"),
-                                "rating": rating,
-                                "reason": reason
-                            })
-
-                        scored_contenders.sort(key=lambda x: x["rating"], reverse=True)
-
-                        danger_horse = {}
-                        for horse in race.get("contenders", []):
-                            if str(horse.get("features", {}).get("is_danger_horse", "")).strip().lower() == 'true':
-                                target_name = horse.get("horse_name", "Unknown")
-                                for sc in scored_contenders:
-                                    if sc["name"] == target_name:
-                                        danger_horse = sc
-                                        break
-                                break
-
-                        if not danger_horse and len(scored_contenders) >= 2:
-                            if (scored_contenders[0]["rating"] - scored_contenders[1]["rating"]) <= 5.0:
-                                danger_horse = scored_contenders[1]
-
-                        new_race["all_contenders"] = scored_contenders
-                        new_race["selections"] = scored_contenders[:5]
-                        new_race["danger_horse"] = danger_horse
-
-                        # --- DYNAMIC BETTING STRATEGY ENGINE ---
-                        top1 = scored_contenders[0] if len(scored_contenders) > 0 else {}
-                        top2 = scored_contenders[1] if len(scored_contenders) > 1 else {}
-                        top3 = scored_contenders[2] if len(scored_contenders) > 2 else {}
-                        top4 = scored_contenders[3] if len(scored_contenders) > 3 else {}
-
-                        conf = str(race.get("confidence_level", "Medium"))
-
-                        r1 = float(top1.get("rating", 0))
-                        r2 = float(top2.get("rating", 0)) if top2 else 0.0
-                        r3 = float(top3.get("rating", 0)) if top3 else 0.0
-
-                        gap_1_2 = r1 - r2 if top2 else 10.0
-                        gap_2_3 = r2 - r3 if top3 else 10.0
-
-                        danger_num = str(danger_horse.get("number", "")) if danger_horse else ""
-                        danger_in_top3 = danger_num in [str(top1.get("number")), str(top2.get("number")), str(top3.get("number"))]
-
-                        strategy_parts = []
-
-                        # A. WIN WAGERS
-                        if gap_1_2 >= 5.0 or "High" in conf:
-                            strategy_parts.append(f"<b>🎯 WIN:</b> Strong $10 Win on <b>#{top1.get('number')} {top1.get('name')}</b>")
-                        elif gap_1_2 >= 2.5 and "Medium" in conf:
-                            strategy_parts.append(f"<b>🎯 WIN:</b> $4 Win / $6 Place on <b>#{top1.get('number')} {top1.get('name')}</b>")
-                        else:
-                            strategy_parts.append("<b>🎯 WIN:</b> PASS Win wager (Low confidence / tight field)")
-
-                        # B. EXOTICS
-                        if gap_1_2 >= 5.0 and top2 and top3:
-                            under_list = [f"#{top2.get('number')}", f"#{top3.get('number')}"]
-                            if danger_num and not danger_in_top3:
-                                under_list.append(f"#{danger_num}")
-                            under_str = ", ".join(under_list)
-                            
-                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over ({under_str})")
-                            
-                            if "High" in conf or gap_1_2 >= 7.0:
-                                top4_str = f"#{top4.get('number')}" if top4 else "ALL"
-                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} / ({under_str}) / ({under_str}, {top4_str})")
-
-                        elif gap_1_2 < 3.0 and gap_2_3 >= 4.0 and top2:
-                            strategy_parts.append(f"<b>⚔️ STRAIGHT EXACTA BOX:</b> #{top1.get('number')} with #{top2.get('number')}")
-                            if danger_num and danger_num not in [str(top1.get("number")), str(top2.get("number"))]:
-                                strategy_parts.append(f"<b>⚠️ SAVER EXACTA:</b> Key #{danger_num} in 2nd position (#{top1.get('number')}, #{top2.get('number')} / #{danger_num})")
-                            if top3:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA KEY:</b> #{top1.get('number')}, #{top2.get('number')} / #{top1.get('number')}, #{top2.get('number')} / #{top3.get('number')}")
-
-                        elif top2 and top3:
-                            if danger_num and not danger_in_top3:
-                                box_str = f"#{top1.get('number')}, #{top2.get('number')}, #{danger_num}"
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str} <i>(Includes Danger Threat)</i>")
-                            else:
-                                box_str = f"#{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}"
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str}")
-
-                            if "High" in conf or "Medium" in conf:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> {box_str}")
-                            else:
-                                strategy_parts.append("<b>🎪 TRIFECTA:</b> NO BET (Low field clarity)")
-
-                        new_race["exotic_strategy"] = "<br>".join(strategy_parts)
-                        data["races"].append(new_race)
-
-                    # --- 6. ADVANCED DAILY DOUBLE SCANNER ---
-                    daily_doubles = []
-                    for idx in range(len(data["races"]) - 1):
-                        r1 = data["races"][idx]
-                        r2 = data["races"][idx + 1]
-
-                        r1_conf = str(r1.get("confidence_level", ""))
-                        r2_conf = str(r2.get("confidence_level", ""))
-
-                        r1_picks = r1.get("selections", [])
-                        r2_picks = r2.get("selections", [])
-
-                        if len(r1_picks) >= 2 and len(r2_picks) >= 2:
-                            r1_r1 = float(r1_picks[0].get("rating", 0))
-                            r1_r2 = float(r1_picks[1].get("rating", 0))
-                            r1_gap = r1_r1 - r1_r2
-
-                            r2_r1 = float(r2_picks[0].get("rating", 0))
-                            r2_r2 = float(r2_picks[1].get("rating", 0))
-                            r2_gap = r2_r1 - r2_r2
-
-                            if "High" in r1_conf or r1_gap >= 5.0:
-                                r1_ticket = f"#{r1_picks[0].get('number')} (Solo Lock)"
-                            else:
-                                r1_ticket = f"#{r1_picks[0].get('number')}, #{r1_picks[1].get('number')}"
-
-                            if "High" in r2_conf or r2_gap >= 5.0:
-                                r2_ticket = f"#{r2_picks[0].get('number')} (Solo Lock)"
-                            else:
-                                r2_ticket = f"#{r2_picks[0].get('number')}, #{r2_picks[1].get('number')}"
-
-                            if "High" in r1_conf or "High" in r2_conf or "Medium" in r1_conf:
-                                daily_doubles.append(
-                                    f"<b>R{r1.get('number')} ➔ R{r2.get('number')} DAILY DOUBLE:</b> "
-                                    f"Play ({r1_ticket}) with ({r2_ticket})"
-                                )
-
-                    data["daily_doubles"] = daily_doubles
-                    st.session_state.json_data = data
-
-                    html_full = generate_meeting_html(data, selected_region, is_preview_mode=False)
-                    html_preview = generate_meeting_html(data, selected_region, is_preview_mode=True)
-
-                    safe_date = str(data['meta']['date']).replace('/', '-').replace(',', '').replace(' ', '_').replace(':', '')
-                    safe_track = str(data['meta']['track']).replace(' ', '_')
-                    filename = f"{safe_track}_{safe_date}.html"
-
-                    st.session_state.html_content = html_full
-                    st.session_state.preview_html = html_preview
-                    st.session_state.report_filename = filename
-                    st.session_state.data_ready = True
-
-                except Exception as e: st.error(f"Error: {e}")
-
-    if st.session_state.data_ready:
-        st.markdown("---")
-        st.success("✅ Analysis Complete! Review below.")
-
-        col1, col2, col3 = st.columns([1, 1, 3])
-        with col1:
-            update_idx = st.checkbox("Auto-Update Index.html", value=True)
-            if st.button("💾 Save & Publish", type="primary"):
-                filepath = os.path.join(MEETINGS_DIR, st.session_state.report_filename)
-                with open(filepath, "w", encoding='utf-8') as f:
-                    f.write(st.session_state.html_content)
-
-                if st.session_state.json_data:
-                    log_filename = st.session_state.report_filename.replace(".html", ".json")
-                    with open(os.path.join(LOGS_DIR, log_filename), "w", encoding='utf-8') as f:
-                        json.dump(st.session_state.json_data, f, indent=4)
-
+              # --- BULLETPROOF JSON PARSER & REPAIR ENGINE ---
+              try:
+                race_json = json.loads(json_str)
+              except Exception:
                 try:
-                    conn = sqlite3.connect(DB_PATH)
-                    c = conn.cursor()
-                    meta = st.session_state.json_data.get("meta", {})
-                    clean_date_str = pd.to_datetime(meta.get('date')).strftime('%Y-%m-%d')
-                    
-                    for race in st.session_state.json_data.get("races", []):
-                        selections = race.get('selections', [])
-                        if not selections and 'picks' in race:
-                            p = race['picks']
-                            selections = [p.get('top_pick', {}), p.get('danger_horse', {}), p.get('value_bet', {})]
-                            selections = [s for s in selections if s and s.get('name')]
+                  repaired_str = repair_json(json_str)
+                  race_json = json.loads(repaired_str)
+                except Exception:
+                  sanitized = re.sub(r"[\r\n\t]+", " ", json_str)
+                  sanitized = re.sub(r",\s*([\]}])", r"\1", sanitized)
+                  repaired_str = repair_json(sanitized)
+                  race_json = json.loads(repaired_str)
 
-                        while len(selections) < 4: selections.append({})
-                        dang = race.get('danger_horse') or {}
+              if isinstance(race_json, list) and len(race_json) > 0:
+                raw_extracted_data.append(race_json[0])
+              elif isinstance(race_json, dict):
+                raw_extracted_data.append(race_json)
 
-                        c.execute('''
+            except Exception as e:
+              st.error(f"⚠️ Error analyzing Race {race_num}: {e}")
+
+          progress_bar.empty()
+
+          # --- 4. TRACK WEIGHTS & RATING CALCULATOR ---
+          track_weights = {
+              "lone_speed_bonus": 3,
+              "trouble_trip_bonus": 2,
+              "sprint_route_bonus": -2,
+          }
+          try:
+            with open(
+                os.path.join(DATA_DIR, "optimized_weights.json"), "r"
+            ) as f:
+              all_weights = json.load(f)
+              if selected_track in all_weights:
+                track_weights = all_weights[selected_track]
+          except:
+            pass
+
+          def calculate_local_rating(features):
+            try:
+              score = float(features.get("ai_holistic_score", 80))
+            except:
+              score = 80.0
+
+            class_drop = features.get("class_drop_bonus_applied", False)
+            if str(class_drop).lower() == "true" and score < 85:
+              score += 8.0
+
+            is_lone = str(features.get("is_lone_speed", "")).strip().lower()
+            if is_lone == "true":
+              score += float(track_weights.get("lone_speed_bonus", 3))
+
+            dist_trans = str(features.get("distance_transition", "")).strip()
+            if dist_trans == "Stretch-Out":
+              score += float(track_weights.get("sprint_route_bonus", -2))
+
+            trip = str(features.get("trouble_trip", "")).strip()
+            if trip == "Grade A":
+              score += float(track_weights.get("trouble_trip_bonus", 2))
+            elif trip == "Grade B":
+              score += float(track_weights.get("trouble_trip_bonus", 1))
+
+            return round(score, 1)
+
+          # --- 5. POST-PROCESSING MASTER ACCUMULATOR ---
+          data = {
+              "meta": {
+                  "track": (
+                      selected_track if selected_track != "Unknown" else "Track"
+                  ),
+                  "date": datetime.today().strftime("%Y-%m-%d"),
+                  "track_condition": "Standard",
+              },
+              "races": [],
+          }
+
+          for race in raw_extracted_data:
+            new_race = {
+                "number": race.get("race_number", 0),
+                "distance": race.get("distance_surface", ""),
+                "surface": (
+                    race.get("distance_surface", "").split(" ")[-1]
+                    if " " in race.get("distance_surface", "")
+                    else ""
+                ),
+                "confidence_level": race.get("confidence_level", "Medium"),
+                "raw_features_dump": race,
+                "selections": [],
+                "all_contenders": [],
+            }
+
+            scored_contenders = []
+            for horse in race.get("contenders", []):
+              feats = horse.get("features", {})
+              rating = calculate_local_rating(feats)
+              ai_notes = horse.get("handicapper_notes", "No notes provided.")
+
+              prog_num = str(
+                  horse.get("program_number", horse.get("number", ""))
+              )
+              barrier_num = str(horse.get("barrier", ""))
+
+              reason = f"{ai_notes}"
+              tags = []
+              if str(feats.get("class_drop_bonus_applied")).lower() == "true":
+                tags.append("🔻 Class Drop")
+              if str(feats.get("is_lone_speed")).lower() == "true":
+                tags.append("🔥 Lone Speed")
+              if (
+                  feats.get("trouble_trip")
+                  and feats.get("trouble_trip") != "None"
+              ):
+                tags.append(f"⚠️ {feats.get('trouble_trip')}")
+              if (
+                  feats.get("distance_transition")
+                  and feats.get("distance_transition") != "None"
+              ):
+                tags.append(f"📏 {feats.get('distance_transition')}")
+
+              if tags:
+                reason += f" | <i>{' • '.join(tags)}</i>"
+
+              scored_contenders.append({
+                  "number": prog_num,
+                  "barrier": barrier_num,
+                  "name": horse.get("horse_name", "Unknown"),
+                  "rating": rating,
+                  "reason": reason,
+              })
+
+            scored_contenders.sort(key=lambda x: x["rating"], reverse=True)
+
+            danger_horse = {}
+            for horse in race.get("contenders", []):
+              if (
+                  str(horse.get("features", {}).get("is_danger_horse", ""))
+                  .strip()
+                  .lower()
+                  == "true"
+              ):
+                target_name = horse.get("horse_name", "Unknown")
+                for sc in scored_contenders:
+                  if sc["name"] == target_name:
+                    danger_horse = sc
+                    break
+                break
+
+            if not danger_horse and len(scored_contenders) >= 2:
+              if (
+                  scored_contenders[0]["rating"]
+                  - scored_contenders[1]["rating"]
+              ) <= 5.0:
+                danger_horse = scored_contenders[1]
+
+            new_race["all_contenders"] = scored_contenders
+            new_race["selections"] = scored_contenders[:5]
+            new_race["danger_horse"] = danger_horse
+
+            # --- DYNAMIC BETTING STRATEGY ENGINE ---
+            top1 = (
+                scored_contenders[0] if len(scored_contenders) > 0 else {}
+            )
+            top2 = (
+                scored_contenders[1] if len(scored_contenders) > 1 else {}
+            )
+            top3 = (
+                scored_contenders[2] if len(scored_contenders) > 2 else {}
+            )
+            top4 = (
+                scored_contenders[3] if len(scored_contenders) > 3 else {}
+            )
+
+            conf = str(race.get("confidence_level", "Medium"))
+
+            r1 = float(top1.get("rating", 0))
+            r2 = float(top2.get("rating", 0)) if top2 else 0.0
+            r3 = float(top3.get("rating", 0)) if top3 else 0.0
+
+            gap_1_2 = r1 - r2 if top2 else 10.0
+            gap_2_3 = r2 - r3 if top3 else 10.0
+
+            danger_num = (
+                str(danger_horse.get("number", "")) if danger_horse else ""
+            )
+            danger_in_top3 = danger_num in [
+                str(top1.get("number")),
+                str(top2.get("number")),
+                str(top3.get("number")),
+            ]
+
+            strategy_parts = []
+
+            # A. WIN WAGERS
+            if gap_1_2 >= 5.0 or "High" in conf:
+              strategy_parts.append(
+                  f"<b>🎯 WIN:</b> Strong $10 Win on <b>#{top1.get('number')}"
+                  f" {top1.get('name')}</b>"
+              )
+            elif gap_1_2 >= 2.5 and "Medium" in conf:
+              strategy_parts.append(
+                  f"<b>🎯 WIN:</b> $4 Win / $6 Place on"
+                  f" <b>#{top1.get('number')} {top1.get('name')}</b>"
+              )
+            else:
+              strategy_parts.append(
+                  "<b>🎯 WIN:</b> PASS Win wager (Low confidence / tight field)"
+              )
+
+            # B. EXOTICS
+            if gap_1_2 >= 5.0 and top2 and top3:
+              under_list = [f"#{top2.get('number')}", f"#{top3.get('number')}"]
+              if danger_num and not danger_in_top3:
+                under_list.append(f"#{danger_num}")
+              under_str = ", ".join(under_list)
+
+              strategy_parts.append(
+                  f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over"
+                  f" ({under_str})"
+              )
+
+              if "High" in conf or gap_1_2 >= 7.0:
+                top4_str = f"#{top4.get('number')}" if top4 else "ALL"
+                strategy_parts.append(
+                    f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} /"
+                    f" ({under_str}) / ({under_str}, {top4_str})"
+                )
+
+            elif gap_1_2 < 3.0 and gap_2_3 >= 4.0 and top2:
+              strategy_parts.append(
+                  f"<b>⚔️ STRAIGHT EXACTA BOX:</b> #{top1.get('number')} with"
+                  f" #{top2.get('number')}"
+              )
+              if danger_num and danger_num not in [
+                  str(top1.get("number")),
+                  str(top2.get("number")),
+              ]:
+                strategy_parts.append(
+                    f"<b>⚠️ SAVER EXACTA:</b> Key #{danger_num} in 2nd"
+                    f" position (#{top1.get('number')},"
+                    f" #{top2.get('number')} / #{danger_num})"
+                )
+              if top3:
+                strategy_parts.append(
+                    f"<b>🎪 TRIFECTA KEY:</b> #{top1.get('number')},"
+                    f" #{top2.get('number')} / #{top1.get('number')},"
+                    f" #{top2.get('number')} / #{top3.get('number')}"
+                )
+
+            elif top2 and top3:
+              if danger_num and not danger_in_top3:
+                box_str = (
+                    f"#{top1.get('number')}, #{top2.get('number')},"
+                    f" #{danger_num}"
+                )
+                strategy_parts.append(
+                    f"<b>🎟️ EXACTA BOX:</b> {box_str} <i>(Includes Danger"
+                    " Threat)</i>"
+                )
+              else:
+                box_str = (
+                    f"#{top1.get('number')}, #{top2.get('number')},"
+                    f" #{top3.get('number')}"
+                )
+                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str}")
+
+              if "High" in conf or "Medium" in conf:
+                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> {box_str}")
+              else:
+                strategy_parts.append(
+                    "<b>🎪 TRIFECTA:</b> NO BET (Low field clarity)"
+                )
+
+            new_race["exotic_strategy"] = "<br>".join(strategy_parts)
+            data["races"].append(new_race)
+
+          # --- 6. ADVANCED DAILY DOUBLE SCANNER ---
+          daily_doubles = []
+          for idx in range(len(data["races"]) - 1):
+            r1 = data["races"][idx]
+            r2 = data["races"][idx + 1]
+
+            r1_conf = str(r1.get("confidence_level", ""))
+            r2_conf = str(r2.get("confidence_level", ""))
+
+            r1_picks = r1.get("selections", [])
+            r2_picks = r2.get("selections", [])
+
+            if len(r1_picks) >= 2 and len(r2_picks) >= 2:
+              r1_r1 = float(r1_picks[0].get("rating", 0))
+              r1_r2 = float(r1_picks[1].get("rating", 0))
+              r1_gap = r1_r1 - r1_r2
+
+              r2_r1 = float(r2_picks[0].get("rating", 0))
+              r2_r2 = float(r2_picks[1].get("rating", 0))
+              r2_gap = r2_r1 - r2_r2
+
+              if "High" in r1_conf or r1_gap >= 5.0:
+                r1_ticket = f"#{r1_picks[0].get('number')} (Solo Lock)"
+              else:
+                r1_ticket = (
+                    f"#{r1_picks[0].get('number')}, #{r1_picks[1].get('number')}"
+                )
+
+              if "High" in r2_conf or r2_gap >= 5.0:
+                r2_ticket = f"#{r2_picks[0].get('number')} (Solo Lock)"
+              else:
+                r2_ticket = (
+                    f"#{r2_picks[0].get('number')}, #{r2_picks[1].get('number')}"
+                )
+
+              if "High" in r1_conf or "High" in r2_conf or "Medium" in r1_conf:
+                daily_doubles.append(
+                    f"<b>R{r1.get('number')} ➔ R{r2.get('number')} DAILY"
+                    f" DOUBLE:</b> Play ({r1_ticket}) with ({r2_ticket})"
+                )
+
+          data["daily_doubles"] = daily_doubles
+          st.session_state.json_data = data
+
+          html_full = generate_meeting_html(
+              data, selected_region, is_preview_mode=False
+          )
+          html_preview = generate_meeting_html(
+              data, selected_region, is_preview_mode=True
+          )
+
+          safe_date = (
+              str(data["meta"]["date"])
+              .replace("/", "-")
+              .replace(",", "")
+              .replace(" ", "_")
+              .replace(":", "")
+          )
+          safe_track = str(data["meta"]["track"]).replace(" ", "_")
+          filename = f"{safe_track}_{safe_date}.html"
+
+          st.session_state.html_content = html_full
+          st.session_state.preview_html = html_preview
+          st.session_state.report_filename = filename
+          st.session_state.data_ready = True
+
+        except Exception as e:
+          st.error(f"Error: {e}")
+
+  if st.session_state.data_ready:
+    st.markdown("---")
+    st.success("✅ Analysis Complete! Review below.")
+
+    col1, col2, col3 = st.columns([1, 1, 3])
+    with col1:
+      update_idx = st.checkbox("Auto-Update Index.html", value=True)
+      if st.button("💾 Save & Publish", type="primary"):
+        filepath = os.path.join(MEETINGS_DIR, st.session_state.report_filename)
+        with open(filepath, "w", encoding="utf-8") as f:
+          f.write(st.session_state.html_content)
+
+        if st.session_state.json_data:
+          log_filename = st.session_state.report_filename.replace(
+              ".html", ".json"
+          )
+          with open(
+              os.path.join(LOGS_DIR, log_filename), "w", encoding="utf-8"
+          ) as f:
+            json.dump(st.session_state.json_data, f, indent=4)
+
+        try:
+          conn = sqlite3.connect(DB_PATH)
+          c = conn.cursor()
+          meta = st.session_state.json_data.get("meta", {})
+          clean_date_str = pd.to_datetime(meta.get("date")).strftime(
+              "%Y-%m-%d"
+          )
+
+          for race in st.session_state.json_data.get("races", []):
+            selections = race.get("selections", [])
+            if not selections and "picks" in race:
+              p = race["picks"]
+              selections = [
+                  p.get("top_pick", {}),
+                  p.get("danger_horse", {}),
+                  p.get("value_bet", {}),
+              ]
+              selections = [s for s in selections if s and s.get("name")]
+
+            while len(selections) < 4:
+              selections.append({})
+            dang = race.get("danger_horse") or {}
+            strat_str = str(race.get("exotic_strategy", "")).replace("#$", "#")
+
+            c.execute(
+                """
                         INSERT INTO predictions (
                             date, track, race_number, distance, surface, condition,
                             p1_num, p1_barrier, p1_name, p1_reason, p2_num, p2_barrier, p2_name, p2_reason,
                             p3_num, p3_barrier, p3_name, p3_reason, p4_num, p4_barrier, p4_name, p4_reason,
-                            danger_num, danger_barrier, danger_name, danger_reason, confidence, ai_model, temperature, raw_features
-                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        ''', (
-                            clean_date_str, meta.get('track'), str(race.get('number')), race.get('distance', ''), race.get('surface', ''), meta.get('track_condition', ''),
-                            selections[0].get('number', 'N/A'), selections[0].get('barrier', ''), selections[0].get('name', 'N/A'), selections[0].get('reason', 'N/A'),
-                            selections[1].get('number', ''), selections[1].get('barrier', ''), selections[1].get('name', ''), selections[1].get('reason', ''),
-                            selections[2].get('number', ''), selections[2].get('barrier', ''), selections[2].get('name', ''), selections[2].get('reason', ''),
-                            selections[3].get('number', ''), selections[3].get('barrier', ''), selections[3].get('name', ''), selections[3].get('reason', ''),
-                            dang.get('number', ''), dang.get('barrier', ''), dang.get('name', ''), dang.get('reason', ''),
-                            race.get('confidence_level', ''), target_model, creativity_temp, json.dumps(race.get('raw_features_dump', {}))
-                        ))
-                    conn.commit()
-                    conn.close()
-                except Exception as e: st.error(f"Failed to log to SQLite Database: {e}")
+                            danger_num, danger_barrier, danger_name, danger_reason, confidence, ai_model, temperature, raw_features, exotic_strategy
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """,
+                (
+                    clean_date_str,
+                    meta.get("track"),
+                    str(race.get("number")),
+                    race.get("distance", ""),
+                    race.get("surface", ""),
+                    meta.get("track_condition", ""),
+                    selections[0].get("number", "N/A"),
+                    selections[0].get("barrier", ""),
+                    selections[0].get("name", "N/A"),
+                    selections[0].get("reason", "N/A"),
+                    selections[1].get("number", ""),
+                    selections[1].get("barrier", ""),
+                    selections[1].get("name", ""),
+                    selections[1].get("reason", ""),
+                    selections[2].get("number", ""),
+                    selections[2].get("barrier", ""),
+                    selections[2].get("name", ""),
+                    selections[2].get("reason", ""),
+                    selections[3].get("number", ""),
+                    selections[3].get("barrier", ""),
+                    selections[3].get("name", ""),
+                    selections[3].get("reason", ""),
+                    dang.get("number", ""),
+                    dang.get("barrier", ""),
+                    dang.get("name", ""),
+                    dang.get("reason", ""),
+                    race.get("confidence_level", ""),
+                    target_model,
+                    creativity_temp,
+                    json.dumps(race.get("raw_features_dump", {})),
+                    strat_str,
+                ),
+            )
+          conn.commit()
+          conn.close()
+        except Exception as e:
+          st.error(f"Failed to log to SQLite Database: {e}")
 
-                if update_idx: update_homepage()
-                try: subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
-                except: pass
+        if update_idx:
+          update_homepage()
+        try:
+          subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
+        except:
+          pass
 
-        with col2: st.download_button("⬇️ Download HTML", st.session_state.html_content, st.session_state.report_filename, "text/html")
-        components.html(st.session_state.preview_html, height=800, scrolling=True)
+    with col2:
+      st.download_button(
+          "⬇️ Download HTML",
+          st.session_state.html_content,
+          st.session_state.report_filename,
+          "text/html",
+      )
+    components.html(st.session_state.preview_html, height=800, scrolling=True)
 
 
 # ==========================================
 # TAB 2: ANALYTICS DASHBOARD
 # ==========================================
 with tab_analytics:
-    st.title("📈 Model Performance & Backtesting")
+  st.title("📈 Model Performance & Backtesting")
 
-    if os.path.exists(DB_PATH):
-        conn = sqlite3.connect(DB_PATH)
-        preds_df = pd.read_sql_query("SELECT * FROM predictions", conn)
-        results_df = pd.read_sql_query("SELECT * FROM results", conn)
-        conn.close()
+  if os.path.exists(DB_PATH):
+    conn = sqlite3.connect(DB_PATH)
+    preds_df = pd.read_sql_query("SELECT * FROM predictions", conn)
+    results_df = pd.read_sql_query("SELECT * FROM results", conn)
+    conn.close()
 
-        if not results_df.empty and not preds_df.empty:
-            # Clean string conversions for strict JOIN alignment
-            preds_df['race_number'] = preds_df['race_number'].astype(str).str.strip()
-            results_df['race_number'] = results_df['race_number'].astype(str).str.strip()
-            
-            preds_df['track_clean'] = preds_df['track'].astype(str).str.strip().str.lower()
-            results_df['track_clean'] = results_df['track'].astype(str).str.strip().str.lower()
+    if not results_df.empty and not preds_df.empty:
+      # Clean string conversions for strict JOIN alignment
+      preds_df["race_number"] = (
+          preds_df["race_number"].astype(str).str.strip()
+      )
+      results_df["race_number"] = (
+          results_df["race_number"].astype(str).str.strip()
+      )
 
-            preds_df['date_clean'] = pd.to_datetime(preds_df['date']).dt.strftime('%Y-%m-%d')
-            results_df['date_clean'] = pd.to_datetime(results_df['date']).dt.strftime('%Y-%m-%d')
+      preds_df["track_clean"] = (
+          preds_df["track"].astype(str).str.strip().str.lower()
+      )
+      results_df["track_clean"] = (
+          results_df["track"].astype(str).str.strip().str.lower()
+      )
 
-            preds_df = preds_df.sort_values('id').drop_duplicates(subset=['date_clean', 'track_clean', 'race_number'], keep='last')
+      preds_df["date_clean"] = pd.to_datetime(preds_df["date"]).dt.strftime(
+          "%Y-%m-%d"
+      )
+      results_df["date_clean"] = pd.to_datetime(
+          results_df["date"]
+      ).dt.strftime("%Y-%m-%d")
 
-            merged_df = pd.merge(
-                preds_df, 
-                results_df, 
-                on=['date_clean', 'track_clean', 'race_number'], 
-                how='inner',
-                suffixes=('', '_res')
+      preds_df = preds_df.sort_values("id").drop_duplicates(
+          subset=["date_clean", "track_clean", "race_number"], keep="last"
+      )
+
+      merged_df = pd.merge(
+          preds_df,
+          results_df,
+          on=["date_clean", "track_clean", "race_number"],
+          how="inner",
+          suffixes=("", "_res"),
+      )
+
+      if not merged_df.empty:
+        # Ensure numeric types for payouts across WPS & Exotics
+        for col in [
+            "win_payout",
+            "place_payout",
+            "show_payout",
+            "p2_place_payout",
+            "exacta_payout",
+            "trifecta_payout",
+        ]:
+          if col in merged_df.columns:
+            merged_df[col] = (
+                pd.to_numeric(merged_df[col], errors="coerce").fillna(0.0)
             )
+          else:
+            merged_df[col] = 0.0
 
-            if not merged_df.empty:
-                # Ensure numeric types for payouts across WPS & Exotics
-                for col in ['win_payout', 'place_payout', 'show_payout', 'p2_place_payout', 'exacta_payout', 'trifecta_payout']:
-                    if col in merged_df.columns:
-                        merged_df[col] = pd.to_numeric(merged_df[col], errors='coerce').fillna(0.0)
-                    else:
-                        merged_df[col] = 0.0
+        # --- HIT CALCULATIONS ---
+        merged_df["top_pick_win"] = merged_df.apply(
+            lambda x: str(x["p1_num"]).strip() == str(x["win_num"]).strip(),
+            axis=1,
+        )
 
-                # --- HIT CALCULATIONS ---
-                merged_df['top_pick_win'] = merged_df.apply(lambda x: str(x['p1_num']).strip() == str(x['win_num']).strip(), axis=1)
+        merged_df["danger_win"] = merged_df.apply(
+            lambda x: (str(x["danger_num"]).strip() == str(x["win_num"]).strip())
+            and (str(x["danger_num"]).strip() not in ["", "nan", "None"]),
+            axis=1,
+        )
 
-                merged_df['danger_win'] = merged_df.apply(
-                    lambda x: (str(x['danger_num']).strip() == str(x['win_num']).strip()) and
-                              (str(x['danger_num']).strip() not in ['', 'nan', 'None']), axis=1)
+        merged_df["top_pick_board"] = merged_df.apply(
+            lambda x: str(x["p1_num"]).strip()
+            in [
+                str(x["win_num"]).strip(),
+                str(x["place_num"]).strip(),
+                str(x["show_num"]).strip(),
+            ],
+            axis=1,
+        )
 
-                merged_df['top_pick_board'] = merged_df.apply(
-                    lambda x: str(x['p1_num']).strip() in [str(x['win_num']).strip(), str(x['place_num']).strip(), str(x['show_num']).strip()], axis=1)
+        merged_df["exacta_hit"] = merged_df.apply(
+            lambda x: (
+                str(x["win_num"]).strip()
+                in [str(x["p1_num"]).strip(), str(x["p2_num"]).strip()]
+            )
+            and (
+                str(x["place_num"]).strip()
+                in [str(x["p1_num"]).strip(), str(x["p2_num"]).strip()]
+            ),
+            axis=1,
+        )
 
-                merged_df['exacta_hit'] = merged_df.apply(
-                    lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip()]) and
-                              (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip()]), axis=1)
+        merged_df["exacta_top3_hit"] = merged_df.apply(
+            lambda x: (
+                str(x["win_num"]).strip()
+                in [
+                    str(x["p1_num"]).strip(),
+                    str(x["p2_num"]).strip(),
+                    str(x["p3_num"]).strip(),
+                ]
+            )
+            and (
+                str(x["place_num"]).strip()
+                in [
+                    str(x["p1_num"]).strip(),
+                    str(x["p2_num"]).strip(),
+                    str(x["p3_num"]).strip(),
+                ]
+            ),
+            axis=1,
+        )
 
-                merged_df['exacta_top3_hit'] = merged_df.apply(
-                    lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
-                              (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]), axis=1)
+        merged_df["trifecta_top3_hit"] = merged_df.apply(
+            lambda x: (
+                str(x["win_num"]).strip()
+                in [
+                    str(x["p1_num"]).strip(),
+                    str(x["p2_num"]).strip(),
+                    str(x["p3_num"]).strip(),
+                ]
+            )
+            and (
+                str(x["place_num"]).strip()
+                in [
+                    str(x["p1_num"]).strip(),
+                    str(x["p2_num"]).strip(),
+                    str(x["p3_num"]).strip(),
+                ]
+            )
+            and (
+                str(x["show_num"]).strip()
+                in [
+                    str(x["p1_num"]).strip(),
+                    str(x["p2_num"]).strip(),
+                    str(x["p3_num"]).strip(),
+                ]
+            ),
+            axis=1,
+        )
 
-                merged_df['trifecta_top3_hit'] = merged_df.apply(
-                    lambda x: (str(x['win_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
-                              (str(x['place_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]) and
-                              (str(x['show_num']).strip() in [str(x['p1_num']).strip(), str(x['p2_num']).strip(), str(x['p3_num']).strip()]), axis=1)
+        # --- SELECTIVE STRATEGY ENGINE (READS GENERATED BETTING STRATEGIES) ---
+        def parse_win_strategy(row):
+          text_context = (
+              str(row.get("exotic_strategy", ""))
+              + " "
+              + str(row.get("raw_features", ""))
+              + " "
+              + str(row.get("p1_reason", ""))
+          ).replace("#$", "#").upper()
 
-                # --- SELECTIVE STRATEGY ENGINE (READS GENERATED BETTING STRATEGIES) ---
-                def parse_win_strategy(row):
-                    text_context = (
-                        str(row.get('exotic_strategy', '')) + " " +
-                        str(row.get('raw_features', '')) + " " +
-                        str(row.get('p1_reason', ''))
-                    ).replace('#$', '#').upper()
-                    
-                    # 1. Passed Races ($0 Staked)
-                    if "PASS WIN WAGER" in text_context or "PASS WIN WAGERS" in text_context or "PASS" in text_context:
-                        return 0.0, 0.0
-                    
-                    # 2. Strong $10 Win Bet
-                    elif "STRONG $10 WIN" in text_context or "$10 WIN" in text_context:
-                        stake = 10.0
-                        ret = (row['win_payout'] / 2.0 * 10.0) if row['top_pick_win'] else 0.0
-                        return stake, ret
-                    
-                    # 3. $4 Win / $6 Place Split
-                    elif "$4 WIN / $6 PLACE" in text_context:
-                        stake = 10.0
-                        ret = 0.0
-                        if row['top_pick_win']:
-                            ret += (row['win_payout'] / 2.0 * 4.0) + (row['place_payout'] / 2.0 * 6.0)
-                        elif str(row['p1_num']).strip() == str(row['place_num']).strip():
-                            p2_pay = row['p2_place_payout'] if row['p2_place_payout'] > 0 else row['place_payout']
-                            ret += (p2_pay / 2.0 * 6.0)
-                        return stake, ret
-                    
-                    # 4. Standard Active Win Bet ($2.00 Default)
-                    else:
-                        stake = 2.0
-                        ret = row['win_payout'] if row['top_pick_win'] else 0.0
-                        return stake, ret
+          # 1. Passed Races ($0 Staked)
+          if (
+              "PASS WIN WAGER" in text_context
+              or "PASS WIN WAGERS" in text_context
+              or "PASS" in text_context
+          ):
+            return 0.0, 0.0
 
-                def parse_ex_strategy(row):
-                    text_context = (
-                        str(row.get('exotic_strategy', '')) + " " +
-                        str(row.get('raw_features', ''))
-                    ).replace('#$', '#').upper()
-                    
-                    # Check for 3-horse or Danger Exacta Box ($1 base = $6.00 total)
-                    if "EXACTA BOX" in text_context:
-                        stake = 6.0
-                        # Hit if Top 2 finishers land anywhere in Top 3 picks (Tokyo R1 hit!)
-                        hit = row['exacta_hit'] or row['exacta_top3_hit']
-                        ret = row['exacta_payout'] if hit else 0.0
-                        return stake, ret
-                    
-                    # Check for Exacta Key ($2.00 total)
-                    elif "EXACTA KEY" in text_context:
-                        stake = 2.0
-                        ret = row['exacta_payout'] if row['exacta_hit'] else 0.0
-                        return stake, ret
-                    
-                    elif "EXACTA: NO BET" in text_context or "NO BET" in text_context and "EXACTA" not in text_context:
-                        return 0.0, 0.0
-                    
-                    else:
-                        stake = 2.0
-                        ret = row['exacta_payout'] if row['exacta_hit'] else 0.0
-                        return stake, ret
+          # 2. Strong $10 Win Bet
+          elif "STRONG $10 WIN" in text_context or "$10 WIN" in text_context:
+            stake = 10.0
+            ret = (row["win_payout"] / 2.0 * 10.0) if row["top_pick_win"] else 0.0
+            return stake, ret
 
-                def parse_tri_strategy(row):
-                    text_context = (
-                        str(row.get('exotic_strategy', '')) + " " +
-                        str(row.get('raw_features', ''))
-                    ).replace('#$', '#').upper()
-                    
-                    if "TRIFECTA: NO BET" in text_context or "NO BET" in text_context and "TRIFECTA" not in text_context:
-                        return 0.0, 0.0
-                    
-                    elif "TRIFECTA WHEEL" in text_context:
-                        stake = 2.0 # Key wheel base
-                        ret = row['trifecta_payout'] if row['trifecta_top3_hit'] else 0.0
-                        return stake, ret
-                    
-                    else:
-                        stake = 1.20 # Standard $0.20 base on 3-horse box ($1.20 total)
-                        ret = row['trifecta_payout'] if row['trifecta_top3_hit'] else 0.0
-                        return stake, ret
+          # 3. $4 Win / $6 Place Split
+          elif "$4 WIN / $6 PLACE" in text_context:
+            stake = 10.0
+            ret = 0.0
+            if row["top_pick_win"]:
+              ret += (row["win_payout"] / 2.0 * 4.0) + (
+                  row["place_payout"] / 2.0 * 6.0
+              )
+            elif str(row["p1_num"]).strip() == str(row["place_num"]).strip():
+              p2_pay = (
+                  row["p2_place_payout"]
+                  if row["p2_place_payout"] > 0
+                  else row["place_payout"]
+              )
+              ret += p2_pay / 2.0 * 6.0
+            return stake, ret
 
-                # Apply strategy parsing across rows
-                win_eval = merged_df.apply(parse_win_strategy, axis=1)
-                merged_df['win_staked'] = [e[0] for e in win_eval]
-                merged_df['win_returned'] = [e[1] for e in win_eval]
+          # 4. Standard Active Win Bet ($2.00 Default)
+          else:
+            stake = 2.0
+            ret = row["win_payout"] if row["top_pick_win"] else 0.0
+            return stake, ret
 
-                ex_eval = merged_df.apply(parse_ex_strategy, axis=1)
-                merged_df['ex_staked'] = [e[0] for e in ex_eval]
-                merged_df['ex_returned'] = [e[1] for e in ex_eval]
+        def parse_ex_strategy(row):
+          text_context = (
+              str(row.get("exotic_strategy", ""))
+              + " "
+              + str(row.get("raw_features", ""))
+          ).replace("#$", "#").upper()
 
-                tri_eval = merged_df.apply(parse_tri_strategy, axis=1)
-                merged_df['tri_staked'] = [e[0] for e in tri_eval]
-                merged_df['tri_returned'] = [e[1] for e in tri_eval]
+          # Check for 3-horse or Danger Exacta Box ($1 base = $6.00 total)
+          if "EXACTA BOX" in text_context:
+            stake = 6.0
+            hit = row["exacta_hit"] or row["exacta_top3_hit"]
+            ret = row["exacta_payout"] if hit else 0.0
+            return stake, ret
 
-                # --- GLOBAL TRACK FILTER ---
-                st.markdown("---")
-                all_tracks = sorted(merged_df['track'].unique().tolist())
-                col_f1, col_f2 = st.columns([3, 1])
-                with col_f1:
-                    selected_tracks = st.multiselect("🌍 Filter by Track (Leave blank to view all)", all_tracks, default=[])
+          # Check for Exacta Key ($2.00 total)
+          elif "EXACTA KEY" in text_context:
+            stake = 2.0
+            ret = row["exacta_payout"] if row["exacta_hit"] else 0.0
+            return stake, ret
 
-                display_df = merged_df[merged_df['track'].isin(selected_tracks)] if selected_tracks else merged_df
-                total_races = len(display_df)
-                st.write(f"*Graded {total_races} completed races.*")
+          elif (
+              "EXACTA: NO BET" in text_context
+              or "NO BET" in text_context
+              and "EXACTA" not in text_context
+          ):
+            return 0.0, 0.0
 
-                # --- SELECTIVE ROI CALCULATIONS ---
-                total_win_staked = display_df['win_staked'].sum()
-                total_win_returned = display_df['win_returned'].sum()
-                win_net = total_win_returned - total_win_staked
-                win_roi = ((win_net) / total_win_staked * 100) if total_win_staked > 0 else 0.0
+          else:
+            stake = 2.0
+            ret = row["exacta_payout"] if row["exacta_hit"] else 0.0
+            return stake, ret
 
-                total_ex_staked = display_df['ex_staked'].sum()
-                total_ex_returned = display_df['ex_returned'].sum()
-                ex_net = total_ex_returned - total_ex_staked
-                ex_roi = ((ex_net) / total_ex_staked * 100) if total_ex_staked > 0 else 0.0
+        def parse_tri_strategy(row):
+          text_context = (
+              str(row.get("exotic_strategy", ""))
+              + " "
+              + str(row.get("raw_features", ""))
+          ).replace("#$", "#").upper()
 
-                total_tri_staked = display_df['tri_staked'].sum()
-                total_tri_returned = display_df['tri_returned'].sum()
-                tri_net = total_tri_returned - total_tri_staked
-                tri_roi = ((tri_net) / total_tri_staked * 100) if total_tri_staked > 0 else 0.0
+          if (
+              "TRIFECTA: NO BET" in text_context
+              or "NO BET" in text_context
+              and "TRIFECTA" not in text_context
+          ):
+            return 0.0, 0.0
 
-                # --- FINANCIAL ROI DASHBOARD ---
-                st.header("💵 Selective Strategy ROI (Suggested Wagers Only)")
-                r1, r2, r3 = st.columns(3)
+          elif "TRIFECTA WHEEL" in text_context:
+            stake = 2.0  # Key wheel base
+            ret = row["trifecta_payout"] if row["trifecta_top3_hit"] else 0.0
+            return stake, ret
 
-                r1.metric(
-                    label="Win Strategy ROI",
-                    value=f"${win_net:+.2f} Net",
-                    delta=f"{win_roi:+.1f}% ROI",
-                    help=f"Active Bets: {len(display_df[display_df['win_staked'] > 0])}/{total_races} races | Total Staked: ${total_win_staked:.2f} | Returned: ${total_win_returned:.2f}"
-                )
+          else:
+            stake = 1.20  # Standard $0.20 base on 3-horse box ($1.20 total)
+            ret = row["trifecta_payout"] if row["trifecta_top3_hit"] else 0.0
+            return stake, ret
 
-                r2.metric(
-                    label="Exacta Strategy ROI",
-                    value=f"${ex_net:+.2f} Net",
-                    delta=f"{ex_roi:+.1f}% ROI",
-                    help=f"Total Staked: ${total_ex_staked:.2f} | Returned: ${total_ex_returned:.2f}"
-                )
+        # Apply strategy parsing across rows
+        win_eval = merged_df.apply(parse_win_strategy, axis=1)
+        merged_df["win_staked"] = [e[0] for e in win_eval]
+        merged_df["win_returned"] = [e[1] for e in win_eval]
 
-                r3.metric(
-                    label="Trifecta Strategy ROI",
-                    value=f"${tri_net:+.2f} Net",
-                    delta=f"{tri_roi:+.1f}% ROI",
-                    help=f"Active Bets: {len(display_df[display_df['tri_staked'] > 0])}/{total_races} races | Total Staked: ${total_tri_staked:.2f} | Returned: ${total_tri_returned:.2f}"
-                )
+        ex_eval = merged_df.apply(parse_ex_strategy, axis=1)
+        merged_df["ex_staked"] = [e[0] for e in ex_eval]
+        merged_df["ex_returned"] = [e[1] for e in ex_eval]
 
-                st.markdown("---")
-                st.header("📊 Hit Rate Grading Report")
+        tri_eval = merged_df.apply(parse_tri_strategy, axis=1)
+        merged_df["tri_staked"] = [e[0] for e in tri_eval]
+        merged_df["tri_returned"] = [e[1] for e in tri_eval]
 
-                st.subheader("⚔️ The Danger Test")
-                m1, m2, m3 = st.columns(3)
-                m1.metric("Top Pick Win %", f"{(display_df['top_pick_win'].mean() * 100):.1f}%")
-                m2.metric("Danger Horse Win %", f"{(display_df['danger_win'].mean() * 100):.1f}%")
-                m3.metric("Top Pick In The Money %", f"{(display_df['top_pick_board'].mean() * 100):.1f}%")
+        # --- GLOBAL TRACK FILTER ---
+        st.markdown("---")
+        all_tracks = sorted(merged_df["track"].unique().tolist())
+        col_f1, col_f2 = st.columns([3, 1])
+        with col_f1:
+          selected_tracks = st.multiselect(
+              "🌍 Filter by Track (Leave blank to view all)",
+              all_tracks,
+              default=[],
+          )
 
-                st.markdown("---")
-                st.subheader("🎟️ Exotics Hit Rates")
-                e1, e2, e3 = st.columns(3)
-                e1.metric("Top 2 Exacta Box Hit %", f"{(display_df['exacta_hit'].mean() * 100):.1f}%")
-                e2.metric("Top 3 Exacta Box Hit %", f"{(display_df['exacta_top3_hit'].mean() * 100):.1f}%")
-                e3.metric("Top 3 Trifecta Box Hit %", f"{(display_df['trifecta_top3_hit'].mean() * 100):.1f}%")
+        display_df = (
+            merged_df[merged_df["track"].isin(selected_tracks)]
+            if selected_tracks
+            else merged_df
+        )
+        total_races = len(display_df)
+        st.write(f"*Graded {total_races} completed races.*")
 
-                st.markdown("---")
-                col_a, col_b = st.columns(2)
+        # --- SELECTIVE ROI CALCULATIONS ---
+        total_win_staked = display_df["win_staked"].sum()
+        total_win_returned = display_df["win_returned"].sum()
+        win_net = total_win_returned - total_win_staked
+        win_roi = (
+            ((win_net) / total_win_staked * 100) if total_win_staked > 0 else 0.0
+        )
 
-                with col_a:
-                    st.subheader("By Surface")
-                    surface_stats = display_df.groupby('surface').agg(
-                        Top_Pick_Win=('top_pick_win', 'mean'),
-                        Danger_Win=('danger_win', 'mean'),
-                        Win_Returned=('win_returned', 'sum'),
-                        Win_Staked=('win_staked', 'sum'),
-                        Races=('top_pick_win', 'count')
-                    ).reset_index()
-                    
-                    surface_stats['Top Pick Win'] = (surface_stats['Top_Pick_Win'] * 100).round(1).astype(str) + '%'
-                    surface_stats['Danger Win'] = (surface_stats['Danger_Win'] * 100).round(1).astype(str) + '%'
-                    surface_stats['Win ROI'] = surface_stats.apply(
-                        lambda x: f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%" if x['Win_Staked'] > 0 else "0.0%", axis=1
-                    )
-                    st.dataframe(surface_stats[['surface', 'Races', 'Top Pick Win', 'Danger Win', 'Win ROI']], use_container_width=True, hide_index=True)
+        total_ex_staked = display_df["ex_staked"].sum()
+        total_ex_returned = display_df["ex_returned"].sum()
+        ex_net = total_ex_returned - total_ex_staked
+        ex_roi = (
+            ((ex_net) / total_ex_staked * 100) if total_ex_staked > 0 else 0.0
+        )
 
-                with col_b:
-                    st.subheader("By Confidence Level")
-                    conf_stats = display_df.groupby('confidence').agg(
-                        Top_Pick_Win=('top_pick_win', 'mean'),
-                        Danger_Win=('danger_win', 'mean'),
-                        Win_Returned=('win_returned', 'sum'),
-                        Win_Staked=('win_staked', 'sum'),
-                        Races=('top_pick_win', 'count')
-                    ).reset_index()
-                    
-                    conf_stats['Top Pick Win'] = (conf_stats['Top_Pick_Win'] * 100).round(1).astype(str) + '%'
-                    conf_stats['Danger Win'] = (conf_stats['Danger_Win'] * 100).round(1).astype(str) + '%'
-                    conf_stats['Win ROI'] = conf_stats.apply(
-                        lambda x: f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%" if x['Win_Staked'] > 0 else "0.0%", axis=1
-                    )
-                    st.dataframe(conf_stats[['confidence', 'Races', 'Top Pick Win', 'Danger Win', 'Win ROI']], use_container_width=True, hide_index=True)
+        total_tri_staked = display_df["tri_staked"].sum()
+        total_tri_returned = display_df["tri_returned"].sum()
+        tri_net = total_tri_returned - total_tri_staked
+        tri_roi = (
+            ((tri_net) / total_tri_staked * 100) if total_tri_staked > 0 else 0.0
+        )
 
-            else:
-                st.info("No matching results found for the selected filter.")
-        else:
-            st.info("No prediction history or results found in the database yet.")
+        # --- FINANCIAL ROI DASHBOARD ---
+        st.header("💵 Selective Strategy ROI (Suggested Wagers Only)")
+        r1, r2, r3 = st.columns(3)
+
+        r1.metric(
+            label="Win Strategy ROI",
+            value=f"${win_net:+.2f} Net",
+            delta=f"{win_roi:+.1f}% ROI",
+            help=(
+                f"Active Bets: {len(display_df[display_df['win_staked'] > 0])}/{total_races}"
+                f" races | Total Staked: ${total_win_staked:.2f} | Returned:"
+                f" ${total_win_returned:.2f}"
+            ),
+        )
+
+        r2.metric(
+            label="Exacta Strategy ROI",
+            value=f"${ex_net:+.2f} Net",
+            delta=f"{ex_roi:+.1f}% ROI",
+            help=(
+                f"Total Staked: ${total_ex_staked:.2f} | Returned:"
+                f" ${total_ex_returned:.2f}"
+            ),
+        )
+
+        r3.metric(
+            label="Trifecta Strategy ROI",
+            value=f"${tri_net:+.2f} Net",
+            delta=f"{tri_roi:+.1f}% ROI",
+            help=(
+                f"Active Bets: {len(display_df[display_df['tri_staked'] > 0])}/{total_races}"
+                f" races | Total Staked: ${total_tri_staked:.2f} | Returned:"
+                f" ${total_tri_returned:.2f}"
+            ),
+        )
+
+        st.markdown("---")
+        st.header("📊 Hit Rate Grading Report")
+
+        st.subheader("⚔️ The Danger Test")
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Top Pick Win %", f"{(display_df['top_pick_win'].mean() * 100):.1f}%")
+        m2.metric("Danger Horse Win %", f"{(display_df['danger_win'].mean() * 100):.1f}%")
+        m3.metric("Top Pick In The Money %", f"{(display_df['top_pick_board'].mean() * 100):.1f}%")
+
+        st.markdown("---")
+        st.subheader("🎟️ Exotics Hit Rates")
+        e1, e2, e3 = st.columns(3)
+        e1.metric(
+            "Top 2 Exacta Box Hit %",
+            f"{(display_df['exacta_hit'].mean() * 100):.1f}%",
+        )
+        e2.metric(
+            "Top 3 Exacta Box Hit %",
+            f"{(display_df['exacta_top3_hit'].mean() * 100):.1f}%",
+        )
+        e3.metric(
+            "Top 3 Trifecta Box Hit %",
+            f"{(display_df['trifecta_top3_hit'].mean() * 100):.1f}%",
+        )
+
+        st.markdown("---")
+        col_a, col_b = st.columns(2)
+
+        with col_a:
+          st.subheader("By Surface")
+          surface_stats = (
+              display_df.groupby("surface")
+              .agg(
+                  Top_Pick_Win=("top_pick_win", "mean"),
+                  Danger_Win=("danger_win", "mean"),
+                  Win_Returned=("win_returned", "sum"),
+                  Win_Staked=("win_staked", "sum"),
+                  Races=("top_pick_win", "count"),
+              )
+              .reset_index()
+          )
+
+          surface_stats["Top Pick Win"] = (
+              (surface_stats["Top_Pick_Win"] * 100).round(1).astype(str) + "%"
+          )
+          surface_stats["Danger Win"] = (
+              (surface_stats["Danger_Win"] * 100).round(1).astype(str) + "%"
+          )
+          surface_stats["Win ROI"] = surface_stats.apply(
+              lambda x: (
+                  f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%"
+                  if x["Win_Staked"] > 0
+                  else "0.0%"
+              ),
+              axis=1,
+          )
+          st.dataframe(
+              surface_stats[[
+                  "surface",
+                  "Races",
+                  "Top Pick Win",
+                  "Danger Win",
+                  "Win ROI",
+              ]],
+              use_container_width=True,
+              hide_index=True,
+          )
+
+        with col_b:
+          st.subheader("By Confidence Level")
+          conf_stats = (
+              display_df.groupby("confidence")
+              .agg(
+                  Top_Pick_Win=("top_pick_win", "mean"),
+                  Danger_Win=("danger_win", "mean"),
+                  Win_Returned=("win_returned", "sum"),
+                  Win_Staked=("win_staked", "sum"),
+                  Races=("top_pick_win", "count"),
+              )
+              .reset_index()
+          )
+
+          conf_stats["Top Pick Win"] = (
+              (conf_stats["Top_Pick_Win"] * 100).round(1).astype(str) + "%"
+          )
+          conf_stats["Danger Win"] = (
+              (conf_stats["Danger_Win"] * 100).round(1).astype(str) + "%"
+          )
+          conf_stats["Win ROI"] = conf_stats.apply(
+              lambda x: (
+                  f"{(((x['Win_Returned'] - x['Win_Staked']) / x['Win_Staked']) * 100):+.1f}%"
+                  if x["Win_Staked"] > 0
+                  else "0.0%"
+              ),
+              axis=1,
+          )
+          st.dataframe(
+              conf_stats[[
+                  "confidence",
+                  "Races",
+                  "Top Pick Win",
+                  "Danger Win",
+                  "Win ROI",
+              ]],
+              use_container_width=True,
+              hide_index=True,
+          )
+
+      else:
+        st.info("No matching results found for the selected filter.")
+    else:
+      st.info("No prediction history or results found in the database yet.")
 
 
 # ==========================================
 # TAB 3: INPUT RESULTS (THE DATA EDITOR)
 # ==========================================
 with tab_results:
-    st.title("📝 Input Official Results")
+  st.title("📝 Input Official Results")
 
-    if "results_save_status" in st.session_state:
-        st.success(st.session_state["results_save_status"])
-        del st.session_state["results_save_status"]
+  if "results_save_status" in st.session_state:
+    st.success(st.session_state["results_save_status"])
+    del st.session_state["results_save_status"]
 
-    # ------------------------------------------
-    # 1. QUICK-PASTE RAW RESULTS (PRIMARY INGESTION)
-    # ------------------------------------------
-    with st.expander("⚡ Quick-Paste Raw Results (TVG / Equibase / TwinSpires)", expanded=True):
-        st.markdown("Select a track, date, and paste the raw race results text below to instantly extract and save payouts, finishes, and scratches.")
+  # ------------------------------------------
+  # 1. QUICK-PASTE RAW RESULTS (PRIMARY INGESTION)
+  # ------------------------------------------
+  with st.expander(
+      "⚡ Quick-Paste Raw Results (TVG / Equibase / TwinSpires)", expanded=True
+  ):
+    st.markdown(
+        "Select a track, date, and paste the raw race results text below to"
+        " instantly extract and save payouts, finishes, and scratches."
+    )
 
-        all_known_tracks = []
-        if 'track_catalog' in locals() or 'track_catalog' in globals():
-            for category in track_catalog:
-                for region in track_catalog[category]:
-                    all_known_tracks.extend(track_catalog[category][region])
-        all_known_tracks = sorted(list(set(all_known_tracks)))
-        if not all_known_tracks:
-            all_known_tracks = ["Louisiana Downs", "Saratoga", "Woodbine Mohawk Park", "Yonkers Raceway"]
+    all_known_tracks = []
+    if "track_catalog" in locals() or "track_catalog" in globals():
+      for category in track_catalog:
+        for region in track_catalog[category]:
+          all_known_tracks.extend(track_catalog[category][region])
+    all_known_tracks = sorted(list(set(all_known_tracks)))
+    if not all_known_tracks:
+      all_known_tracks = [
+          "Louisiana Downs",
+          "Saratoga",
+          "Woodbine Mohawk Park",
+          "Yonkers Raceway",
+      ]
 
-        try:
-            conn = sqlite3.connect(DB_PATH)
-            pending_df = pd.read_sql_query("""
+    try:
+      conn = sqlite3.connect(DB_PATH)
+      pending_df = pd.read_sql_query(
+          """
                 SELECT DISTINCT p.track, p.date
                 FROM predictions p
                 LEFT JOIN results r ON TRIM(LOWER(p.track)) = TRIM(LOWER(r.track))
@@ -1410,328 +1989,467 @@ with tab_results:
                                    AND CAST(p.race_number AS INTEGER) = CAST(r.race_number AS INTEGER)
                 WHERE r.win_num IS NULL OR r.win_num = ''
                 ORDER BY p.date DESC
-            """, conn)
-            conn.close()
-        except Exception:
-            pending_df = pd.DataFrame(columns=['track', 'date'])
+            """,
+          conn,
+      )
+      conn.close()
+    except Exception:
+      pending_df = pd.DataFrame(columns=["track", "date"])
 
-        if not pending_df.empty:
-            pending_tracks = sorted(pending_df['track'].unique().tolist())
-        else:
-            pending_tracks = all_known_tracks
+    if not pending_df.empty:
+      pending_tracks = sorted(pending_df["track"].unique().tolist())
+    else:
+      pending_tracks = all_known_tracks
 
-        col_res1, col_res2 = st.columns(2)
+    col_res1, col_res2 = st.columns(2)
 
-        with col_res1:
-            res_track = st.selectbox(
-                "Select Track (Showing Unfilled)",
-                pending_tracks,
-                key="quick_paste_track_select"
+    with col_res1:
+      res_track = st.selectbox(
+          "Select Track (Showing Unfilled)",
+          pending_tracks,
+          key="quick_paste_track_select",
+      )
+
+    with col_res2:
+      if not pending_df.empty and res_track in pending_df["track"].values:
+        track_missing_dates = (
+            pending_df[pending_df["track"] == res_track]["date"]
+            .unique()
+            .tolist()
+        )
+        res_date = st.selectbox(
+            "Race Date Needed",
+            sorted(track_missing_dates, reverse=True),
+            key="quick_paste_date_select",
+        )
+      else:
+        res_date = st.date_input(
+            "Race Date", value=datetime.today(), key="quick_paste_date_select"
+        )
+
+    pasted_results = st.text_area(
+        "Paste Raw Result Text Here",
+        height=180,
+        placeholder="Race 1 - ...\n#HorseJockey$2 WIN...",
+    )
+
+    if st.button("🚀 Process & Save All Results", key="btn_process_raw_results"):
+      if pasted_results.strip() and res_track:
+        try:
+          parsed_races = parse_raw_race_results(pasted_results)
+
+          if parsed_races:
+            save_results_to_db(res_track, str(res_date), parsed_races)
+
+            st.session_state["results_save_status"] = (
+                f"✅ Saved {len(parsed_races)} races for {res_track}"
+                f" ({res_date})!"
             )
 
-        with col_res2:
-            if not pending_df.empty and res_track in pending_df['track'].values:
-                track_missing_dates = pending_df[pending_df['track'] == res_track]['date'].unique().tolist()
-                res_date = st.selectbox("Race Date Needed", sorted(track_missing_dates, reverse=True), key="quick_paste_date_select")
-            else:
-                res_date = st.date_input("Race Date", value=datetime.today(), key="quick_paste_date_select")
+            if "editor_df" in st.session_state:
+              del st.session_state["editor_df"]
 
-        pasted_results = st.text_area("Paste Raw Result Text Here", height=180, placeholder="Race 1 - ...\n#HorseJockey$2 WIN...")
+            st.rerun()
+          else:
+            st.error("No valid race results found in pasted text.")
 
-        if st.button("🚀 Process & Save All Results", key="btn_process_raw_results"):
-            if pasted_results.strip() and res_track:
-                try:
-                    parsed_races = parse_raw_race_results(pasted_results)
+        except Exception as e:
+          st.error(f"Error processing results: {e}")
+      else:
+        st.warning("Please select a track and paste result text.")
 
-                    if parsed_races:
-                        save_results_to_db(res_track, str(res_date), parsed_races)
+  # ------------------------------------------
+  # 2. CARD DELETION & RESET UTILITIES
+  # ------------------------------------------
+  with st.expander(
+      "🗑️ Delete / Remove a Race Card or Reset Results", expanded=False
+  ):
+    st.markdown(
+        "If a meeting was canceled or imported with the wrong date, select the"
+        " track and date below to completely wipe it from the database and"
+        " saved files."
+    )
 
-                        st.session_state["results_save_status"] = f"✅ Saved {len(parsed_races)} races for {res_track} ({res_date})!"
+    try:
+      conn_del = sqlite3.connect(DB_PATH)
+      del_history_df = pd.read_sql_query(
+          "SELECT DISTINCT date, track FROM predictions ORDER BY date DESC",
+          conn_del,
+      )
+      conn_del.close()
+    except:
+      del_history_df = pd.DataFrame(columns=["date", "track"])
 
-                        if "editor_df" in st.session_state:
-                            del st.session_state["editor_df"]
+    if not del_history_df.empty:
+      col_del1, col_del2 = st.columns(2)
+      with col_del1:
+        all_del_tracks = sorted(del_history_df["track"].unique())
+        del_track = st.selectbox(
+            "Track to Delete", all_del_tracks, key="cleaner_track_select"
+        )
+      with col_del2:
+        valid_del_dates = del_history_df[del_history_df["track"] == del_track][
+            "date"
+        ].unique()
+        del_date = st.selectbox(
+            "Date to Delete",
+            sorted(valid_del_dates, reverse=True),
+            key="cleaner_date_select",
+        )
 
-                        st.rerun()
-                    else:
-                        st.error("No valid race results found in pasted text.")
+      confirm_delete = st.checkbox(
+          "I understand this will permanently delete predictions and results"
+          " for this card.",
+          key="cleaner_confirm_box",
+      )
 
-                except Exception as e:
-                    st.error(f"Error processing results: {e}")
-            else:
-                st.warning("Please select a track and paste result text.")
+      if st.button("❌ Permanently Delete Selected Card", type="secondary"):
+        if confirm_delete:
+          try:
+            conn = sqlite3.connect(DB_PATH)
+            c = conn.cursor()
+            c.execute(
+                "DELETE FROM predictions WHERE track=? AND date=?",
+                (del_track, del_date),
+            )
+            c.execute(
+                "DELETE FROM results WHERE track=? AND date=?",
+                (del_track, del_date),
+            )
+            conn.commit()
+            conn.close()
 
-    # ------------------------------------------
-    # 2. CARD DELETION & RESET UTILITIES
-    # ------------------------------------------
-    with st.expander("🗑️ Delete / Remove a Race Card or Reset Results", expanded=False):
-        st.markdown("If a meeting was canceled or imported with the wrong date, select the track and date below to completely wipe it from the database and saved files.")
+            json_filename = f"{del_track}_{del_date}.json"
+            json_filepath = os.path.join(MEETINGS_DIR, json_filename)
+            if os.path.exists(json_filepath):
+              os.remove(json_filepath)
 
-        try:
-            conn_del = sqlite3.connect(DB_PATH)
-            del_history_df = pd.read_sql_query("SELECT DISTINCT date, track FROM predictions ORDER BY date DESC", conn_del)
-            conn_del.close()
-        except:
-            del_history_df = pd.DataFrame(columns=['date', 'track'])
+            if "saved_track_name" in st.session_state:
+              del st.session_state["saved_track_name"]
 
-        if not del_history_df.empty:
-            col_del1, col_del2 = st.columns(2)
-            with col_del1:
-                all_del_tracks = sorted(del_history_df['track'].unique())
-                del_track = st.selectbox("Track to Delete", all_del_tracks, key="cleaner_track_select")
-            with col_del2:
-                valid_del_dates = del_history_df[del_history_df['track'] == del_track]['date'].unique()
-                del_date = st.selectbox("Date to Delete", sorted(valid_del_dates, reverse=True), key="cleaner_date_select")
-
-            confirm_delete = st.checkbox("I understand this will permanently delete predictions and results for this card.", key="cleaner_confirm_box")
-
-            if st.button("❌ Permanently Delete Selected Card", type="secondary"):
-                if confirm_delete:
-                    try:
-                        conn = sqlite3.connect(DB_PATH)
-                        c = conn.cursor()
-                        c.execute("DELETE FROM predictions WHERE track=? AND date=?", (del_track, del_date))
-                        c.execute("DELETE FROM results WHERE track=? AND date=?", (del_track, del_date))
-                        conn.commit()
-                        conn.close()
-
-                        json_filename = f"{del_track}_{del_date}.json"
-                        json_filepath = os.path.join(MEETINGS_DIR, json_filename)
-                        if os.path.exists(json_filepath):
-                            os.remove(json_filepath)
-
-                        if "saved_track_name" in st.session_state:
-                            del st.session_state["saved_track_name"]
-
-                        st.success(f"Successfully deleted card for {del_track} on {del_date}.")
-                        time.sleep(0.5)
-                        st.rerun()
-                    except Exception as e:
-                        st.error(f"Error deleting card: {e}")
-                else:
-                    st.warning("Please check the confirmation box above to enable deletion.")
+            st.success(
+                f"Successfully deleted card for {del_track} on {del_date}."
+            )
+            time.sleep(0.5)
+            st.rerun()
+          except Exception as e:
+            st.error(f"Error deleting card: {e}")
         else:
-            st.info("No saved race cards found in the database to delete.")
+          st.warning(
+              "Please check the confirmation box above to enable deletion."
+          )
+    else:
+      st.info("No saved race cards found in the database to delete.")
 
-        # --- WIPE ALL RESULTS BUTTON ---
-        st.markdown("---")
-        st.subheader("🧹 Clear All Stored Results (Fresh Start)")
-        st.caption("This will delete ALL entries in the results table so you can re-paste them with complete payout values. Your AI Predictions will stay completely safe.")
-
-        confirm_wipe_results = st.checkbox("I want to permanently clear ALL saved results from the database.", key="wipe_results_confirm_box")
-
-        if st.button("💥 Clear All Results Data", type="primary", key="btn_wipe_all_results"):
-            if confirm_wipe_results:
-                try:
-                    conn = sqlite3.connect(DB_PATH)
-                    c = conn.cursor()
-                    c.execute("DELETE FROM results")
-                    conn.commit()
-                    conn.close()
-
-                    st.session_state["results_save_status"] = "✅ All official results have been wiped! You can now start pasting fresh."
-                    
-                    if "editor_df" in st.session_state:
-                        del st.session_state["editor_df"]
-
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Error clearing results: {e}")
-            else:
-                st.warning("Please check the confirmation box above to proceed with wiping results.")
-
+    # --- WIPE ALL RESULTS BUTTON ---
     st.markdown("---")
-    st.subheader("📊 Interactive Data Editor Grid")
+    st.subheader("🧹 Clear All Stored Results (Fresh Start)")
+    st.caption(
+        "This will delete ALL entries in the results table so you can re-paste"
+        " them with complete payout values. Your AI Predictions will stay"
+        " completely safe."
+    )
 
-    if os.path.exists(DB_PATH):
-        conn = sqlite3.connect(DB_PATH)
+    confirm_wipe_results = st.checkbox(
+        "I want to permanently clear ALL saved results from the database.",
+        key="wipe_results_confirm_box",
+    )
 
-        view_mode = st.radio("Filter Meetings:", ["🔴 Needs Results (Pending)", "🟢 Edit Completed Results"], horizontal=True, key="res_view_mode_toggle")
+    if st.button(
+        "💥 Clear All Results Data",
+        type="primary",
+        key="btn_wipe_all_results",
+    ):
+      if confirm_wipe_results:
+        try:
+          conn = sqlite3.connect(DB_PATH)
+          c = conn.cursor()
+          c.execute("DELETE FROM results")
+          conn.commit()
+          conn.close()
 
-        if "Pending" in view_mode:
-            query = """
+          st.session_state["results_save_status"] = (
+              "✅ All official results have been wiped! You can now start"
+              " pasting fresh."
+          )
+
+          if "editor_df" in st.session_state:
+            del st.session_state["editor_df"]
+
+          st.rerun()
+        except Exception as e:
+          st.error(f"Error clearing results: {e}")
+      else:
+        st.warning(
+            "Please check the confirmation box above to proceed with wiping"
+            " results."
+        )
+
+  st.markdown("---")
+  st.subheader("📊 Interactive Data Editor Grid")
+
+  if os.path.exists(DB_PATH):
+    conn = sqlite3.connect(DB_PATH)
+
+    view_mode = st.radio(
+        "Filter Meetings:",
+        ["🔴 Needs Results (Pending)", "🟢 Edit Completed Results"],
+        horizontal=True,
+        key="res_view_mode_toggle",
+    )
+
+    if "Pending" in view_mode:
+      query = """
             SELECT DISTINCT p.date, p.track
             FROM predictions p
             LEFT JOIN results r ON p.date = r.date AND p.track = r.track AND p.race_number = r.race_number
             WHERE r.win_num IS NULL OR r.win_num = ''
             ORDER BY p.date DESC
             """
-        else:
-            query = "SELECT DISTINCT date, track FROM results ORDER BY date DESC"
+    else:
+      query = "SELECT DISTINCT date, track FROM results ORDER BY date DESC"
 
-        history_df = pd.read_sql_query(query, conn)
+    history_df = pd.read_sql_query(query, conn)
 
-        if not history_df.empty:
-            available_tracks = sorted(history_df['track'].unique())
+    if not history_df.empty:
+      available_tracks = sorted(history_df["track"].unique())
 
-            if "saved_track_name" not in st.session_state or st.session_state["saved_track_name"] not in available_tracks:
-                st.session_state["saved_track_name"] = available_tracks[0]
+      if (
+          "saved_track_name" not in st.session_state
+          or st.session_state["saved_track_name"] not in available_tracks
+      ):
+        st.session_state["saved_track_name"] = available_tracks[0]
 
-            current_track_index = available_tracks.index(st.session_state["saved_track_name"])
+      current_track_index = available_tracks.index(
+          st.session_state["saved_track_name"]
+      )
 
-            col_t, col_d = st.columns(2)
+      col_t, col_d = st.columns(2)
 
-            with col_t:
-                grid_track = st.selectbox(
-                    "Select Track",
-                    available_tracks,
-                    index=current_track_index,
-                    key="results_unique_track_select"
-                )
-                if grid_track != st.session_state["saved_track_name"]:
-                    st.session_state["saved_track_name"] = grid_track
-                    st.rerun()
+      with col_t:
+        grid_track = st.selectbox(
+            "Select Track",
+            available_tracks,
+            index=current_track_index,
+            key="results_unique_track_select",
+        )
+        if grid_track != st.session_state["saved_track_name"]:
+          st.session_state["saved_track_name"] = grid_track
+          st.rerun()
 
-            with col_d:
-                valid_dates = sorted(history_df[history_df['track'] == grid_track]['date'].unique(), reverse=True)
+      with col_d:
+        valid_dates = sorted(
+            history_df[history_df["track"] == grid_track]["date"].unique(),
+            reverse=True,
+        )
 
-                if not valid_dates:
-                    st.warning(f"No remaining dates found for {grid_track}.")
-                    conn.close()
-                    st.stop()
+        if not valid_dates:
+          st.warning(f"No remaining dates found for {grid_track}.")
+          conn.close()
+          st.stop()
 
-                if "saved_date_val" not in st.session_state or st.session_state["saved_date_val"] not in valid_dates:
-                    st.session_state["saved_date_val"] = valid_dates[0]
+        if (
+            "saved_date_val" not in st.session_state
+            or st.session_state["saved_date_val"] not in valid_dates
+        ):
+          st.session_state["saved_date_val"] = valid_dates[0]
 
-                current_date_index = valid_dates.index(st.session_state["saved_date_val"]) if st.session_state["saved_date_val"] in valid_dates else 0
+        current_date_index = (
+            valid_dates.index(st.session_state["saved_date_val"])
+            if st.session_state["saved_date_val"] in valid_dates
+            else 0
+        )
 
-                grid_date = st.selectbox(
-                    "Select Date",
-                    valid_dates,
-                    index=current_date_index,
-                    key="results_unique_date_select"
-                )
-                if grid_date != st.session_state["saved_date_val"]:
-                    st.session_state["saved_date_val"] = grid_date
-                    st.rerun()
+        grid_date = st.selectbox(
+            "Select Date",
+            valid_dates,
+            index=current_date_index,
+            key="results_unique_date_select",
+        )
+        if grid_date != st.session_state["saved_date_val"]:
+          st.session_state["saved_date_val"] = grid_date
+          st.rerun()
 
-            races_df = pd.read_sql_query(
-                "SELECT DISTINCT race_number FROM predictions WHERE date=? AND track=? ORDER BY CAST(race_number AS INTEGER)",
-                conn, params=(grid_date, grid_track)
-            )
+      races_df = pd.read_sql_query(
+          "SELECT DISTINCT race_number FROM predictions WHERE date=? AND"
+          " track=? ORDER BY CAST(race_number AS INTEGER)",
+          conn,
+          params=(grid_date, grid_track),
+      )
 
-            existing_results_df = pd.read_sql_query(
-                "SELECT race_number, win_num, place_num, show_num FROM results WHERE date=? AND track=?",
-                conn, params=(grid_date, grid_track)
-            )
-            conn.close()
+      existing_results_df = pd.read_sql_query(
+          "SELECT race_number, win_num, place_num, show_num FROM results WHERE"
+          " date=? AND track=?",
+          conn,
+          params=(grid_date, grid_track),
+      )
+      conn.close()
 
-            editor_df = pd.merge(races_df, existing_results_df, on="race_number", how="left")
-            editor_df.fillna("", inplace=True)
-            editor_df.rename(columns={"race_number": "Race Number", "win_num": "Win", "place_num": "Place", "show_num": "Show"}, inplace=True)
+      editor_df = pd.merge(
+          races_df, existing_results_df, on="race_number", how="left"
+      )
+      editor_df.fillna("", inplace=True)
+      editor_df.rename(
+          columns={
+              "race_number": "Race Number",
+              "win_num": "Win",
+              "place_num": "Place",
+              "show_num": "Show",
+          },
+          inplace=True,
+      )
 
-            edited_df = st.data_editor(
-                editor_df,
-                use_container_width=True,
-                num_rows="dynamic",
-                hide_index=True,
-                disabled=["Race Number"],
-                key="results_data_editor_grid"
-            )
+      edited_df = st.data_editor(
+          editor_df,
+          use_container_width=True,
+          num_rows="dynamic",
+          hide_index=True,
+          disabled=["Race Number"],
+          key="results_data_editor_grid",
+      )
 
-            if st.button("💾 Save Results to Database", type="primary", key="save_results_db_btn"):
-                try:
-                    conn = sqlite3.connect(DB_PATH)
-                    c = conn.cursor()
+      if st.button(
+          "💾 Save Results to Database",
+          type="primary",
+          key="save_results_db_btn",
+      ):
+        try:
+          conn = sqlite3.connect(DB_PATH)
+          c = conn.cursor()
 
-                    for index, row in edited_df.iterrows():
-                        win = str(row['Win']).strip()
-                        place = str(row['Place']).strip()
-                        show = str(row['Show']).strip()
+          for index, row in edited_df.iterrows():
+            win = str(row["Win"]).strip()
+            place = str(row["Place"]).strip()
+            show = str(row["Show"]).strip()
 
-                        if win:
-                            c.execute('''
+            if win:
+              c.execute(
+                  """
                             INSERT INTO results (date, track, race_number, win_num, place_num, show_num)
                             VALUES (?, ?, ?, ?, ?, ?)
                             ON CONFLICT(date, track, race_number) DO UPDATE SET
                                 win_num = excluded.win_num,
                                 place_num = excluded.place_num,
                                 show_num = excluded.show_num
-                            ''', (grid_date, grid_track, str(row['Race Number']), win, place, show))
+                            """,
+                  (grid_date, grid_track, str(row["Race Number"]), win, place, show),
+              )
 
-                    conn.commit()
-                    conn.close()
-                    st.session_state["results_save_status"] = "✅ Grid Results Saved!"
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Database error: {e}")
-        else:
-            if "Pending" in view_mode:
-                st.success("🎉 You are all caught up! There are no pending meetings awaiting results.")
-            else:
-                st.info("No completed results found. Go to the 'Pending' tab to add some!")
-            conn.close()
+          conn.commit()
+          conn.close()
+          st.session_state["results_save_status"] = "✅ Grid Results Saved!"
+          st.rerun()
+        except Exception as e:
+          st.error(f"Database error: {e}")
+    else:
+      if "Pending" in view_mode:
+        st.success(
+            "🎉 You are all caught up! There are no pending meetings awaiting"
+            " results."
+        )
+      else:
+        st.info(
+            "No completed results found. Go to the 'Pending' tab to add some!"
+        )
+      conn.close()
 
 
 # ==========================================
 # SIDEBAR: AUTOMATED TOOLS & INGESTION
 # ==========================================
 with st.sidebar:
-    st.markdown("---")
-    st.subheader("⚡ Automated Tools")
+  st.markdown("---")
+  st.subheader("⚡ Automated Tools")
 
-    if st.button("🚀 Run Race Optimizer"):
-        with st.spinner("Running optimizer script... Please wait."):
-            try:
-                result = subprocess.run(
-                    ["python", "run_optimizer.py"],
-                    capture_output=True,
-                    text=True,
-                    check=True
-                )
-                st.success("✅ Optimizer finished running successfully!")
-                if result.stdout:
-                    with st.expander("View Optimizer Output"):
-                        st.text(result.stdout)
-            except subprocess.CalledProcessError as e:
-                st.error(f"Optimizer script failed: {e.stderr}")
-            except Exception as e:
-                st.error(f"Could not execute script: {e}")
+  if st.button("🚀 Run Race Optimizer"):
+    with st.spinner("Running optimizer script... Please wait."):
+      try:
+        result = subprocess.run(
+            ["python", "run_optimizer.py"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        st.success("✅ Optimizer finished running successfully!")
+        if result.stdout:
+          with st.expander("View Optimizer Output"):
+            st.text(result.stdout)
+      except subprocess.CalledProcessError as e:
+        st.error(f"Optimizer script failed: {e.stderr}")
+      except Exception as e:
+        st.error(f"Could not execute script: {e}")
 
-    with st.sidebar.expander("📋 Paste Track JSON"):
-        st.markdown("Paste your raw track JSON block below to instantly create its file.")
+  with st.sidebar.expander("📋 Paste Track JSON"):
+    st.markdown(
+        "Paste your raw track JSON block below to instantly create its file."
+    )
 
-        with st.form("paste_track_form"):
-            pasted_json_input = st.text_area("Track JSON Data", height=150, placeholder='{"Moe": { ... }}')
-            submit_paste = st.form_submit_button("Generate Track File")
+    with st.form("paste_track_form"):
+      pasted_json_input = st.text_area(
+          "Track JSON Data", height=150, placeholder='{"Moe": { ... }}'
+      )
+      submit_paste = st.form_submit_button("Generate Track File")
 
-            if submit_paste:
-                if pasted_json_input.strip():
-                    try:
-                        cleaned_input = pasted_json_input.strip()
-                        if cleaned_input.startswith("```"):
-                            cleaned_input = cleaned_input.split("```")[1]
-                        if cleaned_input.startswith("json"):
-                            cleaned_input = cleaned_input[4:]
+      if submit_paste:
+        if pasted_json_input.strip():
+          try:
+            cleaned_input = pasted_json_input.strip()
+            if cleaned_input.startswith("```"):
+              cleaned_input = cleaned_input.split("```")[1]
+            if cleaned_input.startswith("json"):
+              cleaned_input = cleaned_input[4:]
 
-                        parsed_data = json.loads(cleaned_input.strip())
+            parsed_data = json.loads(cleaned_input.strip())
 
-                        if len(parsed_data) == 1 and isinstance(list(parsed_data.values())[0], dict):
-                            track_name = list(parsed_data.keys())[0]
-                            track_payload = parsed_data[track_name]
-                        else:
-                            st.error("Invalid JSON structure. Ensure it is keyed by the track name.")
-                            track_payload = None
+            if len(parsed_data) == 1 and isinstance(
+                list(parsed_data.values())[0], dict
+            ):
+              track_name = list(parsed_data.keys())[0]
+              track_payload = parsed_data[track_name]
+            else:
+              st.error(
+                  "Invalid JSON structure. Ensure it is keyed by the track"
+                  " name."
+              )
+              track_payload = None
 
-                        if track_payload:
-                            location_str = str(track_payload.get("location", "")).upper()
-                            if any(k in location_str for k in ["VIC", "NSW", "QLD", "SA", "WA", "TAS", "ACT", "AUSTRALIA"]):
-                                region_tag = "Australia_Thoroughbred"
-                            elif any(k in location_str for k in ["NY", "FL", "CA", "KY", "AR", "OH", "MN"]):
-                                region_tag = "USA_Thoroughbred"
-                            else:
-                                region_tag = "Australia_Thoroughbred"
+            if track_payload:
+              location_str = str(track_payload.get("location", "")).upper()
+              if any(
+                  k in location_str
+                  for k in [
+                      "VIC",
+                      "NSW",
+                      "QLD",
+                      "SA",
+                      "WA",
+                      "TAS",
+                      "ACT",
+                      "AUSTRALIA",
+                  ]
+              ):
+                region_tag = "Australia_Thoroughbred"
+              elif any(
+                  k in location_str
+                  for k in ["NY", "FL", "CA", "KY", "AR", "OH", "MN"]
+              ):
+                region_tag = "USA_Thoroughbred"
+              else:
+                region_tag = "Australia_Thoroughbred"
 
-                            track_payload["region_group"] = region_tag
+              track_payload["region_group"] = region_tag
 
-                            filename = f"{track_name.lower().replace(' ', '_').replace('-', '_')}.json"
-                            filepath = os.path.join(TRACKS_DIR, filename)
+              filename = (
+                  f"{track_name.lower().replace(' ', '_').replace('-', '_')}.json"
+              )
+              filepath = os.path.join(TRACKS_DIR, filename)
 
-                            with open(filepath, "w", encoding="utf-8") as f:
-                                json.dump(track_payload, f, indent=4)
+              with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(track_payload, f, indent=4)
 
-                            st.success(f"Successfully created {filename}!")
-                            st.rerun()
-                    except Exception as e:
-                        st.error(f"JSON Parsing Error: {e}")
-                else:
-                    st.warning("Please paste a valid JSON block.")
+              st.success(f"Successfully created {filename}!")
+              st.rerun()
+          except Exception as e:
+            st.error(f"JSON Parsing Error: {e}")
+        else:
+          st.warning("Please paste a valid JSON block.")
