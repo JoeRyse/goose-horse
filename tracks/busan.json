@@ -1,11 +1,32 @@
 {
+    "track_code": "BUS",
     "location": "Busan, South Korea",
-    "track_type": "Sand/Dirt",
-    "direction": "Counter-Clockwise",
-    "straight_length": "460m",
-    "bias_notes": "Left-handed. Sand surface. Long straight allows closers.",
-    "handicapping_angles": {
-        "track_bias": "Sand track. Power runners preferred."
+    "nicknames": [
+        "LetsRun Park Busan-Gyeongnam",
+        "Busan Gyeongnam"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1475 metres",
+            "surface": "Dirt (Sand)",
+            "stretch_length": "460 metres",
+            "bias_notes": "Anti-clockwise oval layout with a deep sand cushion over a hard base. Busan features a wide 460-metre home straight\u2014significantly longer than many Asian regional circuits. While early tactical speed ('E' and 'P' styles) is favored on sand, the long straight allows strong stalkers and closers to make up ground if the front-runners set a hot tempo. Wet or sealed conditions accelerate the track significantly.",
+            "post_bias": "Inside barriers (1\u20134) provide a distinct advantage in 1000m\u20131200m sprints to secure the rail early. Over 1400m to 2000m route distances, middle draws are fair, but wide barriers (10+) can be penalizing if caught wide entering the long turns."
+        }
     },
-    "region_group": "Asia_Thoroughbred_South_Korea"
+    "handicapping_angles": {
+        "horses_for_courses_specialists": "Upgrade horses with proven winning form on Busan's deep sand surface. Pay special attention to US-bred imports or horses transferring from Seoul (KRA) that thrive on heavy sand kickback.",
+        "trainer_jockey_trends": "Look for leading Busan stables (e.g., Kim Young-kwan, Peter Wolsley) and elite jockeys with high strike rates in feature sprint and route events."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Korean Premier)",
+        "class_rating": 82,
+        "speed_par_offsets": {
+            "Fast": 0.0,
+            "Good": 0.0,
+            "Muddy": 2.0,
+            "Sloppy": 3.0
+        }
+    },
+    "region_group": "Asia_Thoroughbred"
 }

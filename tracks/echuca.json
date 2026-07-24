@@ -1,18 +1,30 @@
 {
-    "location": "Echuca, VIC",
-    "track_type": "Turf",
-    "direction": "Counter-Clockwise",
-    "straight_length": "350m",
-    "bias_notes": "A flat, fair country track located on the Murray River. It features sweeping turns and a reliable 350m home straight that gives all runners a balanced opportunity.",
+    "track_code": "ECH",
+    "location": "Echuca, Victoria, Australia",
+    "nicknames": [
+        "The Murray River Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1811 metres",
+            "surface": "Turf",
+            "stretch_length": "353 metres",
+            "bias_notes": "Anti-clockwise oval. Flat, spacious country track built on a sandy loam base with an automatic irrigation system. Generally plays quite fair when rated Good, but the long sweeping turn into the home straight means tactical speed/stalkers tracking the 2-3 wide line with momentum often hold a distinct advantage over deep closers. Sprints under 1200m favor front-runners who get a clean break.",
+            "post_bias": "Inside barriers (1-4) offer an advantage at the 1000m and 1200m sprint starts due to the run up to the first bend. The 1600m start is notoriously tricky and penalizes wide draws heavily, as fields enter a long, sweeping turn almost immediately after jumping; downgrade wide barriers (10+) at the mile start unless the runner possesses early tactical speed to cross the field."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Generally plays highly fair. On dry days, horses with tactical early speed hold an edge, but the layout doesn't unfairly penalize backmarkers.",
-        "barrier_draw": "Inside barriers are moderately helpful over the shorter sprint distances (1000m - 1200m) due to the run up to the first turn."
+        "horses_for_courses_specialists": "Upgrade horses with proven country turf form in northern Victoria (e.g., Bendigo, Tatura, Seymour). Pay close attention to horses switching from heavy clay tracks to Echuca's forgiving sandy loam base.",
+        "trainer_jockey_trends": "Look for prominent Victorian country and metropolitan satellite stables (e.g., Lindsay Park, Maher/Eustace variants) shipping live runners up for targeted country placements."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0,
-        "algorithm_note": "Baseline country form. Standard equalization applies."
+        "tier": "Tier 3.5 (Victorian Provincial/Country)",
+        "class_rating": 68,
+        "speed_par_offsets": {
+            "Good": 0.0,
+            "Soft": -1.5,
+            "Heavy": -3.5
+        }
     },
-    "region_group": "Australia_Thoroughbred_Western_Australia"
+    "region_group": "Australia_Thoroughbred"
 }
