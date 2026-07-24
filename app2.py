@@ -10,6 +10,7 @@ import base64
 import sqlite3
 import pandas as pd
 from datetime import datetime
+from json_repair import repair_json  # Add this import
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
@@ -682,94 +683,160 @@ with tab_handicap:
                     logic_content = open(logic_path, 'r', encoding='utf-8').read() if os.path.exists(logic_path) else "You are an expert handicapper."
                     track_facts = json.dumps(current_track_profile) if current_track_profile else "No historical bias data."
 
+               # --- 1. SYSTEM INSTRUCTION (Strict Persona & Master Schema) ---
                     system_instruction = f"""
-You are a Data Extraction Engine for racing ({selected_region}).
-[SYSTEM RULES & LOGIC]
-{logic_content}
-[TRACK BIAS & FACTS]
-{track_facts}
-[STRICT OUTPUT SCHEMA]
-Return ONLY a valid JSON array. No Markdown blocks.
-[
-  {{
-    "race_number": 1,
-    "distance_surface": "1200m Soft5",
-    "confidence_level": "High",
-    "contenders": [
-      {{
-        "program_number": "1",
-        "barrier": "4",
-        "horse_name": "Horse Name",
-        "handicapper_notes": "Professional note here.",
-        "features": {{
-          "ai_holistic_score": 95,
-          "running_style": "Leader",
-          "is_lone_speed": true,
-          "distance_transition": "None",
-          "trouble_trip": "None",
-          "is_danger_horse": false
-        }}
-      }}
-    ]
-  }}
-]
-"""
+                    You are an Elite Horse Racing AI Handicapper & Feature Extraction Engine for ({selected_region}).
+                    Your primary directive is to strictly evaluate past form, class shifts, pace scenarios, and track biases using the master rules below.
 
-                    user_prompt = f"""
-[TASK] Analyze the attached PDF for {selected_track}. Extract thorough, deep feature analysis for EVERY active horse.
-[TRACK PROFILE] {current_track_profile}
-[ACTIVE WEIGHTS] Lone Speed: {active_weights.get('lone_speed_bonus', 0)}, Trouble Trip: {active_weights.get('trouble_trip_bonus', 0)}, Class Offset: {active_weights.get('class_offset', 0)}
-[UPDATES/SCRATCHES] {scratches}
+                    [MASTER HANDICAPPING RULES]
+                    {logic_content}
 
-[CRITICAL INSTRUCTIONS - NO SHORTCUTS]
-1. PROCESS EVERY SINGLE RACE ON THE CARD. Do not truncate! If there are 10 races, output 10 races.
-2. EVALUATE EVERY ACTIVE HORSE IN DETAIL:
-   - NEVER use lazy summaries like "2nd last start" or "form looks okay".
-   - Break down specific past performance metrics: recent speed figures, pace pressuring ability, running style (E, EP, P, S), and performance on this specific track geometry/surface.
-   - Note key handicapping flags: class drops/rises, equipment changes (blinkers on/off), layoff status, and driver/jockey switches.
-3. PREDICTION & CONFIDENCE METRICS:
-   - Assign a "confidence_level" ("High", "Medium", or "Low") based on field clarity and pace dynamics.
-   - Generate a clear "suggested_wager" (e.g., Exacta Box, Key Trifecta, or Single) tailored to the race structure.
-"""
+                    [TODAY'S TRACK BIAS & FACTS]
+                    {track_facts}
 
-                    model = genai.GenerativeModel(target_model, system_instruction=system_instruction, generation_config={"response_mime_type": "application/json", "temperature": creativity_temp})
-                    response = model.generate_content([user_prompt, remote_file])
-                    st.session_state.raw_response = response.text
+                    [STRICT OUTPUT SCHEMA]
+                    Return ONLY a valid JSON array conforming strictly to this format. No Markdown, no prose text outside JSON.
+                    [
+                      {{
+                        "race_number": 1,
+                        "distance_surface": "7 Furlongs Dirt",
+                        "confidence_level": "High",
+                        "suggested_wager": "Exacta Box 1, 2, 5",
+                        "contenders": [
+                          {{
+                            "program_number": "5",
+                            "barrier": "5",
+                            "horse_name": "Credit Risk",
+                            "handicapper_notes": "Explicitly state if score was boosted due to Class Drop Elevator, Pace Meltdown, or Lone Speed.",
+                            "features": {{
+                              "class_drop_bonus_applied": true,
+                              "pace_scenario_eval": "Standard",
+                              "ai_holistic_score": 88,
+                              "running_style": "P",
+                              "is_lone_speed": false,
+                              "distance_transition": "Route to Sprint",
+                              "trouble_trip": "None",
+                              "is_danger_horse": false
+                            }}
+                          }}
+                        ]
+                      }}
+                    ]
+                    """
 
-                    json_str = clean_json_string(response.text)
+                    # --- 2. MODEL INITIALIZATION & AUTO PRE-SCAN ---
+                    model = genai.GenerativeModel(
+                        target_model,
+                        system_instruction=system_instruction,
+                        generation_config={
+                            "response_mime_type": "application/json",
+                            "temperature": creativity_temp,
+                            "max_output_tokens": 8192,
+                        },
+                    )
 
-                    # --- BULLETPROOF JSON REPAIR ENGINE ---
+                    st.info("🔍 Scanning PDF program to detect total races...")
+
+                    detector_prompt = (
+                        "Look at the attached PDF program. How many total races are on this card? "
+                        "Respond ONLY with the integer number (e.g. 10)."
+                    )
+
                     try:
-                        raw_extracted_data = json.loads(json_str)
-                    except json.JSONDecodeError:
-                        # 1. Remove rogue trailing commas before closing brackets/braces
-                        fixed_json = re.sub(r',\s*([\]}])', r'\1', json_str)
-                        # 2. Fix unescaped control characters/newlines inside string quotes
-                        fixed_json = re.sub(r'[\r\n\t]+', ' ', fixed_json)
-                        
-                        try:
-                            raw_extracted_data = json.loads(fixed_json)
-                        except json.JSONDecodeError as e:
-                            # If standard fixes fail, fallback to regex extraction for JSON arrays
-                            match = re.search(r'\[\s*\{.*\}\s*\]', json_str, re.DOTALL)
-                            if match:
-                                raw_extracted_data = json.loads(match.group(0))
-                            else:
-                                raise e
+                        count_response = model.generate_content([detector_prompt, remote_file])
+                        match = re.search(r"\d+", count_response.text)
+                        if match:
+                            total_races = int(match.group(0))
+                            st.success(f"📋 Detected **{total_races} Races** on today's card.")
+                        else:
+                            total_races = 10
+                    except Exception as e:
+                        st.warning("⚠️ Could not auto-detect race count. Defaulting to 10 races.")
+                        total_races = 10
 
+                    # --- 3. RACE-BY-RACE API LOOP ---
+                    raw_extracted_data = []
+                    progress_bar = st.progress(0, text="Starting Race-by-Race Analysis...")
+
+                    for race_num in range(1, total_races + 1):
+                        progress_bar.progress(
+                            race_num / total_races,
+                            text=f"🐎 Handicapping Race {race_num} of {total_races}...",
+                        )
+
+                        race_user_prompt = f"""
+                        [TASK] Deeply handicap Race {race_num} ONLY from the attached PDF for {selected_track}.
+                        [TRACK PROFILE] {current_track_profile}
+                        [OFFICIAL SCRATCHES & UPDATES]
+                        {scratches}
+
+                        [CRITICAL HANDICAPPING DIRECTIVES FOR RACE {race_num}]
+                            1. ANALYZE RACE {race_num} ONLY.
+                            2. SCRATCHES ARE ABSOLUTE: Fully ignore scratched horses listed above.
+                            3. FIELD COVERAGE: Extract and rank AT LEAST 5 to 6 CONTENDERS in 'contenders'.
+                            4. ENFORCE OVERRIDE RULES:
+                            - Class Drop Elevator: If dropping from MSW ($75k+) or Allowance to MCL/CLM, set 'class_drop_bonus_applied': true and grant +10 points.
+                            - Post-Scratch Lone Speed: If scratches leave only ONE 'E' runner, set 'is_lone_speed': true, set 'pace_scenario_eval': 'Lone Speed (+6)', and grant +6 points.
+                            5. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
+                        """
+
+                        try:
+                            response = model.generate_content(
+                                [race_user_prompt, remote_file]
+                            )
+                            json_str = clean_json_string(response.text)
+
+                            # --- BULLETPROOF JSON PARSER & REPAIR ENGINE ---
+                            try:
+                                race_json = json.loads(json_str)
+                            except Exception:
+                                try:
+                                    # 1. Use json_repair to auto-fix unescaped quotes, missing commas & unterminated strings
+                                    repaired_str = repair_json(json_str)
+                                    race_json = json.loads(repaired_str)
+                                except Exception:
+                                    # 2. Fallback regex cleanup if json_repair needs extra help
+                                    sanitized = re.sub(
+                                        r"[\r\n\t]+", " ", json_str
+                                    )
+                                    sanitized = re.sub(
+                                        r",\s*([\]}])", r"\1", sanitized
+                                    )
+                                    repaired_str = repair_json(sanitized)
+                                    race_json = json.loads(repaired_str)
+
+                            if (
+                                isinstance(race_json, list)
+                                and len(race_json) > 0
+                            ):
+                                raw_extracted_data.append(race_json[0])
+                            elif isinstance(race_json, dict):
+                                raw_extracted_data.append(race_json)
+
+                        except Exception as e:
+                            st.error(f"⚠️ Error analyzing Race {race_num}: {e}")
+
+                    progress_bar.empty()
+
+                    # --- 4. TRACK WEIGHTS & RATING CALCULATOR ---
                     track_weights = {"lone_speed_bonus": 3, "trouble_trip_bonus": 2, "sprint_route_bonus": -2}
                     try:
                         with open(os.path.join(DATA_DIR, "optimized_weights.json"), "r") as f:
                             all_weights = json.load(f)
                             if selected_track in all_weights:
                                 track_weights = all_weights[selected_track]
-                    except: pass
+                    except:
+                        pass
 
                     def calculate_local_rating(features):
                         try:
                             score = float(features.get('ai_holistic_score', 80))
                         except:
                             score = 80.0
+
+                        class_drop = features.get('class_drop_bonus_applied', False)
+                        if str(class_drop).lower() == 'true' and score < 85:
+                            score += 8.0
 
                         is_lone = str(features.get('is_lone_speed', '')).strip().lower()
                         if is_lone == 'true':
@@ -787,25 +854,25 @@ Return ONLY a valid JSON array. No Markdown blocks.
 
                         return round(score, 1)
 
+                    # --- 5. POST-PROCESSING MASTER ACCUMULATOR ---
                     data = {
                         "meta": {
-                            "track": selected_track if selected_track != "Unknown" else "Track",
+                            "track": selected_track if selected_track != "Unknown" else "Saratoga",
                             "date": datetime.today().strftime('%Y-%m-%d'),
                             "track_condition": "Standard"
                         },
                         "races": []
                     }
 
-                    races_list = raw_extracted_data if isinstance(raw_extracted_data, list) else raw_extracted_data.get('races', [])
-
-                    for race in races_list:
+                    for race in raw_extracted_data:
                         new_race = {
                             "number": race.get("race_number", 0),
                             "distance": race.get("distance_surface", ""),
                             "surface": race.get("distance_surface", "").split(" ")[-1] if " " in race.get("distance_surface", "") else "",
                             "confidence_level": race.get("confidence_level", "Medium"),
                             "raw_features_dump": race,
-                            "selections": []
+                            "selections": [],
+                            "all_contenders": []
                         }
 
                         scored_contenders = []
@@ -819,9 +886,15 @@ Return ONLY a valid JSON array. No Markdown blocks.
 
                             reason = f"{ai_notes}"
                             tags = []
-                            if str(feats.get('is_lone_speed')).lower() == 'true': tags.append("🔥 Lone Speed")
-                            if feats.get('trouble_trip') and feats.get('trouble_trip') != "None": tags.append(f"⚠️ {feats.get('trouble_trip')}")
-                            if feats.get('distance_transition') and feats.get('distance_transition') != "None": tags.append(f"📏 {feats.get('distance_transition')}")
+                            if str(feats.get('class_drop_bonus_applied')).lower() == 'true':
+                                tags.append("🔻 Class Drop")
+                            if str(feats.get('is_lone_speed')).lower() == 'true':
+                                tags.append("🔥 Lone Speed")
+                            if feats.get('trouble_trip') and feats.get('trouble_trip') != "None":
+                                tags.append(f"⚠️ {feats.get('trouble_trip')}")
+                            if feats.get('distance_transition') and feats.get('distance_transition') != "None":
+                                tags.append(f"📏 {feats.get('distance_transition')}")
+                                
                             if tags:
                                 reason += f" | <i>{' • '.join(tags)}</i>"
 
@@ -833,10 +906,8 @@ Return ONLY a valid JSON array. No Markdown blocks.
                                 "reason": reason
                             })
 
-                        # 1. Sort contenders strictly by rating
                         scored_contenders.sort(key=lambda x: x["rating"], reverse=True)
 
-                        # 2. Identify Danger Horse (Can be 2nd, 3rd, or a live longshot)
                         danger_horse = {}
                         for horse in race.get("contenders", []):
                             if str(horse.get("features", {}).get("is_danger_horse", "")).strip().lower() == 'true':
@@ -847,61 +918,79 @@ Return ONLY a valid JSON array. No Markdown blocks.
                                         break
                                 break
 
-                        # Fallback: If AI didn't flag one, select 2nd highest rated if close in score
                         if not danger_horse and len(scored_contenders) >= 2:
                             if (scored_contenders[0]["rating"] - scored_contenders[1]["rating"]) <= 5.0:
                                 danger_horse = scored_contenders[1]
 
-                        # Keep Top 4 in Top 4 positions!
-                        new_race["selections"] = scored_contenders[:4]
+                        new_race["all_contenders"] = scored_contenders
+                        new_race["selections"] = scored_contenders[:5]
                         new_race["danger_horse"] = danger_horse
 
-                        # ==================================================
-                        # 3. PROFESSIONAL DYNAMIC BETTING STRATEGY ENGINE
-                        # ==================================================
+                        # --- DYNAMIC BETTING STRATEGY ENGINE ---
                         top1 = scored_contenders[0] if len(scored_contenders) > 0 else {}
                         top2 = scored_contenders[1] if len(scored_contenders) > 1 else {}
                         top3 = scored_contenders[2] if len(scored_contenders) > 2 else {}
                         top4 = scored_contenders[3] if len(scored_contenders) > 3 else {}
 
                         conf = str(race.get("confidence_level", "Medium"))
-                        score_gap = (top1.get("rating", 0) - top2.get("rating", 0)) if top2 else 10.0
+
+                        r1 = float(top1.get("rating", 0))
+                        r2 = float(top2.get("rating", 0)) if top2 else 0.0
+                        r3 = float(top3.get("rating", 0)) if top3 else 0.0
+
+                        gap_1_2 = r1 - r2 if top2 else 10.0
+                        gap_2_3 = r2 - r3 if top3 else 10.0
+
+                        danger_num = str(danger_horse.get("number", "")) if danger_horse else ""
+                        danger_in_top3 = danger_num in [str(top1.get("number")), str(top2.get("number")), str(top3.get("number"))]
 
                         strategy_parts = []
 
-                        # A. WIN WAGERS (Scales with confidence & score separation)
-                        if "High" in conf or "5 Stars" in conf or score_gap >= 6.0:
+                        # A. WIN WAGERS
+                        if gap_1_2 >= 5.0 or "High" in conf:
                             strategy_parts.append(f"<b>🎯 WIN:</b> Strong $10 Win on <b>#{top1.get('number')} {top1.get('name')}</b>")
-                        elif "Medium" in conf and score_gap >= 3.0:
+                        elif gap_1_2 >= 2.5 and "Medium" in conf:
                             strategy_parts.append(f"<b>🎯 WIN:</b> $4 Win / $6 Place on <b>#{top1.get('number')} {top1.get('name')}</b>")
                         else:
-                            strategy_parts.append("<b>🎯 WIN:</b> PASS Win wager (Low confidence / chaotic field)")
+                            strategy_parts.append("<b>🎯 WIN:</b> PASS Win wager (Low confidence / tight field)")
 
-                        # B. EXOTICS (Exacta & Trifecta tailored to race clarity)
-                        if score_gap >= 7.0 and top2 and top3:
-                            # Dominant Favorite -> Key Exacta & Trifecta Wheel
-                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over #{top2.get('number')}, #{top3.get('number')}")
-                            if "High" in conf:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} / #{top2.get('number')}, #{top3.get('number')} / #{top2.get('number')}, #{top3.get('number')}, #{top4.get('number') if top4 else 'ALL'}")
+                        # B. EXOTICS
+                        if gap_1_2 >= 5.0 and top2 and top3:
+                            under_list = [f"#{top2.get('number')}", f"#{top3.get('number')}"]
+                            if danger_num and not danger_in_top3:
+                                under_list.append(f"#{danger_num}")
+                            under_str = ", ".join(under_list)
+                            
+                            strategy_parts.append(f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over ({under_str})")
+                            
+                            if "High" in conf or gap_1_2 >= 7.0:
+                                top4_str = f"#{top4.get('number')}" if top4 else "ALL"
+                                strategy_parts.append(f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} / ({under_str}) / ({under_str}, {top4_str})")
+
+                        elif gap_1_2 < 3.0 and gap_2_3 >= 4.0 and top2:
+                            strategy_parts.append(f"<b>⚔️ STRAIGHT EXACTA BOX:</b> #{top1.get('number')} with #{top2.get('number')}")
+                            if danger_num and danger_num not in [str(top1.get("number")), str(top2.get("number"))]:
+                                strategy_parts.append(f"<b>⚠️ SAVER EXACTA:</b> Key #{danger_num} in 2nd position (#{top1.get('number')}, #{top2.get('number')} / #{danger_num})")
+                            if top3:
+                                strategy_parts.append(f"<b>🎪 TRIFECTA KEY:</b> #{top1.get('number')}, #{top2.get('number')} / #{top1.get('number')}, #{top2.get('number')} / #{top3.get('number')}")
+
                         elif top2 and top3:
-                            # Competitive Field -> Exacta / Trifecta Box
-                            if danger_horse and danger_horse.get("number") not in [top1.get("number"), top2.get("number"), top3.get("number")]:
-                                # Include Danger Longshot in Exotic Box
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{danger_horse.get('number')} (Includes Danger Threat)")
+                            if danger_num and not danger_in_top3:
+                                box_str = f"#{top1.get('number')}, #{top2.get('number')}, #{danger_num}"
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str} <i>(Includes Danger Threat)</i>")
                             else:
-                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}")
+                                box_str = f"#{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}"
+                                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str}")
 
                             if "High" in conf or "Medium" in conf:
-                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> #{top1.get('number')}, #{top2.get('number')}, #{top3.get('number')}")
+                                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> {box_str}")
                             else:
-                                strategy_parts.append("<b>🎪 TRIFECTA:</b> NO BET (Low clarity)")
+                                strategy_parts.append("<b>🎪 TRIFECTA:</b> NO BET (Low field clarity)")
 
                         new_race["exotic_strategy"] = "<br>".join(strategy_parts)
                         data["races"].append(new_race)
 
-                    # ==================================================
-                    # 4. ADVANCED DAILY DOUBLE SCANNER (AFTER RACE LOOP)
-                    # ==================================================
+                    # --- 6. ADVANCED DAILY DOUBLE SCANNER ---
                     daily_doubles = []
                     for idx in range(len(data["races"]) - 1):
                         r1 = data["races"][idx]
@@ -914,17 +1003,20 @@ Return ONLY a valid JSON array. No Markdown blocks.
                         r2_picks = r2.get("selections", [])
 
                         if len(r1_picks) >= 2 and len(r2_picks) >= 2:
-                            r1_gap = r1_picks[0].get("rating", 0) - r1_picks[1].get("rating", 0)
-                            r2_gap = r2_picks[0].get("rating", 0) - r2_picks[1].get("rating", 0)
+                            r1_r1 = float(r1_picks[0].get("rating", 0))
+                            r1_r2 = float(r1_picks[1].get("rating", 0))
+                            r1_gap = r1_r1 - r1_r2
 
-                            # Leg 1 Ticket
-                            if "High" in r1_conf and r1_gap >= 5.0:
+                            r2_r1 = float(r2_picks[0].get("rating", 0))
+                            r2_r2 = float(r2_picks[1].get("rating", 0))
+                            r2_gap = r2_r1 - r2_r2
+
+                            if "High" in r1_conf or r1_gap >= 5.0:
                                 r1_ticket = f"#{r1_picks[0].get('number')} (Solo Lock)"
                             else:
                                 r1_ticket = f"#{r1_picks[0].get('number')}, #{r1_picks[1].get('number')}"
 
-                            # Leg 2 Ticket
-                            if "High" in r2_conf and r2_gap >= 5.0:
+                            if "High" in r2_conf or r2_gap >= 5.0:
                                 r2_ticket = f"#{r2_picks[0].get('number')} (Solo Lock)"
                             else:
                                 r2_ticket = f"#{r2_picks[0].get('number')}, #{r2_picks[1].get('number')}"
