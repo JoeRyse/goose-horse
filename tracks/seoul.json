@@ -1,39 +1,45 @@
 {
-    "track_code": "SEO",
-    "location": "Gwacheon, Seoul, South Korea",
-    "nicknames": [
-        "LetsRun Park Seoul"
-    ],
-    "courses": {
-        "main_sand_outer": {
-            "circumference": "1,800 metres",
-            "surface": "Deep Sand",
-            "stretch_length": "380 metres",
-            "bias_notes": "Left-Handed (Counter-Clockwise). The premier track in South Korea. The surface is exceptionally deep sand, which makes it one of the most stamina-draining dirt/sand circuits in the world. It races much slower and heavier than North American dirt tracks. Because of the heavy kickback and deep surface, early speed and prominent positioning are massively rewarded. Passing tired horses in the stretch is visually grinding.",
-            "post_bias": "Inside barriers (1-4) hold a significant advantage across most distances. Horses drawn wide are forced to expend massive amounts of early energy in the deep sand to cross over, frequently leaving them empty for the 380m stretch drive."
+    "Seoul": {
+        "track_code": "SEO",
+        "location": "Gwacheon, Seoul, South Korea",
+        "nicknames": [
+            "LetsRun Park Seoul",
+            "Gwacheon Racecourse",
+            "KRA Headquarters"
+        ],
+        "courses": {
+            "main_sand_outer": {
+                "circumference": "1,800 metres",
+                "surface": "Sand",
+                "stretch_length": "400 metres",
+                "bias_notes": "Left-handed (Anti-clockwise). A deep, coarse sand surface that demands high baseline stamina. On dry days (moisture < 6%), the sand is deep and tiring, allowing strong closers to make ground in the 400m home straight. When moisture exceeds 10-15% (muddy/sealed), the surface packs tight and creates an extreme on-pace 'Golden Rail' bias.",
+                "post_bias": "In 1200m and 1400m sprints, middle barriers (4-8) offer the best angle. In 1700m and 1800m route races, inside draws (1-4) hold a significant advantage by saving ground into the tight first turn."
+            },
+            "inner_sand": {
+                "circumference": "1,600 metres",
+                "surface": "Sand",
+                "stretch_length": "350 metres",
+                "bias_notes": "Left-handed (Anti-clockwise) inner sand track. Features tighter turns and a shorter 350m straight. Strongly favors early gate speed ('E') and box-seat stalkers ('P'). Deep closers struggle unless a frantic pace duel unfolds.",
+                "post_bias": "Inside barriers (1-4) are highly advantageous in 1000m, 1300m, and 1600m inner-track events. Wide barriers (8+) risk being hung wide on the turns."
+            }
         },
-        "inner_sand": {
-            "circumference": "1,600 metres",
-            "surface": "Deep Sand",
-            "stretch_length": "350 metres (approx)",
-            "bias_notes": "Left-Handed. Set inside the main track, this tighter layout is used for certain distance configurations. The tight corners heavily amplify the advantage of inside draws and early gate speed.",
-            "post_bias": "Inside posts are critical. Wide draws are highly penalizing due to the tighter geometry and shorter run into the first turn."
-        }
-    },
-    "handicapping_angles": {
-        "the_deep_sand_stamina": "Never translate fast, firm North American or Australian dirt form directly to Seoul. The deep sand demands grueling stamina. Heavily downgrade pure 'speed' horses that lack proven endurance, and aggressively upgrade grinding, tough types.",
-        "the_kickback_factor": "The kickback here is brutal. Horses that draw inside but lack the gate speed to hold their position will be swallowed in a cloud of heavy sand, causing many to drop the bit. Heavily upgrade 'E' (Early speed) types that can clear the field early.",
-        "korea_cup_invaders": "During the international Korea Cup and Sprint (September), elite Japanese (JRA/NAR) dirt horses routinely dominate the local Korean stars due to their vast class edge and experience on deep sand. Apply massive upgrades to Japanese shippers."
-    },
-    "par_adjustment": {
-        "tier": "Tier 2 (Premier Asian Sand)",
-        "class_rating": 94,
-        "speed_par_offsets": {
-            "dirt_sprint": "+1.5",
-            "dirt_route": "+2.0"
+        "handicapping_angles": {
+            "moisture_content_bias_flip": "Always check official KRA track moisture percentage. Moisture below 6% = heavy, deep sand (upgrade stamina & closers). Moisture above 10% = hard, fast sand (aggressively upgrade front-runners and inside gates).",
+            "kra_class_hierarchy": "Korean racing uses strict Class 1 (Elite) down to Class 6 (Maiden). Pay close attention to horses moving up or down in Class. Class-dropping runners exiting Class 2 or 3 carry a distinct class advantage.",
+            "weight_handicap_impact": "In KRA Class 2-5 rating handicaps, top weights carrying 57kg+ face a strict penalty against light-weight runners (52kg-54kg). Grant a significant boost to fit horses carrying low weight.",
+            "imported_vs_domestically_bred": "Imported horses (USA, AUS, NZ) debuting or racing in Class 3/4 generally possess superior early gate speed and higher baseline ratings compared to local KOR-bred horses.",
+            "jockey_colony_intent": "Top KRA jockeys (e.g., Antonio Davielson, CC Wong, Lim Gi-won, Moon Se-young) ride with high tactical aggression. Upgrade horses when these premier riders take the mount."
         },
-        "lengths": 2.0,
-        "points": 5.0
-    },
-    "region_group": "Asia_Thoroughbred_Hong_Kong"
+        "par_adjustment": {
+            "tier": "Tier 1.5 (Asian International Premier)",
+            "class_rating": 95,
+            "speed_par_offsets": {
+                "dirt_sprint": "+1.0",
+                "dirt_route": "+1.5"
+            },
+            "lengths": 2.0,
+            "points": 5.0
+        },
+        "region_group": "Asia_Thoroughbred_Korea"
+    }
 }

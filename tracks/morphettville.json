@@ -1,37 +1,40 @@
 {
     "track_code": "MORPH",
-    "location": "Adelaide, SA",
+    "location": "Morphettville, Adelaide, SA, Australia",
     "nicknames": [
         "SAJC HQ",
-        "South Australia's Headquarters"
+        "South Australia's Headquarters",
+        "The Bay of Biscay Course"
     ],
     "courses": {
         "main_turf": {
             "circumference": "2,339 metres",
             "surface": "Turf",
             "stretch_length": "334 metres",
-            "bias_notes": "Counter-Clockwise. The course proper is a spacious, flat, and extremely fair galloping track. With a generous 32-metre width and wide, sweeping turns (4% camber), it gives every running style a legitimate chance. Large-striding horses can build and maintain their momentum without severe interruption.",
-            "post_bias": "Extremely fair. Thanks to long runs from the various chutes (such as the 1200m and 1600m starts) into the first turn, outside barriers are rarely a severe disadvantage on the main track."
+            "bias_notes": "Anti-clockwise. A spacious, championship 2,339m oval boasting a 32-metre track width and broad, 4% cambered turns. Features a hydraulic retractable winning post. The generous width and sweeping turns make this one of the fairest tracks in Australia, allowing big-striding gallopers and strong closers ('Swoopers') fair opportunities to run down leaders.",
+            "post_bias": "Extremely fair from most starting points. In 1100m and 1200m sprints starting in dedicated dogleg chutes, jockeys have ample straight running room before the turn. In 1800m and 2000m staying events (including the SA Derby and Australasian Oaks), wide draws face only a slight penalty if they can find cover prior to the backstretch turn."
         },
         "parks_turf": {
             "circumference": "2,100 metres",
             "surface": "Turf",
-            "stretch_length": "305 metres",
-            "bias_notes": "Counter-Clockwise. The Parks track (opened in 2009) sits inside the main circuit and plays completely differently. It is significantly tighter, narrower (25m wide), and features a short 305m straight. This geometry heavily favors tactical speed, on-pace runners ('E' and 'P' types), and agility. Deep closers often run out of ground.",
-            "post_bias": "Inside barriers (1-5) are highly advantageous. Because the turns are tighter, horses caught three-wide without cover bleed massive amounts of momentum, making outside barriers a severe penalty."
+            "stretch_length": "317 metres",
+            "bias_notes": "Anti-clockwise inner circuit. Narrower (25m wide) with sharper turns featuring 5% camber and a shorter ~317m home straight. Features a unique central infield chute for 1250m, 1300m, and 1400m starts. Plays with a strong natural bias toward front-runners ('E') and box-seat stalkers ('P'). Deep closers are at a severe disadvantage.",
+            "post_bias": "Inside barriers (1-5) are pure gold. Wide barriers (8+) are heavily penalized on the tighter turns as horses caught 3-wide without cover bleed massive momentum prior to the short home straight."
         }
     },
     "handicapping_angles": {
-        "the_dual_track_flip": "Always check which track they are racing on. Aggressively upgrade nimble, tactical speed horses on the Parks track. Conversely, upgrade large, sweeping 'Swoopers' stepping off the Parks track onto the spacious Main track where they finally have room to wind up.",
-        "the_interstate_raid": "During the Adelaide Autumn Carnival (April/May), the local form lines are heavily tested by elite Tier 1 interstate shippers from Victoria and New South Wales. Always respect highly-rated Victorian invaders dropping in to steal SA black-type races.",
-        "wet_weather_migration": "When the Adelaide winter sets in and the track downgrades into the Heavy range, the inside rail often chops out. Monitor the early races; if jockeys begin steering their mounts down the center or outside fence in the straight, upgrade wide-drawn closers."
+        "the_dual_track_flip": "Always verify which track is active. On the Parks Track, aggressively upgrade front-runners ('E') and inside draws. Conversely, when transitioning from the Parks to the Main Course, upgrade big-striding 'Swoopers' who will relish the 32m wide track and broad turns.",
+        "the_parks_infield_chute_advantage": "In 1250m, 1300m, and 1400m races on the Parks Track, horses start in the central infield chute. Target runners drawn in Barriers 1 through 6 who can establish early rhythm before merging onto the main circuit.",
+        "the_interstate_raid_spike": "During the Adelaide Autumn Carnival (April/May) and March Adelaide Cup meeting, Tier 1 Victorian and NSW metropolitan stables (Maher, Waller, Moody/Coleman) invade SA. Heavily upgrade interstate shippers dropping out of Melbourne/Sydney Saturday metropolitan races into SA black-type company.",
+        "winter_track_migration": "During rainy winter meetings on the Main Track, the inside 2-3 paths often chop out. Watch early races—if jockeys fan wide entering the straight searching for firmer turf down the center or outside fence, upgrade wide-drawn closers.",
+        "australian_weight_bifurcation": "In SAJC Metropolitan Benchmark company (BM64-BM86), top weights carrying 59kg+ face a strict penalty (1kg = ~1 length over 334m). In Group 1/WFA feature events (Goodwood, Sangster, SA Derby, Oaks), ignore minor weight spreads and prioritize peak class and rated form."
     },
     "par_adjustment": {
-        "tier": "Tier 1.5 (SA Metro HQ)",
+        "tier": "Tier 1.5 (SA Metropolitan Headquarters)",
         "class_rating": 96,
         "speed_par_offsets": {
-            "turf_sprint": "+0.5",
-            "turf_route": "+1.0"
+            "turf_sprint": "+1.0",
+            "turf_route": "+1.5"
         },
         "lengths": 3.0,
         "points": 6.0

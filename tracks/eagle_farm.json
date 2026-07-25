@@ -1,6 +1,6 @@
 {
     "track_code": "E FM",
-    "location": "Brisbane, QLD",
+    "location": "Brisbane, QLD, Australia",
     "nicknames": [
         "The Farm",
         "Queensland's Headquarters"
@@ -8,22 +8,25 @@
     "courses": {
         "main_turf": {
             "circumference": "2,027 metres",
-            "surface": "Turf",
+            "surface": "Turf (Couch Grass over Sand Profile)",
             "stretch_length": "434 metres",
-            "bias_notes": "Clockwise. A sprawling, expansive galloping track and the premier venue in Queensland. The massive 2,027m circumference and sweeping turns allow large-striding horses to maintain their momentum. The defining feature is the 434m home straight, which has a subtle, exhausting uphill incline from the 800m mark to the winning post. This gradient heavily tests stamina, frequently allowing deep closers ('Swoopers') to run down tiring leaders in the final 100m.",
-            "post_bias": "In sprints (1000m to 1200m), middle-to-wide draws (5-8) often fare surprisingly well as riders have plenty of time to find cover and avoid early speed duels. In route and staying races (1600m+), inside barriers (1-4) hold a significant advantage by saving ground around the long, sweeping turns."
+            "bias_notes": "Clockwise. A premier 28m wide, 2,027m oval with broad, sweeping turns. Features a 434m home straight with a steady +4.0 metre elevation climb from the 800m mark to the winning post. This uphill incline severely tests late stamina, enabling big-striding, long-actioned horses and deep closers ('Swoopers') to run down tiring leaders in the final 100m.",
+            "post_bias": "In 1000m-1200m sprints, Barrier 1 is historically disadvantageous (~4.3% win rate) as runners get pinned inside; middle barriers (4-8) excel (~11% win rate) by allowing jockeys to settle 'one off the fence'. In 1400m-1600m races (including the Stradbroke 1400m chute), the 400m straight run into the first turn provides one of Australia's fairest starts. In staying races (1800m+), inside barriers (1-4) offer a massive statistical advantage (~25.8% win rate for Barrier 1) as saving ground on long turns is essential for the uphill stretch."
         }
     },
     "handicapping_angles": {
-        "the_uphill_stamina_test": "Heavily downgrade pure 'Need-the-Lead' sprinters, particularly those shipping in from tighter tracks like Doomben. The 434m uphill straight exposes horses lacking genuine stamina, making this one of the best tracks in Australia to back 'Swoopers'.",
-        "the_doomben_flip": "Eagle Farm is directly across the road from Doomben, but they play completely differently. Doomben is a tight front-runner's track; Eagle Farm is a sprawling closer's track. Aggressively upgrade horses who ran well late at Doomben but ran out of room, as they will relish the massive open spaces of Eagle Farm.",
-        "big_striding_gallopers": "Large, long-striding horses who often become unbalanced on tight provincial circuits (like Kilcoy or Ipswich) absolutely thrive here. Upgrade horses described in form guides as having a 'bounding' or long-reaching action."
+        "the_uphill_drag_and_swooper_upgrade": "The 434m home straight features a +4.0m elevation climb over the final 800 metres. One-dimensional, 'need-the-lead' sprinters often hit a brick wall in the last 100m. Aggressively upgrade horses with proven L200m (last 200m) strength and strong turn-of-foot ratings.",
+        "the_doomben_flip": "Eagle Farm and Doomben sit across the road from each other but could not be more opposite. Doomben (1,715m) is tight and heavily rewards agile front-runners; Eagle Farm (2,027m) is huge and rewards stamina. Upgrade horses who finished strongly at Doomben but ran out of stretch room.",
+        "sprint_barrier_sweet_spot": "Avoid over-betting Barrier 1 in 1000m-1200m sprints. Target horses drawn in Barriers 4 through 8, which afford jockeys clear running room to wind up big strides before making their turn-for-home move.",
+        "the_a_grass_fast_lane": "On Soft or Heavy tracks, or late in a meeting, the inside rail can become chopped up. Jockeys frequently shift 4-8 metres wide in the straight searching for the firmer 'A-Grass' crown.",
+        "winter_carnival_glare": "During winter afternoon Carnival meetings, the setting sun casts a wall of glare directly down the 434m home straight. Watch for inexperienced juveniles or debutants that shy when entering the straight.",
+        "australian_weight_bifurcation": "In QLD Metropolitan Benchmark races (BM68-BM90), top weights carrying 59kg+ face a strict penalty (1kg = ~1 length over 434m uphill). In Group/WFA Carnival races (Stradbroke, QLD Derby, Kingsford Smith), ignore minor weight spreads and prioritize peak class ratings."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Metropolitan QLD)",
+        "tier": "Tier 1 (Queensland Metro Headquarters)",
         "class_rating": 100,
         "speed_par_offsets": {
-            "turf_sprint": "+2.0",
+            "turf_sprint": "+3.0",
             "turf_route": "+2.5"
         },
         "lengths": 5.0,

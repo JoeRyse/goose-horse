@@ -1,16 +1,42 @@
 {
-    "location": "Melbourne",
-    "track_type": "Turf",
-    "direction": "Counter-Clockwise",
-    "straight_length": "363m",
-    "bias_notes": "Triangular shape. On-pace bias but closers can win with momentum.",
+    "track_code": "CAUL",
+    "location": "Caulfield, Melbourne, VIC, Australia",
+    "nicknames": [
+        "The Heath",
+        "Home of the Caulfield Cup"
+    ],
+    "courses": {
+        "course_proper": {
+            "circumference": "2,080 metres",
+            "surface": "Turf",
+            "stretch_length": "367 metres",
+            "bias_notes": "Anti-clockwise. A unique triangular track layout featuring three distinct banked turns and a 367m home straight. Positioning prior to the home turn is vital—due to the short straight, runners making a late sweep must commence their run before the turn. Plays very fair when rail is True, but transforms into a heavy on-pace bias when rail is moved out +6m or wider.",
+            "post_bias": "In 1000m-1100m sprints, inside-to-middle barriers (1-6) hold a distinct advantage. In 1200m races starting in the backstretch chute, horses enjoy a massive ~750m straight run into the turn—making it one of the fairest 1200m starts in Australia where wide draws are not heavily penalized. In 1400m and 1600m races, saving ground on the first turn is crucial; inside barriers (1-5) are strongly preferred."
+        },
+        "caulfield_heath": {
+            "circumference": "1,865 metres",
+            "surface": "Turf",
+            "stretch_length": "208 metres",
+            "bias_notes": "Anti-clockwise inner track. Features tighter turns and an extremely short 208m home straight. Creates a massive natural bias toward horses racing on the pace ('E') or in the 'box seat' ('P'). Deep closers ('Swoopers') face near-impossible odds unless a blistering pace meltdown occurs.",
+            "post_bias": "Inside barriers (1-4) are pure gold. Wide barriers (7+) are heavily penalized as getting caught 3-wide without cover on tight turns bleeds vital momentum prior to the short 208m straight."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Moderate on-pace bias."
+        "triangular_momentum_building": "Because the home straight is only 367m on the Course Proper, waiting until the 300m mark to make a challenge is usually too late. Upgrade horse/jockey combinations known for making smooth, early 3-wide moves between the 600m and 400m marks.",
+        "the_1200m_chute_fairness": "Do not automatically toss wide-drawn runners (barriers 7-11) in 1200m races on the Course Proper. The ~750m straight backstretch chute gives jockeys ample time to find cover or cross cleanly.",
+        "caulfield_heath_leader_lock": "When meetings are held on the Caulfield Heath inner track, aggressively upgrade front-runners ('E') and box-seat stalkers ('P'). Heavily downgrade wide-drawn closers.",
+        "rail_position_conveyor_belt": "Always check the rail setting. With the rail out +6m to +12m on the Course Proper, the track heavily favors horses racing on or near the speed along the inside 2-3 paths.",
+        "australian_weight_bifurcation": "In VIC Metropolitan Benchmark company (BM64-BM88), top weights carrying 59kg+ face a strict penalty (1kg = ~1 length). In Group 1/WFA feature events (Caulfield Cup, Guineas, C.F. Orr, Oakleigh Plate), ignore minor weight spreads and prioritize peak class and rated form."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Elite Metro)",
+        "tier": "Tier 1 (Elite Metro Headquarters)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+4.5",
+            "turf_route": "+4.0"
+        },
         "lengths": 2.0,
-        "points": 5.0
+        "points": 8.0
     },
     "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
 }

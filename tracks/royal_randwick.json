@@ -1,17 +1,42 @@
 {
-    "location": "Randwick, Sydney",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "410m",
-    "bias_notes": "Two tracks: Kensington (inner) and Course Proper. Course Proper is fair with 'The Rise'. Kensington favors on-pace.",
+    "track_code": "RAN",
+    "location": "Randwick, Sydney, NSW, Australia",
+    "nicknames": [
+        "Royal Randwick",
+        "The Headquarters of NSW Racing"
+    ],
+    "courses": {
+        "course_proper": {
+            "circumference": "2,227 metres",
+            "surface": "Turf",
+            "stretch_length": "410 metres",
+            "bias_notes": "Clockwise. A sprawling, championship-grade 2,227m oval with sweeping turns and a demanding 410m home straight featuring 'The Rise' (a steep uphill climb from the 300m to 150m mark). This uphill stretch severely tests stamina—one-dimensional leaders often weaken, allowing strong closers ('Swoopers') and mid-pack stalkers fair opportunities.",
+            "post_bias": "Fair from most starts when rail is True. In 1000m-1200m sprints, middle-to-inside draws (1-6) are preferred. In 1400m-1600m races, wide barriers (10+) force horses to work hard early to avoid being trapped wide around the sweep into the straight."
+        },
+        "kensington_track": {
+            "circumference": "1,530 metres",
+            "surface": "Turf",
+            "stretch_length": "301 metres",
+            "bias_notes": "Clockwise inner track. Much tighter, sharper turns with a short 301m home straight. Plays with a strong natural bias toward on-pace runners and 'box-seat' stalkers. Deep closers are at a severe disadvantage unless an unmanageable pace duel develops up front.",
+            "post_bias": "Inside barriers (1-4) hold a significant advantage. Wide draws (8+) are heavily penalized in short sprints as horses get trapped 3-wide without cover on tight turns."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Course Proper is fair. Kensington favors on-pace.",
-        "wet_track_notes": "Heavy tracks favor outside rail."
+        "the_rise_stamina_test": "On the Course Proper, ensure horses entering the 300m mark have proven L200 (last 200m) strength. The steep uphill climb at 'The Rise' causes weak leaders to hit the wall hard.",
+        "kensington_leader_boost": "When racing is on the Kensington inner track, aggressively upgrade front-runners ('E') and box-seat stalkers ('P'). Heavily downgrade wide-drawn closers.",
+        "wet_track_outside_lane": "On Soft 7 to Heavy 10 tracks, the inside 2-3 paths on the Course Proper often break down into a bog. Look for jockeys fanning wide (4-8 paths off the rail) to find the 'Fast Lane' down the outside fence.",
+        "rail_position_exaggerator": "When the rail is moved out +6m or beyond on the Course Proper, the turn geometry narrows and heavily favors horses racing on the speed or along the inside rail.",
+        "australian_weight_bifurcation": "In Handicap/Benchmark races (BM64-BM88), penalize top-weight runners carrying 59kg+ (1kg = ~1 length). In Group/WFA (Weight-For-Age) company, disregard weight and prioritize pure class and peak rating."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Elite Metro)",
+        "tier": "Tier 1 (Elite Metro Headquarters)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+5.0",
+            "turf_route": "+4.0"
+        },
         "lengths": 2.0,
-        "points": 5.0
+        "points": 8.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Metropolitan"
 }

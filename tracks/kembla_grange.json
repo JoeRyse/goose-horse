@@ -1,16 +1,36 @@
 {
-    "location": "Illawarra",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "350m",
-    "bias_notes": "Sister track to Randwick. Long straight.",
+    "track_code": "K GR",
+    "location": "Kembla Grange, Wollongong, NSW, Australia",
+    "nicknames": [
+        "Illawarra",
+        "The Randwick of the South",
+        "The Gong's Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,200 metres",
+            "surface": "Turf",
+            "stretch_length": "420 metres",
+            "bias_notes": "Clockwise. A championship-standard 2,200m oval featuring wide, sweeping turns and a demanding 420m home straight with a steady 3-metre uphill rise toward the winning post. Modeled directly after Royal Randwick, the spacious layout and uphill stretch provide a fair contest that heavily rewards big-striding gallopers and strong-finishing closers ('Swoopers').",
+            "post_bias": "Fair from almost all starting points when the rail is True. In 1000m-1200m sprints, middle draws (3-7) offer optimal positioning. In 1400m-1600m races, the long backstretch run allows wide draws time to find cover, though saving ground on the sweeping home turn is essential for the 420m climb."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Slight on-pace but fair."
+        "the_randwick_replica_effect": "Sydney metropolitan trainers (Waller, Waterhouse/Bott, Maher, Baker) target Kembla Grange for big-striding horses unsuited to tighter provincial tracks (like Wyong or Gosford). Heavily upgrade horses shipping down from Sydney with strong L400m closing splits.",
+        "uphill_420m_stamina_test": "The 3m rise over the 420m home straight wears down pure 'Need-the-Lead' sprinters. Ensure front-runners have proven stamina over today's distance; otherwise, upgrade mid-pack stalkers and swoopers.",
+        "sydney_midway_and_provincial_class_spike": "Local provincial form often struggles against class-dropping city maidens or horses coming off Sydney 'Midway' benchmarks. Give a distinct class rating boost to runners exiting Rosehill, Randwick, or Warwick Farm midweek company.",
+        "rail_placement_bias_shift": "When the rail is in the True position, Kembla plays exceptionally fair. When the rail is moved out +6m or further, the wide turns narrow significantly, creating an aggressive 'On-Pace / Rail' bias.",
+        "australian_weight_bifurcation": "In NSW Provincial Benchmark races (BM64-BM78), top weights carrying 59kg+ face a strict penalty (1kg = ~1 length over 420m uphill). In feature events (The Gong, Keith F Nolan / Kembla Grange Classic), ignore minor weight spreads and prioritize peak class and rated form."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (Premier Provincial)",
-        "lengths": 0.5,
-        "points": 1.0
+        "tier": "Tier 2 (Premier Provincial Headquarters)",
+        "class_rating": 94,
+        "speed_par_offsets": {
+            "turf_sprint": "+1.5",
+            "turf_route": "+2.0"
+        },
+        "lengths": 1.0,
+        "points": 3.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
 }
