@@ -10,37 +10,38 @@
             "circumference": "1 1/8 Miles",
             "surface": "Dirt",
             "stretch_length": "1,144 feet",
-            "bias_notes": "Deep, sandy surface that becomes highly tiring late in the summer meet. Early speed dominates short sprints (under 6.5F), but the deep surface chews up one-dimensional speed in routes.",
-            "post_bias": "Inside posts are a massive advantage at 1 1/8 miles because the starting gate is located immediately before the first turn."
+            "bias_notes": "Deep, sandy loam cushion that becomes highly tiring as the summer meet progresses ('The Graveyard of Champions'). Early speed dominates short sprints (5.5F - 6.5F), but the deep cushion chews up one-dimensional speed in routes. Inside rail can become 'dead' or cuppy during dry spells, forcing jockeys 2-3 wide.",
+            "post_bias": "In 1 1/8 Mile dirt routes, the starting gate sits immediately before the first turn—inside posts (1-4) hold a massive advantage. In 6F and 7F dirt sprints, middle and outside posts are preferred to avoid getting pinned inside on the tiring cushion."
         },
         "mellon_turf_outer": {
             "circumference": "1 Mile",
             "surface": "Turf",
             "stretch_length": "1,144 feet",
-            "bias_notes": "Wider sweeping turns. Tactical speed or mid-pack stalkers tend to excel. Early speed generally struggles to go wire-to-wire here.",
-            "post_bias": "Outside posts (7 and higher) historically perform disproportionately well on this outer course compared to the inner turf."
+            "bias_notes": "Wider, sweeping turns. All 5 1/2 Furlong turf sprints are run here. Tactical speed and pressing styles excel. Unlike the inner course, outside posts (7+) perform very well in 5.5F turf sprints due to the wide first turn and long run to the stretch.",
+            "post_bias": "Outside posts (7-12) are NOT a disadvantage in 5.5F turf sprints. In 1-mile turf routes, middle posts (3-7) offer the best tactical positioning."
         },
         "inner_turf": {
             "circumference": "7/8 Mile",
             "surface": "Turf",
             "stretch_length": "1,164 feet",
-            "bias_notes": "Features very tight, sharp turns. Visually favors smaller, athletic horses that can corner well over large, long-striding bulky horses.",
-            "post_bias": "The inside three posts offer a significant advantage, especially at 1 mile and 1 1/16 miles."
+            "bias_notes": "Tight, sharp turns favoring smaller, agile horses that corner well. Speed and saving ground are crucial. Wide-sweeping, long-striding closers frequently run out of time unless a heavy pace meltdown occurs.",
+            "post_bias": "Inside posts (1-4) offer a massive advantage in 1-mile and 1 1/16-mile inner turf routes. Posts 8 and wider are penalized heavily due to tight turns."
         }
     },
     "handicapping_angles": {
-        "the_belmont_flip": "Downgrade horses whose best speed figures came in 1-turn routes at Belmont. Upgrade true 2-turn route specialists coming from tracks like Churchill, Aqueduct, or past Saratoga meets.",
-        "late_meet_fade": "As the meet progresses into August, the dirt rail often becomes 'dead' and cuppy, shifting the route bias heavily toward closers.",
-        "juvenile_sprints": "In 2-year-old dirt sprints under 6 furlongs, early speed on the pace or within a length of the lead wins at a nearly 50% rate.",
-        "turf_trip_quality": "On the grass, trip quality (saving ground, avoiding traffic) dictates winners more than raw speed figures. Wide-drawn closers in big fields are highly vulnerable."
+        "the_belmont_flip": "Downgrade horses whose best recent speed figures were earned in 1-turn routes at Belmont/Aqueduct. Heavily upgrade true 2-turn route specialists coming from tracks like Churchill Downs, Oaklawn, or previous Saratoga meets.",
+        "class_drop_elevator": "Dropping from MSW ($100k+) or Allowance into Maiden Claiming ($50k/$35k) or Claiming ranks is the #1 winning angle at Saratoga. Apply an automatic +10 point boost to qualifying class droppers.",
+        "juvenile_sprints": "In 2-year-old dirt sprints under 6 furlongs, early speed on or within 1 length of the lead wins at a nearly 50% rate. Prioritize bullet gate workouts and top debut siring lines (e.g., Maclean's Music, Golden Pal, Into Mischief, Speightstown).",
+        "trainer_clues": "Chad Brown dominates turf routes & MSW company (Prat/Irad). Todd Pletcher is lethal with 2YO dirt MSW first-timers. Linda Rice excels with dirt sprinters & class-dropping claimers (Jose Ortiz/Franco). Bill Mott dominates 2nd-out dirt route improvers (Alvarado)."
     },
     "par_adjustment": {
         "tier": "Tier 1 (Max)",
         "class_rating": 100,
         "speed_par_offsets": {
             "dirt_sprint": "+5.0",
-            "dirt_route": "+2.5",
-            "turf": "+4.0"
+            "dirt_route": "+3.0",
+            "turf_sprint": "+4.5",
+            "turf_route": "+3.5"
         },
         "lengths": 6.0,
         "points": 15.0
