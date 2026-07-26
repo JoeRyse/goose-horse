@@ -1292,120 +1292,7 @@ with tab_handicap:
             new_race["danger_horse"] = danger_horse
 
             # --- DYNAMIC BETTING STRATEGY ENGINE ---
-            top1 = (
-                scored_contenders[0] if len(scored_contenders) > 0 else {}
-            )
-            top2 = (
-                scored_contenders[1] if len(scored_contenders) > 1 else {}
-            )
-            top3 = (
-                scored_contenders[2] if len(scored_contenders) > 2 else {}
-            )
-            top4 = (
-                scored_contenders[3] if len(scored_contenders) > 3 else {}
-            )
-
-            conf = str(race.get("confidence_level", "Medium"))
-
-            r1 = float(top1.get("rating", 0))
-            r2 = float(top2.get("rating", 0)) if top2 else 0.0
-            r3 = float(top3.get("rating", 0)) if top3 else 0.0
-
-            gap_1_2 = r1 - r2 if top2 else 10.0
-            gap_2_3 = r2 - r3 if top3 else 10.0
-
-            danger_num = (
-                str(danger_horse.get("number", "")) if danger_horse else ""
-            )
-            danger_in_top3 = danger_num in [
-                str(top1.get("number")),
-                str(top2.get("number")),
-                str(top3.get("number")),
-            ]
-
-            strategy_parts = []
-
-            # A. WIN WAGERS
-            if gap_1_2 >= 5.0 or "High" in conf:
-              strategy_parts.append(
-                  f"<b>🎯 WIN:</b> Strong $10 Win on <b>#{top1.get('number')}"
-                  f" {top1.get('name')}</b>"
-              )
-            elif gap_1_2 >= 2.5 and "Medium" in conf:
-              strategy_parts.append(
-                  f"<b>🎯 WIN:</b> $4 Win / $6 Place on"
-                  f" <b>#{top1.get('number')} {top1.get('name')}</b>"
-              )
-            else:
-              strategy_parts.append(
-                  "<b>🎯 WIN:</b> PASS Win wager (Low confidence / tight field)"
-              )
-
-            # B. EXOTICS
-            if gap_1_2 >= 5.0 and top2 and top3:
-              under_list = [f"#{top2.get('number')}", f"#{top3.get('number')}"]
-              if danger_num and not danger_in_top3:
-                under_list.append(f"#{danger_num}")
-              under_str = ", ".join(under_list)
-
-              strategy_parts.append(
-                  f"<b>🎟️ EXACTA KEY:</b> #{top1.get('number')} over"
-                  f" ({under_str})"
-              )
-
-              if "High" in conf or gap_1_2 >= 7.0:
-                top4_str = f"#{top4.get('number')}" if top4 else "ALL"
-                strategy_parts.append(
-                    f"<b>🎪 TRIFECTA WHEEL:</b> #{top1.get('number')} /"
-                    f" ({under_str}) / ({under_str}, {top4_str})"
-                )
-
-            elif gap_1_2 < 3.0 and gap_2_3 >= 4.0 and top2:
-              strategy_parts.append(
-                  f"<b>⚔️ STRAIGHT EXACTA BOX:</b> #{top1.get('number')} with"
-                  f" #{top2.get('number')}"
-              )
-              if danger_num and danger_num not in [
-                  str(top1.get("number")),
-                  str(top2.get("number")),
-              ]:
-                strategy_parts.append(
-                    f"<b>⚠️ SAVER EXACTA:</b> Key #{danger_num} in 2nd"
-                    f" position (#{top1.get('number')},"
-                    f" #{top2.get('number')} / #{danger_num})"
-                )
-              if top3:
-                strategy_parts.append(
-                    f"<b>🎪 TRIFECTA KEY:</b> #{top1.get('number')},"
-                    f" #{top2.get('number')} / #{top1.get('number')},"
-                    f" #{top2.get('number')} / #{top3.get('number')}"
-                )
-
-            elif top2 and top3:
-              if danger_num and not danger_in_top3:
-                box_str = (
-                    f"#{top1.get('number')}, #{top2.get('number')},"
-                    f" #{danger_num}"
-                )
-                strategy_parts.append(
-                    f"<b>🎟️ EXACTA BOX:</b> {box_str} <i>(Includes Danger"
-                    " Threat)</i>"
-                )
-              else:
-                box_str = (
-                    f"#{top1.get('number')}, #{top2.get('number')},"
-                    f" #{top3.get('number')}"
-                )
-                strategy_parts.append(f"<b>🎟️ EXACTA BOX:</b> {box_str}")
-
-              if "High" in conf or "Medium" in conf:
-                strategy_parts.append(f"<b>🎪 TRIFECTA BOX:</b> {box_str}")
-              else:
-                strategy_parts.append(
-                    "<b>🎪 TRIFECTA:</b> NO BET (Low field clarity)"
-                )
-
-            new_race["exotic_strategy"] = "<br>".join(strategy_parts)
+            new_race["exotic_strategy"] = generate_dynamic_wagers(new_race)
             data["races"].append(new_race)
 
           # --- 6. ADVANCED DAILY DOUBLE SCANNER ---
@@ -1450,6 +1337,12 @@ with tab_handicap:
                 )
 
           data["daily_doubles"] = daily_doubles
+          st.session_state.json_data = data
+
+          # Add Pick 3 / Pick 4 Anchor Tickets to the Daily Double list
+          anchor_tickets = generate_multi_race_anchors(data["races"])
+          data["daily_doubles"] = anchor_tickets + daily_doubles
+
           st.session_state.json_data = data
 
           html_full = generate_meeting_html(
