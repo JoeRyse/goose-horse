@@ -414,6 +414,103 @@ def is_valid_pick(pick):
   ]
   return name and name not in invalid
 
+def generate_dynamic_wagers(race):
+    """
+    Calculates Tiered Win Bets, Dynamic Exacta Keys, and Danger Overlays 
+    based on Top Pick rating gaps.
+    """
+    contenders = race.get("raw_features_dump", {}).get("contenders", [])
+    if not contenders:
+        contenders = race.get("contenders", [])
+        
+    if not contenders or len(contenders) < 2:
+        return "PASS (Insufficient Field Size)"
+    
+    # Sort contenders by rating descending
+    sorted_contenders = sorted(contenders, key=lambda x: x.get('features', {}).get('ai_holistic_score', 0), reverse=True)
+    top_pick = sorted_contenders[0]
+    runner_2 = sorted_contenders[1]
+    
+    top_score = top_pick.get('features', {}).get('ai_holistic_score', 0)
+    runner_2_score = runner_2.get('features', {}).get('ai_holistic_score', 0)
+    gap = top_score - runner_2_score
+    
+    top_num = top_pick.get('program_number', '')
+    r2_num = runner_2.get('program_number', '')
+    r3_num = sorted_contenders[2].get('program_number', '') if len(sorted_contenders) > 2 else ""
+    
+    # Find Danger Horse if present
+    danger_horse = next((c for c in contenders if c.get('features', {}).get('is_danger_horse')), None)
+    danger_num = danger_horse.get('program_number', '') if danger_horse else None
+    
+    wager_lines = []
+    
+    # 1. Tiered Win Bet
+    if top_score >= 90.0 and gap >= 3.0:
+        wager_lines.append(f"<b>🎯 TIER 1 WIN:</b> $25 Win on <b>#{top_num} {top_pick.get('horse_name', '')}</b> (Solo Lock - Gap: +{gap:.1f} pts)")
+    elif gap >= 1.0:
+        wager_lines.append(f"<b>🎯 WIN:</b> $10 Win on <b>#{top_num} {top_pick.get('horse_name', '')}</b>")
+    else:
+        wager_lines.append("<b>🎯 WIN:</b> PASS Win Wager (Low Confidence / Tight Rating Gap)")
+        
+    # 2. Dynamic Exacta Strategy
+    if top_score >= 90.0:
+        # 3x Exacta Key ($3 Straight Key instead of Flat Box)
+        target_under = [r2_num]
+        if r3_num and r3_num != r2_num:
+            target_under.append(r3_num)
+        if danger_num and danger_num not in target_under and danger_num != top_num:
+            target_under.append(danger_num)
+            
+        under_str = ", #".join(filter(None, target_under))
+        wager_lines.append(f"<b>🎟️ $3 EXACTA KEY:</b> #{top_num} over (#{under_str}) [$9 total stake]")
+    else:
+        # Tight field -> Selective Box
+        box_targets = [top_num, r2_num]
+        if danger_num and danger_num not in box_targets:
+            box_targets.append(danger_num)
+        elif r3_num and r3_num not in box_targets:
+            box_targets.append(r3_num)
+            
+        box_str = ", #".join(filter(None, box_targets))
+        wager_lines.append(f"<b>🎟️ $2 EXACTA BOX:</b> #{box_str} (Selective Box)")
+
+    # 3. Danger Horse Side-Car Overlay
+    if danger_horse and danger_num != top_num:
+        features = danger_horse.get('features', {})
+        if features.get('class_drop_bonus_applied') or features.get('is_lone_speed'):
+            wager_lines.append(f"<b>⚠️ DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#{danger_num} {danger_horse.get('horse_name', '')}</b>")
+
+    return "<br>".join(wager_lines)
+
+
+def generate_multi_race_anchors(all_races):
+    """
+    Identifies consecutive Solo Locks across the card and builds Pick 3/4 Anchor tickets.
+    """
+    locks = []
+    for race in all_races:
+        contenders = race.get("raw_features_dump", {}).get("contenders", [])
+        if not contenders:
+            contenders = race.get("contenders", [])
+            
+        if len(contenders) >= 2:
+            sorted_c = sorted(contenders, key=lambda x: x.get('features', {}).get('ai_holistic_score', 0), reverse=True)
+            top = sorted_c[0]
+            gap = top.get('features', {}).get('ai_holistic_score', 0) - sorted_c[1].get('features', {}).get('ai_holistic_score', 0)
+            if top.get('features', {}).get('ai_holistic_score', 0) >= 90.0 and gap >= 3.0:
+                locks.append((race.get('number', 0), top.get('program_number', ''), top.get('horse_name', '')))
+    
+    multi_tickets = []
+    for i in range(len(locks) - 1):
+        r1_num, r1_num_pgm, r1_horse = locks[i]
+        r2_num, r2_num_pgm, r2_horse = locks[i+1]
+        
+        if r2_num == r1_num + 1:
+            multi_tickets.append(f"<b>🔥 CONSECUTIVE LOCK SEQUENCE (R{r1_num} ➔ R{r2_num}):</b> Single <b>#{r1_num_pgm} {r1_horse}</b> in R{r1_num} & <b>#{r2_num_pgm} {r2_horse}</b> in R{r2_num} on rolling Pick 3/4/DD tickets.")
+
+    return multi_tickets
+
 
 def load_track_catalog():
   catalog = {}
