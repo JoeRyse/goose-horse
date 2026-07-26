@@ -1,16 +1,36 @@
 {
-    "location": "Muswellbrook, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "410m",
-    "bias_notes": "Skellatar Park is a spacious, premium country track.",
+    "track_code": "MWBK",
+    "location": "Muswellbrook, Upper Hunter, NSW, Australia",
+    "nicknames": [
+        "Skellatar Park",
+        "The Upper Hunter Hub",
+        "Home of the Muswellbrook Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,010 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise. A wide, championship-standard 2,010m country oval with cambered turns and a spacious 400m home straight. Features a long turning back straight between the 1500m and 900m marks with dedicated starting chutes for 1000m and 1280m races. The wide layout and generous 400m straight provide a fair contest for all running styles, though saving ground on the sweeping turns remains vital.",
+            "post_bias": "In 1000m sprint chute starts, inside-to-middle barriers (2-6) hold a slight advantage before the turn into the straight. In 1280m chute starts, the straightaway run gives wider draws time to find cover before joining the long turning backstretch. In route races (1500m+), inside draws (1-4) offer an advantage by saving ground."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair."
+        "upper_hunter_breeding_and_provincial_class_spike": "Located in Australia's major thoroughbred breeding capital, Muswellbrook frequently attracts high-priced, unexposed young horses from Sydney and Newcastle yards (Lees, Doyle, Perry). Heavily upgrade runners shipping in from Newcastle or Sydney midweek company into local country benchmarks.",
+        "spacious_400m_straight_fairness": "Muswellbrook's 400m home straight and cambered turns prevent the severe front-runner locks seen at tighter country venues. Stalkers ('P') and strong-finishing closers ('Swoopers') have ample stretch room to wind up.",
+        "1280m_chute_positioning": "In 1280m races, target runners drawn in Barriers 3 through 7 who can establish a rhythm in the chute before navigating the long, sweeping backstretch turn without burning early fuel.",
+        "country_championships_showcase_class": "During the autumn Muswellbrook Showcase Cup meeting and Country Championships Heat, local country form lines face high-class regional opposition. Prioritize horses with proven metropolitan or provincial speed figures.",
+        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 59.5kg+ face a strict penalty (1kg = ~1 length over 400m). In Showcase Cup and feature events, ignore minor weight spreads and prioritize peak class ratings."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 2 (NSW Premier Country / Hunter Headquarters)",
+        "class_rating": 91,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

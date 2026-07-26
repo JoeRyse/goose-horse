@@ -1,0 +1,37 @@
+{
+    "track_code": "KALG",
+    "location": "Kalgoorlie, WA, Australia",
+    "nicknames": [
+        "The Hannans Track",
+        "Kalgoorlie-Boulder",
+        "KBRC",
+        "Home of the Kalgoorlie Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,934 metres",
+            "surface": "Turf",
+            "stretch_length": "320 metres",
+            "bias_notes": "Anti-clockwise. A unique diamond-shaped circuit featuring four distinct turns and a short 320-metre home straight. The four corners and short straight heavily reward horses with early tactical speed ('E') and box-seat pressers ('P'). Deep closers ('Swoopers') must begin their run well before the home turn to avoid running out of stretch room.",
+            "post_bias": "In 1100m and 1200m sprints, inside barriers (1-5) hold a distinct advantage due to the quick arrival of the first turn. Wide draws (8+) face a steep penalty if forced 3-wide on multiple bends. In 1400m races starting in the backstretch chute, the straightaway run gives wider draws a much fairer opportunity to find cover."
+        }
+    },
+    "handicapping_angles": {
+        "short_320m_straight_leader_boost": "Because the home straight is only 320m long, horses turning for home more than 3 lengths off the lead face tough odds. Aggressively upgrade horses with proven gate speed ('E') and jockeys who position their mounts prominently entering the final bend.",
+        "perth_metro_shipper_class_spike": "During the Kalgoorlie Race Round (Hannans Handicap, Boulder Cup, Kalgoorlie Cup) and throughout the season, top Perth metropolitan stables (Durrant, Parnham, Williams) ship runners to the Goldfields. Heavily upgrade horses dropping out of Saturday Perth metro company (Belmont/Ascot) into local provincial classes.",
+        "the_1400m_chute_fairness": "In 1400m races (including the Hannan's Handicap), horses start in a dedicated backstretch chute. Do not automatically toss wide-drawn runners, as jockeys have ample time to establish position before hitting the turn.",
+        "goldfields_four_corner_stamina": "Route races (1760m, 2100m, 2300m) require horses to navigate four distinct turns. Give preference to nimble, athletic stayers drawn in Barriers 1 through 4 who can save ground along the fence.",
+        "wa_rtg_benchmark_weight_penalty": "In WA Ratings-Based Handicaps (RTG 58+, RTG 64+, RTG 70+), top-weight runners carrying 59.5kg+ face a strict penalty (1kg = ~1 length over 320m). In Listed feature events (Hannan's Hcp, Kalgoorlie Cup), ignore minor weight spreads and prioritize peak class and rated form."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (WA Premier Regional Headquarters)",
+        "class_rating": 92,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 3.0
+    },
+    "region_group": "Australia_Thoroughbred"
+}
