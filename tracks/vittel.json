@@ -1,0 +1,36 @@
+{
+    "track_code": "VIT",
+    "location": "Vittel, Vosges, France",
+    "nicknames": [
+        "Hippodrome de Vittel",
+        "Hippodrome de la Vertu",
+        "The Vosges Classic"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Right-handed (Clockwise). A spacious, undulating turf oval with a testing 400m home straight. The tracking geometry features sweeping right-handed turns that require high balance. The long straightaway ensures a fair finish, heavily favoring tactical pressers ('P') and closing swoopers ('C') who can save energy for the final uphill kick to the post.",
+            "post_bias": "In 1300m and 1600m starts, inside barriers (1-5) hold a clear statistical edge by ensuring a smooth, ground-saving tracking position into the first turn. Wide barriers (10+) face a severe penalty if trapped wide without cover on the turns."
+        }
+    },
+    "handicapping_angles": {
+        "undulating_stamina_filter": "Vittel's natural rolling terrain acts as a severe stamina filter. Pure speed horses without proven distance limits tire quickly in the final 150 metres. Upgrade horses with verified closing sectionals over the distance.",
+        "penetrometer_moisture_shift": "Always cross-reference the official France Galop penetrometer reading. On Soft/Heavy ground (Very Souple/Lourd), the track turns into a grueling test. Aggressively upgrade proven mud-track specialists and downgrade dry-turf speed types.",
+        "french_handicap_weight_impact": "In standard French handicaps, weight carries a heavy tax over Vittel's undulating turf. Topweights carrying 60kg+ face a strict penalty against light-weight bottom types carrying 54kg or less (1kg = ~1 length). In local conditions races, prioritize pure class over weight spreads.",
+        "parisian_regional_shipper_angle": "Keep a close eye on runners shipping in from premier Parisian training centers (Chantilly, Maisons-Laffitte) or major tracks (Compi\u00e8gne, Saint-Cloud). Parisian class form lines carry a substantial class advantage over local regional provincial runners.",
+        "right_handed_balance_test": "Vittel's sweeping right-handed bends demand exceptional cornering balance. Upgrade horses with a proven winning history on clockwise circuits and downgrade erratic left-handed specialists."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (French Premium Regional Country)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "Europe_Thoroughbred"
+}

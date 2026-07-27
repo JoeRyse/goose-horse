@@ -1,29 +1,35 @@
 {
     "track_code": "LAD",
-    "location": "Bossier City, LA",
+    "location": "Bossier City, LA, USA",
     "nicknames": [
-        "Louisiana Downs"
+        "Louisiana Downs",
+        "The Bossier City Track",
+        "La Downs"
     ],
     "courses": {
         "main_dirt": {
-            "circumference": "1 Mile",
+            "circumference": "1 Mile (1,609 metres)",
             "surface": "Dirt",
-            "stretch_length": "1,010 feet",
-            "bias_notes": "Standard 1-mile oval with a fair stretch run. Speed plays very well, particularly on dry surfaces, but tracking speeds and outside pressing types can get home effectively due to the moderate 1,010-foot stretch."
+            "stretch_length": "1,010 feet (308 metres)",
+            "bias_notes": "Main 1-mile dirt oval with a fair 1,010-foot home straight. Early speed ('E') and tactical pressers ('P') hold a distinct advantage, particularly in two-turn routes where clearing early avoids wide-trip penalties on the broad turns. Deep closers require an unsustainable front-end speed duel to win.",
+            "post_bias": "In dirt sprints (5.5f and 6f), middle barriers (stalls 3-6) are preferred. In two-turn routes (1m to 1m70y), inside barriers (stalls 1-4) hold a significant advantage before the short run-up to the first turn."
         },
         "franks_turf": {
-            "circumference": "7 Furlongs and 50 Feet",
+            "circumference": "7 Furlongs 50 Feet (1,417 metres)",
             "surface": "Turf",
-            "stretch_length": "940 feet",
-            "bias_notes": "The inner turf course favors horses with tactical speed who can sit just off the pace. Rail speed is often preserved when the course is kept firm."
+            "stretch_length": "940 feet (286 metres)",
+            "bias_notes": "Tight inner turf circuit with a short 940-foot straightaway. Heavily favors tactical speed horses who can secure a ground-saving spot along the rail before the second turn. Downgrade deep closers unless a blistering early pace is guaranteed.",
+            "post_bias": "Inside barriers (stalls 1-4) hold a distinct edge due to the short distance between starting gates and tight inner bends."
         }
     },
     "handicapping_angles": {
-        "speed_favoring_dirt": "In route races on the main dirt track, prioritize early/presser types ('E' or 'EP') who can secure position before the far turn.",
-        "turf_tactical_speed": "Downgrade deep closers on the turf course unless a swift pace duel develops up front."
+        "dirt_route_speed_bias": "In 1-mile and 1m70y dirt route races, prioritize front-runners ('E') and pressers ('EP') capable of establishing early position before the first turn.",
+        "turf_inside_rail_advantage": "On Frank's Turf Course, target runners drawn in Stalls 1 through 4 with tactical early pace. Wide runners frequently get forced 3-wide around the tight bends.",
+        "fair_grounds_and_oaklawn_shippers": "Heavily upgrade class-dropping shippers arriving from major circuits like Fair Grounds or Oaklawn Park into local Louisiana Downs claiming/allowance ranks.",
+        "summer_heat_and_fast_track": "During peak summer months, dry dirt plays fast and favors on-pace runners. On wet/sealed tracks, the inside rail often becomes a lightning-fast speed strip."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Regional Track)",
+        "tier": "Tier 3 (USA Regional Headquarters)",
         "class_rating": 88,
         "speed_par_offsets": {
             "dirt_sprint": "0.0",
@@ -33,5 +39,5 @@
         "lengths": 0.0,
         "points": 0.0
     },
-    "region_group": "USA_Thoroughbred"
+    "region_group": "USA_Thoroughbred_Louisiana"
 }

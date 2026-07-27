@@ -1,33 +1,35 @@
 {
     "track_code": "MNR",
-    "location": "New Cumberland, WV",
+    "location": "New Cumberland, WV, USA",
     "nicknames": [
         "Mountaineer Park",
+        "Mountaineer Race Track",
         "Waterford Park"
     ],
     "courses": {
         "main_dirt": {
-            "circumference": "1 Mile",
+            "circumference": "1 Mile (1,609 metres)",
             "surface": "Dirt",
-            "stretch_length": "905 feet",
-            "bias_notes": "A standard 1-mile dirt oval with a moderately long 905-foot stretch. The surface can vary significantly depending on West Virginia weather, frequently becoming deep and tiring. Unlike tighter bullrings, the generous stretch gives closers a fair shot if the early pace is contested.",
-            "post_bias": "Fair across the board in route races, but inside-to-middle draws are preferred in 5f and 6f dashes to establish early position."
+            "stretch_length": "905 feet (276 metres)",
+            "bias_notes": "Standard 1-mile dirt oval with a 905-foot home straight. The surface is highly reactive to local climate cycles, frequently turning deep, wet, and attritional. While early speed ('E') controls short sprints, the generous stretch allows mid-pack stalkers ('P') and closing swoopers ('S') an exceptionally fair shot in two-turn route races when the early tempo is hot.",
+            "post_bias": "In dirt sprints (4.5f, 5f, and 6f), inside-to-middle draws (stalls 1-5) are strongly preferred to establish early tracking position. In dirt routes, the draw is largely neutral."
         },
         "main_turf": {
-            "circumference": "7/8 Mile",
+            "circumference": "7/8 Mile (1,408 metres)",
             "surface": "Turf",
-            "stretch_length": "700 feet (approx)",
-            "bias_notes": "A tight 7/8-mile turf course inside the main dirt track. Because of the sharp turns and shorter stretch, tactical early speed and rail-skimming trips are absolutely critical. Pure closers ('Swoopers') are at a massive disadvantage here.",
-            "post_bias": "Inside posts (1-4) hold a massive advantage. Outside draws (8+) in turf routes are a severe penalty due to the incredibly short run to the first turn."
+            "stretch_length": "700 feet (213 metres)",
+            "bias_notes": "Tight inner turf circuit with acute turns and a very short 700-foot straightaway. Demands high tactical agility and elite rail-skimming execution. Front-runners and box-seat pressers completely control the running lines, while deep closing styles face near-impossible traffic hurdles.",
+            "post_bias": "Inside posts (stalls 1-4) hold an overwhelming structural edge. Outside draws (8+) in turf routes face a severe penalty due to a minimal run-up before entering the first turn."
         }
     },
     "handicapping_angles": {
-        "the_shipper_advantage": "Mountaineer frequently draws horses dropping in class from tougher regional circuits (like Mahoning Valley, Thistledown, or even Presque Isle). Always upgrade horses shipping in from tougher allowance or claiming company.",
-        "turf_tactical_speed": "On the grass, aggressively downgrade 'Need-the-Lead' front runners who have drawn outside, as they will burn too much energy crossing over. Heavily upgrade stalkers drawn inside who can save ground and pounce on the tight turn.",
-        "wet_weather_slogging": "During the rainy season, the Mountaineer dirt track can become incredibly deep and heavy. Look for proven 'mudlarks' who have historically won on 'Off' tracks, and downgrade speed horses that tire late on fast tracks."
+        "regional_shipper_class_drop": "Mountaineer regularly draws horses shipping in from tougher Midwest circuits (Thistledown, Mahoning Valley, Presque Isle Downs, Parx). Heavily upgrade class-dropping shippers entering local MNR allowance or claiming fields.",
+        "wet_weather_slogging_filter": "When rain hits the Ohio River Valley, the main dirt track turns into a deep, holding swamp. Prioritize verified mudlarks with strong wet-track speed figures, and fade pure fast-track front-runners whose scores compress under testing conditions.",
+        "turf_outside_draw_fade": "On the turf course, aggressively downgrade 'Need-the-Lead' front-runners drawn in wide stalls (8+). They are forced to burn excessive energy crossing over before the tight first bend, leaving them highly vulnerable late.",
+        "wv_night_racing_variance": "Mountaineer operates predominantly as a night racing venue. Watch for horses transitioning from afternoon racing to night racing under the lights, giving a slight edge to locally stabled runners with documented track familiarity."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (Regional/Midwest)",
+        "tier": "Tier 4 (Regional / Midwest Circuit)",
         "class_rating": 82,
         "speed_par_offsets": {
             "dirt_sprint": "-1.5",
@@ -37,5 +39,5 @@
         "lengths": -2.0,
         "points": -5.0
     },
-    "region_group": "USA_Thoroughbred"
+    "region_group": "USA_Thoroughbred_West_Virginia"
 }

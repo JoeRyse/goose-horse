@@ -1,10 +1,38 @@
 {
-    "location": "Nottinghamshire",
-    "track_type": "Tapeta",
-    "direction": "Counter-clockwise",
-    "bias_notes": "Recently converted to Tapeta. Galloping AW track.",
-    "handicapping_angles": {
-        "track_bias": "Fairer than Wolverhampton."
-    },
-    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+    "Southwell": {
+        "track_code": "STH",
+        "location": "Southwell, Rolleston, Nottinghamshire, UK",
+        "nicknames": [
+            "Southwell Racecourse",
+            "Rolleston AW",
+            "Nottinghamshire Tapeta"
+        ],
+        "courses": {
+            "main_tapeta": {
+                "circumference": "1 mile 2 furlongs (2,010 metres)",
+                "surface": "Synthetic (Tapeta)",
+                "stretch_length": "3 furlongs (600 metres)",
+                "bias_notes": "Left-handed (Counter-clockwise). A flat 10-furlong all-weather circuit surfaced with Tapeta. Features flat, slightly cambered bends and a generous 3-furlong home straight. Significantly fairer and more galloping than Wolverhampton's tight oval, allowing patient stalkers ('P') and closers ('S') a legitimate opportunity to run down early leaders in route races.",
+                "post_bias": "In 5f straight sprint chute starts, middle-to-high barriers (stalls 5-10) are slightly preferred to avoid rail crowding. In 6f and 7f round-course races, low barriers (stalls 1-5) hold a distinct advantage by saving ground around the first turn. Over 1m and 1m2f, the draw is largely neutral due to long straightaway runs."
+            }
+        },
+        "handicapping_angles": {
+            "tapeta_conversion_accuracy": "Ensure all historical form assessment relies exclusively on post-2021 Tapeta surface runs. Ignore old Fibresand data, as Tapeta plays faster, cleaner, and far less attritional.",
+            "3_furlong_straight_fairness": "Southwell's 3-furlong (~600m) home straight is one of the longest all-weather run-ins in the UK. Do not automatically toss closing swoopers ('C') on standard or fast Tapeta ground.",
+            "6f_and_7f_low_draw_rail_bias": "In 6f and 7f handicaps with large fields (10+ runners), prioritize horses drawn in Stalls 1 through 5 who can secure a forward, ground-saving trip along the rail into the home bend.",
+            "class_drop_shipper_advantage": "Heavily upgrade class-dropping runners shipping from London metropolitan AWT cards (Kempton, Lingfield) or turf Class 2/3 company into local Southwell Class 4–6 benchmarks.",
+            "uk_awt_official_rating_weight_penalty": "In UK BHA All-Weather rating handicaps, weight differentials are tight (1lb = ~0.5 lengths over 3 furlongs). Grant a boost to fit, light-weighted runners receiving weight relief against high-carat topweights."
+        },
+        "par_adjustment": {
+            "tier": "Tier 2.5 (UK Premier All-Weather Headquarters)",
+            "class_rating": 89,
+            "speed_par_offsets": {
+                "synthetic_sprint": "0.0",
+                "synthetic_route": "+0.5"
+            },
+            "lengths": 1.0,
+            "points": 2.5
+        },
+        "region_group": "Europe_Thoroughbred_United_Kingdom_Flat"
+    }
 }
