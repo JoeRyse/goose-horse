@@ -513,78 +513,86 @@ def generate_multi_race_anchors(all_races):
 
 
 def load_track_catalog():
-  catalog = {}
-  if not os.path.exists(TRACKS_DIR):
+    catalog = {}
+    if not os.path.exists(TRACKS_DIR):
+        return catalog
+
+    for filename in os.listdir(TRACKS_DIR):
+        if filename.endswith(".json"):
+            filepath = os.path.join(TRACKS_DIR, filename)
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    
+                    # 1. Automatic Unwrap if nested inside a top-level track name key
+                    if len(data) == 1 and isinstance(list(data.values())[0], dict):
+                        first_key = list(data.keys())[0]
+                        if "courses" in data[first_key] or "track_code" in data[first_key] or "location" in data[first_key]:
+                            data = data[first_key]
+
+                    raw_group = str(data.get("region_group", "")).upper()
+                    location_str = str(data.get("location", "")).upper()
+                    
+                    # Search across both region_group AND location strings
+                    search_text = f"{raw_group} {location_str} {filename.upper()}"
+
+                    if "HARNESS" in search_text:
+                        category = "Harness"
+                    else:
+                        category = "Thoroughbred"
+
+                    if any(k in search_text for k in ["AUSTRALIA", "AUS", "VIC", "NSW", "QLD", "SA", "WA", "TAS", "ACT"]):
+                        region = "Australia"
+                    elif any(k in search_text for k in ["NEW_ZEALAND", "NZ"]):
+                        region = "New Zealand"
+                    elif any(k in search_text for k in ["ASIA", "HONG_KONG", "JAPAN", "KOREA", "SEOUL", "BUSAN"]):
+                        region = "Asia"
+                    elif "CANADA" in search_text:
+                        region = "Canada"
+                    elif any(k in search_text for k in ["EUROPE", "UK", "FRANCE", "GB", "ENGLAND", "ASCOT", "CHESTER", "NEWCASTLE"]):
+                        region = "Europe"
+                    elif any(k in search_text for k in ["USA", "US", "NY", "FL", "CA", "KY", "AR", "SARATOGA", "DEL MAR"]):
+                        region = "USA"
+                    else:
+                        region = "Other"
+
+                    track_display_name = (
+                        filename.replace(".json", "").replace("_", " ").title()
+                    )
+
+                    if category not in catalog:
+                        catalog[category] = {}
+                    if region not in catalog[category]:
+                        catalog[category][region] = []
+
+                    catalog[category][region].append(track_display_name)
+            except Exception as e:
+                continue
+
+    for cat in catalog:
+        for reg in catalog[cat]:
+            catalog[cat][reg] = sorted(catalog[cat][reg])
+
     return catalog
-
-  for filename in os.listdir(TRACKS_DIR):
-    if filename.endswith(".json"):
-      filepath = os.path.join(TRACKS_DIR, filename)
-      try:
-        with open(filepath, "r", encoding="utf-8") as f:
-          data = json.load(f)
-          raw_group = str(data.get("region_group", "")).upper()
-
-          if "HARNESS" in raw_group:
-            category = "Harness"
-          else:
-            category = "Thoroughbred"
-
-          if "AUSTRALIA" in raw_group or "AUS" in raw_group:
-            region = "Australia"
-          elif "NEW_ZEALAND" in raw_group or "NZ" in raw_group:
-            region = "New Zealand"
-          elif (
-              "ASIA" in raw_group
-              or "HONG_KONG" in raw_group
-              or "JAPAN" in raw_group
-              or "KOREA" in raw_group
-          ):
-            region = "Asia"
-          elif "CANADA" in raw_group:
-            region = "Canada"
-          elif (
-              "EUROPE" in raw_group
-              or "UK" in raw_group
-              or "FRANCE" in raw_group
-          ):
-            region = "Europe"
-          elif "USA" in raw_group or "US" in raw_group:
-            region = "USA"
-          else:
-            region = "Other"
-
-          track_display_name = (
-              filename.replace(".json", "").replace("_", " ").title()
-          )
-
-          if category not in catalog:
-            catalog[category] = {}
-          if region not in catalog[category]:
-            catalog[category][region] = []
-
-          catalog[category][region].append(track_display_name)
-      except:
-        continue
-
-  for cat in catalog:
-    for reg in catalog[cat]:
-      catalog[cat][reg] = sorted(catalog[cat][reg])
-
-  return catalog
 
 
 def find_track_data(target_name):
-  filename = f"{target_name.lower().replace(' ', '_').replace('-', '_')}.json"
-  filepath = os.path.join(TRACKS_DIR, filename)
+    filename = f"{target_name.lower().replace(' ', '_').replace('-', '_')}.json"
+    filepath = os.path.join(TRACKS_DIR, filename)
 
-  if os.path.exists(filepath):
-    try:
-      with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f)
-    except:
-      return {}
-  return {}
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                # Automatic Unwrap if nested inside a top-level track name key
+                if len(data) == 1 and isinstance(list(data.values())[0], dict):
+                    first_key = list(data.keys())[0]
+                    if "courses" in data[first_key] or "track_code" in data[first_key] or "location" in data[first_key]:
+                        return data[first_key]
+                return data
+        except:
+            return {}
+    return {}
 
 
 OPTIMIZED_WEIGHTS_PATH = os.path.join(DATA_DIR, "optimized_weights.json")
