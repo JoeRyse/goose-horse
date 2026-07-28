@@ -417,45 +417,56 @@ def is_valid_pick(pick):
 def generate_dynamic_wagers(race):
     """
     Calculates Tiered Win Bets, Dynamic Exacta Keys, and Danger Overlays 
-    based on Top Pick rating gaps.
+    based on final locally adjusted ratings and selections.
     """
-    contenders = race.get("raw_features_dump", {}).get("contenders", [])
+    # 1. Use final scored contenders (which include local track adjustments)
+    contenders = race.get("all_contenders", []) or race.get("selections", [])
     if not contenders:
-        contenders = race.get("contenders", [])
+        contenders = race.get("raw_features_dump", {}).get("contenders", [])
         
     if not contenders or len(contenders) < 2:
-        return "PASS (Insufficient Field Size)"
+        return "<b>🎯 WIN:</b> PASS (Insufficient Field Size)"
     
-    # Sort contenders by rating descending
-    sorted_contenders = sorted(contenders, key=lambda x: x.get('features', {}).get('ai_holistic_score', 0), reverse=True)
+    # Sort contenders by final rating descending
+    sorted_contenders = sorted(
+        contenders, 
+        key=lambda x: x.get('rating', x.get('features', {}).get('ai_holistic_score', 0)), 
+        reverse=True
+    )
+    
     top_pick = sorted_contenders[0]
     runner_2 = sorted_contenders[1]
     
-    top_score = top_pick.get('features', {}).get('ai_holistic_score', 0)
-    runner_2_score = runner_2.get('features', {}).get('ai_holistic_score', 0)
+    # Support both key formats (scored vs raw)
+    top_score = float(top_pick.get('rating', top_pick.get('features', {}).get('ai_holistic_score', 0)))
+    runner_2_score = float(runner_2.get('rating', runner_2.get('features', {}).get('ai_holistic_score', 0)))
     gap = top_score - runner_2_score
     
-    top_num = top_pick.get('program_number', '')
-    r2_num = runner_2.get('program_number', '')
-    r3_num = sorted_contenders[2].get('program_number', '') if len(sorted_contenders) > 2 else ""
+    top_num = str(top_pick.get('number', top_pick.get('program_number', '')))
+    top_name = str(top_pick.get('name', top_pick.get('horse_name', '')))
     
-    # Find Danger Horse if present
-    danger_horse = next((c for c in contenders if c.get('features', {}).get('is_danger_horse')), None)
-    danger_num = danger_horse.get('program_number', '') if danger_horse else None
+    r2_num = str(runner_2.get('number', runner_2.get('program_number', '')))
+    r3_num = str(sorted_contenders[2].get('number', sorted_contenders[2].get('program_number', ''))) if len(sorted_contenders) > 2 else ""
+    
+    # 2. Find Danger Horse if present
+    danger_horse = race.get("danger_horse", {})
+    if not danger_horse:
+        danger_horse = next((c for c in contenders if c.get('features', {}).get('is_danger_horse')), None) or {}
+    danger_num = str(danger_horse.get('number', danger_horse.get('program_number', '')))
     
     wager_lines = []
     
-    # 1. Tiered Win Bet
+    # 3. Tiered Win Strategy (Synced with Top Pick)
     if top_score >= 90.0 and gap >= 3.0:
-        wager_lines.append(f"<b>🎯 TIER 1 WIN:</b> $25 Win on <b>#{top_num} {top_pick.get('horse_name', '')}</b> (Solo Lock - Gap: +{gap:.1f} pts)")
+        wager_lines.append(f"<b>🎯 TIER 1 WIN:</b> $25 Win on <b>#{top_num} {top_name}</b> (Solo Lock - Gap: +{gap:.1f} pts)")
     elif gap >= 1.0:
-        wager_lines.append(f"<b>🎯 WIN:</b> $10 Win on <b>#{top_num} {top_pick.get('horse_name', '')}</b>")
+        wager_lines.append(f"<b>🎯 WIN:</b> $10 Win on <b>#{top_num} {top_name}</b>")
     else:
-        wager_lines.append("<b>🎯 WIN:</b> PASS Win Wager (Low Confidence / Tight Rating Gap)")
+        wager_lines.append(f"<b>🎯 WIN:</b> PASS Win Wager (Tight Gap: +{gap:.1f} pts on #{top_num} {top_name})")
         
-    # 2. Dynamic Exacta Strategy
+    # 4. Dynamic Exacta Strategy
     if top_score >= 90.0:
-        # 3x Exacta Key ($3 Straight Key instead of Flat Box)
+        # 3x Exacta Key ($3 Straight Key)
         target_under = [r2_num]
         if r3_num and r3_num != r2_num:
             target_under.append(r3_num)
@@ -475,11 +486,10 @@ def generate_dynamic_wagers(race):
         box_str = ", #".join(filter(None, box_targets))
         wager_lines.append(f"<b>🎟️ $2 EXACTA BOX:</b> #{box_str} (Selective Box)")
 
-    # 3. Danger Horse Side-Car Overlay
-    if danger_horse and danger_num != top_num:
-        features = danger_horse.get('features', {})
-        if features.get('class_drop_bonus_applied') or features.get('is_lone_speed'):
-            wager_lines.append(f"<b>⚠️ DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#{danger_num} {danger_horse.get('horse_name', '')}</b>")
+    # 5. Danger Horse Side-Car Overlay
+    if danger_horse and danger_num and danger_num != top_num:
+        danger_name = str(danger_horse.get('name', danger_horse.get('horse_name', '')))
+        wager_lines.append(f"<b>⚠️ DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#{danger_num} {danger_name}</b>")
 
     return "<br>".join(wager_lines)
 

@@ -1,16 +1,35 @@
 {
-    "location": "Central West, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "380m",
-    "bias_notes": "Fair surface with a decent straight.",
+    "track_code": "BATH",
+    "location": "Bathurst, Central West, NSW, Australia",
+    "nicknames": [
+        "Tyers Park",
+        "Bathurst Racecourse",
+        "Central West Racing Hub"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,598 metres",
+            "surface": "Turf",
+            "stretch_length": "380 metres",
+            "bias_notes": "Clockwise. A symmetrical 1,598m country oval featuring a downhill run along the backstretch from the 1400m mark to the 800m turn, followed by a slight uphill rise into the 380m home straight. The downhill run encourages early speed, but the uphill finish acts as a stamina filter, giving patient stalkers ('P') and closers ('C') a fair opportunity.",
+            "post_bias": "In 1100m and 1200m sprint starts, inside-to-middle barriers (stalls 1-5) are preferred to secure a ground-saving trip before entering the sweeping home bend. Over 1400m and 1800m route distances, starting chute run-ups make the draw relatively fair."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Fairer than most country tracks."
+        "downhill_backstretch_uphill_straight_filter": "The downhill run from the 1400m to 800m turn causes overly aggressive front-runners ('E') to burn early fuel. Look for patient pressers ('P') who can conserve energy before unleashing down the uphill 380m home stretch.",
+        "provincial_and_sydney_shipper_advantage": "Trainers shipping in from Sydney midweek or Provincial bases (Warwick Farm, Hawkesbury, Kembla Grange, Goulburn) carry a distinct speed and class advantage over local Central West country runners.",
+        "bathurst_cup_showcase_class_spike": "During the autumn Bathurst Cup Showcase meeting, fields feature high-grade regional and provincial opposition. Prioritize horses with proven metro/provincial speed figures over local country lines.",
+        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 60kg+ face a compounding penalty on the uphill home stretch (1kg = ~1 length). Grant a boost to fit, light-weighted runners receiving relief."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 3 (NSW Regional Country / Central West)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "0.0"
+        },
+        "lengths": -0.5,
+        "points": -1.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

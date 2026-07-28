@@ -1,17 +1,35 @@
 {
-    "location": "Swan Hill, VIC",
-    "track_type": "Turf",
-    "direction": "Counter-Clockwise",
-    "straight_length": "475m",
-    "bias_notes": "A premium country track with a lengthy 1900m circumference and tight turns. Its standout feature is a massive 475m home straight that runs slightly uphill to the finishing post.",
+    "track_code": "SWH",
+    "location": "Swan Hill, VIC, Australia",
+    "nicknames": [
+        "Swan Hill Racecourse",
+        "Home of the Swan Hill Cup",
+        "The Murray Valley Hub"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,900 metres",
+            "surface": "Turf",
+            "stretch_length": "475 metres",
+            "bias_notes": "Anti-clockwise. A spacious 1,900m country circuit featuring broad turns and a massive 475-metre home straight that rises slightly uphill to the post. The grueling 475m straight serves as a true stamina filter, preventing front-runner locks and giving closing swoopers ('S') and mid-pack stalkers ('P') every opportunity to run down tired leaders.",
+            "post_bias": "Fair starting points across route distances. In 975m and 1200m sprint starts, inside-to-middle barriers (stalls 2-6) offer a mild advantage to ensure cover before sweeping onto the home turn."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "The long, uphill straight is a genuine stamina test. It heavily suits horses that can finish strongly, allowing backmarkers plenty of time to wind up and swoop late.",
-        "barrier_draw": "Generally fair due to the long runs from most starting points. Horses can be well back on the turn and still win."
+        "massive_475m_uphill_straight_swooper_boost": "Swan Hill boasts one of the longest home straights in Victorian regional racing. Do not automatically toss deep closers ('C' / 'Swoopers'); the 475m uphill run rewards horses with strong L400m closing sectionals.",
+        "swan_hill_cup_carnival_metro_class_spike": "During the June 3-Day Swan Hill Cup Carnival, major Melbourne metropolitan yards send high-grade mid-tier and pattern runners. Heavily upgrade runners shipping from Flemington, Caulfield, or Sandown over local regional lines.",
+        "border_shippers_from_riverina": "Swan Hill sits on the Murray River border and frequently attracts NSW Riverina trainers (Wagga, Albury, Deniliquin). Cross-reference Victorian country speed figures against NSW country lines.",
+        "victorian_country_benchmark_weight_penalty": "In Victorian Country Benchmark handicaps (BM58-BM78), topweights carrying 60kg+ face a strict penalty on the 475m uphill stretch (1kg = ~1 length). Favor fit, light-weighted runners receiving weight relief."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
+        "tier": "Tier 3 (Victorian Premier Country)",
+        "class_rating": 87,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
+        },
         "lengths": 0.0,
         "points": 0.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_Victoria_Country"
 }
