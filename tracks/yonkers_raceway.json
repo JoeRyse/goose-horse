@@ -1,30 +1,125 @@
 {
-    "track_code": "YR",
-    "location": "Yonkers, NY",
-    "nicknames": ["The Hilltop"],
-    "courses": {
-      "main_track": {
-        "circumference": "1/2 Mile",
-        "surface": "Crushed Limestone",
-        "stretch_length": "400 feet",
-        "passing_lane": false,
-        "bias_notes": "A classic half-mile 'bullring' track with tight turns and an incredibly short home stretch. No passing lane means position is everything.",
-        "post_bias": "Posts 1 through 4 hold a massive statistical advantage. Post 8 is the 'Death Trap' with an abysmal win percentage."
-      }
+  "track_name": "Yonkers Raceway",
+  "track_code": "YR",
+  "location": "Yonkers, NY",
+  "nicknames": [
+    "The Hilltop",
+    "MGM Yonkers Raceway",
+    "The Bullring"
+  ],
+  "track_type": "Harness",
+  "region_group": "USA_Harness",
+  "courses": {
+    "main_track": {
+      "circumference": "1/2 Mile (2,640 feet / 804.6 metres)",
+      "surface": "Crushed Limestone & Clay (Fast, Compact Cushion)",
+      "stretch_length": "400 feet (122 metres)",
+      "turn_radius": "Tight 1/2-mile turns with 14-degree banking",
+      "passing_lane": false,
+      "starting_gate": "Mobile Auto Start (8 horses max front tier)",
+      "bias_notes": "A classic half-mile 'bullring' track with tight turns and an exceptionally short 400-foot home stretch. NO PASSING LANE is present at Yonkers, creating the infamous 'Pocket Trap'—horses sitting 2-hole along the rail can easily get boxed in if the front-runner tires. Early gate position is paramount; over 75% of winners are positioned 1st, 2nd, or 3rd at the 1/4 pole.",
+      "post_bias": "Posts 1 through 4 hold a massive statistical advantage (~75% win share). Post 8 is designated as 'The Death Trap' with a historically abysmal win rate (<4%). Outside runners face extreme ground loss rounding tight turns."
+    }
+  },
+  "post_position_matrix": {
+    "post_1": {
+      "win_pct": "20.5%",
+      "itm_pct": "58.0%",
+      "impact_value": 1.64,
+      "rating": "Dominant Inside",
+      "tactical_note": "Rail advantage. Crucial for establishing early lead or holding the 2-hole pocket trip."
     },
-    "handicapping_angles": {
-      "the_half_mile_bias": "Heavily downgrade deep closers. If a horse cannot leave the gate quickly or secure the pocket, it is nearly impossible to loop the field 3-wide.",
-      "driver_aggressiveness": "Heavily upgrade aggressive drivers who 'send' their horses off the gate to secure the lead or the two-hole before the first turn."
+    "post_2": {
+      "win_pct": "22.0%",
+      "itm_pct": "60.0%",
+      "impact_value": 1.76,
+      "rating": "Optimal Launchpad",
+      "tactical_note": "Highest flat-bet ROI post. Ideal angle to press for the lead or tuck behind Post 1."
     },
-    "par_adjustment": {
-      "tier": "Tier 2 (Elite Half-Mile)",
-      "class_rating": 95,
-      "speed_par_offsets": {
-        "pace": "-2.0",
-        "trot": "-2.5"
-      },
-      "lengths": 0.0,
-      "points": 5.0
+    "post_3": {
+      "win_pct": "16.5%",
+      "itm_pct": "50.0%",
+      "impact_value": 1.32,
+      "rating": "Strong Advantage",
+      "tactical_note": "Allows driver to evaluate gate speed inside and secure a top 3 position before Turn 1."
     },
-    "region_group": "USA_Harness"
+    "post_4": {
+      "win_pct": "15.0%",
+      "itm_pct": "46.0%",
+      "impact_value": 1.20,
+      "rating": "Preferred Tier Boundary",
+      "tactical_note": "Solid launching spot; last barrier draw in the preferred inside tier."
+    },
+    "post_5": {
+      "win_pct": "10.5%",
+      "itm_pct": "34.0%",
+      "impact_value": 0.84,
+      "rating": "Neutral / Slight Penalty",
+      "tactical_note": "Requires aggressive early drive ('sending') to avoid getting caught out 2-wide."
+    },
+    "post_6": {
+      "win_pct": "8.0%",
+      "itm_pct": "26.0%",
+      "impact_value": 0.64,
+      "rating": "Moderate Penalty",
+      "tactical_note": "Wide angle into Turn 1. Needs strong early gate speed or cover flow to contend."
+    },
+    "post_7": {
+      "win_pct": "4.5%",
+      "itm_pct": "18.0%",
+      "impact_value": 0.36,
+      "rating": "Severe Penalty",
+      "tactical_note": "High risk of getting parked out wide. Requires class edge or suicidal inside pace collapse."
+    },
+    "post_8": {
+      "win_pct": "3.0%",
+      "itm_pct": "12.0%",
+      "impact_value": 0.24,
+      "rating": "The Death Trap",
+      "tactical_note": "Statistically the toughest starting post in North American harness racing. Automatic downgrade."
+    }
+  },
+  "run_style_bias": {
+    "Early_Speed_E": {
+      "bias_adjustment": "+8.0 pts",
+      "description": "Massive Advantage. Wire-to-wire and front-end control are the primary path to winning at Yonkers."
+    },
+    "Presser_EP": {
+      "bias_adjustment": "+5.0 pts",
+      "description": "Strong Advantage. Pocket sitters (2-hole) and 1st-over chargers control the outer flow."
+    },
+    "Stalker_P": {
+      "bias_adjustment": "-3.0 pts",
+      "description": "Slight Disadvantage. Mid-pack stalkers need a blistering early pace duel to melt the leaders."
+    },
+    "Swooper_S": {
+      "bias_adjustment": "-8.0 pts",
+      "description": "Severe Penalty. Deep closers attempting to loop 3-wide or 4-wide around tight half-mile turns concede impossible ground."
+    }
+  },
+  "handicapping_angles": {
+    "the_half_mile_bias": "Heavily downgrade deep closers ('S' types). If a horse cannot leave the gate quickly or secure a top-3 spot by the 1/4 pole, it is virtually impossible to loop the field 3-wide on tight turns.",
+    "the_pocket_trap_risk": "Because Yonkers has NO passing lane (no open stretch), pocket sitters sitting 2nd on the rail behind a tiring leader risk getting locked in. Upgrade 1st-over (uncovered) outer-flow chargers who control their own destiny.",
+    "the_big_track_shipper_trap": "Apply extreme caution to horses shipping in from 1-mile (Meadowlands) or 7/8-mile (Mohawk) tracks. Even with superior raw speed figures, long-striding harness horses frequently struggle with Yonkers' tight turns and break stride or lose momentum.",
+    "driver_aggressiveness": "With no passing lane and a 400-foot stretch, heavily upgrade aggressive catch drivers (e.g., Bartlett, Brennan, Stratton, Kakaley, Bongiorno) who 'send' hard off the gate to establish early position.",
+    "the_first_quarter_blitz": "Prioritize starters with proven sub-27.4 first-quarter gate speed. At Yonkers, the race is frequently won or lost in the first 220 yards.",
+    "trotting_gait_vulnerability": "Trotters are twice as likely to break stride ('x') when navigating Yonkers' tight turns under pressure. Heavily penalize trotters with documented gait instability on half-mile tracks.",
+    "purse_class_drop": "Yonkers offers premier purse levels (Borgata, Open Handicap). Horses dropping out of Yonkers Open/NW$15,000 ranks into regional tracks (Monticello, Freehold, Saratoga) hold an overwhelming class advantage."
+  },
+  "shipper_conversion_rules": {
+    "from_Meadowlands_M": "Raw speed figures degrade by 2.5 to 3.0 seconds due to 1-mile vs 1/2-mile geometry. Verify horse handles tight turns.",
+    "from_Woodbine_Mohawk_WBS": "High class translation, but penalize long striders unused to 400-foot home lane.",
+    "from_Pocono_PCD": "Pocono 5/8-mile speed translates well; watch for post-position differential.",
+    "from_Monticello_MR": "Monticello regional winners face a steep class step (+6 to +8 lengths) when stepping up to Yonkers."
+  },
+  "par_adjustment": {
+    "tier": "Tier 2 (Elite Half-Mile / Premier Purse Hub)",
+    "class_rating": 95,
+    "speed_par_offsets": {
+      "pace": "-2.5",
+      "trot": "-3.5"
+    },
+    "lengths": 0.0,
+    "points": 5.0
   }
+}
