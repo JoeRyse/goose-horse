@@ -1,10 +1,36 @@
 {
-    "location": "Sussex",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "bias_notes": "Undulating, tricky. Downhill sections.",
-    "handicapping_angles": {
-        "track_bias": "Low draws favored. Balance essential."
+    "track_code": "GWD",
+    "location": "Chichester, West Sussex, England, UK",
+    "nicknames": [
+        "Goodwood Racecourse",
+        "Glorious Goodwood",
+        "The Sussex Downs Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1 Mile 6 Furlongs (2,816 metres)",
+            "surface": "Turf",
+            "stretch_length": "5 Furlongs (1,000 metres)",
+            "bias_notes": "Right-handed (Clockwise). An eccentric, triangular loop layout situated on undulating chalk downland. Features two sharp bends (Lower Bend for <12f, Top Bend for >11f) leading into a dramatic, downhill 5-furlong home stretch with a pronounced inside camber. Heavily favors handy, well-balanced pressers ('P') who can handle downhill momentum. Deep closers held up against the rail face severe traffic hazards.",
+            "post_bias": "In 5f and 6f straight sprint chute starts, low barriers (stalls 1-5 near the far rail) hold a clear advantage by keeping runners off the wide camber. On the round course (7f to 1m2f), inside-to-middle draws (stalls 2-6) save crucial ground navigating the sharp lower turn."
+        }
     },
-    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
+    "handicapping_angles": {
+        "downhill_camber_balance_test": "Goodwood's pronounced downhill descent and inside camber act as a major balance filter. Big, long-striding, unhandy horses frequently lose their action or over-race coming down the hill. Upgrade nimble, well-balanced runners with proven course form.",
+        "the_inside_rail_traffic_trap": "Goodwood's stewards are notoriously busy because the sweeping turn into the 5f stretch causes extreme congestion along the rail. Downgrade deep backmarkers ('C') who sit on the fence, as they routinely get boxed in when the field stacks up.",
+        "lightning_5f_sprint_speed_boost": "The 5-furlong straight course is one of the fastest sprint strips in the UK. Prioritize confirmed early gate speed ('E') with high initial speed figures over late-closing sprinters.",
+        "glorious_goodwood_festival_class_spike": "During the 5-day Glorious Goodwood Festival (Sussex Stakes, Nassau Stakes, Goodwood Cup), top Group 1/2 pattern runners from Newmarket, Ascot, and York invade. Heavily upgrade pattern-class shippers dropping into festival handicaps over local regional lines.",
+        "uk_official_rating_weight_impact": "In BHA handicaps on soft or heavy downland turf, topweights carrying 60kg+ (9st 7lb+) face a severe stamina penalty on the uphill finish. Grant a boost to fit, light-weighted runners receiving relief."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (UK Premier Festival Headquarters)",
+        "class_rating": 98,
+        "speed_par_offsets": {
+            "turf_sprint": "+1.5",
+            "turf_route": "+2.0"
+        },
+        "lengths": 2.0,
+        "points": 5.0
+    },
+    "region_group": "Europe_Thoroughbred_United_Kingdom_Flat"
 }
