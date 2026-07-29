@@ -88,10 +88,7 @@ init_db()
 
 
 def save_results_to_db(track_name, meeting_date, parsed_races):
-  """Saves parsed raw race results into SQLite database (master_betting_history.db).
-
-  Stores program numbers, full WPS payouts (Win/Place/Show), and exotic payouts.
-  """
+  """Saves parsed raw race results into SQLite database (master_betting_history.db)."""
   clean_date_str = pd.to_datetime(meeting_date).strftime("%Y-%m-%d")
   conn = sqlite3.connect(DB_PATH)
   cursor = conn.cursor()
@@ -103,7 +100,6 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
 
     finishers = race.get("finishers", [])
 
-    # Program Numbers
     win_num = str(finishers[0]["number"]).strip() if len(finishers) > 0 else None
     place_num = (
         str(finishers[1]["number"]).strip() if len(finishers) > 1 else None
@@ -112,7 +108,6 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
         str(finishers[2]["number"]).strip() if len(finishers) > 2 else None
     )
 
-    # 1st Place Payouts
     win_pay = float(finishers[0].get("win", 0.0)) if len(finishers) > 0 else 0.0
     place_pay = (
         float(finishers[0].get("place", 0.0)) if len(finishers) > 0 else 0.0
@@ -121,7 +116,6 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
         float(finishers[0].get("show", 0.0)) if len(finishers) > 0 else 0.0
     )
 
-    # 2nd & 3rd Place Payouts
     p2_place_pay = (
         float(finishers[1].get("place", 0.0)) if len(finishers) > 1 else 0.0
     )
@@ -132,7 +126,6 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
         float(finishers[2].get("show", 0.0)) if len(finishers) > 2 else 0.0
     )
 
-    # Exotics & Scratches
     exacta_pay = (
         float(race["exacta"]["payout"])
         if race.get("exacta") and race["exacta"].get("payout")
@@ -198,12 +191,7 @@ def save_results_to_db(track_name, meeting_date, parsed_races):
   conn.close()
 
 
-# --- PARSER & DB HELPERS ---
 def parse_raw_race_results(raw_text):
-  """Parses pasted track result text directly into structured data, handling
-
-  squished table headers, missing spaces, and WPS payout mapping.
-  """
   clean_text = raw_text.replace("\r", " ").replace("\n", " ")
   race_blocks = re.split(r"(Race \d+ -)", clean_text)
   parsed_races = []
@@ -325,7 +313,6 @@ def save_predictions_to_db(data):
     p4 = selections[3] if len(selections) > 3 else {}
     dang = race.get("danger_horse", {})
 
-    # Capture generated strategy string
     strat_str = str(race.get("exotic_strategy", "")).replace("#$", "#")
 
     c.execute(
@@ -377,7 +364,6 @@ def save_predictions_to_db(data):
   conn.close()
 
 
-# --- HELPER FUNCTIONS ---
 def get_base64_logo():
   path = os.path.join(BASE_DIR, "logo.png")
   if not os.path.exists(path):
@@ -414,12 +400,12 @@ def is_valid_pick(pick):
   ]
   return name and name not in invalid
 
+
 def generate_dynamic_wagers(race):
     """
-    Calculates Tiered Win Bets, Dynamic Exacta Keys, and Danger Overlays 
+    Calculates Tiered Win Bets, Dynamic Exacta Keys, and Selective Danger Overlays 
     based on final locally adjusted ratings and selections.
     """
-    # 1. Use final scored contenders (which include local track adjustments)
     contenders = race.get("all_contenders", []) or race.get("selections", [])
     if not contenders:
         contenders = race.get("raw_features_dump", {}).get("contenders", [])
@@ -427,7 +413,6 @@ def generate_dynamic_wagers(race):
     if not contenders or len(contenders) < 2:
         return "<b>🎯 WIN:</b> PASS (Insufficient Field Size)"
     
-    # Sort contenders by final rating descending
     sorted_contenders = sorted(
         contenders, 
         key=lambda x: x.get('rating', x.get('features', {}).get('ai_holistic_score', 0)), 
@@ -437,7 +422,6 @@ def generate_dynamic_wagers(race):
     top_pick = sorted_contenders[0]
     runner_2 = sorted_contenders[1]
     
-    # Support both key formats (scored vs raw)
     top_score = float(top_pick.get('rating', top_pick.get('features', {}).get('ai_holistic_score', 0)))
     runner_2_score = float(runner_2.get('rating', runner_2.get('features', {}).get('ai_holistic_score', 0)))
     gap = top_score - runner_2_score
@@ -448,25 +432,22 @@ def generate_dynamic_wagers(race):
     r2_num = str(runner_2.get('number', runner_2.get('program_number', '')))
     r3_num = str(sorted_contenders[2].get('number', sorted_contenders[2].get('program_number', ''))) if len(sorted_contenders) > 2 else ""
     
-    # 2. Find Danger Horse if present
     danger_horse = race.get("danger_horse", {})
-    if not danger_horse:
-        danger_horse = next((c for c in contenders if c.get('features', {}).get('is_danger_horse')), None) or {}
     danger_num = str(danger_horse.get('number', danger_horse.get('program_number', '')))
+    danger_score = float(danger_horse.get('rating', 0)) if danger_horse else 0.0
     
     wager_lines = []
     
-    # 3. Tiered Win Strategy (Synced with Top Pick)
-    if top_score >= 90.0 and gap >= 3.0:
+    # 1. Tiered Win Strategy (Gap threshold raised to +5.0)
+    if top_score >= 90.0 and gap >= 5.0:
         wager_lines.append(f"<b>🎯 TIER 1 WIN:</b> $25 Win on <b>#{top_num} {top_name}</b> (Solo Lock - Gap: +{gap:.1f} pts)")
     elif gap >= 1.0:
         wager_lines.append(f"<b>🎯 WIN:</b> $10 Win on <b>#{top_num} {top_name}</b>")
     else:
         wager_lines.append(f"<b>🎯 WIN:</b> PASS Win Wager (Tight Gap: +{gap:.1f} pts on #{top_num} {top_name})")
         
-    # 4. Dynamic Exacta Strategy
-    if top_score >= 90.0:
-        # 3x Exacta Key ($3 Straight Key)
+    # 2. Dynamic Exacta Strategy
+    if top_score >= 90.0 and gap >= 5.0:
         target_under = [r2_num]
         if r3_num and r3_num != r2_num:
             target_under.append(r3_num)
@@ -476,7 +457,6 @@ def generate_dynamic_wagers(race):
         under_str = ", #".join(filter(None, target_under))
         wager_lines.append(f"<b>🎟️ $3 EXACTA KEY:</b> #{top_num} over (#{under_str}) [$9 total stake]")
     else:
-        # Tight field -> Selective Box
         box_targets = [top_num, r2_num]
         if danger_num and danger_num not in box_targets:
             box_targets.append(danger_num)
@@ -486,17 +466,22 @@ def generate_dynamic_wagers(race):
         box_str = ", #".join(filter(None, box_targets))
         wager_lines.append(f"<b>🎟️ $2 EXACTA BOX:</b> #{box_str} (Selective Box)")
 
-    # 5. Danger Horse Side-Car Overlay
+    # 3. SELECTIVE Danger Overlay
     if danger_horse and danger_num and danger_num != top_num:
-        danger_name = str(danger_horse.get('name', danger_horse.get('horse_name', '')))
-        wager_lines.append(f"<b>⚠️ DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#{danger_num} {danger_name}</b>")
+        danger_gap = top_score - danger_score
+        is_close_threat = danger_gap <= 3.5  
+        is_not_lock = gap < 5.0  # Allows side-car bets when top pick isn't a 5+ gap Lock
+        
+        if is_not_lock and is_close_threat:
+            danger_name = str(danger_horse.get('name', danger_horse.get('horse_name', '')))
+            wager_lines.append(f"<b>⚠️ DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#{danger_num} {danger_name}</b>")
 
     return "<br>".join(wager_lines)
 
 
 def generate_multi_race_anchors(all_races):
     """
-    Identifies consecutive Solo Locks across the card and builds Pick 3/4 Anchor tickets.
+    Identifies consecutive Solo Locks (Gap >= +5.0) across the card and builds Pick 3/4 Anchor tickets.
     """
     locks = []
     for race in all_races:
@@ -508,7 +493,9 @@ def generate_multi_race_anchors(all_races):
             sorted_c = sorted(contenders, key=lambda x: x.get('features', {}).get('ai_holistic_score', 0), reverse=True)
             top = sorted_c[0]
             gap = top.get('features', {}).get('ai_holistic_score', 0) - sorted_c[1].get('features', {}).get('ai_holistic_score', 0)
-            if top.get('features', {}).get('ai_holistic_score', 0) >= 90.0 and gap >= 3.0:
+            
+            # Requires Rating >= 90 AND Gap >= +5.0
+            if top.get('features', {}).get('ai_holistic_score', 0) >= 90.0 and gap >= 5.0:
                 locks.append((race.get('number', 0), top.get('program_number', ''), top.get('horse_name', '')))
     
     multi_tickets = []
@@ -713,14 +700,14 @@ scroll-margin-top: 80px; }
 color: #003366; font-size: 1.1rem; }
 .picks-grid { display: flex; gap: 10px; padding: 15px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
 .pick-box { flex: 1; background: #fff; padding: 10px; border: 1px solid #e2e8f0; border-top: 4px solid #94a3b8; border-radius: 4px; }
-.panel-best { border-top-color: #fbbf24; background-color: #fffbeb; }
+.panel-best { border-top-color: #fbbf24; background-color: #fffbeb; border-color: #fde68a; } /* Yellow Background for Best Bets (+3.0 Gap) */
 .panel-top { border-top-color: #3b82f6; }
 .panel-danger { border-top-color: #d97706; }
 .table-container { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; margin-top: 0; min-width: 500px; }
 th { background: #f1f5f9; text-align: left; padding: 8px; font-size: 0.9rem; color: #475569; }
 td { padding: 8px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
-.row-top { background: #f0f9ff; font-weight: 700; color: #003366; }
+.row-top { background: #fefce8; font-weight: 700; color: #854d0e; }
 .exacta-box { margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }
 .exacta-gold { background: #fffbeb; border-left-color: #fbbf24; }
 @media (max-width: 768px) {
@@ -751,26 +738,23 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
 
   best_bets = []
   for r in data.get("races", []):
-    conf = str(r.get("confidence_level", ""))
     selections = r.get("selections", [])
-    if not selections and "picks" in r:
-      p = r["picks"]
-      selections = [
-          p.get("top_pick", {}),
-          p.get("danger_horse", {}),
-          p.get("value_bet", {}),
-      ]
-      selections = [s for s in selections if s and s.get("name")]
-
-    if selections:
+    if len(selections) >= 2:
+      top_score = float(selections[0].get("rating", 0))
+      runner_2_score = float(selections[1].get("rating", 0))
+      gap = top_score - runner_2_score
+      
+      # Best Bet Rule: Gap >= 3.0 points
+      is_best_bet = gap >= 3.0
+      
       top_pick = selections[0]
-      if ("High" in conf or "5 Stars" in conf or "Best Bet" in conf) and is_valid_pick(
-          top_pick
-      ):
+      if is_valid_pick(top_pick) and is_best_bet:
+        flame_label = f"🔥 BEST BET (+{gap:.1f} Gap)" if gap < 5.0 else f"🔥🔥 SOLO LOCK (+{gap:.1f} Gap)"
         best_bets.append({
             "race": r.get("number"),
             "horse": f"#{top_pick.get('number')} {top_pick.get('name')}",
             "reason": top_pick.get("reason", "")[:100] + "...",
+            "flame": flame_label
         })
 
   best_bets_html = ""
@@ -780,15 +764,15 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
         ' #fbbf24; padding:15px; margin-bottom:20px; border-radius:8px;"><h2'
         ' style="margin-top:0; color:#b45309; font-size:1.2rem; display:flex;'
         ' align-items:center;">🔥 <span style="margin-left:8px">PRIME'
-        ' BETS</span></h2><div style="display:grid;'
+        ' BETS & LOCKS</span></h2><div style="display:grid;'
         ' grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));'
         ' gap:15px;">'
     )
-    for bb in best_bets[:3]:
+    for bb in best_bets[:4]:
       best_bets_html += (
-          f'<div><div style="font-weight:bold; font-size:1.1em;">R{bb["race"]}:'
-          f' {bb["horse"]}</div><div style="font-size:0.9em;'
-          f' color:#555;">{bb["reason"]}</div></div>'
+          f'<div><div style="font-weight:bold; font-size:1.1em; color:#b45309;">R{bb["race"]}:'
+          f' {bb["horse"]} ({bb["flame"]})</div><div style="font-size:0.9em;'
+          f' color:#475569;">{bb["reason"]}</div></div>'
       )
     best_bets_html += "</div></div>"
 
@@ -818,26 +802,24 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     if surface:
       surface = f" ({surface})"
 
-    is_best_bet = (
-        "High" in confidence
-        or "Strong" in confidence
-        or "5 Stars" in confidence
-    )
-
     selections = r.get("selections", [])
-    if not selections and "picks" in r:
-      p = r["picks"]
-      selections = [
-          p.get("top_pick", {}),
-          p.get("danger_horse", {}),
-          p.get("value_bet", {}),
-      ]
-      selections = [s for s in selections if s and s.get("name")]
-
     top = selections[0] if len(selections) > 0 else {}
     top_name = top.get("name", "N/A")
-    top_class = "panel-best" if is_best_bet else "panel-top"
-    top_label = "🔥 BEST BET" if is_best_bet else "🏁 TOP PICK"
+    
+    # Calculate Rating Gap
+    top_score = float(top.get("rating", 0)) if top else 0.0
+    r2_score = float(selections[1].get("rating", 0)) if len(selections) > 1 else 0.0
+    gap = top_score - r2_score
+    
+    # +3.0 Gap = Best Bet (Yellow Card)
+    is_best_bet = gap >= 3.0
+
+    if is_best_bet:
+      top_class = "panel-best"  # Yellow Background Card (#fffbeb)
+      top_label = f"🔥🔥 SOLO LOCK (+{gap:.1f} Gap)" if gap >= 5.0 else f"🔥 BEST BET (+{gap:.1f} Gap)"
+    else:
+      top_class = "panel-top"   # Standard Blue Card
+      top_label = "🏁 TOP PICK"
 
     dang = r.get("danger_horse") or {}
     show_danger = is_valid_pick(dang)
@@ -879,7 +861,6 @@ def generate_meeting_html(data, region_override, is_preview_mode=False):
     else:
       html += "</tbody></table></div></div>"
 
-  # Render Daily Doubles Section at the bottom of the HTML
   if data.get("daily_doubles"):
     html += '<div id="daily-doubles" class="race-section" style="padding:20px; background:#fff; border-top:4px solid #003366;"><h2 style="color:#003366; margin-top:0; display:flex; align-items:center;">🎟️ <span style="margin-left:8px">RECOMMENDED DAILY DOUBLE PLAYS</span></h2>'
     for dd in data["daily_doubles"]:
@@ -968,6 +949,8 @@ if track_catalog:
   st.sidebar.success(f"Loaded: {selected_track}")
 else:
   st.sidebar.warning("No track files found in the 'tracks/' folder.")
+  selected_category = "Thoroughbred"
+  selected_region = "USA"
   selected_track = "Saratoga"
   current_track_profile = {}
   active_weights = get_weights_for_track(selected_track)
@@ -1023,12 +1006,51 @@ with tab_handicap:
             time.sleep(1)
             remote_file = genai.get_file(remote_file.name)
 
-          logic_path = os.path.join(LOGIC_DIR, "handicapper_instructions.txt")
-          logic_content = (
-              open(logic_path, "r", encoding="utf-8").read()
-              if os.path.exists(logic_path)
-              else "You are an expert handicapper."
-          )
+          # --- DYNAMIC REGIONAL SYSTEM PROMPT RESOLVER ---
+          region_str = str(selected_region).upper()
+          category_str = str(selected_category).upper()
+          track_str = str(selected_track).upper()
+
+          if "HARNESS" in category_str or "HARNESS" in track_str or "HARNESS" in region_str:
+            system_file = "system_harness.md"
+          elif any(
+              k in region_str or k in track_str
+              for k in ["AUSTRALIA", "AUS", "NEW ZEALAND", "NZ"]
+          ):
+            system_file = "system_aus.md"
+          elif any(
+              k in region_str or k in track_str
+              for k in ["EUROPE", "UK", "UNITED KINGDOM", "IRELAND", "GB"]
+          ):
+            system_file = "system_uk.md"
+          elif any(
+              k in region_str or k in track_str
+              for k in ["ASIA", "HONG KONG", "JAPAN", "SINGAPORE", "KOREA"]
+          ):
+            system_file = "system_asia.md"
+          elif any(
+              k in region_str or k in track_str
+              for k in ["USA", "US", "UNITED STATES", "CANADA"]
+          ):
+            system_file = "system_usa.md"
+          else:
+            system_file = "system_usa.md"  # Fallback default
+
+          logic_path = os.path.join(LOGIC_DIR, system_file)
+
+          if os.path.exists(logic_path):
+            with open(logic_path, "r", encoding="utf-8") as f:
+              logic_content = f.read()
+          else:
+            fallback_path = os.path.join(LOGIC_DIR, "system_usa.md")
+            if os.path.exists(fallback_path):
+              with open(fallback_path, "r", encoding="utf-8") as f:
+                logic_content = f.read()
+            else:
+              logic_content = (
+                  "You are an elite Horse Racing AI Handicapper."
+              )
+
           track_facts = (
               json.dumps(current_track_profile)
               if current_track_profile
@@ -1040,11 +1062,14 @@ with tab_handicap:
                     You are an Elite Horse Racing AI Handicapper & Feature Extraction Engine for ({selected_region}).
                     Your primary directive is to strictly evaluate past form, class shifts, pace scenarios, and track biases using the master rules below.
 
-                    [MASTER HANDICAPPING RULES]
+                    [MASTER HANDICAPPING RULES - {system_file}]
                     {logic_content}
 
                     [TODAY'S TRACK BIAS & FACTS]
                     {track_facts}
+
+                    [TODAY'S SCRATCHES & TRACK CHANGES]
+                    {scratches if scratches.strip() else "No scratches provided."}
 
                     [STRICT OUTPUT SCHEMA]
                     Return ONLY a valid JSON array conforming strictly to this format. No Markdown, no prose text outside JSON.
@@ -1124,7 +1149,7 @@ with tab_handicap:
                         [TASK] Deeply handicap Race {race_num} ONLY from the attached PDF for {selected_track}.
                         [TRACK PROFILE] {current_track_profile}
                         [OFFICIAL SCRATCHES & UPDATES]
-                        {scratches}
+                        {scratches if scratches.strip() else "No scratches provided."}
 
                         [CRITICAL HANDICAPPING DIRECTIVES FOR RACE {race_num}]
                             1. ANALYZE RACE {race_num} ONLY.
@@ -1349,7 +1374,6 @@ with tab_handicap:
           data["daily_doubles"] = daily_doubles
           st.session_state.json_data = data
 
-          # Add Pick 3 / Pick 4 Anchor Tickets to the Daily Double list
           anchor_tickets = generate_multi_race_anchors(data["races"])
           data["daily_doubles"] = anchor_tickets + daily_doubles
 
@@ -1503,7 +1527,6 @@ with tab_analytics:
     conn.close()
 
     if not results_df.empty and not preds_df.empty:
-      # Clean string conversions for strict JOIN alignment
       preds_df["race_number"] = (
           preds_df["race_number"].astype(str).str.strip()
       )
@@ -1538,7 +1561,6 @@ with tab_analytics:
       )
 
       if not merged_df.empty:
-        # Ensure numeric types for payouts across WPS & Exotics
         for col in [
             "win_payout",
             "place_payout",
@@ -1554,7 +1576,6 @@ with tab_analytics:
           else:
             merged_df[col] = 0.0
 
-        # --- HIT CALCULATIONS ---
         merged_df["top_pick_win"] = merged_df.apply(
             lambda x: str(x["p1_num"]).strip() == str(x["win_num"]).strip(),
             axis=1,
@@ -1636,7 +1657,6 @@ with tab_analytics:
             axis=1,
         )
 
-        # --- SELECTIVE STRATEGY ENGINE (READS GENERATED BETTING STRATEGIES) ---
         def parse_win_strategy(row):
           text_context = (
               str(row.get("exotic_strategy", ""))
@@ -1646,7 +1666,6 @@ with tab_analytics:
               + str(row.get("p1_reason", ""))
           ).replace("#$", "#").upper()
 
-          # 1. Passed Races ($0 Staked)
           if (
               "PASS WIN WAGER" in text_context
               or "PASS WIN WAGERS" in text_context
@@ -1654,13 +1673,11 @@ with tab_analytics:
           ):
             return 0.0, 0.0
 
-          # 2. Strong $10 Win Bet
           elif "STRONG $10 WIN" in text_context or "$10 WIN" in text_context:
             stake = 10.0
             ret = (row["win_payout"] / 2.0 * 10.0) if row["top_pick_win"] else 0.0
             return stake, ret
 
-          # 3. $4 Win / $6 Place Split
           elif "$4 WIN / $6 PLACE" in text_context:
             stake = 10.0
             ret = 0.0
@@ -1677,7 +1694,6 @@ with tab_analytics:
               ret += p2_pay / 2.0 * 6.0
             return stake, ret
 
-          # 4. Standard Active Win Bet ($2.00 Default)
           else:
             stake = 2.0
             ret = row["win_payout"] if row["top_pick_win"] else 0.0
@@ -1690,14 +1706,12 @@ with tab_analytics:
               + str(row.get("raw_features", ""))
           ).replace("#$", "#").upper()
 
-          # Check for 3-horse or Danger Exacta Box ($1 base = $6.00 total)
           if "EXACTA BOX" in text_context:
             stake = 6.0
             hit = row["exacta_hit"] or row["exacta_top3_hit"]
             ret = row["exacta_payout"] if hit else 0.0
             return stake, ret
 
-          # Check for Exacta Key ($2.00 total)
           elif "EXACTA KEY" in text_context:
             stake = 2.0
             ret = row["exacta_payout"] if row["exacta_hit"] else 0.0
@@ -1730,16 +1744,15 @@ with tab_analytics:
             return 0.0, 0.0
 
           elif "TRIFECTA WHEEL" in text_context:
-            stake = 2.0  # Key wheel base
+            stake = 2.0
             ret = row["trifecta_payout"] if row["trifecta_top3_hit"] else 0.0
             return stake, ret
 
           else:
-            stake = 1.20  # Standard $0.20 base on 3-horse box ($1.20 total)
+            stake = 1.20
             ret = row["trifecta_payout"] if row["trifecta_top3_hit"] else 0.0
             return stake, ret
 
-        # Apply strategy parsing across rows
         win_eval = merged_df.apply(parse_win_strategy, axis=1)
         merged_df["win_staked"] = [e[0] for e in win_eval]
         merged_df["win_returned"] = [e[1] for e in win_eval]
@@ -1752,7 +1765,6 @@ with tab_analytics:
         merged_df["tri_staked"] = [e[0] for e in tri_eval]
         merged_df["tri_returned"] = [e[1] for e in tri_eval]
 
-        # --- GLOBAL TRACK FILTER ---
         st.markdown("---")
         all_tracks = sorted(merged_df["track"].unique().tolist())
         col_f1, col_f2 = st.columns([3, 1])
@@ -1771,7 +1783,6 @@ with tab_analytics:
         total_races = len(display_df)
         st.write(f"*Graded {total_races} completed races.*")
 
-        # --- SELECTIVE ROI CALCULATIONS ---
         total_win_staked = display_df["win_staked"].sum()
         total_win_returned = display_df["win_returned"].sum()
         win_net = total_win_returned - total_win_staked
@@ -1793,7 +1804,6 @@ with tab_analytics:
             ((tri_net) / total_tri_staked * 100) if total_tri_staked > 0 else 0.0
         )
 
-        # --- FINANCIAL ROI DASHBOARD ---
         st.header("💵 Selective Strategy ROI (Suggested Wagers Only)")
         r1, r2, r3 = st.columns(3)
 
@@ -1953,9 +1963,6 @@ with tab_results:
     st.success(st.session_state["results_save_status"])
     del st.session_state["results_save_status"]
 
-  # ------------------------------------------
-  # 1. QUICK-PASTE RAW RESULTS (PRIMARY INGESTION)
-  # ------------------------------------------
   with st.expander(
       "⚡ Quick-Paste Raw Results (TVG / Equibase / TwinSpires)", expanded=True
   ):
@@ -2058,9 +2065,6 @@ with tab_results:
       else:
         st.warning("Please select a track and paste result text.")
 
-  # ------------------------------------------
-  # 2. CARD DELETION & RESET UTILITIES
-  # ------------------------------------------
   with st.expander(
       "🗑️ Delete / Remove a Race Card or Reset Results", expanded=False
   ):
@@ -2141,7 +2145,6 @@ with tab_results:
     else:
       st.info("No saved race cards found in the database to delete.")
 
-    # --- WIPE ALL RESULTS BUTTON ---
     st.markdown("---")
     st.subheader("🧹 Clear All Stored Results (Fresh Start)")
     st.caption(
@@ -2415,27 +2418,31 @@ with st.sidebar:
 
             if track_payload:
               location_str = str(track_payload.get("location", "")).upper()
+              
               if any(
                   k in location_str
                   for k in [
-                      "VIC",
-                      "NSW",
-                      "QLD",
-                      "SA",
-                      "WA",
-                      "TAS",
-                      "ACT",
-                      "AUSTRALIA",
+                      "VIC", "NSW", "QLD", "SA", "WA", "TAS", "ACT", "AUSTRALIA"
                   ]
               ):
                 region_tag = "Australia_Thoroughbred"
               elif any(
                   k in location_str
-                  for k in ["NY", "FL", "CA", "KY", "AR", "OH", "MN"]
+                  for k in ["UK", "ENGLAND", "IRELAND", "SCOTLAND", "FRANCE", "EUROPE"]
+              ):
+                region_tag = "Europe_Thoroughbred"
+              elif any(
+                  k in location_str
+                  for k in ["HONG KONG", "JAPAN", "SINGAPORE", "KOREA", "ASIA"]
+              ):
+                region_tag = "Asia_Thoroughbred"
+              elif any(
+                  k in location_str
+                  for k in ["NY", "FL", "CA", "KY", "AR", "OH", "MN", "USA", "CANADA"]
               ):
                 region_tag = "USA_Thoroughbred"
               else:
-                region_tag = "Australia_Thoroughbred"
+                region_tag = "USA_Thoroughbred"
 
               track_payload["region_group"] = region_tag
 
