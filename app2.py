@@ -25,6 +25,8 @@ LOGIC_DIR = os.path.join(BASE_DIR, "logic")
 TEMP_DIR = os.path.join(BASE_DIR, "temp")
 TRACKS_DIR = os.path.join(BASE_DIR, "tracks")
 
+API_OUTPUT_DIR = os.path.join(BASE_DIR, "api", "output")
+
 for d in [
     DATA_DIR,
     DOCS_DIR,
@@ -33,6 +35,7 @@ for d in [
     TEMP_DIR,
     LOGS_DIR,
     TRACKS_DIR,
+    API_OUTPUT_DIR,
 ]:
   os.makedirs(d, exist_ok=True)
 
@@ -1422,6 +1425,10 @@ with tab_handicap:
           )
           with open(
               os.path.join(LOGS_DIR, log_filename), "w", encoding="utf-8"
+          ) as f:
+            json.dump(st.session_state.json_data, f, indent=4)
+          with open(
+              os.path.join(API_OUTPUT_DIR, log_filename), "w", encoding="utf-8"
           ) as f:
             json.dump(st.session_state.json_data, f, indent=4)
 

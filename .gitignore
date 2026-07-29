@@ -1,2 +1,12 @@
-
+# Python
+__pycache__/
+*.pyc
 .streamlit/secrets.toml
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+
+# Logs & Temporary Scratch
+scratch/
+.DS_Store
