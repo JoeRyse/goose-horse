@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 API_OUTPUT_DIR = os.path.join(BASE_DIR, "api", "output")
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
-DEFAULT_PIN = os.environ.get("EXACTA_PIN", "7777")
+DEFAULT_PIN = os.environ.get("EXACTA_PIN", "0518")
 
 for d in [LOGS_DIR, API_OUTPUT_DIR]:
     os.makedirs(d, exist_ok=True)

@@ -26,8 +26,8 @@ export default function PinGate({ onAuthenticated }) {
         setError('ACCESS DENIED: INVALID PIN CODE');
       }
     } catch (err) {
-      if (pin === '7777') {
-        localStorage.setItem('exacta_auth_token', 'local_token_7777');
+      if (pin === '0518') {
+        localStorage.setItem('exacta_auth_token', 'local_token_0518');
         onAuthenticated();
       } else {
         setError('ACCESS DENIED: INVALID PIN CODE');
@@ -134,12 +134,6 @@ export default function PinGate({ onAuthenticated }) {
             )}
           </button>
         </form>
-
-        <div className="mt-5 pt-3 border-t border-slate-200 text-center">
-          <p className="text-[11px] font-mono text-slate-500 font-bold">
-            Access PIN: <span className="text-emerald-700 font-black">7777</span>
-          </p>
-        </div>
       </div>
     </div>
   );
