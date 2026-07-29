@@ -1,0 +1,34 @@
+{
+    "track_code": "REDC",
+    "location": "Redcar, North Yorkshire, England, UK",
+    "nicknames": [
+        "Redcar Racecourse",
+        "Redcar Track"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1 Mile 6 Furlongs",
+            "surface": "Turf",
+            "stretch_length": "5 Furlongs",
+            "bias_notes": "Left-handed, completely flat galloping track. Features a straight mile course for all races from 5f up to 1m, and a round course featuring two sharp, tight bends. The straight rides exceptionally long, making it difficult for lone front-runners to wire fields unless they dictate a soft pace. Rewards patient, well-timed challenges.",
+            "post_bias": "On the straight course (5f to 1m), draw bias is heavily dictated by where the field races. If runners split toward the far rail, low numbers hold a slight ground-saving edge; if they race down the stands' side, high draws can come into play. On the round course, inside barriers (stalls 1-4) are crucial to avoid losing ground around the sharp bends."
+        }
+    },
+    "handicapping_angles": {
+        "long_straight_patience_factor": "Because Redcar's straight is flat and long, horses that hit the front too soon often get collared. Upgrade strong-finishing pressers ('P') and stalkers over relentless, un-rateable front-runners ('E').",
+        "northern_stable_targeting": "Prominent northern yards (e.g., Tim Easterby, Richard Fahey) frequently target Redcar lower-tier handicaps. Pay close attention to stable placement and market confidence from these yards.",
+        "straight_course_ground_bias": "In large-field straight handicaps (5f/6f), check the going description. On good-to-firm ground, horses racing near the center or tracking the stands' side often find the freshest paths.",
+        "round_course_sharp_bend_penalty": "In round course races (1m2f+), horses caught wide around the tight bottom bend leak valuable ground. Upgrade rail-skimmers and handy types over deep closers."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (UK Regional Flat Track)",
+        "class_rating": 84,
+        "speed_par_offsets": {
+            "turf_sprint": "-1.0",
+            "turf_route": "-1.5"
+        },
+        "lengths": -1.5,
+        "points": -3.0
+    },
+    "region_group": "Europe_Thoroughbred"
+}
