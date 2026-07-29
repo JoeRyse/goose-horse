@@ -367,6 +367,17 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
         content_length = int(self.headers.get("Content-Length", 0))
         body_bytes = self.rfile.read(content_length)
         
+        if path == "/api/publish-github":
+            def _push_bg():
+                try:
+                    script_path = os.path.join(BASE_DIR, "update_and_push.ps1")
+                    subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", script_path], check=False)
+                except Exception as e:
+                    print("Publish error:", e)
+
+            threading.Thread(target=_push_bg, daemon=True).start()
+            return self._send_json({"status": "success", "message": "Publishing updates to GitHub & Vercel!"})
+        
         try:
             payload = json.loads(body_bytes.decode("utf-8")) if body_bytes else {}
         except Exception:
