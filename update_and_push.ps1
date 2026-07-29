@@ -4,9 +4,9 @@ $ErrorActionPreference = "Stop"
 $env:PATH = "C:\Users\joery\.node-bin;" + $env:PATH
 $workspace = $PSScriptRoot
 
-Write-Host "=========================================" -ForegroundColor Gold
-Write-Host "  EXACTA AI - AUTO UPDATE & GITHUB PUSH  " -ForegroundColor Gold
-Write-Host "=========================================" -ForegroundColor Gold
+Write-Host "=========================================" -ForegroundColor Yellow
+Write-Host "  EXACTA AI - AUTO UPDATE & GITHUB PUSH  " -ForegroundColor Yellow
+Write-Host "=========================================" -ForegroundColor Yellow
 
 # 1. Export static JSON cards
 Write-Host "`n[1/3] Refreshing static track card data..." -ForegroundColor Cyan
