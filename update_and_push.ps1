@@ -10,7 +10,7 @@ Write-Host "=========================================" -ForegroundColor Yellow
 
 # 1. Export static JSON cards
 Write-Host "`n[1/3] Refreshing static track card data..." -ForegroundColor Cyan
-& powershell -ExecutionPolicy Bypass -File "$workspace\scratch\export_static.ps1"
+& powershell -ExecutionPolicy Bypass -File "$workspace\export_static.ps1"
 
 # 2. Build production bundle
 Write-Host "`n[2/3] Building production web app..." -ForegroundColor Cyan
