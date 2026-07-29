@@ -1,0 +1,36 @@
+{
+    "track_code": "DRWN",
+    "location": "Darwin, NT, Australia",
+    "nicknames": [
+        "Fannie Bay",
+        "Fannie Bay Racecourse",
+        "Darwin Turf Club",
+        "Home of the Darwin Cup"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1,780 metres",
+            "surface": "Oiled Dirt/Sand",
+            "stretch_length": "340 metres",
+            "bias_notes": "Anti-clockwise. A unique oiled sand/dirt oval in Australian TAB racing. Features a 340m home straight. The surface generates intense kickback, creating a massive natural bias toward early front-runners ('E') and pocket pressers ('P') who can race on the lead or rail away from spray. Deep closers ('S') suffer severe kickback penalties.",
+            "post_bias": "Inside barriers (stalls 1-4) hold a paramount advantage in 1000m, 1100m, and 1200m sprints to hold the rail into the first turn and avoid severe dirt kickback."
+        }
+    },
+    "handicapping_angles": {
+        "oiled_dirt_kickback_and_speed_bias": "Fannie Bay plays like a classic US dirt track. Heavily upgrade early speed ('E') types capable of crossing and securing the fence. Severely downgrade backmarkers ('C') who dislike dirt kickback in their faces.",
+        "darwin_cup_carnival_shipper_advantage": "During the July/August Darwin Cup Carnival, major interstate yards (SA, VIC, WA) send targeted runners. Interstate shippers with proven synthetic or dirt speed figures hold a major class edge over local NT form lines.",
+        "dirt_experience_filter": "Always check for prior dirt, sand, or synthetic surface experience. Horses making their dirt debut from pure lush grass circuits often struggle with the kickback and firm sand footing.",
+        "nt_handicap_weight_penalty": "In NT Benchmark handicaps under heavy tropical heat, top weights carrying 60kg+ face an exaggerated physical tax. Favor fit, light-weighted runners receiving apprentice claim relief."
+    },
+    "par_adjustment": {
+        "tier": "Tier 4 (NT Regional Country HQ)",
+        "class_rating": 83,
+        "speed_par_offsets": {
+            "dirt_sprint": "0.0",
+            "dirt_route": "0.0"
+        },
+        "lengths": -1.5,
+        "points": -3.5
+    },
+    "region_group": "Australia_Thoroughbred"
+}
