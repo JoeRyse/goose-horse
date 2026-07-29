@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, MapPin, Search, Printer, Flame, ChevronDown, X, Star, FileText, UploadCloud, CheckCircle } from 'lucide-react';
+import { Calendar, MapPin, Search, Printer, Flame, ChevronDown, X, Star, FileText } from 'lucide-react';
 import { RegionBadge } from './Badges';
 
 export default function Header({
@@ -10,32 +10,11 @@ export default function Header({
   const [isMeetingDrawerOpen, setIsMeetingDrawerOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('CURRENT');
   const [searchQuery, setSearchQuery] = useState('');
-  const [isPublishing, setIsPublishing] = useState(false);
-  const [publishStatus, setPublishStatus] = useState('');
 
   const currentSavedMeetings = meetings.filter((m) => m.is_published);
   const displayedMeetings = (activeTab === 'CURRENT' ? currentSavedMeetings : meetings).filter((m) =>
     m.track.toLowerCase().includes(searchQuery.toLowerCase()) || m.date.includes(searchQuery)
   );
-
-  const handlePublishToGithub = async () => {
-    setIsPublishing(true);
-    setPublishStatus('Publishing updates to GitHub & Vercel...');
-    try {
-      const res = await fetch('/api/publish-github', { method: 'POST' });
-      const data = await res.json();
-      if (data.status === 'success') {
-        setPublishStatus('🚀 SUCCESS! Syncing to Vercel...');
-        setTimeout(() => setPublishStatus(''), 4000);
-      } else {
-        setPublishStatus('Publish failed.');
-      }
-    } catch (e) {
-      setPublishStatus('Local server offline.');
-    } finally {
-      setIsPublishing(false);
-    }
-  };
 
   return (
     <header className="sticky top-0 z-40 bg-white text-slate-900 shadow-md border-b border-slate-200 print:hidden">
@@ -86,45 +65,26 @@ export default function Header({
         </div>
 
         {/* Right Action Buttons */}
-        <div className="flex items-center gap-2 font-mono">
-          {/* 1-Click Push to Vercel / GitHub Button */}
-          <button
-            onClick={handlePublishToGithub}
-            disabled={isPublishing}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-amber-400 border border-slate-900 text-xs font-black transition-all shadow-xs disabled:opacity-50"
-            title="Push new track cards to GitHub & Vercel"
-          >
-            <UploadCloud className={`w-4 h-4 ${isPublishing ? 'animate-bounce text-amber-300' : 'text-amber-400'}`} />
-            <span className="hidden sm:inline">{isPublishing ? 'PUSHING...' : 'PUSH TO VERCEL'}</span>
-          </button>
-
+        <div className="flex items-center gap-2.5 font-mono">
           {/* Select Track Button */}
           <button
             onClick={() => setIsMeetingDrawerOpen(true)}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 text-xs font-black transition-all shadow-xs"
+            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 text-xs font-black transition-all shadow-xs"
           >
             <FileText className="w-4 h-4 text-amber-600" />
-            <span className="hidden sm:inline">SELECT TRACK</span>
+            <span>SELECT TRACK</span>
           </button>
 
           {/* Print PDF Button */}
           <button
             onClick={() => window.print()}
-            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs uppercase tracking-wider shadow-md transition-all active:scale-95"
+            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs uppercase tracking-wider shadow-md transition-all active:scale-95"
           >
             <Printer className="w-4 h-4" />
             <span>PRINT PDF</span>
           </button>
         </div>
       </div>
-
-      {/* Publish Toast Notification */}
-      {publishStatus && (
-        <div className="bg-amber-100 border-t border-b border-amber-300 py-1.5 px-4 text-center text-xs font-mono font-bold text-amber-950 flex items-center justify-center gap-2">
-          <CheckCircle className="w-4 h-4 text-amber-700 animate-pulse" />
-          <span>{publishStatus}</span>
-        </div>
-      )}
 
       {/* Meeting Selection Drawer Modal */}
       {isMeetingDrawerOpen && (

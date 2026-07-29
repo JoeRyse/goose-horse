@@ -897,15 +897,18 @@ if api_key:
   os.environ["GEMINI_API_KEY"] = api_key
 
 st.sidebar.markdown("---")
-st.sidebar.header("🚀 Admin")
-if st.sidebar.button("🔄 Sync Nav & Deploy"):
-  update_homepage()
-  st.sidebar.success("Updated Dashboard Index.")
+st.sidebar.header("🚀 GitHub & Vercel Deploy")
+if st.sidebar.button("🚀 PUSH NEW CARDS TO VERCEL"):
+  st.sidebar.info("Bundling static cards and pushing to GitHub...")
   try:
-    subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
-    st.sidebar.success("Deploying...")
-  except:
-    st.sidebar.error("Deploy script missing.")
+    script_path = os.path.join(BASE_DIR, "update_and_push.ps1")
+    result = subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", script_path], capture_output=True, text=True)
+    if result.returncode == 0:
+      st.sidebar.success("🚀 SUCCESS! Cards pushed to GitHub & Vercel!")
+    else:
+      st.sidebar.warning(f"Push notice: {result.stderr[:200]}")
+  except Exception as e:
+    st.sidebar.error(f"Deploy error: {e}")
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
@@ -1507,11 +1510,26 @@ with tab_handicap:
         if update_idx:
           update_homepage()
         try:
-          subprocess.Popen("deploy.bat", shell=True, cwd=BASE_DIR)
-        except:
-          pass
+          script_path = os.path.join(BASE_DIR, "update_and_push.ps1")
+          subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", script_path], check=False)
+          st.success("🚀 Published & Pushed to GitHub & Vercel!")
+        except Exception as e:
+          st.warning(f"Saved locally. Manual push notice: {e}")
 
     with col2:
+      if st.button("🚀 PUSH TO VERCEL NOW"):
+        st.info("Syncing new cards to GitHub & Vercel...")
+        try:
+          script_path = os.path.join(BASE_DIR, "update_and_push.ps1")
+          res = subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", script_path], capture_output=True, text=True)
+          if res.returncode == 0:
+            st.success("🚀 SUCCESS! Live on Vercel!")
+          else:
+            st.warning(f"Push response: {res.stderr[:200]}")
+        except Exception as err:
+          st.error(f"Deploy error: {err}")
+
+    with col3:
       st.download_button(
           "⬇️ Download HTML",
           st.session_state.html_content,
