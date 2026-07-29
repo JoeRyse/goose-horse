@@ -1,14 +1,31 @@
 {
-    "location": "Melbourne",
-    "track_type": "Turf",
-    "direction": "Counter-Clockwise",
-    "straight_length": "481m",
-    "bias_notes": "Two tracks: Hillside (fairer) and Lakeside (tighter).",
+    "track_code": "SANH",
+    "location": "Springvale, Melbourne, VIC",
+    "nicknames": [
+        "Hillside",
+        "Ladbrokes Park Hillside"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,087 metres",
+            "surface": "Turf",
+            "stretch_length": "491 metres",
+            "bias_notes": "Counter-Clockwise. The outer and larger of the two Sandown circuits. It features a sweeping home turn and a massive 491m straight, offering one of the fairest racing surfaces in Australia. Backmarkers and long-striding gallopers have ample time to wind up. On firm tracks, it plays exceptionally fair. However, when the track is deeply rain-affected, the inside lanes often chop out, forcing jockeys to steer wide in the straight in search of better ground.",
+            "post_bias": "Due to the sheer size of the track and the long run-ins for most starting points, barrier draws are generally less significant here than at tighter tracks like Moonee Valley or Caulfield. Wide barriers are rarely a major disadvantage in races over 1400m and further, provided the horse can find cover."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Hillside: Fair/Closer. Lakeside: On-pace."
+        "the_flemington_profile": "Sandown Hillside plays very similarly to Flemington. Look for horses that thrive on big, spacious tracks and have strong closing sectionals. Horses that struggle at tighter circuits like Moonee Valley often bounce back sharply here.",
+        "the_wet_weather_swoop": "When the Hillside track is downgraded to Soft or Heavy, look for 'Swoopers' (closers) drawing middle-to-outside barriers. The inside lanes frequently deteriorate, creating a massive advantage for horses making their runs down the outside.",
+        "midweek_to_saturday_form": "Form out of Wednesday Hillside meetings is typically very strong. A dominant winner in BM70 grade here is often ready to measure up in Saturday Metro grade at Flemington or Caulfield shortly after."
     },
     "par_adjustment": {
         "tier": "Tier 1.5 (State Metro)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "turf_sprint": "-0.2",
+            "turf_route": "-0.2"
+        },
         "lengths": 1.0,
         "points": 2.5
     },

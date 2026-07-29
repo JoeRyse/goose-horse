@@ -1,25 +1,28 @@
 {
     "track_code": "KENS",
-    "location": "Sydney, NSW",
+    "location": "Sydney, NSW, Australia",
     "nicknames": [
-        "Kenso"
+        "Kenso",
+        "Randwick Kensington",
+        "Kensington Track"
     ],
     "courses": {
         "main_turf": {
             "circumference": "2,100 metres",
             "surface": "Turf (StrathAyr Base)",
             "stretch_length": "401 metres",
-            "bias_notes": "Clockwise. Set inside the main Randwick course, the Kensington track utilizes an all-weather StrathAyr (sand base) construction. It features a somewhat narrow 18-metre width at the winning post. Because it drains exceptionally well, it often plays firmer and faster than the main track, frequently generating a strong on-pace and rail bias.",
-            "post_bias": "Inside barriers (1-4) are highly advantageous across all sprint trips. Because the circuit is tighter than the Course Proper, being caught three-wide without cover here is significantly more punishing."
+            "bias_notes": "Clockwise. Built inside the main Randwick course, Kensington features an all-weather StrathAyr (sand mesh base) turf surface. Drains exceptionally fast and often plays firmer than the main track. On Good tracks, it frequently generates a distinct on-pace and rail bias, favoring early leaders ('E') and pocket pressers ('P'). Deep closers ('S') face difficult traffic and run-out-of-time risks.",
+            "post_bias": "Inside barriers (stalls 1-4) offer a major ground-saving edge across all sprint trips (1000m to 1250m). Being caught 3-wide without cover on this tighter circuit carries a far harsher penalty than on the main Randwick Course Proper."
         }
     },
     "handicapping_angles": {
-        "the_strathayr_speed_bias": "When the track is rated Good, it frequently becomes a 'leader's track'. Heavily upgrade early speed ('E' types) and rail-skimming pressers. Deep closers ('S' types) often run out of time to catch the leaders despite the 401m straight.",
-        "the_wet_weather_mirage": "Kenso handles rain better than almost any track in Sydney. While surrounding tracks might race as Heavy, Kenso often plays much better (e.g., Soft 6). Do not immediately apply extreme 'mudlark' logic unless there is torrential rain during the meeting.",
-        "midweek_metro_strength": "This is Sydney's premier midweek venue. Winners of midweek Kenso handicaps possess elite form that translates very well when stepping up to Saturday Metro grade on the main Randwick or Rosehill tracks."
+        "strathayr_on_pace_speed_bias": "When the track is rated Good 4, aggressively upgrade early front-runners ('E') and forward pressers ('P'). Do not over-rate deep backmarkers expecting a sweep down the 401m stretch.",
+        "the_wet_weather_drainage_mirage": "Kensington handles heavy rainfall better than almost any turf track in NSW. While surrounding tracks race as Heavy 8, Kensington often stays in the Soft 5–6 range. Do not apply extreme 'mudlark' handicapping rules unless active rain is falling.",
+        "sydney_midweek_metro_class_edge": "Kenso is Sydney's primary midweek metro hub. Heavily upgrade class-dropping horses shipping in from Saturday Metro races (Randwick/Rosehill) or winners from recent Kenso cards stepping up to provincial or mid-tier metro company.",
+        "nsw_metro_weight_impact": "In Sydney Midweek Metropolitan BM72–BM88 handicaps, top weights carrying 59kg+ face a strict stamina tax. Grant a boost to fit, light-weighted runners receiving key apprentice claim relief."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (Metro Midweek)",
+        "tier": "Tier 2 (Sydney Metro Midweek)",
         "class_rating": 92,
         "speed_par_offsets": {
             "turf_sprint": "-0.5",
