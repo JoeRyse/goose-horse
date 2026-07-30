@@ -484,6 +484,13 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
     def address_string(self):
         return self.client_address[0]
 
+    def log_message(self, format, *args):
+        try:
+            sys.stdout.write("%s - - [%s] %s\n" % (self.address_string(), self.log_date_time_string(), format % args))
+            sys.stdout.flush()
+        except Exception:
+            pass
+
     def _send_cors_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
@@ -719,14 +726,11 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
         else:
             return self._send_json({"error": "Endpoint not found"}, 404)
 
-class ThreadedHTTPServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
-    daemon_threads = True
-    allow_reuse_address = True
-
 def run_server():
-    server_address = ("0.0.0.0", PORT)
+    server_address = ("127.0.0.1", PORT)
     try:
-        httpd = ThreadedHTTPServer(server_address, ExactaAPIHandler)
+        http.server.HTTPServer.allow_reuse_address = True
+        httpd = http.server.HTTPServer(server_address, ExactaAPIHandler)
         print(f"[API SERVER] Exacta AI Multi-Threaded Engine running on http://127.0.0.1:{PORT}", flush=True)
         httpd.serve_forever()
     except Exception as e:
