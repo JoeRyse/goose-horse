@@ -20,14 +20,14 @@ export default function PinGate({ onAuthenticated }) {
       });
       const data = await res.json();
       if (data.success) {
-        localStorage.setItem('exacta_auth_token', data.token);
+        sessionStorage.setItem('exacta_auth_token', data.token);
         onAuthenticated();
       } else {
         setError('ACCESS DENIED: INVALID PIN CODE');
       }
     } catch (err) {
       if (pin === '0518') {
-        localStorage.setItem('exacta_auth_token', 'local_token_0518');
+        sessionStorage.setItem('exacta_auth_token', 'local_token_0518');
         onAuthenticated();
       } else {
         setError('ACCESS DENIED: INVALID PIN CODE');

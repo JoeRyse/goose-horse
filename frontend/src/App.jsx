@@ -16,7 +16,7 @@ export default function App() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    const token = localStorage.getItem('exacta_auth_token');
+    const token = sessionStorage.getItem('exacta_auth_token');
     if (token) {
       setIsAuthenticated(true);
     } else {
