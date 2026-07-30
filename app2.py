@@ -681,8 +681,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .main-content { margin: 0 auto; padding: 20px; max-width: 1050px; }
 .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #10b981; padding: 16px 20px; margin-bottom: 20px; background: #003366; color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,51,102,0.15); }
 .header-branding { display: flex; align-items: center; flex: 1; }
-.logo { max-height: 48px; margin-right: 15px; width: auto; background: #ffffff; padding: 4px; border-radius: 8px; }
-.header-info h1 { margin: 0; font-size: 1.8rem; color: #ffffff; text-transform: uppercase; font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; }
+.logo { max-height: 68px; margin-right: 15px; width: auto; background: #ffffff; padding: 4px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.header-info h1 { margin: 0; font-size: 1.9rem; color: #ffffff; text-transform: uppercase; font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; }
 .meta { color: #a7f3d0; font-weight: 700; margin-top: 6px; font-size: 0.9rem; }
 .header-tools { display: flex; gap: 10px; align-items: center; }
 .print-btn { background: #10b981; border: none; color: #ffffff; padding: 8px 16px; cursor: pointer; font-weight: 800; border-radius: 6px; display: inline-flex; align-items: center; gap: 6px; text-transform: uppercase; font-size: 0.85rem; }
@@ -699,7 +699,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .pick-box { flex: 1; background: #ffffff; padding: 12px; border: 1px solid #cbd5e1; border-top: 4px solid #94a3b8; border-radius: 8px; }
 .panel-best { border-top-color: #10b981; background-color: #ecfdf5; border-color: #a7f3d0; } /* Mint Green Accent for Best Bets / Solo Locks */
 .panel-top { border-top-color: #003366; background-color: #f1f5f9; }
-.panel-danger { border-top-color: #f43f5e; background-color: #fff1f2; }
+.panel-danger { border-top-color: #f87171; background-color: #fff5f5; border-color: #fca5a5; color: #991b1b; } /* Lighter, Friendly Soft Rose Danger Accent */
 .table-container { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; margin-top: 0; min-width: 500px; }
 th { background: #003366; text-align: left; padding: 10px 12px; font-size: 0.85rem; color: #ffffff; font-weight: 800; text-transform: uppercase; }

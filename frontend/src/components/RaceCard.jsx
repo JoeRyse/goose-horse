@@ -120,12 +120,12 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
             )}
           </div>
 
-          {/* Compact Danger Horse Banner */}
+          {/* Lighter, Friendly Soft Rose Danger Horse Banner */}
           {dangerHorse && dangerHorse.name && (
-            <div className="mt-3.5 py-2 px-3.5 rounded-r-xl bg-rose-950/80 border-l-4 border-rose-500 text-xs font-mono flex items-center gap-2 text-rose-100">
-              <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0" />
-              <span className="font-black text-rose-300 shrink-0">⚠️ DANGER: #{dangerHorse.number} {dangerHorse.name}</span>
-              <span className="text-rose-200 truncate text-[11px] font-medium">— {dangerHorse.reason || dangerHorse.notes || 'Wildcard threat'}</span>
+            <div className="mt-3.5 py-2 px-3.5 rounded-r-xl bg-rose-50 border-l-4 border-rose-400 text-xs font-mono flex items-center gap-2 text-rose-950 shadow-xs">
+              <AlertTriangle className="w-4 h-4 text-rose-500 shrink-0" />
+              <span className="font-extrabold text-rose-900 shrink-0">⚠️ DANGER: #{dangerHorse.number} {dangerHorse.name}</span>
+              <span className="text-rose-700 truncate text-[11px] font-medium">— {dangerHorse.reason || dangerHorse.notes || 'Wildcard threat'}</span>
             </div>
           )}
         </div>

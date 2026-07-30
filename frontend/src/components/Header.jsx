@@ -20,30 +20,30 @@ export default function Header({
     <header className="sticky top-0 z-40 bg-[#003366] text-white border-b-4 border-[#10b981] shadow-md print:hidden">
       <div className="max-w-7xl mx-auto px-4 py-2.5 flex flex-wrap items-center justify-between gap-4">
         {/* Left Branding & High-Visibility Logo */}
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-3">
-            {/* Crisp Light Logo Container */}
-            <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 p-0.5 shadow-sm flex items-center justify-center relative overflow-hidden">
+        <div className="flex items-center gap-3.5">
+          <div className="flex items-center gap-3.5">
+            {/* Prominent High-Visibility Logo Box */}
+            <div className="w-14 h-14 rounded-2xl bg-white border border-slate-200 p-1 shadow-md flex items-center justify-center relative overflow-hidden shrink-0">
               <img src="/logo.png" alt="Exacta AI Logo" className="w-full h-full object-contain" />
             </div>
 
             <div>
-              <h1 className="text-lg font-black tracking-tight text-white font-mono flex items-center gap-1.5 drop-shadow-sm">
+              <h1 className="text-xl font-black tracking-tight text-white font-mono flex items-center gap-1.5 drop-shadow-sm">
                 EXACTA <span className="text-[#10b981] font-black">AI</span>
               </h1>
-              <p className="text-[10px] text-emerald-200/90 font-mono font-bold hidden sm:block">
+              <p className="text-[11px] text-emerald-200/90 font-mono font-bold hidden sm:block">
                 Professional Handicapping Protocol & Racing Cards
               </p>
             </div>
           </div>
 
-          <div className="h-7 w-px bg-blue-900 mx-1 hidden md:block"></div>
+          <div className="h-8 w-px bg-blue-900 mx-1 hidden md:block"></div>
 
           {/* Current Active Meeting Selector */}
           {activeMeeting && (
             <button
               onClick={() => setIsMeetingDrawerOpen(true)}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-950/60 hover:bg-blue-950 border border-emerald-400/50 text-left transition-all group shadow-sm"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-blue-950/60 hover:bg-blue-950 border border-emerald-400/50 text-left transition-all group shadow-sm"
             >
               <MapPin className="w-4 h-4 text-[#10b981] shrink-0" />
               <div>
@@ -69,7 +69,7 @@ export default function Header({
           {/* Select Track Button */}
           <button
             onClick={() => setIsMeetingDrawerOpen(true)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-blue-950 hover:bg-blue-900 text-emerald-200 border border-emerald-500/60 text-xs font-bold transition-all shadow-sm"
+            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-blue-950 hover:bg-blue-900 text-emerald-200 border border-emerald-500/60 text-xs font-bold transition-all shadow-sm"
           >
             <FileText className="w-3.5 h-3.5 text-[#10b981]" />
             <span>SELECT TRACK</span>
@@ -78,9 +78,9 @@ export default function Header({
           {/* Print PDF Button */}
           <button
             onClick={() => window.print()}
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#10b981] hover:bg-emerald-600 text-white font-black text-xs uppercase tracking-wider shadow-md transition-all active:scale-95"
+            className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#10b981] hover:bg-emerald-600 text-white font-black text-xs uppercase tracking-wider shadow-md transition-all active:scale-95"
           >
-            <Printer className="w-3.5 h-3.5" />
+            <Printer className="w-4 h-4" />
             <span>PRINT PDF</span>
           </button>
         </div>

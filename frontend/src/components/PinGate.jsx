@@ -49,14 +49,14 @@ export default function PinGate({ onAuthenticated }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950 p-4 font-mono">
       <div className="w-full max-w-md bg-white rounded-2xl border border-slate-200 p-8 shadow-2xl relative overflow-hidden text-slate-900">
-        {/* Prominent Logo */}
+        {/* Prominent Large Logo Box */}
         <div className="text-center mb-6">
-          <div className="w-20 h-20 mx-auto mb-3 rounded-2xl bg-white border border-slate-200 p-2 shadow-md flex items-center justify-center">
+          <div className="w-28 h-28 mx-auto mb-3 rounded-2xl bg-white border border-slate-200 p-2 shadow-md flex items-center justify-center">
             <img src="/logo.png" alt="Exacta AI Logo" className="w-full h-full object-contain" />
           </div>
 
           <h2 className="text-2xl font-black tracking-tight text-slate-900 flex items-center justify-center gap-1.5">
-            EXACTA <span className="text-amber-600 font-extrabold">AI</span>
+            EXACTA <span className="text-[#10b981] font-black">AI</span>
           </h2>
           <p className="text-xs font-bold text-slate-500 mt-1 uppercase">
             Private Racing Form Access
@@ -71,7 +71,7 @@ export default function PinGate({ onAuthenticated }) {
                 key={idx}
                 className={`w-4 h-4 rounded-full transition-all duration-300 border border-slate-300 ${
                   pin.length > idx
-                    ? 'bg-emerald-600 scale-110 shadow-xs'
+                    ? 'bg-[#10b981] scale-110 shadow-xs'
                     : 'bg-slate-200'
                 }`}
               />
@@ -123,7 +123,7 @@ export default function PinGate({ onAuthenticated }) {
           <button
             type="submit"
             disabled={loading || pin.length < 4}
-            className="w-full py-3.5 px-4 rounded-xl font-black uppercase text-xs tracking-wider bg-emerald-600 hover:bg-emerald-500 text-white shadow-md disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 transition-all flex items-center justify-center gap-2"
+            className="w-full py-3.5 px-4 rounded-xl font-black uppercase text-xs tracking-wider bg-[#10b981] hover:bg-emerald-600 text-white shadow-md disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 transition-all flex items-center justify-center gap-2"
           >
             {loading ? (
               <Zap className="w-5 h-5 animate-spin" />
