@@ -7,10 +7,10 @@ import re
 from datetime import datetime
 from urllib.parse import parse_qs, urlparse
 
-PORT = 8080
+PORT = 8085
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
-API_OUTPUT_DIR = os.path.join(BASE_DIR, "api", "output")
+API_OUTPUT_DIR = os.path.join(BASE_DIR, "frontend", "public", "api", "output")
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 DEFAULT_PIN = os.environ.get("EXACTA_PIN", "0518")
 
@@ -206,7 +206,284 @@ def compute_exotic_tickets(races):
 
     return exotics
 
+US_TIER1_TRACKS = ["Saratoga", "Del Mar", "Gulfstream Park", "Keeneland", "Churchill Downs", "Belmont Park", "Aqueduct"]
+AUS_HIGH_HIT_TRACKS = ["Flemington", "Randwick", "Caulfield", "Doomben", "Rosehill", "Moonee Valley", "Eagle Farm"]
+
+def calculate_roi_analytics(
+    filter_group="ALL", target_track="", start_date="", end_date="", 
+    surface="ALL", condition="ALL", dist_type="ALL", race_class="ALL"
+):
+    """
+    Queries SQLite database master_betting_history.db with granular filters:
+    Track, Date Range, Dirt vs Turf, Track Condition, Sprint vs Route, Maiden vs Non-Maiden.
+    """
+    if not os.path.exists(DB_PATH):
+        return {}
+
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+
+    query = """
+        SELECT 
+            p.date, p.track, p.race_number, p.p1_num, p.p1_name, p.p2_num, p.p1_rating, p.rating_gap, p.has_best_bet, p.has_solo_lock,
+            p.distance, p.surface, p.condition,
+            r.win_num, r.place_num, r.show_num, r.win_payout, r.exacta_payout
+        FROM predictions p
+        LEFT JOIN results r ON p.date = r.date AND p.track = r.track AND p.race_number = r.race_number
+    """
+    c.execute(query)
+    rows = c.fetchall()
+    conn.close()
+
+    total_races = 0
+    top_pick_wins = 0
+    best_bet_wins = 0
+    best_bet_count = 0
+    solo_lock_wins = 0
+    solo_lock_count = 0
+
+    staked_top = 0.0
+    payout_top = 0.0
+    staked_best = 0.0
+    payout_best = 0.0
+    staked_lock = 0.0
+    payout_lock = 0.0
+
+    multi_tracker = {
+        "pick_3": {"attempted": 0, "hits": 0},
+        "pick_4": {"attempted": 0, "hits": 0},
+        "pick_5": {"attempted": 0, "hits": 0},
+        "pick_6": {"attempted": 0, "hits": 0},
+    }
+
+    race_logs = []
+
+    meetings_dict = {}
+    for row in rows:
+        (
+            date_str, track, race_num, p1_num, p1_name, p2_num, p1_rating, gap, has_best, has_lock,
+            dist_str, surf_str, cond_str,
+            win_num, place_num, show_num, win_paid, ex_paid
+        ) = row
+
+        # 1. Track / Tier Filter
+        if target_track and target_track.lower() not in ["", "all"]:
+            if target_track.lower() not in track.lower():
+                continue
+        elif filter_group == "US_TIER1" and not any(t.lower() in track.lower() for t in US_TIER1_TRACKS):
+            continue
+        elif filter_group == "AUS_HIGH_HIT" and not any(t.lower() in track.lower() for t in AUS_HIGH_HIT_TRACKS):
+            continue
+
+        # 2. Date Range Filter
+        if start_date and date_str < start_date:
+            continue
+        if end_date and date_str > end_date:
+            continue
+
+        # 3. Surface Filter (Dirt vs Turf vs Synthetic)
+        surf_lower = str(surf_str or "").lower()
+        if surface == "DIRT" and "dirt" not in surf_lower and "main" not in surf_lower:
+            continue
+        elif surface == "TURF" and "turf" not in surf_lower and "grass" not in surf_lower:
+            continue
+        elif surface == "SYNTHETIC" and "synth" not in surf_lower and "tapeta" not in surf_lower and "poly" not in surf_lower:
+            continue
+
+        # 4. Condition Filter
+        cond_lower = str(cond_str or "").lower()
+        if condition == "FAST_FIRM" and not any(c in cond_lower for c in ["fast", "firm", "standard"]):
+            continue
+        elif condition == "OFF_TRACK" and not any(c in cond_lower for c in ["good", "yielding", "soft", "muddy", "sloppy", "wet", "heavy"]):
+            continue
+
+        # 5. Distance Filter (Sprint vs Route)
+        dist_lower = str(dist_str or "").lower()
+        is_route = any(k in dist_lower for k in ["1m", "1 1/", "1-1/", "8f", "8.5f", "9f", "10f", "1600", "1800", "2000"])
+        if dist_type == "SPRINT" and is_route:
+            continue
+        elif dist_type == "ROUTE" and not is_route:
+            continue
+
+        # 6. Race Class Filter (Maiden vs Non-Maiden)
+        is_maiden = "maiden" in dist_lower or "msw" in dist_lower or "mcl" in dist_lower
+        if race_class == "MAIDEN" and not is_maiden:
+            continue
+        elif race_class == "NON_MAIDEN" and is_maiden:
+            continue
+
+        m_key = f"{track}_{date_str}"
+        if m_key not in meetings_dict:
+            meetings_dict[m_key] = []
+        meetings_dict[m_key].append(row)
+
+    filtered_meetings_count = len(meetings_dict)
+
+    for m_key, race_rows in meetings_dict.items():
+        top2_hits = []
+        for r in race_rows:
+            (
+                date_str, track, race_num, p1_num, p1_name, p2_num, p1_rating, gap, has_best, has_lock,
+                dist_str, surf_str, cond_str,
+                win_num, place_num, show_num, win_paid, ex_paid
+            ) = r
+            total_races += 1
+
+            p1_rating_val = float(p1_rating or 80.0)
+            gap_val = float(gap or 0.0)
+            has_lock_val = bool(has_lock or (p1_rating_val >= 88.0 and gap_val >= 5.0))
+            has_best_val = bool(has_best or gap_val >= 3.0)
+
+            # Determine authentic win match from scraped results table
+            has_official_result = bool(win_num and str(win_num).strip() not in ["", "None", "0"])
+            is_top_win = False
+            actual_win_paid = 0.0
+
+            if has_official_result:
+                is_top_win = (str(p1_num).strip() == str(win_num).strip())
+                actual_win_paid = float(win_paid) if (win_paid and float(win_paid) > 0) else 0.0
+
+            is_top2_hit = False
+            if has_official_result:
+                is_top2_hit = is_top_win or (place_num and str(p2_num).strip() == str(place_num).strip())
+                top2_hits.append(is_top2_hit)
+
+            stake_val = 20.0 if has_lock_val else (10.0 if has_best_val else 5.0)
+            
+            if has_official_result:
+                payout_val = (stake_val * (actual_win_paid / 2.0)) if is_top_win else 0.0
+                pnl_val = payout_val - stake_val
+            else:
+                payout_val = 0.0
+                pnl_val = 0.0
+                stake_val = 0.0
+
+            race_logs.append({
+                "date": date_str,
+                "track": track,
+                "race_number": race_num,
+                "p1_num": p1_num,
+                "p1_name": p1_name or f"Horse #{p1_num}",
+                "rating": round(p1_rating_val, 1),
+                "gap": round(gap_val, 1),
+                "bet_tag": "SOLO LOCK ($20)" if has_lock_val else ("BEST BET ($10)" if has_best_val else "TOP PICK ($5)"),
+                "is_win": is_top_win,
+                "has_result": has_official_result,
+                "status": "WIN" if (has_official_result and is_top_win) else ("LOSS" if has_official_result else "UNSETTLED"),
+                "winner_num": str(win_num).strip() if has_official_result else "UNSETTLED",
+                "stake": stake_val,
+                "payout": round(payout_val, 2),
+                "pnl": round(pnl_val, 2)
+            })
+
+            # Only count settled races with scraped results into ROI statistics
+            if has_official_result:
+                staked_top += 5.0
+                if is_top_win:
+                    top_pick_wins += 1
+                    payout_top += 5.0 * (actual_win_paid / 2.0)
+
+                if has_best_val and not has_lock_val:
+                    best_bet_count += 1
+                    staked_best += 10.0
+                    if is_top_win:
+                        best_bet_wins += 1
+                        payout_best += 10.0 * (actual_win_paid / 2.0)
+
+                if has_lock_val:
+                    solo_lock_count += 1
+                    staked_lock += 20.0
+                    if is_top_win:
+                        solo_lock_wins += 1
+                        payout_lock += 20.0 * (actual_win_paid / 2.0)
+
+        n = len(top2_hits)
+        for i in range(n - 2):
+            multi_tracker["pick_3"]["attempted"] += 1
+            if all(top2_hits[i:i+3]): multi_tracker["pick_3"]["hits"] += 1
+        for i in range(n - 3):
+            multi_tracker["pick_4"]["attempted"] += 1
+            if all(top2_hits[i:i+4]): multi_tracker["pick_4"]["hits"] += 1
+        for i in range(n - 4):
+            multi_tracker["pick_5"]["attempted"] += 1
+            if all(top2_hits[i:i+5]): multi_tracker["pick_5"]["hits"] += 1
+        for i in range(n - 5):
+            multi_tracker["pick_6"]["attempted"] += 1
+            if all(top2_hits[i:i+6]): multi_tracker["pick_6"]["hits"] += 1
+
+    total_staked = staked_top + staked_best + staked_lock
+    total_payout = payout_top + payout_best + payout_lock
+    overall_pnl = total_payout - total_staked
+    overall_roi = round(((total_payout - total_staked) / total_staked * 100), 1) if total_staked > 0 else 0.0
+
+    return {
+        "meetings_analyzed": filtered_meetings_count,
+        "total_races": total_races,
+        "race_logs": race_logs[::-1][:200], # Return 200 most recent races for instant auditing
+        "overall": {
+            "total_staked": round(total_staked, 2),
+            "total_payout": round(total_payout, 2),
+            "pnl": round(overall_pnl, 2),
+            "roi": overall_roi
+        },
+        "top_pick_win": {
+            "wager_size": 5.0,
+            "wins": top_pick_wins,
+            "total_bets": total_races,
+            "win_rate": round((top_pick_wins / total_races * 100), 1) if total_races > 0 else 0.0,
+            "staked": round(staked_top, 2),
+            "payout": round(payout_top, 2),
+            "pnl": round(payout_top - staked_top, 2),
+            "roi": round(((payout_top - staked_top) / staked_top * 100), 1) if staked_top > 0 else 0.0
+        },
+        "best_bet": {
+            "wager_size": 10.0,
+            "wins": best_bet_wins,
+            "total_bets": best_bet_count,
+            "win_rate": round((best_bet_wins / best_bet_count * 100), 1) if best_bet_count > 0 else 0.0,
+            "staked": round(staked_best, 2),
+            "payout": round(payout_best, 2),
+            "pnl": round(payout_best - staked_best, 2),
+            "roi": round(((payout_best - staked_best) / staked_best * 100), 1) if staked_best > 0 else 0.0
+        },
+        "solo_lock": {
+            "wager_size": 20.0,
+            "wins": solo_lock_wins,
+            "total_bets": solo_lock_count,
+            "win_rate": round((solo_lock_wins / solo_lock_count * 100), 1) if solo_lock_count > 0 else 0.0,
+            "staked": round(staked_lock, 2),
+            "payout": round(payout_lock, 2),
+            "pnl": round(payout_lock - staked_lock, 2),
+            "roi": round(((payout_lock - staked_lock) / staked_lock * 100), 1) if staked_lock > 0 else 0.0
+        },
+        "multi_race_tracker": {
+            "pick_3": {
+                "attempted": multi_tracker["pick_3"]["attempted"],
+                "hits": multi_tracker["pick_3"]["hits"],
+                "hit_rate": round((multi_tracker["pick_3"]["hits"] / multi_tracker["pick_3"]["attempted"] * 100), 1) if multi_tracker["pick_3"]["attempted"] > 0 else 0.0
+            },
+            "pick_4": {
+                "attempted": multi_tracker["pick_4"]["attempted"],
+                "hits": multi_tracker["pick_4"]["hits"],
+                "hit_rate": round((multi_tracker["pick_4"]["hits"] / multi_tracker["pick_4"]["attempted"] * 100), 1) if multi_tracker["pick_4"]["attempted"] > 0 else 0.0
+            },
+            "pick_5": {
+                "attempted": multi_tracker["pick_5"]["attempted"],
+                "hits": multi_tracker["pick_5"]["hits"],
+                "hit_rate": round((multi_tracker["pick_5"]["hits"] / multi_tracker["pick_5"]["attempted"] * 100), 1) if multi_tracker["pick_5"]["attempted"] > 0 else 0.0
+            },
+            "pick_6": {
+                "attempted": multi_tracker["pick_6"]["attempted"],
+                "hits": multi_tracker["pick_6"]["hits"],
+                "hit_rate": round((multi_tracker["pick_6"]["hits"] / multi_tracker["pick_6"]["attempted"] * 100), 1) if multi_tracker["pick_6"]["attempted"] > 0 else 0.0
+            }
+        }
+    }
+
 class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
+    def address_string(self):
+        return self.client_address[0]
+
     def _send_cors_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
@@ -218,103 +495,100 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
         self.end_headers()
 
     def _send_json(self, data, code=200):
+        body = json.dumps(data).encode("utf-8")
         self.send_response(code)
         self._send_cors_headers()
         self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
         self.end_headers()
-        self.wfile.write(json.dumps(data).encode("utf-8"))
+        self.wfile.write(body)
 
     def do_GET(self):
-        parsed = urlparse(self.path)
-        path = parsed.path.rstrip("/")
-        query = parse_qs(parsed.query)
+        try:
+            print(f"[HTTP GET] {self.path}", flush=True)
+            parsed = urlparse(self.path)
+            path = parsed.path.rstrip("/")
+            query = parse_qs(parsed.query)
 
-        # 1. GET /api/meetings
-        if path == "/api/meetings" or path == "/api/output":
-            meetings = []
-            seen_files = set()
-            
-            # Check docs/meetings for currently published cards
-            published_files = set()
-            docs_meetings_dir = os.path.join(BASE_DIR, "docs", "meetings")
-            if os.path.exists(docs_meetings_dir):
-                for f in os.listdir(docs_meetings_dir):
-                    if f.endswith(".html"):
-                        published_files.add(f.replace(".html", ".json"))
-            
-            # Look in both api/output and logs
-            for dir_path in [API_OUTPUT_DIR, LOGS_DIR]:
-                if not os.path.exists(dir_path): continue
-                for fname in os.listdir(dir_path):
-                    if not fname.endswith(".json") or fname in seen_files:
-                        continue
-                    seen_files.add(fname)
+            # 0. GET /api/analytics/roi
+            if path == "/api/analytics/roi":
+                filter_group = query.get("filter", ["ALL"])[0]
+                target_track = query.get("track", [""])[0]
+                start_date = query.get("start_date", [""])[0]
+                end_date = query.get("end_date", [""])[0]
+                surface = query.get("surface", ["ALL"])[0]
+                condition = query.get("condition", ["ALL"])[0]
+                dist_type = query.get("dist_type", ["ALL"])[0]
+                race_class = query.get("race_class", ["ALL"])[0]
+
+                analytics_data = calculate_roi_analytics(
+                    filter_group=filter_group,
+                    target_track=target_track,
+                    start_date=start_date,
+                    end_date=end_date,
+                    surface=surface,
+                    condition=condition,
+                    dist_type=dist_type,
+                    race_class=race_class
+                )
+                return self._send_json({"status": "success", "analytics": analytics_data})
+
+            # GET /api/analytics/tracks
+            if path == "/api/analytics/tracks":
+                conn = sqlite3.connect(DB_PATH)
+                c = conn.cursor()
+                c.execute("SELECT DISTINCT track FROM predictions ORDER BY track ASC")
+                tracks_list = [row[0] for row in c.fetchall() if row[0]]
+                conn.close()
+                return self._send_json({"status": "success", "tracks": tracks_list})
+
+            # 1. GET /api/meetings
+            if path == "/api/meetings" or path == "/api/output":
+                conn = sqlite3.connect(DB_PATH)
+                c = conn.cursor()
+                c.execute("""
+                    SELECT filename, track, date, region, race_count, solo_locks_count, best_bets_count 
+                    FROM meetings 
+                    ORDER BY date DESC, track ASC
+                """)
+                rows = c.fetchall()
+                conn.close()
+
+                meetings = []
+                for row in rows:
+                    fname, track, date_str, region, race_cnt, locks_cnt, bests_cnt = row
+                    meetings.append({
+                        "id": fname,
+                        "filename": fname,
+                        "track": track,
+                        "date": date_str,
+                        "track_condition": "Standard",
+                        "race_count": race_cnt,
+                        "solo_locks_count": locks_cnt,
+                        "best_bets_count": bests_cnt,
+                        "region": region,
+                        "is_published": True
+                    })
+                return self._send_json({"status": "success", "meetings": meetings})
+
+            # 2. GET /api/output/{filename}
+            if path.startswith("/api/output/") or path.startswith("/api/meetings/"):
+                fname = path.split("/")[-1]
+                if not fname.endswith(".json"):
+                    fname += ".json"
                     
-                    filepath = os.path.join(dir_path, fname)
-                    try:
-                        with open(filepath, "r", encoding="utf-8") as f:
-                            content = f.read().strip()
-                            if not content: continue
-                            data = json.loads(content)
-                            if isinstance(data, str): data = json.loads(data)
-                            if isinstance(data, list) and len(data) > 0: data = data[0]
-                            if not isinstance(data, dict): continue
-
-                            meta = data.get("meta", {})
-                            track = meta.get("track", fname.replace(".json", "").rsplit("_", 1)[0].replace("_", " "))
-                            date_str = meta.get("date", "")
-                            if not date_str and "_" in fname:
-                                parts = fname.replace(".json", "").rsplit("_", 1)
-                                if len(parts) > 1: date_str = parts[1]
-                                
-                            races = data.get("races", [])
-                            enriched_races = compute_race_enrichments(races)
-                            
-                            solo_locks = sum(1 for r in enriched_races if r.get("has_solo_lock"))
-                            best_bets = sum(1 for r in enriched_races if r.get("has_best_bet"))
-                            region = meta.get("region") or get_region_for_track(track)
-                            is_published = (fname in published_files)
-                            
-                            meetings.append({
-                                "id": fname,
-                                "filename": fname,
-                                "track": track,
-                                "date": date_str,
-                                "track_condition": meta.get("track_condition", "Standard"),
-                                "race_count": len(races),
-                                "solo_locks_count": solo_locks,
-                                "best_bets_count": best_bets,
-                                "region": region,
-                                "is_published": is_published,
-                                "last_modified": os.path.getmtime(filepath)
-                            })
-                    except Exception as e:
-                        continue
-
-            # Sort: published first, then newest date
-            meetings.sort(key=lambda x: (1 if x.get("is_published") else 0, x.get("date", ""), x.get("last_modified", 0)), reverse=True)
-            return self._send_json({"status": "success", "meetings": meetings})
-
-        # 2. GET /api/output/{filename}
-        elif path.startswith("/api/output/") or path.startswith("/api/meetings/"):
-            fname = path.split("/")[-1]
-            if not fname.endswith(".json"):
-                fname += ".json"
-                
-            filepath = os.path.join(API_OUTPUT_DIR, fname)
-            if not os.path.exists(filepath):
-                filepath = os.path.join(LOGS_DIR, fname)
-                
-            if not os.path.exists(filepath):
-                return self._send_json({"error": "Meeting not found"}, 404)
-                
-            try:
+                filepath = os.path.join(API_OUTPUT_DIR, fname)
+                if not os.path.exists(filepath):
+                    filepath = os.path.join(LOGS_DIR, fname)
+                    
+                if not os.path.exists(filepath):
+                    return self._send_json({"error": "Meeting not found"}, 404)
+                    
                 with open(filepath, "r", encoding="utf-8") as f:
                     data = json.loads(f.read())
                     if isinstance(data, str): data = json.loads(data)
                     if isinstance(data, list) and len(data) > 0: data = data[0]
                     
-                    # Enrich races with gap and lock properties
                     if "races" in data:
                         data["races"] = compute_race_enrichments(data["races"])
                         data["exotic_tickets"] = compute_exotic_tickets(data["races"])
@@ -322,12 +596,9 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
                         data["meta"]["region"] = get_region_for_track(data["meta"].get("track", ""))
                         
                     return self._send_json({"status": "success", "data": data})
-            except Exception as e:
-                return self._send_json({"error": str(e)}, 500)
 
-        # 3. GET /api/stats
-        elif path == "/api/stats":
-            try:
+            # 3. GET /api/stats
+            if path == "/api/stats":
                 if not os.path.exists(DB_PATH):
                     return self._send_json({"status": "success", "stats": {"total_bets": 0, "total_staked": 0.0, "total_payout": 0.0, "roi": 0.0, "win_rate": 0.0}})
                     
@@ -354,11 +625,13 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
                         "win_rate": win_rate
                     }
                 })
-            except Exception as e:
-                return self._send_json({"error": str(e)}, 500)
 
-        else:
             return self._send_json({"error": "Endpoint not found"}, 404)
+        except Exception as e:
+            import traceback
+            print(f"[API ERROR] do_GET failed: {e}", flush=True)
+            traceback.print_exc()
+            return self._send_json({"status": "error", "error": str(e)}, 500)
 
     def do_POST(self):
         parsed = urlparse(self.path)
@@ -446,15 +719,20 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
         else:
             return self._send_json({"error": "Endpoint not found"}, 404)
 
+class ThreadedHTTPServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+
 def run_server():
-    socketserver.TCPServer.allow_reuse_address = True
-    server_address = ("", PORT)
-    httpd = socketserver.TCPServer(server_address, ExactaAPIHandler)
-    print(f"[API SERVER] Exacta AI Local Engine API server running on http://localhost:{PORT}")
+    server_address = ("0.0.0.0", PORT)
     try:
+        httpd = ThreadedHTTPServer(server_address, ExactaAPIHandler)
+        print(f"[API SERVER] Exacta AI Multi-Threaded Engine running on http://127.0.0.1:{PORT}", flush=True)
         httpd.serve_forever()
-    except KeyboardInterrupt:
-        httpd.server_close()
+    except Exception as e:
+        import traceback
+        print(f"[API SERVER ERROR] {e}", flush=True)
+        traceback.print_exc()
 
 if __name__ == "__main__":
     run_server()

@@ -6,6 +6,8 @@ export default function Header({
   activeMeeting,
   meetings = [],
   onSelectMeeting,
+  activeView = 'CARDS',
+  onSelectView,
 }) {
   const [isMeetingDrawerOpen, setIsMeetingDrawerOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('CURRENT');
@@ -43,10 +45,10 @@ export default function Header({
           {activeMeeting && (
             <button
               onClick={() => setIsMeetingDrawerOpen(true)}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-blue-950/60 hover:bg-blue-950 border border-emerald-400/50 text-left transition-all group shadow-sm"
+              className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-950/70 border border-blue-900 hover:border-[#10b981] transition-all text-left group"
             >
               <MapPin className="w-4 h-4 text-[#10b981] shrink-0" />
-              <div>
+              <div className="flex flex-col">
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-extrabold text-white group-hover:text-[#10b981] transition-colors">
                     {activeMeeting.track}
@@ -66,6 +68,18 @@ export default function Header({
 
         {/* Right Action Buttons */}
         <div className="flex items-center gap-2 font-mono">
+          {/* Analytics View Toggle Button */}
+          <button
+            onClick={() => onSelectView && onSelectView(activeView === 'ANALYTICS' ? 'CARDS' : 'ANALYTICS')}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-black transition-all shadow-sm border ${
+              activeView === 'ANALYTICS'
+                ? 'bg-[#10b981] text-white border-[#10b981]'
+                : 'bg-blue-950 hover:bg-blue-900 text-emerald-200 border-emerald-500/60'
+            }`}
+          >
+            <span>📊 ANALYTICS & ROI</span>
+          </button>
+
           {/* Select Track Button */}
           <button
             onClick={() => setIsMeetingDrawerOpen(true)}

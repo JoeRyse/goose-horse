@@ -4,10 +4,12 @@ import Header from './components/Header';
 import RaceNavigator from './components/RaceNavigator';
 import RaceCard from './components/RaceCard';
 import ExoticsCard from './components/ExoticsCard';
+import AnalyticsDashboard from './components/AnalyticsDashboard';
 import { RefreshCw, AlertCircle, ShieldCheck } from 'lucide-react';
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [activeView, setActiveView] = useState('CARDS'); // 'CARDS' or 'ANALYTICS'
   const [meetings, setMeetings] = useState([]);
   const [activeMeeting, setActiveMeeting] = useState(null);
   const [meetingData, setMeetingData] = useState(null);
@@ -52,7 +54,11 @@ export default function App() {
       try {
         data = await fetchJsonSafely('/api/meetings');
       } catch (e) {
-        data = await fetchJsonSafely('/api/meetings.json');
+        try {
+          data = await fetchJsonSafely('http://127.0.0.1:8085/api/meetings');
+        } catch (err2) {
+          data = await fetchJsonSafely('/api/meetings.json');
+        }
       }
 
       if (data && data.status === 'success' && data.meetings && data.meetings.length > 0) {
@@ -65,17 +71,6 @@ export default function App() {
         setError('No handicapping meetings found.');
       }
     } catch (e) {
-      try {
-        const fallbackData = await fetchJsonSafely('/api/meetings.json');
-        if (fallbackData && fallbackData.status === 'success' && fallbackData.meetings && fallbackData.meetings.length > 0) {
-          setMeetings(fallbackData.meetings);
-          const publishedMeetings = fallbackData.meetings.filter((m) => m.is_published);
-          const defaultMeeting = publishedMeetings.length > 0 ? publishedMeetings[0] : fallbackData.meetings[0];
-          setActiveMeeting(defaultMeeting);
-          await loadMeetingDetails(defaultMeeting.filename);
-          return;
-        }
-      } catch (err) {}
       setError('Unable to load meeting list. Click Clear Cache below to reset.');
     } finally {
       setLoading(false);
@@ -127,7 +122,11 @@ export default function App() {
       try {
         data = await fetchJsonSafely(`/api/output/${filename}`);
       } catch (e) {
-        data = await fetchJsonSafely(`/api/output/${filename}`);
+        try {
+          data = await fetchJsonSafely(`http://127.0.0.1:8085/api/output/${filename}`);
+        } catch (err2) {
+          data = await fetchJsonSafely(`/api/output/${filename}`);
+        }
       }
 
       if (data.status === 'success' && data.data) {
@@ -148,6 +147,7 @@ export default function App() {
 
   const handleSelectMeeting = (m) => {
     setActiveMeeting(m);
+    setActiveView('CARDS');
     loadMeetingDetails(m.filename);
   };
 
@@ -171,10 +171,12 @@ export default function App() {
         activeMeeting={activeMeeting}
         meetings={meetings}
         onSelectMeeting={handleSelectMeeting}
+        activeView={activeView}
+        onSelectView={(v) => setActiveView(v)}
       />
 
-      {/* Sticky Race Navigation Bar */}
-      {meetingData && (
+      {/* Sticky Race Navigation Bar (Only on Cards View) */}
+      {activeView === 'CARDS' && meetingData && (
         <RaceNavigator
           races={allRaces}
           activeRaceIndex={activeRaceIndex}
@@ -184,7 +186,9 @@ export default function App() {
 
       {/* Main Content Body (Screen View) */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6 print:hidden">
-        {loading ? (
+        {activeView === 'ANALYTICS' ? (
+          <AnalyticsDashboard />
+        ) : loading ? (
           <div className="flex flex-col items-center justify-center py-24 space-y-4 font-mono">
             <RefreshCw className="w-8 h-8 text-[#10b981] animate-spin" />
             <div className="text-center">
