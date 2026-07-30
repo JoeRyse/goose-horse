@@ -86,53 +86,58 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
       </div>
 
       {/* ------------------------------------------------------------- */}
-      {/* INTERACTIVE SARATOGA NYRA SCREEN VIEW LAYOUT                  */}
+      {/* INTERACTIVE NAVY & MINT GREEN SCREEN VIEW LAYOUT              */}
       {/* ------------------------------------------------------------- */}
       <div className="print:hidden space-y-4 relative">
-        {/* Transparent Background Logo Watermark */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none z-0">
-          <img src="/logo.png" alt="Background Logo Watermark" className="w-96 h-96 object-contain" />
-        </div>
-
-        {/* Race Header Banner */}
-        <div className="bg-white rounded-2xl p-5 border border-stone-200 shadow-xs relative z-10 overflow-hidden">
+        {/* Race Header Banner - Primary Navy & Mint Green */}
+        <div className="bg-[#003366] text-white rounded-2xl p-5 border-b-4 border-[#10b981] shadow-md relative z-10 overflow-hidden">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-3">
-                <span className="px-3.5 py-1 rounded-xl bg-[#881337] text-white font-mono font-black text-sm shadow-xs border border-amber-400">
+                <span className="px-3.5 py-1 rounded-xl bg-[#10b981] text-white font-mono font-black text-sm shadow-xs">
                   RACE {rNum}
                 </span>
-                <h2 className="text-xl font-black text-slate-900 tracking-tight font-mono">
+                <h2 className="text-xl font-black text-white tracking-tight font-mono">
                   {distance}
                 </h2>
               </div>
-              <div className="flex items-center gap-3 text-xs font-mono text-stone-600 mt-1.5 font-bold">
-                <span>SURFACE: <strong className="text-slate-900 uppercase">{surface}</strong></span>
+              <div className="flex items-center gap-3 text-xs font-mono text-emerald-200 mt-1.5 font-bold">
+                <span>SURFACE: <strong className="text-white uppercase">{surface}</strong></span>
                 <span>•</span>
-                <span>CONFIDENCE: <strong className="text-[#881337] font-black uppercase">{confidence}</strong></span>
+                <span>CONFIDENCE: <strong className="text-[#10b981] font-black uppercase">{confidence}</strong></span>
               </div>
             </div>
 
             {/* Suggested Strategy Box */}
             {suggestedWager && (
-              <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-stone-50 border-l-4 border-[#881337] text-xs font-mono shadow-xs">
-                <Ticket className="w-5 h-5 text-[#881337] shrink-0" />
+              <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-blue-950/80 border-l-4 border-[#10b981] text-xs font-mono shadow-xs">
+                <Ticket className="w-5 h-5 text-[#10b981] shrink-0" />
                 <div>
-                  <span className="text-[10px] text-stone-500 block font-bold uppercase tracking-wider">STRATEGY</span>
-                  <span className="font-extrabold text-slate-900 text-xs">{suggestedWager}</span>
+                  <span className="text-[10px] text-emerald-300 block font-bold uppercase tracking-wider">STRATEGY</span>
+                  <span className="font-extrabold text-white text-xs">{suggestedWager}</span>
                 </div>
               </div>
             )}
           </div>
 
-          {/* Compact Saratoga Danger Horse Banner */}
+          {/* Compact Danger Horse Banner */}
           {dangerHorse && dangerHorse.name && (
-            <div className="mt-3.5 py-2 px-3.5 rounded-r-xl bg-rose-50/80 border-l-4 border-rose-600 text-xs font-mono flex items-center gap-2 text-rose-950">
-              <AlertTriangle className="w-4 h-4 text-rose-700 shrink-0" />
-              <span className="font-black text-rose-950 shrink-0">⚠️ DANGER: #{dangerHorse.number} {dangerHorse.name}</span>
-              <span className="text-stone-600 truncate text-[11px] font-medium">— {dangerHorse.reason || dangerHorse.notes || 'Wildcard threat'}</span>
+            <div className="mt-3.5 py-2 px-3.5 rounded-r-xl bg-rose-950/80 border-l-4 border-rose-500 text-xs font-mono flex items-center gap-2 text-rose-100">
+              <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0" />
+              <span className="font-black text-rose-300 shrink-0">⚠️ DANGER: #{dangerHorse.number} {dangerHorse.name}</span>
+              <span className="text-rose-200 truncate text-[11px] font-medium">— {dangerHorse.reason || dangerHorse.notes || 'Wildcard threat'}</span>
             </div>
           )}
+        </div>
+
+        {/* Handicapper Protocol AI Analysis Summary Box */}
+        <div className="bg-[#dbe3eb] rounded-2xl p-4 border border-slate-300 text-[#003366] font-mono text-xs shadow-xs space-y-1">
+          <h4 className="font-black uppercase text-xs text-[#003366] tracking-wider flex items-center gap-2">
+            <Zap className="w-4 h-4 text-[#10b981]" /> HANDICAPPER PROTOCOL AI ANALYSIS
+          </h4>
+          <p className="text-slate-700 font-medium leading-relaxed">
+            AI Analysis has evaluated race conditions, speed metrics, class ratings, pace scenario, and contender gap spread.
+          </p>
         </div>
 
         {/* Contenders Cards */}
@@ -151,20 +156,20 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
                 <div
                   key={idx}
                   className={`bg-white rounded-2xl p-4 transition-all border shadow-xs relative ${
-                    isSoloLock
-                      ? 'border-[#881337] bg-rose-50/30 ring-1 ring-rose-200'
+                    isTopPick
+                      ? 'bg-[#d1fae5]/50 border-[#10b981] ring-1 ring-emerald-300'
+                      : isSoloLock
+                      ? 'border-[#10b981] bg-emerald-50/40'
                       : isBestBet
-                      ? 'border-amber-400 bg-amber-50/30 ring-1 ring-amber-200'
-                      : isTopPick
-                      ? 'border-stone-300 bg-stone-50/70'
-                      : 'border-stone-200 hover:border-stone-300'
+                      ? 'border-emerald-400 bg-emerald-50/20'
+                      : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
                   <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
                     {/* Left Info & Reasoning */}
                     <div className="flex items-start gap-3.5 flex-1">
-                      {/* Saddle Cloth Number Box */}
-                      <div className="w-9 h-9 rounded-xl bg-[#881337] text-white font-mono font-black text-base flex items-center justify-center shrink-0 shadow-xs border border-amber-400">
+                      {/* Saddle Cloth Number Box - Primary Navy */}
+                      <div className="w-9 h-9 rounded-xl bg-[#003366] text-white font-mono font-black text-base flex items-center justify-center shrink-0 shadow-xs border border-[#10b981]">
                         {hNum}
                       </div>
 
@@ -176,7 +181,7 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
                           {isSoloLock && <SoloLockBadge gap={race.rating_gap} />}
                           {!isSoloLock && isBestBet && <BestBetBadge gap={race.rating_gap} />}
                           {isTopPick && !isSoloLock && !isBestBet && (
-                            <span className="px-2 py-0.5 rounded text-[10px] font-mono font-extrabold bg-stone-100 text-slate-900 border border-stone-300 uppercase">
+                            <span className="px-2.5 py-0.5 rounded text-[10px] font-mono font-black bg-[#10b981] text-white uppercase shadow-xs">
                               🏁 TOP PICK
                             </span>
                           )}
@@ -192,7 +197,7 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
                     </div>
 
                     {/* Right Rating Bar */}
-                    <div className="w-full md:w-48 shrink-0 pt-1.5 md:pt-0 border-t md:border-t-0 border-stone-200">
+                    <div className="w-full md:w-48 shrink-0 pt-1.5 md:pt-0 border-t md:border-t-0 border-slate-200">
                       <RatingBar rating={rating} gap={race.rating_gap} isTopPick={isTopPick} />
                     </div>
                   </div>
@@ -202,26 +207,28 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
           </div>
         </div>
 
-        {/* Explicit Race Exotic Wager Suggestions Box */}
+        {/* Explicit Exacta Combinations & Exotic Tickets Box */}
         {exoticSuggestions && exoticSuggestions.length > 0 && (
-          <div className="bg-white rounded-2xl p-4 border border-stone-200 shadow-xs relative z-10 space-y-2">
-            <h4 className="text-xs font-mono font-extrabold text-slate-900 uppercase tracking-wider flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-[#881337]" /> EXOTIC WAGER TICKETS FOR RACE {rNum}
+          <div className="bg-white rounded-2xl p-4 border border-slate-200 shadow-xs relative z-10 space-y-2">
+            <h4 className="text-xs font-mono font-extrabold text-[#003366] uppercase tracking-wider flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-[#10b981]" /> EXACTA COMBINATIONS & EXOTIC TICKETS
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 font-mono text-xs">
               {exoticSuggestions.map((sug, i) => (
                 <div
                   key={i}
-                  className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between gap-2 shadow-xs"
+                  className={`p-2.5 rounded-xl border flex items-center justify-between gap-2 shadow-xs ${
+                    i === 0 ? 'bg-[#a7f3d0] border-[#10b981] text-[#065f46] font-black' : 'bg-slate-50 border-slate-200 text-slate-900'
+                  }`}
                 >
                   <div className="flex items-center gap-2">
                     <span className="text-base">{sug.icon}</span>
                     <div>
-                      <span className="font-extrabold text-slate-900 block">{sug.type}</span>
-                      <span className="text-[11px] text-stone-600 font-semibold">{sug.ticket}</span>
+                      <span className="font-extrabold block">{sug.type}</span>
+                      <span className="text-[11px] opacity-90 font-semibold">{sug.ticket}</span>
                     </div>
                   </div>
-                  <span className="px-2 py-0.5 rounded bg-rose-50 text-[#881337] border border-rose-200 text-[10px] font-bold shrink-0">
+                  <span className="px-2 py-0.5 rounded bg-[#10b981] text-white text-[10px] font-black shrink-0 shadow-xs">
                     {sug.cost}
                   </span>
                 </div>

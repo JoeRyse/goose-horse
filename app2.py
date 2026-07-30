@@ -675,47 +675,41 @@ def update_homepage():
 
 
 CLEAN_CSS = """
-body { font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f8fafc; padding-top: 70px; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: #0f172a; margin: 0; background: #f4f7f6; padding-top: 65px; }
 * { box-sizing: border-box; }
 .sidebar, .sidebar-title, .sidebar-links, .side-link, .mobile-nav, .back-home, .top-nav { display: none !important; }
-.main-content { margin: 0 auto; padding: 20px; max-width: 1000px; }
-.header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #003366; padding-bottom: 15px; margin-bottom: 15px; background: #fff; padding: 15px;
-border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 0; }
+.main-content { margin: 0 auto; padding: 20px; max-width: 1050px; }
+.header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid #10b981; padding: 16px 20px; margin-bottom: 20px; background: #003366; color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,51,102,0.15); }
 .header-branding { display: flex; align-items: center; flex: 1; }
-.logo { max-height: 50px; margin-right: 15px; width: auto; }
-.header-info h1 { margin: 0; font-size: 1.8rem; color: #003366; text-transform: uppercase; font-weight: 800; line-height: 1.1; }
-.meta { color: #64748b; font-weight: 600; margin-top: 5px; font-size: 0.9rem; }
+.logo { max-height: 48px; margin-right: 15px; width: auto; background: #ffffff; padding: 4px; border-radius: 8px; }
+.header-info h1 { margin: 0; font-size: 1.8rem; color: #ffffff; text-transform: uppercase; font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; }
+.meta { color: #a7f3d0; font-weight: 700; margin-top: 6px; font-size: 0.9rem; }
 .header-tools { display: flex; gap: 10px; align-items: center; }
-.print-btn { background: #fff; border: 1px solid #003366; color: #003366; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px;
-display: inline-flex; align-items: center; gap: 5px; }
-.btn-home { background: #64748b; border: 1px solid #475569; color: #fff; padding: 8px 12px; cursor: pointer; font-weight: 700; border-radius: 4px;
-text-decoration: none; display: inline-flex; align-items: center; gap: 5px; font-size: 14px; }
-.btn-home:hover { background: #475569; }
-.nav-bar { position: fixed; top: 0; left: 0; right: 0; background: #003366; padding: 10px 20px; z-index: 1000; display: flex;
-align-items: center; overflow-x: auto; white-space: nowrap; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
-.nav-label { font-weight: 700; color: #fff; margin-right: 15px; font-size: 0.9rem; }
-.nav-btn { background: rgba(255,255,255,0.15); color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; margin-right: 8px;
-transition: background 0.2s; border: 1px solid rgba(255,255,255,0.2); }
-.nav-btn:hover { background: #ff6b00; border-color: #ff6b00; }
-.race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-scroll-margin-top: 80px; }
-.race-header { background: #fff; border-bottom: 2px solid #ff6b00; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; font-weight: 800;
-color: #003366; font-size: 1.1rem; }
-.picks-grid { display: flex; gap: 10px; padding: 15px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
-.pick-box { flex: 1; background: #fff; padding: 10px; border: 1px solid #e2e8f0; border-top: 4px solid #94a3b8; border-radius: 4px; }
-.panel-best { border-top-color: #fbbf24; background-color: #fffbeb; border-color: #fde68a; } /* Yellow Background for Best Bets (+3.0 Gap) */
-.panel-top { border-top-color: #3b82f6; }
-.panel-danger { border-top-color: #d97706; }
+.print-btn { background: #10b981; border: none; color: #ffffff; padding: 8px 16px; cursor: pointer; font-weight: 800; border-radius: 6px; display: inline-flex; align-items: center; gap: 6px; text-transform: uppercase; font-size: 0.85rem; }
+.print-btn:hover { background: #059669; }
+.btn-home { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #ffffff; padding: 8px 14px; cursor: pointer; font-weight: 700; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; }
+.btn-home:hover { background: rgba(255,255,255,0.25); }
+.nav-bar { position: fixed; top: 0; left: 0; right: 0; background: #003366; padding: 10px 20px; z-index: 1000; display: flex; align-items: center; overflow-x: auto; white-space: nowrap; box-shadow: 0 2px 10px rgba(0,0,0,0.15); border-bottom: 2px solid #10b981; }
+.nav-label { font-weight: 800; color: #ffffff; margin-right: 18px; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; }
+.nav-btn { background: rgba(255,255,255,0.12); color: #ffffff; padding: 7px 14px; text-decoration: none; border-radius: 6px; font-weight: 700; font-size: 0.85rem; margin-right: 8px; transition: all 0.2s; border: 1px solid rgba(255,255,255,0.2); }
+.nav-btn:hover, .nav-btn.active { background: #10b981; color: #ffffff; border-color: #10b981; }
+.race-section { margin-bottom: 25px; border: 1px solid #e2e8f0; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04); scroll-margin-top: 80px; }
+.race-header { background: #003366; border-bottom: 4px solid #10b981; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; font-weight: 900; color: #ffffff; font-size: 1.15rem; }
+.picks-grid { display: flex; gap: 12px; padding: 16px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+.pick-box { flex: 1; background: #ffffff; padding: 12px; border: 1px solid #cbd5e1; border-top: 4px solid #94a3b8; border-radius: 8px; }
+.panel-best { border-top-color: #10b981; background-color: #ecfdf5; border-color: #a7f3d0; } /* Mint Green Accent for Best Bets / Solo Locks */
+.panel-top { border-top-color: #003366; background-color: #f1f5f9; }
+.panel-danger { border-top-color: #f43f5e; background-color: #fff1f2; }
 .table-container { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; margin-top: 0; min-width: 500px; }
-th { background: #f1f5f9; text-align: left; padding: 8px; font-size: 0.9rem; color: #475569; }
-td { padding: 8px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
-.row-top { background: #fefce8; font-weight: 700; color: #854d0e; }
-.exacta-box { margin: 15px; padding: 10px; background: #f1f5f9; border-left: 4px solid #64748b; border-radius: 4px; font-size: 0.95rem; }
-.exacta-gold { background: #fffbeb; border-left-color: #fbbf24; }
+th { background: #003366; text-align: left; padding: 10px 12px; font-size: 0.85rem; color: #ffffff; font-weight: 800; text-transform: uppercase; }
+td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; font-size: 0.95rem; }
+.row-top { background: #d1fae5; font-weight: 800; color: #065f46; } /* Mint Green Row for Top Pick */
+.exacta-box { margin: 16px; padding: 12px 16px; background: #f8fafc; border-left: 4px solid #003366; border-radius: 6px; font-size: 0.95rem; }
+.exacta-gold { background: #ecfdf5; border-left-color: #10b981; font-weight: 700; color: #065f46; }
 @media (max-width: 768px) {
 .main-content { padding: 10px; }
-.header { flex-direction: column; text-align: center; gap: 10px; padding: 15px; }
+.header { flex-direction: column; text-align: center; gap: 12px; padding: 15px; }
 .picks-grid { flex-direction: column; }
 }
 @media print {
