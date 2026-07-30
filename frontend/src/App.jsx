@@ -4,7 +4,7 @@ import Header from './components/Header';
 import RaceNavigator from './components/RaceNavigator';
 import RaceCard from './components/RaceCard';
 import ExoticsCard from './components/ExoticsCard';
-import { RefreshCw, AlertCircle } from 'lucide-react';
+import { RefreshCw, AlertCircle, ShieldCheck } from 'lucide-react';
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -19,6 +19,8 @@ export default function App() {
     const token = localStorage.getItem('exacta_auth_token');
     if (token) {
       setIsAuthenticated(true);
+    } else {
+      setLoading(false);
     }
   }, []);
 
@@ -28,39 +30,53 @@ export default function App() {
     }
   }, [isAuthenticated]);
 
+  const fetchJsonSafely = async (url) => {
+    const res = await fetch(url, { cache: 'no-cache' });
+    const contentType = res.headers.get('content-type') || '';
+    if (!res.ok || (contentType && !contentType.includes('json') && !contentType.includes('javascript') && !contentType.includes('text'))) {
+      throw new Error(`Non-JSON response from ${url}`);
+    }
+    const text = await res.text();
+    try {
+      return JSON.parse(text);
+    } catch (e) {
+      throw new Error(`JSON parse error on ${url}`);
+    }
+  };
+
   const loadMeetings = async () => {
     setLoading(true);
     setError('');
     try {
-      let res = await fetch('/api/meetings');
-      if (!res.ok) {
-        res = await fetch('/api/meetings.json');
+      let data = null;
+      try {
+        data = await fetchJsonSafely('/api/meetings');
+      } catch (e) {
+        data = await fetchJsonSafely('/api/meetings.json');
       }
-      let data = await res.json();
-      if (data.status === 'success' && data.meetings.length > 0) {
+
+      if (data && data.status === 'success' && data.meetings && data.meetings.length > 0) {
         setMeetings(data.meetings);
-        // Default to first published meeting from docs/meetings if available
-        const publishedMeetings = data.meetings.filter(m => m.is_published);
+        const publishedMeetings = data.meetings.filter((m) => m.is_published);
         const defaultMeeting = publishedMeetings.length > 0 ? publishedMeetings[0] : data.meetings[0];
         setActiveMeeting(defaultMeeting);
-        loadMeetingDetails(defaultMeeting.filename);
+        await loadMeetingDetails(defaultMeeting.filename);
       } else {
         setError('No handicapping meetings found.');
       }
     } catch (e) {
       try {
-        const fallbackRes = await fetch('/api/meetings.json');
-        const fallbackData = await fallbackRes.json();
-        if (fallbackData.status === 'success' && fallbackData.meetings.length > 0) {
+        const fallbackData = await fetchJsonSafely('/api/meetings.json');
+        if (fallbackData && fallbackData.status === 'success' && fallbackData.meetings && fallbackData.meetings.length > 0) {
           setMeetings(fallbackData.meetings);
-          const publishedMeetings = fallbackData.meetings.filter(m => m.is_published);
+          const publishedMeetings = fallbackData.meetings.filter((m) => m.is_published);
           const defaultMeeting = publishedMeetings.length > 0 ? publishedMeetings[0] : fallbackData.meetings[0];
           setActiveMeeting(defaultMeeting);
-          loadMeetingDetails(defaultMeeting.filename);
+          await loadMeetingDetails(defaultMeeting.filename);
           return;
         }
       } catch (err) {}
-      setError('Unable to connect to backend server or load static cards.');
+      setError('Unable to load meeting list. Click Clear Cache below to reset.');
     } finally {
       setLoading(false);
     }
@@ -107,23 +123,24 @@ export default function App() {
   const loadMeetingDetails = async (filename) => {
     setLoading(true);
     try {
-      let res = await fetch(`/api/output/${filename}`);
-      if (!res.ok) {
-        res = await fetch(`/api/output/${filename}`);
+      let data = null;
+      try {
+        data = await fetchJsonSafely(`/api/output/${filename}`);
+      } catch (e) {
+        data = await fetchJsonSafely(`/api/output/${filename}`);
       }
-      let data = await res.json();
-      if (data.status === 'success') {
+
+      if (data.status === 'success' && data.data) {
         setMeetingData(enrichMeetingRaces(data.data));
         setActiveRaceIndex(0);
       } else if (data.races || data.meta) {
-        // Direct static JSON payload
         setMeetingData(enrichMeetingRaces(data));
         setActiveRaceIndex(0);
       } else {
         setError(data.error || 'Failed to parse meeting data.');
       }
     } catch (e) {
-      setError('Failed to fetch race details.');
+      setError('Failed to fetch race details for this track.');
     } finally {
       setLoading(false);
     }
@@ -132,6 +149,12 @@ export default function App() {
   const handleSelectMeeting = (m) => {
     setActiveMeeting(m);
     loadMeetingDetails(m.filename);
+  };
+
+  const handleResetStorage = () => {
+    localStorage.clear();
+    sessionStorage.clear();
+    window.location.reload();
   };
 
   if (!isAuthenticated) {
@@ -150,39 +173,42 @@ export default function App() {
         onSelectMeeting={handleSelectMeeting}
       />
 
-      {/* Race Tab Switcher */}
-      {meetingData?.races && (
+      {/* Sticky Race Navigation Bar */}
+      {meetingData && (
         <RaceNavigator
-          races={meetingData.races}
+          races={allRaces}
           activeRaceIndex={activeRaceIndex}
           onSelectRace={(idx) => setActiveRaceIndex(idx)}
         />
       )}
 
-      {/* Main Body Content (Screen View) */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6 print:hidden">
+      {/* Main Content Body */}
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6">
         {loading ? (
-          <div className="py-24 text-center space-y-3 font-mono">
-            <RefreshCw className="w-8 h-8 text-emerald-600 animate-spin mx-auto" />
-            <p className="text-sm text-slate-600 font-bold">
-              LOADING HANDICAPPING RACE CARDS...
-            </p>
+          <div className="flex flex-col items-center justify-center py-24 space-y-4 font-mono">
+            <RefreshCw className="w-8 h-8 text-[#10b981] animate-spin" />
+            <div className="text-center">
+              <h3 className="text-sm font-bold text-slate-900">LOADING RACE CARDS...</h3>
+              <p className="text-xs text-slate-500 mt-1">Retrieving AI handicapping analysis</p>
+            </div>
           </div>
         ) : error ? (
-          <div className="max-w-md mx-auto p-6 rounded-2xl bg-white border border-rose-200 text-center space-y-3 font-mono shadow-sm">
-            <AlertCircle className="w-8 h-8 text-rose-600 mx-auto" />
-            <p className="text-sm font-bold text-rose-900">{error}</p>
+          <div className="max-w-md mx-auto py-12 text-center font-mono space-y-4">
+            <div className="p-4 bg-rose-50 border border-rose-200 rounded-2xl text-rose-900 text-xs font-bold flex flex-col items-center gap-2">
+              <AlertCircle className="w-6 h-6 text-rose-600" />
+              <span>{error}</span>
+            </div>
             <button
-              onClick={loadMeetings}
-              className="px-4 py-2 rounded-xl bg-slate-900 text-xs text-white font-bold hover:bg-slate-800"
+              onClick={handleResetStorage}
+              className="px-4 py-2 bg-[#003366] text-white text-xs font-bold rounded-xl shadow-md hover:bg-blue-900"
             >
-              RETRY CONNECTION
+              🔄 CLEAR LOCAL CACHE & REFRESH
             </button>
           </div>
         ) : activeRaceIndex === 'EXOTICS' ? (
           <ExoticsCard
             exoticTickets={meetingData?.exotic_tickets}
-            dailyDoubles={meetingData?.daily_double_plays}
+            dailyDoubles={meetingData?.daily_doubles}
           />
         ) : (
           <RaceCard
@@ -193,29 +219,18 @@ export default function App() {
         )}
       </main>
 
-      {/* Full Card Print View (Rendered only on Print for PDF Output) */}
-      {meetingData && (
-        <div className="hidden print:block max-w-none w-full p-4 bg-white text-black font-sans">
-          {/* Print all races sequentially */}
-          {allRaces.map((r, i) => (
-            <RaceCard
-              key={i}
-              race={r}
-              trackName={activeMeeting?.track}
-              dateStr={activeMeeting?.date}
-              isPrintAllMode={true}
-            />
-          ))}
-
-          {/* Print Exotics & Multi-Race Plays Sheet at the end */}
-          <div className="mt-8 pt-4 border-t-2 border-slate-900">
-            <ExoticsCard
-              exoticTickets={meetingData.exotic_tickets}
-              dailyDoubles={meetingData.daily_double_plays}
-            />
-          </div>
+      {/* Footer */}
+      <footer className="bg-white border-t border-slate-200 py-4 px-4 text-center font-mono text-xs text-slate-500 print:hidden flex items-center justify-center justify-between max-w-7xl mx-auto w-full">
+        <div>
+          EXACTA AI • Professional Sportsbook Handicapping Protocol
         </div>
-      )}
+        <button
+          onClick={handleResetStorage}
+          className="text-[11px] font-semibold text-slate-400 hover:text-slate-700 underline"
+        >
+          Reset Session Cache
+        </button>
+      </footer>
     </div>
   );
 }
