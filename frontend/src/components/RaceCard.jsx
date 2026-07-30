@@ -147,10 +147,11 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
               const hNum = horse.number || horse.program_number || `${idx + 1}`;
               const hName = horse.name || horse.horse_name || 'Unnamed';
               const rating = parseFloat(horse.rating) || parseFloat(horse.features?.ai_holistic_score) || 75.0;
-              const isSoloLock = horse.is_solo_lock;
-              const isBestBet = horse.is_best_bet;
-              const reason = horse.reason || horse.handicapper_notes || '';
               const isTopPick = (idx === 0);
+              const gap = parseFloat(race.rating_gap) || 0;
+              const isSoloLock = horse.is_solo_lock || (isTopPick && (gap >= 5.0 || race.has_solo_lock));
+              const isBestBet = horse.is_best_bet || (isTopPick && (gap >= 3.0 || race.has_best_bet) && !isSoloLock);
+              const reason = horse.reason || horse.handicapper_notes || '';
 
               return (
                 <div
@@ -178,8 +179,8 @@ export default function RaceCard({ race, trackName, dateStr, isPrintAllMode = fa
                           <h4 className="text-base font-black text-slate-900 tracking-tight font-sans">
                             {hName}
                           </h4>
-                          {isSoloLock && <SoloLockBadge gap={race.rating_gap} />}
-                          {!isSoloLock && isBestBet && <BestBetBadge gap={race.rating_gap} />}
+                          {isSoloLock && <SoloLockBadge gap={gap || 5.0} />}
+                          {!isSoloLock && isBestBet && <BestBetBadge gap={gap || 3.0} />}
                           {isTopPick && !isSoloLock && !isBestBet && (
                             <span className="px-2.5 py-0.5 rounded text-[10px] font-mono font-black bg-[#10b981] text-white uppercase shadow-xs">
                               🏁 TOP PICK

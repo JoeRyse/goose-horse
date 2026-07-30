@@ -10,8 +10,9 @@ export default function RaceNavigator({ races = [], activeRaceIndex, onSelectRac
         {races.map((race, idx) => {
           const rNum = race.number || idx + 1;
           const isActive = activeRaceIndex === idx;
-          const hasSoloLock = race.has_solo_lock;
-          const hasBestBet = race.has_best_bet;
+          const gap = parseFloat(race.rating_gap) || 0;
+          const hasSoloLock = race.has_solo_lock || gap >= 5.0;
+          const hasBestBet = race.has_best_bet || gap >= 3.0;
 
           return (
             <button

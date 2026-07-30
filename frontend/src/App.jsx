@@ -66,6 +66,44 @@ export default function App() {
     }
   };
 
+  const enrichMeetingRaces = (rawMeetingData) => {
+    if (!rawMeetingData || !rawMeetingData.races) return rawMeetingData;
+    const enrichedRaces = rawMeetingData.races.map((race) => {
+      const contenders = race.all_contenders || race.selections || [];
+      let gap = race.rating_gap || 0;
+      let hasSoloLock = race.has_solo_lock || false;
+      let hasBestBet = race.has_best_bet || false;
+
+      if (contenders.length >= 2) {
+        const r1 = parseFloat(contenders[0].rating) || parseFloat(contenders[0].features?.ai_holistic_score) || 0;
+        const r2 = parseFloat(contenders[1].rating) || parseFloat(contenders[1].features?.ai_holistic_score) || 0;
+        gap = r1 - r2;
+
+        if (r1 >= 88.0 && gap >= 5.0) {
+          hasSoloLock = true;
+          hasBestBet = true;
+          contenders[0].is_solo_lock = true;
+        } else if (gap >= 3.0) {
+          hasBestBet = true;
+          contenders[0].is_best_bet = true;
+        }
+      }
+
+      return {
+        ...race,
+        rating_gap: gap,
+        has_solo_lock: hasSoloLock,
+        has_best_bet: hasBestBet,
+        all_contenders: contenders,
+      };
+    });
+
+    return {
+      ...rawMeetingData,
+      races: enrichedRaces,
+    };
+  };
+
   const loadMeetingDetails = async (filename) => {
     setLoading(true);
     try {
@@ -75,11 +113,11 @@ export default function App() {
       }
       let data = await res.json();
       if (data.status === 'success') {
-        setMeetingData(data.data);
+        setMeetingData(enrichMeetingRaces(data.data));
         setActiveRaceIndex(0);
       } else if (data.races || data.meta) {
         // Direct static JSON payload
-        setMeetingData(data);
+        setMeetingData(enrichMeetingRaces(data));
         setActiveRaceIndex(0);
       } else {
         setError(data.error || 'Failed to parse meeting data.');
