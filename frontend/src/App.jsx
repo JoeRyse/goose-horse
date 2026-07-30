@@ -182,8 +182,8 @@ export default function App() {
         />
       )}
 
-      {/* Main Content Body */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6">
+      {/* Main Content Body (Screen View) */}
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6 print:hidden">
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 space-y-4 font-mono">
             <RefreshCw className="w-8 h-8 text-[#10b981] animate-spin" />
@@ -218,6 +218,42 @@ export default function App() {
           />
         )}
       </main>
+
+      {/* PRINT-ONLY FULL CARD CONTAINER (Prints Entire Card: All Races + Exotics Sheet) */}
+      {!loading && !error && meetingData && (
+        <div className="hidden print:block w-full text-black space-y-6">
+          {/* Track Header Line */}
+          <div className="border-b-4 border-black pb-2 mb-4">
+            <h1 className="text-xl font-black uppercase font-mono tracking-tight">
+              {activeMeeting?.track || 'RACETRACK'} — FULL DAILY RACING PROGRAM
+            </h1>
+            <div className="text-xs font-mono font-bold flex justify-between mt-1">
+              <span>DATE: {activeMeeting?.date}</span>
+              <span>TRACK CONDITION: {activeMeeting?.track_condition || 'Standard'}</span>
+              <span>TOTAL RACES: {allRaces.length}</span>
+            </div>
+          </div>
+
+          {/* Render All Races Sequentially */}
+          {allRaces.map((raceObj, rIdx) => (
+            <RaceCard
+              key={rIdx}
+              race={raceObj}
+              trackName={activeMeeting?.track}
+              dateStr={activeMeeting?.date}
+              isPrintAllMode={true}
+            />
+          ))}
+
+          {/* Render Multi-Race & Exotics Sheet */}
+          <div className="pt-4 border-t-2 border-black">
+            <ExoticsCard
+              exoticTickets={meetingData?.exotic_tickets}
+              dailyDoubles={meetingData?.daily_doubles}
+            />
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-4 px-4 text-center font-mono text-xs text-slate-500 print:hidden flex items-center justify-center justify-between max-w-7xl mx-auto w-full">
