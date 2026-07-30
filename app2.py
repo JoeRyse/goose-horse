@@ -15,6 +15,21 @@ import streamlit.components.v1 as components
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
 
+# Automatically clear client local/session storage on first load for view-only Vercel deployment
+components.html(
+    """
+    <script>
+        if (!sessionStorage.getItem('cache_cleared')) {
+            localStorage.clear();
+            sessionStorage.setItem('cache_cleared', 'true');
+            window.location.reload();
+        }
+    </script>
+    """,
+    height=0,
+    width=0
+)
+
 # PATHS
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
