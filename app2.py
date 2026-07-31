@@ -1169,11 +1169,12 @@ with tab_handicap:
                         [CRITICAL HANDICAPPING DIRECTIVES FOR RACE {race_num}]
                             1. ANALYZE RACE {race_num} ONLY.
                             2. SCRATCHES ARE ABSOLUTE: Fully ignore scratched horses listed above.
-                            3. FIELD COVERAGE: Extract and rank AT LEAST 5 to 6 CONTENDERS in 'contenders'.
-                            4. ENFORCE OVERRIDE RULES:
+                            3. OFF-TURF DIRECTIVE: If scratches/updates state 'all races off the turf', 'off turf', 'off-turf', or 'moved to dirt', treat ALL turf races as DIRT races! Re-evaluate contenders based on dirt speed figures, dirt past performances, and prioritize Main Track Only (MTO) entrants!
+                            4. FIELD COVERAGE: Extract and rank AT LEAST 5 to 6 CONTENDERS in 'contenders'.
+                            5. ENFORCE OVERRIDE RULES:
                             - Class Drop Elevator: If dropping from MSW ($75k+) or Allowance to MCL/CLM, set 'class_drop_bonus_applied': true and grant +10 points.
                             - Post-Scratch Lone Speed: If scratches leave only ONE 'E' runner, set 'is_lone_speed': true, set 'pace_scenario_eval': 'Lone Speed (+6)', and grant +6 points.
-                            5. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
+                            6. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
                         """
 
             try:
@@ -1296,14 +1297,18 @@ with tab_handicap:
           }
 
           for race in raw_extracted_data:
+            is_global_off_turf = any(k in scratches.lower() for k in ["off the turf", "off turf", "off-turf", "moved to dirt"])
+            raw_surf = (
+                race.get("distance_surface", "").split(" ")[-1]
+                if " " in race.get("distance_surface", "")
+                else ""
+            )
+            parsed_surf = "Dirt" if (is_global_off_turf and "turf" in raw_surf.lower()) or "dirt" in raw_surf.lower() else raw_surf
+
             new_race = {
                 "number": race.get("race_number", 0),
                 "distance": race.get("distance_surface", ""),
-                "surface": (
-                    race.get("distance_surface", "").split(" ")[-1]
-                    if " " in race.get("distance_surface", "")
-                    else ""
-                ),
+                "surface": parsed_surf,
                 "confidence_level": race.get("confidence_level", "Medium"),
                 "raw_features_dump": race,
                 "selections": [],

@@ -558,7 +558,7 @@ if st.button("Analyze Race Card (Preview Only)", type="primary"):
                 [CRITICAL INSTRUCTIONS]
                 1. Start at Race 1.
                 2. Provide exactly 4 selections per race in strict order of preference (1st, 2nd, 3rd, 4th).
-                3. EXTRACT SURFACE: Identify the surface (Dirt, Turf, Synthetic) for each race individually from the PDF.
+                3. EXTRACT SURFACE & OFF-TURF DIRECTIVE: Identify the surface for each race individually. If UPDATES/SCRATCHES mention 'all races off the turf', 'off turf', 'off-turf', or 'moved to dirt', treat ALL turf races as DIRT races! Re-evaluate contenders based on dirt speed figures, dirt past performances, and prioritize Main Track Only (MTO) entrants.
                 4. EXTRACT BARRIER/POST: You must extract the post position (barrier) for every selection. If only one number exists, use that.
                 5. DANGER HORSE RULE: Only list a Danger Horse if there is a LEGITIMATE threat (e.g. class drop, track specialist). If the Top Pick is a standout (High Confidence) and the field is weak, set "danger_horse": null (or "None"). Do NOT force a danger horse if none exists.
                 6. STRATEGY: Provide a specific betting strategy based on confidence.
