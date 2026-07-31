@@ -1,16 +1,36 @@
 {
-    "location": "Rockhampton, QLD",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "600m",
-    "bias_notes": "Callaghan Park features one of the longest straights in Australia (600m).",
+    "track_code": "ROCK",
+    "location": "Rockhampton, Central Queensland, QLD, Australia",
+    "nicknames": [
+        "Callaghan Park",
+        "The Central Queensland Hub",
+        "Home of the Rockhampton Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf",
+            "stretch_length": "600 metres",
+            "bias_notes": "Clockwise. Callaghan Park boasts a massive 600m home straight—one of the longest in Australian thoroughbred racing. The long straight and sweeping bends provide an exceptionally fair racing surface where patient closers receive every opportunity to build momentum. Front-runners who over-commit early are frequently run down in the final 100m.",
+            "post_bias": "Dedicated starting chutes for 1050m and 1200m distances provide long runs into the main turn, significantly reducing outer barrier penalties. In 1400m and 1600m races, inside-to-middle draws (1-6) hold a slight advantage by saving ground into the back stretch bend."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Fair due to the long straight."
+        "massive_600m_home_straight_swooper_advantage": "Callaghan Park's 600m home straight is a paradise for patient closers ('Swoopers'). Strongly upgrade horses with proven late 600m/400m closing sectionals. Pure front-runners ('L') carrying top weight often falter under pressure over the final 150m.",
+        "brisbane_and_provincial_dropdowns": "As Central Queensland's premier racing hub, Rockhampton frequently attracts horses shipping down from Brisbane Metro (Eagle Farm, Doomben) or Provincial tracks (Sunshine Coast, Gold Coast). Heavily upgrade metro/provincial drop-downs competing against local benchmark fields.",
+        "rockhampton_cup_winter_carnival_class": "During the Rockhampton Winter Carnival in July (featuring the Rockhampton Cup and Newmarket Handicap), field quality elevates to Metropolitan standards. Prioritize runners with proven Brisbane or Sydney Metro class ratings.",
+        "wet_track_sandmesh_drainage": "Callaghan Park features an upgraded sand-mesh track profile with excellent drainage. On Soft/Heavy tracks, wide sweeping runs down the center of the 600m straight often prove superior to the inside rail.",
+        "dominant_cq_stables_and_jockeys": "Pay strong respect to premier Central Queensland stables (Graeme Green, Ricky Vale, Nick Walsh, Clinton Taylor) and top regional jockeys (Ashley Butler, Justin Stanley, Warwick Satherley) when mapping pace and late strength."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 3 (QLD Regional / Central Queensland Hub)",
+        "class_rating": 87,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+0.5"
+        },
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_Queensland"
 }

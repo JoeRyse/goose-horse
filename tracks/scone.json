@@ -1,32 +1,35 @@
 {
     "track_code": "SCON",
-    "location": "Hunter Valley, NSW",
+    "location": "Scone, Hunter Valley, NSW, Australia",
     "nicknames": [
-        "The Horse Capital of Australia"
+        "The Horse Capital of Australia",
+        "Scone Race Club",
+        "Hunter Valley Headquarters"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,902 metres",
             "surface": "Turf",
             "stretch_length": "400 metres",
-            "bias_notes": "Clockwise. A magnificent, expansive track that is universally considered one of the fairest in New South Wales. The sweeping turns and long 400m straight ensure that every horse gets their chance, whether leading or swooping from the back.",
-            "post_bias": "Because of the wide, sweeping nature of the track and long runs to the first turn in most distances (especially the 1100m and 1300m chutes), outside barrier draws are far less penalizing here than at standard NSW country tracks."
+            "bias_notes": "Clockwise. A premier 1,902m championship oval featuring sweeping turns, cambered bends, and a magnificent 400m home straight. Universally recognized as one of the fairest and highest-quality racing surfaces in regional Australia. Features dedicated starting chutes for 1100m, 1300m, and 1700m races. The wide track and long straight ensure all running styles receive a fair contest.",
+            "post_bias": "Generous starting chutes for 1100m and 1300m distances provide long runs before the first sweeping turn, significantly minimizing outer barrier penalties. In 900m scurry sprints, inside-to-middle draws (1-5) hold a slight advantage into the turn. In route events (1600m+), patient closers drawn mid-track find ample room to wind up around the bend."
         }
     },
     "handicapping_angles": {
-        "the_hunter_valley_premium": "Because Scone is surrounded by elite breeding farms, local trainers (like Paul Messara) often debut highly touted, incredibly well-bred horses here. Always respect first-starters from elite local yards.",
-        "swooper_friendly": "Unlike tight NSW tracks like Canterbury or Wyong, Scone\u2019s 400m straight allows deep closers to build through their gears. Heavily upgrade horses with strong late sectionals; pure front-runners are often run down in the final 50m.",
-        "carnival_form_translation": "During the Scone Cup Carnival (May), the form is effectively Metropolitan grade. Horses that perform well here during the carnival should be given minimal class penalties when shipping to Randwick or Rosehill."
+        "hunter_valley_breeding_and_elite_stables": "Surrounded by Australia's world-famous breeding studs (Arrowfield, Coolmore, Godolphin), Scone houses elite local trainers like Paul Messara & Leah Gavranich, Brett Cavanough, and Scott Singleton. Heavily upgrade first-starters, 2YO/3YO well-bred trial winners, and Sydney metro drop-downs.",
+        "scone_cup_carnival_metro_class_translation": "During the iconic 2-day Standalone Scone Cup Carnival in May, racing quality matches Sydney Metropolitan Grade (Group 3 / Listed). Horses performing well here during the carnival should be treated as Metro-grade contenders.",
+        "fair_400m_home_straight": "Scone's wide layout and generous 400m home stretch prevent pure front-runner locks. Off-pace stalkers ('P') and strong-finishing closers ('Swoopers') with top late 400m/200m sectionals regularly run down exhausted early leaders.",
+        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 60kg+ face a strict penalty. Prioritize fit, well-weighted drop-downs or skilled claiming apprentices on top-rated runners."
     },
     "par_adjustment": {
-        "tier": "Tier 3.5 (Premium Country)",
-        "class_rating": 88,
+        "tier": "Tier 2 (NSW Premier Country / Hunter Headquarters)",
+        "class_rating": 92,
         "speed_par_offsets": {
-            "turf_sprint": "-1.5",
-            "turf_route": "-1.0"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": -1.0,
-        "points": -3.0
+        "lengths": 1.5,
+        "points": 3.0
     },
-    "region_group": "Australia_Thoroughbred_Queensland"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }
