@@ -1270,6 +1270,17 @@ with tab_handicap:
               if field_size >= 14:
                 score -= 2.5 # Large handicap field traffic penalty
 
+            # 4. Wolverhampton Tapeta Short Straight & Short Chute Draw Rules
+            if "wolverhampton" in track_clean or "wolv" in track_clean:
+              if bar_int >= 8:
+                score -= 4.0 # Wide draw penalty into sharp turn
+              elif bar_int >= 1 and bar_int <= 4:
+                score += 3.0 # Inside rail advantage on Tapeta
+              if str(running_style).upper() in ["E", "P", "LEADER", "PRESSER"]:
+                score += 3.5 # Tapeta short home-straight advantage
+              elif str(running_style).upper() in ["C", "CLOSER"]:
+                score -= 2.5 # Deep closers penalized on short run-in
+
             return round(score, 1)
 
           # --- 5. POST-PROCESSING MASTER ACCUMULATOR ---
