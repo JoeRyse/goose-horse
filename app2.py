@@ -13,7 +13,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
+st.set_page_config(page_title="Exacta AI | Finding Value in Every Race", page_icon="🏇", layout="wide")
 
 # PATHS
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -1221,7 +1221,7 @@ with tab_handicap:
           except:
             pass
 
-          def calculate_local_rating(features):
+          def calculate_local_rating(features, barrier_num="", running_style="", race_surf="", race_dist="", field_size=0):
             try:
               score = float(features.get("ai_holistic_score", 80))
             except:
@@ -1244,6 +1244,31 @@ with tab_handicap:
               score += float(track_weights.get("trouble_trip_bonus", 2))
             elif trip == "Grade B":
               score += float(track_weights.get("trouble_trip_bonus", 1))
+
+            # --- TRACK SPECIFIC BIAS CALIBRATION (Del Mar, Saratoga & Goodwood) ---
+            track_clean = str(selected_track).lower()
+            bar_int = int(barrier_num) if str(barrier_num).isdigit() else 0
+
+            # 1. Outer Barrier Draw Penalty & Inner Rail Bonus
+            if bar_int >= 7:
+              if "del mar" in track_clean or "saratoga" in track_clean:
+                score -= 4.0
+            elif bar_int >= 1 and bar_int <= 3:
+              if "del mar" in track_clean:
+                score += 3.0
+
+            # 2. Saratoga Dirt Speed & Class Elevator
+            if "saratoga" in track_clean and "dirt" in str(race_surf).lower():
+              if str(class_drop).lower() == "true":
+                score += 3.0
+
+            # 3. Goodwood Long-Distance Stamina & Large Handicap Traffic Rules
+            if "goodwood" in track_clean:
+              d_lower = str(race_dist).lower()
+              if any(k in d_lower for k in ["1 1/4", "1 1/2", "2 mile", "1 3/4", "10f", "12f", "14f", "16f"]):
+                score += 4.0 # Long Distance Class & Stamina Boost
+              if field_size >= 14:
+                score -= 2.5 # Large handicap field traffic penalty
 
             return round(score, 1)
 
@@ -1277,7 +1302,20 @@ with tab_handicap:
             scored_contenders = []
             for horse in race.get("contenders", []):
               feats = horse.get("features", {})
-              rating = calculate_local_rating(feats)
+              prog_num = str(
+                  horse.get("program_number", horse.get("number", ""))
+              )
+              barrier_num = str(horse.get("barrier", ""))
+              running_style = feats.get("running_style", "")
+
+              rating = calculate_local_rating(
+                  feats,
+                  barrier_num=barrier_num,
+                  running_style=running_style,
+                  race_surf=new_race["surface"],
+                  race_dist=new_race["distance"],
+                  field_size=len(race.get("contenders", []))
+              )
               ai_notes = horse.get("handicapper_notes", "No notes provided.")
 
               prog_num = str(

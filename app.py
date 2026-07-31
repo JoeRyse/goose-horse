@@ -11,7 +11,7 @@ import csv
 from datetime import datetime
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="Exacta AI", page_icon="🏇", layout="wide")
+st.set_page_config(page_title="Exacta AI | Finding Value in Every Race", page_icon="🏇", layout="wide")
 
 # PATHS
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

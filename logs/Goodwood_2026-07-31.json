@@ -1,0 +1,1634 @@
+{
+    "meta": {
+        "track": "Goodwood",
+        "date": "2026-07-31",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "2 5/8 Miles Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "2 5/8 Miles Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 8 over 1, 3, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "16",
+                        "horse_name": "Believitanducan",
+                        "handicapper_notes": "Enters on a red-hot three-race winning streak over marathon trips including a victory at Newcastle last time out. William Buick retains the ride for trainer Alan King and horse exhibits ideal balance for Goodwood's downhill turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Valiancy",
+                        "handicapper_notes": "Highly consistent four-year-old from the William Haggas yard with James Doyle up. Posted a field-topping speed rating of 98 two starts back in a cozy win at Hamilton and stays extreme distances well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "17",
+                        "horse_name": "Berkshire Sundance",
+                        "handicapper_notes": "Multiple winner over two miles this season for Andrew Balding. Oisin Murphy takes the reins on this nimble gelding who possesses a sharp turn of foot suited to the downhill descent.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Maxi King",
+                        "handicapper_notes": "Classy topweight in the field who benefits from apprentice Toby Moore's 7lb weight relief. Runner-up at Chester over 2m 3f and holds premier Class 107 rating credentials.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "15",
+                        "horse_name": "Defiantly",
+                        "handicapper_notes": "Irish challenger from Joseph O'Brien's powerful stable. Just missed by a nose at Royal Ascot over 2 1/2 miles and Dylan Browne McMonagle stays aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Annabel's Ghost",
+                        "handicapper_notes": "French import trained by Mickael Seror with elite jockey Pierre-Charles Boudot booked. Recorded a strong 101 speed figure when staying on at Ascot last month.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "16",
+                    "name": "Believitanducan",
+                    "rating": 95.0,
+                    "reason": "Enters on a red-hot three-race winning streak over marathon trips including a victory at Newcastle last time out. William Buick retains the ride for trainer Alan King and horse exhibits ideal balance for Goodwood's downhill turn."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Valiancy",
+                    "rating": 90.0,
+                    "reason": "Highly consistent four-year-old from the William Haggas yard with James Doyle up. Posted a field-topping speed rating of 98 two starts back in a cozy win at Hamilton and stays extreme distances well."
+                },
+                {
+                    "number": "5",
+                    "barrier": "17",
+                    "name": "Berkshire Sundance",
+                    "rating": 87.0,
+                    "reason": "Multiple winner over two miles this season for Andrew Balding. Oisin Murphy takes the reins on this nimble gelding who possesses a sharp turn of foot suited to the downhill descent."
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Maxi King",
+                    "rating": 86.0,
+                    "reason": "Classy topweight in the field who benefits from apprentice Toby Moore's 7lb weight relief. Runner-up at Chester over 2m 3f and holds premier Class 107 rating credentials."
+                },
+                {
+                    "number": "3",
+                    "barrier": "15",
+                    "name": "Defiantly",
+                    "rating": 85.0,
+                    "reason": "Irish challenger from Joseph O'Brien's powerful stable. Just missed by a nose at Royal Ascot over 2 1/2 miles and Dylan Browne McMonagle stays aboard."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "16",
+                    "name": "Believitanducan",
+                    "rating": 95.0,
+                    "reason": "Enters on a red-hot three-race winning streak over marathon trips including a victory at Newcastle last time out. William Buick retains the ride for trainer Alan King and horse exhibits ideal balance for Goodwood's downhill turn."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Valiancy",
+                    "rating": 90.0,
+                    "reason": "Highly consistent four-year-old from the William Haggas yard with James Doyle up. Posted a field-topping speed rating of 98 two starts back in a cozy win at Hamilton and stays extreme distances well."
+                },
+                {
+                    "number": "5",
+                    "barrier": "17",
+                    "name": "Berkshire Sundance",
+                    "rating": 87.0,
+                    "reason": "Multiple winner over two miles this season for Andrew Balding. Oisin Murphy takes the reins on this nimble gelding who possesses a sharp turn of foot suited to the downhill descent."
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Maxi King",
+                    "rating": 86.0,
+                    "reason": "Classy topweight in the field who benefits from apprentice Toby Moore's 7lb weight relief. Runner-up at Chester over 2m 3f and holds premier Class 107 rating credentials."
+                },
+                {
+                    "number": "3",
+                    "barrier": "15",
+                    "name": "Defiantly",
+                    "rating": 85.0,
+                    "reason": "Irish challenger from Joseph O'Brien's powerful stable. Just missed by a nose at Royal Ascot over 2 1/2 miles and Dylan Browne McMonagle stays aboard."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Annabel's Ghost",
+                    "rating": 83.0,
+                    "reason": "French import trained by Mickael Seror with elite jockey Pierre-Charles Boudot booked. Recorded a strong 101 speed figure when staying on at Ascot last month."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "15",
+                "name": "Defiantly",
+                "rating": 85.0,
+                "reason": "Irish challenger from Joseph O'Brien's powerful stable. Just missed by a nose at Royal Ascot over 2 1/2 miles and Dylan Browne McMonagle stays aboard."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Believitanducan</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#4, #5, #3) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 6 over 4, 5, 2; Trifecta 6 with 4, 5 with 2, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Talk Of New York",
+                        "handicapper_notes": "Dominant top pick dropping into Group 3 company following a highly impressive 3rd in the Group 1 St James's Palace Stakes at Royal Ascot (112 speed rating). Previously thrashed Andab by 5.5 lengths at Sandown over 1m. Holds a massive class and speed figure advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "3",
+                        "horse_name": "Saber Strike (ire)",
+                        "handicapper_notes": "Very reliable Haggas inmate coming off a solid 3rd at York (108 speed rating) over 7f and a previous winning effort at Newmarket. Steps back up to 1m where his high finishing speed fits well on Goodwood's downhill stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Shayem (ire)",
+                        "handicapper_notes": "Game winner over 1m at Newmarket last time out with a 106 speed rating. Possesses early gate speed to control or press the pace, making him dangerous navigating the lower bend.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Setter",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Catullus (ire)",
+                        "handicapper_notes": "Appleby runner who won comfortably over 7f at Goodwood in May, proving he handles the downland geometry and camber. Well-balanced horse who receives a course suitability upgrade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Andab (ire)",
+                        "handicapper_notes": "Group 3 placed runner at Royal Ascot behind The Secret Adversary. Possesses high class ratings (112 class rating) but has to overturn a 5.5 length margin against Talk Of New York from Sandown.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Yazin",
+                        "handicapper_notes": "Ryan Moore aboard for John & Thady Gosden. Scored easily at Southwell earlier in the season but was well beaten by Talk Of New York at Sandown. Needs significant improvement to challenge top selections.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Five Ways",
+                        "handicapper_notes": "Consistently runs around 104 speed figures in 5f-7f sprints. Stretching out to a mile for the first time raises stamina questions against pattern-class opposition.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Talk Of New York",
+                    "rating": 94.0,
+                    "reason": "Dominant top pick dropping into Group 3 company following a highly impressive 3rd in the Group 1 St James's Palace Stakes at Royal Ascot (112 speed rating). Previously thrashed Andab by 5.5 lengths at Sandown over 1m. Holds a massive class and speed figure advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Saber Strike (ire)",
+                    "rating": 88.0,
+                    "reason": "Very reliable Haggas inmate coming off a solid 3rd at York (108 speed rating) over 7f and a previous winning effort at Newmarket. Steps back up to 1m where his high finishing speed fits well on Goodwood's downhill stretch. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Shayem (ire)",
+                    "rating": 86.0,
+                    "reason": "Game winner over 1m at Newmarket last time out with a 106 speed rating. Possesses early gate speed to control or press the pace, making him dangerous navigating the lower bend."
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Catullus (ire)",
+                    "rating": 84.0,
+                    "reason": "Appleby runner who won comfortably over 7f at Goodwood in May, proving he handles the downland geometry and camber. Well-balanced horse who receives a course suitability upgrade. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Andab (ire)",
+                    "rating": 82.0,
+                    "reason": "Group 3 placed runner at Royal Ascot behind The Secret Adversary. Possesses high class ratings (112 class rating) but has to overturn a 5.5 length margin against Talk Of New York from Sandown."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Talk Of New York",
+                    "rating": 94.0,
+                    "reason": "Dominant top pick dropping into Group 3 company following a highly impressive 3rd in the Group 1 St James's Palace Stakes at Royal Ascot (112 speed rating). Previously thrashed Andab by 5.5 lengths at Sandown over 1m. Holds a massive class and speed figure advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Saber Strike (ire)",
+                    "rating": 88.0,
+                    "reason": "Very reliable Haggas inmate coming off a solid 3rd at York (108 speed rating) over 7f and a previous winning effort at Newmarket. Steps back up to 1m where his high finishing speed fits well on Goodwood's downhill stretch. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Shayem (ire)",
+                    "rating": 86.0,
+                    "reason": "Game winner over 1m at Newmarket last time out with a 106 speed rating. Possesses early gate speed to control or press the pace, making him dangerous navigating the lower bend."
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Catullus (ire)",
+                    "rating": 84.0,
+                    "reason": "Appleby runner who won comfortably over 7f at Goodwood in May, proving he handles the downland geometry and camber. Well-balanced horse who receives a course suitability upgrade. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Andab (ire)",
+                    "rating": 82.0,
+                    "reason": "Group 3 placed runner at Royal Ascot behind The Secret Adversary. Possesses high class ratings (112 class rating) but has to overturn a 5.5 length margin against Talk Of New York from Sandown."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Yazin",
+                    "rating": 80.0,
+                    "reason": "Ryan Moore aboard for John & Thady Gosden. Scored easily at Southwell earlier in the season but was well beaten by Talk Of New York at Sandown. Needs significant improvement to challenge top selections."
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Five Ways",
+                    "rating": 78.0,
+                    "reason": "Consistently runs around 104 speed figures in 5f-7f sprints. Stretching out to a mile for the first time raises stamina questions against pattern-class opposition. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "3",
+                "name": "Saber Strike (ire)",
+                "rating": 88.0,
+                "reason": "Very reliable Haggas inmate coming off a solid 3rd at York (108 speed rating) over 7f and a previous winning effort at Newmarket. Steps back up to 1m where his high finishing speed fits well on Goodwood's downhill stretch. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#6 Talk Of New York</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #6 over (#4, #5) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 6 over 10, 16, 17",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Indalo (IRE)",
+                        "handicapper_notes": "Impressive winner at Sandown last time out posting a 102 speed figure and class-leading 117 rating. Ideally drawn in stall 6 to save ground navigating Goodwood's sharp lower turn. Fits the handy presser profile perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "18",
+                        "horse_name": "Scoville",
+                        "handicapper_notes": "Highly progressive 4-year-old for William Haggas and Tom Marquand. Lightly raced with high upside, though must overcome a wider draw in stall 18. Possesses strong early tactical pace to cross over early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16",
+                        "barrier": "1",
+                        "horse_name": "Beagle Bay (FR)",
+                        "handicapper_notes": "In career-best form having won 3 of last 4 starts, including a smooth victory at Sandown. Drawn perfectly in stall 1 to hug the rail and avoid traffic. Carries a feather weight of 127 lbs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Ground Saver",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "17",
+                        "barrier": "4",
+                        "horse_name": "Tribal Chief (FR)",
+                        "handicapper_notes": "Proven course-and-distance winner over Goodwood's undulating mile. Drawn well in stall 4 for Menuisier and Spencer. Solid placing efforts at Ascot and Doncaster mark him as a major threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "8",
+                        "horse_name": "Blue Brother (FR)",
+                        "handicapper_notes": "Wathnan Racing contender with James Doyle booked. Drops into handicap company with high class rating background in France. Should get a clean mid-pack trip from draw 8.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Ebt's Guard",
+                        "handicapper_notes": "Consistent handicapper who finished a close second behind Indalo at Sandown last start. Drawn inside in stall 3 which allows him to track the pace without giving away ground.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Indalo (IRE)",
+                    "rating": 94.0,
+                    "reason": "Impressive winner at Sandown last time out posting a 102 speed figure and class-leading 117 rating. Ideally drawn in stall 6 to save ground navigating Goodwood's sharp lower turn. Fits the handy presser profile perfectly."
+                },
+                {
+                    "number": "11",
+                    "barrier": "8",
+                    "name": "Blue Brother (FR)",
+                    "rating": 91.0,
+                    "reason": "Wathnan Racing contender with James Doyle booked. Drops into handicap company with high class rating background in France. Should get a clean mid-pack trip from draw 8. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "18",
+                    "name": "Scoville",
+                    "rating": 90.0,
+                    "reason": "Highly progressive 4-year-old for William Haggas and Tom Marquand. Lightly raced with high upside, though must overcome a wider draw in stall 18. Possesses strong early tactical pace to cross over early."
+                },
+                {
+                    "number": "16",
+                    "barrier": "1",
+                    "name": "Beagle Bay (FR)",
+                    "rating": 87.0,
+                    "reason": "In career-best form having won 3 of last 4 starts, including a smooth victory at Sandown. Drawn perfectly in stall 1 to hug the rail and avoid traffic. Carries a feather weight of 127 lbs."
+                },
+                {
+                    "number": "17",
+                    "barrier": "4",
+                    "name": "Tribal Chief (FR)",
+                    "rating": 85.0,
+                    "reason": "Proven course-and-distance winner over Goodwood's undulating mile. Drawn well in stall 4 for Menuisier and Spencer. Solid placing efforts at Ascot and Doncaster mark him as a major threat."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Indalo (IRE)",
+                    "rating": 94.0,
+                    "reason": "Impressive winner at Sandown last time out posting a 102 speed figure and class-leading 117 rating. Ideally drawn in stall 6 to save ground navigating Goodwood's sharp lower turn. Fits the handy presser profile perfectly."
+                },
+                {
+                    "number": "11",
+                    "barrier": "8",
+                    "name": "Blue Brother (FR)",
+                    "rating": 91.0,
+                    "reason": "Wathnan Racing contender with James Doyle booked. Drops into handicap company with high class rating background in France. Should get a clean mid-pack trip from draw 8. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "18",
+                    "name": "Scoville",
+                    "rating": 90.0,
+                    "reason": "Highly progressive 4-year-old for William Haggas and Tom Marquand. Lightly raced with high upside, though must overcome a wider draw in stall 18. Possesses strong early tactical pace to cross over early."
+                },
+                {
+                    "number": "16",
+                    "barrier": "1",
+                    "name": "Beagle Bay (FR)",
+                    "rating": 87.0,
+                    "reason": "In career-best form having won 3 of last 4 starts, including a smooth victory at Sandown. Drawn perfectly in stall 1 to hug the rail and avoid traffic. Carries a feather weight of 127 lbs."
+                },
+                {
+                    "number": "17",
+                    "barrier": "4",
+                    "name": "Tribal Chief (FR)",
+                    "rating": 85.0,
+                    "reason": "Proven course-and-distance winner over Goodwood's undulating mile. Drawn well in stall 4 for Menuisier and Spencer. Solid placing efforts at Ascot and Doncaster mark him as a major threat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ebt's Guard",
+                    "rating": 82.0,
+                    "reason": "Consistent handicapper who finished a close second behind Indalo at Sandown last start. Drawn inside in stall 3 which allows him to track the pace without giving away ground."
+                }
+            ],
+            "danger_horse": {
+                "number": "17",
+                "barrier": "4",
+                "name": "Tribal Chief (FR)",
+                "rating": 85.0,
+                "reason": "Proven course-and-distance winner over Goodwood's undulating mile. Drawn well in stall 4 for Menuisier and Spencer. Solid placing efforts at Ascot and Doncaster mark him as a major threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Indalo (IRE)</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #11, #17 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "5 Furlongs Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "5 Furlongs Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 7 over 1, 8, 3, 4",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Rumstar",
+                        "handicapper_notes": "Sensational speed figure (174) coming off a sharp 5f victory at Sandown. Drawn perfectly in stall 3 near the far rail, ideal for Goodwood's 5f straight sprint chute bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "13",
+                        "horse_name": "Night Raider",
+                        "handicapper_notes": "Group pattern winner with top-class speed rating (177). Tactical speed offset slightly by carrying 133 lbs and high stall draw (13), but possesses huge class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "Asfoora",
+                        "handicapper_notes": "Group 1 winning Australian sprinter receiving fillies allowance (127 lbs). Stalled in barrier 6 to track the pace smoothly down the Goodwood downhill slope.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Jakajaro",
+                        "handicapper_notes": "Consistent 5f turf campaigner with sharp gate speed. Draws barrier 5 along the favorable inside rail line.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "14",
+                        "horse_name": "Jm Jungle",
+                        "handicapper_notes": "Prolific sprinter with top speed capabilities (180 rating). Stall 14 requires good timing down the home stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "15",
+                        "horse_name": "Spicy Marg",
+                        "handicapper_notes": "Featherweight contender (123 lbs) with early speed. Must overcome high draw on the outside rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "3",
+                    "name": "Rumstar",
+                    "rating": 94.0,
+                    "reason": "Sensational speed figure (174) coming off a sharp 5f victory at Sandown. Drawn perfectly in stall 3 near the far rail, ideal for Goodwood's 5f straight sprint chute bias."
+                },
+                {
+                    "number": "1",
+                    "barrier": "13",
+                    "name": "Night Raider",
+                    "rating": 91.0,
+                    "reason": "Group pattern winner with top-class speed rating (177). Tactical speed offset slightly by carrying 133 lbs and high stall draw (13), but possesses huge class."
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "Asfoora",
+                    "rating": 88.0,
+                    "reason": "Group 1 winning Australian sprinter receiving fillies allowance (127 lbs). Stalled in barrier 6 to track the pace smoothly down the Goodwood downhill slope."
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Jakajaro",
+                    "rating": 86.0,
+                    "reason": "Consistent 5f turf campaigner with sharp gate speed. Draws barrier 5 along the favorable inside rail line."
+                },
+                {
+                    "number": "4",
+                    "barrier": "14",
+                    "name": "Jm Jungle",
+                    "rating": 84.0,
+                    "reason": "Prolific sprinter with top speed capabilities (180 rating). Stall 14 requires good timing down the home stretch."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "3",
+                    "name": "Rumstar",
+                    "rating": 94.0,
+                    "reason": "Sensational speed figure (174) coming off a sharp 5f victory at Sandown. Drawn perfectly in stall 3 near the far rail, ideal for Goodwood's 5f straight sprint chute bias."
+                },
+                {
+                    "number": "1",
+                    "barrier": "13",
+                    "name": "Night Raider",
+                    "rating": 91.0,
+                    "reason": "Group pattern winner with top-class speed rating (177). Tactical speed offset slightly by carrying 133 lbs and high stall draw (13), but possesses huge class."
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "Asfoora",
+                    "rating": 88.0,
+                    "reason": "Group 1 winning Australian sprinter receiving fillies allowance (127 lbs). Stalled in barrier 6 to track the pace smoothly down the Goodwood downhill slope."
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Jakajaro",
+                    "rating": 86.0,
+                    "reason": "Consistent 5f turf campaigner with sharp gate speed. Draws barrier 5 along the favorable inside rail line."
+                },
+                {
+                    "number": "4",
+                    "barrier": "14",
+                    "name": "Jm Jungle",
+                    "rating": 84.0,
+                    "reason": "Prolific sprinter with top speed capabilities (180 rating). Stall 14 requires good timing down the home stretch."
+                },
+                {
+                    "number": "15",
+                    "barrier": "15",
+                    "name": "Spicy Marg",
+                    "rating": 82.0,
+                    "reason": "Featherweight contender (123 lbs) with early speed. Must overcome high draw on the outside rail."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "6",
+                "name": "Asfoora",
+                "rating": 88.0,
+                "reason": "Group 1 winning Australian sprinter receiving fillies allowance (127 lbs). Stalled in barrier 6 to track the pace smoothly down the Goodwood downhill slope."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Rumstar</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #1, #8 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1 1/8 Miles Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 1/8 Miles Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 9 over 6, 8, 1",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Haatem (ire)",
+                        "handicapper_notes": "Carrying a favorable weight of 133lb (receiving 5lb from topweights). Proven Group class pattern runner with a sharp turn of foot ideal for Goodwood downland descent.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Boiling Point (ire)",
+                        "handicapper_notes": "Proven course and distance winner over this track on May 22 when edging Naqeeb. Carrying topweight of 138lb, but handles undulating tracks exceptionally well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "9",
+                        "horse_name": "Galen",
+                        "handicapper_notes": "Joseph O'Brien Irish shipper bringing high international class ratings (112 BHA class rating) and a peak speed rating of 110.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Dividend",
+                        "handicapper_notes": "Royal Ascot handicap winner over 1m2f in June. Possesses a 114 class rating and inside stall draw to sit handy.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Jonquil",
+                        "handicapper_notes": "Andrew Balding trainee with a peak 113 speed figure from an impressive Ascot victory in May. Possesses top-level acceleration.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Naqeeb (ire)",
+                        "handicapper_notes": "Consistent Goodwood performer who missed by just a head to Boiling Point over C&D in May.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Haatem (ire)",
+                    "rating": 95.0,
+                    "reason": "Carrying a favorable weight of 133lb (receiving 5lb from topweights). Proven Group class pattern runner with a sharp turn of foot ideal for Goodwood downland descent. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Boiling Point (ire)",
+                    "rating": 91.0,
+                    "reason": "Proven course and distance winner over this track on May 22 when edging Naqeeb. Carrying topweight of 138lb, but handles undulating tracks exceptionally well."
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Galen",
+                    "rating": 88.0,
+                    "reason": "Joseph O'Brien Irish shipper bringing high international class ratings (112 BHA class rating) and a peak speed rating of 110."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Dividend",
+                    "rating": 86.0,
+                    "reason": "Royal Ascot handicap winner over 1m2f in June. Possesses a 114 class rating and inside stall draw to sit handy."
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Jonquil",
+                    "rating": 84.0,
+                    "reason": "Andrew Balding trainee with a peak 113 speed figure from an impressive Ascot victory in May. Possesses top-level acceleration."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Haatem (ire)",
+                    "rating": 95.0,
+                    "reason": "Carrying a favorable weight of 133lb (receiving 5lb from topweights). Proven Group class pattern runner with a sharp turn of foot ideal for Goodwood downland descent. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Boiling Point (ire)",
+                    "rating": 91.0,
+                    "reason": "Proven course and distance winner over this track on May 22 when edging Naqeeb. Carrying topweight of 138lb, but handles undulating tracks exceptionally well."
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Galen",
+                    "rating": 88.0,
+                    "reason": "Joseph O'Brien Irish shipper bringing high international class ratings (112 BHA class rating) and a peak speed rating of 110."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Dividend",
+                    "rating": 86.0,
+                    "reason": "Royal Ascot handicap winner over 1m2f in June. Possesses a 114 class rating and inside stall draw to sit handy."
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Jonquil",
+                    "rating": 84.0,
+                    "reason": "Andrew Balding trainee with a peak 113 speed figure from an impressive Ascot victory in May. Possesses top-level acceleration."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Naqeeb (ire)",
+                    "rating": 82.0,
+                    "reason": "Consistent Goodwood performer who missed by just a head to Boiling Point over C&D in May."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "9",
+                "name": "Galen",
+                "rating": 88.0,
+                "reason": "Joseph O'Brien Irish shipper bringing high international class ratings (112 BHA class rating) and a peak speed rating of 110."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Haatem (ire)</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #1, #8 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 9 over 6, 7, 8, 11",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Innichen",
+                        "handicapper_notes": "In peak form after back-to-back victories at 5f and 6f. Drawn ideally in Stall 1 to save ground on Goodwood's sweeping turn. Tom Marquand takes the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 95,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Dubai Champion",
+                        "handicapper_notes": "Attracts key jockey booking Ryan Moore. Won easily at Hamilton over 5f last out and gets an ideal inside barrier draw in Stall 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "5",
+                        "horse_name": "Paper View",
+                        "handicapper_notes": "Unbeaten at 6f after back-to-back wins at Ripon and Nottingham. Low weight assignment of 126lb makes him very dangerous.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "12",
+                        "horse_name": "Clash Of Hearts",
+                        "handicapper_notes": "Cruised to a 5-length victory at Pontefract last time out. Handles 6f well and continues on an upward BHA rating trajectory.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "15",
+                        "horse_name": "Jaijai",
+                        "handicapper_notes": "Proven course winner at Goodwood over 5f. Well-balanced runner who handles the downhill downland terrain with ease.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "14",
+                        "horse_name": "Persian Spring",
+                        "handicapper_notes": "Topweight carrying 135lb. Classy runner dropping out of G2 Coventry Stakes company at Ascot. Previous 6f winner at York.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Innichen",
+                    "rating": 95.0,
+                    "reason": "In peak form after back-to-back victories at 5f and 6f. Drawn ideally in Stall 1 to save ground on Goodwood's sweeping turn. Tom Marquand takes the mount."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Dubai Champion",
+                    "rating": 91.0,
+                    "reason": "Attracts key jockey booking Ryan Moore. Won easily at Hamilton over 5f last out and gets an ideal inside barrier draw in Stall 4. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "14",
+                    "name": "Persian Spring",
+                    "rating": 89.0,
+                    "reason": "Topweight carrying 135lb. Classy runner dropping out of G2 Coventry Stakes company at Ascot. Previous 6f winner at York. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "5",
+                    "name": "Paper View",
+                    "rating": 88.0,
+                    "reason": "Unbeaten at 6f after back-to-back wins at Ripon and Nottingham. Low weight assignment of 126lb makes him very dangerous."
+                },
+                {
+                    "number": "7",
+                    "barrier": "12",
+                    "name": "Clash Of Hearts",
+                    "rating": 85.0,
+                    "reason": "Cruised to a 5-length victory at Pontefract last time out. Handles 6f well and continues on an upward BHA rating trajectory."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Innichen",
+                    "rating": 95.0,
+                    "reason": "In peak form after back-to-back victories at 5f and 6f. Drawn ideally in Stall 1 to save ground on Goodwood's sweeping turn. Tom Marquand takes the mount."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Dubai Champion",
+                    "rating": 91.0,
+                    "reason": "Attracts key jockey booking Ryan Moore. Won easily at Hamilton over 5f last out and gets an ideal inside barrier draw in Stall 4. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "14",
+                    "name": "Persian Spring",
+                    "rating": 89.0,
+                    "reason": "Topweight carrying 135lb. Classy runner dropping out of G2 Coventry Stakes company at Ascot. Previous 6f winner at York. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "5",
+                    "name": "Paper View",
+                    "rating": 88.0,
+                    "reason": "Unbeaten at 6f after back-to-back wins at Ripon and Nottingham. Low weight assignment of 126lb makes him very dangerous."
+                },
+                {
+                    "number": "7",
+                    "barrier": "12",
+                    "name": "Clash Of Hearts",
+                    "rating": 85.0,
+                    "reason": "Cruised to a 5-length victory at Pontefract last time out. Handles 6f well and continues on an upward BHA rating trajectory."
+                },
+                {
+                    "number": "6",
+                    "barrier": "15",
+                    "name": "Jaijai",
+                    "rating": 83.0,
+                    "reason": "Proven course winner at Goodwood over 5f. Well-balanced runner who handles the downhill downland terrain with ease. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "15",
+                "name": "Jaijai",
+                "rating": 83.0,
+                "reason": "Proven course winner at Goodwood over 5f. Well-balanced runner who handles the downhill downland terrain with ease. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Innichen</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #8, #6 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "1 3/8 Mile(s) Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 3/8 Mile(s) Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 4 over 1, 5, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Pierian",
+                        "handicapper_notes": "Pattern-tested filly for Haggas and Marquand. Won by 9 lengths two back at Yarmouth and posted a race-best speed rating of 102. Perfectly suited to the 11f downland track.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Into The Light",
+                        "handicapper_notes": "Godolphin entrant for Appleby and Buick. Drops out of Royal Ascot company after suffering a wide trip. Inside draw (stall 2) is ideal for saving ground on the lower turn.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Carried wide last start",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "11",
+                        "horse_name": "Silver State",
+                        "handicapper_notes": "Four-time winner this season in excellent form. Rose Dawes claim reduces effective weight by 5lb. Possesses tactical speed to overcome stall 11.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Speed",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "6",
+                        "horse_name": "Parisian Scholar",
+                        "handicapper_notes": "Enters on a two-race winning streak over 12f at Newbury and Thirsk. Light weight of 125lb and good draw (stall 6) make him a dangerous, progressive stayer.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Waterford Castle",
+                        "handicapper_notes": "Ultra-consistent colt with five runner-up finishes in his last six starts. Draws stall 3 to save critical ground navigating the sweeping turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "14",
+                        "horse_name": "Astracornus",
+                        "handicapper_notes": "Featherweight contender carrying just 119lb. Recent win at Nottingham and nose second at Newbury show strong form despite a wide stall assignment.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Late Closer",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Pierian",
+                    "rating": 92.0,
+                    "reason": "Pattern-tested filly for Haggas and Marquand. Won by 9 lengths two back at Yarmouth and posted a race-best speed rating of 102. Perfectly suited to the 11f downland track. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Into The Light",
+                    "rating": 88.0,
+                    "reason": "Godolphin entrant for Appleby and Buick. Drops out of Royal Ascot company after suffering a wide trip. Inside draw (stall 2) is ideal for saving ground on the lower turn. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Carried wide last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "11",
+                    "name": "Silver State",
+                    "rating": 85.0,
+                    "reason": "Four-time winner this season in excellent form. Rose Dawes claim reduces effective weight by 5lb. Possesses tactical speed to overcome stall 11."
+                },
+                {
+                    "number": "10",
+                    "barrier": "6",
+                    "name": "Parisian Scholar",
+                    "rating": 83.0,
+                    "reason": "Enters on a two-race winning streak over 12f at Newbury and Thirsk. Light weight of 125lb and good draw (stall 6) make him a dangerous, progressive stayer."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Waterford Castle",
+                    "rating": 81.0,
+                    "reason": "Ultra-consistent colt with five runner-up finishes in his last six starts. Draws stall 3 to save critical ground navigating the sweeping turns."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Pierian",
+                    "rating": 92.0,
+                    "reason": "Pattern-tested filly for Haggas and Marquand. Won by 9 lengths two back at Yarmouth and posted a race-best speed rating of 102. Perfectly suited to the 11f downland track. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Into The Light",
+                    "rating": 88.0,
+                    "reason": "Godolphin entrant for Appleby and Buick. Drops out of Royal Ascot company after suffering a wide trip. Inside draw (stall 2) is ideal for saving ground on the lower turn. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Carried wide last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "11",
+                    "name": "Silver State",
+                    "rating": 85.0,
+                    "reason": "Four-time winner this season in excellent form. Rose Dawes claim reduces effective weight by 5lb. Possesses tactical speed to overcome stall 11."
+                },
+                {
+                    "number": "10",
+                    "barrier": "6",
+                    "name": "Parisian Scholar",
+                    "rating": 83.0,
+                    "reason": "Enters on a two-race winning streak over 12f at Newbury and Thirsk. Light weight of 125lb and good draw (stall 6) make him a dangerous, progressive stayer."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Waterford Castle",
+                    "rating": 81.0,
+                    "reason": "Ultra-consistent colt with five runner-up finishes in his last six starts. Draws stall 3 to save critical ground navigating the sweeping turns."
+                },
+                {
+                    "number": "14",
+                    "barrier": "14",
+                    "name": "Astracornus",
+                    "rating": 80.0,
+                    "reason": "Featherweight contender carrying just 119lb. Recent win at Nottingham and nose second at Newbury show strong form despite a wide stall assignment."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "2",
+                "name": "Into The Light",
+                "rating": 88.0,
+                "reason": "Godolphin entrant for Appleby and Buick. Drops out of Royal Ascot company after suffering a wide trip. Inside draw (stall 2) is ideal for saving ground on the lower turn. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Carried wide last start</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Pierian</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #5, #1 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "1 1/4 Miles Turf (Good to Firm)",
+            "surface": "Firm)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 1/4 Miles Turf (Good to Firm)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 6 over 2, 3, 7",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Room Fourteen",
+                        "handicapper_notes": "Progressive 3yo filly entering off consecutive 10f handicap wins at Doncaster and Redcar. Carries a lightweight 124 lbs and secures Ryan Moore for James Fanshawe. Perfectly matches the Goodwood downhill presser profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favored Presser (+4)",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Silver Lake",
+                        "handicapper_notes": "Unexposed William Haggas trainee coming off a game victory at Salisbury over 10f. Bottom weight of 118 lbs provides a key weight differential advantage against older rivals.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Lady Dora Mae",
+                        "handicapper_notes": "Proven over the Goodwood layout, finishing a close second over course and distance in June. George Boughey stable retains Billy Loughnane, and inside draw saves key ground on the lower turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "7",
+                        "horse_name": "Zgharta",
+                        "handicapper_notes": "Andrew Balding contender featuring elite jockey Oisin Murphy. Solid fourth-place effort in Class 2 handicap company last time out and holds strong speed figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Wisper",
+                        "handicapper_notes": "Consistent 8-time winner carrying top weight of 138 lbs (62.5kg). The heavy assignment on downland turf imposes a stamina tax against lighter 3yo fillies late in the stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Folk Pageant",
+                        "handicapper_notes": "Three-time handicap winner in 2026 for Charlie Johnston. Brings early gate speed from draw 1, but faces late pressure on the final climb.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Room Fourteen",
+                    "rating": 98.0,
+                    "reason": "Progressive 3yo filly entering off consecutive 10f handicap wins at Doncaster and Redcar. Carries a lightweight 124 lbs and secures Ryan Moore for James Fanshawe. Perfectly matches the Goodwood downhill presser profile."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Silver Lake",
+                    "rating": 94.0,
+                    "reason": "Unexposed William Haggas trainee coming off a game victory at Salisbury over 10f. Bottom weight of 118 lbs provides a key weight differential advantage against older rivals."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Lady Dora Mae",
+                    "rating": 91.0,
+                    "reason": "Proven over the Goodwood layout, finishing a close second over course and distance in June. George Boughey stable retains Billy Loughnane, and inside draw saves key ground on the lower turn."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Zgharta",
+                    "rating": 88.0,
+                    "reason": "Andrew Balding contender featuring elite jockey Oisin Murphy. Solid fourth-place effort in Class 2 handicap company last time out and holds strong speed figures."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Wisper",
+                    "rating": 87.0,
+                    "reason": "Consistent 8-time winner carrying top weight of 138 lbs (62.5kg). The heavy assignment on downland turf imposes a stamina tax against lighter 3yo fillies late in the stretch."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Room Fourteen",
+                    "rating": 98.0,
+                    "reason": "Progressive 3yo filly entering off consecutive 10f handicap wins at Doncaster and Redcar. Carries a lightweight 124 lbs and secures Ryan Moore for James Fanshawe. Perfectly matches the Goodwood downhill presser profile."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Silver Lake",
+                    "rating": 94.0,
+                    "reason": "Unexposed William Haggas trainee coming off a game victory at Salisbury over 10f. Bottom weight of 118 lbs provides a key weight differential advantage against older rivals."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Lady Dora Mae",
+                    "rating": 91.0,
+                    "reason": "Proven over the Goodwood layout, finishing a close second over course and distance in June. George Boughey stable retains Billy Loughnane, and inside draw saves key ground on the lower turn."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Zgharta",
+                    "rating": 88.0,
+                    "reason": "Andrew Balding contender featuring elite jockey Oisin Murphy. Solid fourth-place effort in Class 2 handicap company last time out and holds strong speed figures."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Wisper",
+                    "rating": 87.0,
+                    "reason": "Consistent 8-time winner carrying top weight of 138 lbs (62.5kg). The heavy assignment on downland turf imposes a stamina tax against lighter 3yo fillies late in the stretch."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Folk Pageant",
+                    "rating": 86.0,
+                    "reason": "Three-time handicap winner in 2026 for Charlie Johnston. Brings early gate speed from draw 1, but faces late pressure on the final climb."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "7",
+                "name": "Zgharta",
+                "rating": 88.0,
+                "reason": "Andrew Balding contender featuring elite jockey Oisin Murphy. Solid fourth-place effort in Class 2 handicap company last time out and holds strong speed figures."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Room Fourteen</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #7, #3 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#8 Believitanducan</b> in R1 & <b>#6 Talk Of New York</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#6 (Solo Lock))"
+    ]
+}

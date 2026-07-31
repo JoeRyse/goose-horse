@@ -17,8 +17,36 @@ DB_PATH = os.path.join(BASE_DIR, "logs", "master_betting_history.db")
 API_OUTPUT_DIR = os.path.join(BASE_DIR, "frontend", "public", "api", "output")
 
 # Pre-configured public results endpoints
-US_RESULTS_ENDPOINT = "https://www.nyra.com/api/v1/results"
+EQUIBASE_SUMMARY_BASE = "https://www.equibase.com/static/chart/summary/"
 AUS_RESULTS_ENDPOINT = "https://www.racing.com/api/results"
+
+# Equibase 3-Letter Track Codes
+TRACK_CODES = {
+    "saratoga": "SAR",
+    "del mar": "DMR",
+    "gulfstream park": "GP",
+    "keeneland": "KEE",
+    "churchill downs": "CD",
+    "aqueduct": "AQU",
+    "belmont park": "BEL",
+    "monmouth park": "MTH",
+    "woodbine": "WO",
+    "delaware park": "DEL",
+    "finger lakes": "FL"
+}
+
+def get_equibase_summary_url(track, date_str):
+    """
+    Constructs official Equibase summary chart URL (e.g. https://www.equibase.com/static/chart/summary/DMR073026USA-EQB.html)
+    """
+    clean_track = track.lower().strip()
+    code = TRACK_CODES.get(clean_track, clean_track[:3].upper())
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        mmddyy = dt.strftime("%m%d%y")
+    except Exception:
+        mmddyy = date_str.replace("-", "")[4:] + date_str[:4][2:]
+    return f"{EQUIBASE_SUMMARY_BASE}{code}{mmddyy}USA-EQB.html"
 
 def init_results_table():
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
@@ -43,11 +71,10 @@ def fetch_live_web_results(track, date_str):
     Returns parsed list of race results.
     """
     clean_track = track.lower().replace(" ", "")
-    # Check if Australian or US track
     is_aus = any(t in clean_track for t in ["flemington", "randwick", "caulfield", "doomben", "rosehill", "gatton", "bendigo"])
     
-    # Target endpoint URL
-    url = f"{AUS_RESULTS_ENDPOINT}?track={clean_track}&date={date_str}" if is_aus else f"{US_RESULTS_ENDPOINT}?track={clean_track}&date={date_str}"
+    url = f"{AUS_RESULTS_ENDPOINT}?track={clean_track}&date={date_str}" if is_aus else get_equibase_summary_url(track, date_str)
+
     
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
