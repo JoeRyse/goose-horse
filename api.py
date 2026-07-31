@@ -7,7 +7,7 @@ import re
 from datetime import datetime
 from urllib.parse import parse_qs, urlparse
 
-PORT = 8085
+PORT = 8888
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 API_OUTPUT_DIR = os.path.join(BASE_DIR, "frontend", "public", "api", "output")

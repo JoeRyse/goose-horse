@@ -52,7 +52,7 @@ export default function AnalyticsDashboard() {
         const res = await fetch(`/api/analytics/roi?${queryParams.toString()}`);
         data = await res.json();
       } catch (err) {
-        const res = await fetch(`http://127.0.0.1:8085/api/analytics/roi?${queryParams.toString()}`);
+        const res = await fetch(`http://127.0.0.1:8888/api/analytics/roi?${queryParams.toString()}`);
         data = await res.json();
       }
 

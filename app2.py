@@ -65,11 +65,25 @@ def init_db():
 
   # Migrate missing columns for predictions
   c.execute("PRAGMA table_info(predictions)")
-  pred_cols = [col[1] for col in c.fetchall()]
-  if "exotic_strategy" not in pred_cols:
-    c.execute(
-        "ALTER TABLE predictions ADD COLUMN exotic_strategy TEXT DEFAULT ''"
-    )
+  pred_cols = set(col[1] for col in c.fetchall())
+  req_cols = [
+      ("p1_barrier", "TEXT"), ("p1_reason", "TEXT"),
+      ("p2_barrier", "TEXT"), ("p2_reason", "TEXT"),
+      ("p3_barrier", "TEXT"), ("p3_reason", "TEXT"),
+      ("p4_barrier", "TEXT"), ("p4_reason", "TEXT"),
+      ("danger_barrier", "TEXT"), ("danger_reason", "TEXT"),
+      ("confidence", "TEXT"), ("ai_model", "TEXT"),
+      ("temperature", "REAL"), ("raw_features", "TEXT"),
+      ("exotic_strategy", "TEXT DEFAULT ''"),
+      ("p1_rating", "REAL"), ("p2_rating", "REAL"),
+      ("p3_rating", "REAL"), ("p4_rating", "REAL"),
+      ("rating_gap", "REAL DEFAULT 0.0"),
+      ("has_best_bet", "INTEGER DEFAULT 0"),
+      ("has_solo_lock", "INTEGER DEFAULT 0")
+  ]
+  for col_name, col_type in req_cols:
+    if col_name not in pred_cols:
+      c.execute(f"ALTER TABLE predictions ADD COLUMN {col_name} {col_type}")
 
   # Table 2: Actual Results
   c.execute("""
@@ -1580,6 +1594,12 @@ with tab_analytics:
       )
 
       if not merged_df.empty:
+        if "confidence" not in merged_df.columns:
+          merged_df["confidence"] = merged_df.apply(
+              lambda x: "SOLO LOCK" if (x.get("has_solo_lock") or float(x.get("rating_gap") or 0) >= 5.0) else ("BEST BET" if (x.get("has_best_bet") or float(x.get("rating_gap") or 0) >= 3.0) else "TOP PICK"),
+              axis=1
+          )
+
         for col in [
             "win_payout",
             "place_payout",

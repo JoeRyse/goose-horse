@@ -55,7 +55,7 @@ export default function App() {
         data = await fetchJsonSafely('/api/meetings');
       } catch (e) {
         try {
-          data = await fetchJsonSafely('http://127.0.0.1:8085/api/meetings');
+          data = await fetchJsonSafely('http://127.0.0.1:8888/api/meetings');
         } catch (err2) {
           data = await fetchJsonSafely('/api/meetings.json');
         }
@@ -123,7 +123,7 @@ export default function App() {
         data = await fetchJsonSafely(`/api/output/${filename}`);
       } catch (e) {
         try {
-          data = await fetchJsonSafely(`http://127.0.0.1:8085/api/output/${filename}`);
+          data = await fetchJsonSafely(`http://127.0.0.1:8888/api/output/${filename}`);
         } catch (err2) {
           data = await fetchJsonSafely(`/api/output/${filename}`);
         }
