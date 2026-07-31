@@ -887,7 +887,7 @@ update_homepage()
 # --- SIDEBAR UI ---
 st.sidebar.header("⚙️ Settings")
 
-default_key = ""
+default_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or ""
 try:
   if "GEMINI_API_KEY" in st.secrets:
     default_key = st.secrets["GEMINI_API_KEY"]
@@ -925,11 +925,12 @@ model_options = [
     "gemini-3.1-pro-preview",
     "gemini-2.0-flash-exp",
     "gemini-1.5-flash",
+    "gemini-1.5-pro",
 ]
 target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
 if st.sidebar.checkbox("Type a Custom Model Name?"):
   target_model = st.sidebar.text_input(
-      "Model Name", value="gemini-experimental"
+      "Model Name", value="gemini-3.6-flash"
   )
 creativity_temp = st.sidebar.slider("Creativity (Temperature)", 0.0, 1.0, 0.4, 0.1)
 
