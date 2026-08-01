@@ -1,43 +1,42 @@
 {
     "track_code": "DMR",
-    "location": "Del Mar, CA",
+    "location": "Del Mar, California, USA",
     "nicknames": [
-        "Where the Turf Meets the Surf",
-        "Bing Crosby's Track"
+        "Where The Turf Meets The Surf",
+        "Del Mar Thoroughbred Club"
     ],
     "courses": {
         "main_dirt": {
             "circumference": "1 Mile",
             "surface": "Dirt",
             "stretch_length": "919 feet",
-            "bias_notes": "Main track strongly favors early speed and tactical pressers (over 80% of dirt sprint winners race on or near the lead). Deep closers are at a severe disadvantage in sprints. The coastal marine layer can tighten the surface early in the day, creating extreme speed-bias conditions ('Golden Rail'). Kickback is severe, so horses forced to eat dirt inside often give up.",
-            "post_bias": "In 1-mile dirt routes, the gate is close to the first turn; inside posts (1-4) hold a significant advantage, while horses in post 7 or wider are forced to use early energy to avoid going wide. In sprints, middle and outside posts are preferred to avoid kickback."
+            "bias_notes": "Summer dirt surface typically rides fast and glib, heavily favoring early speed ('E') and horses that can secure the inside rail. Deep closers ('C') are at a severe disadvantage in sprints (5.5F to 6.5F) unless there is a confirmed, suicidal pace duel.",
+            "post_bias": "Fair in routes, but inside posts (1-4) hold a distinct advantage in dirt sprints by allowing runners to save ground and avoid kickback."
         },
-        "jimmy_durante_turf": {
+        "main_turf": {
             "circumference": "7/8 Mile",
             "surface": "Turf",
-            "stretch_length": "840 feet",
-            "bias_notes": "A 7/8-mile oval set inside the main track featuring a diagonal chute. Turf Sprints are run strictly at 5 Furlongs (no 5 1/2F sprints). Turf routes play very fair to late closers—front-runners win under 20% of turf routes, while stalkers and deep closers dominate (80%+ win rate).",
-            "post_bias": "In 5F turf sprints, post position is fair, but early speed is key. In 1 1/16M and 1 1/8M turf routes, posts 7 and outward are a major disadvantage due to tight turns; inside posts (1-5) saving ground are heavily favored."
+            "stretch_length": "Late stretch run is relatively short",
+            "bias_notes": "Features a tight first turn, especially when the temporary rail is moved out (18-30 feet). This track geometry places a massive premium on tactical speed and ground-saving trips.",
+            "post_bias": "CRITICAL PENALTY: In 1 Mile and 1 1/16 Mile turf routes, outside posts (8 and higher) are a massive disadvantage due to the short run to the tight first turn. Downgrade horses drawn wide unless they possess dominant early speed to cross over. In 5F turf sprints, inside draws and elite gate speed are mandatory."
         }
     },
     "handicapping_angles": {
-        "the_marine_layer_effect": "When the coastal marine layer rolls in and the track retains moisture, the dirt becomes tight and extremely speed-favoring ('Golden Rail'). On dry, hot afternoons, the dirt gets deep and loose, upgrading tactical stalkers.",
-        "5f_turf_sprint_speed": "All turf sprints at Del Mar are 5 Furlongs. Look for horses with proven 21.x first-quarter speed. Stalkers can win, but pure closers run out of stretch length.",
-        "ship_and_win_invaders": "Del Mar's lucrative 'Ship & Win' program offers a $4k-$5k appearance fee + 40-50% purse bonus for out-of-state shippers. Heavily upgrade East Coast and Midwest shippers from top barns (e.g., Maker, Diodoro, Motion).",
-        "trainer_clues": "Bob Baffert is lethal with dirt 2YO first-time starters (MSW), but struggles in Maiden Claiming. Phil D'Amato dominates turf routes with layoff returners (90+ days). Peter Miller excels with big class drops into claiming ranks."
+        "the_wide_turf_trap": "Automatically apply a -4 to -6 point penalty to horses drawn in posts 8 or higher in 1 Mile or 1 1/16 Mile turf races, unless they are the sole 'E' (Early Speed) runner in the field.",
+        "synthetic_to_dirt_discount": "Be highly skeptical of horses shipping in from Golden Gate Fields or Woodbine with high synthetic speed figures. Discount their ratings by -3 points when running on Del Mar's main dirt oval.",
+        "turf_sprint_cavalry_charge": "In 5-furlong turf sprints, heavily upgrade horses with proven 21.x opening quarter speed drawn in posts 1-5. Downgrade deep closers regardless of their class.",
+        "horse_for_course_bias": "Del Mar is a very idiosyncratic track. Always grant a +3 point bonus to horses with a proven track record (multiple in-the-money finishes) specifically at Del Mar over the past two summers."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Summer Elite)",
+        "tier": "Tier 1 (Elite US Summer Meet)",
         "class_rating": 100,
         "speed_par_offsets": {
-            "dirt_sprint": "+2.5",
-            "dirt_route": "+2.0",
-            "turf_sprint": "+3.0",
+            "dirt_sprint": "+1.0",
+            "dirt_route": "+0.5",
             "turf_route": "+1.5"
         },
-        "lengths": 5.0,
-        "points": 12.0
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "USA_Thoroughbred"
 }
