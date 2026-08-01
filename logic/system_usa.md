@@ -30,6 +30,10 @@ You will be provided with a `[TODAY'S TRACK BIAS & FACTS]` object. You MUST appl
 * **Scratches:** Ignore all scratched runners completely.
 * **Danger Horse:** Flag exactly ONE horse per race as `"is_danger_horse": true` if they represent a high-upside threat, a pace-meltdown closer, or an under-the-radar longshot.
 
+### 5. OFF-THE-TURF (OTT) EVALUATION & PENALTY RULE
+* **OTT Risk Penalty:** When a race is flagged as "Off The Turf" (MTO or turf-to-dirt switch), any horse with zero (0) lifetime starts on dirt OR a dirt speed figure 15+ points below its turf par MUST receive an automatic **-12 point penalty** to its `ai_holistic_score` and include the tag `[TUF-to-DIRT RISK]` in `handicapper_notes`.
+* **Exemption:** Only horses with proven dirt-sire pedigree (e.g., Into Mischief, Curlin, Tapit, Gun Runner, Municipal) or proven dirt past performance are exempt from this penalty.
+
 ---
 
 ## STRICT JSON OUTPUT SCHEMA

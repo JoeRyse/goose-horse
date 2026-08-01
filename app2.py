@@ -418,10 +418,11 @@ def is_valid_pick(pick):
   return name and name not in invalid
 
 
-def generate_dynamic_wagers(race):
+def generate_dynamic_wagers(race, is_sloppy_or_ott=False):
     """
     Calculates Tiered Win Bets, Dynamic Exacta Keys, and Selective Danger Overlays 
     based on final locally adjusted ratings and selections.
+    Widens Solo Lock gap threshold to +7.0 pts on Sloppy/Muddy or Off-The-Turf cards.
     """
     contenders = race.get("all_contenders", []) or race.get("selections", [])
     if not contenders:
@@ -455,8 +456,11 @@ def generate_dynamic_wagers(race):
     
     wager_lines = []
     
-    # 1. Tiered Win Strategy (Gap threshold raised to +5.0)
-    if top_score >= 90.0 and gap >= 5.0:
+    # Variance Widening Rule: Solo Lock gap threshold widens to +7.0 on Sloppy/Muddy/OTT cards
+    lock_threshold = 7.0 if is_sloppy_or_ott else 5.0
+
+    # 1. Tiered Win Strategy
+    if top_score >= 90.0 and gap >= lock_threshold:
         wager_lines.append(f"<b>🎯 TIER 1 WIN:</b> $25 Win on <b>#{top_num} {top_name}</b> (Solo Lock - Gap: +{gap:.1f} pts)")
     elif gap >= 1.0:
         wager_lines.append(f"<b>🎯 WIN:</b> $10 Win on <b>#{top_num} {top_name}</b>")
@@ -464,7 +468,7 @@ def generate_dynamic_wagers(race):
         wager_lines.append(f"<b>🎯 WIN:</b> PASS Win Wager (Tight Gap: +{gap:.1f} pts on #{top_num} {top_name})")
         
     # 2. Dynamic Exacta Strategy
-    if top_score >= 90.0 and gap >= 5.0:
+    if top_score >= 90.0 and gap >= lock_threshold:
         target_under = [r2_num]
         if r3_num and r3_num != r2_num:
             target_under.append(r3_num)
@@ -487,7 +491,7 @@ def generate_dynamic_wagers(race):
     if danger_horse and danger_num and danger_num != top_num:
         danger_gap = top_score - danger_score
         is_close_threat = danger_gap <= 3.5  
-        is_not_lock = gap < 5.0  # Allows side-car bets when top pick isn't a 5+ gap Lock
+        is_not_lock = gap < lock_threshold  # Allows side-car bets when top pick isn't a lock
         
         if is_not_lock and is_close_threat:
             danger_name = str(danger_horse.get('name', danger_horse.get('horse_name', '')))
@@ -1222,7 +1226,7 @@ with tab_handicap:
           except:
             pass
 
-          def calculate_local_rating(features, barrier_num="", running_style="", race_surf="", race_dist="", field_size=0):
+          def calculate_local_rating(features, barrier_num="", running_style="", race_surf="", race_dist="", field_size=0, track_cond=""):
             try:
               score = float(features.get("ai_holistic_score", 80))
             except:
@@ -1282,6 +1286,15 @@ with tab_handicap:
               elif str(running_style).upper() in ["C", "CLOSER"]:
                 score -= 2.5 # Deep closers penalized on short run-in
 
+            # 5. Sloppy / Muddy Track Adjustments
+            tc_clean = str(track_cond).lower()
+            if any(k in tc_clean for k in ["sloppy", "muddy", "sealed"]):
+              r_style = str(running_style).upper()
+              if r_style in ["E", "LEADER", "EARLY"] and bar_int >= 1 and bar_int <= 4:
+                score += 6.0 # Inside rail speed / kickback avoidance bonus
+              elif r_style in ["C", "CLOSER"]:
+                score -= 4.0 # Deep closer penalty on sealed wet main tracks
+
             return round(score, 1)
 
           # --- 5. POST-PROCESSING MASTER ACCUMULATOR ---
@@ -1330,7 +1343,8 @@ with tab_handicap:
                   running_style=running_style,
                   race_surf=new_race["surface"],
                   race_dist=new_race["distance"],
-                  field_size=len(race.get("contenders", []))
+                  field_size=len(race.get("contenders", [])),
+                  track_cond=scratches + " " + race.get("distance_surface", "")
               )
               ai_notes = horse.get("handicapper_notes", "No notes provided.")
 
@@ -1395,8 +1409,9 @@ with tab_handicap:
             new_race["selections"] = scored_contenders[:5]
             new_race["danger_horse"] = danger_horse
 
-            # --- DYNAMIC BETTING STRATEGY ENGINE ---
-            new_race["exotic_strategy"] = generate_dynamic_wagers(new_race)
+            # --- DYNAMIC BETTING STRATEGY ENGINE (Variance Widening on Sloppy / OTT Cards) ---
+            is_sloppy_or_ott = is_global_off_turf or any(k in (scratches + " " + race.get("distance_surface", "")).lower() for k in ["sloppy", "muddy", "sealed", "off the turf", "off-turf", "off turf"])
+            new_race["exotic_strategy"] = generate_dynamic_wagers(new_race, is_sloppy_or_ott=is_sloppy_or_ott)
             data["races"].append(new_race)
 
           # --- 6. ADVANCED DAILY DOUBLE SCANNER ---

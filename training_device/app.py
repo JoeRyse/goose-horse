@@ -94,9 +94,9 @@ with c5:
 st.space()
 
 # ==========================================
-# MAIN APP BODY: 2 TABS
+# MAIN APP BODY: 3 TABS
 # ==========================================
-tab_betting, tab_ledger = st.tabs(["🎟️ Manual Bet Slip & Race Card", "📊 Bankroll Ledger & Analytics"])
+tab_betting, tab_ledger, tab_upload = st.tabs(["🎟️ Manual Bet Slip & Race Card", "📊 Bankroll Ledger & Analytics", "📄 Upload Chart & Ingest Results"])
 
 def get_user_ran_tracks():
     if not os.path.exists(MASTER_DB_PATH):
@@ -107,8 +107,13 @@ def get_user_ran_tracks():
     rows = c.fetchall()
     conn.close()
     
-    clean_tracks = sorted(list(set([r[0].replace("_", " ").title() for r in rows if r[0]])))
-    return clean_tracks if clean_tracks else ["Saratoga", "Del Mar", "Goodwood", "Scone"]
+    raw_tracks = sorted(list(set([r[0].replace("_", " ").title() for r in rows if r[0]])))
+    
+    # Focus / Prioritize Saratoga & Del Mar at top of dropdown
+    priority = ["Saratoga", "Del Mar"]
+    ordered_tracks = [t for t in priority if t in raw_tracks] + [t for t in raw_tracks if t not in priority]
+    
+    return ordered_tracks if ordered_tracks else ["Saratoga", "Del Mar", "Goodwood", "Scone"]
 
 def get_dates_for_track(track_name):
     if not os.path.exists(MASTER_DB_PATH):
@@ -315,3 +320,39 @@ with tab_ledger:
             reset_bankroll(reset_val)
             st.success(f"Bankroll reset to ${reset_val:.2f}")
             st.rerun()
+
+with tab_upload:
+    st.subheader("📄 Upload & Ingest Official Equibase / PDF Charts")
+    st.caption("Paste OCR/Text or Upload PDF Chart summaries (focused on Saratoga & Del Mar) to auto-populate results and payouts into master_betting_history.db")
+    
+    from agents.chart_ingestor_agent import parse_equibase_chart_text, ingest_chart_to_db
+
+    col_u1, col_u2 = st.columns([2, 1])
+    
+    with col_u1:
+        chart_text_input = st.text_area("📋 Paste Equibase Chart / OCR Text Here", height=250, placeholder="Paste Equibase chart text here (e.g. SARATOGA - July 31, 2026 - Race 1...)")
+        
+        c_up_track, c_up_date = st.columns(2)
+        with c_up_track:
+            target_track_sel = st.selectbox("Track Override", ["Saratoga", "Del Mar"], index=0)
+        with c_up_date:
+            target_date_sel = st.date_input("Date Override", datetime(2026, 7, 31), key="tab_upload_date")
+            target_date_str = target_date_sel.strftime("%Y-%m-%d")
+            
+        if st.button("🚀 Parse & Ingest Chart into Database", type="primary"):
+            if chart_text_input.strip():
+                parsed = parse_equibase_chart_text(chart_text_input, default_track=target_track_sel, default_date=target_date_str)
+                ingest_chart_to_db(parsed)
+                st.success(f"✅ Ingested {parsed['track']} Race {parsed['race_number']} ({parsed['date']}) into Database!")
+                st.json(parsed)
+            else:
+                st.warning("Please paste chart text above before clicking Ingest.")
+
+    with col_u2:
+        st.markdown("#### 💡 How to Ingest Results")
+        st.markdown("""
+        1. **Option A (In-App Tab)**: Paste Equibase PDF chart summary text into the box on the left and click **Parse & Ingest**.
+        2. **Option B (Paste in Chat)**: Paste PDF chart screenshots or text directly to the AI in our chat, and it will auto-populate the database for you.
+        3. **Focus Tracks**: **Saratoga** and **Del Mar** are highlighted at the top of all track selection lists.
+        4. **Auto-Settlement**: As soon as charts are ingested, your open manual bets in the **Manual Bet Slip** tab will auto-settle against official payouts!
+        """)
