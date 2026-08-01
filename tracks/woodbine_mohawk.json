@@ -1,0 +1,40 @@
+{
+    "track_code": "WBS",
+    "location": "Milton, Ontario, Canada",
+    "nicknames": [
+        "Mohawk",
+        "Woodbine Mohawk Park",
+        "The Mecca of North American Harness Racing",
+        "Home of the North America Cup"
+    ],
+    "courses": {
+        "main_track": {
+            "circumference": "7/8 Mile (1,408 metres)",
+            "surface": "Crushed Limestone",
+            "stretch_length": "1,095 feet (334 metres)",
+            "passing_lane": false,
+            "bias_notes": "Anti-clockwise. The premier 7/8-mile harness oval in North America featuring wide, sweeping turns and a grueling 1,095-foot home stretch. ABSOLUTELY NO PASSING LANE exists. Pocket-sitters (2nd along the rail) risk getting hopelessly locked in if the pacesetter tires. Second-over (cover-following) and first-over outer-flow trips are heavily favored on firm, fast nights.",
+            "post_bias": "POWER ALLEY (Posts 4, 5 & 6): Posts 4–6 account for over 45% of total wins. Post 6 sits at the ideal speed-acceleration angle off the mobile gate wing. POST 1 SHUFFLE RISK: Post 1 carries a significant penalty for horses lacking top 1st-call gate speed due to the absence of an inside sprint lane. POSTS 9 & 10: Require aggressive early usage or outer cover to overcome wide first-turn entry."
+        }
+    },
+    "handicapping_angles": {
+        "no_passing_lane_pocket_trap": "Because Mohawk lacks an inside sprint/passing lane, aggressively penalize non-speed horses drawn inside (Posts 1–2) who are likely to get shuffled back behind a weak pacesetter. Strongly upgrade 1st-over and 2nd-over outer-flow stalkers with clear stretch running room.",
+        "half_mile_bullring_shipper_tax": "Deduct -4.0 points from horses shipping in from 1/2-mile bullrings (Flamboro Downs, Grand River, Western Fair, London). Half-mile specialists accustomed to short 400-foot home straights frequently exhaust themselves trying to sustain momentum down Mohawk's massive 1,095-foot stretch.",
+        "sub_27_final_quarter_requirement": "To win in Preferred, FFA, or upper condition ranks (NW5000+ L5), pacers must possess an individual sub-27.0 second final quarter (L1/4) capability off cover. Upgrade horses coming off fast finishing splits on 7/8 or 1-mile ovals.",
+        "driver_choice_and_elite_pilot_synergy": "Driver intent is critical at Mohawk. Upgrade horses when top pilots (James MacDonald, Louis-Philippe Roy, Doug McNair, Sylvain Filion, Bob McClure) select one entry over another in the official program driver choices.",
+        "trot_vs_pace_gait_stability": "In trotting events (Maple Leaf Trot, Goodtimes lines), horses with any recent break in stride ('b.t.') must be penalized by -3.0 points unless demonstrating a flawless flat qualifier line at Mohawk."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Premier North American Harness)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "pace_preferred_ffa": "+5.0",
+            "pace_nw5000": "+3.5",
+            "trot_preferred": "+4.0",
+            "trot_condition": "+2.5"
+        },
+        "lengths": 0.0,
+        "points": 10.0
+    },
+    "region_group": "Canada_Harness"
+}
