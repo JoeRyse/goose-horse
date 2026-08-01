@@ -1,8 +1,10 @@
 {
     "track_code": "DOOM",
-    "location": "Brisbane, QLD",
+    "location": "Brisbane, QLD, Australia",
     "nicknames": [
-        "The Garden Track"
+        "The Garden Track",
+        "Doomben Racecourse",
+        "Brisbane Racing Club"
     ],
     "courses": {
         "main_turf": {
@@ -10,13 +12,14 @@
             "surface": "Turf",
             "stretch_length": "350 metres",
             "bias_notes": "Clockwise. A relatively tight, flat metropolitan track with a short 350m home straight. Unlike its spacious neighbor Eagle Farm, Doomben heavily favors tactical speed and horses that can settle on the pace or in the 'box seat'. The tight turns make it difficult for wide, sweeping closers to make up ground efficiently.",
-            "post_bias": "Inside barriers (1-4) are highly advantageous, especially in short sprints (1050m and 1110m) where the run to the first turn is very short. Wide draws are severe penalties unless the horse possesses elite gate speed to clear the field."
+            "post_bias": "Inside barriers (1-4) are highly advantageous, especially in short sprints (1050m and 1110m) where the run to the first turn is very short. In 1350m and 1615m events, wide draws (8+) face an energy-draining wide trip around the tight first bend unless possessing superior 1st-call gate speed."
         }
     },
     "handicapping_angles": {
-        "tactical_speed_premium": "Aggressively upgrade horses with high tactical speed ('E' or 'P' types) who draw inside. Downgrade pure backmarkers ('Swoopers') unless the early pace projection shows a massive, unsustainable speed duel.",
-        "eagle_farm_alternate": "Always compare a horse's form between Doomben and Eagle Farm. Many horses are track specialists; heavy, long-striding types who flounder on Doomben's tight turns often explode when moving to Eagle Farm's massive straight, and vice versa.",
-        "wet_track_behavior": "Doomben tends to degrade quickly when heavy subtropical rain hits, often creating an off-rail 'fast lane' out wide in the straight as the inside becomes chopped up. Check early races on wet days to see if jockeys are steering wide."
+        "tactical_speed_and_box_seat_premium": "Aggressively upgrade horses with high early speed ('E') or tactical pressers ('P') who draw inside stalls 1-4. Downgrade pure backmarkers ('Swoopers') unless early pace projections indicate a fierce, multi-horse speed duel.",
+        "gollan_and_brisbane_metro_masters": "Tony Gollan is the undisputed King of Doomben, along with Steven O'Dea & Matthew Hoysted, and Chris Waller's Queensland satellite stable. Heavily upgrade runners with top Brisbane jockeys Ryan Maloney, James Orman, and Angela Jones.",
+        "doomben_vs_eagle_farm_track_specialists": "Always evaluate track-form switches between Doomben and Eagle Farm. Heavy, long-striding horses who flounder on Doomben's tight turns often explode when moving to Eagle Farm's wide 434m straight, while sharp, agile sprinters excel at Doomben.",
+        "subtropical_wet_track_off_rail_lane": "During summer rainstorms, Doomben's inside rail deteriorates rapidly, creating a fast lane 4-6 widths off the fence in the home straight. Check early races on Soft 6 or Heavy tracks to verify if jockeys are steering wide into the straight."
     },
     "par_adjustment": {
         "tier": "Tier 1.5 (Metro Premier)",
