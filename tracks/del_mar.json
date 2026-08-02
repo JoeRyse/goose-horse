@@ -18,11 +18,13 @@
             "surface": "Turf",
             "stretch_length": "Late stretch run is relatively short",
             "bias_notes": "Features a tight first turn, especially when the temporary rail is moved out (18-30 feet). This track geometry places a massive premium on tactical speed and ground-saving trips.",
-            "post_bias": "CRITICAL PENALTY: In 1 Mile and 1 1/16 Mile turf routes, outside posts (8 and higher) are a massive disadvantage due to the short run to the tight first turn. Downgrade horses drawn wide unless they possess dominant early speed to cross over. In 5F turf sprints, inside draws and elite gate speed are mandatory."
+            "post_bias": "HARD PENALTY: In 1 Mile and 1 1/16 Mile turf routes, posts 8 and higher receive an automatic -5 point penalty due to severe ground loss into the immediate first turn (unless sole 'E' speed)."
         }
     },
     "handicapping_angles": {
-        "the_wide_turf_trap": "Automatically apply a -4 to -6 point penalty to horses drawn in posts 8 or higher in 1 Mile or 1 1/16 Mile turf races, unless they are the sole 'E' (Early Speed) runner in the field.",
+        "durante_geometry_hard_penalty": "Apply an automatic -5 point penalty to horses drawn in Post 8 or wider in 1-Mile or 1 1/16-Mile Del Mar turf routes, unless they are the sole 'E' (Early Speed) runner in the field.",
+        "ship_and_win_veto_and_acclimation_penalty": "Del Mar's 'Ship & Win' is an owner purse incentive, NOT a handicapping edge. Never boost out-of-state shippers for this program. Apply a -2 point acclimation penalty to out-of-state shippers making their first start on Del Mar turf.",
+        "maiden_class_drop_bug_fix": "Disable class drop bonus (+10 pts) for MSW to MCL drops. MSW-to-MCL drops signal vulnerable form. Only non-maiden class drops receive bonus points.",
         "synthetic_to_dirt_discount": "Be highly skeptical of horses shipping in from Golden Gate Fields or Woodbine with high synthetic speed figures. Discount their ratings by -3 points when running on Del Mar's main dirt oval.",
         "turf_sprint_cavalry_charge": "In 5-furlong turf sprints, heavily upgrade horses with proven 21.x opening quarter speed drawn in posts 1-5. Downgrade deep closers regardless of their class.",
         "horse_for_course_bias": "Del Mar is a very idiosyncratic track. Always grant a +3 point bonus to horses with a proven track record (multiple in-the-money finishes) specifically at Del Mar over the past two summers."
