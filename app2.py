@@ -1134,8 +1134,7 @@ with tab_handicap:
           st.info("🔍 Scanning PDF program to detect total races...")
 
           detector_prompt = (
-              "Look at the attached PDF program. How many total races are on this"
-              " card? Respond ONLY with the integer number (e.g. 10)."
+              "Scan the ENTIRE attached PDF document across all pages. What is the total number of races on this card (e.g. Race 1 through Race 8, 9, or 10)? Respond ONLY with the integer total number of races."
           )
 
           try:
@@ -1145,9 +1144,20 @@ with tab_handicap:
             match = re.search(r"\d+", count_response.text)
             if match:
               total_races = int(match.group(0))
-              st.success(f"📋 Detected **{total_races} Races** on today's card.")
             else:
               total_races = 10
+
+            # Retry Buffer: Fix Gemini File API indexing delay on fresh PDF upload
+            if total_races <= 1:
+              time.sleep(2.0)
+              retry_response = model.generate_content(
+                  ["Look through all pages of the attached PDF program. What is the highest race number (e.g. 7, 8, 9, 10)? Respond ONLY with the integer number.", remote_file]
+              )
+              match_retry = re.search(r"\d+", retry_response.text)
+              if match_retry and int(match_retry.group(0)) > 1:
+                total_races = int(match_retry.group(0))
+
+            st.success(f"📋 Detected **{total_races} Races** on today's card.")
           except Exception as e:
             st.warning(
                 "⚠️ Could not auto-detect race count. Defaulting to 10 races."
