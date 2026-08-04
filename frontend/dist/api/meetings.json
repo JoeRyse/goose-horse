@@ -2,42 +2,6 @@
     "status":  "success",
     "meetings":  [
                      {
-                         "id":  "Darwin_2026-08-02",
-                         "filename":  "Darwin_2026-08-02.json",
-                         "track":  "Darwin",
-                         "date":  "2026-08-02",
-                         "race_count":  10,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  4,
-                         "region":  "USA",
-                         "is_published":  true,
-                         "last_modified":  639213157501071886
-                     },
-                     {
-                         "id":  "Goulburn_2026-08-02",
-                         "filename":  "Goulburn_2026-08-02.json",
-                         "track":  "Goulburn",
-                         "date":  "2026-08-02",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  true,
-                         "last_modified":  639213160210390385
-                     },
-                     {
-                         "id":  "Pakenham_Synthetic_2026-08-02",
-                         "filename":  "Pakenham_Synthetic_2026-08-02.json",
-                         "track":  "Pakenham Synthetic",
-                         "date":  "2026-08-02",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  true,
-                         "last_modified":  639213166308915164
-                     },
-                     {
                          "id":  "Leicester_2026-08-06",
                          "filename":  "Leicester_2026-08-06.json",
                          "track":  "Leicester",
@@ -48,18 +12,6 @@
                          "region":  "UK",
                          "is_published":  false,
                          "last_modified":  639165254336558363
-                     },
-                     {
-                         "id":  "Monmouth_Park_2026-08-02",
-                         "filename":  "Monmouth_Park_2026-08-02.json",
-                         "track":  "Monmouth Park",
-                         "date":  "2026-08-02",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212828433109642
                      },
                      {
                          "id":  "Woodbine_2026-08-02",
@@ -74,6 +26,18 @@
                          "last_modified":  639212836284870635
                      },
                      {
+                         "id":  "Monmouth_Park_2026-08-02",
+                         "filename":  "Monmouth_Park_2026-08-02.json",
+                         "track":  "Monmouth Park",
+                         "date":  "2026-08-02",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212828433109642
+                     },
+                     {
                          "id":  "Saratoga_2026-08-02",
                          "filename":  "Saratoga_2026-08-02.json",
                          "track":  "Saratoga",
@@ -86,16 +50,28 @@
                          "last_modified":  639212820768587933
                      },
                      {
-                         "id":  "Colonial_Downs_2026-08-02",
-                         "filename":  "Colonial_Downs_2026-08-02.json",
-                         "track":  "Colonial Downs",
+                         "id":  "Goulburn_2026-08-02",
+                         "filename":  "Goulburn_2026-08-02.json",
+                         "track":  "Goulburn",
                          "date":  "2026-08-02",
-                         "race_count":  9,
-                         "solo_locks_count":  7,
-                         "best_bets_count":  2,
-                         "region":  "USA",
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639212824917508388
+                         "last_modified":  639213160210390385
+                     },
+                     {
+                         "id":  "Pakenham_Synthetic_2026-08-02",
+                         "filename":  "Pakenham_Synthetic_2026-08-02.json",
+                         "track":  "Pakenham Synthetic",
+                         "date":  "2026-08-02",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639213166308915164
                      },
                      {
                          "id":  "Del_Mar_2026-08-02",
@@ -108,6 +84,30 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639213057628335989
+                     },
+                     {
+                         "id":  "Darwin_2026-08-02",
+                         "filename":  "Darwin_2026-08-02.json",
+                         "track":  "Darwin",
+                         "date":  "2026-08-02",
+                         "race_count":  10,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  4,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639213157501071886
+                     },
+                     {
+                         "id":  "Colonial_Downs_2026-08-02",
+                         "filename":  "Colonial_Downs_2026-08-02.json",
+                         "track":  "Colonial Downs",
+                         "date":  "2026-08-02",
+                         "race_count":  9,
+                         "solo_locks_count":  7,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212824917508388
                      },
                      {
                          "id":  "Sunshine_Coast_2026-08-01",
@@ -134,18 +134,6 @@
                          "last_modified":  639211537401382174
                      },
                      {
-                         "id":  "Belmont_Park_Wa_2026-08-01",
-                         "filename":  "Belmont_Park_Wa_2026-08-01.json",
-                         "track":  "Belmont Park Wa",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639211594391795872
-                     },
-                     {
                          "id":  "Broome_2026-08-01",
                          "filename":  "Broome_2026-08-01.json",
                          "track":  "Broome",
@@ -156,6 +144,18 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639211588328899253
+                     },
+                     {
+                         "id":  "Belmont_Park_Wa_2026-08-01",
+                         "filename":  "Belmont_Park_Wa_2026-08-01.json",
+                         "track":  "Belmont Park Wa",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639211594391795872
                      },
                      {
                          "id":  "Saratoga_2026-08-01",
@@ -182,18 +182,6 @@
                          "last_modified":  639211998367414506
                      },
                      {
-                         "id":  "Forbes_2026-08-01",
-                         "filename":  "Forbes_2026-08-01.json",
-                         "track":  "Forbes",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212370663340590
-                     },
-                     {
                          "id":  "Sandown_Lakeside_2026-08-01",
                          "filename":  "Sandown_Lakeside_2026-08-01.json",
                          "track":  "Sandown Lakeside",
@@ -204,6 +192,18 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639212362815099133
+                     },
+                     {
+                         "id":  "Forbes_2026-08-01",
+                         "filename":  "Forbes_2026-08-01.json",
+                         "track":  "Forbes",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212370663340590
                      },
                      {
                          "id":  "Woodbine_Mohawk_2026-08-01",

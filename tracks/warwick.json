@@ -1,17 +1,34 @@
 {
-    "location": "Warwick, QLD",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "320m",
-    "bias_notes": "A regional country track in Queensland. It is a relatively tight circuit.",
+    "track_code": "WARW",
+    "location": "Warwick, Queensland, Australia",
+    "nicknames": [
+        "Warwick Turf Club",
+        "Allman Park Racecourse",
+        "Darling Downs Racing"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,750 metres",
+            "surface": "Turf",
+            "stretch_length": "320 metres",
+            "bias_notes": "Clockwise (right-handed). Located at Allman Park in the Darling Downs region of Queensland. A 1,750m oval featuring a short 320m home straight. The short run-in creates a heavy mathematical bias toward early front-runners ('E') and tactical pressers ('P') holding the fence turning for home.",
+            "post_bias": "INSIDE BARRIER EDGE: Inside barriers (stalls 1–4) in 800m, 1100m, and 1200m sprints hold an immense advantage into the first turn. Deep closers ('C') drawn wide struggle to make up ground down the short 320m stretch."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "On-pace bias is prevalent.",
-        "barrier_draw": "Inside barriers are highly advantageous."
+        "short_320m_straight_front_runner_bias": "Front-runners ('E') and prominent pressers ('P') controlling the tempo into the short 320m home stretch win over 70% of races. Severely downgrade deep back-markers unless early pace is suicidal.",
+        "toowoomba_and_se_qld_border_shippers": "Warwick attracts high-volume yards from Toowoomba, Ipswich, and the Gold Coast (e.g. Matt Kropp, Tony & Maddysen Sears, Mark Currie). Upgrade Toowoomba/Ipswich provincial shippers carrying strong class form (+3.0 pts).",
+        "warwick_cup_carnival": "During the Warwick Cup feature meeting in October, race quality elevates significantly. Upgrade horses with proven Darling Downs track-and-distance form."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 3.5 (QLD Regional Country / Darling Downs)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Metropolitan"
+    "region_group": "Australia_Thoroughbred_Queensland"
 }
