@@ -1033,8 +1033,8 @@ with tab_handicap:
           if "HARNESS" in category_str or "HARNESS" in track_str or "HARNESS" in region_str:
             system_file = "system_harness.md"
           elif any(
-              k in region_str or k in track_str
-              for k in ["AUSTRALIA", "AUS", "NEW ZEALAND", "NZ"]
+              k in region_str or k in track_str or region_str.startswith("AU") or track_str.startswith("AU")
+              for k in ["AUSTRALIA", "AUS", "NEW ZEALAND", "NZ", "AU"]
           ):
             system_file = "system_aus.md"
           elif any(
