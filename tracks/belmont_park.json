@@ -1,15 +1,50 @@
 {
-    "location": "Elmont, NY",
-    "surface": "Dirt",
-    "distance": "1 1/2 Miles",
-    "bias_notes": "Big Sandy. Large circumference means fair track. Closers can win from anywhere.",
+    "track_code": "BEL",
+    "location": "Elmont, New York, USA",
+    "nicknames": [
+        "Belmont Park",
+        "Big Sandy",
+        "Home of the Belmont Stakes",
+        "The Championship Track"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/2 Miles (12 Furlongs)",
+            "surface": "Dirt",
+            "stretch_length": "1,097 feet",
+            "bias_notes": "Known as 'Big Sandy' — the largest dirt racing strip in North America with sweeping 1.5-mile turns. The deep, sandy loam surface penalizes one-dimensional speed horses in route races. Wide, sweeping closers ('Swoopers') have ample stretch length to run down leaders on fast dirt.",
+            "post_bias": "Extremely fair due to the massive 1.5-mile circumference. Wide post positions are easily managed around the massive turns."
+        },
+        "widener_turf": {
+            "circumference": "1 5/16 Miles (10.5 Furlongs)",
+            "surface": "Turf",
+            "stretch_length": "1,097 feet",
+            "bias_notes": "Outer turf course with wide, sweeping turns. Extremely fair to all running styles.",
+            "post_bias": "Fair."
+        },
+        "inner_turf": {
+            "circumference": "1 3/16 Miles (9.5 Furlongs)",
+            "surface": "Turf",
+            "stretch_length": "1,097 feet",
+            "bias_notes": "Inner turf course featuring tighter turns than the Widener course. Slightly elevates tactical speed ('P').",
+            "post_bias": "Inside barriers hold a minor advantage."
+        }
+    },
     "handicapping_angles": {
-        "pace_scenario": "Closers love Belmont. Even sprints allow come-from-behind wins."
+        "big_sandy_stamina_test": "The 1.5-mile main track requires genuine stamina. In dirt routes (1M to 1 1/2M), penalize early speed ('E') types lacking proven 2nd-call stamina.",
+        "chad_brown_and_todd_pletcher_dominance": "Elite NYRA stables (Chad Brown, Todd Pletcher, Christophe Clement, Linda Rice) dominate NYRA Belmont meetings.",
+        "belmont_stakes_class_par": "Belmont Stakes (12F) and Grade 1 Belmont festival races carry top Tier 1 class offsets (+5.0 speed par)."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Stamina Test)",
-        "lengths": 5.0,
-        "points": 12.0
+        "tier": "Tier 1 (Elite NYRA Metro HQ)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "dirt_sprint": "+3.0",
+            "dirt_route": "+4.0",
+            "turf": "+3.5"
+        },
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "USA_Thoroughbred"
 }

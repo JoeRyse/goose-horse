@@ -1,33 +1,36 @@
 {
     "track_code": "HOBA",
-    "location": "Elwick, Tasmania",
+    "location": "Hobart (Elwick), Tasmania, Australia",
     "nicknames": [
         "Elwick Racecourse",
-        "Tasmanian HQ"
+        "Hobart Racecourse",
+        "Tasmanian Racing Club",
+        "Home of the Hobart Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,990 metres",
             "surface": "Turf (StrathAyr)",
             "stretch_length": "350 metres",
-            "bias_notes": "Counter-Clockwise. The premier racing venue in southern Tasmania. Reconstructed with an elite 28-metre wide StrathAyr profile, it is a spacious, modern, and extremely fair galloping track. The defining feature is the 350m home straight, which features a distinct, gradual uphill gradient. This incline ruthlessly tests stamina in the final furlong and frequently exposes one-dimensional front-runners.",
-            "post_bias": "Plays relatively fairly across all distances due to the wide, expansive track layout. However, in larger fields, horses drawn extremely wide (10+) must possess the tactical speed to cross over and find cover early, or they risk burning too much fuel before the uphill drag."
+            "bias_notes": "Anti-clockwise (left-handed). The premier racing venue in southern Tasmania. Built with a 28-metre wide StrathAyr profile, it is a spacious, modern, and fair galloping track. The defining feature is the 350m home straight with a distinct, gradual uphill gradient that tests stamina in the final furlong and exposes one-dimensional front-runners.",
+            "post_bias": "Plays fairly across all distances due to the wide track layout. However, in large fields over 1100m and 1200m, horses drawn wide (10+) must possess tactical speed to cross and find cover before the uphill drag."
         }
     },
     "handicapping_angles": {
-        "the_uphill_stamina_test": "The uphill straight stops weak front-runners dead in their tracks. Heavily upgrade 'Swoopers' (closers) with proven stamina and strong late sectionals. Horses stepping back slightly in distance (e.g., from 1600m to 1400m) often out-finish horses attempting to stretch out.",
-        "the_strathayr_drainage": "Because the track features a premium StrathAyr sand profile, it drains exceptionally well and handles winter weather better than standard dirt-based provincial tracks. Do not aggressively upgrade extreme 'mudlarks' unless the track has suffered torrential, sustained rain and is genuinely rated Heavy 8 or worse.",
-        "the_mainland_shipper": "As the headquarters of Tasmanian racing, local elite form is strong. However, heavily respect horses shipping over from the Victorian mainland\u2014particularly those dropping out of Melbourne midweek metro races or premium provincial tracks like Ballarat and Geelong\u2014as they often possess a distinct class edge over the local stalwarts."
+        "the_uphill_stamina_test": "The uphill straight stops weak front-runners dead in their tracks. Heavily upgrade 'Swoopers' (closers) with proven stamina and strong late sectionals. Horses dropping back in distance (e.g. 1600m to 1400m) frequently out-finish horses stretching out.",
+        "the_strathayr_drainage": "Because the track features a premium StrathAyr sand profile, it drains exceptionally well and handles winter weather better than standard provincial tracks. Do not aggressively upgrade extreme mudlarks unless rated Heavy 8 or worse.",
+        "victorian_mainland_shippers": "Local Tasmanian elite form is competitive, but respect horses shipping over from the Victorian mainland (Flemington, Caulfield, Moonee Valley, Geelong, Ballarat) as they carry a distinct class edge (+3.0 pts).",
+        "hobart_cup_summer_carnival": "During the February Hobart Cup (2400m) carnival, track quality elevates to Group/Listed grade. Factor in higher par offsets for Cup day feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline / TAS HQ)",
+        "tier": "Tier 3 (TAS Metro HQ / State Circuit)",
         "class_rating": 90,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
-            "turf_route": "0.0"
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
         },
-        "lengths": 0.0,
-        "points": 0.0
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_Tasmania"
 }
