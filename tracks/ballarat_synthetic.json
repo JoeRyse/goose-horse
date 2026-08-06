@@ -1,38 +1,37 @@
 {
-    "Ballarat Synthetic": {
-        "track_code": "BRTS",
-        "location": "Ballarat (Dowling Forest), VIC, Australia",
-        "nicknames": [
-            "The Polytrack",
-            "Sportsbet-Ballarat Synthetic",
-            "Dowling Forest Polytrack"
-        ],
-        "courses": {
-            "polytrack": {
-                "circumference": "1,900 metres",
-                "surface": "Synthetic (Polytrack)",
-                "stretch_length": "400 metres",
-                "bias_notes": "Anti-clockwise. An all-weather synthetic Polytrack constructed inside the main turf course featuring broad, sweeping turns and a spacious 400m home straight. Unlike shorter synthetic tracks, Ballarat's long home stretch gives mid-pack stalkers ('P') and closing swoopers ('S') a genuine chance to wind up and catch tired front-runners if the early tempo is strong.",
-                "post_bias": "In 1000m, 1100m, and 1200m sprint races, inside barriers (1-4) hold a clear advantage by preventing runners from being trapped 3-wide on the sweeping bends. Being caught wide without cover on Polytrack burns vital energy."
-            }
+    "track_code": "BRTS",
+    "location": "Ballarat (Dowling Forest), Victoria, Australia",
+    "nicknames": [
+        "The Polytrack",
+        "Sportsbet-Ballarat Synthetic",
+        "Dowling Forest Polytrack",
+        "Ballarat Synthetic"
+    ],
+    "courses": {
+        "polytrack": {
+            "circumference": "1,900 metres",
+            "surface": "Synthetic (Polytrack)",
+            "stretch_length": "400 metres",
+            "bias_notes": "Anti-clockwise (left-handed). An all-weather synthetic Polytrack constructed inside the main turf course featuring broad, sweeping turns and a spacious 400m home straight. Unlike shorter synthetic tracks, Ballarat's long home stretch gives mid-pack stalkers ('P') and closing swoopers ('S') a genuine chance to wind up and catch tired front-runners if the early tempo is strong.",
+            "post_bias": "In 1000m, 1100m, and 1200m sprint races, inside barriers (1–4) hold a clear advantage by preventing runners from being trapped 3-wide on the sweeping bends. Being caught wide without cover on Polytrack burns vital energy."
+        }
+    },
+    "handicapping_angles": {
+        "polytrack_specialists": "Always heavily upgrade horses with proven synthetic form (Polytrack or Tapeta). Grass performance ratings do not always seamlessly translate to artificial surfaces. Some horses dislike the kickback, while 'synthetic specialists' excel here.",
+        "the_kickback_factor": "Synthetic surfaces generate noticeable kickback (flying wax/sand particles). Downgrade timid stalkers drawn inside who lack early speed and risk getting buried in the pack, as they often resent kickback and drop the bit.",
+        "the_pakenham_translation": "Form translates exceptionally well between Pakenham Synthetic and Ballarat Synthetic. Both are spacious Victorian Polytracks. Upgrade horses shipping between these venues with strong underlying synthetic speed figures (+3.0 pts).",
+        "winter_metro_class_drop": "During the Victorian winter (May–August), top Melbourne metropolitan stables (Maher, Price/Kent, Hayes, Moody/Coleman) send class-dropping Metro runners to Ballarat Synthetic. Heavily upgrade horses dropping out of Sandown, Caulfield, or Flemington company into provincial benchmark races.",
+        "long_straight_swooper_fairness": "Do not assume Ballarat Polytrack is an automatic 'leader-lock' course. The generous 400m home straight allows well-balanced closers to make up significant ground in the final 200 metres."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3.5 (Premium Country Synthetic)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "synthetic_sprint": "+1.5",
+            "synthetic_route": "+2.0"
         },
-        "handicapping_angles": {
-            "polytrack_specialists": "Always heavily upgrade horses with proven synthetic form (Polytrack or Tapeta). Grass performance ratings do not always seamlessly translate to artificial surfaces. Some horses dislike the kickback, while 'synthetic specialists' excel here.",
-            "the_kickback_factor": "Synthetic surfaces generate noticeable kickback (flying wax/sand particles). Downgrade timid stalkers drawn inside who lack early speed and risk getting buried in the pack, as they often resent kickback and drop the bit.",
-            "the_pakenham_translation": "Form translates exceptionally well between Pakenham Synthetic and Ballarat Synthetic. Both are spacious Victorian Polytracks. Upgrade horses shipping between these venues with strong underlying synthetic speed figures.",
-            "winter_metro_class_drop": "During the Victorian winter (May–August), top Melbourne metropolitan stables (Maher, Price/Kent, Hayes, Moody/Coleman) send class-dropping Metro runners to Ballarat Synthetic. Heavily upgrade horses dropping out of Sandown, Caulfield, or Flemington company into provincial benchmark races.",
-            "long_straight_swooper_fairness": "Do not assume Ballarat Polytrack is an automatic 'leader-lock' course. The generous 400m home straight allows well-balanced closers to make up significant ground in the final 200 metres."
-        },
-        "par_adjustment": {
-            "tier": "Tier 3.5 (Premium Country Synthetic)",
-            "class_rating": 85,
-            "speed_par_offsets": {
-                "synthetic_sprint": "+1.5",
-                "synthetic_route": "+2.0"
-            },
-            "lengths": 1.0,
-            "points": 3.0
-        },
-        "region_group": "Australia_Thoroughbred_Victoria_Provincial"
-    }
+        "lengths": 1.0,
+        "points": 3.0
+    },
+    "region_group": "Australia_Thoroughbred_Victoria"
 }
