@@ -1,32 +1,35 @@
 {
     "track_code": "GOSF",
-    "location": "Gosford, NSW",
+    "location": "Gosford, New South Wales, Australia",
     "nicknames": [
-        "The Entertainment Grounds"
+        "Gosford Racecourse",
+        "The Entertainment Grounds",
+        "Gosford Race Club",
+        "Home of the Gosford Gold Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,710 metres",
             "surface": "Turf",
             "stretch_length": "250 metres",
-            "bias_notes": "Clockwise. A notoriously tight provincial track on the Central Coast. Its defining feature is a very short 250m home straight. Because the final sprint is so brief and the turns are tight, the track naturally creates a massive bias toward front-runners ('E' types) and horses drawn inside. Sweeping closers frequently run out of time and ground.",
-            "post_bias": "Inside barriers (1-4) are highly advantageous. Horses drawn wide face a severe statistical penalty as they are often forced to work hard early to cross over, or risk being caught wide on the continuous tight turns."
+            "bias_notes": "Clockwise (right-handed). A notoriously tight provincial track on the Central Coast of NSW. Its defining feature is an ultra-short 250m home straight. Because the final sprint is so brief and the turns are tight, the track creates a massive natural bias toward front-runners ('E') and pocket pressers ('P') holding the fence. Sweeping closers almost always run out of stretch length.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–4) are highly advantageous. Horses drawn wide (9+) face a severe statistical penalty as they are forced to work hard early to cross over, or get caught wide on continuous tight turns."
         }
     },
     "handicapping_angles": {
-        "the_bullring_trap": "Aggressively downgrade deep closers ('Swoopers'). With only 250 metres of straight runway, horses settling in the back half of the field will almost always run out of ground. Heavily upgrade pure early speed and rail-skimming tactical stalkers.",
-        "provincial_metropolitan_bridge": "Gosford often hosts high-quality provincial fields and off-season Metropolitan runners. Form from tighter Sydney tracks like Canterbury often translates perfectly to Gosford's tight geometry.",
-        "wide_barrier_penalty": "Apply a strict downgrade to horses drawn wide (barrier 9+). Due to the tight circumference (1,710m), ground loss on the turns is highly detrimental and very difficult to recover from."
+        "the_250m_short_straight_bullring_trap": "Aggressively downgrade deep closers ('Swoopers'). With only 250 metres of straight runway, horses settling in the back half of the field almost always run out of ground. Heavily upgrade pure early speed ('E') and rail-skimming tactical stalkers ('P').",
+        "sydney_metro_and_canterbury_bridge": "Gosford hosts high-quality provincial fields and off-season Metropolitan runners. Form from tighter Sydney tracks like Canterbury and Warwick Farm translates perfectly to Gosford's tight geometry (+3.0 pts for Sydney Metro shippers).",
+        "gosford_gold_cup_carnival": "During the May Gosford Gold Cup ($250k+) stand-alone feature meeting, track class elevates to Listed/Group level. Factor in higher speed par offsets for Cup day feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Premium Provincial NSW)",
-        "class_rating": 88,
+        "tier": "Tier 2 (NSW Provincial HQ / Gosford Gold Cup)",
+        "class_rating": 92,
         "speed_par_offsets": {
-            "turf_sprint": "-1.5",
-            "turf_route": "-2.0"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": 0.0,
-        "points": -2.0
+        "lengths": 1.5,
+        "points": 3.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
 }
