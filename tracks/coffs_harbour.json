@@ -1,18 +1,34 @@
 {
-    "location": "Mid North Coast, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "420m",
-    "bias_notes": "A spacious coastal track with a 1630m circumference and a generous 420m home straight. It generally plays very fairly due to the long run home, giving swoopers plenty of time.",
+    "track_code": "COFF",
+    "location": "Coffs Harbour, Mid North Coast, NSW, Australia",
+    "nicknames": [
+        "Coffs Harbour Racecourse",
+        "Coffs Harbour Racing Club",
+        "Home of the Coffs Harbour Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,630 metres",
+            "surface": "Turf",
+            "stretch_length": "420 metres",
+            "bias_notes": "Clockwise (right-handed). A spacious 1,630m Mid North Coast oval featuring a long, fair 420m home straight. The generous straight provides all running styles a fair opportunity, allowing closing swoopers ('S') ample runway to run down leaders on Good ground.",
+            "post_bias": "Fair across most starting points due to the 420m home straight. Inside barriers (stalls 1–4) offer a minor advantage from the 1000m and 1200m chute starts into the first bend."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair track. The 420m straight provides every horse a chance, ensuring closers and backmarkers are rarely severely disadvantaged.",
-        "barrier_draw": "Fair across most starting points, though inside draws are slightly beneficial from the 1000m and 1200m chute starts."
+        "fair_420m_straight_swooper_boost": "Because Coffs Harbour features a spacious 420m home straight, do not penalize deep closers ('Swoopers'). Well-balanced gallopers with strong late sectionals excel here.",
+        "sydney_and_gold_coast_shippers": "Coffs Harbour attracts top NSW Provincial/Metro yards and SE Queensland shippers (e.g. Kris Lees, Annabel Neasham, Matthew Dunn). Upgrade shippers coming off Randwick/Warwick Farm midweeks or Gold Coast provincial form (+3.0 pts).",
+        "coffs_harbour_cup_showcase": "During the Coffs Harbour Cup ($150k+) Showcase carnival in August, race quality elevates to Metro/Provincial grade. Factor in higher class offsets for Cup day feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (Premium Country)",
-        "lengths": -1.0,
-        "points": -2.5,
-        "algorithm_note": "Spacious regional country form. Requires standard penalty when shipping to Metro."
+        "tier": "Tier 3 (NSW Mid North Coast HQ)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_Queensland"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

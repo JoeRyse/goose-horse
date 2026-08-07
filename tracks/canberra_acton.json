@@ -1,30 +1,34 @@
 {
     "track_code": "CBA",
-    "location": "Acton, Canberra, Australian Capital Territory",
+    "location": "Canberra (Acton), Australian Capital Territory, Australia",
     "nicknames": [
-        "The Acton Synthetic"
+        "Canberra Acton",
+        "Acton Synthetic",
+        "Canberra Polytrack",
+        "Canberra Racing Club"
     ],
     "courses": {
         "main_synthetic": {
-            "circumference": "1590 metres",
+            "circumference": "1,590 metres",
             "surface": "Synthetic (Polytrack)",
             "stretch_length": "350 metres",
-            "bias_notes": "Anti-clockwise oval inner track. Being a synthetic Polytrack surface, it plays remarkably consistent regardless of weather, but features a pronounced tactical bias. Early speed and forward pressers ('E' and 'P' styles) holding the fence or box-seat positions gain a massive efficiency advantage. Mid-race kickback is present, making it highly discouraging for deep closers who get caught out wide or dropped too far back out of the slipstream.",
-            "post_bias": "Barriers 1-4 offer a major advantage across all sprint distances up to 1280m due to the tight turns and immediate positioning requirements. At the 1750m route start, inside stalls are critical to prevent getting caught wide on the initial sweeping bend. Downgrade wide barriers (8+) significantly unless the runner has elite early tactical speed to cross and clear the field before the first turn."
+            "bias_notes": "Anti-clockwise (left-handed) synthetic oval inside the main turf course. Plays remarkably consistent regardless of rain, but features a pronounced tactical bias. Early speed ('E') and forward pressers ('P') holding the fence gain a massive efficiency advantage. Mid-race synthetic kickback makes it difficult for deep closers dropped too far back out of the slipstream.",
+            "post_bias": "INSIDE BARRIER BIAS: Stalls 1–4 offer a major advantage across all sprint distances up to 1280m due to tight turns and immediate positioning requirements. At the 1750m route start, inside stalls are critical to avoid getting caught wide."
         }
     },
     "handicapping_angles": {
-        "horses_for_courses_specialists": "Aggressively upgrade 'synthetic specialists'\u2014runners with proven synthetic form at Acton, Geelong, or Ballarat. Conversely, be highly skeptical of turf-only class drops who have never trialed or raced on a Polytrack surface.",
-        "trainer_jockey_trends": "Monitor regional stables from Goulburn, Kembla Grange, and local Canberra trainers who specifically target these winter synthetic programming blocks with hard-knocking, forward-running field types."
+        "acton_synthetic_specialists": "Aggressively upgrade synthetic specialists with proven form at Acton, Geelong, or Ballarat Polytrack. Be skeptical of turf-only runners making their synthetic debut without prior synthetic trial performance.",
+        "regional_nsw_and_canberra_stables": "Local Canberra yards (Keith Dryden, Norm Gardner, Matthew Dale, Joseph & Jones) and Goulburn/Kembla Grange trainers dominate winter Acton Polytrack cards."
     },
     "par_adjustment": {
-        "tier": "Tier 3.5 (Provincial / Synthetic Circuit)",
-        "class_rating": 66,
+        "tier": "Tier 3 (ACT Synthetic Circuit)",
+        "class_rating": 86,
         "speed_par_offsets": {
-            "Standard": 0.0,
-            "Fast": 1.0,
-            "Slow": -2.0
-        }
+            "synthetic_sprint": "+0.0",
+            "synthetic_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Australian_Capital_Territory"
 }

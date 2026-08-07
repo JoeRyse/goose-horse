@@ -1,17 +1,40 @@
 {
-    "location": "Canberra, ACT",
-    "track_type": "Turf / Synthetic (Acton)",
-    "direction": "Clockwise",
-    "straight_length": "400m",
-    "bias_notes": "Course Proper (Turf) is spacious. Acton Track (Synthetic) favors on-pace.",
+    "track_code": "CANB",
+    "location": "Canberra (Thoroughbred Park), ACT, Australia",
+    "nicknames": [
+        "Canberra Racecourse",
+        "Thoroughbred Park",
+        "Home of the Black Opal Stakes"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,815 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Anti-clockwise (left-handed). A fair 1,815m turf course featuring a 400m home straight. Very fair layout giving all running styles a legitimate chance.",
+            "post_bias": "Fair across middle distances. Inside stalls 1–4 are advantageous in 1000m and 1200m dashes."
+        },
+        "acton_synthetic": {
+            "circumference": "1,590 metres",
+            "surface": "Synthetic (Polytrack)",
+            "stretch_length": "350 metres",
+            "bias_notes": "Anti-clockwise synthetic inner track. Favors early speed and inside positioning.",
+            "post_bias": "Inside stalls 1–4 hold a clear advantage."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Turf: Very fair. Synthetic: On-pace/inside.",
-        "surface": "Always check if Acton track."
+        "black_opal_stakes_class": "During the Group 3 Black Opal Stakes ($250k) 2YO feature meeting in March, race class elevates to Sydney Metro grade (+4.0 pts).",
+        "sydney_metro_shippers": "Sydney metropolitan trainers (Waterhouse & Bott, Chris Waller, Snowdens) frequently target Canberra feature meetings."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 2.5 (ACT Premier HQ)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Australian_Capital_Territory"
 }
