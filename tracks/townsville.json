@@ -1,16 +1,36 @@
 {
-    "location": "Cluden Park, QLD",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "310m",
-    "bias_notes": "Provincial track. Sweeping turns but short home straight.",
+    "track_code": "TOWN",
+    "location": "Townsville (Cluden Park), North Queensland, Australia",
+    "nicknames": [
+        "Townsville Racecourse",
+        "Cluden Park",
+        "Townsville Turf Club",
+        "Home of the Townsville Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,680 metres",
+            "surface": "Turf",
+            "stretch_length": "310 metres",
+            "bias_notes": "Clockwise (right-handed). Premier North Queensland venue featuring a 1,680m oval and a short 310m home straight. The tight geometry and brief final stretch generate a natural bias toward front-runners ('E') and pocket pressers ('P') holding the fence. Deep closers ('Swoopers') frequently run out of stretch length on Good ground.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–4) in 1000m, 1200m, and 1400m races hold a distinct advantage to secure early rail position into the turn. Wide draws (9+) face significant ground-loss penalties."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "On-pace bias."
+        "cluden_short_straight_speed_bias": "Aggressively upgrade lone early speed ('E') and rail-skimming tactical stalkers ('P'). Downgrade deep closers ('Swoopers') settling in the back half of the field unless a frantic pace duel is projected.",
+        "brisbane_and_rockhampton_shippers": "Townsville regularly attracts high-volume shippers from Brisbane (Tony Gollan, Chris Waller) and Rockhampton/Mackay (Ricky Vale, Nick Walsh, Stephen Rundle). Upgrade Brisbane Metro and Provincial shippers dropping into NQ ranks (+3.0 pts).",
+        "townsville_cup_and_cleveland_bay_carnival": "During the Winter Carnival featuring the $150k Townsville Cup (2000m) and $100k Cleveland Bay Handicap (1300m - 'Newmarket of the North'), race class elevates to Metro/Listed grade. Factor in higher speed par offsets for feature races.",
+        "tropical_wet_track_mudlarks": "During North Queensland monsoon downpours, the track shifts rapidly to Soft/Heavy. Heavily upgrade proven wet-trackers ('Mudlarks') with 2+ wins on rain-affected ground."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 2.5 (North Queensland HQ)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
     "region_group": "Australia_Thoroughbred_Queensland"
 }
