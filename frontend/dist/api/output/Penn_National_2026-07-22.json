@@ -1,0 +1,961 @@
+{
+    "meta": {
+        "track": "Penn National",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 3, 8, 1",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Wish Carefully",
+                        "handicapper_notes": "Boasts the highest class and speed figures in the field (105 speed rating). Tracked inside and gave way last start at Churchill Downs, but should appreciate the Penn National dirt configuration.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Shallus",
+                        "handicapper_notes": "In superb form, winning last start handily at Penn National. Boasts a strong 100 speed rating and possesses tactical early speed to exploit the inside bias.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bonafide",
+                        "handicapper_notes": "Stalked and led before being caught last start at Parx. Possesses excellent early speed and draws the rail, which is a massive advantage on this track.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Marcan Love",
+                        "handicapper_notes": "Passed tiring rivals last start at Delaware. Possesses decent late kick but will need a hot pace setup to threaten the speed-favoring surface.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Fairfield Bay",
+                        "handicapper_notes": "Altered course and surged late to finish third last start. Shows competitive speed figures and could sneak into the exotics.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Apollo Eleven",
+                        "handicapper_notes": "Won last start on turf splitting rivals. Must prove he can transfer that form back to the dirt surface.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Good Friday Man",
+                        "handicapper_notes": "Stumbled and lost rider last start. Has shown decent local form previously and could bounce back at a price.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Lost Rider",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Mission Artemis",
+                        "handicapper_notes": "Reluctant and weakened last start on turf. Better suited to dirt but faces a tough task against this field.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wish Carefully",
+                    "rating": 92.0,
+                    "reason": "Boasts the highest class and speed figures in the field (105 speed rating). Tracked inside and gave way last start at Churchill Downs, but should appreciate the Penn National dirt configuration."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Shallus",
+                    "rating": 90.0,
+                    "reason": "In superb form, winning last start handily at Penn National. Boasts a strong 100 speed rating and possesses tactical early speed to exploit the inside bias."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Marcan Love",
+                    "rating": 84.0,
+                    "reason": "Passed tiring rivals last start at Delaware. Possesses decent late kick but will need a hot pace setup to threaten the speed-favoring surface."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Fairfield Bay",
+                    "rating": 83.0,
+                    "reason": "Altered course and surged late to finish third last start. Shows competitive speed figures and could sneak into the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Bonafide",
+                "rating": 91.0,
+                "reason": "Stalked and led before being caught last start at Parx. Possesses excellent early speed and draws the rail, which is a massive advantage on this track. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        },
+        {
+            "number": 2,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 1, 10, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Zapata (ire)",
+                        "handicapper_notes": "Slipped through and held on to win last start on the local turf. Draws the rail and possesses the field's highest speed rating (109).",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Mucho Mojo",
+                        "handicapper_notes": "Tracked and bid wide before weakening last start at Penn National. Class drop makes him a major threat despite the wide draw.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Porch Swing",
+                        "handicapper_notes": "Weakened last start on dirt but is much better suited to turf. Possesses strong early speed and should be prominent throughout.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tallahatchiebridge",
+                        "handicapper_notes": "No rally last start on turf but has run competitive speed figures locally. Solid exotics candidate.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Chuck Adams",
+                        "handicapper_notes": "Hopped at the start but made a game inside run last time out. Needs a clean break to threaten.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Stumbled",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Major Thomas",
+                        "handicapper_notes": "Crowded at the start on synthetic last time. Better suited to turf and could surprise at a price.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Synthetic to Turf",
+                            "trouble_trip": "Crowded",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Highly Potent",
+                        "handicapper_notes": "Weakened on dirt last start. Returns to turf where he has run some of his best career speed figures.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Prince Khozan",
+                        "handicapper_notes": "Five-wide and gave way last start on turf. Needs to find his best form to compete with the top choices.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Mt Suribachi",
+                        "handicapper_notes": "Stalked and weakened last start. Hard to recommend on recent form.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Darvesh",
+                        "handicapper_notes": "Stopped and lost contact last start on dirt. Hard to back on turf debut.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Zapata (ire)",
+                    "rating": 94.0,
+                    "reason": "Slipped through and held on to win last start on the local turf. Draws the rail and possesses the field's highest speed rating (109)."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Porch Swing",
+                    "rating": 87.0,
+                    "reason": "Weakened last start on dirt but is much better suited to turf. Possesses strong early speed and should be prominent throughout. | <i>\ud83d\udccf Dirt to Turf</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Tallahatchiebridge",
+                    "rating": 84.0,
+                    "reason": "No rally last start on turf but has run competitive speed figures locally. Solid exotics candidate."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Chuck Adams",
+                    "rating": 82.0,
+                    "reason": "Hopped at the start but made a game inside run last time out. Needs a clean break to threaten. | <i>\u26a0\ufe0f Stumbled</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Mucho Mojo",
+                "rating": 89.0,
+                "reason": "Tracked and bid wide before weakening last start at Penn National. Class drop makes him a major threat despite the wide draw."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 3, 6, 10",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Snowstorm",
+                        "handicapper_notes": "Angled out and ran on mildly last start. Possesses strong speed figures and looks like the class of the active field.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Modranach",
+                        "handicapper_notes": "Fractious in the gate and drifted last start on turf, but still ran a competitive race. Big threat if he behaves.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Fractious",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "On Secret Service",
+                        "handicapper_notes": "Faltered late last start but has shown competitive early speed. Should be prominent from the start.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Little Sneckdraw",
+                        "handicapper_notes": "Made a solid rail rally last start on dirt. Returns to turf where he needs to prove his class.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Batant",
+                        "handicapper_notes": "Drifted wide but finished second last start. Could sneak into the exotics if he can repeat that effort on turf.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "Drifted",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Christ Is King",
+                        "handicapper_notes": "No rally last start on turf. Needs to improve significantly to threaten.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Fiery Debut",
+                        "handicapper_notes": "Slow start and no threat last time out. Hard to back on current form.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Whatchasaynow",
+                        "handicapper_notes": "Fractious and tight start last time. Hard to recommend against these.",
+                        "features": {
+                            "ai_holistic_score": 73,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Tight Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Mobot",
+                        "handicapper_notes": "Always trailed last start. Massive improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Snowstorm",
+                    "rating": 91.0,
+                    "reason": "Angled out and ran on mildly last start. Possesses strong speed figures and looks like the class of the active field."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "On Secret Service",
+                    "rating": 88.0,
+                    "reason": "Faltered late last start but has shown competitive early speed. Should be prominent from the start. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Little Sneckdraw",
+                    "rating": 82.0,
+                    "reason": "Made a solid rail rally last start on dirt. Returns to turf where he needs to prove his class. | <i>\ud83d\udccf Dirt to Turf</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Batant",
+                    "rating": 80.0,
+                    "reason": "Drifted wide but finished second last start. Could sneak into the exotics if he can repeat that effort on turf. | <i>\u26a0\ufe0f Drifted \u2022 \ud83d\udccf Dirt to Turf</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Modranach",
+                "rating": 88.0,
+                "reason": "Fractious in the gate and drifted last start on turf, but still ran a competitive race. Big threat if he behaves. | <i>\u26a0\ufe0f Fractious</i>"
+            }
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta: 2 / 1, 3",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Decree And Declare",
+                        "handicapper_notes": "Fought willingly to finish second last start. Possesses the highest class rating (97) and should exploit the speed bias perfectly.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Divulge",
+                        "handicapper_notes": "Faded on turf last start but returns to her preferred dirt surface. Draws the rail and should be the one to catch.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Gwen To Win",
+                        "handicapper_notes": "Chased and kept on well to finish second last start. Consistent speed figures make her a solid exotics player.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Let'em Hate",
+                        "handicapper_notes": "Bumped at the start last time out. Needs a clean break to threaten the top choices.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Charming Jennie",
+                        "handicapper_notes": "Tracked inside and gave way last start. Faces a tough task to match strides with the top speed here.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Decree And Declare",
+                    "rating": 96.0,
+                    "reason": "Fought willingly to finish second last start. Possesses the highest class rating (97) and should exploit the speed bias perfectly."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Gwen To Win",
+                    "rating": 89.0,
+                    "reason": "Chased and kept on well to finish second last start. Consistent speed figures make her a solid exotics player."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Let'em Hate",
+                    "rating": 85.0,
+                    "reason": "Bumped at the start last time out. Needs a clean break to threaten the top choices. | <i>\u26a0\ufe0f Bumped</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Charming Jennie",
+                    "rating": 82.0,
+                    "reason": "Tracked inside and gave way last start. Faces a tough task to match strides with the top speed here."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Divulge",
+                "rating": 95.0,
+                "reason": "Faded on turf last start but returns to her preferred dirt surface. Draws the rail and should be the one to catch. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Turf to Dirt</i>"
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Standard Deduction",
+                        "handicapper_notes": "Checked early but fought hard to finish second last start. Boasts a strong 98 speed rating and is the horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Checked",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Road Runner",
+                        "handicapper_notes": "Bumped and squeezed at the start in debut. Highly-regarded Stidham trainee should show massive improvement here.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Squeezed",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tims",
+                        "handicapper_notes": "Off slow but made a solid wide run last start. Consistent speed figures make him a major player.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ragatony",
+                        "handicapper_notes": "Far back but made a solid wide rally last start. Should appreciate the distance but needs a hot pace.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Standard Deduction",
+                    "rating": 95.0,
+                    "reason": "Checked early but fought hard to finish second last start. Boasts a strong 98 speed rating and is the horse to beat. | <i>\u26a0\ufe0f Checked</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Tims",
+                    "rating": 88.0,
+                    "reason": "Off slow but made a solid wide run last start. Consistent speed figures make him a major player. | <i>\u26a0\ufe0f Slow Start</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ragatony",
+                    "rating": 85.0,
+                    "reason": "Far back but made a solid wide rally last start. Should appreciate the distance but needs a hot pace."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Road Runner",
+                "rating": 91.0,
+                "reason": "Bumped and squeezed at the start in debut. Highly-regarded Stidham trainee should show massive improvement here. | <i>\u26a0\ufe0f Squeezed</i>"
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Blame The Banker",
+                        "handicapper_notes": "Prompted and held second last start on turf. Boasts the highest overall speed rating (106) and should handle the dirt transition easily.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Ecliptical Gina",
+                        "handicapper_notes": "Floated wide last start on turf but still ran a competitive race. Consistent local performer is a major threat.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Krissi N",
+                        "handicapper_notes": "Rail run and retreated last start on dirt. Needs to find her best form to compete with the top two.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Song To Remember",
+                        "handicapper_notes": "Off slow and tired last start on turf. Hard to back on dirt transition.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Blame The Banker",
+                    "rating": 94.0,
+                    "reason": "Prompted and held second last start on turf. Boasts the highest overall speed rating (106) and should handle the dirt transition easily. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Krissi N",
+                    "rating": 86.0,
+                    "reason": "Rail run and retreated last start on dirt. Needs to find her best form to compete with the top two."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Song To Remember",
+                    "rating": 82.0,
+                    "reason": "Off slow and tired last start on turf. Hard to back on dirt transition. | <i>\u26a0\ufe0f Slow Start \u2022 \ud83d\udccf Turf to Dirt</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Ecliptical Gina",
+                "rating": 91.0,
+                "reason": "Floated wide last start on turf but still ran a competitive race. Consistent local performer is a major threat. | <i>\ud83d\udccf Turf to Dirt</i>"
+            }
+        },
+        {
+            "number": 7,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta: 6 / 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Marlas Dream",
+                        "handicapper_notes": "Three-wide and dueled before being outgamed last start. Boasts the highest speed rating (97) and should easily handle this field.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Loaf Of Sof",
+                        "handicapper_notes": "Rail run and no factor last start. Needs to show more but could grab a minor share.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Zirconia",
+                        "handicapper_notes": "Tracked inside and tired last start. Better suited to this sprint distance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Witty Girl",
+                        "handicapper_notes": "First-time starter. Watch the board for clues.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Marlas Dream",
+                    "rating": 98.0,
+                    "reason": "Three-wide and dueled before being outgamed last start. Boasts the highest speed rating (97) and should easily handle this field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Loaf Of Sof",
+                    "rating": 84.0,
+                    "reason": "Rail run and no factor last start. Needs to show more but could grab a minor share."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Witty Girl",
+                    "rating": 75.0,
+                    "reason": "First-time starter. Watch the board for clues."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Zirconia",
+                "rating": 82.0,
+                "reason": "Tracked inside and tired last start. Better suited to this sprint distance."
+            }
+        }
+    ]
+}
