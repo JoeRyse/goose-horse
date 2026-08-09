@@ -1,0 +1,1610 @@
+{
+    "meta": {
+        "track": "Northam",
+        "date": "2026-08-05",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1100m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1100m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 6, 1, 8",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Sovereign Rock",
+                        "handicapper_notes": "Massive Class Drop Elevator applied. Resumes after competing in top-tier 2YO Metro/Listed races ($175k Magic Millions, $88k Open) where he placed behind He's A Machino and They'reallsisters. Trialled impressively winning at Lark Hill and gets ideal barrier 4 geometry.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Spanish Armada",
+                        "handicapper_notes": "Proven provincial maiden performer who led and was nabbed late over 6.5f at this track two starts back. Drops back to 1100m third-up where he will press forward aggressively from stall 5 under Brad Parnham.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "Night Broker",
+                        "handicapper_notes": "High-upside debutant by Siyouni out of a Sea The Stars mare for the Simon Miller barn. William Pike takes the mount following a sharp trial effort at Belmont Park. Flagged as the primary danger horse.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "Finitto Web",
+                        "handicapper_notes": "Shocked first-up when running a nose 2nd at $101 over this track and distance. Draws gate 3 and carries good early speed to be in the front rank entering the 400m home straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Talk Of Thrones",
+                        "handicapper_notes": "Resumes from a lengthy break but signaled readiness with a dominant 5-length trial victory at Belmont on July 20. Premium jockey Clint Johnston-Porter retains the drive from barrier 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P/M",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Right Ripper",
+                        "handicapper_notes": "Three-year-old filly dropping out of 2YO Saturday Metro Open company at Belmont. Drawn the rails in stall 1 and poised to improve second-up back in provincial maiden grade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "M/O",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Sovereign Rock",
+                    "rating": 92.0,
+                    "reason": "Massive Class Drop Elevator applied. Resumes after competing in top-tier 2YO Metro/Listed races ($175k Magic Millions, $88k Open) where he placed behind He's A Machino and They'reallsisters. Trialled impressively winning at Lark Hill and gets ideal barrier 4 geometry. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Spanish Armada",
+                    "rating": 88.0,
+                    "reason": "Proven provincial maiden performer who led and was nabbed late over 6.5f at this track two starts back. Drops back to 1100m third-up where he will press forward aggressively from stall 5 under Brad Parnham. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "Night Broker",
+                    "rating": 85.0,
+                    "reason": "High-upside debutant by Siyouni out of a Sea The Stars mare for the Simon Miller barn. William Pike takes the mount following a sharp trial effort at Belmont Park. Flagged as the primary danger horse."
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Finitto Web",
+                    "rating": 83.0,
+                    "reason": "Shocked first-up when running a nose 2nd at $101 over this track and distance. Draws gate 3 and carries good early speed to be in the front rank entering the 400m home straight."
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Talk Of Thrones",
+                    "rating": 81.0,
+                    "reason": "Resumes from a lengthy break but signaled readiness with a dominant 5-length trial victory at Belmont on July 20. Premium jockey Clint Johnston-Porter retains the drive from barrier 2."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Sovereign Rock",
+                    "rating": 92.0,
+                    "reason": "Massive Class Drop Elevator applied. Resumes after competing in top-tier 2YO Metro/Listed races ($175k Magic Millions, $88k Open) where he placed behind He's A Machino and They'reallsisters. Trialled impressively winning at Lark Hill and gets ideal barrier 4 geometry. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Spanish Armada",
+                    "rating": 88.0,
+                    "reason": "Proven provincial maiden performer who led and was nabbed late over 6.5f at this track two starts back. Drops back to 1100m third-up where he will press forward aggressively from stall 5 under Brad Parnham. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "Night Broker",
+                    "rating": 85.0,
+                    "reason": "High-upside debutant by Siyouni out of a Sea The Stars mare for the Simon Miller barn. William Pike takes the mount following a sharp trial effort at Belmont Park. Flagged as the primary danger horse."
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Finitto Web",
+                    "rating": 83.0,
+                    "reason": "Shocked first-up when running a nose 2nd at $101 over this track and distance. Draws gate 3 and carries good early speed to be in the front rank entering the 400m home straight."
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Talk Of Thrones",
+                    "rating": 81.0,
+                    "reason": "Resumes from a lengthy break but signaled readiness with a dominant 5-length trial victory at Belmont on July 20. Premium jockey Clint Johnston-Porter retains the drive from barrier 2."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Right Ripper",
+                    "rating": 78.0,
+                    "reason": "Three-year-old filly dropping out of 2YO Saturday Metro Open company at Belmont. Drawn the rails in stall 1 and poised to improve second-up back in provincial maiden grade."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "6",
+                "name": "Night Broker",
+                "rating": 85.0,
+                "reason": "High-upside debutant by Siyouni out of a Sea The Stars mare for the Simon Miller barn. William Pike takes the mount following a sharp trial effort at Belmont Park. Flagged as the primary danger horse."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Sovereign Rock</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #1, #8 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 3; Exacta Box 3, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "10",
+                        "horse_name": "Espresso Time",
+                        "handicapper_notes": "Returned after a five-month spell with a nose-margin 3rd over this track and distance on July 23. Holds proven Northam track form and strips fitter second-up for trainer Jim Taylor.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Magnificent Prince",
+                        "handicapper_notes": "First-starter 3yo gelding by Manhattan Rain with elite jockey William Pike booked. Impressed in recent Lark Hill trials and maps ideally from barrier 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Kute As Kan Be",
+                        "handicapper_notes": "Class dropper dropping from 2yo Restricted Listed ($175k) and Saturday Metro ($56k) company into provincial maiden grade. Led to the turn first-up over course and distance before tiring late; carries only 111lbs after claim.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Chattahoochie",
+                        "handicapper_notes": "Finished 5th beaten just 1 length behind Super Sentai over this track and distance on July 23. Gains first-time blinkers and maps to get a golden run from barrier 3.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Call Me Invincible",
+                        "handicapper_notes": "Drops back in distance from 6.5f to 5.5f. Drawn inside stall 1 for Brad Parnham and Neville Parnham and can secure a cozy rail trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Profound Benefit",
+                        "handicapper_notes": "Closed ground late to run 3rd over course and distance on July 23. Claims 9lbs with apprentice Atherden and can place again.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "M",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Espresso Time",
+                    "rating": 92.0,
+                    "reason": "Returned after a five-month spell with a nose-margin 3rd over this track and distance on July 23. Holds proven Northam track form and strips fitter second-up for trainer Jim Taylor."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Magnificent Prince",
+                    "rating": 88.0,
+                    "reason": "First-starter 3yo gelding by Manhattan Rain with elite jockey William Pike booked. Impressed in recent Lark Hill trials and maps ideally from barrier 4."
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Kute As Kan Be",
+                    "rating": 86.0,
+                    "reason": "Class dropper dropping from 2yo Restricted Listed ($175k) and Saturday Metro ($56k) company into provincial maiden grade. Led to the turn first-up over course and distance before tiring late; carries only 111lbs after claim. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Chattahoochie",
+                    "rating": 84.0,
+                    "reason": "Finished 5th beaten just 1 length behind Super Sentai over this track and distance on July 23. Gains first-time blinkers and maps to get a golden run from barrier 3."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Call Me Invincible",
+                    "rating": 83.0,
+                    "reason": "Drops back in distance from 6.5f to 5.5f. Drawn inside stall 1 for Brad Parnham and Neville Parnham and can secure a cozy rail trip. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Espresso Time",
+                    "rating": 92.0,
+                    "reason": "Returned after a five-month spell with a nose-margin 3rd over this track and distance on July 23. Holds proven Northam track form and strips fitter second-up for trainer Jim Taylor."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Magnificent Prince",
+                    "rating": 88.0,
+                    "reason": "First-starter 3yo gelding by Manhattan Rain with elite jockey William Pike booked. Impressed in recent Lark Hill trials and maps ideally from barrier 4."
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Kute As Kan Be",
+                    "rating": 86.0,
+                    "reason": "Class dropper dropping from 2yo Restricted Listed ($175k) and Saturday Metro ($56k) company into provincial maiden grade. Led to the turn first-up over course and distance before tiring late; carries only 111lbs after claim. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Chattahoochie",
+                    "rating": 84.0,
+                    "reason": "Finished 5th beaten just 1 length behind Super Sentai over this track and distance on July 23. Gains first-time blinkers and maps to get a golden run from barrier 3."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Call Me Invincible",
+                    "rating": 83.0,
+                    "reason": "Drops back in distance from 6.5f to 5.5f. Drawn inside stall 1 for Brad Parnham and Neville Parnham and can secure a cozy rail trip. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Profound Benefit",
+                    "rating": 81.0,
+                    "reason": "Closed ground late to run 3rd over course and distance on July 23. Claims 9lbs with apprentice Atherden and can place again."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "4",
+                "name": "Magnificent Prince",
+                "rating": 88.0,
+                "reason": "First-starter 3yo gelding by Manhattan Rain with elite jockey William Pike booked. Impressed in recent Lark Hill trials and maps ideally from barrier 4."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Espresso Time</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #8, #9 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "5 1/2 f Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "5 1/2 f Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 2, Exacta Box 2, 3, 9",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Diggers Shout",
+                        "handicapper_notes": "Top pick dropping sharply out of Metropolitan $56k 2yo Open company into a regional maiden. Finished 5th on debut at Belmont over 1200m on a soft track after winning a trial. Gains elite jockey William Pike and holds a substantial class advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "Off-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "11",
+                        "horse_name": "Rocktex",
+                        "handicapper_notes": "First-up colt dropping from Metro 2yo Open grade at Ascot where he ran 6th behind Aurum Belle. Trialled strongly when 3rd at Belmont over 1000m on July 20 and possesses higher-tier upside despite the wide gate.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "4",
+                        "horse_name": "Supersmash",
+                        "handicapper_notes": "Showed blazingly fast early pace to lead Metro 2yo Open opposition last start before fading late over 1200m. Shortening to 1100m from barrier 4 gives her an excellent platform to command early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Lake Baikal",
+                        "handicapper_notes": "First starter by Russian Camelot who showed good speed when finishing a close 2nd in a Belmont 1000m trial on July 20. Draws barrier 2 which offers a soft run on debut.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "On-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Clear Assault",
+                        "handicapper_notes": "Unraced Brave Smash filly who won a 400m trial and placed 2nd in a 1000m trial at Belmont on July 20. Capitalizes on the inside rail draw to press forward early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "On-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Capall Gasta",
+                        "handicapper_notes": "Has seven starts of experience against city 2yo fields. Second-up drop into provincial maiden grade gives him a prime opportunity to figure in the minor placings.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Diggers Shout",
+                    "rating": 92.0,
+                    "reason": "Top pick dropping sharply out of Metropolitan $56k 2yo Open company into a regional maiden. Finished 5th on debut at Belmont over 1200m on a soft track after winning a trial. Gains elite jockey William Pike and holds a substantial class advantage. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Supersmash",
+                    "rating": 92.0,
+                    "reason": "Showed blazingly fast early pace to lead Metro 2yo Open opposition last start before fading late over 1200m. Shortening to 1100m from barrier 4 gives her an excellent platform to command early speed. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Capall Gasta",
+                    "rating": 87.0,
+                    "reason": "Has seven starts of experience against city 2yo fields. Second-up drop into provincial maiden grade gives him a prime opportunity to figure in the minor placings. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Rocktex",
+                    "rating": 86.0,
+                    "reason": "First-up colt dropping from Metro 2yo Open grade at Ascot where he ran 6th behind Aurum Belle. Trialled strongly when 3rd at Belmont over 1000m on July 20 and possesses higher-tier upside despite the wide gate. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Lake Baikal",
+                    "rating": 82.0,
+                    "reason": "First starter by Russian Camelot who showed good speed when finishing a close 2nd in a Belmont 1000m trial on July 20. Draws barrier 2 which offers a soft run on debut."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Diggers Shout",
+                    "rating": 92.0,
+                    "reason": "Top pick dropping sharply out of Metropolitan $56k 2yo Open company into a regional maiden. Finished 5th on debut at Belmont over 1200m on a soft track after winning a trial. Gains elite jockey William Pike and holds a substantial class advantage. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Supersmash",
+                    "rating": 92.0,
+                    "reason": "Showed blazingly fast early pace to lead Metro 2yo Open opposition last start before fading late over 1200m. Shortening to 1100m from barrier 4 gives her an excellent platform to command early speed. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Capall Gasta",
+                    "rating": 87.0,
+                    "reason": "Has seven starts of experience against city 2yo fields. Second-up drop into provincial maiden grade gives him a prime opportunity to figure in the minor placings. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Rocktex",
+                    "rating": 86.0,
+                    "reason": "First-up colt dropping from Metro 2yo Open grade at Ascot where he ran 6th behind Aurum Belle. Trialled strongly when 3rd at Belmont over 1000m on July 20 and possesses higher-tier upside despite the wide gate. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Lake Baikal",
+                    "rating": 82.0,
+                    "reason": "First starter by Russian Camelot who showed good speed when finishing a close 2nd in a Belmont 1000m trial on July 20. Draws barrier 2 which offers a soft run on debut."
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Clear Assault",
+                    "rating": 81.0,
+                    "reason": "Unraced Brave Smash filly who won a 400m trial and placed 2nd in a 1000m trial at Belmont on July 20. Capitalizes on the inside rail draw to press forward early."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "11",
+                "name": "Rocktex",
+                "rating": 86.0,
+                "reason": "First-up colt dropping from Metro 2yo Open grade at Ascot where he ran 6th behind Aurum Belle. Trialled strongly when 3rd at Belmont over 1000m on July 20 and possesses higher-tier upside despite the wide gate. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win Wager (Tight Gap: +0.0 pts on #2 Diggers Shout)<br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #9, #3 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "1 3/8 m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 3/8 m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 4, 3, 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "11",
+                        "horse_name": "Sin City Boy",
+                        "handicapper_notes": "Enters off an outstanding performance when closing late for 2nd over 2200m at Pinjarra Scarpside on July 22, beaten just 0.7 lengths. Carries effective weight well and looks ideally suited stepping up in trip over Northam's long 400m home straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Delicate Warrior",
+                        "handicapper_notes": "Holding excellent consistency with recent placings at Bunbury (3rd) and Pinjarra (2nd). Maps to get a cozy economical trip from barrier 4 with Austin Galati aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Yalda Night",
+                        "handicapper_notes": "Forgive his last effort on a heavy track at Pinjarra; his course-and-distance form at Northam is super proven (a close 2nd on July 9 and 3rd on June 18). Low barrier draw gives him every chance to land a forward position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "He'snotallthere",
+                        "handicapper_notes": "Ran a strong 3rd behind Sin City Boy at Pinjarra Scarpside over 2200m last start. Picks up top WA jockey William Pike and gets the advantageous inside rail (barrier 1).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "On-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Thangoo",
+                        "handicapper_notes": "Set the tempo and held 2nd at Pinjarra Scarpside over 1700m last start. Steps up sharply in distance but gets Clint Johnston-Porter and inside gate position to dictate or sit on-pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Obscentino",
+                        "handicapper_notes": "Experienced stayer with 10 placings at the distance. Has previously placed over 2200m at Northam and can run into minor exotic placings late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "11",
+                    "name": "Sin City Boy",
+                    "rating": 92.0,
+                    "reason": "Enters off an outstanding performance when closing late for 2nd over 2200m at Pinjarra Scarpside on July 22, beaten just 0.7 lengths. Carries effective weight well and looks ideally suited stepping up in trip over Northam's long 400m home straight."
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Delicate Warrior",
+                    "rating": 88.0,
+                    "reason": "Holding excellent consistency with recent placings at Bunbury (3rd) and Pinjarra (2nd). Maps to get a cozy economical trip from barrier 4 with Austin Galati aboard. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Yalda Night",
+                    "rating": 86.0,
+                    "reason": "Forgive his last effort on a heavy track at Pinjarra; his course-and-distance form at Northam is super proven (a close 2nd on July 9 and 3rd on June 18). Low barrier draw gives him every chance to land a forward position."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "He'snotallthere",
+                    "rating": 85.0,
+                    "reason": "Ran a strong 3rd behind Sin City Boy at Pinjarra Scarpside over 2200m last start. Picks up top WA jockey William Pike and gets the advantageous inside rail (barrier 1)."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Thangoo",
+                    "rating": 83.0,
+                    "reason": "Set the tempo and held 2nd at Pinjarra Scarpside over 1700m last start. Steps up sharply in distance but gets Clint Johnston-Porter and inside gate position to dictate or sit on-pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "11",
+                    "name": "Sin City Boy",
+                    "rating": 92.0,
+                    "reason": "Enters off an outstanding performance when closing late for 2nd over 2200m at Pinjarra Scarpside on July 22, beaten just 0.7 lengths. Carries effective weight well and looks ideally suited stepping up in trip over Northam's long 400m home straight."
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Delicate Warrior",
+                    "rating": 88.0,
+                    "reason": "Holding excellent consistency with recent placings at Bunbury (3rd) and Pinjarra (2nd). Maps to get a cozy economical trip from barrier 4 with Austin Galati aboard. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Yalda Night",
+                    "rating": 86.0,
+                    "reason": "Forgive his last effort on a heavy track at Pinjarra; his course-and-distance form at Northam is super proven (a close 2nd on July 9 and 3rd on June 18). Low barrier draw gives him every chance to land a forward position."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "He'snotallthere",
+                    "rating": 85.0,
+                    "reason": "Ran a strong 3rd behind Sin City Boy at Pinjarra Scarpside over 2200m last start. Picks up top WA jockey William Pike and gets the advantageous inside rail (barrier 1)."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Thangoo",
+                    "rating": 83.0,
+                    "reason": "Set the tempo and held 2nd at Pinjarra Scarpside over 1700m last start. Steps up sharply in distance but gets Clint Johnston-Porter and inside gate position to dictate or sit on-pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Obscentino",
+                    "rating": 80.0,
+                    "reason": "Experienced stayer with 10 placings at the distance. Has previously placed over 2200m at Northam and can run into minor exotic placings late."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Yalda Night",
+                "rating": 86.0,
+                "reason": "Forgive his last effort on a heavy track at Pinjarra; his course-and-distance form at Northam is super proven (a close 2nd on July 9 and 3rd on June 18). Low barrier draw gives him every chance to land a forward position."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Sin City Boy</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #3, #2 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1600m Good4",
+            "surface": "Good4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1600m Good4",
+                "confidence_level": "High",
+                "suggested_wager": "Win: Bend It Like Becks (1) | Trifecta / Exacta Key: 1 / 8, 6, 2",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Bend It Like Becks",
+                        "handicapper_notes": "Massive class elevator drop out of the $88k Listed Aquanita Stakes back to $18k maiden company. Prior to that step up in grade, posted back-to-back city maiden placings when setting the pace over 1400m and 1700m at Belmont. Holds significant class and speed advantages over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 95,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Celestial Boom",
+                        "handicapper_notes": "Strong second-up performance at Northam over 1300m when finishing hard for 2nd beaten just 0.7L. Drawn ideal in barrier 1 with William Pike riding for top trainer Grant & Alana Williams. Rising to 1600m suits perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Field Mistress",
+                        "handicapper_notes": "Consistent mare coming off three consecutive placings, including a close 2nd at Bunbury over 1690m on July 30. Gets the benefit of barrier 2 to stalk the speed entering Northam's 400m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "Off-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Suparoo",
+                        "handicapper_notes": "Maintained good form last start when 4th at Pinjarra Scarpside over 1700m following a nose defeat for 2nd at Belmont. Very competitive at this distance level.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "Bangalong",
+                        "handicapper_notes": "Forgive last start when finishing 10th over 1700m; prior form includes two narrow placings over 1600m at Pinjarra. Returns to optimal 1600m trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "Off-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "7",
+                        "horse_name": "History Supreme",
+                        "handicapper_notes": "First starter gelding by Astern who won a 1450m Lark Hill trial on July 27. Worth keeping safe in exotics on debut given the distance suitability.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Bend It Like Becks",
+                    "rating": 98.0,
+                    "reason": "Massive class elevator drop out of the $88k Listed Aquanita Stakes back to $18k maiden company. Prior to that step up in grade, posted back-to-back city maiden placings when setting the pace over 1400m and 1700m at Belmont. Holds significant class and speed advantages over this field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "1",
+                    "name": "Celestial Boom",
+                    "rating": 90.0,
+                    "reason": "Strong second-up performance at Northam over 1300m when finishing hard for 2nd beaten just 0.7L. Drawn ideal in barrier 1 with William Pike riding for top trainer Grant & Alana Williams. Rising to 1600m suits perfectly. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Field Mistress",
+                    "rating": 86.0,
+                    "reason": "Consistent mare coming off three consecutive placings, including a close 2nd at Bunbury over 1690m on July 30. Gets the benefit of barrier 2 to stalk the speed entering Northam's 400m straight."
+                },
+                {
+                    "number": "2",
+                    "barrier": "9",
+                    "name": "Suparoo",
+                    "rating": 83.0,
+                    "reason": "Maintained good form last start when 4th at Pinjarra Scarpside over 1700m following a nose defeat for 2nd at Belmont. Very competitive at this distance level."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "Bangalong",
+                    "rating": 81.0,
+                    "reason": "Forgive last start when finishing 10th over 1700m; prior form includes two narrow placings over 1600m at Pinjarra. Returns to optimal 1600m trip."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Bend It Like Becks",
+                    "rating": 98.0,
+                    "reason": "Massive class elevator drop out of the $88k Listed Aquanita Stakes back to $18k maiden company. Prior to that step up in grade, posted back-to-back city maiden placings when setting the pace over 1400m and 1700m at Belmont. Holds significant class and speed advantages over this field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "1",
+                    "name": "Celestial Boom",
+                    "rating": 90.0,
+                    "reason": "Strong second-up performance at Northam over 1300m when finishing hard for 2nd beaten just 0.7L. Drawn ideal in barrier 1 with William Pike riding for top trainer Grant & Alana Williams. Rising to 1600m suits perfectly. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Field Mistress",
+                    "rating": 86.0,
+                    "reason": "Consistent mare coming off three consecutive placings, including a close 2nd at Bunbury over 1690m on July 30. Gets the benefit of barrier 2 to stalk the speed entering Northam's 400m straight."
+                },
+                {
+                    "number": "2",
+                    "barrier": "9",
+                    "name": "Suparoo",
+                    "rating": 83.0,
+                    "reason": "Maintained good form last start when 4th at Pinjarra Scarpside over 1700m following a nose defeat for 2nd at Belmont. Very competitive at this distance level."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "Bangalong",
+                    "rating": 81.0,
+                    "reason": "Forgive last start when finishing 10th over 1700m; prior form includes two narrow placings over 1600m at Pinjarra. Returns to optimal 1600m trip."
+                },
+                {
+                    "number": "5",
+                    "barrier": "7",
+                    "name": "History Supreme",
+                    "rating": 77.0,
+                    "reason": "First starter gelding by Astern who won a 1450m Lark Hill trial on July 27. Worth keeping safe in exotics on debut given the distance suitability."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "1",
+                "name": "Celestial Boom",
+                "rating": 90.0,
+                "reason": "Strong second-up performance at Northam over 1300m when finishing hard for 2nd beaten just 0.7L. Drawn ideal in barrier 1 with William Pike riding for top trainer Grant & Alana Williams. Rising to 1600m suits perfectly. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Bend It Like Becks</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#8, #6) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1300m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1300m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5, Trifecta 5 / 1, 7 / 1, 3, 7",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Marcos",
+                        "handicapper_notes": "Strong first-up victory at Belmont over 6f coming off city stakes form. Drops to provincial Class 1 company with ideal barrier 4 draw and top jockey Clint Johnston-Porter staying aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Flying Maradona",
+                        "handicapper_notes": "Impressive track and distance maiden winner on debut/first-up on July 23 leading throughout. Picks up William Pike from barrier 1 and stays at preferred 1300m trip despite top weight carrying 60kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Rising Fame",
+                        "handicapper_notes": "Solid 5th fresh at Pinjarra Scarpside over 1300m when beaten just 1.1 lengths. Fitter second-up from barrier 3 and has a victory over 7f previously.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "On Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "7",
+                        "horse_name": "Artie's Storm",
+                        "handicapper_notes": "Fair fourth first-up at this venue over 5 1/2f. Steps up to 1300m where her Victorian form was effective, and gets Laqdar Ramoly in the saddle second-up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Luna Ascending",
+                        "handicapper_notes": "Better than recent form suggests after racing on wet tracks at Bunbury and Belmont. Striking distance winner on dry turf earlier in career.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Saucisson",
+                        "handicapper_notes": "Resuming after four months following maiden win at York over 1300m. Draws barrier 2 and has placed in town previously, though usually needs a run to find full fitness.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Marcos",
+                    "rating": 94.0,
+                    "reason": "Strong first-up victory at Belmont over 6f coming off city stakes form. Drops to provincial Class 1 company with ideal barrier 4 draw and top jockey Clint Johnston-Porter staying aboard. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Flying Maradona",
+                    "rating": 90.0,
+                    "reason": "Impressive track and distance maiden winner on debut/first-up on July 23 leading throughout. Picks up William Pike from barrier 1 and stays at preferred 1300m trip despite top weight carrying 60kg."
+                },
+                {
+                    "number": "7",
+                    "barrier": "3",
+                    "name": "Rising Fame",
+                    "rating": 85.0,
+                    "reason": "Solid 5th fresh at Pinjarra Scarpside over 1300m when beaten just 1.1 lengths. Fitter second-up from barrier 3 and has a victory over 7f previously."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Artie's Storm",
+                    "rating": 83.0,
+                    "reason": "Fair fourth first-up at this venue over 5 1/2f. Steps up to 1300m where her Victorian form was effective, and gets Laqdar Ramoly in the saddle second-up. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Luna Ascending",
+                    "rating": 80.0,
+                    "reason": "Better than recent form suggests after racing on wet tracks at Bunbury and Belmont. Striking distance winner on dry turf earlier in career."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Marcos",
+                    "rating": 94.0,
+                    "reason": "Strong first-up victory at Belmont over 6f coming off city stakes form. Drops to provincial Class 1 company with ideal barrier 4 draw and top jockey Clint Johnston-Porter staying aboard. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Flying Maradona",
+                    "rating": 90.0,
+                    "reason": "Impressive track and distance maiden winner on debut/first-up on July 23 leading throughout. Picks up William Pike from barrier 1 and stays at preferred 1300m trip despite top weight carrying 60kg."
+                },
+                {
+                    "number": "7",
+                    "barrier": "3",
+                    "name": "Rising Fame",
+                    "rating": 85.0,
+                    "reason": "Solid 5th fresh at Pinjarra Scarpside over 1300m when beaten just 1.1 lengths. Fitter second-up from barrier 3 and has a victory over 7f previously."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Artie's Storm",
+                    "rating": 83.0,
+                    "reason": "Fair fourth first-up at this venue over 5 1/2f. Steps up to 1300m where her Victorian form was effective, and gets Laqdar Ramoly in the saddle second-up. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Luna Ascending",
+                    "rating": 80.0,
+                    "reason": "Better than recent form suggests after racing on wet tracks at Bunbury and Belmont. Striking distance winner on dry turf earlier in career."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Saucisson",
+                    "rating": 78.0,
+                    "reason": "Resuming after four months following maiden win at York over 1300m. Draws barrier 2 and has placed in town previously, though usually needs a run to find full fitness."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "3",
+                "name": "Rising Fame",
+                "rating": 85.0,
+                "reason": "Solid 5th fresh at Pinjarra Scarpside over 1300m when beaten just 1.1 lengths. Fitter second-up from barrier 3 and has a victory over 7f previously."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Marcos</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #1, #7 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "1100m Good4",
+            "surface": "Good4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1100m Good4",
+                "confidence_level": "High",
+                "suggested_wager": "Win 7, Exacta Box 7, 10, 2, 4",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Yamashita's Gold",
+                        "handicapper_notes": "Victorian metropolitan/provincial shipper making WA debut for Dylan Bairstow. Dropping significantly from Flemington $105k 3yo grade and Morphettville Bm64 into a country/provincial $21k handicap. Ideal inside barrier 2 draw and sharp recent trial finish.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "Return Of The Mach",
+                        "handicapper_notes": "Resumes from a five-month spell for the powerful Adam Durrant stable with elite hoop William Pike booked. Dominated fresh last preparation winning by 3.1 lengths at Bunbury. Draws ideally in stall 3 to swoop late over 1100m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "Off the Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Art Session",
+                        "handicapper_notes": "Loves the Northam circuit with 4 starts for 2 wins and 1 second. Won over 1000m here two starts back in Cl5 company. Faded at Belmont last start but gets back to his favorite venue and standard handicap conditions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Desert Dancing",
+                        "handicapper_notes": "Boasts a sharp 3: 2-0-1 track record at Northam. Ran back-to-back 4ths in Belmont metro midweek company and gets premier jockey Clint Johnston-Porter. Rates as a primary threat in the final 200m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "Off the Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Sesh",
+                        "handicapper_notes": "Won a Belmont Cl3 over 1000m two starts back before an even 8th in midweek metro company. Gains maximum rail efficiency from barrier 1 on a dry Good 4 track where he has triumphed previously at this track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "On Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Let's Talk",
+                        "handicapper_notes": "Dropping out of Saturday metro grade at Belmont (Grad Hcp 59+ and Bm66+). Holds high speed figures but faces a physical stamina tax carrying top weight of 60kg (132 lbs).",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 83,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Yamashita's Gold",
+                    "rating": 93.0,
+                    "reason": "Victorian metropolitan/provincial shipper making WA debut for Dylan Bairstow. Dropping significantly from Flemington $105k 3yo grade and Morphettville Bm64 into a country/provincial $21k handicap. Ideal inside barrier 2 draw and sharp recent trial finish. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Let's Talk",
+                    "rating": 91.0,
+                    "reason": "Dropping out of Saturday metro grade at Belmont (Grad Hcp 59+ and Bm66+). Holds high speed figures but faces a physical stamina tax carrying top weight of 60kg (132 lbs). | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Return Of The Mach",
+                    "rating": 89.0,
+                    "reason": "Resumes from a five-month spell for the powerful Adam Durrant stable with elite hoop William Pike booked. Dominated fresh last preparation winning by 3.1 lengths at Bunbury. Draws ideally in stall 3 to swoop late over 1100m."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Art Session",
+                    "rating": 88.0,
+                    "reason": "Loves the Northam circuit with 4 starts for 2 wins and 1 second. Won over 1000m here two starts back in Cl5 company. Faded at Belmont last start but gets back to his favorite venue and standard handicap conditions."
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Desert Dancing",
+                    "rating": 86.0,
+                    "reason": "Boasts a sharp 3: 2-0-1 track record at Northam. Ran back-to-back 4ths in Belmont metro midweek company and gets premier jockey Clint Johnston-Porter. Rates as a primary threat in the final 200m."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Yamashita's Gold",
+                    "rating": 93.0,
+                    "reason": "Victorian metropolitan/provincial shipper making WA debut for Dylan Bairstow. Dropping significantly from Flemington $105k 3yo grade and Morphettville Bm64 into a country/provincial $21k handicap. Ideal inside barrier 2 draw and sharp recent trial finish. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Let's Talk",
+                    "rating": 91.0,
+                    "reason": "Dropping out of Saturday metro grade at Belmont (Grad Hcp 59+ and Bm66+). Holds high speed figures but faces a physical stamina tax carrying top weight of 60kg (132 lbs). | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Return Of The Mach",
+                    "rating": 89.0,
+                    "reason": "Resumes from a five-month spell for the powerful Adam Durrant stable with elite hoop William Pike booked. Dominated fresh last preparation winning by 3.1 lengths at Bunbury. Draws ideally in stall 3 to swoop late over 1100m."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Art Session",
+                    "rating": 88.0,
+                    "reason": "Loves the Northam circuit with 4 starts for 2 wins and 1 second. Won over 1000m here two starts back in Cl5 company. Faded at Belmont last start but gets back to his favorite venue and standard handicap conditions."
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Desert Dancing",
+                    "rating": 86.0,
+                    "reason": "Boasts a sharp 3: 2-0-1 track record at Northam. Ran back-to-back 4ths in Belmont metro midweek company and gets premier jockey Clint Johnston-Porter. Rates as a primary threat in the final 200m."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Sesh",
+                    "rating": 85.0,
+                    "reason": "Won a Belmont Cl3 over 1000m two starts back before an even 8th in midweek metro company. Gains maximum rail efficiency from barrier 1 on a dry Good 4 track where he has triumphed previously at this track."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "3",
+                "name": "Return Of The Mach",
+                "rating": 89.0,
+                "reason": "Resumes from a five-month spell for the powerful Adam Durrant stable with elite hoop William Pike booked. Dominated fresh last preparation winning by 3.1 lengths at Bunbury. Draws ideally in stall 3 to swoop late over 1100m."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Yamashita's Gold</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #1, #10 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "1600m Turf Good 4",
+            "surface": "4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1600m Turf Good 4",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 2, 5, 11",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Hanafubuki",
+                        "handicapper_notes": "Dominant class shipper making WA debut after competing in Victorian metropolitan and provincial grade, including a 3rd at Caulfield Heath and a narrow 2nd at Pakenham. Huge drop in class into Northam $21k handicap grade with elite rider Clint Johnston-Porter booked.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Eternal Romance",
+                        "handicapper_notes": "Hard-knocking local mare coming off a close 4th over 1600m in Bunbury Cl5 company, beaten just 0.7L. Consistent in Cl3 and Cl5 events and looms as the main threat to the favorite.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Gondrinkin",
+                        "handicapper_notes": "Gained key barrier advantage in gate 2. Comes off a competitive 2nd at Kalgoorlie over 1400m in BM58+ company and ran a tight 4th over this track and trip three starts back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "On Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "Shoot To Fame",
+                        "handicapper_notes": "Pacey mare drawn well in stall 3. Fought on gamely for 3rd over 1600m at Kalgoorlie last start and should be able to sit near the lead comfortably on Northam's wide circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "1",
+                        "horse_name": "Side Show",
+                        "handicapper_notes": "Inside draw gives him an economical rail run throughout. Placed 3rd over this track and distance two starts back in BM44+ grade and gets blinkers back on.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Let Sparks Fly",
+                        "handicapper_notes": "Fitter second-up after finishing 6th at Pinjarra over 1400m in heavy track conditions. Is a double winner at 2000m/2200m and can build late momentum down the long 400m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Hanafubuki",
+                    "rating": 95.0,
+                    "reason": "Dominant class shipper making WA debut after competing in Victorian metropolitan and provincial grade, including a 3rd at Caulfield Heath and a narrow 2nd at Pakenham. Huge drop in class into Northam $21k handicap grade with elite rider Clint Johnston-Porter booked. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Eternal Romance",
+                    "rating": 89.0,
+                    "reason": "Hard-knocking local mare coming off a close 4th over 1600m in Bunbury Cl5 company, beaten just 0.7L. Consistent in Cl3 and Cl5 events and looms as the main threat to the favorite."
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Gondrinkin",
+                    "rating": 86.0,
+                    "reason": "Gained key barrier advantage in gate 2. Comes off a competitive 2nd at Kalgoorlie over 1400m in BM58+ company and ran a tight 4th over this track and trip three starts back."
+                },
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Shoot To Fame",
+                    "rating": 83.0,
+                    "reason": "Pacey mare drawn well in stall 3. Fought on gamely for 3rd over 1600m at Kalgoorlie last start and should be able to sit near the lead comfortably on Northam's wide circuit."
+                },
+                {
+                    "number": "12",
+                    "barrier": "1",
+                    "name": "Side Show",
+                    "rating": 81.0,
+                    "reason": "Inside draw gives him an economical rail run throughout. Placed 3rd over this track and distance two starts back in BM44+ grade and gets blinkers back on."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Hanafubuki",
+                    "rating": 95.0,
+                    "reason": "Dominant class shipper making WA debut after competing in Victorian metropolitan and provincial grade, including a 3rd at Caulfield Heath and a narrow 2nd at Pakenham. Huge drop in class into Northam $21k handicap grade with elite rider Clint Johnston-Porter booked. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Eternal Romance",
+                    "rating": 89.0,
+                    "reason": "Hard-knocking local mare coming off a close 4th over 1600m in Bunbury Cl5 company, beaten just 0.7L. Consistent in Cl3 and Cl5 events and looms as the main threat to the favorite."
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Gondrinkin",
+                    "rating": 86.0,
+                    "reason": "Gained key barrier advantage in gate 2. Comes off a competitive 2nd at Kalgoorlie over 1400m in BM58+ company and ran a tight 4th over this track and trip three starts back."
+                },
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Shoot To Fame",
+                    "rating": 83.0,
+                    "reason": "Pacey mare drawn well in stall 3. Fought on gamely for 3rd over 1600m at Kalgoorlie last start and should be able to sit near the lead comfortably on Northam's wide circuit."
+                },
+                {
+                    "number": "12",
+                    "barrier": "1",
+                    "name": "Side Show",
+                    "rating": 81.0,
+                    "reason": "Inside draw gives him an economical rail run throughout. Placed 3rd over this track and distance two starts back in BM44+ grade and gets blinkers back on."
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Let Sparks Fly",
+                    "rating": 78.0,
+                    "reason": "Fitter second-up after finishing 6th at Pinjarra over 1400m in heavy track conditions. Is a double winner at 2000m/2200m and can build late momentum down the long 400m straight. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "8",
+                "name": "Let Sparks Fly",
+                "rating": 78.0,
+                "reason": "Fitter second-up after finishing 6th at Pinjarra over 1400m in heavy track conditions. Is a double winner at 2000m/2200m and can build late momentum down the long 400m straight. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Hanafubuki</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#2, #5, #6) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#1 (Solo Lock))"
+    ]
+}
