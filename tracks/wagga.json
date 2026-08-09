@@ -1,16 +1,35 @@
 {
-    "location": "Wagga Wagga, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "400m",
-    "bias_notes": "The premier track in the Riverina region.",
+    "track_code": "WAGG",
+    "location": "Wagga Wagga, Riverina, NSW, Australia",
+    "nicknames": [
+        "Wagga Racecourse",
+        "Murrumbidgee Turf Club",
+        "MTC Wagga",
+        "Home of the Wagga Gold Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,798 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise (right-handed). The premier racing circuit in the NSW Riverina region featuring a 1,798m oval and a generous 400m home straight. The wide track layout and 400m stretch give all running styles a fair contest. Stalkers ('P') and strong closing swoopers ('S') have adequate runway to wind up on Good ground.",
+            "post_bias": "Fair across middle distances. In 1000m and 1200m sprint chutes, inside-to-middle barriers (stalls 1–5) hold a minor advantage before cornering onto the main track."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair."
+        "sydney_and_canberra_shippers": "Wagga Wagga regularly attracts high-volume metropolitan shippers from Sydney (Chris Waller, Waterhouse & Bott, Bjorn Baker) and Canberra (Keith Dryden, Matthew Dale, Norm Gardner). Upgrade shippers stepping down from Sydney midweek or Canberra benchmark company (+3.0 pts).",
+        "wagga_gold_cup_carnival": "During the May Wagga Gold Cup ($200k+ Listed) & Town Plate ($150k) feature meeting, track class elevates to Listed/Group grade. Factor in higher speed par offsets for feature races.",
+        "riverina_wet_track_mudlarks": "In winter downpours, Wagga can quickly deteriorate into Soft/Heavy territory. Heavily upgrade proven rain-affected performers ('Mudlarks') with 2+ wins on soft/heavy ground."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (Premium Country)",
-        "lengths": -1.0,
-        "points": -2.5
+        "tier": "Tier 2 (NSW Riverina Premier HQ)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

@@ -1,0 +1,35 @@
+{
+    "track_code": "CAST",
+    "location": "Casterton, Western District, Victoria, Australia",
+    "nicknames": [
+        "Casterton Racecourse",
+        "Casterton Racing Club",
+        "Live Hedge Jumps Capital",
+        "Home of the Casterton Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,660 metres",
+            "surface": "Turf",
+            "stretch_length": "320 metres",
+            "bias_notes": "Anti-clockwise (left-handed). Iconic Western Victorian country track featuring a 1,660m oval, live-box hedge jumps, and a short 320m home straight. The tight turning configuration and brief home stretch generate a strong bias toward early front-runners ('E') and pocket pressers ('P'). Sweeping closers ('Swoopers') must make their move early into the turn.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–4) in 1000m, 1200m, and 1400m races hold a major advantage to hold the rail into the bend. Wide draws (8+) face severe ground-loss penalties."
+        }
+    },
+    "handicapping_angles": {
+        "short_320m_straight_speed_bias": "Aggressively upgrade lone early speed ('E') and rail-skimming tactical pressers ('P'). Downgrade deep back-markers lacking gate speed.",
+        "south_australian_border_and_warrnambool_shippers": "Casterton sits near the SA border and receives high-volume shippers from Warrnambool, Hamilton, Geelong, and SA Limestone Coast yards (Symon Wilde, Paul Preusker, Lindsey Smith, Tom Dabernig). Upgrade Victorian provincial and SA shippers (+3.0 pts).",
+        "casterton_cup_carnival": "During the Casterton Cup ($50k+) Showcase meeting in May, race quality elevates to Victorian Provincial level."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3.5 (Victorian Country Circuit)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "Australia_Thoroughbred_Victoria"
+}

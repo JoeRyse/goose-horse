@@ -1,16 +1,17 @@
 {
     "track_code": "SCTC",
-    "location": "Caloundra, QLD",
+    "location": "Caloundra, QLD, Australia",
     "nicknames": [
         "Corbould Park",
-        "Sunshine Coast Turf Club"
+        "Sunshine Coast Turf Club",
+        "Home of the Caloundra Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,967 metres",
             "surface": "Turf",
             "stretch_length": "400 metres",
-            "bias_notes": "Clockwise. A massive, wide, and sprawling galloping track widely regarded as one of the fairest and most reliable turf surfaces in Queensland. Features broad, sweeping turns and a generous 400m home straight. The track's wide layout means every horse gets an unhindered opportunity to find clear running, virtually eliminating extreme pace biases.",
+            "bias_notes": "Clockwise (right-handed). A massive, wide, and sprawling galloping track widely regarded as one of the fairest and most reliable turf surfaces in Queensland. Features broad, sweeping turns and a generous 400m home straight. The track's wide layout means every horse gets an unhindered opportunity to find clear running, virtually eliminating extreme pace biases.",
             "post_bias": "Extremely fair across all distances. Long run-ins from major starting chutes (like the 1200m and 1400m starts) give wide-drawn horses ample time to establish position and find cover without burning excessive fuel."
         },
         "synthetic_polytrack": {
@@ -23,19 +24,20 @@
     },
     "handicapping_angles": {
         "the_spacious_gallop": "On the turf, aggressively downgrade one-dimensional front-runners who rely on tight turns to pinch races. The long 400m straight and wide lanes heavily reward large-striding gallopers and genuine 'Swoopers' with high baseline stamina.",
-        "metro_alternate_meetings": "Sunshine Coast frequently hosts high-quality Friday night cards and serves as a major provincial alternate for Brisbane metropolitan stables. Form from meetings here measures up strongly against midweek metropolitan form lines.",
-        "synthetic_track_inversion": "When turf meetings are transferred to the Polytrack due to severe weather, shift completely away from standard grass turn-of-foot metrics. Prioritize synthetic specialists, high tactical gate speed, and peak fitness profiles."
+        "metro_alternate_meetings": "Sunshine Coast frequently hosts high-quality Friday night cards and serves as a major provincial alternate for Brisbane metropolitan stables (Tony Gollan, Chris Waller, Rob Heathcote). Form from meetings here measures up strongly against midweek metropolitan form lines (+3.0 pts).",
+        "synthetic_track_inversion": "When turf meetings are transferred to the Polytrack due to severe weather, shift completely away from standard grass turn-of-foot metrics. Prioritize synthetic specialists, high tactical gate speed, and peak fitness profiles.",
+        "caloundra_cup_carnival": "During the July Caloundra Cup ($300k+ Listed) & Glasshouse Handicap feature meeting, race quality elevates to Metro/Group level."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline QLD)",
-        "class_rating": 88,
+        "tier": "Tier 2 (QLD Premier Metro Alternate HQ)",
+        "class_rating": 92,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
-            "turf_route": "0.0",
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0",
             "synthetic": "-1.0"
         },
-        "lengths": 0.0,
-        "points": 0.0
+        "lengths": 1.0,
+        "points": 2.0
     },
     "region_group": "Australia_Thoroughbred_Queensland"
 }
