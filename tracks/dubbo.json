@@ -1,16 +1,35 @@
 {
-    "location": "Orana Region, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "300m",
-    "bias_notes": "Country track with a short straight.",
+    "track_code": "DUBB",
+    "location": "Dubbo, Central West, NSW, Australia",
+    "nicknames": [
+        "Dubbo Racecourse",
+        "Dubbo Turf Club",
+        "Central West Racing HQ",
+        "Home of the Dubbo Gold Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,700 metres",
+            "surface": "Turf",
+            "stretch_length": "380 metres",
+            "bias_notes": "Clockwise (right-handed). Premier racing headquarters in the NSW Central West / Orana region. Features a 1,700m oval, cambered turns, and a spacious 380m home straight. The track plays very fairly for all running styles on Good ground, with dedicated chutes for 1100m, 1300m, and 1600m starts.",
+            "post_bias": "In 1100m sprint chute starts, inside barriers (stalls 1–4) hold an advantage before the top bend. In 1300m and 1600m chute starts, straightaway runs give wider draws time to find cover before cornering."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "On-pace bias due to short straight."
+        "central_west_stables_dominance": "High-volume Central West yards (Brett Robb, Clint Lundholm, Gayna Williams, Kody Nestor, Connie Greig) hold strong winning strike rates at Dubbo. Upgrade local stable runners in form (+2.5 pts).",
+        "sydney_and_hunter_shippers": "Dubbo attracts top metropolitan and Hunter Valley shippers from Sydney, Scone, and Tamworth (e.g. Bjorn Baker, Cody Morgan, Kris Lees). Upgrade shippers coming off Sydney midweek or Tamworth/Scone provincial company (+3.0 pts).",
+        "dubbo_gold_cup_big_dance_qualifier": "During the September Dubbo Gold Cup ($150k+ Showcase / Big Dance Qualifier) feature meeting, race class elevates to Metro/Provincial grade. Factor in higher speed par offsets for Cup day feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 2.5 (NSW Central West Premier HQ)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

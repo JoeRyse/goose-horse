@@ -1,17 +1,35 @@
 {
-    "location": "Nowra, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "400m",
-    "bias_notes": "A spacious South Coast country track featuring a long 400m home straight with a slight uphill gradient.",
+    "track_code": "NOWR",
+    "location": "Nowra, South Coast, NSW, Australia",
+    "nicknames": [
+        "Nowra Racecourse",
+        "Archer Racecourse",
+        "Shoalhaven City Turf Club",
+        "Home of the Nowra Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise (right-handed). Premier South Coast venue featuring a 1,600m oval and a generous 400m home straight with a distinct +1.5m uphill elevation rise to the finish post. The 400m uphill stretch acts as a true stamina test, giving closing swoopers ('S') and strong-finishing pressers ('P') ample opportunity to wind up and catch tired front-runners.",
+            "post_bias": "Fair across middle distances. In 1000m and 1200m sprint dashes, inside-to-middle barriers (stalls 1–5) hold a minor advantage to secure early positioning before entering the home bend."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair. The long, uphill straight gives backmarkers plenty of time to wind up.",
-        "barrier_draw": "Inside draws are an advantage from the 1000m sprint start."
+        "uphill_400m_stretch_stamina_boost": "Nowra's 400m uphill straight tests late sectional stamina. Do not automatically favor one-dimensional speed horses if early pace is contested; upgrade strong L400m closers ('Swoopers').",
+        "kembla_and_sydney_shippers": "Nowra receives high-volume provincial and metropolitan shippers from Kembla Grange (Paul Murray, Robert & Luke Price, Joseph Ible) and Sydney (Bjorn Baker, Waterhouse & Bott, Chris Waller). Upgrade shippers stepping down into Nowra country benchmark company (+3.0 pts).",
+        "nowra_cup_showcase_class": "During the Nowra Cup ($100k+ Showcase) feature meeting in December, race quality elevates to Provincial/Metro grade. Factor in higher speed par offsets for Cup day feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 3 (NSW South Coast HQ)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Metropolitan"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }
