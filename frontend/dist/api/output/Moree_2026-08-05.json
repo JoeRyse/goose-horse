@@ -1,0 +1,1414 @@
+{
+    "meta": {
+        "track": "Moree",
+        "date": "2026-08-05",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "4 3/4 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "4 3/4 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Trifecta 5 / 1, 6 / 1, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Supergrace",
+                        "handicapper_notes": "Massive class drop shipper from Victorian provincial and metropolitan ranks including Sandown Lakes ($39k), Geelong ($32k), and Mornington ($30k). Enters a Tier 3.5 NSW Country Maiden plate ($19k). Class Drop Elevator applied (+10 pts boost). Drawn ideal inside stall 4.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable Stalker",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Haney",
+                        "handicapper_notes": "Fired fresh first-up off a 10-month break when leading and finishing 2nd of 11 at Tamworth over 5f. Well drawn in stall 2 on a flat Moree track that heavily favors early speed pressers.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Setter (+3)",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Squadrons",
+                        "handicapper_notes": "Drops down from Newcastle Super Maiden ($42k) and Kembla Grange 2yo ($29k) company into regional country maiden grade. Gets the rail advantage from barrier 1 under Mikayla Weir.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Inside Stalker",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Astra Via",
+                        "handicapper_notes": "Showed promising early dash on debut when 3rd of 14 at Muswellbrook over 5f despite working from wide stall 11. Moves inward to stall 3 for Cavanough stable.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Euphoric Miss",
+                        "handicapper_notes": "Sat on the pace and boxed on steadily for 5th at Tamworth over 5f. Previously placed at Gulgong but faces tougher speed inner draws here.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "One For Hesko",
+                        "handicapper_notes": "7yo maiden mare with 10 winless starts. Well beaten in recent Inverell and Port Macquarie country maidens. Hard to recommend against top choices.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Backmarker",
+                            "ai_holistic_score": 70,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Supergrace",
+                    "rating": 94.0,
+                    "reason": "Massive class drop shipper from Victorian provincial and metropolitan ranks including Sandown Lakes ($39k), Geelong ($32k), and Mornington ($30k). Enters a Tier 3.5 NSW Country Maiden plate ($19k). Class Drop Elevator applied (+10 pts boost). Drawn ideal inside stall 4. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Haney",
+                    "rating": 89.0,
+                    "reason": "Fired fresh first-up off a 10-month break when leading and finishing 2nd of 11 at Tamworth over 5f. Well drawn in stall 2 on a flat Moree track that heavily favors early speed pressers."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Squadrons",
+                    "rating": 85.0,
+                    "reason": "Drops down from Newcastle Super Maiden ($42k) and Kembla Grange 2yo ($29k) company into regional country maiden grade. Gets the rail advantage from barrier 1 under Mikayla Weir. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Astra Via",
+                    "rating": 82.0,
+                    "reason": "Showed promising early dash on debut when 3rd of 14 at Muswellbrook over 5f despite working from wide stall 11. Moves inward to stall 3 for Cavanough stable."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Euphoric Miss",
+                    "rating": 77.0,
+                    "reason": "Sat on the pace and boxed on steadily for 5th at Tamworth over 5f. Previously placed at Gulgong but faces tougher speed inner draws here."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Supergrace",
+                    "rating": 94.0,
+                    "reason": "Massive class drop shipper from Victorian provincial and metropolitan ranks including Sandown Lakes ($39k), Geelong ($32k), and Mornington ($30k). Enters a Tier 3.5 NSW Country Maiden plate ($19k). Class Drop Elevator applied (+10 pts boost). Drawn ideal inside stall 4. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Haney",
+                    "rating": 89.0,
+                    "reason": "Fired fresh first-up off a 10-month break when leading and finishing 2nd of 11 at Tamworth over 5f. Well drawn in stall 2 on a flat Moree track that heavily favors early speed pressers."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Squadrons",
+                    "rating": 85.0,
+                    "reason": "Drops down from Newcastle Super Maiden ($42k) and Kembla Grange 2yo ($29k) company into regional country maiden grade. Gets the rail advantage from barrier 1 under Mikayla Weir. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Astra Via",
+                    "rating": 82.0,
+                    "reason": "Showed promising early dash on debut when 3rd of 14 at Muswellbrook over 5f despite working from wide stall 11. Moves inward to stall 3 for Cavanough stable."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Euphoric Miss",
+                    "rating": 77.0,
+                    "reason": "Sat on the pace and boxed on steadily for 5th at Tamworth over 5f. Previously placed at Gulgong but faces tougher speed inner draws here."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "One For Hesko",
+                    "rating": 70.0,
+                    "reason": "7yo maiden mare with 10 winless starts. Well beaten in recent Inverell and Port Macquarie country maidens. Hard to recommend against top choices."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "2",
+                "name": "Haney",
+                "rating": 89.0,
+                "reason": "Fired fresh first-up off a 10-month break when leading and finishing 2nd of 11 at Tamworth over 5f. Well drawn in stall 2 on a flat Moree track that heavily favors early speed pressers."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Supergrace</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#1, #6) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "1200m Good4",
+            "surface": "Good4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1200m Good4",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 11, 8, 7; Trifecta 11 / 7, 8 / 1, 6, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "11",
+                        "barrier": "10",
+                        "horse_name": "Flaunter",
+                        "handicapper_notes": "Boasts superior speed figures across Scone and Muswellbrook country maidens with three 2nd-place finishes and a 3rd from 4 starts. Peak speed rating (72) last start placing 2nd over 1300m. Standard track bias at Moree suits her prominent presser style.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Side Quest",
+                        "handicapper_notes": "Knocking on the door with back-to-back close runner-up finishes at Gunnedah (beaten a head) and Tamworth in heavy going. Drawn inside stall 4 which aids early positioning into the turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "By The Way",
+                        "handicapper_notes": "Class drop bonus applied after competing in SEQ metro/provincial 3yo maidens ($28k) at Eagle Farm and Gold Coast. Strips fitter second-up for trainer Stirling Osland.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Akuma",
+                        "handicapper_notes": "Resumes after an 11-week break. Placed 3rd at Tamworth in a $35k Maiden last prep. Drawn barrier 2 with apprentice claim, presenting a live longshot threat if focused.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Rips Law",
+                        "handicapper_notes": "Honest country maiden who placed 3rd at Moree over 1200m in June. Finished 4th at Inverell last start. Capable of grabbing a minor place spot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Jukebox Edition",
+                        "handicapper_notes": "Veteran 44-start maiden who comes off consecutive 4th place efforts at Coonabarabran and Quirindi. Drawn stall 1, but lacks winning turn of foot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "10",
+                    "name": "Flaunter",
+                    "rating": 95.0,
+                    "reason": "Boasts superior speed figures across Scone and Muswellbrook country maidens with three 2nd-place finishes and a 3rd from 4 starts. Peak speed rating (72) last start placing 2nd over 1300m. Standard track bias at Moree suits her prominent presser style."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Side Quest",
+                    "rating": 90.0,
+                    "reason": "Knocking on the door with back-to-back close runner-up finishes at Gunnedah (beaten a head) and Tamworth in heavy going. Drawn inside stall 4 which aids early positioning into the turn."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "By The Way",
+                    "rating": 88.0,
+                    "reason": "Class drop bonus applied after competing in SEQ metro/provincial 3yo maidens ($28k) at Eagle Farm and Gold Coast. Strips fitter second-up for trainer Stirling Osland. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Akuma",
+                    "rating": 83.0,
+                    "reason": "Resumes after an 11-week break. Placed 3rd at Tamworth in a $35k Maiden last prep. Drawn barrier 2 with apprentice claim, presenting a live longshot threat if focused."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Rips Law",
+                    "rating": 81.0,
+                    "reason": "Honest country maiden who placed 3rd at Moree over 1200m in June. Finished 4th at Inverell last start. Capable of grabbing a minor place spot."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "11",
+                    "barrier": "10",
+                    "name": "Flaunter",
+                    "rating": 95.0,
+                    "reason": "Boasts superior speed figures across Scone and Muswellbrook country maidens with three 2nd-place finishes and a 3rd from 4 starts. Peak speed rating (72) last start placing 2nd over 1300m. Standard track bias at Moree suits her prominent presser style."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Side Quest",
+                    "rating": 90.0,
+                    "reason": "Knocking on the door with back-to-back close runner-up finishes at Gunnedah (beaten a head) and Tamworth in heavy going. Drawn inside stall 4 which aids early positioning into the turn."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "By The Way",
+                    "rating": 88.0,
+                    "reason": "Class drop bonus applied after competing in SEQ metro/provincial 3yo maidens ($28k) at Eagle Farm and Gold Coast. Strips fitter second-up for trainer Stirling Osland. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Akuma",
+                    "rating": 83.0,
+                    "reason": "Resumes after an 11-week break. Placed 3rd at Tamworth in a $35k Maiden last prep. Drawn barrier 2 with apprentice claim, presenting a live longshot threat if focused."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Rips Law",
+                    "rating": 81.0,
+                    "reason": "Honest country maiden who placed 3rd at Moree over 1200m in June. Finished 4th at Inverell last start. Capable of grabbing a minor place spot."
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Jukebox Edition",
+                    "rating": 78.0,
+                    "reason": "Veteran 44-start maiden who comes off consecutive 4th place efforts at Coonabarabran and Quirindi. Drawn stall 1, but lacks winning turn of foot."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "2",
+                "name": "Akuma",
+                "rating": 83.0,
+                "reason": "Resumes after an 11-week break. Placed 3rd at Tamworth in a $35k Maiden last prep. Drawn barrier 2 with apprentice claim, presenting a live longshot threat if focused."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#11 Flaunter</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #11 over (#8, #7, #1) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1400m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1400m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 2; Quinella/Exacta 2 with 1, 3, 8",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Almanzas",
+                        "handicapper_notes": "Major class drop bonus applied. Formerly in Sydney Metropolitan and Provincial company (5th in $42k Canterbury 1550m maiden). Excellent second at Quirindi over 1200m first-up for Stirling Osland and gets the ideal 1400m distance transition second-up.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Whiskey And Wine",
+                        "handicapper_notes": "SE QLD border shipper from Toowoomba for Cameron Byrne. Comes off back-to-back runner-up finishes over 1300m and 1100m. Carries top weight (59.5kg) but Ben Looker takes the mount and his tactical speed fits the Moree 1400m layout nicely.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "9",
+                        "horse_name": "Honniball Drive",
+                        "handicapper_notes": "Brett Cavanough trained 3yo filly dropping heavily out of Randwick 2yo metropolitan grade ($112k) two starts back. Finished 4th at Muswellbrook over 1000m last start and represents a dangerous class threat stepping out to 1400m.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "10",
+                        "horse_name": "Pinero",
+                        "handicapper_notes": "Most experienced contender in the field with 6 placings from 18 starts. Finished 2nd at Wean over 1200m last start and holds multiple 1400m/1600m minor placings in country company. Clayton Gallagher takes over for Sally Torrens.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Rufus Atticus",
+                        "handicapper_notes": "Sue Grills trained 5yo gelding peaking 3rd-up today. Drawn advantageously in barrier 2 to save ground into the top turn. Holds previous route placings and will benefit from the long 400m Moree straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Leppitsch",
+                        "handicapper_notes": "3yo colt for Brett & Georgie Cavanough third-up today. Boxed on steadily for 6th at Muswellbrook over 1280m last start. Strips fully fit and can improve into exotics in country maiden grade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Almanzas",
+                    "rating": 93.0,
+                    "reason": "Major class drop bonus applied. Formerly in Sydney Metropolitan and Provincial company (5th in $42k Canterbury 1550m maiden). Excellent second at Quirindi over 1200m first-up for Stirling Osland and gets the ideal 1400m distance transition second-up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Whiskey And Wine",
+                    "rating": 88.0,
+                    "reason": "SE QLD border shipper from Toowoomba for Cameron Byrne. Comes off back-to-back runner-up finishes over 1300m and 1100m. Carries top weight (59.5kg) but Ben Looker takes the mount and his tactical speed fits the Moree 1400m layout nicely. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "9",
+                    "name": "Honniball Drive",
+                    "rating": 85.0,
+                    "reason": "Brett Cavanough trained 3yo filly dropping heavily out of Randwick 2yo metropolitan grade ($112k) two starts back. Finished 4th at Muswellbrook over 1000m last start and represents a dangerous class threat stepping out to 1400m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "10",
+                    "name": "Pinero",
+                    "rating": 82.0,
+                    "reason": "Most experienced contender in the field with 6 placings from 18 starts. Finished 2nd at Wean over 1200m last start and holds multiple 1400m/1600m minor placings in country company. Clayton Gallagher takes over for Sally Torrens."
+                },
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Rufus Atticus",
+                    "rating": 80.0,
+                    "reason": "Sue Grills trained 5yo gelding peaking 3rd-up today. Drawn advantageously in barrier 2 to save ground into the top turn. Holds previous route placings and will benefit from the long 400m Moree straight. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Almanzas",
+                    "rating": 93.0,
+                    "reason": "Major class drop bonus applied. Formerly in Sydney Metropolitan and Provincial company (5th in $42k Canterbury 1550m maiden). Excellent second at Quirindi over 1200m first-up for Stirling Osland and gets the ideal 1400m distance transition second-up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Whiskey And Wine",
+                    "rating": 88.0,
+                    "reason": "SE QLD border shipper from Toowoomba for Cameron Byrne. Comes off back-to-back runner-up finishes over 1300m and 1100m. Carries top weight (59.5kg) but Ben Looker takes the mount and his tactical speed fits the Moree 1400m layout nicely. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "9",
+                    "name": "Honniball Drive",
+                    "rating": 85.0,
+                    "reason": "Brett Cavanough trained 3yo filly dropping heavily out of Randwick 2yo metropolitan grade ($112k) two starts back. Finished 4th at Muswellbrook over 1000m last start and represents a dangerous class threat stepping out to 1400m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "10",
+                    "name": "Pinero",
+                    "rating": 82.0,
+                    "reason": "Most experienced contender in the field with 6 placings from 18 starts. Finished 2nd at Wean over 1200m last start and holds multiple 1400m/1600m minor placings in country company. Clayton Gallagher takes over for Sally Torrens."
+                },
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Rufus Atticus",
+                    "rating": 80.0,
+                    "reason": "Sue Grills trained 5yo gelding peaking 3rd-up today. Drawn advantageously in barrier 2 to save ground into the top turn. Holds previous route placings and will benefit from the long 400m Moree straight. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Leppitsch",
+                    "rating": 77.0,
+                    "reason": "3yo colt for Brett & Georgie Cavanough third-up today. Boxed on steadily for 6th at Muswellbrook over 1280m last start. Strips fully fit and can improve into exotics in country maiden grade. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "9",
+                "name": "Honniball Drive",
+                "rating": 85.0,
+                "reason": "Brett Cavanough trained 3yo filly dropping heavily out of Randwick 2yo metropolitan grade ($112k) two starts back. Finished 4th at Muswellbrook over 1000m last start and represents a dangerous class threat stepping out to 1400m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Almanzas</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#1, #3) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1400m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1400m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1, Quinella 1-4, Trifecta 1 / 2, 4 / 2, 3, 4, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Always A Rainbow",
+                        "handicapper_notes": "First-up off a five-month break but boasts class superiority with a 1.4L Grafton Maiden win and a close 3rd in Armidale Class 1 company. Drawn inside stall 1 to get the run of the race.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Northern Eagle",
+                        "handicapper_notes": "Comes off a dominant 6.8-length front-running Maiden victory over 1400m at Tamworth. Perfectly suited to Moree flat circuit where rolling forward runners hold a distinct advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Rolling Lead",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "La Potenza",
+                        "handicapper_notes": "Strikes 2nd-up for the Brett Cavanough yard after a solid 4th in Muswellbrook BM58 company. Previously won a Dubbo Maiden over 1300m and holds upper-tier provincial form figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "11",
+                        "horse_name": "Almost Maybe",
+                        "handicapper_notes": "Ran a respectable 5th at Grafton over 1400m last start following a 3rd at 1200m. Maintains consistent country rating figures and handles the 1400m journey well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "5",
+                        "horse_name": "Sharpen The Knives",
+                        "handicapper_notes": "Finished 2nd in Inverell BM50 over 1400m last start and 3rd in BM58 company prior. Drawn well in stall 5 to secure a cozy run near the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Famahan",
+                        "handicapper_notes": "Won a 1400m Scone Maiden earlier in the prep and drops back slightly from Gunnedah BM58 company. Barrier 4 gives him every chance to settle in the front half.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Always A Rainbow",
+                    "rating": 92.0,
+                    "reason": "First-up off a five-month break but boasts class superiority with a 1.4L Grafton Maiden win and a close 3rd in Armidale Class 1 company. Drawn inside stall 1 to get the run of the race. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Northern Eagle",
+                    "rating": 88.0,
+                    "reason": "Comes off a dominant 6.8-length front-running Maiden victory over 1400m at Tamworth. Perfectly suited to Moree flat circuit where rolling forward runners hold a distinct advantage."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "La Potenza",
+                    "rating": 85.0,
+                    "reason": "Strikes 2nd-up for the Brett Cavanough yard after a solid 4th in Muswellbrook BM58 company. Previously won a Dubbo Maiden over 1300m and holds upper-tier provincial form figures. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Almost Maybe",
+                    "rating": 83.0,
+                    "reason": "Ran a respectable 5th at Grafton over 1400m last start following a 3rd at 1200m. Maintains consistent country rating figures and handles the 1400m journey well."
+                },
+                {
+                    "number": "10",
+                    "barrier": "5",
+                    "name": "Sharpen The Knives",
+                    "rating": 81.0,
+                    "reason": "Finished 2nd in Inverell BM50 over 1400m last start and 3rd in BM58 company prior. Drawn well in stall 5 to secure a cozy run near the speed."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Always A Rainbow",
+                    "rating": 92.0,
+                    "reason": "First-up off a five-month break but boasts class superiority with a 1.4L Grafton Maiden win and a close 3rd in Armidale Class 1 company. Drawn inside stall 1 to get the run of the race. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Northern Eagle",
+                    "rating": 88.0,
+                    "reason": "Comes off a dominant 6.8-length front-running Maiden victory over 1400m at Tamworth. Perfectly suited to Moree flat circuit where rolling forward runners hold a distinct advantage."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "La Potenza",
+                    "rating": 85.0,
+                    "reason": "Strikes 2nd-up for the Brett Cavanough yard after a solid 4th in Muswellbrook BM58 company. Previously won a Dubbo Maiden over 1300m and holds upper-tier provincial form figures. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Almost Maybe",
+                    "rating": 83.0,
+                    "reason": "Ran a respectable 5th at Grafton over 1400m last start following a 3rd at 1200m. Maintains consistent country rating figures and handles the 1400m journey well."
+                },
+                {
+                    "number": "10",
+                    "barrier": "5",
+                    "name": "Sharpen The Knives",
+                    "rating": 81.0,
+                    "reason": "Finished 2nd in Inverell BM50 over 1400m last start and 3rd in BM58 company prior. Drawn well in stall 5 to secure a cozy run near the speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Famahan",
+                    "rating": 78.0,
+                    "reason": "Won a 1400m Scone Maiden earlier in the prep and drops back slightly from Gunnedah BM58 company. Barrier 4 gives him every chance to settle in the front half."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "7",
+                "name": "Northern Eagle",
+                "rating": 88.0,
+                "reason": "Comes off a dominant 6.8-length front-running Maiden victory over 1400m at Tamworth. Perfectly suited to Moree flat circuit where rolling forward runners hold a distinct advantage."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Always A Rainbow</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #4, #2 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1300m Good4",
+            "surface": "Good4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1300m Good4",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5, Trifecta 5 / 1, 7, 13 / 1, 3, 6, 7, 13",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Moon Zone",
+                        "handicapper_notes": "Chasing a hat-trick following decisive victories at Dubbo BM58 and Cowra BM50. Holds clear class and form advantage over this country Benchmark field. Perfectly mapped from stall 6.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "11",
+                        "horse_name": "Hit Song",
+                        "handicapper_notes": "Spurred by forward tactical pace, set the tempo and held 3rd at Gunnedah BM58 over 1400m last start. Fits the Moree flat track rolling tempo bias perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Deebo",
+                        "handicapper_notes": "Consistent Country BM58 performer who ran a narrow second at Tamworth two starts back. Carries top weight tax (62kg) but holds proven class at 1300m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "9",
+                        "horse_name": "Gold Smiles",
+                        "handicapper_notes": "Moree track specialist (11 starts: 1 win, 3 placings) dropping back to a fair weight (55kg). Flashed home for 4th at Gunnedah and 3rd at Moree earlier this prep.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Sidenay",
+                        "handicapper_notes": "Handy second last start at Coonabarabran BM50 over 1200m. Drawn ideally in barrier 4 to save ground along the rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "12",
+                        "horse_name": "Cooma Hut",
+                        "handicapper_notes": "Placed 2nd in back-to-back starts at Trangie and Walgett. Fitness is peaking but faces a wide draw in stall 12.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Draw",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Moon Zone",
+                    "rating": 94.0,
+                    "reason": "Chasing a hat-trick following decisive victories at Dubbo BM58 and Cowra BM50. Holds clear class and form advantage over this country Benchmark field. Perfectly mapped from stall 6."
+                },
+                {
+                    "number": "7",
+                    "barrier": "11",
+                    "name": "Hit Song",
+                    "rating": 89.0,
+                    "reason": "Spurred by forward tactical pace, set the tempo and held 3rd at Gunnedah BM58 over 1400m last start. Fits the Moree flat track rolling tempo bias perfectly."
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Deebo",
+                    "rating": 88.0,
+                    "reason": "Consistent Country BM58 performer who ran a narrow second at Tamworth two starts back. Carries top weight tax (62kg) but holds proven class at 1300m."
+                },
+                {
+                    "number": "13",
+                    "barrier": "9",
+                    "name": "Gold Smiles",
+                    "rating": 86.0,
+                    "reason": "Moree track specialist (11 starts: 1 win, 3 placings) dropping back to a fair weight (55kg). Flashed home for 4th at Gunnedah and 3rd at Moree earlier this prep."
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Sidenay",
+                    "rating": 84.0,
+                    "reason": "Handy second last start at Coonabarabran BM50 over 1200m. Drawn ideally in barrier 4 to save ground along the rail."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Moon Zone",
+                    "rating": 94.0,
+                    "reason": "Chasing a hat-trick following decisive victories at Dubbo BM58 and Cowra BM50. Holds clear class and form advantage over this country Benchmark field. Perfectly mapped from stall 6."
+                },
+                {
+                    "number": "7",
+                    "barrier": "11",
+                    "name": "Hit Song",
+                    "rating": 89.0,
+                    "reason": "Spurred by forward tactical pace, set the tempo and held 3rd at Gunnedah BM58 over 1400m last start. Fits the Moree flat track rolling tempo bias perfectly."
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Deebo",
+                    "rating": 88.0,
+                    "reason": "Consistent Country BM58 performer who ran a narrow second at Tamworth two starts back. Carries top weight tax (62kg) but holds proven class at 1300m."
+                },
+                {
+                    "number": "13",
+                    "barrier": "9",
+                    "name": "Gold Smiles",
+                    "rating": 86.0,
+                    "reason": "Moree track specialist (11 starts: 1 win, 3 placings) dropping back to a fair weight (55kg). Flashed home for 4th at Gunnedah and 3rd at Moree earlier this prep."
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Sidenay",
+                    "rating": 84.0,
+                    "reason": "Handy second last start at Coonabarabran BM50 over 1200m. Drawn ideally in barrier 4 to save ground along the rail."
+                },
+                {
+                    "number": "3",
+                    "barrier": "12",
+                    "name": "Cooma Hut",
+                    "rating": 83.0,
+                    "reason": "Placed 2nd in back-to-back starts at Trangie and Walgett. Fitness is peaking but faces a wide draw in stall 12. | <i>\u26a0\ufe0f Wide Draw</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "13",
+                "barrier": "9",
+                "name": "Gold Smiles",
+                "rating": 86.0,
+                "reason": "Moree track specialist (11 starts: 1 win, 3 placings) dropping back to a fair weight (55kg). Flashed home for 4th at Gunnedah and 3rd at Moree earlier this prep."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Moon Zone</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#7, #1, #13) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 3, Trifecta 3 / 4, 8 / 1, 2, 4, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Meddlesome",
+                        "handicapper_notes": "Top selection coming off a dominant victory in Gunnedah Country BM58 company over 1400m where she pressed the tempo and accelerated clear. Draws ideally in stall 6 to dictate or sit handy on Moree's flat circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Zougo Boss",
+                        "handicapper_notes": "Main threat. Excellent second at Quirindi over 1600m in Country BM58 company last start, finishing strongly from off the speed. Holds an outstanding track and distance profile with 2 wins and 3 placings at the mile. Inside stall 2 is a massive advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Power Of Success",
+                        "handicapper_notes": "SE QLD / Toowoomba border shipper from the Paul Wallace yard. Already proved his liking for Moree when second over 1300m BM58 in June. Gets crucial rating boost from cross-border class profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "The Great Armada",
+                        "handicapper_notes": "Consistent country handicapper with 3 career wins at 1600m. Finished an excellent 2nd in the Carinda Cup over 1400m two starts back before running 4th at Warren. Will roll forward early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "To Be Frank",
+                        "handicapper_notes": "Showed significant improvement last start at Quirindi in Ctry BM58 company when making up solid late ground for 3rd over 1600m. Striking peak fitness third-up into his preparation.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "10",
+                        "horse_name": "Inarticulate",
+                        "handicapper_notes": "Last-start winner at Coonabarabran over the mile in Class 1 Set Weight conditions. Rises in benchmark class here but possesses proven stamina over 1600m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Meddlesome",
+                    "rating": 93.0,
+                    "reason": "Top selection coming off a dominant victory in Gunnedah Country BM58 company over 1400m where she pressed the tempo and accelerated clear. Draws ideally in stall 6 to dictate or sit handy on Moree's flat circuit. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Zougo Boss",
+                    "rating": 88.0,
+                    "reason": "Main threat. Excellent second at Quirindi over 1600m in Country BM58 company last start, finishing strongly from off the speed. Holds an outstanding track and distance profile with 2 wins and 3 placings at the mile. Inside stall 2 is a massive advantage."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Power Of Success",
+                    "rating": 86.0,
+                    "reason": "SE QLD / Toowoomba border shipper from the Paul Wallace yard. Already proved his liking for Moree when second over 1300m BM58 in June. Gets crucial rating boost from cross-border class profile."
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "The Great Armada",
+                    "rating": 84.0,
+                    "reason": "Consistent country handicapper with 3 career wins at 1600m. Finished an excellent 2nd in the Carinda Cup over 1400m two starts back before running 4th at Warren. Will roll forward early. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "To Be Frank",
+                    "rating": 82.0,
+                    "reason": "Showed significant improvement last start at Quirindi in Ctry BM58 company when making up solid late ground for 3rd over 1600m. Striking peak fitness third-up into his preparation."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Meddlesome",
+                    "rating": 93.0,
+                    "reason": "Top selection coming off a dominant victory in Gunnedah Country BM58 company over 1400m where she pressed the tempo and accelerated clear. Draws ideally in stall 6 to dictate or sit handy on Moree's flat circuit. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Zougo Boss",
+                    "rating": 88.0,
+                    "reason": "Main threat. Excellent second at Quirindi over 1600m in Country BM58 company last start, finishing strongly from off the speed. Holds an outstanding track and distance profile with 2 wins and 3 placings at the mile. Inside stall 2 is a massive advantage."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Power Of Success",
+                    "rating": 86.0,
+                    "reason": "SE QLD / Toowoomba border shipper from the Paul Wallace yard. Already proved his liking for Moree when second over 1300m BM58 in June. Gets crucial rating boost from cross-border class profile."
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "The Great Armada",
+                    "rating": 84.0,
+                    "reason": "Consistent country handicapper with 3 career wins at 1600m. Finished an excellent 2nd in the Carinda Cup over 1400m two starts back before running 4th at Warren. Will roll forward early. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "To Be Frank",
+                    "rating": 82.0,
+                    "reason": "Showed significant improvement last start at Quirindi in Ctry BM58 company when making up solid late ground for 3rd over 1600m. Striking peak fitness third-up into his preparation."
+                },
+                {
+                    "number": "1",
+                    "barrier": "10",
+                    "name": "Inarticulate",
+                    "rating": 80.0,
+                    "reason": "Last-start winner at Coonabarabran over the mile in Class 1 Set Weight conditions. Rises in benchmark class here but possesses proven stamina over 1600m."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "7",
+                "name": "Power Of Success",
+                "rating": 86.0,
+                "reason": "SE QLD / Toowoomba border shipper from the Paul Wallace yard. Already proved his liking for Moree when second over 1300m BM58 in June. Gets crucial rating boost from cross-border class profile."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Meddlesome</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#8, #4) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "4 3/4 f Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "4 3/4 f Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Quinella/Exacta 1 with 3, 9; Trifecta 1 / 3, 9 / 3, 5, 9, 14",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "My Name Is",
+                        "handicapper_notes": "Massive class drop dropping out of BM82 Tamworth and BM74 Goondiwindi company into Country BM58 level. Fitter fourth-up and holds a distinct class and speed offset advantage over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Buzz Saw",
+                        "handicapper_notes": "In career-best form following consecutive placings in Grafton Cl1 and Taree BM58 sprints. Drawn inside stall 2 to map prominently on the flat Moree oval.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Shut Eye",
+                        "handicapper_notes": "Primary danger runner drawn rail position in stall 1 with late rider change to Jake Pracey-Holmes. Coming off a close 2nd in Goondiwindi BM65 sprint and possesses excellent early turn of foot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "15",
+                        "horse_name": "Chicken Legs",
+                        "handicapper_notes": "Excellent return effort when finishing 2nd in Quirindi BM58 over 5f on July 13. Strips fitter second-up, though wide barrier demands an assertive early ride into the turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "4",
+                        "horse_name": "Midnight Rabble",
+                        "handicapper_notes": "Maintains sharp sprint condition with a victory at Wean and a close 2nd at Coonabarabran over 4.5f. Undefeated 2-for-2 at track and distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "9",
+                        "horse_name": "Brighella",
+                        "handicapper_notes": "Third-up today where he has placed in past preparations. Solid sprint credentials in regional handicaps and capable of sneaking into the exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "My Name Is",
+                    "rating": 95.0,
+                    "reason": "Massive class drop dropping out of BM82 Tamworth and BM74 Goondiwindi company into Country BM58 level. Fitter fourth-up and holds a distinct class and speed offset advantage over this field. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Buzz Saw",
+                    "rating": 89.0,
+                    "reason": "In career-best form following consecutive placings in Grafton Cl1 and Taree BM58 sprints. Drawn inside stall 2 to map prominently on the flat Moree oval."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Shut Eye",
+                    "rating": 86.0,
+                    "reason": "Primary danger runner drawn rail position in stall 1 with late rider change to Jake Pracey-Holmes. Coming off a close 2nd in Goondiwindi BM65 sprint and possesses excellent early turn of foot."
+                },
+                {
+                    "number": "5",
+                    "barrier": "15",
+                    "name": "Chicken Legs",
+                    "rating": 84.0,
+                    "reason": "Excellent return effort when finishing 2nd in Quirindi BM58 over 5f on July 13. Strips fitter second-up, though wide barrier demands an assertive early ride into the turn."
+                },
+                {
+                    "number": "14",
+                    "barrier": "4",
+                    "name": "Midnight Rabble",
+                    "rating": 83.0,
+                    "reason": "Maintains sharp sprint condition with a victory at Wean and a close 2nd at Coonabarabran over 4.5f. Undefeated 2-for-2 at track and distance."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "My Name Is",
+                    "rating": 95.0,
+                    "reason": "Massive class drop dropping out of BM82 Tamworth and BM74 Goondiwindi company into Country BM58 level. Fitter fourth-up and holds a distinct class and speed offset advantage over this field. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Buzz Saw",
+                    "rating": 89.0,
+                    "reason": "In career-best form following consecutive placings in Grafton Cl1 and Taree BM58 sprints. Drawn inside stall 2 to map prominently on the flat Moree oval."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Shut Eye",
+                    "rating": 86.0,
+                    "reason": "Primary danger runner drawn rail position in stall 1 with late rider change to Jake Pracey-Holmes. Coming off a close 2nd in Goondiwindi BM65 sprint and possesses excellent early turn of foot."
+                },
+                {
+                    "number": "5",
+                    "barrier": "15",
+                    "name": "Chicken Legs",
+                    "rating": 84.0,
+                    "reason": "Excellent return effort when finishing 2nd in Quirindi BM58 over 5f on July 13. Strips fitter second-up, though wide barrier demands an assertive early ride into the turn."
+                },
+                {
+                    "number": "14",
+                    "barrier": "4",
+                    "name": "Midnight Rabble",
+                    "rating": 83.0,
+                    "reason": "Maintains sharp sprint condition with a victory at Wean and a close 2nd at Coonabarabran over 4.5f. Undefeated 2-for-2 at track and distance."
+                },
+                {
+                    "number": "11",
+                    "barrier": "9",
+                    "name": "Brighella",
+                    "rating": 80.0,
+                    "reason": "Third-up today where he has placed in past preparations. Solid sprint credentials in regional handicaps and capable of sneaking into the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "1",
+                "name": "Shut Eye",
+                "rating": 86.0,
+                "reason": "Primary danger runner drawn rail position in stall 1 with late rider change to Jake Pracey-Holmes. Coming off a close 2nd in Goondiwindi BM65 sprint and possesses excellent early turn of foot."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 My Name Is</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#3, #9) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#5 Supergrace</b> in R1 & <b>#11 Flaunter</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#11 Flaunter</b> in R2 & <b>#2 Almanzas</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#5 Moon Zone</b> in R5 & <b>#3 Meddlesome</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R6 \u2794 R7):</b> Single <b>#3 Meddlesome</b> in R6 & <b>#1 My Name Is</b> in R7 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#11 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#11 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#1 (Solo Lock))"
+    ]
+}
