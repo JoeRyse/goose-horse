@@ -1,0 +1,37 @@
+{
+    "track_code": "DEVP",
+    "location": "Devonport (Spreyton), Tasmania, Australia",
+    "nicknames": [
+        "Devonport Synthetic",
+        "Spreyton Racecourse",
+        "Tapeta Park",
+        "Devonport Racing Club",
+        "Home of the Devonport Cup"
+    ],
+    "courses": {
+        "synthetic_tapeta": {
+            "circumference": "1,500 metres",
+            "surface": "Synthetic (Tapeta)",
+            "stretch_length": "350 metres",
+            "bias_notes": "Anti-clockwise (left-handed). Tasmania's ONLY all-weather synthetic track, situated at Spreyton. A 1,500m Tapeta synthetic oval featuring a 350m home straight. The Tapeta surface plays exceptionally uniform regardless of rain, but produces a grinding environment where tactical gate speed ('P') and saving ground along the fence carry a distinct mathematical advantage.",
+            "post_bias": "INSIDE BARRIER BIAS: In 1009m, 1150m, and 1350m races, inside barriers (stalls 1–4) hold a strong advantage to command box-seat positioning. Being trapped 3-wide without cover on Tapeta bleeds vital momentum."
+        }
+    },
+    "handicapping_angles": {
+        "tapeta_synthetic_surface_specialists": "Aggressively upgrade horses with proven synthetic form (Devonport Tapeta or mainland Polytrack/Tapeta). Be skeptical of grass-only runners making their synthetic debut without prior synthetic trial experience (-2.0 pts).",
+        "spreyton_tactical_speed_advantage": "Over 1009m and 1150m sprint dashes, horses with explosive 1st-call gate speed ('E' and 'P') command a nearly 65% win rate. Deep closers ('Swoopers') must make an early move rounding the turn.",
+        "devonport_cup_carnival": "During the January Devonport Cup ($125k Listed) feature meeting over 1880m on Tapeta, race quality elevates to Tasmanian Metro grade. Factor in higher speed par offsets for Cup day feature races.",
+        "victorian_synthetic_shippers": "Mainland Victorian stables (Maher, Wilde, Preusker) shipping runners to Devonport synthetic bring a high underlying speed rating edge (+3.0 pts)."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (Tasmanian Synthetic HQ)",
+        "class_rating": 86,
+        "speed_par_offsets": {
+            "synthetic_sprint": "+0.0",
+            "synthetic_route": "+0.5"
+        },
+        "lengths": 1.0,
+        "points": 2.0
+    },
+    "region_group": "Australia_Thoroughbred_Tasmania"
+}

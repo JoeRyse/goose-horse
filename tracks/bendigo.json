@@ -3,32 +3,34 @@
     "location": "Bendigo, Victoria, Australia",
     "nicknames": [
         "Bendigo Racecourse",
-        "White Hills Track"
+        "White Hills Track",
+        "Nursery of Champions",
+        "Home of the Bendigo Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,995 metres",
-            "surface": "Turf (Left-Handed)",
+            "surface": "Turf",
             "stretch_length": "400 metres",
-            "bias_notes": "Anti-clockwise. A premier Victorian provincial track featuring a spacious 1,995m circumference, 24m width, and a long 400m home straight. Exceptionally fair layout that rewards genuine stayers and balanced, mid-field pressers. Lone speed can occasionally steal races if the track is playing firm and uncontested, but closers get ample room in the straight.",
-            "post_bias": "Fair barrier distribution overall. The 1600m chute provides a massive 800m straight run before the first turn, giving wide-drawn runners plenty of time to find cover without burning early energy. Shorter sprint chutes (1000m/1100m) place a slight premium on drawn inside or tactical speed."
+            "bias_notes": "Anti-clockwise (left-handed). A premier Victorian provincial track featuring a spacious 1,995m circumference, 24m width, and a long 400m home straight. Exceptionally fair layout that rewards genuine stayers and balanced mid-field pressers ('P'). Lone speed can occasionally hold if the track is playing firm and uncontested, but closers ('Swoopers') get ample room in the straight.",
+            "post_bias": "Fair barrier distribution overall. The 1600m chute provides a massive 800m straight run before the first turn, giving wide-drawn runners plenty of time to find cover without burning early energy. Shorter sprint chutes (1000m/1100m) place a slight premium on inside stalls (1–5) or early tactical speed."
         }
     },
     "handicapping_angles": {
-        "long_straight_fairness": "Do not penalize back-markers or stalkers purely for wide draws over middle distances. Bendigo's 400m straight and wide turns ensure that horses with a strong turn of foot can reel in front-runners.",
-        "the_1600m_settling_effect": "Over 1600m, the 800m straight run to the turn neutralizes barrier penalties. Prioritize raw class, fitness, and distance capacity over gate position.",
-        "metropolitan_class_shippers": "Bendigo regularly attracts quality horses dropping out of Saturday Melbourne (Flemington/Caulfield/Moonee Valley) open handicaps or Benchmark races. These high-tier class droppers hold a major edge over local provincial regulars.",
-        "spring_carnival_form": "As a key lead-up track to the Melbourne Cup Spring Carnival (culminating in the Bendigo Cup), look for sharp European stayers or progressive imports making their Australian or prep runs."
+        "long_400m_straight_fairness": "Do not penalize back-markers or stalkers purely for wide draws over middle distances. Bendigo's 400m straight and wide turns ensure that horses with a strong turn of foot can reel in front-runners.",
+        "the_1600m_chute_settling_effect": "Over 1600m, the 800m straight run to the turn neutralizes barrier penalties. Prioritize raw class, fitness, and distance capacity over gate position.",
+        "melbourne_metro_shippers": "Bendigo regularly attracts quality horses dropping out of Saturday Melbourne (Flemington, Caulfield, Moonee Valley) open handicaps or Benchmark races. These high-tier class droppers hold a major edge over local provincial regulars (+3.0 pts).",
+        "spring_and_autumn_carnival_form": "During the Grade 3 Bendigo Cup ($500k) in October and Golden Mile ($200k) meeting in April, race quality elevates to Metro/Group grade. Factor in higher speed par offsets for feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (Victorian Premier Provincial)",
+        "tier": "Tier 2 (Victorian Premier Metro Alternate HQ)",
         "class_rating": 91,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
-            "turf_route": "0.5"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": 0.0,
-        "points": 0.0
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred"
+    "region_group": "Australia_Thoroughbred_Victoria"
 }
