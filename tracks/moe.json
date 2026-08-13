@@ -1,33 +1,35 @@
 {
     "track_code": "MOE",
-    "location": "Moe, VIC",
+    "location": "Moe, Gippsland, Victoria, Australia",
     "nicknames": [
+        "Moe Racecourse",
         "Moe Racing Club",
-        "Gippsland's Premier Track"
+        "Gippsland Racing HQ",
+        "Home of the Moe Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,720 metres",
             "surface": "Turf",
-            "stretch_length": "250 metres",
-            "bias_notes": "Counter-Clockwise. A relatively flat country track with an incredibly short 250m home straight. Because the final stretch is so brief, the track naturally creates a massive bias toward front-runners ('E' types) and horses that can race prominently on the pace. Closers ('Swoopers') must begin their runs well before the home turn, forcing them wide.",
-            "post_bias": "Inside barriers (1-7) hold a severe statistical advantage, particularly in the 1100m and 1200m sprint events. Horses drawn wide (barrier 9+) face a significant disadvantage, as they either burn too much energy crossing over or are forced to cover extra ground on the turns."
+            "stretch_length": "300 metres",
+            "bias_notes": "Anti-clockwise (left-handed). A reconstructed 1,720m Gippsland track featuring a 24m width, long sweeping turns, and a 300m home straight. Early tactical speed ('E' and 'P') holding the fence holds a distinct advantage in 1000m, 1100m, and 1200m sprint dashes.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–5) hold an advantage in sprint races. Outer draws (9+) face ground-loss penalties unless possessing elite gate speed."
         }
     },
     "handicapping_angles": {
-        "the_short_straight_trap": "Aggressively downgrade deep closers. With only 250 metres of straight runway, horses settling in the back half of the field will almost always run out of ground, even if a pace duel occurs up front.",
-        "the_gippsland_heavy": "Like many tracks in the Gippsland region, Moe frequently races on deeply rain-affected surfaces (Heavy 8 to Heavy 10) during the Victorian winter. Heavily upgrade proven 'mudlarks' who have documented success on genuinely heavy going, as winter races here often become a slog.",
-        "barrier_bias_penalty": "Apply a strict speed-figure penalty to horses drawn wide (outside barrier 9) in sprint races. The ground loss on this tight track layout is highly detrimental to finishing positions."
+        "gippsland_winter_heavy_mudlarks": "Like many Gippsland venues, Moe frequently races on deeply rain-affected ground (Soft 7 to Heavy 10) during Victorian winter cards. Heavily upgrade proven wet-track performers ('Mudlarks') with 2+ wins on heavy going (+4.0 pts).",
+        "melbourne_metro_shippers": "Moe is a major regional target for top Melbourne metropolitan yards (Ciaron Maher, Busuttin/Young, Ben, Will & JD Hayes, Price/Kent Jr.). Upgrade class-dropping Metro runners (+3.0 pts).",
+        "moe_cup_carnival": "During the October Moe Cup ($150k+) feature meeting, race quality elevates to Victorian Provincial grade. Factor in higher speed par offsets for feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (Country VIC)",
-        "class_rating": 82,
+        "tier": "Tier 3 (Victorian Gippsland Circuit HQ)",
+        "class_rating": 86,
         "speed_par_offsets": {
-            "turf_sprint": "-2.0",
-            "turf_route": "-2.0"
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
         },
-        "lengths": -2.0,
-        "points": -4.0
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+    "region_group": "Australia_Thoroughbred_Victoria"
 }

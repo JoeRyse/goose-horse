@@ -1,43 +1,43 @@
 {
-    "track_code": "NEW",
-    "location": "High Gosforth Park, Newcastle, Tyne and Wear, England, UK",
+    "track_code": "NCLE",
+    "location": "Broadmeadow, Newcastle, Hunter Region, NSW, Australia",
     "nicknames": [
-        "Gosforth Park",
-        "The Home of the Northumberland Plate",
-        "The Straight Mile"
+        "Broadmeadow Racecourse",
+        "Newcastle Jockey Club",
+        "Beaumont Track",
+        "The Broadmeadow Oval",
+        "Home of the Newcastle Cup"
     ],
     "courses": {
-        "straight_tapeta": {
-            "circumference": "1 Mile (Straight)",
-            "surface": "Tapeta (Synthetic)",
-            "stretch_length": "1,600 metres (Straight)",
-            "bias_notes": "Floodlit straight course hosting 5f, 6f, 7f, and 1m races. World's only floodlit all-weather straight mile. Exceptionally wide, galloping layout featuring a stiff 1.5-furlong uphill incline to the winning post. Tapeta surface is testing; early speed-setters often decelerate in the final 100 yards, giving mid-pack stalkers and strong closers genuine winning opportunities.",
-            "post_bias": "In 5f and 6f sprints, middle-to-high draws (stands side) generally hold a slight advantage in large handicap fields. Over 7f and 1m, the draw is largely fair\u2014following the pace tow and securing cover is far more important than raw stall number."
+        "broadmeadow_main_turf": {
+            "circumference": "2,000 metres",
+            "surface": "Turf",
+            "stretch_length": "415 metres",
+            "bias_notes": "Clockwise (right-handed). One of Australia's premier, widest, and fairest provincial championship tracks. The main Broadmeadow oval is 26 metres wide with a spacious 415m home straight. The layout provides an unhindered contest for all running styles, giving closing swoopers ('S') every opportunity on Good ground.",
+            "post_bias": "Extremely fair course across all starting distances. The 1200m, 1400m, and 1600m chute starts provide long straight runs before cornering, ensuring wide barriers are easily overcome by patient rides."
         },
-        "round_tapeta": {
-            "circumference": "2,800 metres (1m 6f)",
-            "surface": "Tapeta (Synthetic)",
-            "stretch_length": "700 metres (3.5 Furlongs)",
-            "bias_notes": "Left-handed (Anti-clockwise) oval hosting 1m2f, 1m4f, and 2m\u00bdf races (including the Northumberland Plate). Long, sweeping banked turns feeding into a wide 3.5-furlong home straight with a steady uphill rise. Demands high baseline stamina.",
-            "post_bias": "In 1m2f and 1m4f races, low draws (1-5) holding the inside rail save vital ground around sweeping turns. In 2m races (Northumberland Plate), an aggressive early pace makes middle-to-outside draws viable to avoid early crowding into the first bend."
+        "beaumont_inner_turf": {
+            "circumference": "1,850 metres",
+            "surface": "Turf",
+            "stretch_length": "300 metres",
+            "bias_notes": "Clockwise (right-handed). The inner Beaumont circuit featuring tighter turns and a 300m home straight. Early speed ('E') and pocket pressers ('P') hold a distinct advantage here.",
+            "post_bias": "Inside barriers (stalls 1–4) are advantageous on the inner Beaumont track configuration."
         }
     },
     "handicapping_angles": {
-        "stiff_1.5f_uphill_tapeta_finish": "The final 300 metres features a demanding uphill incline on slow Tapeta synthetic. Speed-only front-runners regularly weaken in the final furlong. Aggressively upgrade horses with proven L2f (last 2 furlongs) closing sectionals and 1m+ stamina.",
-        "southern_stable_target_intent": "Top Tier 1 southern stables (John & Thady Gosden, William Haggas, Charlie Appleby) selectively send high-class horses to Newcastle (historical launching pad for Group 1 stars like Enable and Stradivarius). Upgrade southern metropolitan shippers with high Official Ratings.",
-        "straight_mile_pace_tow": "In 7f and 1m straight races, identify the early pace-setters. Runners drawn within 2-3 stalls of the lead pace-setters benefit from cover before launching their effort inside the 2f pole.",
-        "tapeta_surface_specialists": "Tapeta (sand, wax, fiber) rides completely differently than Polytrack or Fibresand. Form from Wolverhampton translates exceptionally well to Newcastle. Upgrade horses with proven winning records on Tapeta synthetic.",
-        "uk_handicap_weight_penalty": "In British Official Rating (OR) Handicaps (Class 2 to Class 5), top weights carrying 137 lbs+ (62kg+) face a strict penalty over Newcastle's stiff uphill finish (1kg = ~1 length). In Group / Listed / Feature races (Burradon Stakes, Northumberland Plate), prioritize pure class ratings and peak Racing Post Ratings (RPR)."
+        "sydney_metro_and_hunter_class_bridge": "Newcastle is a primary training hub and metropolitan alternate. High-volume Sydney yards (Chris Waller, Waterhouse & Bott, James Cummings, Snowdens) and top local stables (Kris Lees, Nathan Doyle, Paul Perry) dominate. Newcastle maiden and BM78 form translates directly to Randwick and Rosehill Saturday metro grade (+3.5 pts).",
+        "broadmeadow_415m_straight_fairness": "On the main Broadmeadow track, do not penalize back-markers purely for wide draws. The 415m straight and 26m width allow well-balanced gallopers with strong late sectionals to reel in leaders.",
+        "newcastle_cup_and_spring_stakes_carnival": "During the September Newcastle Cup ($300k+ Group 3), Cameron Handicap ($250k+ G3), and Tibbie Stakes feature meeting, race quality elevates to Group/Listed grade. Factor in higher speed par offsets for feature races."
     },
     "par_adjustment": {
-        "tier": "Tier 1.5 (UK All-Weather Premier Headquarters)",
-        "class_rating": 96,
+        "tier": "Tier 2 (NSW Premier Provincial HQ / Newcastle Cup)",
+        "class_rating": 92,
         "speed_par_offsets": {
-            "synthetic_sprint": "+2.5",
-            "synthetic_route": "+3.0"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": 2.0,
-        "points": 5.0
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Europe_Thoroughbred"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
 }
