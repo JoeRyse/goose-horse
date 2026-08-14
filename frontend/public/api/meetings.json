@@ -2,16 +2,16 @@
     "status":  "success",
     "meetings":  [
                      {
-                         "id":  "Taree_2026-08-13",
-                         "filename":  "Taree_2026-08-13.json",
-                         "track":  "Taree",
+                         "id":  "Geelong_2026-08-13",
+                         "filename":  "Geelong_2026-08-13.json",
+                         "track":  "Geelong",
                          "date":  "2026-08-13",
                          "race_count":  8,
                          "solo_locks_count":  2,
-                         "best_bets_count":  2,
-                         "region":  "AUS",
-                         "is_published":  true,
-                         "last_modified":  639222711272279633
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639222718507533585
                      },
                      {
                          "id":  "Busan_2026-08-13",
@@ -22,7 +22,7 @@
                          "solo_locks_count":  1,
                          "best_bets_count":  6,
                          "region":  "ASIA",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639222769397038086
                      },
                      {
@@ -34,20 +34,32 @@
                          "solo_locks_count":  0,
                          "best_bets_count":  4,
                          "region":  "AUS",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639222716654618141
                      },
                      {
-                         "id":  "Geelong_2026-08-13",
-                         "filename":  "Geelong_2026-08-13.json",
-                         "track":  "Geelong",
+                         "id":  "Taree_2026-08-13",
+                         "filename":  "Taree_2026-08-13.json",
+                         "track":  "Taree",
                          "date":  "2026-08-13",
                          "race_count":  8,
                          "solo_locks_count":  2,
-                         "best_bets_count":  3,
+                         "best_bets_count":  2,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639222711272279633
+                     },
+                     {
+                         "id":  "Del_Mar_2026-08-13",
+                         "filename":  "Del_Mar_2026-08-13.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-08-13",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  2,
                          "region":  "USA",
-                         "is_published":  true,
-                         "last_modified":  639222718507533585
+                         "is_published":  false,
+                         "last_modified":  639222481888414561
                      },
                      {
                          "id":  "Gunnedah_2026-08-13",
@@ -58,7 +70,7 @@
                          "solo_locks_count":  2,
                          "best_bets_count":  5,
                          "region":  "USA",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639222714241730136
                      },
                      {
@@ -72,18 +84,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639222351447544928
-                     },
-                     {
-                         "id":  "Del_Mar_2026-08-13",
-                         "filename":  "Del_Mar_2026-08-13.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-13",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639222481888414561
                      },
                      {
                          "id":  "Pinjarra_Scarpside_2026-08-12",
@@ -110,6 +110,18 @@
                          "last_modified":  639221865575257913
                      },
                      {
+                         "id":  "Bunbury_2026-08-12",
+                         "filename":  "Bunbury_2026-08-12.json",
+                         "track":  "Bunbury",
+                         "date":  "2026-08-12",
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639221876352528129
+                     },
+                     {
                          "id":  "Newcastle_2026-08-12",
                          "filename":  "Newcastle_2026-08-12.json",
                          "track":  "Newcastle",
@@ -132,18 +144,6 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639221873903211692
-                     },
-                     {
-                         "id":  "Bunbury_2026-08-12",
-                         "filename":  "Bunbury_2026-08-12.json",
-                         "track":  "Bunbury",
-                         "date":  "2026-08-12",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639221876352528129
                      },
                      {
                          "id":  "Devonport_Synthetic_2026-08-11",
@@ -218,18 +218,6 @@
                          "last_modified":  639219291208775519
                      },
                      {
-                         "id":  "Pakenham_Synthetic_2026-08-09",
-                         "filename":  "Pakenham_Synthetic_2026-08-09.json",
-                         "track":  "Pakenham Synthetic",
-                         "date":  "2026-08-09",
-                         "race_count":  9,
-                         "solo_locks_count":  6,
-                         "best_bets_count":  1,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639219286037794080
-                     },
-                     {
                          "id":  "Del_Mar_2026-08-09",
                          "filename":  "Del_Mar_2026-08-09.json",
                          "track":  "Del Mar",
@@ -240,18 +228,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639219059913868848
-                     },
-                     {
-                         "id":  "Dubbo_2026-08-09",
-                         "filename":  "Dubbo_2026-08-09.json",
-                         "track":  "Dubbo",
-                         "date":  "2026-08-09",
-                         "race_count":  7,
-                         "solo_locks_count":  5,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639219279124757987
                      },
                      {
                          "id":  "Saratoga_2026-08-09",
@@ -276,6 +252,30 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639219282278821014
+                     },
+                     {
+                         "id":  "Pakenham_Synthetic_2026-08-09",
+                         "filename":  "Pakenham_Synthetic_2026-08-09.json",
+                         "track":  "Pakenham Synthetic",
+                         "date":  "2026-08-09",
+                         "race_count":  9,
+                         "solo_locks_count":  6,
+                         "best_bets_count":  1,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639219286037794080
+                     },
+                     {
+                         "id":  "Dubbo_2026-08-09",
+                         "filename":  "Dubbo_2026-08-09.json",
+                         "track":  "Dubbo",
+                         "date":  "2026-08-09",
+                         "race_count":  7,
+                         "solo_locks_count":  5,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639219279124757987
                      },
                      {
                          "id":  "Casterton_2026-08-08",
