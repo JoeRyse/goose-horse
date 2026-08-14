@@ -407,6 +407,8 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
 
 model_options = [
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
     "gemini-3.1-pro-preview", 
     "gemini-2.0-flash-exp", 
     "gemini-1.5-pro", 

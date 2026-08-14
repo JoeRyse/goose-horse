@@ -1,32 +1,36 @@
 {
     "track_code": "TAR",
-    "location": "Taree, Mid-North Coast, NSW",
+    "location": "Taree, Mid-North Coast, NSW, Australia",
     "nicknames": [
-        "Manning Valley Race Club"
+        "Taree Racecourse",
+        "Manning Valley Race Club",
+        "Bushland Drive Racecourse",
+        "Home of the Taree Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,530 metres",
-            "surface": "Turf",
+            "surface": "Turf (Kikuyu Grass)",
             "stretch_length": "350 metres",
-            "bias_notes": "Clockwise. A somewhat uniquely shaped triangular circuit with tight, sweeping turns. Because of the tighter geometry and moderate 350m home straight, it generally plays with a distinct on-pace/leader bias. The track features a Kikuyu grass base, meaning it holds together remarkably well during wet weather compared to other country tracks.",
-            "post_bias": "Inside barriers (1-5) are a distinct advantage across all sprint distances (1000m - 1400m). Horses drawn wide must either expend significant early energy to cross over or risk being caught wide on the tight turns, which is a massive penalty here."
+            "bias_notes": "Clockwise (right-handed). A triangular-shaped Mid North Coast track with tight, sweeping turns and a 350m home straight. The tight triangular geometry generates a distinct early speed ('E') and on-pace presser ('P') bias. The Kikuyu grass surface holds together remarkably well during rain compared to inland tracks.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–5) hold a distinct advantage across all sprint distances (1000m to 1400m). Outer draws (9+) must expend significant early energy to cross over or risk being trapped wide on tight turns."
         }
     },
     "handicapping_angles": {
-        "the_triangle_speed_bias": "Because of the triangular layout and tight corners, pure front-runners ('E' types) and prominent stalkers have a significant edge. Heavily downgrade deep closers ('Swoopers') unless they have drawn an inside barrier and can save ground the entire trip.",
-        "wet_weather_durability": "Do not aggressively apply 'mudlark' extreme wet-track logic too early here. Taree's Kikuyu matting drains and handles rain much better than standard NSW bush tracks, often racing firmer than the official rating suggests.",
-        "country_championship_form": "As a key track for the Mid-North Coast Country Championships qualifiers, form from elite local trainers (like Kris Lees when he sends horses up from Newcastle) is incredibly strong. Always respect horses dropping back from Provincial (Newcastle/Wyong) grade."
+        "triangular_speed_bias": "Because of the triangular layout and tight corners, pure front-runners ('E' types) and prominent stalkers have a significant edge. Downgrade deep closers ('Swoopers') unless drawn inside to save ground.",
+        "kikuyu_wet_track_durability": "Taree's dense Kikuyu grass surface drains exceptionally well and handles rain better than standard bush tracks. Soft/Heavy tracks often play slightly firmer than official track ratings suggest.",
+        "hunter_and_provincial_shippers": "Taree attracts high-volume shippers from Newcastle, Port Macquarie, and Scone (e.g. Kris Lees, Nathan Doyle, Colt Prosser). Upgrade runners dropping back from Newcastle/Wyong provincial grade (+3.0 pts).",
+        "taree_cup_showcase_class": "During the August Taree Cup ($100k+ Showcase) feature meeting, race quality elevates to Provincial level."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (Standard Country)",
-        "class_rating": 82,
+        "tier": "Tier 3 (NSW Mid North Coast HQ)",
+        "class_rating": 86,
         "speed_par_offsets": {
-            "turf_sprint": "-2.0",
-            "turf_route": "-1.5"
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
         },
-        "lengths": -2.0,
-        "points": -5.0
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

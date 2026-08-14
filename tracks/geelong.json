@@ -1,17 +1,35 @@
 {
-    "location": "Geelong, VIC",
-    "track_type": "Turf",
-    "direction": "Counter-Clockwise",
-    "straight_length": "380m",
-    "bias_notes": "A spacious, premium provincial circuit. Features broad, sweeping turns and a generous 380m home straight, making it a very fair galloping surface.",
+    "track_code": "GEEL",
+    "location": "Geelong (Breakwater), Victoria, Australia",
+    "nicknames": [
+        "Geelong Racecourse",
+        "Breakwater Racecourse",
+        "Geelong Racing Club",
+        "Home of the Geelong Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,040 metres",
+            "surface": "Turf",
+            "stretch_length": "380 metres",
+            "bias_notes": "Anti-clockwise (left-handed). One of Victoria's premier provincial championship courses featuring a spacious 2,040m circumference, 24m width, and a 380m home straight. The broad layout and wide cambered turns provide an exceptionally fair galloping surface where mid-field stalkers ('P') and closing swoopers ('S') get every opportunity on Good ground.",
+            "post_bias": "Extremely fair course. Long run-ins from chutes (1200m, 1400m, 1700m, 2200m) give wider draws ample time to find cover without burning early energy."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair. The long straight gives backmarkers plenty of time and room to wind up and swoop.",
-        "barrier_draw": "Relatively fair across most distances due to the wide track layout, though inside draws help in shorter sprints."
+        "spacious_2040m_championship_layout": "Geelong's broad 24m width and cambered turns eliminate tight-turn leader traps. Upgrade large-striding gallopers and genuine closing swoopers ('S').",
+        "geelong_cup_spring_carnival_class": "The October Geelong Cup ($500k Group 3) is a primary Melbourne Cup lead-up feature. During Cup day and Spring Carnival meetings, track class elevates to Group/Metro grade (+4.0 speed par offset).",
+        "melbourne_metro_shippers": "Geelong is a major regional target for premier Melbourne metropolitan stables (Ciaron Maher, Busuttin/Young, Price/Kent Jr., Moody/Coleman, Ben, Will & JD Hayes). Upgrade class-dropping Metro runners (+3.0 pts)."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 2 (Victorian Premier Metro Alternate HQ / Geelong Cup)",
+        "class_rating": 91,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred_Queensland"
+    "region_group": "Australia_Thoroughbred_Victoria"
 }

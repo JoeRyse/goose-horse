@@ -1,32 +1,35 @@
 {
     "track_code": "GUNN",
-    "location": "Gunnedah, NSW",
+    "location": "Gunnedah, Hunter & North West Slopes, NSW, Australia",
     "nicknames": [
-        "Riverside Racecourse"
+        "Gunnedah Racecourse",
+        "Riverside Racecourse",
+        "Gunnedah Jockey Club",
+        "Home of the Gunnedah Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,800 metres",
             "surface": "Turf",
             "stretch_length": "200 metres",
-            "bias_notes": "Clockwise. A country circuit set alongside the Namoi River. Its absolute defining characteristic is a notoriously short 200m home straight. Because the run home is so incredibly brief, the track plays with a massive on-pace and front-runner bias. Deep closers ('Swoopers') are at a severe mathematical disadvantage unless the early pace completely collapses.",
-            "post_bias": "Inside barriers (1-4) hold a massive advantage, particularly in the 1000m and 1250m sprint dashes. Horses drawn wide must expend significant early energy to cross over or risk being caught wide on the turns, which is heavily penalizing given the lack of a straight to recover in."
+            "bias_notes": "Clockwise (right-handed). A country circuit set alongside the Namoi River. Its defining characteristic is an ultra-short 200m home straight. Because the final stretch is so brief, the track generates an extreme on-pace and early speed ('E') bias. Deep closers ('Swoopers') face a steep mathematical disadvantage unless a frantic pace collapse unfolds.",
+            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–4) hold an immense advantage in 1000m and 1250m dashes. Wide draws (8+) must burn significant energy to cross over or risk being caught wide on turns."
         }
     },
     "handicapping_angles": {
-        "the_bullring_trap": "Aggressively downgrade deep closers ('S' types). With only 200 metres of straight runway, horses settling in the back half of the field will almost always run out of real estate, regardless of their closing splits. Heavily upgrade pure early speed ('E' types).",
-        "the_tamworth_spillover": "Gunnedah sits in the North-West racing region, meaning it frequently shares horse populations with Tamworth and Armidale. However, Tamworth features a 360m straight; horses that rely on a long wind-up at Tamworth will often fail to navigate the sharp turn and short straight here.",
-        "regional_class_penalty": "This is deep regional country form. If you are evaluating a horse whose past performances are built primarily at Gunnedah, you must apply the maximum class penalty if they are shipping down to Provincial tracks (like Newcastle or Hawkesbury) or Metro venues."
+        "ultra_short_200m_straight_speed_bias": "Aggressively upgrade pure early speed ('E' types) and rail pressers ('P'). Heavily downgrade deep closers ('Swoopers'); with only 200m of straight runway, horses settling in the back half of the field almost always run out of ground.",
+        "tamworth_and_scone_shippers": "Gunnedah regularly receives high-volume shippers from Tamworth, Scone, and Armidale (Cody Morgan, Sue Grills, Melanie O'Gorman). Upgrade shippers coming off Tamworth or Scone provincial benchmark form (+3.0 pts).",
+        "gunnedah_cup_showcase_class": "During the May Gunnedah Cup ($40k+ Showcase) feature meeting, race quality elevates to NSW Country Showcase level."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush/Tight Country NSW)",
-        "class_rating": 80,
+        "tier": "Tier 4 (NSW Hunter & North West Country)",
+        "class_rating": 84,
         "speed_par_offsets": {
-            "turf_sprint": "-2.5",
-            "turf_route": "-2.0"
+            "turf_sprint": "-1.0",
+            "turf_route": "-0.5"
         },
-        "lengths": -2.0,
-        "points": -5.0
+        "lengths": 0.5,
+        "points": 1.5
     },
-    "region_group": "Australia_Thoroughbred_Queensland"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }
