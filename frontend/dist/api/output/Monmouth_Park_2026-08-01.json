@@ -1,0 +1,1634 @@
+{
+    "meta": {
+        "track": "Monmouth Park",
+        "date": "2026-08-01",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 1 over 2, 6; Trifecta Key 1 over 2, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Hop To It",
+                        "handicapper_notes": "Top choice and established par leader at this level. Boasts multiple strong speed figures on grass including a 62 Speed rating and lifetime 80 rating. Has finished in the top two in 4 of 6 turf starts. Gets ideal rail draw on tight Monmouth turf oval with top rider Edwin Gonzalez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Sweet Science (IRE)",
+                        "handicapper_notes": "Massive class dropper taking advantage of Class Drop Elevator Rule, dropping from $40k-$56k Maiden Special Weight company straight into Maiden Claiming $16k. Speed figures in maiden special weight (66, 61) translate to winning numbers at this level. Primary danger horse in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard (+10 Class Drop Bonus)",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Gave way after 2w trip in MSW",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Nina Lee",
+                        "handicapper_notes": "Well-bred Slumber filly from the Rob Atras barn. Made up ground late to finish 4th despite breaking slowly in local track debut on July 17. Second start over the track should see significant improvement with Luis Rivera, Jr. back aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Off slow in last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Balitea",
+                        "handicapper_notes": "Vied early on the lead inside and held on for 3rd over this course and distance on July 17. Holds tactical early speed which is advantageous on tight turns, though wide post draw requires an alert start.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Fractious at gate in last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Molly The Great",
+                        "handicapper_notes": "First-time turf runner stretching out from dirt sprints. Shows a top dirt figure of 68 at Tampa Bay Downs. Chantal Sutherland rider upgrade, but surface and distance transitions present question marks.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route / Dirt to Turf",
+                            "trouble_trip": "Off duel on dirt",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Love In The Hills",
+                        "handicapper_notes": "Dirt sprinter stretching out to a turf route for the second time in career. Speed figures lag behind top contenders significantly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route / Dirt to Turf",
+                            "trouble_trip": "Broke out in previous turf attempt",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hop To It",
+                    "rating": 93.0,
+                    "reason": "Top choice and established par leader at this level. Boasts multiple strong speed figures on grass including a 62 Speed rating and lifetime 80 rating. Has finished in the top two in 4 of 6 turf starts. Gets ideal rail draw on tight Monmouth turf oval with top rider Edwin Gonzalez."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Sweet Science (IRE)",
+                    "rating": 89.0,
+                    "reason": "Massive class dropper taking advantage of Class Drop Elevator Rule, dropping from $40k-$56k Maiden Special Weight company straight into Maiden Claiming $16k. Speed figures in maiden special weight (66, 61) translate to winning numbers at this level. Primary danger horse in the field. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Gave way after 2w trip in MSW</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Nina Lee",
+                    "rating": 85.0,
+                    "reason": "Well-bred Slumber filly from the Rob Atras barn. Made up ground late to finish 4th despite breaking slowly in local track debut on July 17. Second start over the track should see significant improvement with Luis Rivera, Jr. back aboard. | <i>\u26a0\ufe0f Off slow in last start</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Balitea",
+                    "rating": 83.0,
+                    "reason": "Vied early on the lead inside and held on for 3rd over this course and distance on July 17. Holds tactical early speed which is advantageous on tight turns, though wide post draw requires an alert start. | <i>\u26a0\ufe0f Fractious at gate in last start</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Molly The Great",
+                    "rating": 80.0,
+                    "reason": "First-time turf runner stretching out from dirt sprints. Shows a top dirt figure of 68 at Tampa Bay Downs. Chantal Sutherland rider upgrade, but surface and distance transitions present question marks. | <i>\u26a0\ufe0f Off duel on dirt \u2022 \ud83d\udccf Sprint to Route / Dirt to Turf</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hop To It",
+                    "rating": 93.0,
+                    "reason": "Top choice and established par leader at this level. Boasts multiple strong speed figures on grass including a 62 Speed rating and lifetime 80 rating. Has finished in the top two in 4 of 6 turf starts. Gets ideal rail draw on tight Monmouth turf oval with top rider Edwin Gonzalez."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Sweet Science (IRE)",
+                    "rating": 89.0,
+                    "reason": "Massive class dropper taking advantage of Class Drop Elevator Rule, dropping from $40k-$56k Maiden Special Weight company straight into Maiden Claiming $16k. Speed figures in maiden special weight (66, 61) translate to winning numbers at this level. Primary danger horse in the field. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Gave way after 2w trip in MSW</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Nina Lee",
+                    "rating": 85.0,
+                    "reason": "Well-bred Slumber filly from the Rob Atras barn. Made up ground late to finish 4th despite breaking slowly in local track debut on July 17. Second start over the track should see significant improvement with Luis Rivera, Jr. back aboard. | <i>\u26a0\ufe0f Off slow in last start</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Balitea",
+                    "rating": 83.0,
+                    "reason": "Vied early on the lead inside and held on for 3rd over this course and distance on July 17. Holds tactical early speed which is advantageous on tight turns, though wide post draw requires an alert start. | <i>\u26a0\ufe0f Fractious at gate in last start</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Molly The Great",
+                    "rating": 80.0,
+                    "reason": "First-time turf runner stretching out from dirt sprints. Shows a top dirt figure of 68 at Tampa Bay Downs. Chantal Sutherland rider upgrade, but surface and distance transitions present question marks. | <i>\u26a0\ufe0f Off duel on dirt \u2022 \ud83d\udccf Sprint to Route / Dirt to Turf</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Love In The Hills",
+                    "rating": 73.0,
+                    "reason": "Dirt sprinter stretching out to a turf route for the second time in career. Speed figures lag behind top contenders significantly. | <i>\u26a0\ufe0f Broke out in previous turf attempt \u2022 \ud83d\udccf Sprint to Route / Dirt to Turf</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Sweet Science (IRE)",
+                "rating": 89.0,
+                "reason": "Massive class dropper taking advantage of Class Drop Elevator Rule, dropping from $40k-$56k Maiden Special Weight company straight into Maiden Claiming $16k. Speed figures in maiden special weight (66, 61) translate to winning numbers at this level. Primary danger horse in the field. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Gave way after 2w trip in MSW</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Hop To It</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #2, #6 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta Key 1 over 2, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Troublemeister",
+                        "handicapper_notes": "Massive class drop out of $89k Maiden Special Weight races at Gulfstream Park down to $25k Maiden Claiming. Earned speed figures up to 75 at Gulfstream that strictly outclass this local field. Class Drop Elevator bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Royal Merit",
+                        "handicapper_notes": "Consistent 3-year-old gelding with top-tier jockey Edwin Gonzalez (44% win rate at meet). Possesses strong tactical dirt figures (66-72 range) and should benefit from a fair mid-pack stalking trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "J J Pacheco",
+                        "handicapper_notes": "Drops out of New Jersey-bred Maiden Special Weight company where he finished a solid 3rd with a 60 speed figure. Prior dirt speed figures up to 64 make him a major factor against this maiden claiming level.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Mystical Merlin",
+                        "handicapper_notes": "Holds the highest lifetime dirt speed figure in the field (79 at Monmouth last summer). Draws inside rail post for speed-favoring track bias and gets veteran rider Jose Ferrer.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Stem Cell",
+                        "handicapper_notes": "First time starter by Karakontie out of an Into Mischief dam for trainer Victor Barboza Jr. Sharp gate workout (36.4) suggests early speed potential in a race without proven standouts.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Time Starter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "It'salljustadream",
+                        "handicapper_notes": "Showed good early speed and held 3rd last time out over this track at $40k MCL level. Drops slightly to $25k and fits the Monmouth speed-friendly track profile well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Troublemeister",
+                    "rating": 92.0,
+                    "reason": "Massive class drop out of $89k Maiden Special Weight races at Gulfstream Park down to $25k Maiden Claiming. Earned speed figures up to 75 at Gulfstream that strictly outclass this local field. Class Drop Elevator bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Royal Merit",
+                    "rating": 87.0,
+                    "reason": "Consistent 3-year-old gelding with top-tier jockey Edwin Gonzalez (44% win rate at meet). Possesses strong tactical dirt figures (66-72 range) and should benefit from a fair mid-pack stalking trip."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "J J Pacheco",
+                    "rating": 85.0,
+                    "reason": "Drops out of New Jersey-bred Maiden Special Weight company where he finished a solid 3rd with a 60 speed figure. Prior dirt speed figures up to 64 make him a major factor against this maiden claiming level. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mystical Merlin",
+                    "rating": 84.0,
+                    "reason": "Holds the highest lifetime dirt speed figure in the field (79 at Monmouth last summer). Draws inside rail post for speed-favoring track bias and gets veteran rider Jose Ferrer."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stem Cell",
+                    "rating": 82.0,
+                    "reason": "First time starter by Karakontie out of an Into Mischief dam for trainer Victor Barboza Jr. Sharp gate workout (36.4) suggests early speed potential in a race without proven standouts. | <i>\ud83d\udccf First Time Starter</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Troublemeister",
+                    "rating": 92.0,
+                    "reason": "Massive class drop out of $89k Maiden Special Weight races at Gulfstream Park down to $25k Maiden Claiming. Earned speed figures up to 75 at Gulfstream that strictly outclass this local field. Class Drop Elevator bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Royal Merit",
+                    "rating": 87.0,
+                    "reason": "Consistent 3-year-old gelding with top-tier jockey Edwin Gonzalez (44% win rate at meet). Possesses strong tactical dirt figures (66-72 range) and should benefit from a fair mid-pack stalking trip."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "J J Pacheco",
+                    "rating": 85.0,
+                    "reason": "Drops out of New Jersey-bred Maiden Special Weight company where he finished a solid 3rd with a 60 speed figure. Prior dirt speed figures up to 64 make him a major factor against this maiden claiming level. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mystical Merlin",
+                    "rating": 84.0,
+                    "reason": "Holds the highest lifetime dirt speed figure in the field (79 at Monmouth last summer). Draws inside rail post for speed-favoring track bias and gets veteran rider Jose Ferrer."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stem Cell",
+                    "rating": 82.0,
+                    "reason": "First time starter by Karakontie out of an Into Mischief dam for trainer Victor Barboza Jr. Sharp gate workout (36.4) suggests early speed potential in a race without proven standouts. | <i>\ud83d\udccf First Time Starter</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "It'salljustadream",
+                    "rating": 80.0,
+                    "reason": "Showed good early speed and held 3rd last time out over this track at $40k MCL level. Drops slightly to $25k and fits the Monmouth speed-friendly track profile well."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Stem Cell",
+                "rating": 82.0,
+                "reason": "First time starter by Karakontie out of an Into Mischief dam for trainer Victor Barboza Jr. Sharp gate workout (36.4) suggests early speed potential in a race without proven standouts. | <i>\ud83d\udccf First Time Starter</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Troublemeister</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#5, #6, #7) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta Box 2, 6, 7; Win/Place on 7",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Bee N Dee",
+                        "handicapper_notes": "Morning line favorite coming off strong performance-level efforts at Monmouth including a close 2nd and 3rd at this exact distance. Benefits from premier jockey Edwin Gonzalez who excels on Monmouth dirt routes.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "First Hathor",
+                        "handicapper_notes": "Unexposed 3yo filly drawn ideally in Post 2, capitalizing on Monmouth Park inside post bias in two-turn dirt routes. Top jockey Luis Rivera Jr rides for elite claiming trainer Kathleen O'Connell.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Lost Rider",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Rachel Caroline",
+                        "handicapper_notes": "Veteran 8yo mare ran a solid 2nd over course and distance on July 10, out-finishing Bee N Dee late. Proven local record and fits well with jockey Chantal Sutherland.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Kathleen's Derby",
+                        "handicapper_notes": "Second Kathleen O'Connell entrant possesses early speed and drops weight with apprentice Melissa Iorio. Won a maiden route two starts back at Tampa Bay Downs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Faded",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sexpectations",
+                        "handicapper_notes": "Draws inside rail Post 1 which holds a statistical advantage on the Monmouth two-turn dirt oval. Route winner at Tampa earlier in the season.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Charlize Chub",
+                        "handicapper_notes": "High-upside closer stretching back out to two turns. Represents a dangerous late threat if early speed contenders dynamic causes a fast pace meltdown.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Threat",
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Bee N Dee",
+                    "rating": 88.0,
+                    "reason": "Morning line favorite coming off strong performance-level efforts at Monmouth including a close 2nd and 3rd at this exact distance. Benefits from premier jockey Edwin Gonzalez who excels on Monmouth dirt routes."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "First Hathor",
+                    "rating": 85.0,
+                    "reason": "Unexposed 3yo filly drawn ideally in Post 2, capitalizing on Monmouth Park inside post bias in two-turn dirt routes. Top jockey Luis Rivera Jr rides for elite claiming trainer Kathleen O'Connell. | <i>\u26a0\ufe0f Lost Rider</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Rachel Caroline",
+                    "rating": 83.0,
+                    "reason": "Veteran 8yo mare ran a solid 2nd over course and distance on July 10, out-finishing Bee N Dee late. Proven local record and fits well with jockey Chantal Sutherland."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Kathleen's Derby",
+                    "rating": 81.0,
+                    "reason": "Second Kathleen O'Connell entrant possesses early speed and drops weight with apprentice Melissa Iorio. Won a maiden route two starts back at Tampa Bay Downs. | <i>\u26a0\ufe0f Faded</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sexpectations",
+                    "rating": 79.0,
+                    "reason": "Draws inside rail Post 1 which holds a statistical advantage on the Monmouth two-turn dirt oval. Route winner at Tampa earlier in the season."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Bee N Dee",
+                    "rating": 88.0,
+                    "reason": "Morning line favorite coming off strong performance-level efforts at Monmouth including a close 2nd and 3rd at this exact distance. Benefits from premier jockey Edwin Gonzalez who excels on Monmouth dirt routes."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "First Hathor",
+                    "rating": 85.0,
+                    "reason": "Unexposed 3yo filly drawn ideally in Post 2, capitalizing on Monmouth Park inside post bias in two-turn dirt routes. Top jockey Luis Rivera Jr rides for elite claiming trainer Kathleen O'Connell. | <i>\u26a0\ufe0f Lost Rider</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Rachel Caroline",
+                    "rating": 83.0,
+                    "reason": "Veteran 8yo mare ran a solid 2nd over course and distance on July 10, out-finishing Bee N Dee late. Proven local record and fits well with jockey Chantal Sutherland."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Kathleen's Derby",
+                    "rating": 81.0,
+                    "reason": "Second Kathleen O'Connell entrant possesses early speed and drops weight with apprentice Melissa Iorio. Won a maiden route two starts back at Tampa Bay Downs. | <i>\u26a0\ufe0f Faded</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sexpectations",
+                    "rating": 79.0,
+                    "reason": "Draws inside rail Post 1 which holds a statistical advantage on the Monmouth two-turn dirt oval. Route winner at Tampa earlier in the season."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Charlize Chub",
+                    "rating": 76.0,
+                    "reason": "High-upside closer stretching back out to two turns. Represents a dangerous late threat if early speed contenders dynamic causes a fast pace meltdown. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Charlize Chub",
+                "rating": 76.0,
+                "reason": "High-upside closer stretching back out to two turns. Represents a dangerous late threat if early speed contenders dynamic causes a fast pace meltdown. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Bee N Dee</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #2, #3 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta Box 1, 7, 10; Trifecta 1 / 7, 10 / 4, 7, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "My Man Woody",
+                        "handicapper_notes": "Enters in peak career form following a dominant victory at Parx (89 Speed Figure) and a career-best 92 figure two starts back at Delaware Park. Perfectly drawn in Post 1 to capitalize on Monmouth Park's legendary inside early-speed dirt bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favored Early Speed / Rail Highway Advantage (+4)",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Shakin Loose",
+                        "handicapper_notes": "Scored a wire-to-wire victory over this track and distance on July 19 with a solid 78 Speed Figure. Holds strong back figures of 86 and fits the high-percentage Panagiotis Synnefias sprint barn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Front-Runner",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "President Z",
+                        "handicapper_notes": "Brings the highest class rating in the field (96) with back figures up to 93. Showed good speed winning here two back (76 figure), but faces significant early pressure and an outside draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Competitive Saint",
+                        "handicapper_notes": "Riding a two-race winning streak at Parx showing sharp tactical pace. Fits comfortably in starter allowance company, though today's pace matchup is slightly faster.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Pogi",
+                        "handicapper_notes": "Defeated top choice My Man Woody head-to-head on May 9 over this track with an 80 speed figure. Gets a key jockey change to veteran Jose Ferrer and possesses high-upside speed on a fast track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser / Early Speed",
+                            "ai_holistic_score": 84,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Off-Track Inconsistencies",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Glint",
+                        "handicapper_notes": "Cuts back from a route to a sprint following a sub-par outing. Holds back dirt sprint figures of 82 at Aqueduct, but deep closing styles are strongly penalized on Monmouth Park dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closing Bias Penalty (-3)",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "My Man Woody",
+                    "rating": 93.0,
+                    "reason": "Enters in peak career form following a dominant victory at Parx (89 Speed Figure) and a career-best 92 figure two starts back at Delaware Park. Perfectly drawn in Post 1 to capitalize on Monmouth Park's legendary inside early-speed dirt bias."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shakin Loose",
+                    "rating": 89.0,
+                    "reason": "Scored a wire-to-wire victory over this track and distance on July 19 with a solid 78 Speed Figure. Holds strong back figures of 86 and fits the high-percentage Panagiotis Synnefias sprint barn."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "President Z",
+                    "rating": 88.0,
+                    "reason": "Brings the highest class rating in the field (96) with back figures up to 93. Showed good speed winning here two back (76 figure), but faces significant early pressure and an outside draw."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Competitive Saint",
+                    "rating": 85.0,
+                    "reason": "Riding a two-race winning streak at Parx showing sharp tactical pace. Fits comfortably in starter allowance company, though today's pace matchup is slightly faster."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pogi",
+                    "rating": 84.0,
+                    "reason": "Defeated top choice My Man Woody head-to-head on May 9 over this track with an 80 speed figure. Gets a key jockey change to veteran Jose Ferrer and possesses high-upside speed on a fast track. | <i>\u26a0\ufe0f Off-Track Inconsistencies</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "My Man Woody",
+                    "rating": 93.0,
+                    "reason": "Enters in peak career form following a dominant victory at Parx (89 Speed Figure) and a career-best 92 figure two starts back at Delaware Park. Perfectly drawn in Post 1 to capitalize on Monmouth Park's legendary inside early-speed dirt bias."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shakin Loose",
+                    "rating": 89.0,
+                    "reason": "Scored a wire-to-wire victory over this track and distance on July 19 with a solid 78 Speed Figure. Holds strong back figures of 86 and fits the high-percentage Panagiotis Synnefias sprint barn."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "President Z",
+                    "rating": 88.0,
+                    "reason": "Brings the highest class rating in the field (96) with back figures up to 93. Showed good speed winning here two back (76 figure), but faces significant early pressure and an outside draw."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Competitive Saint",
+                    "rating": 85.0,
+                    "reason": "Riding a two-race winning streak at Parx showing sharp tactical pace. Fits comfortably in starter allowance company, though today's pace matchup is slightly faster."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pogi",
+                    "rating": 84.0,
+                    "reason": "Defeated top choice My Man Woody head-to-head on May 9 over this track with an 80 speed figure. Gets a key jockey change to veteran Jose Ferrer and possesses high-upside speed on a fast track. | <i>\u26a0\ufe0f Off-Track Inconsistencies</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Glint",
+                    "rating": 82.0,
+                    "reason": "Cuts back from a route to a sprint following a sub-par outing. Holds back dirt sprint figures of 82 at Aqueduct, but deep closing styles are strongly penalized on Monmouth Park dirt. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Pogi",
+                "rating": 84.0,
+                "reason": "Defeated top choice My Man Woody head-to-head on May 9 over this track with an 80 speed figure. Gets a key jockey change to veteran Jose Ferrer and possesses high-upside speed on a fast track. | <i>\u26a0\ufe0f Off-Track Inconsistencies</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 My Man Woody</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #7, #4 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "About 5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "About 5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 4, 9, 6; Trifecta 4 with 6, 9 with 2, 3, 5, 6, 9",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Les Reys (FR)",
+                        "handicapper_notes": "Classy European-bred shipper for Clement drops into Monmouth stakes after consecutive stakes placings at Aqueduct and Laurel. High class rating and formidable closing kick on turf.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Pandora's Gift (IRE)",
+                        "handicapper_notes": "High-upside threat for Clement boasting a top 106 speed figure in Grade 2 Franklin Stakes at Keeneland. Major threat if she duplicates her top turf sprint effort.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Obstreperous",
+                        "handicapper_notes": "Exits a powerful 98 speed figure in the Grade 2 Caress at Saratoga. Receives jockey upgrade to Ruben Silvera and possesses lethal tactical speed fit for Monmouth turf.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Mopo",
+                        "handicapper_notes": "Enters off a sharp stakes victory in the Jameela at Laurel with a 94 speed figure. Extremely consistent turf sprinter with 10 top-two finishes in 12 turf starts.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sweet Brown Sugar",
+                        "handicapper_notes": "Dangerous NY shipper for Rob Atras with multiple sub-1:07 speed figures on turf. Possesses tactical early speed to contend early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Summer's Comin",
+                        "handicapper_notes": "Local contender with solid track form including a runner-up finish in the Jersey Girl Stakes on turf (92 figure). Competes well on home surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Les Reys (FR)",
+                    "rating": 92.0,
+                    "reason": "Classy European-bred shipper for Clement drops into Monmouth stakes after consecutive stakes placings at Aqueduct and Laurel. High class rating and formidable closing kick on turf."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Pandora's Gift (IRE)",
+                    "rating": 89.0,
+                    "reason": "High-upside threat for Clement boasting a top 106 speed figure in Grade 2 Franklin Stakes at Keeneland. Major threat if she duplicates her top turf sprint effort."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Obstreperous",
+                    "rating": 87.0,
+                    "reason": "Exits a powerful 98 speed figure in the Grade 2 Caress at Saratoga. Receives jockey upgrade to Ruben Silvera and possesses lethal tactical speed fit for Monmouth turf."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Mopo",
+                    "rating": 85.0,
+                    "reason": "Enters off a sharp stakes victory in the Jameela at Laurel with a 94 speed figure. Extremely consistent turf sprinter with 10 top-two finishes in 12 turf starts."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sweet Brown Sugar",
+                    "rating": 83.0,
+                    "reason": "Dangerous NY shipper for Rob Atras with multiple sub-1:07 speed figures on turf. Possesses tactical early speed to contend early."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Les Reys (FR)",
+                    "rating": 92.0,
+                    "reason": "Classy European-bred shipper for Clement drops into Monmouth stakes after consecutive stakes placings at Aqueduct and Laurel. High class rating and formidable closing kick on turf."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Pandora's Gift (IRE)",
+                    "rating": 89.0,
+                    "reason": "High-upside threat for Clement boasting a top 106 speed figure in Grade 2 Franklin Stakes at Keeneland. Major threat if she duplicates her top turf sprint effort."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Obstreperous",
+                    "rating": 87.0,
+                    "reason": "Exits a powerful 98 speed figure in the Grade 2 Caress at Saratoga. Receives jockey upgrade to Ruben Silvera and possesses lethal tactical speed fit for Monmouth turf."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Mopo",
+                    "rating": 85.0,
+                    "reason": "Enters off a sharp stakes victory in the Jameela at Laurel with a 94 speed figure. Extremely consistent turf sprinter with 10 top-two finishes in 12 turf starts."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sweet Brown Sugar",
+                    "rating": 83.0,
+                    "reason": "Dangerous NY shipper for Rob Atras with multiple sub-1:07 speed figures on turf. Possesses tactical early speed to contend early."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Summer's Comin",
+                    "rating": 81.0,
+                    "reason": "Local contender with solid track form including a runner-up finish in the Jersey Girl Stakes on turf (92 figure). Competes well on home surface. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Pandora's Gift (IRE)",
+                "rating": 89.0,
+                "reason": "High-upside threat for Clement boasting a top 106 speed figure in Grade 2 Franklin Stakes at Keeneland. Major threat if she duplicates her top turf sprint effort."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Les Reys (FR)</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #9, #6 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#9 Pandora's Gift (IRE)</b>"
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Denying",
+                        "handicapper_notes": "Very consistent over the Monmouth dirt oval, posting solid speed figures of 79 and 80 in recent starts. Holds a tactical presser style ideal for today's track profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Laughing Boy",
+                        "handicapper_notes": "Narrowly missed over this track and distance on July 10 earning an 80 Beyer figure while setting the pace. Perfectly fits the Monmouth early speed highway profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Front-Runner",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Amedeus Music",
+                        "handicapper_notes": "Parx shipper trained by Wayne Potts who posted a field-high 87 Beyer speed figure three starts back. Classy veteran with strong early pressing speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Surprise Package",
+                        "handicapper_notes": "Dangerous early speed threat who previously earned an 88 Beyer at Tampa. Picks up jockey Christopher Elliott and could prove very tough if securing an aggressive lead.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Rerally",
+                        "handicapper_notes": "Consistent stalker/closer with an 80 Beyer speed figure at Parx in June. May face a pace disadvantage on the speed-favoring Monmouth main track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Late Surge",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Master Of None",
+                        "handicapper_notes": "Looking to bounce back after a dull effort over the track on July 25. Previous Parx speed figures in the 70s give him fringe exotics interest.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Denying",
+                    "rating": 89.0,
+                    "reason": "Very consistent over the Monmouth dirt oval, posting solid speed figures of 79 and 80 in recent starts. Holds a tactical presser style ideal for today's track profile."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Laughing Boy",
+                    "rating": 88.0,
+                    "reason": "Narrowly missed over this track and distance on July 10 earning an 80 Beyer figure while setting the pace. Perfectly fits the Monmouth early speed highway profile."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Amedeus Music",
+                    "rating": 87.0,
+                    "reason": "Parx shipper trained by Wayne Potts who posted a field-high 87 Beyer speed figure three starts back. Classy veteran with strong early pressing speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Surprise Package",
+                    "rating": 85.0,
+                    "reason": "Dangerous early speed threat who previously earned an 88 Beyer at Tampa. Picks up jockey Christopher Elliott and could prove very tough if securing an aggressive lead."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Rerally",
+                    "rating": 83.0,
+                    "reason": "Consistent stalker/closer with an 80 Beyer speed figure at Parx in June. May face a pace disadvantage on the speed-favoring Monmouth main track."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Denying",
+                    "rating": 89.0,
+                    "reason": "Very consistent over the Monmouth dirt oval, posting solid speed figures of 79 and 80 in recent starts. Holds a tactical presser style ideal for today's track profile."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Laughing Boy",
+                    "rating": 88.0,
+                    "reason": "Narrowly missed over this track and distance on July 10 earning an 80 Beyer figure while setting the pace. Perfectly fits the Monmouth early speed highway profile."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Amedeus Music",
+                    "rating": 87.0,
+                    "reason": "Parx shipper trained by Wayne Potts who posted a field-high 87 Beyer speed figure three starts back. Classy veteran with strong early pressing speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Surprise Package",
+                    "rating": 85.0,
+                    "reason": "Dangerous early speed threat who previously earned an 88 Beyer at Tampa. Picks up jockey Christopher Elliott and could prove very tough if securing an aggressive lead."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Rerally",
+                    "rating": 83.0,
+                    "reason": "Consistent stalker/closer with an 80 Beyer speed figure at Parx in June. May face a pace disadvantage on the speed-favoring Monmouth main track."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Master Of None",
+                    "rating": 80.0,
+                    "reason": "Looking to bounce back after a dull effort over the track on July 25. Previous Parx speed figures in the 70s give him fringe exotics interest."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Surprise Package",
+                "rating": 85.0,
+                "reason": "Dangerous early speed threat who previously earned an 88 Beyer at Tampa. Picks up jockey Christopher Elliott and could prove very tough if securing an aggressive lead."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Denying</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #8, #7 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "About 5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "About 5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 over 3, 6, 8, 9, 11; Trifecta 1 / 8, 9 / 3, 6, 8, 9, 11",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "One Fine Wine",
+                        "handicapper_notes": "Draws the rail on the Monmouth turf where inside speed and ground-saving trips excel. Narrowly missed by a nose over this track and distance two back in AOC52k with a 74 speed fig, then posted a dominant wire-to-wire win on dirt. Edwin Gonzalez stays aboard. Top selection.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Speed Advantage",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Eazy Whirled",
+                        "handicapper_notes": "Earned the highest turf speed rating in the field (92 speed fig) two back when 3rd in the Jersey Girl Stakes behind stakes runners. Sufferred a slow start last out at 1M. Cutback to 5.5F suits her closing kick if pace develops.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Setup for Closer",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Off Slow Last Out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Golden Ring",
+                        "handicapper_notes": "Ran a strong 3rd in AOC52k last out at 1M despite lacking room in the stretch, earning an 82 speed fig. Gets jockey switch to Francisco Martinez. Proven local turf contender who can make an impact late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Blocked/Lacked Room",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Point To That Star",
+                        "handicapper_notes": "Decisive winner on Monmouth turf two back in MCL16k, then ran 3rd dead-heat in AOC52k at 1M. Drawn inside in post 3 with Luis Rivera Jr., allowing her to save ground on tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Air Masque",
+                        "handicapper_notes": "Proven Monmouth turf sprint winner, boasting a 4-length MSW win over this course. Possesses good tactical speed and ground-saving ability with Melissa Iorio.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Speed",
+                            "ai_holistic_score": 82,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Slick Merlin",
+                        "handicapper_notes": "Draws into the main body off the AE list following the scratch of #5. Stakes-placed on turf as a 2YO (2nd in Colleen S. with a 73 speed fig). Has dangerous early speed and Chantal Sutherland in the irons.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Fast Pace",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Bumped/Drifted",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Lidia Rose",
+                        "handicapper_notes": "Front-runner who set the pace and finished 3rd behind #1 One Fine Wine over this turf sprint layout on June 20. Needs to contend with early speed outside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Pace",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "One Fine Wine",
+                    "rating": 93.0,
+                    "reason": "Draws the rail on the Monmouth turf where inside speed and ground-saving trips excel. Narrowly missed by a nose over this track and distance two back in AOC52k with a 74 speed fig, then posted a dominant wire-to-wire win on dirt. Edwin Gonzalez stays aboard. Top selection. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Eazy Whirled",
+                    "rating": 88.0,
+                    "reason": "Earned the highest turf speed rating in the field (92 speed fig) two back when 3rd in the Jersey Girl Stakes behind stakes runners. Sufferred a slow start last out at 1M. Cutback to 5.5F suits her closing kick if pace develops. | <i>\u26a0\ufe0f Off Slow Last Out \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Golden Ring",
+                    "rating": 85.0,
+                    "reason": "Ran a strong 3rd in AOC52k last out at 1M despite lacking room in the stretch, earning an 82 speed fig. Gets jockey switch to Francisco Martinez. Proven local turf contender who can make an impact late. | <i>\u26a0\ufe0f Blocked/Lacked Room \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Point To That Star",
+                    "rating": 84.0,
+                    "reason": "Decisive winner on Monmouth turf two back in MCL16k, then ran 3rd dead-heat in AOC52k at 1M. Drawn inside in post 3 with Luis Rivera Jr., allowing her to save ground on tight turns. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Air Masque",
+                    "rating": 82.0,
+                    "reason": "Proven Monmouth turf sprint winner, boasting a 4-length MSW win over this course. Possesses good tactical speed and ground-saving ability with Melissa Iorio. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "One Fine Wine",
+                    "rating": 93.0,
+                    "reason": "Draws the rail on the Monmouth turf where inside speed and ground-saving trips excel. Narrowly missed by a nose over this track and distance two back in AOC52k with a 74 speed fig, then posted a dominant wire-to-wire win on dirt. Edwin Gonzalez stays aboard. Top selection. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Eazy Whirled",
+                    "rating": 88.0,
+                    "reason": "Earned the highest turf speed rating in the field (92 speed fig) two back when 3rd in the Jersey Girl Stakes behind stakes runners. Sufferred a slow start last out at 1M. Cutback to 5.5F suits her closing kick if pace develops. | <i>\u26a0\ufe0f Off Slow Last Out \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Golden Ring",
+                    "rating": 85.0,
+                    "reason": "Ran a strong 3rd in AOC52k last out at 1M despite lacking room in the stretch, earning an 82 speed fig. Gets jockey switch to Francisco Martinez. Proven local turf contender who can make an impact late. | <i>\u26a0\ufe0f Blocked/Lacked Room \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Point To That Star",
+                    "rating": 84.0,
+                    "reason": "Decisive winner on Monmouth turf two back in MCL16k, then ran 3rd dead-heat in AOC52k at 1M. Drawn inside in post 3 with Luis Rivera Jr., allowing her to save ground on tight turns. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Air Masque",
+                    "rating": 82.0,
+                    "reason": "Proven Monmouth turf sprint winner, boasting a 4-length MSW win over this course. Possesses good tactical speed and ground-saving ability with Melissa Iorio. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Slick Merlin",
+                    "rating": 81.0,
+                    "reason": "Draws into the main body off the AE list following the scratch of #5. Stakes-placed on turf as a 2YO (2nd in Colleen S. with a 73 speed fig). Has dangerous early speed and Chantal Sutherland in the irons. | <i>\u26a0\ufe0f Bumped/Drifted \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Lidia Rose",
+                    "rating": 80.0,
+                    "reason": "Front-runner who set the pace and finished 3rd behind #1 One Fine Wine over this turf sprint layout on June 20. Needs to contend with early speed outside. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "11",
+                "name": "Slick Merlin",
+                "rating": 81.0,
+                "reason": "Draws into the main body off the AE list following the scratch of #5. Stakes-placed on turf as a 2YO (2nd in Colleen S. with a 73 speed fig). Has dangerous early speed and Chantal Sutherland in the irons. | <i>\u26a0\ufe0f Bumped/Drifted \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 One Fine Wine</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#8, #9, #11) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "1M 70Y Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1M 70Y Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta 4 / 1, 3; Trifecta 4 / 1, 3 / 1, 3, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Thorsness",
+                        "handicapper_notes": "Dominant New York shipper for 50 percent trainer Richard Dutrow Jr. Drops out of $20k NY claimers into a local $7.5k condition after a convincing front-running win at Aqueduct. Holds clear class and speed figure advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Tactical Presser",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Win Winnie Win",
+                        "handicapper_notes": "Benefits immensely from Monmouth Park's massive two-turn route inside rail bias from Post 1. Coming off an impressive 3-length wire-to-wire score over this track and distance on July 24.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Speed",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Son Of A Slew",
+                        "handicapper_notes": "Highly consistent local route performer drawn inside in Post 3. Battled gamely on the pace last start to lose by just a head. Strong early speed makes him the primary danger.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Awol",
+                        "handicapper_notes": "Ships in off a strong late-closing victory at Parx over 1M16M. Gains jockey Christopher Elliott and has the proven stamina to pass tired front-runners late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Late Closer",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Bean Machine",
+                        "handicapper_notes": "Hit the board in his last two Monmouth route attempts including a third behind Son Of A Slew. Dependable minor award contender for trainer Panagiotis Synnefias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack Stalker",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Duck Duck Goose",
+                        "handicapper_notes": "Possesses solid early speed and won over track and distance earlier in the meet, but wide Post 8 draw carries a severe negative post bias penalty in two-turn Monmouth routes.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 77,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Post Draw",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Thorsness",
+                    "rating": 92.0,
+                    "reason": "Dominant New York shipper for 50 percent trainer Richard Dutrow Jr. Drops out of $20k NY claimers into a local $7.5k condition after a convincing front-running win at Aqueduct. Holds clear class and speed figure advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Win Winnie Win",
+                    "rating": 87.0,
+                    "reason": "Benefits immensely from Monmouth Park's massive two-turn route inside rail bias from Post 1. Coming off an impressive 3-length wire-to-wire score over this track and distance on July 24."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Son Of A Slew",
+                    "rating": 85.0,
+                    "reason": "Highly consistent local route performer drawn inside in Post 3. Battled gamely on the pace last start to lose by just a head. Strong early speed makes him the primary danger."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Awol",
+                    "rating": 82.0,
+                    "reason": "Ships in off a strong late-closing victory at Parx over 1M16M. Gains jockey Christopher Elliott and has the proven stamina to pass tired front-runners late."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bean Machine",
+                    "rating": 80.0,
+                    "reason": "Hit the board in his last two Monmouth route attempts including a third behind Son Of A Slew. Dependable minor award contender for trainer Panagiotis Synnefias."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Thorsness",
+                    "rating": 92.0,
+                    "reason": "Dominant New York shipper for 50 percent trainer Richard Dutrow Jr. Drops out of $20k NY claimers into a local $7.5k condition after a convincing front-running win at Aqueduct. Holds clear class and speed figure advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Win Winnie Win",
+                    "rating": 87.0,
+                    "reason": "Benefits immensely from Monmouth Park's massive two-turn route inside rail bias from Post 1. Coming off an impressive 3-length wire-to-wire score over this track and distance on July 24."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Son Of A Slew",
+                    "rating": 85.0,
+                    "reason": "Highly consistent local route performer drawn inside in Post 3. Battled gamely on the pace last start to lose by just a head. Strong early speed makes him the primary danger."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Awol",
+                    "rating": 82.0,
+                    "reason": "Ships in off a strong late-closing victory at Parx over 1M16M. Gains jockey Christopher Elliott and has the proven stamina to pass tired front-runners late."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bean Machine",
+                    "rating": 80.0,
+                    "reason": "Hit the board in his last two Monmouth route attempts including a third behind Son Of A Slew. Dependable minor award contender for trainer Panagiotis Synnefias."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Duck Duck Goose",
+                    "rating": 77.0,
+                    "reason": "Possesses solid early speed and won over track and distance earlier in the meet, but wide Post 8 draw carries a severe negative post bias penalty in two-turn Monmouth routes. | <i>\u26a0\ufe0f Wide Post Draw</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Son Of A Slew",
+                "rating": 85.0,
+                "reason": "Highly consistent local route performer drawn inside in Post 3. Battled gamely on the pace last start to lose by just a head. Strong early speed makes him the primary danger."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Thorsness</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#1, #3) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R7 \u2794 R8):</b> Single <b>#1 One Fine Wine</b> in R7 & <b>#4 Thorsness</b> in R8 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#3, #8)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3, #8) with (#1 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#4 (Solo Lock))"
+    ]
+}
