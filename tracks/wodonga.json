@@ -1,16 +1,37 @@
 {
-    "location": "Wodonga, VIC",
-    "track_type": "Turf",
-    "direction": "Anti-Clockwise",
-    "straight_length": "250m",
-    "bias_notes": "A relatively tight circuit. Short straight.",
+    "track_code": "WODO",
+    "location": "Wodonga, Border Region VIC/NSW, Australia",
+    "nicknames": [
+        "Wodonga Racecourse",
+        "Picklebet Park",
+        "Wodonga & District Turf Club",
+        "Home of the Wodonga Gold Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,800 metres",
+            "surface": "Turf (Kikuyu grass on sandy loam base)",
+            "stretch_length": "230 metres",
+            "bias_notes": "Anti-clockwise (left-handed). A tight, circular country circuit set on the VIC/NSW border near Albury. The defining characteristic is its ultra-short 230m home straight — one of the shortest in Victorian country racing. The sandy loam base with Kikuyu grass drains exceptionally well, meaning the track typically runs to genuine Good 3–4 ratings even after significant rainfall. The tight circular design with sweeping bends creates a strong on-pace bias, rewarding horses that can settle just off the lead in the rail pocket.",
+            "post_bias": "WIDE DRAW PENALTY: Wide barrier draws (8+) are a notable disadvantage on this tight circular track — horses drawn wide must work hard across the short straight and three-wide on turns to find cover. Inside-to-mid draws (1-6) offer a clear positional advantage, particularly at sprint distances (1100m, 1200m). Deep closers from wide draws face a near-impossible task in races under 1400m."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Strong on-pace bias."
+        "ultra_short_230m_straight_pace_bias": "With only 230m of run-in, on-pace horses ('E' and 'P') hold a dominant advantage. Runners that can slot in the rail pocket behind the leader and produce a short, sharp finishing burst are the preferred prototype. Deeply-ridden closers ('C') win very rarely unless the pace scenario is suicidal.",
+        "wodonga_gold_cup_november_feature": "The Wodonga Gold Cup (BM70 level, November) is the track's major feature event. Quality elevates significantly for this meeting, drawing Albury-Wodonga border trainers and occasional Melbourne provincial shippers. Upgrade horses with border-track form (Albury, Corowa, Wangaratta) +2.5 pts.",
+        "albury_border_shipper_angle": "Wodonga draws heavily from the Albury-Wodonga border stable hub. Top local trainers (Wendy Kelly, Billy Owen, Michael Kent Jr.) dominate. Upgrade first-starters and proven locals over unfamiliar city shippers — local track knowledge and conditioning routine is a significant edge at Wodonga.",
+        "sandy_loam_drainage_advantage": "The sandy loam base means Wodonga rarely goes below Soft 7 even in heavy rain periods. Wet track specialists are less dominant here than at clay-based VIC country tracks. Treat any Soft 5-6 rating as effectively playable for all horse types.",
+        "typical_distances": "Standard program: 1100m, 1200m, 1400m, 1600m, 2050m. Rarely extends beyond 2100m."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 3.5 (VIC Country / Border Region)",
+        "class_rating": 84,
+        "speed_par_offsets": {
+            "turf_sprint": "-1.0",
+            "turf_route": "-0.5"
+        },
+        "lengths": 0.5,
+        "points": 1.5
     },
-    "region_group": "Australia_Thoroughbred_Victoria_Metropolitan"
+    "region_group": "Australia_Thoroughbred_Victoria"
 }

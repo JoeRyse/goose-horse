@@ -1,35 +1,38 @@
 {
     "track_code": "BATH",
-    "location": "Bathurst, Central West, NSW, Australia",
+    "location": "Bathurst (Tyers Park), Central Tablelands, NSW, Australia",
     "nicknames": [
-        "Tyers Park",
         "Bathurst Racecourse",
-        "Central West Racing Hub"
+        "Tyers Park Racecourse",
+        "Bathurst Turf Club",
+        "Home of the Bathurst Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,598 metres",
             "surface": "Turf",
             "stretch_length": "380 metres",
-            "bias_notes": "Clockwise. A symmetrical 1,598m country oval featuring a downhill run along the backstretch from the 1400m mark to the 800m turn, followed by a slight uphill rise into the 380m home straight. The downhill run encourages early speed, but the uphill finish acts as a stamina filter, giving patient stalkers ('P') and closers ('C') a fair opportunity.",
-            "post_bias": "In 1100m and 1200m sprint starts, inside-to-middle barriers (stalls 1-5) are preferred to secure a ground-saving trip before entering the sweeping home bend. Over 1400m and 1800m route distances, starting chute run-ups make the draw relatively fair."
+            "bias_notes": "Anti-clockwise (left-handed). Located at Tyers Park approximately 5km from Bathurst city centre in the Central Tablelands. The 1,598m oval is compact but features a defining undulation: a downhill slope on the back straight (from the 1400m mark down to the 800m mark), followed by a demanding uphill run through the entire 380m home straight. This unique topographic profile rewards stamina and lung capacity. Horses with a strong uphill action and proven staying ability hold a distinct advantage over flat-track galloping types. The 380m straight is generous enough to allow pressers and even off-pace swooping types to hit the line, making the track fairer than its compact circumference suggests.",
+            "post_bias": "BALANCED DRAW / UPHILL STAMINA FILTER: Inside draws mildly advantageous in sprints (1100-1200m). The dominant handicapping variable at Bathurst is the uphill straight — the stamina test overrides pure barrier luck beyond 1400m. Horses with proven form at undulating tracks (Orange, Mudgee, Canberra) are strongly preferred over flat-track specialists."
         }
     },
     "handicapping_angles": {
-        "downhill_backstretch_uphill_straight_filter": "The downhill run from the 1400m to 800m turn causes overly aggressive front-runners ('E') to burn early fuel. Look for patient pressers ('P') who can conserve energy before unleashing down the uphill 380m home stretch.",
-        "provincial_and_sydney_shipper_advantage": "Trainers shipping in from Sydney midweek or Provincial bases (Warwick Farm, Hawkesbury, Kembla Grange, Goulburn) carry a distinct speed and class advantage over local Central West country runners.",
-        "bathurst_cup_showcase_class_spike": "During the autumn Bathurst Cup Showcase meeting, fields feature high-grade regional and provincial opposition. Prioritize horses with proven metro/provincial speed figures over local country lines.",
-        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 60kg+ face a compounding penalty on the uphill home stretch (1kg = ~1 length). Grant a boost to fit, light-weighted runners receiving relief."
+        "uphill_home_straight_stamina_filter": "The uphill 380m run-in is the defining feature. Aggressively upgrade horses proven at undulating tracks (Orange, Mudgee, Canberra) and downgrade horses proven only on flat circuits (Rosehill, Randwick main track). Stayers and route-horse types ('P', 'S') sustain the uphill far better than sprint-specialist 'E' types who exhaust their fuel supply on the downhill back straight.",
+        "downhill_back_straight_tactics": "The 1400m to 800m downhill section encourages horses to roll forward. Front-runners that conserve energy rolling down the back straight, then lift again on the home hill, are the prototype winner. Watch for 'E' types that burn excessively early in races beyond 1200m — their downhill momentum converts to acid in the uphill finish.",
+        "bathurst_cup_february_feature": "The Bathurst Cup (BM70 level, February) and Soldiers Saddle (Anzac Day, April) are the two key feature events, elevating race quality to NSW Country Premier level. Attracts Orange, Dubbo, Mudgee and occasional Goulburn shippers. Upgrade horses with proven Central Tablelands track-and-distance form +3.0 pts.",
+        "central_tablelands_shipper_angle": "Bathurst draws from the Central Tablelands hub: Orange, Mudgee, Parkes, Forbes, Cowra, and Goulburn. Leading trainers include Damien Lane, Paul Shailer, and Chris Sutherland. City shippers (Sydney Metro) experiencing undulating tracks for the first time should be treated with caution — significant first-visit risk.",
+        "provincial_class_drop_bonus": "Warwick Farm, Hawkesbury and Kembla Grange shippers dropping into BM64-BM70 country class carry a strong class edge. Apply class_drop_bonus_applied=true when a horse drops from NSW Provincial BM78+ into Bathurst BM70 or below.",
+        "typical_distances": "Program covers 1100m, 1200m, 1400m, 1600m, up to 2000m. Chute starts at 1100m and 1400m provide fair run-ups at those distances."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (NSW Regional Country / Central West)",
+        "tier": "Tier 3 (NSW Central Tablelands Country)",
         "class_rating": 86,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
-            "turf_route": "0.0"
+            "turf_sprint": "-0.5",
+            "turf_route": "+0.0"
         },
-        "lengths": -0.5,
-        "points": -1.0
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

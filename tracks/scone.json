@@ -1,34 +1,51 @@
 {
     "track_code": "SCON",
-    "location": "Scone, Hunter Valley, NSW, Australia",
+    "location": "Scone, Upper Hunter Valley, NSW, Australia",
     "nicknames": [
-        "The Horse Capital of Australia",
+        "Scone Racecourse",
         "Scone Race Club",
-        "Hunter Valley Headquarters"
+        "Horse Capital of Australia",
+        "Home of the Scone Cup",
+        "Home of the Dark Jewel Classic"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,902 metres",
-            "surface": "Turf",
+            "surface": "Turf (premium high-quality maintained surface)",
             "stretch_length": "400 metres",
-            "bias_notes": "Clockwise. A premier 1,902m championship oval featuring sweeping turns, cambered bends, and a magnificent 400m home straight. Universally recognized as one of the fairest and highest-quality racing surfaces in regional Australia. Features dedicated starting chutes for 1100m, 1300m, and 1700m races. The wide track and long straight ensure all running styles receive a fair contest.",
-            "post_bias": "Generous starting chutes for 1100m and 1300m distances provide long runs before the first sweeping turn, significantly minimizing outer barrier penalties. In 900m scurry sprints, inside-to-middle draws (1-5) hold a slight advantage into the turn. In route events (1600m+), patient closers drawn mid-track find ample room to wind up around the bend."
+            "bias_notes": "Anti-clockwise (left-handed). Scone Racecourse is set in the Upper Hunter Valley — Australia's thoroughbred breeding capital. The 1,902m sweeping oval is 24 metres wide with beautifully cambered turns, a subtle 2.5m downhill slope along the back straight, and a long 400m home runway. This combination of wide track, sweeping bends, and generous straight creates one of the most equitable racing surfaces in Australia. There is almost no inherent track bias — results are almost entirely dictated by the pace scenario. Any running style (E, P, S, C) can prevail when the tempo suits. The surface is exceptionally maintained by the Scone Race Club given the prestige of the local breeding industry.",
+            "post_bias": "NEARLY BIAS-FREE: The 24m width and 400m straight effectively eliminate most draw advantages. Inside barriers hold only a very minor edge in short sprints (1000-1100m). At 1200m and beyond, barrier draws are essentially irrelevant — pace scenario and class form are the dominant factors."
+        },
+        "chute_1100m": {
+            "circumference": "N/A (chute start)",
+            "surface": "Turf",
+            "stretch_length": "750m run to home turn",
+            "bias_notes": "The 1100m chute provides a 750m straight run before the first home turn — making barrier draws completely irrelevant and suiting all running styles equally."
+        },
+        "chute_1700m": {
+            "circumference": "N/A (chute start)",
+            "surface": "Turf",
+            "stretch_length": "600m+ run to 900m turn",
+            "bias_notes": "The 1700m chute offers 600m+ before the first turn. Minimal barrier effect at this trip."
         }
     },
     "handicapping_angles": {
-        "hunter_valley_breeding_and_elite_stables": "Surrounded by Australia's world-famous breeding studs (Arrowfield, Coolmore, Godolphin), Scone houses elite local trainers like Paul Messara & Leah Gavranich, Brett Cavanough, and Scott Singleton. Heavily upgrade first-starters, 2YO/3YO well-bred trial winners, and Sydney metro drop-downs.",
-        "scone_cup_carnival_metro_class_translation": "During the iconic 2-day Standalone Scone Cup Carnival in May, racing quality matches Sydney Metropolitan Grade (Group 3 / Listed). Horses performing well here during the carnival should be treated as Metro-grade contenders.",
-        "fair_400m_home_straight": "Scone's wide layout and generous 400m home stretch prevent pure front-runner locks. Off-pace stalkers ('P') and strong-finishing closers ('Swoopers') with top late 400m/200m sectionals regularly run down exhausted early leaders.",
-        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 60kg+ face a strict penalty. Prioritize fit, well-weighted drop-downs or skilled claiming apprentices on top-rated runners."
+        "dark_jewel_classic_group3": "The Dark Jewel Classic (Group 3, 1300m, May) is the ONLY Group 3 race conducted by a country race club in all of NSW. This is Scone's signature prestige event. Apply full Tier 1 class analysis — this race attracts elite Sydney, Melbourne, and QLD mares/fillies from Ciaron Maher, Gai Waterhouse, Chris Waller and Godolphin stables.",
+        "scone_cup_listed_feature": "The Scone Cup (Listed, 1600m, May) is the two-day Scone Racing Carnival centrepiece. Top-tier trainers and horses contest this race, which serves both as a Sydney Autumn Carnival lead-up and a Winter Carnival opener. Apply Tier 1 class weighting for this race.",
+        "scone_guineas_three_year_olds": "The Scone Guineas (1600m, May) attracts elite classic three-year-olds from Sydney and beyond. Respect lightly-raced progressive types stepping up from Randwick or Rosehill 3YO class.",
+        "pace_scenario_dominant_factor": "Because the track is nearly bias-free, the pace scenario is the #1 handicapping variable at non-feature meetings. Identify lone speed ('E') runners — a single front-runner on this fair wide surface can dictate and win even against superior class if unchallenged through the bends.",
+        "horse_capital_local_advantage": "Horses trained in the Hunter Valley (Scone, Muswellbrook, Maitland) by local trainers (Kris Lees, Peter Snowden satellite, Brett Cavanough) maintain elite fitness through access to Scone's world-class track work facilities. Scone-based horses debut in superb condition. Respect local debut horses from elite studs (Arrowfield, Coolmore, Godolphin).",
+        "hunter_valley_breeding_quality": "Upper Hunter breeding produces naturally athletic, well-paced horses. At non-feature meetings, well-bred Hunter Valley first-starters and second-starters regularly outperform their odds against weaker out-of-town competition.",
+        "typical_distances": "Full program: 1000m, 1100m, 1200m, 1300m, 1400m, 1600m, 1700m, 2000m, 2200m. Dedicated chutes at 1100m and 1700m."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (NSW Premier Country / Hunter Headquarters)",
+        "tier": "Tier 2.5 (NSW Boutique Provincial / Country Premier)",
         "class_rating": 92,
         "speed_par_offsets": {
             "turf_sprint": "+0.5",
             "turf_route": "+1.0"
         },
-        "lengths": 1.5,
+        "lengths": 1.0,
         "points": 3.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
