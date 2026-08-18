@@ -1,0 +1,1599 @@
+{
+    "meta": {
+        "track": "Northam",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1000m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1000m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Brazen Butcher",
+                        "handicapper_notes": "Solid fifth at Belmont Park last start carrying 125lbs over 1000m. Drawn perfectly in barrier 1 with William Pike aboard. Rates highly on dry turf.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Slip The Jab",
+                        "handicapper_notes": "Resuming from a spell. Has a strong first-up record and previously won first-up over this distance. Major player under Chris Parnham.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "New Target",
+                        "handicapper_notes": "Eased back early and battled on steadily for fifth at Belmont Park Cl3 over 1000m. Well placed here to make an impact.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Sharpassa",
+                        "handicapper_notes": "Resuming. Finished last prep with a disappointing seventh at Ascot but has shown excellent fresh form in the past. Drawn well.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Bricini",
+                        "handicapper_notes": "Ran a strong second at this track over 1000m on a slow track last start. Needs to replicate that form on a firmer surface.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Brazen Butcher",
+                    "rating": 88.0,
+                    "reason": "Solid fifth at Belmont Park last start carrying 125lbs over 1000m. Drawn perfectly in barrier 1 with William Pike aboard. Rates highly on dry turf."
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "New Target",
+                    "rating": 82.0,
+                    "reason": "Eased back early and battled on steadily for fifth at Belmont Park Cl3 over 1000m. Well placed here to make an impact."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Sharpassa",
+                    "rating": 80.0,
+                    "reason": "Resuming. Finished last prep with a disappointing seventh at Ascot but has shown excellent fresh form in the past. Drawn well."
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Bricini",
+                    "rating": 72.0,
+                    "reason": "Ran a strong second at this track over 1000m on a slow track last start. Needs to replicate that form on a firmer surface."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "5",
+                "name": "Slip The Jab",
+                "rating": 84.0,
+                "reason": "Resuming from a spell. Has a strong first-up record and previously won first-up over this distance. Major player under Chris Parnham."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "1000m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1000m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Sniper's Son",
+                        "handicapper_notes": "Raced on the speed and boxed on steadily for sixth at Belmont Park last start. Won prior to that at this track and distance. Leading chance.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Paint It Red",
+                        "handicapper_notes": "Comes off a 43-day let-up. Struggled in the run home last start when eighth at Belmont Park. Capable of a much better performance.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Amarlime",
+                        "handicapper_notes": "Resuming. Finished off last campaign with a ninth at Ascot over 1200m. May need more time and distance to show best.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "Brave Wasp",
+                        "handicapper_notes": "Sixth at Belmont Park last start over 1200m. Will hit the line hard back to 1000m where his best form lies.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Hang Glider",
+                        "handicapper_notes": "Seventh at Pinjarra over 1200m last start. Forward showing expected with a drop back in distance.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Why She Stayed",
+                        "handicapper_notes": "Second-up. Disappointed first-up when last of eight at Belmont Park. Needs to improve significantly.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Something Royal",
+                        "handicapper_notes": "Led and faded to third at Belmont Park last start. Set the pace for second at this track prior. Serious winning hope.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Something Royal",
+                    "rating": 91.0,
+                    "reason": "Led and faded to third at Belmont Park last start. Set the pace for second at this track prior. Serious winning hope. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Sniper's Son",
+                    "rating": 86.0,
+                    "reason": "Raced on the speed and boxed on steadily for sixth at Belmont Park last start. Won prior to that at this track and distance. Leading chance."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Paint It Red",
+                    "rating": 78.0,
+                    "reason": "Comes off a 43-day let-up. Struggled in the run home last start when eighth at Belmont Park. Capable of a much better performance."
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Amarlime",
+                    "rating": 75.0,
+                    "reason": "Resuming. Finished off last campaign with a ninth at Ascot over 1200m. May need more time and distance to show best."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "6",
+                "name": "Brave Wasp",
+                "rating": 85.0,
+                "reason": "Sixth at Belmont Park last start over 1200m. Will hit the line hard back to 1000m where his best form lies."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1100m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1100m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "12",
+                        "horse_name": "Let's Go Jarpo",
+                        "handicapper_notes": "Second-up. Disappointed first-up when ninth at Belmont Park. Needs to show significant improvement to compete.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Espresso Time",
+                        "handicapper_notes": "Resuming after five months. Has placed first-up previously and expected to make a bright start to this campaign.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Two Up Boom",
+                        "handicapper_notes": "Third career start. Returned from a break with a strong finishing fourth at Belmont Park. Improver with winning prospects.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "3",
+                        "horse_name": "Finitto Web",
+                        "handicapper_notes": "Resuming after a 4.5-month break. Has struggled in previous starts and others rate much better here.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Super Sentai",
+                        "handicapper_notes": "Resuming after seven months. Finished last prep with a decent fifth at Ascot. Trialled well recently and expects a bold showing.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "11",
+                        "horse_name": "Costa Del Darlo",
+                        "handicapper_notes": "Resuming. Has struggled in previous campaigns and is unlikely to feature in this contest.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Joe Be Cool",
+                        "handicapper_notes": "Resuming after eight months. Finished last campaign with poor results. Prefer to see how he returns.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Chattahoochie",
+                        "handicapper_notes": "Resumes from a spell after only one career run when second at this track and distance. Among the main contenders.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "7",
+                        "horse_name": "Lady Enfield",
+                        "handicapper_notes": "Fourth at this track over 1000m last start. Needs to show more improvement to threaten.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "Magic Weaver",
+                        "handicapper_notes": "Resuming after a lengthy spell. Only one career run was poor. Looking to others.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "4",
+                        "horse_name": "Threespirit",
+                        "handicapper_notes": "First starter by Spiritjim. Trialled well when second at Lark Hill. Watch market.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "10",
+                        "horse_name": "Perfume Princess",
+                        "handicapper_notes": "Resuming after five months. Finished last prep in stakes grade. Excellent debut third at Ascot suggests big chance here.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Chattahoochie",
+                    "rating": 88.0,
+                    "reason": "Resumes from a spell after only one career run when second at this track and distance. Among the main contenders."
+                },
+                {
+                    "number": "12",
+                    "barrier": "10",
+                    "name": "Perfume Princess",
+                    "rating": 86.0,
+                    "reason": "Resuming after five months. Finished last prep in stakes grade. Excellent debut third at Ascot suggests big chance here."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Super Sentai",
+                    "rating": 80.0,
+                    "reason": "Resuming after seven months. Finished last prep with a decent fifth at Ascot. Trialled well recently and expects a bold showing."
+                },
+                {
+                    "number": "2",
+                    "barrier": "9",
+                    "name": "Espresso Time",
+                    "rating": 78.0,
+                    "reason": "Resuming after five months. Has placed first-up previously and expected to make a bright start to this campaign."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "6",
+                "name": "Two Up Boom",
+                "rating": 85.0,
+                "reason": "Third career start. Returned from a break with a strong finishing fourth at Belmont Park. Improver with winning prospects."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "1100m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1100m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Profound Benefit",
+                        "handicapper_notes": "Resuming. Finished off last campaign with a poor tenth at Bunbury. Looking to others.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "The Rocket",
+                        "handicapper_notes": "Resuming after five months. Has placed first-up previously and rates as a leading player in this field.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "8",
+                        "horse_name": "Bold Fight",
+                        "handicapper_notes": "Resumes after a five-month break. Has been in the money when fresh before. Worth keeping in mind.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "12",
+                        "horse_name": "Hellbent For Glory",
+                        "handicapper_notes": "Second-up. Ran a solid third first-up at this track over 1000m. Others have his measure but place chance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "10",
+                        "horse_name": "Delzee",
+                        "handicapper_notes": "Superb debut when second at this track over 1100m. Encouraging signs and another big run is highly likely.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Kingsley Town",
+                        "handicapper_notes": "Second-up. Disappointed first-up when ninth at this track. Must improve significantly.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "9",
+                        "horse_name": "Rock The Fox",
+                        "handicapper_notes": "Tenth at this track over 1100m last start. Cannot be ruled out entirely based on prior form.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Wembley Stadium",
+                        "handicapper_notes": "Third-up today. Faded badly to last at this track last start. Others preferred.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "13",
+                        "horse_name": "Alani Queen",
+                        "handicapper_notes": "Sixth at this track over 1000m last start. Needs to improve sharply to figure here.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "4",
+                        "horse_name": "Miss Bickmore",
+                        "handicapper_notes": "Had two career starts. Disappointed on wet track last start but capable of a strong showing on dry.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "6",
+                        "horse_name": "Kutenai (NZ)",
+                        "handicapper_notes": "Resuming. Only one career run was poor. Happy to risk.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "11",
+                        "horse_name": "Kute As Kan Be",
+                        "handicapper_notes": "Resuming after five months. Has placed fresh before and expects a bright start to this campaign.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "1",
+                        "horse_name": "Brilliant In Red",
+                        "handicapper_notes": "First starter by My Admiration. Won a trial over 1000m at Belmont Park recently. Expected to measure up.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "10",
+                    "name": "Delzee",
+                    "rating": 88.0,
+                    "reason": "Superb debut when second at this track over 1100m. Encouraging signs and another big run is highly likely."
+                },
+                {
+                    "number": "12",
+                    "barrier": "11",
+                    "name": "Kute As Kan Be",
+                    "rating": 84.0,
+                    "reason": "Resuming after five months. Has placed fresh before and expects a bright start to this campaign."
+                },
+                {
+                    "number": "4",
+                    "barrier": "12",
+                    "name": "Hellbent For Glory",
+                    "rating": 82.0,
+                    "reason": "Second-up. Ran a solid third first-up at this track over 1000m. Others have his measure but place chance."
+                },
+                {
+                    "number": "10",
+                    "barrier": "4",
+                    "name": "Miss Bickmore",
+                    "rating": 80.0,
+                    "reason": "Had two career starts. Disappointed on wet track last start but capable of a strong showing on dry."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "7",
+                "name": "The Rocket",
+                "rating": 86.0,
+                "reason": "Resuming after five months. Has placed first-up previously and rates as a leading player in this field."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1100m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1100m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Belaura Star",
+                        "handicapper_notes": "Resuming after 12 weeks. Finished off last prep with a second at this track. Won first-up last prep. Prepared to watch.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Flash Dancer",
+                        "handicapper_notes": "Third-up. Solid third at Belmont Park last start over 1200m. Fitter now and making headway. Will take beating.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "7",
+                        "horse_name": "Flying Frankie",
+                        "handicapper_notes": "Resuming from a spell. Has won first-up previously. Can get the job done if fully fit.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Great Promise",
+                        "handicapper_notes": "Racing well recently. Solid second at Belmont Park Cl1 last start. Promising effort and solid prospect.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "Earl It Is",
+                        "handicapper_notes": "Third-up today. Disappointed when sixth at Bunbury last start. Predicted to struggle.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Artie's Storm",
+                        "handicapper_notes": "Resuming after a six-month break. Finished last prep with a decent fifth at Cranbourne. Anticipate a bold showing.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Forever Elite",
+                        "handicapper_notes": "Comes off a 52-day let-up. Fourth at this track over 1300m last start. Won't be beating too many of these.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Flash Dancer",
+                    "rating": 88.0,
+                    "reason": "Third-up. Solid third at Belmont Park last start over 1200m. Fitter now and making headway. Will take beating."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Belaura Star",
+                    "rating": 85.0,
+                    "reason": "Resuming after 12 weeks. Finished off last prep with a second at this track. Won first-up last prep. Prepared to watch."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Artie's Storm",
+                    "rating": 80.0,
+                    "reason": "Resuming after a six-month break. Finished last prep with a decent fifth at Cranbourne. Anticipate a bold showing."
+                },
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Flying Frankie",
+                    "rating": 78.0,
+                    "reason": "Resuming from a spell. Has won first-up previously. Can get the job done if fully fit."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "5",
+                "name": "Great Promise",
+                "rating": 86.0,
+                "reason": "Racing well recently. Solid second at Belmont Park Cl1 last start. Promising effort and solid prospect."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1300m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1300m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Diamond Warrior",
+                        "handicapper_notes": "Sixth at this track over 1300m last start. Ran on strongly for third prior. Best form should see him measure right up.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pancho's Place",
+                        "handicapper_notes": "Second run back. Sixth at Bunbury over 1000m last start. Needs more time.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "8",
+                        "horse_name": "Fennec Storm",
+                        "handicapper_notes": "Tried to lead throughout but claimed late when second at this track over 1300m last start. Going well. Leading chance.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Phat Chaps",
+                        "handicapper_notes": "Second-up. Fourth at this track over 1300m last start. Among the leading chances.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "7",
+                        "horse_name": "Zero To Sixty",
+                        "handicapper_notes": "Eased back early and finished eighth at Pinjarra last start. Third at this track prior. Take on trust.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "11",
+                        "horse_name": "Badger Bob",
+                        "handicapper_notes": "Had two career starts. Solid third at this track over 1300m last start. Key chance likely to give a big sight.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Winlosewedrinkbooz",
+                        "handicapper_notes": "Resuming. Finished last campaign with a poor ninth at Pinjarra. May need the run.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Maurice's Princess",
+                        "handicapper_notes": "Ran a strong second at this track over 1300m last start. Not beaten far and worth including.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "5",
+                        "horse_name": "Summerchino",
+                        "handicapper_notes": "Seventh at Pinjarra over 1400m last start. Faded badly and not keen here.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "Celestial Boom",
+                        "handicapper_notes": "Resuming after a lengthy spell. Only one career run was poor but expected to run well here.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "10",
+                        "horse_name": "Forever Victorious",
+                        "handicapper_notes": "Back from a spell. Finished last campaign with poor results. Not good enough for these.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Gracious Rose",
+                        "handicapper_notes": "First starter by Grunt. Trialled twice prior to debut. Looks like she might need more time.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "Fennec Storm",
+                    "rating": 91.0,
+                    "reason": "Tried to lead throughout but claimed late when second at this track over 1300m last start. Going well. Leading chance. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "11",
+                    "name": "Badger Bob",
+                    "rating": 86.0,
+                    "reason": "Had two career starts. Solid third at this track over 1300m last start. Key chance likely to give a big sight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Diamond Warrior",
+                    "rating": 85.0,
+                    "reason": "Sixth at this track over 1300m last start. Ran on strongly for third prior. Best form should see him measure right up."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Maurice's Princess",
+                    "rating": 82.0,
+                    "reason": "Ran a strong second at this track over 1300m last start. Not beaten far and worth including."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "9",
+                "name": "Phat Chaps",
+                "rating": 84.0,
+                "reason": "Second-up. Fourth at this track over 1300m last start. Among the leading chances."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "1300m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1300m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Call Me Invincible",
+                        "handicapper_notes": "Fifth at Belmont Park last start on heavy track. Showed enough to suggest he can take this out.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Tag Time",
+                        "handicapper_notes": "Resuming after a 4.5-month break. Finished off last campaign with a decent fourth at Kilmore. Expected to play a major role.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Good Show",
+                        "handicapper_notes": "Third-up today. Disappointed when sixth at Bunbury last start. Facing a tough task today.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Flying Maradona",
+                        "handicapper_notes": "Resuming after a 4.5-month break. Finished off last prep with a fifth at Pinjarra. Look for a bold run.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "11",
+                        "horse_name": "Smiling War Bandit",
+                        "handicapper_notes": "Third-up today. Fifth at this track over 1300m last start. Strong winning hope.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Point Gibraltar",
+                        "handicapper_notes": "Resumes from a spell. Finished last campaign with poor results. May need the run.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Latorio",
+                        "handicapper_notes": "Second-up. Sixth at this track over 1100m last start. Expect a forward showing.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "12",
+                        "horse_name": "Tabba Tabba Boom",
+                        "handicapper_notes": "Second-up. Disappointed first-up when 11th at this track. Needs to do a lot more.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Ruthless Bloom",
+                        "handicapper_notes": "Second run back. Fourth at this track over 1300m last start. Strong winning chance.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Producimus",
+                        "handicapper_notes": "Third race start. Fifth at Pinjarra over 1400m last start. Needs to find extra to beat these.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "14",
+                        "horse_name": "Sophia's Kiss",
+                        "handicapper_notes": "Second-up. Sixth at Bunbury over 1200m last start. Unlikely to threaten.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "9",
+                        "horse_name": "Momotaro",
+                        "handicapper_notes": "Resuming after a four-month break. Has struggled in previous starts. Prefer to see how she returns.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Magic Blue Point",
+                        "handicapper_notes": "Disappointed on debut when seventh at Belmont Park on wet track. Cannot enthuse after that effort.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "6",
+                        "horse_name": "Winter Bloom",
+                        "handicapper_notes": "First starter by Frosted. Hasn't set the track alight with her trials. Watch market.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Call Me Invincible",
+                    "rating": 88.0,
+                    "reason": "Fifth at Belmont Park last start on heavy track. Showed enough to suggest he can take this out."
+                },
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Magic Blue Point",
+                    "rating": 85.0,
+                    "reason": "Disappointed on debut when seventh at Belmont Park on wet track. Cannot enthuse after that effort."
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Ruthless Bloom",
+                    "rating": 84.0,
+                    "reason": "Second run back. Fourth at this track over 1300m last start. Strong winning chance."
+                },
+                {
+                    "number": "5",
+                    "barrier": "11",
+                    "name": "Smiling War Bandit",
+                    "rating": 82.0,
+                    "reason": "Third-up today. Fifth at this track over 1300m last start. Strong winning hope."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "1",
+                "name": "Tag Time",
+                "rating": 86.0,
+                "reason": "Resuming after a 4.5-month break. Finished off last campaign with a decent fourth at Kilmore. Expected to play a major role."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "2200m Good4",
+            "surface": "Good4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "2200m Good4",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Duchees Demerit",
+                        "handicapper_notes": "Sixth at Belmont Park last start over 2200m. Likely to prove hard to hold out under these conditions.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Lyrical Angel",
+                        "handicapper_notes": "Third-up today. Disappointed when 12th at Belmont Park last start. This race is well within her grasp.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "15",
+                        "horse_name": "Prince Epaulette",
+                        "handicapper_notes": "11th at Belmont Park last start over 1600m. Genuine contender under these conditions.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "14",
+                        "horse_name": "Sweet Surrender",
+                        "handicapper_notes": "Third at this track over 2200m last start. Working up to a win. Worth following.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Age Of Grace",
+                        "handicapper_notes": "Third-up today. Won by 0.6 len at Kalgoorlie last start. A top-three finish would surprise here.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "On-pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "16",
+                        "horse_name": "Royal Trooper",
+                        "handicapper_notes": "Fourth at this track over 2200m last start. Not on recent form.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Wild Things",
+                        "handicapper_notes": "Eased back early and finished eighth at Belmont Park in stakes grade last start. Can do much better.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "More Heroic",
+                        "handicapper_notes": "Third at Bunbury last start over 1700m. Ready to win after a solid performance last time out.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "12",
+                        "horse_name": "Shaula",
+                        "handicapper_notes": "Seventh at Bunbury last start over 1700m. Others read better. This will test.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "7",
+                        "horse_name": "Warralea Lass",
+                        "handicapper_notes": "Third-up today. Disappointed when last at Pinjarra last start. Others look better placed.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Backmarker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "10",
+                        "horse_name": "Dandy's Gem",
+                        "handicapper_notes": "Sixth at Belmont Park last start over 1700m. Likely to play a big role here.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Flash Paddy",
+                        "handicapper_notes": "Sixth at this track over 2200m last start. Might just find this a bit too tough.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "5",
+                        "horse_name": "Electric Bec (NZ)",
+                        "handicapper_notes": "Seventh at Kalgoorlie last start over 1800m. Happy to risk.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "6",
+                        "horse_name": "Fioreyes",
+                        "handicapper_notes": "Fifth at this track over 2200m last start. Will need plenty of improvement to feature.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16",
+                        "barrier": "11",
+                        "horse_name": "Pecos",
+                        "handicapper_notes": "Eighth at Bunbury last start over 2000m. Others preferred at this stage.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Midfield",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "14",
+                    "name": "Sweet Surrender",
+                    "rating": 88.0,
+                    "reason": "Third at this track over 2200m last start. Working up to a win. Worth following."
+                },
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "More Heroic",
+                    "rating": 86.0,
+                    "reason": "Third at Bunbury last start over 1700m. Ready to win after a solid performance last time out."
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Duchees Demerit",
+                    "rating": 84.0,
+                    "reason": "Sixth at Belmont Park last start over 2200m. Likely to prove hard to hold out under these conditions."
+                },
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Wild Things",
+                    "rating": 82.0,
+                    "reason": "Eased back early and finished eighth at Belmont Park in stakes grade last start. Can do much better."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "15",
+                "name": "Prince Epaulette",
+                "rating": 85.0,
+                "reason": "11th at Belmont Park last start over 1600m. Genuine contender under these conditions."
+            }
+        }
+    ]
+}
