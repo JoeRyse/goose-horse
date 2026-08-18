@@ -2,10 +2,10 @@
     "track_code": "BRTS",
     "location": "Ballarat (Dowling Forest), Victoria, Australia",
     "nicknames": [
-        "The Polytrack",
-        "Sportsbet-Ballarat Synthetic",
+        "Ballarat Synthetic",
         "Dowling Forest Polytrack",
-        "Ballarat Synthetic"
+        "Sportsbet-Ballarat Synthetic",
+        "VRC Winter Synthetic HQ"
     ],
     "courses": {
         "polytrack": {
@@ -21,11 +21,13 @@
         "the_kickback_factor": "Synthetic surfaces generate noticeable kickback (flying wax/sand particles). Downgrade timid stalkers drawn inside who lack early speed and risk getting buried in the pack, as they often resent kickback and drop the bit.",
         "the_pakenham_translation": "Form translates exceptionally well between Pakenham Synthetic and Ballarat Synthetic. Both are spacious Victorian Polytracks. Upgrade horses shipping between these venues with strong underlying synthetic speed figures (+3.0 pts).",
         "winter_metro_class_drop": "During the Victorian winter (May–August), top Melbourne metropolitan stables (Maher, Price/Kent, Hayes, Moody/Coleman) send class-dropping Metro runners to Ballarat Synthetic. Heavily upgrade horses dropping out of Sandown, Caulfield, or Flemington company into provincial benchmark races.",
-        "long_straight_swooper_fairness": "Do not assume Ballarat Polytrack is an automatic 'leader-lock' course. The generous 400m home straight allows well-balanced closers to make up significant ground in the final 200 metres."
+        "long_straight_swooper_fairness": "Do not assume Ballarat Polytrack is an automatic 'leader-lock' course. The generous 400m home straight allows well-balanced closers to make up significant ground in the final 200 metres.",
+        "ballarat_turf_club_cross": "Ballarat hosts both synthetic (Dowling Forest) and turf (Sportsbet Park) meetings. Form from the turf course does NOT automatically transfer — always check if a horse has genuine synthetic form before rating. A turf win at Ballarat Sportsbet Park ≠ synthetic readiness.",
+        "typical_distances": "Standard synthetic program: 1000m, 1100m, 1200m, 1400m, 1600m, 1800m, 2000m. VRC winter schedule includes premium sprint and route races up to 2000m."
     },
     "par_adjustment": {
-        "tier": "Tier 3.5 (Premium Country Synthetic)",
-        "class_rating": 88,
+        "tier": "Tier 2 (VRC Metro-Standard Synthetic / Victorian Winter HQ)",
+        "class_rating": 91,
         "speed_par_offsets": {
             "synthetic_sprint": "+1.5",
             "synthetic_route": "+2.0"

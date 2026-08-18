@@ -1,37 +1,36 @@
 {
-    "Albury": {
-        "track_code": "ALB",
-        "location": "Albury, NSW, Australia",
-        "nicknames": [
-            "Albury Racecourse",
-            "Albury Racing Club",
-            "Home of the Albury Gold Cup"
-        ],
-        "courses": {
-            "main_turf": {
-                "circumference": "2,100 metres",
-                "surface": "Turf",
-                "stretch_length": "400 metres",
-                "bias_notes": "Clockwise. A spacious, championship-standard 2,100m country oval with broad sweeping turns and a generous 400m home straight. The wide layout and long run-in make it one of the fairest galloping surfaces in regional NSW, giving mid-pack stalkers ('P') and closing swoopers ('S') a genuine chance to wind up.",
-                "post_bias": "Barrier draws are generally fair across most route starts. In 1000m and 1175m sprint starts, inside-to-middle barriers (2-6) are slightly preferred to ensure a smooth position before entering the home bend."
-            }
+    "track_code": "ALB",
+    "location": "Albury, NSW/VIC Border Region, Australia",
+    "nicknames": [
+        "Albury Racecourse",
+        "Albury Racing Club",
+        "Home of the Albury Gold Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,100 metres",
+            "surface": "Turf",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise (right-handed). A spacious, championship-standard 2,100m oval set on the NSW/VIC border with broad sweeping turns and a generous 400m home straight. The wide layout and long run-in make it one of the fairest galloping surfaces in regional NSW — mid-pack stalkers ('P') and closing swooping types ('S') get a genuine chance to wind up and catch tired leaders. Not a pure front-runner's circuit.",
+            "post_bias": "BARRIER DRAWS LARGELY FAIR: At 1400m+ route distances, barrier draws are of minimal consequence. In 1000m and 1175m sprint starts, inside-to-middle barriers (2–6) are slightly preferred to secure a smooth position into the home bend."
+        }
+    },
+    "handicapping_angles": {
+        "border_form_cross_over": "Albury sits directly on the NSW/VIC border — always cross-reference Victorian country form (Wodonga, Wangaratta, Benalla, Bendigo) against local NSW form. Victorian country shippers dropping into NSW country benchmark company carry a proven class edge (+2.5 pts).",
+        "albury_gold_cup_carnival_class_spike": "The Albury Gold Cup Carnival (autumn, ~$150k Listed, 1600m–2000m) attracts major Sydney and Melbourne metropolitan stables (Ciaron Maher & David Eustace, Gai Waterhouse & Adrian Bott, Chris Waller). Heavily upgrade metropolitan shippers over local regional runners for feature races — apply Tier 1 class weighting.",
+        "fair_400m_straight_swooper_upgrade": "The broad 2,100m oval and 400m home straight mean closers get a full run-home. Do not hesitate to back strong-finishing 'S' and 'C' style horses with high late sectionals — leaders can be run down here.",
+        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark races (BM58-BM74), top weights carrying 60kg+ face a compounding penalty over the long home straight. Prioritize fit, well-weighted drop-downs or skilled apprentice claimers on top-rated runners.",
+        "typical_distances": "Standard program: 1000m, 1175m, 1400m, 1600m, 1800m, 2000m, 2100m. Full distance range available for the Gold Cup feature."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2.5 (NSW Premier Country / Border Region)",
+        "class_rating": 89,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
         },
-        "handicapping_angles": {
-            "border_form_cross_over": "Albury sits directly on the NSW/VIC border. Always cross-reference Victorian country form (Wodonga, Wangaratta, Benalla, Bendigo) against local NSW form. Victorian country shippers dropping into NSW country benchmark company carry a proven class edge.",
-            "albury_cup_class_spike": "During the autumn Albury Gold Cup Carnival (1500m / 2000m Listed), major Sydney and Melbourne metropolitan stables (Maher, Waterhouse/Bott, Waller) send high-class pattern horses to the border. Heavily upgrade metropolitan shippers over local regional runners.",
-            "fair_400m_straight_swooper_upgrade": "Albury's broad turns and 400m home straight prevent front-runners from locking up the race. Do not hesitate to back strong-finishing closers with high L400m speed ratings.",
-            "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark races (BM58-BM74), top weights carrying 60kg+ face a strict penalty over the 400m straight (1kg = ~1 length). In Listed feature events (Albury Cup), ignore minor weight spreads and prioritize peak class and rated form."
-        },
-        "par_adjustment": {
-            "tier": "Tier 2.5 (NSW Premier Country)",
-            "class_rating": 89,
-            "speed_par_offsets": {
-                "turf_sprint": "0.0",
-                "turf_route": "+0.5"
-            },
-            "lengths": 1.0,
-            "points": 2.5
-        },
-        "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
-    }
+        "lengths": 1.0,
+        "points": 2.5
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

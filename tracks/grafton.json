@@ -1,16 +1,39 @@
 {
-    "location": "Northern Rivers, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "400m",
-    "bias_notes": "July Carnival venue. Generally fair track.",
+    "track_code": "GRAF",
+    "location": "Grafton, Northern Rivers, NSW, Australia",
+    "nicknames": [
+        "Grafton Racecourse",
+        "Clarence River Jockey Club",
+        "The Randwick of the North",
+        "Home of the Grafton Cup",
+        "Home of the Ramornie Handicap"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,940 metres",
+            "surface": "Turf (one of the fastest-draining surfaces on the NSW North Coast)",
+            "stretch_length": "400 metres",
+            "bias_notes": "Clockwise (right-handed). A premier championship-standard 1,940m oval with approximately 25m track width, a beautifully cambered home bend, and a spacious 400m home straight. At nearly 2,000m in circumference with a wide, sweeping layout, Grafton is one of the most equitable racing surfaces in regional NSW. The fast-draining base (predominantly sandy loam) means the track rarely deteriorates past Soft 7 even during sustained Northern Rivers rainfall. The wide bends and long straight give off-pace swooping types ('S') and pressers ('P') a genuine run-home opportunity — this is NOT a pure front-runner's track.",
+            "post_bias": "LARGELY BIAS-FREE ON OPEN GROUND: The 25m width and 400m straight neutralize most barrier advantages at route distances (1400m+). Inside barriers (1-4) retain a mild edge in 1000m and 1200m sprints. At 1600m and beyond, draws are largely irrelevant — race tempo and class form dominate."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Fair, but watch rail placement."
+        "grafton_july_carnival_listed_class": "The Grafton July Racing Carnival is one of Australia's premier country racing events. Key races: Listed Grafton Cup (2350m, ~$150k+) and Listed Ramornie Handicap (1200m, ~$160k+). Apply full Tier 1 class analysis for these two races — they attract elite Sydney Metro (Waller, Waterhouse/Bott, Maher) and QLD stables. Upgrade provincial-class form significantly.",
+        "ramornie_handicap_sprint_specialist": "The Ramornie Handicap (1200m Listed) is a highly competitive sprint attracting Tier 1 sprinting talent. Upgrade horses with sub-70 second 1200m speed figures from Randwick or Flemington. The fast-draining surface rewards straight-forward sprint types who can sustain sectionals.",
+        "grafton_cup_staying_angle": "The Grafton Cup (2350m Listed) is a critical staying test. Upgrade genuine stayers with 2000m+ metro form (Randwick, Flemington, Sandown). Beware of milers masquerading as stayers — the 1940m oval at full trip is a thorough stamina test.",
+        "northern_rivers_local_form_cross": "Grafton draws from the Northern Rivers region (Lismore, Casino, Murwillumbah, Coffs Harbour). At non-Carnival meetings, local trainer knowledge (Fred Kersley, Dean Mirfin, Mick Rollinson) provides strong edges over travelled metro horses. Upgrade in-form locals at BM58-BM70 level.",
+        "fast_draining_wet_track_caution": "Despite northern coastal location, Grafton's fast-draining sandy loam base means Heavy ratings are short-lived. Do NOT overrate wet-track specialists — the track often recovers quickly between the morning and afternoon. Always check morning vs afternoon track rating for late-shifting meetings.",
+        "typical_distances": "Regular program: 1000m, 1200m, 1400m, 1600m, 1800m, 2000m, 2350m. July Carnival extends to full stayer distances."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 2.5 (NSW Premier Country / Carnival Listed Venue)",
+        "class_rating": 91,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
+        },
+        "lengths": 1.0,
+        "points": 2.5
     },
-    "region_group": "Australia_Thoroughbred_New_South_Wales_Provincial"
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

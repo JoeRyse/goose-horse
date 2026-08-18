@@ -1,37 +1,35 @@
 {
-    "Balaklava": {
-        "track_code": "BALA",
-        "location": "Balaklava, SA, Australia",
-        "nicknames": [
-            "The Long Straight Track",
-            "Home of the Balaklava Cup"
-        ],
-        "courses": {
-            "main_turf": {
-                "circumference": "2,053 metres",
-                "surface": "Turf",
-                "stretch_length": "453 metres",
-                "bias_notes": "Anti-clockwise. A spacious 2,053m oval featuring sweeping cambered turns and the longest home straight in South Australia (453 metres). The broad sweeps and long run-in make this one of the fairest tracks in Australia, heavily favoring strong-finishing stalkers ('P') and deep closers ('Swoopers'). One-dimensional front-runners often tire over the grueling 453m stretch.",
-                "post_bias": "In 1000m and 1050m sprint chute starts, middle-to-outside draws (4-8) fare very well as jockeys have plenty of straight running room before entering the cambered turn. In 1400m and 1600m chute starts, inside-to-middle barriers (2-6) are preferred to save ground along the back straight."
-            }
+    "track_code": "BALA",
+    "location": "Balaklava, SA, Australia",
+    "nicknames": [
+        "The Long Straight Track",
+        "Home of the Balaklava Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "2,053 metres",
+            "surface": "Turf",
+            "stretch_length": "453 metres",
+            "bias_notes": "Anti-clockwise (left-handed). A spacious 2,053m oval featuring sweeping cambered turns and the longest home straight in South Australia (453 metres). The broad sweeps and long run-in make this one of the fairest tracks in Australia, heavily favoring strong-finishing stalkers ('P') and deep closers ('Swoopers'). One-dimensional front-runners often tire over the grueling 453m stretch.",
+            "post_bias": "In 1000m and 1050m sprint chute starts, middle-to-outside draws (4-8) fare very well as jockeys have plenty of straight running room before entering the cambered turn. In 1400m and 1600m chute starts, inside-to-middle barriers (2-6) are preferred to save ground along the back straight."
+        }
+    },
+    "handicapping_angles": {
+        "longest_sa_straight_swooper_upgrade": "With a 453m home straight, waiting until the final furlong to make a challenge is completely viable. Aggressively upgrade horses with proven L400m/L200m closing speed ratings ('S' / 'Swoopers') and downgrade weak leaders that lack genuine distance stamina.",
+        "adelaide_metro_shipper_class_spike": "Top Adelaide metropolitan stables (Jolly, Stokes, Clarken/O'Shea, Hickmott) regularly target Balaklava for high-value maidens and benchmark handicaps. Heavily upgrade horses dropping out of Saturday Morphettville or Parks company into local provincial classes.",
+        "balaklava_cup_interstate_raid": "During the September Balaklava Cup meeting, high-class Victorian pattern runners invade SA. Local provincial form lines must be heavily downgraded against Tier 1 Melbourne metropolitan shippers.",
+        "long_1050m_chute_fairness": "Do not automatically toss wide-drawn sprinters in 1000m or 1050m events. The long chute gives jockeys ample time to find cover or build rhythm before hitting the sweeping home turn.",
+        "sa_benchmark_weight_penalty": "In SA Provincial Benchmark races (BM54-BM72), top-weight runners carrying 59.5kg+ face a strict penalty over the 453m straight (1kg = ~1 length). In Listed feature events (Balaklava Cup), ignore minor weight spreads and prioritize peak class and rated form."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (SA Premier Provincial)",
+        "class_rating": 92,
+        "speed_par_offsets": {
+            "turf_sprint": "0.0",
+            "turf_route": "+0.5"
         },
-        "handicapping_angles": {
-            "longest_sa_straight_swooper_upgrade": "With a 453m home straight, waiting until the final furlong to make a challenge is completely viable. Aggressively upgrade horses with proven L400m/L200m closing speed ratings ('S' / 'Swoopers') and downgrade weak leaders that lack genuine distance stamina.",
-            "adelaide_metro_shipper_class_spike": "Top Adelaide metropolitan stables (Jolly, Stokes, Clarken/O'Shea, Hickmott) regularly target Balaklava for high-value maidens and benchmark handicaps. Heavily upgrade horses dropping out of Saturday Morphettville or Parks company into local provincial classes.",
-            "balaklava_cup_interstate_raid": "During the September Balaklava Cup meeting, high-class Victorian pattern runners invade SA. Local provincial form lines must be heavily downgraded against Tier 1 Melbourne metropolitan shippers.",
-            "long_1050m_chute_fairness": "Do not automatically toss wide-drawn sprinters in 1000m or 1050m events. The long chute gives jockeys ample time to find cover or build rhythm before hitting the sweeping home turn.",
-            "sa_benchmark_weight_penalty": "In SA Provincial Benchmark races (BM54-BM72), top-weight runners carrying 59.5kg+ face a strict penalty over the 453m straight (1kg = ~1 length). In Listed feature events (Balaklava Cup), ignore minor weight spreads and prioritize peak class and rated form."
-        },
-        "par_adjustment": {
-            "tier": "Tier 2 (SA Premier Provincial)",
-            "class_rating": 92,
-            "speed_par_offsets": {
-                "turf_sprint": "0.0",
-                "turf_route": "+0.5"
-            },
-            "lengths": 1.0,
-            "points": 3.0
-        },
-        "region_group": "Australia_Thoroughbred"
-    }
+        "lengths": 1.0,
+        "points": 3.0
+    },
+    "region_group": "Australia_Thoroughbred_South_Australia"
 }
