@@ -2,6 +2,18 @@
     "status":  "success",
     "meetings":  [
                      {
+                         "id":  "Sandown_2026-08-21",
+                         "filename":  "Sandown_2026-08-21.json",
+                         "track":  "Sandown",
+                         "date":  "2026-08-21",
+                         "race_count":  9,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  5,
+                         "region":  "AUS",
+                         "is_published":  true,
+                         "last_modified":  639229617219923183
+                     },
+                     {
                          "id":  "Royal_Randwick_2026-08-21",
                          "filename":  "Royal_Randwick_2026-08-21.json",
                          "track":  "Royal Randwick",
@@ -14,16 +26,16 @@
                          "last_modified":  639229620133032969
                      },
                      {
-                         "id":  "Sandown_2026-08-21",
-                         "filename":  "Sandown_2026-08-21.json",
-                         "track":  "Sandown",
+                         "id":  "Belmont_2026-08-21",
+                         "filename":  "Belmont_2026-08-21.json",
+                         "track":  "Belmont",
                          "date":  "2026-08-21",
-                         "race_count":  9,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  5,
+                         "race_count":  8,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
                          "region":  "AUS",
                          "is_published":  true,
-                         "last_modified":  639229617219923183
+                         "last_modified":  639229679862394253
                      },
                      {
                          "id":  "Newcastle_2026-08-21",
@@ -86,18 +98,6 @@
                          "last_modified":  639228637079824682
                      },
                      {
-                         "id":  "Saratoga_2026-08-20",
-                         "filename":  "Saratoga_2026-08-20.json",
-                         "track":  "Saratoga",
-                         "date":  "2026-08-20",
-                         "race_count":  8,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639228367225667945
-                     },
-                     {
                          "id":  "Busan_2026-08-20",
                          "filename":  "Busan_2026-08-20.json",
                          "track":  "Busan",
@@ -110,6 +110,18 @@
                          "last_modified":  639228792064000636
                      },
                      {
+                         "id":  "Saratoga_2026-08-20",
+                         "filename":  "Saratoga_2026-08-20.json",
+                         "track":  "Saratoga",
+                         "date":  "2026-08-20",
+                         "race_count":  8,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639228367225667945
+                     },
+                     {
                          "id":  "Kawasaki_2026-08-20",
                          "filename":  "Kawasaki_2026-08-20.json",
                          "track":  "Kawasaki",
@@ -120,6 +132,18 @@
                          "region":  "ASIA",
                          "is_published":  false,
                          "last_modified":  639228081134149367
+                     },
+                     {
+                         "id":  "Mombetsu_2026-08-19",
+                         "filename":  "Mombetsu_2026-08-19.json",
+                         "track":  "Mombetsu",
+                         "date":  "2026-08-19",
+                         "race_count":  12,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  8,
+                         "region":  "ASIA",
+                         "is_published":  false,
+                         "last_modified":  639227166814814920
                      },
                      {
                          "id":  "Kawasaki_2026-08-19",
@@ -146,30 +170,6 @@
                          "last_modified":  639227157681505694
                      },
                      {
-                         "id":  "Mombetsu_2026-08-19",
-                         "filename":  "Mombetsu_2026-08-19.json",
-                         "track":  "Mombetsu",
-                         "date":  "2026-08-19",
-                         "race_count":  12,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  8,
-                         "region":  "ASIA",
-                         "is_published":  false,
-                         "last_modified":  639227166814814920
-                     },
-                     {
-                         "id":  "Parx_Racing_2026-08-18",
-                         "filename":  "Parx_Racing_2026-08-18.json",
-                         "track":  "Parx Racing",
-                         "date":  "2026-08-18",
-                         "race_count":  9,
-                         "solo_locks_count":  6,
-                         "best_bets_count":  0,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639226684076125207
-                     },
-                     {
                          "id":  "Finger_Lakes_2026-08-18",
                          "filename":  "Finger_Lakes_2026-08-18.json",
                          "track":  "Finger Lakes",
@@ -194,40 +194,16 @@
                          "last_modified":  639226672553707008
                      },
                      {
-                         "id":  "Ballarat_Synthetic_2026-08-17",
-                         "filename":  "Ballarat_Synthetic_2026-08-17.json",
-                         "track":  "Ballarat Synthetic",
-                         "date":  "2026-08-17",
-                         "race_count":  7,
-                         "solo_locks_count":  0,
-                         "best_bets_count":  4,
+                         "id":  "Parx_Racing_2026-08-18",
+                         "filename":  "Parx_Racing_2026-08-18.json",
+                         "track":  "Parx Racing",
+                         "date":  "2026-08-18",
+                         "race_count":  9,
+                         "solo_locks_count":  6,
+                         "best_bets_count":  0,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639226182548308413
-                     },
-                     {
-                         "id":  "Albury_2026-08-17",
-                         "filename":  "Albury_2026-08-17.json",
-                         "track":  "Albury",
-                         "date":  "2026-08-17",
-                         "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639226178770911422
-                     },
-                     {
-                         "id":  "Grafton_2026-08-17",
-                         "filename":  "Grafton_2026-08-17.json",
-                         "track":  "Grafton",
-                         "date":  "2026-08-17",
-                         "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639226184134727645
+                         "last_modified":  639226684076125207
                      },
                      {
                          "id":  "Townsville_2026-08-17",
@@ -242,6 +218,42 @@
                          "last_modified":  639226185753527745
                      },
                      {
+                         "id":  "Albury_2026-08-17",
+                         "filename":  "Albury_2026-08-17.json",
+                         "track":  "Albury",
+                         "date":  "2026-08-17",
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639226178770911422
+                     },
+                     {
+                         "id":  "Ballarat_Synthetic_2026-08-17",
+                         "filename":  "Ballarat_Synthetic_2026-08-17.json",
+                         "track":  "Ballarat Synthetic",
+                         "date":  "2026-08-17",
+                         "race_count":  7,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  4,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639226182548308413
+                     },
+                     {
+                         "id":  "Grafton_2026-08-17",
+                         "filename":  "Grafton_2026-08-17.json",
+                         "track":  "Grafton",
+                         "date":  "2026-08-17",
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639226184134727645
+                     },
+                     {
                          "id":  "Bathurst_2026-08-16",
                          "filename":  "Bathurst_2026-08-16.json",
                          "track":  "Bathurst",
@@ -254,16 +266,16 @@
                          "last_modified":  639225277383207477
                      },
                      {
-                         "id":  "Scone_2026-08-16",
-                         "filename":  "Scone_2026-08-16.json",
-                         "track":  "Scone",
+                         "id":  "Saratoga_2026-08-16",
+                         "filename":  "Saratoga_2026-08-16.json",
+                         "track":  "Saratoga",
                          "date":  "2026-08-16",
-                         "race_count":  7,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
+                         "race_count":  10,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  5,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639225280840619898
+                         "last_modified":  639224926020049463
                      },
                      {
                          "id":  "Wodonga_2026-08-16",
@@ -278,16 +290,16 @@
                          "last_modified":  639225279034910434
                      },
                      {
-                         "id":  "Saratoga_2026-08-16",
-                         "filename":  "Saratoga_2026-08-16.json",
-                         "track":  "Saratoga",
+                         "id":  "Scone_2026-08-16",
+                         "filename":  "Scone_2026-08-16.json",
+                         "track":  "Scone",
                          "date":  "2026-08-16",
-                         "race_count":  10,
-                         "solo_locks_count":  0,
-                         "best_bets_count":  5,
-                         "region":  "USA",
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639224926020049463
+                         "last_modified":  639225280840619898
                      },
                      {
                          "id":  "Emerald_2026-08-16",
@@ -326,28 +338,16 @@
                          "last_modified":  639223648036640308
                      },
                      {
-                         "id":  "Doomben_2026-08-14",
-                         "filename":  "Doomben_2026-08-14.json",
-                         "track":  "Doomben",
+                         "id":  "Saratoga_2026-08-14",
+                         "filename":  "Saratoga_2026-08-14.json",
+                         "track":  "Saratoga",
                          "date":  "2026-08-14",
-                         "race_count":  9,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  8,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639223613487262100
-                     },
-                     {
-                         "id":  "Del_Mar_2026-08-14",
-                         "filename":  "Del_Mar_2026-08-14.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-14",
-                         "race_count":  8,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  1,
+                         "race_count":  10,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  2,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639223345215975094
+                         "last_modified":  639223202383604519
                      },
                      {
                          "id":  "Caulfield_2026-08-14",
@@ -386,6 +386,30 @@
                          "last_modified":  639223621550428503
                      },
                      {
+                         "id":  "Doomben_2026-08-14",
+                         "filename":  "Doomben_2026-08-14.json",
+                         "track":  "Doomben",
+                         "date":  "2026-08-14",
+                         "race_count":  9,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  8,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639223613487262100
+                     },
+                     {
+                         "id":  "Del_Mar_2026-08-14",
+                         "filename":  "Del_Mar_2026-08-14.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-08-14",
+                         "race_count":  8,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  1,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639223345215975094
+                     },
+                     {
                          "id":  "Rosehill_2026-08-14",
                          "filename":  "Rosehill_2026-08-14.json",
                          "track":  "Rosehill",
@@ -396,66 +420,6 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639223619044861270
-                     },
-                     {
-                         "id":  "Saratoga_2026-08-14",
-                         "filename":  "Saratoga_2026-08-14.json",
-                         "track":  "Saratoga",
-                         "date":  "2026-08-14",
-                         "race_count":  10,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639223202383604519
-                     },
-                     {
-                         "id":  "Gunnedah_2026-08-13",
-                         "filename":  "Gunnedah_2026-08-13.json",
-                         "track":  "Gunnedah",
-                         "date":  "2026-08-13",
-                         "race_count":  8,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639222714241730136
-                     },
-                     {
-                         "id":  "Geelong_2026-08-13",
-                         "filename":  "Geelong_2026-08-13.json",
-                         "track":  "Geelong",
-                         "date":  "2026-08-13",
-                         "race_count":  8,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639222718507533585
-                     },
-                     {
-                         "id":  "Ipswich_2026-08-13",
-                         "filename":  "Ipswich_2026-08-13.json",
-                         "track":  "Ipswich",
-                         "date":  "2026-08-13",
-                         "race_count":  7,
-                         "solo_locks_count":  0,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639222716654618141
-                     },
-                     {
-                         "id":  "Taree_2026-08-13",
-                         "filename":  "Taree_2026-08-13.json",
-                         "track":  "Taree",
-                         "date":  "2026-08-13",
-                         "race_count":  8,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  2,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639222711272279633
                      },
                      {
                          "id":  "Del_Mar_2026-08-13",
@@ -470,6 +434,18 @@
                          "last_modified":  639222481888414561
                      },
                      {
+                         "id":  "Geelong_2026-08-13",
+                         "filename":  "Geelong_2026-08-13.json",
+                         "track":  "Geelong",
+                         "date":  "2026-08-13",
+                         "race_count":  8,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639222718507533585
+                     },
+                     {
                          "id":  "Saratoga_2026-08-13",
                          "filename":  "Saratoga_2026-08-13.json",
                          "track":  "Saratoga",
@@ -480,6 +456,18 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639222351447544928
+                     },
+                     {
+                         "id":  "Ipswich_2026-08-13",
+                         "filename":  "Ipswich_2026-08-13.json",
+                         "track":  "Ipswich",
+                         "date":  "2026-08-13",
+                         "race_count":  7,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639222716654618141
                      },
                      {
                          "id":  "Busan_2026-08-13",
@@ -494,16 +482,40 @@
                          "last_modified":  639222769397038086
                      },
                      {
-                         "id":  "Moe_2026-08-12",
-                         "filename":  "Moe_2026-08-12.json",
-                         "track":  "Moe",
+                         "id":  "Taree_2026-08-13",
+                         "filename":  "Taree_2026-08-13.json",
+                         "track":  "Taree",
+                         "date":  "2026-08-13",
+                         "race_count":  8,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  2,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639222711272279633
+                     },
+                     {
+                         "id":  "Gunnedah_2026-08-13",
+                         "filename":  "Gunnedah_2026-08-13.json",
+                         "track":  "Gunnedah",
+                         "date":  "2026-08-13",
+                         "race_count":  8,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639222714241730136
+                     },
+                     {
+                         "id":  "Newcastle_2026-08-12",
+                         "filename":  "Newcastle_2026-08-12.json",
+                         "track":  "Newcastle",
                          "date":  "2026-08-12",
                          "race_count":  8,
                          "solo_locks_count":  4,
                          "best_bets_count":  3,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639221865575257913
+                         "last_modified":  639221869793331288
                      },
                      {
                          "id":  "Pinjarra_Scarpside_2026-08-12",
@@ -530,16 +542,16 @@
                          "last_modified":  639221873903211692
                      },
                      {
-                         "id":  "Newcastle_2026-08-12",
-                         "filename":  "Newcastle_2026-08-12.json",
-                         "track":  "Newcastle",
+                         "id":  "Moe_2026-08-12",
+                         "filename":  "Moe_2026-08-12.json",
+                         "track":  "Moe",
                          "date":  "2026-08-12",
                          "race_count":  8,
                          "solo_locks_count":  4,
                          "best_bets_count":  3,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639221869793331288
+                         "last_modified":  639221865575257913
                      },
                      {
                          "id":  "Bunbury_2026-08-12",
@@ -554,28 +566,16 @@
                          "last_modified":  639221876352528129
                      },
                      {
-                         "id":  "Canterbury_2026-08-11",
-                         "filename":  "Canterbury_2026-08-11.json",
-                         "track":  "Canterbury",
-                         "date":  "2026-08-11",
-                         "race_count":  7,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639221017638235552
-                     },
-                     {
-                         "id":  "Eagle_Farm_2026-08-11",
-                         "filename":  "Eagle_Farm_2026-08-11.json",
-                         "track":  "Eagle Farm",
+                         "id":  "Bendigo_2026-08-11",
+                         "filename":  "Bendigo_2026-08-11.json",
+                         "track":  "Bendigo",
                          "date":  "2026-08-11",
                          "race_count":  8,
-                         "solo_locks_count":  6,
-                         "best_bets_count":  2,
-                         "region":  "AUS",
+                         "solo_locks_count":  4,
+                         "best_bets_count":  1,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639220996590605624
+                         "last_modified":  639221002288669324
                      },
                      {
                          "id":  "Murray_Bridge_2026-08-11",
@@ -602,16 +602,52 @@
                          "last_modified":  639221025938781384
                      },
                      {
-                         "id":  "Bendigo_2026-08-11",
-                         "filename":  "Bendigo_2026-08-11.json",
-                         "track":  "Bendigo",
+                         "id":  "Canterbury_2026-08-11",
+                         "filename":  "Canterbury_2026-08-11.json",
+                         "track":  "Canterbury",
                          "date":  "2026-08-11",
-                         "race_count":  8,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  1,
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639221002288669324
+                         "last_modified":  639221017638235552
+                     },
+                     {
+                         "id":  "Eagle_Farm_2026-08-11",
+                         "filename":  "Eagle_Farm_2026-08-11.json",
+                         "track":  "Eagle Farm",
+                         "date":  "2026-08-11",
+                         "race_count":  8,
+                         "solo_locks_count":  6,
+                         "best_bets_count":  2,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639220996590605624
+                     },
+                     {
+                         "id":  "Dubbo_2026-08-09",
+                         "filename":  "Dubbo_2026-08-09.json",
+                         "track":  "Dubbo",
+                         "date":  "2026-08-09",
+                         "race_count":  7,
+                         "solo_locks_count":  5,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639219279124757987
+                     },
+                     {
+                         "id":  "Saratoga_2026-08-09",
+                         "filename":  "Saratoga_2026-08-09.json",
+                         "track":  "Saratoga",
+                         "date":  "2026-08-09",
+                         "race_count":  11,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639218883894989177
                      },
                      {
                          "id":  "Pakenham_Synthetic_2026-08-09",
@@ -638,16 +674,16 @@
                          "last_modified":  639219291208775519
                      },
                      {
-                         "id":  "Saratoga_2026-08-09",
-                         "filename":  "Saratoga_2026-08-09.json",
-                         "track":  "Saratoga",
+                         "id":  "Del_Mar_2026-08-09",
+                         "filename":  "Del_Mar_2026-08-09.json",
+                         "track":  "Del Mar",
                          "date":  "2026-08-09",
-                         "race_count":  11,
-                         "solo_locks_count":  0,
-                         "best_bets_count":  3,
+                         "race_count":  9,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  0,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639218883894989177
+                         "last_modified":  639219059913868848
                      },
                      {
                          "id":  "Nowra_2026-08-09",
@@ -662,28 +698,16 @@
                          "last_modified":  639219282278821014
                      },
                      {
-                         "id":  "Dubbo_2026-08-09",
-                         "filename":  "Dubbo_2026-08-09.json",
-                         "track":  "Dubbo",
-                         "date":  "2026-08-09",
+                         "id":  "Casterton_2026-08-08",
+                         "filename":  "Casterton_2026-08-08.json",
+                         "track":  "Casterton",
+                         "date":  "2026-08-08",
                          "race_count":  7,
-                         "solo_locks_count":  5,
-                         "best_bets_count":  2,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  4,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639219279124757987
-                     },
-                     {
-                         "id":  "Del_Mar_2026-08-09",
-                         "filename":  "Del_Mar_2026-08-09.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-09",
-                         "race_count":  9,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  0,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639219059913868848
+                         "last_modified":  639218362065919067
                      },
                      {
                          "id":  "Saratoga_2026-08-08",
@@ -698,16 +722,16 @@
                          "last_modified":  639218064556542212
                      },
                      {
-                         "id":  "Sunshine_Coast_2026-08-08",
-                         "filename":  "Sunshine_Coast_2026-08-08.json",
-                         "track":  "Sunshine Coast",
+                         "id":  "Wagga_2026-08-08",
+                         "filename":  "Wagga_2026-08-08.json",
+                         "track":  "Wagga",
                          "date":  "2026-08-08",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  2,
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639218373977633208
+                         "last_modified":  639218359990788850
                      },
                      {
                          "id":  "Ballarat_Synthetic_2026-08-08",
@@ -734,40 +758,64 @@
                          "last_modified":  639218357390609108
                      },
                      {
-                         "id":  "Wagga_2026-08-08",
-                         "filename":  "Wagga_2026-08-08.json",
-                         "track":  "Wagga",
+                         "id":  "Sunshine_Coast_2026-08-08",
+                         "filename":  "Sunshine_Coast_2026-08-08.json",
+                         "track":  "Sunshine Coast",
                          "date":  "2026-08-08",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  3,
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  2,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639218359990788850
+                         "last_modified":  639218373977633208
                      },
                      {
-                         "id":  "Casterton_2026-08-08",
-                         "filename":  "Casterton_2026-08-08.json",
-                         "track":  "Casterton",
-                         "date":  "2026-08-08",
-                         "race_count":  7,
+                         "id":  "Colonial_Downs_2026-08-07",
+                         "filename":  "Colonial_Downs_2026-08-07.json",
+                         "track":  "Colonial Downs",
+                         "date":  "2026-08-07",
+                         "race_count":  9,
                          "solo_locks_count":  2,
-                         "best_bets_count":  4,
+                         "best_bets_count":  6,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639218362065919067
+                         "last_modified":  639217179004587783
                      },
                      {
-                         "id":  "Caulfield_2026-08-07",
-                         "filename":  "Caulfield_2026-08-07.json",
-                         "track":  "Caulfield",
+                         "id":  "Eagle_Farm_2026-08-07",
+                         "filename":  "Eagle_Farm_2026-08-07.json",
+                         "track":  "Eagle Farm",
+                         "date":  "2026-08-07",
+                         "race_count":  9,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639217516426708951
+                     },
+                     {
+                         "id":  "Morphettville_2026-08-07",
+                         "filename":  "Morphettville_2026-08-07.json",
+                         "track":  "Morphettville",
                          "date":  "2026-08-07",
                          "race_count":  9,
                          "solo_locks_count":  3,
                          "best_bets_count":  4,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639217561897854941
+                         "last_modified":  639217557510973278
+                     },
+                     {
+                         "id":  "Mildura_2026-08-07",
+                         "filename":  "Mildura_2026-08-07.json",
+                         "track":  "Mildura",
+                         "date":  "2026-08-07",
+                         "race_count":  7,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639217525137829832
                      },
                      {
                          "id":  "Del_Mar_2026-08-07",
@@ -794,30 +842,6 @@
                          "last_modified":  639217504008219607
                      },
                      {
-                         "id":  "Seoul_2026-08-07",
-                         "filename":  "Seoul_2026-08-07.json",
-                         "track":  "Seoul",
-                         "date":  "2026-08-07",
-                         "race_count":  10,
-                         "solo_locks_count":  8,
-                         "best_bets_count":  1,
-                         "region":  "ASIA",
-                         "is_published":  false,
-                         "last_modified":  639217574014520636
-                     },
-                     {
-                         "id":  "Belmont_2026-08-07",
-                         "filename":  "Belmont_2026-08-07.json",
-                         "track":  "Belmont",
-                         "date":  "2026-08-07",
-                         "race_count":  8,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639217568034489824
-                     },
-                     {
                          "id":  "Saratoga_2026-08-07",
                          "filename":  "Saratoga_2026-08-07.json",
                          "track":  "Saratoga",
@@ -830,28 +854,28 @@
                          "last_modified":  639217165943825246
                      },
                      {
-                         "id":  "Mildura_2026-08-07",
-                         "filename":  "Mildura_2026-08-07.json",
-                         "track":  "Mildura",
-                         "date":  "2026-08-07",
-                         "race_count":  7,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639217525137829832
-                     },
-                     {
-                         "id":  "Eagle_Farm_2026-08-07",
-                         "filename":  "Eagle_Farm_2026-08-07.json",
-                         "track":  "Eagle Farm",
+                         "id":  "Caulfield_2026-08-07",
+                         "filename":  "Caulfield_2026-08-07.json",
+                         "track":  "Caulfield",
                          "date":  "2026-08-07",
                          "race_count":  9,
-                         "solo_locks_count":  4,
+                         "solo_locks_count":  3,
                          "best_bets_count":  4,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639217516426708951
+                         "last_modified":  639217561897854941
+                     },
+                     {
+                         "id":  "Seoul_2026-08-07",
+                         "filename":  "Seoul_2026-08-07.json",
+                         "track":  "Seoul",
+                         "date":  "2026-08-07",
+                         "race_count":  10,
+                         "solo_locks_count":  8,
+                         "best_bets_count":  1,
+                         "region":  "ASIA",
+                         "is_published":  false,
+                         "last_modified":  639217574014520636
                      },
                      {
                          "id":  "Kembla_Grange_2026-08-07",
@@ -866,6 +890,18 @@
                          "last_modified":  639217521204874048
                      },
                      {
+                         "id":  "Belmont_2026-08-07",
+                         "filename":  "Belmont_2026-08-07.json",
+                         "track":  "Belmont",
+                         "date":  "2026-08-07",
+                         "race_count":  8,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639217568034489824
+                     },
+                     {
                          "id":  "Townsville_2026-08-07",
                          "filename":  "Townsville_2026-08-07.json",
                          "track":  "Townsville",
@@ -878,28 +914,28 @@
                          "last_modified":  639217532416313093
                      },
                      {
-                         "id":  "Morphettville_2026-08-07",
-                         "filename":  "Morphettville_2026-08-07.json",
-                         "track":  "Morphettville",
-                         "date":  "2026-08-07",
-                         "race_count":  9,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639217557510973278
-                     },
-                     {
-                         "id":  "Colonial_Downs_2026-08-07",
-                         "filename":  "Colonial_Downs_2026-08-07.json",
-                         "track":  "Colonial Downs",
-                         "date":  "2026-08-07",
-                         "race_count":  9,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  6,
+                         "id":  "Mount_Gambier_2026-08-06",
+                         "filename":  "Mount_Gambier_2026-08-06.json",
+                         "track":  "Mount Gambier",
+                         "date":  "2026-08-06",
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  1,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639217179004587783
+                         "last_modified":  639216646389801967
+                     },
+                     {
+                         "id":  "Del_Mar_2026-08-06",
+                         "filename":  "Del_Mar_2026-08-06.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-08-06",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639216429686645335
                      },
                      {
                          "id":  "Saratoga_2026-08-06",
@@ -912,18 +948,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639216304112773483
-                     },
-                     {
-                         "id":  "Mount_Gambier_2026-08-06",
-                         "filename":  "Mount_Gambier_2026-08-06.json",
-                         "track":  "Mount Gambier",
-                         "date":  "2026-08-06",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  1,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639216646389801967
                      },
                      {
                          "id":  "Colonial_Downs_2026-08-06",
@@ -950,30 +974,6 @@
                          "last_modified":  639216636494106125
                      },
                      {
-                         "id":  "Del_Mar_2026-08-06",
-                         "filename":  "Del_Mar_2026-08-06.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-06",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639216429686645335
-                     },
-                     {
-                         "id":  "Delaware_Park_2026-08-06",
-                         "filename":  "Delaware_Park_2026-08-06.json",
-                         "track":  "Delaware Park",
-                         "date":  "2026-08-06",
-                         "race_count":  9,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639216309133109642
-                     },
-                     {
                          "id":  "Busan_2026-08-06",
                          "filename":  "Busan_2026-08-06.json",
                          "track":  "Busan",
@@ -996,6 +996,18 @@
                          "region":  "UK",
                          "is_published":  false,
                          "last_modified":  639165254336558363
+                     },
+                     {
+                         "id":  "Delaware_Park_2026-08-06",
+                         "filename":  "Delaware_Park_2026-08-06.json",
+                         "track":  "Delaware Park",
+                         "date":  "2026-08-06",
+                         "race_count":  9,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639216309133109642
                      },
                      {
                          "id":  "Ipswich_2026-08-06",
@@ -1034,6 +1046,18 @@
                          "last_modified":  639216650060353083
                      },
                      {
+                         "id":  "Saratoga_2026-08-05",
+                         "filename":  "Saratoga_2026-08-05.json",
+                         "track":  "Saratoga",
+                         "date":  "2026-08-05",
+                         "race_count":  10,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639215427810285728
+                     },
+                     {
                          "id":  "Horseshoe_Indianapolis_2026-08-05",
                          "filename":  "Horseshoe_Indianapolis_2026-08-05.json",
                          "track":  "Horseshoe Indianapolis",
@@ -1046,16 +1070,16 @@
                          "last_modified":  639215474945799793
                      },
                      {
-                         "id":  "Gosford_2026-08-05",
-                         "filename":  "Gosford_2026-08-05.json",
-                         "track":  "Gosford",
+                         "id":  "Northam_2026-08-05",
+                         "filename":  "Northam_2026-08-05.json",
+                         "track":  "Northam",
                          "date":  "2026-08-05",
                          "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  4,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639215752241859787
+                         "last_modified":  639215763646815007
                      },
                      {
                          "id":  "Ballarat_Synthetic_2026-08-05",
@@ -1070,16 +1094,28 @@
                          "last_modified":  639215768688029527
                      },
                      {
-                         "id":  "Northam_2026-08-05",
-                         "filename":  "Northam_2026-08-05.json",
-                         "track":  "Northam",
+                         "id":  "Mt_Isa_2026-08-05",
+                         "filename":  "Mt_Isa_2026-08-05.json",
+                         "track":  "Mt Isa",
                          "date":  "2026-08-05",
-                         "race_count":  8,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  4,
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639215763646815007
+                         "last_modified":  639215756821650790
+                     },
+                     {
+                         "id":  "Funabashi_2026-08-05",
+                         "filename":  "Funabashi_2026-08-05.json",
+                         "track":  "Funabashi",
+                         "date":  "2026-08-05",
+                         "race_count":  12,
+                         "solo_locks_count":  9,
+                         "best_bets_count":  3,
+                         "region":  "ASIA",
+                         "is_published":  false,
+                         "last_modified":  639215049653324728
                      },
                      {
                          "id":  "Mombetsu_2026-08-05",
@@ -1106,18 +1142,6 @@
                          "last_modified":  639215759662120847
                      },
                      {
-                         "id":  "Mt_Isa_2026-08-05",
-                         "filename":  "Mt_Isa_2026-08-05.json",
-                         "track":  "Mt Isa",
-                         "date":  "2026-08-05",
-                         "race_count":  7,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639215756821650790
-                     },
-                     {
                          "id":  "Finger_Lakes_2026-08-05",
                          "filename":  "Finger_Lakes_2026-08-05.json",
                          "track":  "Finger Lakes",
@@ -1130,28 +1154,16 @@
                          "last_modified":  639215453889762747
                      },
                      {
-                         "id":  "Funabashi_2026-08-05",
-                         "filename":  "Funabashi_2026-08-05.json",
-                         "track":  "Funabashi",
+                         "id":  "Gosford_2026-08-05",
+                         "filename":  "Gosford_2026-08-05.json",
+                         "track":  "Gosford",
                          "date":  "2026-08-05",
-                         "race_count":  12,
-                         "solo_locks_count":  9,
+                         "race_count":  8,
+                         "solo_locks_count":  3,
                          "best_bets_count":  3,
-                         "region":  "ASIA",
-                         "is_published":  false,
-                         "last_modified":  639215049653324728
-                     },
-                     {
-                         "id":  "Saratoga_2026-08-05",
-                         "filename":  "Saratoga_2026-08-05.json",
-                         "track":  "Saratoga",
-                         "date":  "2026-08-05",
-                         "race_count":  10,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639215427810285728
+                         "last_modified":  639215752241859787
                      },
                      {
                          "id":  "Doomben_2026-08-04",
@@ -1164,18 +1176,6 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639214913159477123
-                     },
-                     {
-                         "id":  "Belmont_Au_2026-08-04",
-                         "filename":  "Belmont_Au_2026-08-04.json",
-                         "track":  "Belmont Au",
-                         "date":  "2026-08-04",
-                         "race_count":  8,
-                         "solo_locks_count":  5,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639214938378773935
                      },
                      {
                          "id":  "Hobart_2026-08-04",
@@ -1200,6 +1200,18 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639214927643681539
+                     },
+                     {
+                         "id":  "Belmont_Au_2026-08-04",
+                         "filename":  "Belmont_Au_2026-08-04.json",
+                         "track":  "Belmont Au",
+                         "date":  "2026-08-04",
+                         "race_count":  8,
+                         "solo_locks_count":  5,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639214938378773935
                      },
                      {
                          "id":  "Canterbury_2026-08-04",
@@ -1262,30 +1274,6 @@
                          "last_modified":  639214082822042561
                      },
                      {
-                         "id":  "Darwin_2026-08-02",
-                         "filename":  "Darwin_2026-08-02.json",
-                         "track":  "Darwin",
-                         "date":  "2026-08-02",
-                         "race_count":  10,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  4,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639213157501071886
-                     },
-                     {
-                         "id":  "Woodbine_2026-08-02",
-                         "filename":  "Woodbine_2026-08-02.json",
-                         "track":  "Woodbine",
-                         "date":  "2026-08-02",
-                         "race_count":  8,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  4,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212836284870635
-                     },
-                     {
                          "id":  "Pakenham_Synthetic_2026-08-02",
                          "filename":  "Pakenham_Synthetic_2026-08-02.json",
                          "track":  "Pakenham Synthetic",
@@ -1296,30 +1284,6 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639213166308915164
-                     },
-                     {
-                         "id":  "Colonial_Downs_2026-08-02",
-                         "filename":  "Colonial_Downs_2026-08-02.json",
-                         "track":  "Colonial Downs",
-                         "date":  "2026-08-02",
-                         "race_count":  9,
-                         "solo_locks_count":  7,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212824917508388
-                     },
-                     {
-                         "id":  "Saratoga_2026-08-02",
-                         "filename":  "Saratoga_2026-08-02.json",
-                         "track":  "Saratoga",
-                         "date":  "2026-08-02",
-                         "race_count":  11,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212820768587933
                      },
                      {
                          "id":  "Del_Mar_2026-08-02",
@@ -1334,18 +1298,6 @@
                          "last_modified":  639213057628335989
                      },
                      {
-                         "id":  "Goulburn_2026-08-02",
-                         "filename":  "Goulburn_2026-08-02.json",
-                         "track":  "Goulburn",
-                         "date":  "2026-08-02",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639213160210390385
-                     },
-                     {
                          "id":  "Monmouth_Park_2026-08-02",
                          "filename":  "Monmouth_Park_2026-08-02.json",
                          "track":  "Monmouth Park",
@@ -1358,40 +1310,76 @@
                          "last_modified":  639212828433109642
                      },
                      {
-                         "id":  "Monmouth_Park_2026-08-01",
-                         "filename":  "Monmouth_Park_2026-08-01.json",
-                         "track":  "Monmouth Park",
-                         "date":  "2026-08-01",
+                         "id":  "Saratoga_2026-08-02",
+                         "filename":  "Saratoga_2026-08-02.json",
+                         "track":  "Saratoga",
+                         "date":  "2026-08-02",
+                         "race_count":  11,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212820768587933
+                     },
+                     {
+                         "id":  "Woodbine_2026-08-02",
+                         "filename":  "Woodbine_2026-08-02.json",
+                         "track":  "Woodbine",
+                         "date":  "2026-08-02",
                          "race_count":  8,
-                         "solo_locks_count":  3,
+                         "solo_locks_count":  1,
                          "best_bets_count":  4,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639212001892311159
+                         "last_modified":  639212836284870635
                      },
                      {
-                         "id":  "Sunshine_Coast_2026-08-01",
-                         "filename":  "Sunshine_Coast_2026-08-01.json",
-                         "track":  "Sunshine Coast",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
+                         "id":  "Goulburn_2026-08-02",
+                         "filename":  "Goulburn_2026-08-02.json",
+                         "track":  "Goulburn",
+                         "date":  "2026-08-02",
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639213160210390385
+                     },
+                     {
+                         "id":  "Darwin_2026-08-02",
+                         "filename":  "Darwin_2026-08-02.json",
+                         "track":  "Darwin",
+                         "date":  "2026-08-02",
+                         "race_count":  10,
+                         "solo_locks_count":  4,
                          "best_bets_count":  4,
-                         "region":  "AUS",
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639212366295701121
+                         "last_modified":  639213157501071886
                      },
                      {
-                         "id":  "Wyong_2026-08-01",
-                         "filename":  "Wyong_2026-08-01.json",
-                         "track":  "Wyong",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  6,
-                         "best_bets_count":  0,
-                         "region":  "AUS",
+                         "id":  "Colonial_Downs_2026-08-02",
+                         "filename":  "Colonial_Downs_2026-08-02.json",
+                         "track":  "Colonial Downs",
+                         "date":  "2026-08-02",
+                         "race_count":  9,
+                         "solo_locks_count":  7,
+                         "best_bets_count":  2,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639212354552228865
+                         "last_modified":  639212824917508388
+                     },
+                     {
+                         "id":  "Colonial_Downs_2026-08-01",
+                         "filename":  "Colonial_Downs_2026-08-01.json",
+                         "track":  "Colonial Downs",
+                         "date":  "2026-08-01",
+                         "race_count":  12,
+                         "solo_locks_count":  6,
+                         "best_bets_count":  4,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639211998367414506
                      },
                      {
                          "id":  "Forbes_2026-08-01",
@@ -1406,6 +1394,30 @@
                          "last_modified":  639212370663340590
                      },
                      {
+                         "id":  "Doomben_2026-08-01",
+                         "filename":  "Doomben_2026-08-01.json",
+                         "track":  "Doomben",
+                         "date":  "2026-08-01",
+                         "race_count":  9,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639211540945782239
+                     },
+                     {
+                         "id":  "Monmouth_Park_2026-08-01",
+                         "filename":  "Monmouth_Park_2026-08-01.json",
+                         "track":  "Monmouth Park",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212001892311159
+                     },
+                     {
                          "id":  "Woodbine_Mohawk_2026-08-01",
                          "filename":  "Woodbine_Mohawk_2026-08-01.json",
                          "track":  "Woodbine Mohawk",
@@ -1416,6 +1428,90 @@
                          "region":  "HARNESS",
                          "is_published":  false,
                          "last_modified":  639212210775709745
+                     },
+                     {
+                         "id":  "Belmont_Park_Wa_2026-08-01",
+                         "filename":  "Belmont_Park_Wa_2026-08-01.json",
+                         "track":  "Belmont Park Wa",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639211594391795872
+                     },
+                     {
+                         "id":  "Broome_2026-08-01",
+                         "filename":  "Broome_2026-08-01.json",
+                         "track":  "Broome",
+                         "date":  "2026-08-01",
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639211588328899253
+                     },
+                     {
+                         "id":  "Hamilton_2026-08-01",
+                         "filename":  "Hamilton_2026-08-01.json",
+                         "track":  "Hamilton",
+                         "date":  "2026-08-01",
+                         "race_count":  7,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639211537401382174
+                     },
+                     {
+                         "id":  "Wyong_2026-08-01",
+                         "filename":  "Wyong_2026-08-01.json",
+                         "track":  "Wyong",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  6,
+                         "best_bets_count":  0,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639212354552228865
+                     },
+                     {
+                         "id":  "Sandown_Lakeside_2026-08-01",
+                         "filename":  "Sandown_Lakeside_2026-08-01.json",
+                         "track":  "Sandown Lakeside",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639212362815099133
+                     },
+                     {
+                         "id":  "Del_Mar_2026-08-01",
+                         "filename":  "Del_Mar_2026-08-01.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-08-01",
+                         "race_count":  11,
+                         "solo_locks_count":  4,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639212101928057981
+                     },
+                     {
+                         "id":  "Sunshine_Coast_2026-08-01",
+                         "filename":  "Sunshine_Coast_2026-08-01.json",
+                         "track":  "Sunshine Coast",
+                         "date":  "2026-08-01",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639212366295701121
                      },
                      {
                          "id":  "Port_Hedland_2026-08-01",
@@ -1442,88 +1538,16 @@
                          "last_modified":  639211946558308104
                      },
                      {
-                         "id":  "Sandown_Lakeside_2026-08-01",
-                         "filename":  "Sandown_Lakeside_2026-08-01.json",
-                         "track":  "Sandown Lakeside",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
+                         "id":  "Rosehill_2026-07-31",
+                         "filename":  "Rosehill_2026-07-31.json",
+                         "track":  "Rosehill",
+                         "date":  "2026-07-31",
+                         "race_count":  10,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  8,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639212362815099133
-                     },
-                     {
-                         "id":  "Belmont_Park_Wa_2026-08-01",
-                         "filename":  "Belmont_Park_Wa_2026-08-01.json",
-                         "track":  "Belmont Park Wa",
-                         "date":  "2026-08-01",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639211594391795872
-                     },
-                     {
-                         "id":  "Hamilton_2026-08-01",
-                         "filename":  "Hamilton_2026-08-01.json",
-                         "track":  "Hamilton",
-                         "date":  "2026-08-01",
-                         "race_count":  7,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639211537401382174
-                     },
-                     {
-                         "id":  "Broome_2026-08-01",
-                         "filename":  "Broome_2026-08-01.json",
-                         "track":  "Broome",
-                         "date":  "2026-08-01",
-                         "race_count":  7,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639211588328899253
-                     },
-                     {
-                         "id":  "Doomben_2026-08-01",
-                         "filename":  "Doomben_2026-08-01.json",
-                         "track":  "Doomben",
-                         "date":  "2026-08-01",
-                         "race_count":  9,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639211540945782239
-                     },
-                     {
-                         "id":  "Colonial_Downs_2026-08-01",
-                         "filename":  "Colonial_Downs_2026-08-01.json",
-                         "track":  "Colonial Downs",
-                         "date":  "2026-08-01",
-                         "race_count":  12,
-                         "solo_locks_count":  6,
-                         "best_bets_count":  4,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639211998367414506
-                     },
-                     {
-                         "id":  "Del_Mar_2026-08-01",
-                         "filename":  "Del_Mar_2026-08-01.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-01",
-                         "race_count":  11,
-                         "solo_locks_count":  4,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639212101928057981
+                         "last_modified":  639211529998067095
                      },
                      {
                          "id":  "Goodwood_2026-07-31",
@@ -1538,28 +1562,16 @@
                          "last_modified":  639210993454170995
                      },
                      {
-                         "id":  "Del_Mar_2026-07-31",
-                         "filename":  "Del_Mar_2026-07-31.json",
-                         "track":  "Del Mar",
+                         "id":  "Saratoga_2026-07-31",
+                         "filename":  "Saratoga_2026-07-31.json",
+                         "track":  "Saratoga",
                          "date":  "2026-07-31",
-                         "race_count":  8,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  2,
+                         "race_count":  10,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  7,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639211227225393069
-                     },
-                     {
-                         "id":  "Flemington_2026-07-31",
-                         "filename":  "Flemington_2026-07-31.json",
-                         "track":  "Flemington",
-                         "date":  "2026-07-31",
-                         "race_count":  9,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  6,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639211534934878048
+                         "last_modified":  639211098949228674
                      },
                      {
                          "id":  "Wolverhampton_2026-07-31",
@@ -1574,28 +1586,28 @@
                          "last_modified":  639210987026205351
                      },
                      {
-                         "id":  "Saratoga_2026-07-31",
-                         "filename":  "Saratoga_2026-07-31.json",
-                         "track":  "Saratoga",
+                         "id":  "Flemington_2026-07-31",
+                         "filename":  "Flemington_2026-07-31.json",
+                         "track":  "Flemington",
                          "date":  "2026-07-31",
-                         "race_count":  10,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  7,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639211098949228674
-                     },
-                     {
-                         "id":  "Rosehill_2026-07-31",
-                         "filename":  "Rosehill_2026-07-31.json",
-                         "track":  "Rosehill",
-                         "date":  "2026-07-31",
-                         "race_count":  10,
+                         "race_count":  9,
                          "solo_locks_count":  2,
-                         "best_bets_count":  8,
+                         "best_bets_count":  6,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639211529998067095
+                         "last_modified":  639211534934878048
+                     },
+                     {
+                         "id":  "Del_Mar_2026-07-31",
+                         "filename":  "Del_Mar_2026-07-31.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-07-31",
+                         "race_count":  8,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  2,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639211227225393069
                      },
                      {
                          "id":  "Wangaratta_2026-07-30",
@@ -1790,16 +1802,16 @@
                          "last_modified":  639209395816554111
                      },
                      {
-                         "id":  "Finger_Lakes_2026-07-29",
-                         "filename":  "Finger_Lakes_2026-07-29.json",
-                         "track":  "Finger Lakes",
+                         "id":  "Hoosier_Park_2026-07-29",
+                         "filename":  "Hoosier_Park_2026-07-29.json",
+                         "track":  "Hoosier Park",
                          "date":  "2026-07-29",
-                         "race_count":  9,
-                         "solo_locks_count":  5,
-                         "best_bets_count":  3,
-                         "region":  "USA",
+                         "race_count":  14,
+                         "solo_locks_count":  9,
+                         "best_bets_count":  5,
+                         "region":  "HARNESS",
                          "is_published":  false,
-                         "last_modified":  639209407726466092
+                         "last_modified":  639209609513593308
                      },
                      {
                          "id":  "Bendigo_2026-07-29",
@@ -1814,16 +1826,16 @@
                          "last_modified":  639209705716342651
                      },
                      {
-                         "id":  "Penn_National_2026-07-29",
-                         "filename":  "Penn_National_2026-07-29.json",
-                         "track":  "Penn National",
+                         "id":  "Finger_Lakes_2026-07-29",
+                         "filename":  "Finger_Lakes_2026-07-29.json",
+                         "track":  "Finger Lakes",
                          "date":  "2026-07-29",
                          "race_count":  9,
-                         "solo_locks_count":  3,
+                         "solo_locks_count":  5,
                          "best_bets_count":  3,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639209590107125132
+                         "last_modified":  639209407726466092
                      },
                      {
                          "id":  "Bunbury_2026-07-29",
@@ -1838,16 +1850,16 @@
                          "last_modified":  639209702899282089
                      },
                      {
-                         "id":  "Hoosier_Park_2026-07-29",
-                         "filename":  "Hoosier_Park_2026-07-29.json",
-                         "track":  "Hoosier Park",
+                         "id":  "Penn_National_2026-07-29",
+                         "filename":  "Penn_National_2026-07-29.json",
+                         "track":  "Penn National",
                          "date":  "2026-07-29",
-                         "race_count":  14,
-                         "solo_locks_count":  9,
-                         "best_bets_count":  5,
-                         "region":  "HARNESS",
+                         "race_count":  9,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639209609513593308
+                         "last_modified":  639209590107125132
                      },
                      {
                          "id":  "Wolverhampton_Unknown_Date",
