@@ -1,10 +1,47 @@
 {
-    "location": "Yorkshire",
-    "track_type": "Turf",
-    "direction": "Counter-clockwise",
-    "bias_notes": "The Knavesmire. Very flat, wide, galloping. Fairest track in UK.",
+    "track_code": "YORK",
+    "location": "York (The Knavesmire), North Yorkshire, England, UK",
+    "nicknames": [
+        "The Knavesmire",
+        "York Racecourse",
+        "Home of the Ebor Festival",
+        "Home of the Juddmonte International",
+        "Home of the Nunthorpe Stakes",
+        "Yorkshire Oaks Venue"
+    ],
+    "courses": {
+        "straight_turf": {
+            "circumference": "6 Furlongs (Straight)",
+            "surface": "Turf (Ryegrass on silt/peat soil base)",
+            "stretch_length": "1,200 metres (Straight)",
+            "bias_notes": "Fair, perfectly flat 5-furlong and 6-furlong straight course joining the main home straight. One of the widest and fairest sprint tracks in Britain. The flat terrain gives all running styles a fair opportunity. On Good to Firm ground, high draws (Stands Side rail) hold a slight advantage in large handicap fields. On Soft or Heavy ground, the track can turn holding along the inside fence, causing jockeys to shift towards the center or stands side.",
+            "post_bias": "In 5f and 6f sprint handicaps (e.g. Nunthorpe Stakes, Great St Wilfrid), high draws (stands rail) hold a slight edge on Good/Good to Firm ground. On Soft/Heavy ground, middle-to-low draws racing up the center of the track are preferred. Pace tow position is more critical than draw stall number."
+        },
+        "round_turf": {
+            "circumference": "2 Miles (3,200 metres)",
+            "surface": "Turf (Ryegrass on silt/peat soil base)",
+            "stretch_length": "900 metres (nearly 5 Furlongs - one of the longest in Britain)",
+            "bias_notes": "Left-handed (Anti-clockwise) wide, flat oval hosting 7f, 1m, 1m2f (Juddmonte International), 1m4f (Ebor Handicap / Yorkshire Oaks), 1m6f, and 2m+ races. Features a sweeping left turn leading into an extraordinarily long, flat 5-furlong (900m) home straight. Broad turns and lack of undulations make York universally recognized as one of the fairest galloping racecourses in Europe.",
+            "post_bias": "On the round course (7f to 1m4f), low-to-middle draws (stalls 1–8) holding the inside rail save ground around the long sweeping turn. In 20+ runner handicaps like the Ebor Handicap (1m4f), wide draws (16+) face significant ground loss if caught 3-4 wide turning into the home straight."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Extremely fair."
+        "knavesmire_5f_home_straight_swooper_fairness": "York's defining characteristic is its massive 5-furlong (900m) home runway. Pure front-runners ('E') get no hidden breathers or downhill momentum boosts — early speed-setters who over-index on pace are regularly run down. Tactical pressers ('P') and strong closing swoopers ('S') with a sustained 2-furlong turn of foot dominate on Good to Firm ground.",
+        "ebor_festival_group1_class_spike": "The 4-day Ebor Festival in August (Juddmonte International G1, Yorkshire Oaks G1, Nunthorpe Stakes G1, Great Voltigeur G2, Ebor Handicap Class 2) represents peak European racing quality (Tier 1 Premier HQ). Factor in maximum speed par offsets (+3.5) and prioritize horses with proven Group 1 / Group 2 rated form.",
+        "dante_festival_classic_trials": "The 3-day Dante Festival in May features key Epsom Derby and Oaks trials (Dante Stakes G2, Musidora Stakes G3, Duke of York G2). Lightly-raced progressive 3-year-olds with high visual acceleration and rising BHA/RPR figures carry immense upside.",
+        "ballydoyle_godolphin_gosden_shippers": "Elite trainers (Aidan O'Brien / Ballydoyle, John & Thady Gosden, William Haggas, Charlie Appleby / Godolphin, Andrew Balding) selectively target York with their highest-rated pattern horses. Upgrade southern and Irish shippers with top Official Ratings (OR) and Racing Post Ratings (RPR) +4.0 pts.",
+        "ebor_handicap_stamina_and_positioning": "Europe's richest flat handicap, the Ebor Handicap (1m4f, 14 furlongs), demands a lethal blend of 1m6f stamina and 1m2f turn of foot. Look for horses dropping out of Group 3 / Listed company into Class 2 handicap weights carrying 9st 7lb-9st 12lb (60-62kg) with proven staying power.",
+        "uk_handicap_weight_penalty": "In British BHA Handicaps (Class 2 to Class 5), top weights carrying 9st 10lb+ (61.5kg+) on Soft or Heavy turf face a compounding physical stamina tax. Grant a boost to fit, well-weighted runners receiving apprentice claim relief (3lb–7lb)."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (UK Premier Group 1 Headquarters)",
+        "class_rating": 98,
+        "speed_par_offsets": {
+            "turf_sprint": "+3.0",
+            "turf_route": "+3.5"
+        },
+        "lengths": 2.5,
+        "points": 6.0
     },
     "region_group": "Europe_Thoroughbred_United_Kingdom_Flat_Tracks"
 }
