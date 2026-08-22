@@ -2,18 +2,6 @@
     "status":  "success",
     "meetings":  [
                      {
-                         "id":  "Del_Mar_2026-08-22",
-                         "filename":  "Del_Mar_2026-08-22.json",
-                         "track":  "Del Mar",
-                         "date":  "2026-08-22",
-                         "race_count":  11,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  true,
-                         "last_modified":  639230121267394420
-                     },
-                     {
                          "id":  "Saratoga_2026-08-22",
                          "filename":  "Saratoga_2026-08-22.json",
                          "track":  "Saratoga",
@@ -38,6 +26,18 @@
                          "last_modified":  639230012269861991
                      },
                      {
+                         "id":  "Del_Mar_2026-08-22",
+                         "filename":  "Del_Mar_2026-08-22.json",
+                         "track":  "Del Mar",
+                         "date":  "2026-08-22",
+                         "race_count":  11,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639230121267394420
+                     },
+                     {
                          "id":  "Belmont_2026-08-21",
                          "filename":  "Belmont_2026-08-21.json",
                          "track":  "Belmont",
@@ -50,18 +50,6 @@
                          "last_modified":  639229679862394253
                      },
                      {
-                         "id":  "Royal_Randwick_2026-08-21",
-                         "filename":  "Royal_Randwick_2026-08-21.json",
-                         "track":  "Royal Randwick",
-                         "date":  "2026-08-21",
-                         "race_count":  10,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  6,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639229620133032969
-                     },
-                     {
                          "id":  "Newcastle_2026-08-21",
                          "filename":  "Newcastle_2026-08-21.json",
                          "track":  "Newcastle",
@@ -72,6 +60,18 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639229622362157685
+                     },
+                     {
+                         "id":  "Royal_Randwick_2026-08-21",
+                         "filename":  "Royal_Randwick_2026-08-21.json",
+                         "track":  "Royal Randwick",
+                         "date":  "2026-08-21",
+                         "race_count":  10,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  6,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639229620133032969
                      },
                      {
                          "id":  "Sandown_2026-08-21",
