@@ -14,6 +14,16 @@ API_OUTPUT_DIR = os.path.join(BASE_DIR, "frontend", "public", "api", "output")
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 DEFAULT_PIN = os.environ.get("EXACTA_PIN", "0518")
 
+def get_db_connection(timeout=30.0):
+    """Returns a lock-free SQLite connection with WAL mode and 30s busy timeout."""
+    conn = sqlite3.connect(DB_PATH, timeout=timeout)
+    try:
+        conn.execute("PRAGMA journal_mode=WAL;")
+        conn.execute("PRAGMA busy_timeout = 30000;")
+    except Exception:
+        pass
+    return conn
+
 for d in [LOGS_DIR, API_OUTPUT_DIR]:
     os.makedirs(d, exist_ok=True)
 
@@ -220,7 +230,7 @@ def calculate_roi_analytics(
     if not os.path.exists(DB_PATH):
         return {}
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_db_connection()
     c = conn.cursor()
 
     query = """
@@ -542,7 +552,7 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
 
             # GET /api/analytics/tracks
             if path == "/api/analytics/tracks":
-                conn = sqlite3.connect(DB_PATH)
+                conn = get_db_connection()
                 c = conn.cursor()
                 c.execute("SELECT DISTINCT track FROM predictions ORDER BY track ASC")
                 tracks_list = [row[0] for row in c.fetchall() if row[0]]
@@ -551,7 +561,7 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
 
             # 1. GET /api/meetings
             if path == "/api/meetings" or path == "/api/output":
-                conn = sqlite3.connect(DB_PATH)
+                conn = get_db_connection()
                 c = conn.cursor()
                 c.execute("""
                     SELECT filename, track, date, region, race_count, solo_locks_count, best_bets_count 
@@ -609,7 +619,7 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
                 if not os.path.exists(DB_PATH):
                     return self._send_json({"status": "success", "stats": {"total_bets": 0, "total_staked": 0.0, "total_payout": 0.0, "roi": 0.0, "win_rate": 0.0}})
                     
-                conn = sqlite3.connect(DB_PATH)
+                conn = get_db_connection()
                 c = conn.cursor()
                 
                 c.execute("SELECT COUNT(*), SUM(win_paid) FROM selections WHERE finish_position IS NOT NULL")
@@ -684,7 +694,7 @@ class ExactaAPIHandler(http.server.BaseHTTPRequestHandler):
                 return self._send_json({"error": "No bets provided"}, 400)
                 
             try:
-                conn = sqlite3.connect(DB_PATH)
+                conn = get_db_connection()
                 c = conn.cursor()
                 
                 # Ensure table exists
