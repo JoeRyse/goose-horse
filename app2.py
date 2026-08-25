@@ -43,8 +43,19 @@ for d in [
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 
 
+def get_db_connection(timeout=30.0):
+  """Returns a lock-free SQLite connection with WAL mode and 30s busy timeout."""
+  conn = sqlite3.connect(DB_PATH, timeout=timeout)
+  try:
+    conn.execute("PRAGMA journal_mode=WAL;")
+    conn.execute("PRAGMA busy_timeout = 30000;")
+  except Exception:
+    pass
+  return conn
+
+
 def init_db():
-  conn = sqlite3.connect(DB_PATH)
+  conn = get_db_connection()
   c = conn.cursor()
 
   # Table 1: Predictions
@@ -107,7 +118,7 @@ init_db()
 def save_results_to_db(track_name, meeting_date, parsed_races):
   """Saves parsed raw race results into SQLite database (master_betting_history.db)."""
   clean_date_str = pd.to_datetime(meeting_date).strftime("%Y-%m-%d")
-  conn = sqlite3.connect(DB_PATH)
+  conn = get_db_connection()
   cursor = conn.cursor()
 
   for race in parsed_races:
@@ -314,7 +325,7 @@ def parse_raw_race_results(raw_text):
 
 
 def save_predictions_to_db(data):
-  conn = sqlite3.connect(DB_PATH)
+  conn = get_db_connection()
   c = conn.cursor()
 
   meeting_date = data.get("meta", {}).get("date", "")
@@ -1525,7 +1536,7 @@ with tab_handicap:
             json.dump(st.session_state.json_data, f, indent=4)
 
         try:
-          conn = sqlite3.connect(DB_PATH)
+          conn = get_db_connection()
           c = conn.cursor()
           meta = st.session_state.json_data.get("meta", {})
           clean_date_str = pd.to_datetime(meta.get("date")).strftime(
@@ -1635,7 +1646,7 @@ with tab_analytics:
   st.title("📈 Model Performance & Backtesting")
 
   if os.path.exists(DB_PATH):
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_db_connection()
     preds_df = pd.read_sql_query("SELECT * FROM predictions", conn)
     results_df = pd.read_sql_query("SELECT * FROM results", conn)
     conn.close()
@@ -2106,7 +2117,7 @@ with tab_results:
       ]
 
     try:
-      conn = sqlite3.connect(DB_PATH)
+      conn = get_db_connection()
       pending_df = pd.read_sql_query(
           """
                 SELECT DISTINCT p.track, p.date
@@ -2195,7 +2206,7 @@ with tab_results:
     )
 
     try:
-      conn_del = sqlite3.connect(DB_PATH)
+      conn_del = get_db_connection()
       del_history_df = pd.read_sql_query(
           "SELECT DISTINCT date, track FROM predictions ORDER BY date DESC",
           conn_del,
@@ -2230,7 +2241,7 @@ with tab_results:
       if st.button("❌ Permanently Delete Selected Card", type="secondary"):
         if confirm_delete:
           try:
-            conn = sqlite3.connect(DB_PATH)
+            conn = get_db_connection()
             c = conn.cursor()
             c.execute(
                 "DELETE FROM predictions WHERE track=? AND date=?",
@@ -2285,7 +2296,7 @@ with tab_results:
     ):
       if confirm_wipe_results:
         try:
-          conn = sqlite3.connect(DB_PATH)
+          conn = get_db_connection()
           c = conn.cursor()
           c.execute("DELETE FROM results")
           conn.commit()
@@ -2312,7 +2323,7 @@ with tab_results:
   st.subheader("📊 Interactive Data Editor Grid")
 
   if os.path.exists(DB_PATH):
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_db_connection()
 
     view_mode = st.radio(
         "Filter Meetings:",
@@ -2437,7 +2448,7 @@ with tab_results:
           key="save_results_db_btn",
       ):
         try:
-          conn = sqlite3.connect(DB_PATH)
+          conn = get_db_connection()
           c = conn.cursor()
 
           for index, row in edited_df.iterrows():
