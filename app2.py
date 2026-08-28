@@ -1033,9 +1033,15 @@ with tab_handicap:
           remote_file = genai.upload_file(
               temp_pdf_path, mime_type="application/pdf"
           )
-          while remote_file.state.name == "PROCESSING":
+          upload_wait = 0
+          while remote_file.state.name == "PROCESSING" and upload_wait < 30:
             time.sleep(1)
+            upload_wait += 1
             remote_file = genai.get_file(remote_file.name)
+
+          if remote_file.state.name == "FAILED":
+            st.error("❌ Google AI File API failed to process the PDF program. Please try re-uploading the file.")
+            st.stop()
 
           # --- DYNAMIC REGIONAL SYSTEM PROMPT RESOLVER ---
           region_str = str(selected_region).upper()
@@ -1159,6 +1165,10 @@ with tab_handicap:
             else:
               total_races = 10
 
+            # Cap total_races to realistic bounds (1 to 14)
+            if total_races < 1 or total_races > 14:
+              total_races = 10
+
             # Retry Buffer: Fix Gemini File API indexing delay on fresh PDF upload
             if total_races <= 1:
               time.sleep(2.0)
@@ -1167,7 +1177,7 @@ with tab_handicap:
               )
               match_retry = re.search(r"\d+", retry_response.text)
               if match_retry and int(match_retry.group(0)) > 1:
-                total_races = int(match_retry.group(0))
+                total_races = min(int(match_retry.group(0)), 14)
 
             st.success(f"📋 Detected **{total_races} Races** on today's card.")
           except Exception as e:
@@ -1203,10 +1213,27 @@ with tab_handicap:
                             6. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
                         """
 
+            response = None
+            last_err = None
+            for attempt in range(3):
+              try:
+                response = model.generate_content(
+                    [race_user_prompt, remote_file]
+                )
+                if response and response.text:
+                  break
+              except Exception as err:
+                last_err = err
+                if "429" in str(err) or "RESOURCE_EXHAUSTED" in str(err):
+                  time.sleep(3.0 * (attempt + 1))
+                else:
+                  time.sleep(1.5)
+
+            if not response or not response.text:
+              st.error(f"⚠️ Error analyzing Race {race_num}: {last_err}")
+              continue
+
             try:
-              response = model.generate_content(
-                  [race_user_prompt, remote_file]
-              )
               json_str = clean_json_string(response.text)
 
               # --- BULLETPROOF JSON PARSER & REPAIR ENGINE ---
@@ -1228,7 +1255,7 @@ with tab_handicap:
                 raw_extracted_data.append(race_json)
 
             except Exception as e:
-              st.error(f"⚠️ Error analyzing Race {race_num}: {e}")
+              st.error(f"⚠️ Error parsing JSON for Race {race_num}: {e}")
 
           progress_bar.empty()
 
