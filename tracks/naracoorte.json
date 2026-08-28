@@ -1,30 +1,37 @@
 {
     "track_code": "NAR",
-    "location": "Naracoorte, South Australia, Australia",
+    "location": "Naracoorte, Limestone Coast, South Australia, Australia",
     "nicknames": [
-        "Limestone Coast Circuit"
+        "Naracoorte Racecourse",
+        "Naracoorte Racing Club",
+        "Limestone Coast Circuit",
+        "Home of the Naracoorte Cup"
     ],
     "courses": {
         "main_turf": {
-            "circumference": "1720 metres",
-            "surface": "Turf",
+            "circumference": "1,720 metres",
+            "surface": "Turf (Kikuyu grass on loam soil base)",
             "stretch_length": "320 metres",
-            "bias_notes": "Anti-clockwise oval layout located in the Limestone Coast region of South Australia. Features slight undulations heading into a short 320m home straight. The short run-in creates a distinct advantage for tactical, on-pace runners ('E' and 'P' styles) who can settle in the first four before turning for home. Deep closers often struggle unless mid-race pace is extreme.",
-            "post_bias": "Inside barriers (1-4) offer a noticeable advantage in sprint trips up to 1200m due to the tight run to the first turn. Wide draws (8+) over 1000m and 1200m are penalizing unless the runner possesses enough early speed to cross cleanly without burning excess energy."
+            "bias_notes": "Anti-clockwise (left-handed). Situated in the Limestone Coast region of South Australia near the Victorian border. A 1,720m undulating turf oval featuring a short 320m home straight. The short run-in creates a distinct advantage for tactical, on-pace runners ('E' and 'P' styles) who can settle in the first four before turning for home. Deep closers ('C') struggle down the short 320m stretch unless early pace is frantic.",
+            "post_bias": "INSIDE BARRIER EDGE: Inside barriers (stalls 1–4) offer a noticeable advantage in sprint trips up to 1200m due to the short run to the first turn. Wide draws (8+) over 1000m and 1200m are penalizing unless the runner possesses enough early speed to cross cleanly."
         }
     },
     "handicapping_angles": {
-        "horses_for_courses_specialists": "Heavily upgrade local specialists with established Limestone Coast regional form (Naracoorte, Penola, Mount Gambier, Bordertown). Pay close attention to runners dropping down from Morphettville/Adelaide midweek provincial class to regional country grade.",
-        "trainer_jockey_trends": "Look for leading South Australian border and Western Victorian country stables targeting Naracoorte cup and fixture days."
+        "naracoorte_cup_february_feature": "The Naracoorte Cup ($40k+ Handicap, 2000m, February) is the marquee event of the Naracoorte Racing Club. Attracts Adelaide metropolitan and Western Victorian country stables. Upgrade horses with proven Limestone Coast form (+2.5 pts).",
+        "victorian_border_and_adelaide_shippers": "Naracoorte receives high-volume shippers from Western Victorian country tracks (Warrnambool, Casterton, Hamilton, Horsham) and Adelaide metro yards (e.g. Sue & Jason Jaensch, Tom Dabernig, Symon Wilde, Paul Preusker). Upgrade Victorian provincial/metro drop-down shippers (+3.0 pts).",
+        "limestone_coast_circuit_form": "Form translates seamlessly between Naracoorte, Mount Gambier, Penola, Bordertown, and Millicent. Horses with proven wins across the Limestone Coast circuit hold a distinct track-suitability edge.",
+        "short_320m_straight_pace_bias": "Tactical pressers ('P') holding the fence entering the 320m home stretch win over 68% of races. Downgrade deep back-markers ('C') unless early speed is contested.",
+        "typical_distances": "Standard program: 1000m, 1100m, 1200m, 1430m, 2000m (Cup trip)."
     },
     "par_adjustment": {
-        "tier": "Tier 4 (South Australian Country)",
-        "class_rating": 62,
+        "tier": "Tier 3.5 (SA Limestone Coast Circuit)",
+        "class_rating": 84,
         "speed_par_offsets": {
-            "Good": 0.0,
-            "Soft": -1.5,
-            "Heavy": -3.5
-        }
+            "turf_sprint": "-0.5",
+            "turf_route": "+0.0"
+        },
+        "lengths": 1.0,
+        "points": 2.0
     },
-    "region_group": "Australia_Thoroughbred"
+    "region_group": "Australia_Thoroughbred_South_Australia"
 }
