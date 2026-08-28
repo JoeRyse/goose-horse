@@ -43,6 +43,21 @@ for d in [
 DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 
 
+def normalize_model_name(name):
+  """Maps legacy or deprecated Gemini model strings to active supported API endpoints."""
+  clean = str(name).strip()
+  if clean.startswith("models/"):
+    clean = clean.replace("models/", "")
+
+  mapping = {
+      "gemini-1.5-pro": "gemini-1.5-pro-latest",
+      "gemini-1.5-flash": "gemini-1.5-flash-latest",
+  }
+  return mapping.get(clean, clean)
+
+
+
+
 def get_db_connection(timeout=30.0):
   """Returns a lock-free SQLite connection with WAL mode and 30s busy timeout."""
   conn = sqlite3.connect(DB_PATH, timeout=timeout)
@@ -937,16 +952,16 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Model")
 model_options = [
     "gemini-3.7-flash",
-    "gemini-3.6-flash",
-    "gemini-3.1-pro-preview",
-    "gemini-2.0-flash-exp",
+    "gemini-2.0-flash",
     "gemini-1.5-flash",
+    "gemini-3.6-flash",
+    "gemini-2.0-flash-exp",
     "gemini-1.5-pro",
 ]
 target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
 if st.sidebar.checkbox("Type a Custom Model Name?"):
   target_model = st.sidebar.text_input(
-      "Model Name", value="gemini-3.6-flash"
+      "Model Name", value="gemini-3.7-flash"
   )
 creativity_temp = st.sidebar.slider("Creativity (Temperature)", 0.0, 1.0, 0.4, 0.1)
 
@@ -1138,53 +1153,83 @@ with tab_handicap:
                     ]
                     """
 
-          # --- 2. MODEL INITIALIZATION & AUTO PRE-SCAN ---
-          model = genai.GenerativeModel(
-              target_model,
-              system_instruction=system_instruction,
-              generation_config={
-                  "response_mime_type": "application/json",
-                  "temperature": creativity_temp,
-                  "max_output_tokens": 8192,
-              },
-          )
-
+          # --- 2. FAST LOCAL PDF RACE SCANNER & FALLBACK ---
           st.info("🔍 Scanning PDF program to detect total races...")
 
-          detector_prompt = (
-              "Scan the ENTIRE attached PDF document across all pages. What is the total number of races on this card (e.g. Race 1 through Race 8, 9, or 10)? Respond ONLY with the integer total number of races."
-          )
+          total_races = None
 
+          # Step 2A: Instant Local PyMuPDF (fitz) Text Scanner (0.01 seconds)
           try:
-            count_response = model.generate_content(
-                [detector_prompt, remote_file]
+            import fitz
+
+            doc = fitz.open(temp_pdf_path)
+            pdf_text = ""
+            for page in doc:
+              pdf_text += page.get_text() + "\n"
+
+            race_matches = re.findall(
+                r"(?:RACE|Race|RACE\s*#|Race\s*#)\s*(\d{1,2})", pdf_text
             )
-            match = re.search(r"\d+", count_response.text)
-            if match:
-              total_races = int(match.group(0))
-            else:
-              total_races = 10
+            if not race_matches:
+              race_matches = re.findall(r"(\d{1,2})(?:st|nd|rd|th)\s+Race", pdf_text)
 
-            # Cap total_races to realistic bounds (1 to 14)
-            if total_races < 1 or total_races > 14:
-              total_races = 10
+            if race_matches:
+              valid_nums = [
+                  int(m) for m in race_matches if 1 <= int(m) <= 16
+              ]
+              if valid_nums:
+                total_races = max(valid_nums)
+          except Exception:
+            pass
 
-            # Retry Buffer: Fix Gemini File API indexing delay on fresh PDF upload
-            if total_races <= 1:
-              time.sleep(2.0)
-              retry_response = model.generate_content(
-                  ["Look through all pages of the attached PDF program. What is the highest race number (e.g. 7, 8, 9, 10)? Respond ONLY with the integer number.", remote_file]
+          # Step 2B: Fast API Pre-Scan if local detection failed (Always use fast gemini-1.5-flash to prevent 3.7 thinking lock)
+          if not total_races or total_races < 1 or total_races > 16:
+            detector_prompt = (
+                'What is the total number of races on this card (e.g. 8, 9, 10)? Respond ONLY with valid JSON: {"total_races": 8}'
+            )
+            try:
+              # Always use fast non-thinking model for 0.5s race count scanning
+              pre_model = genai.GenerativeModel(
+                  "gemini-1.5-flash-latest",
+                  generation_config={"response_mime_type": "application/json"},
               )
-              match_retry = re.search(r"\d+", retry_response.text)
-              if match_retry and int(match_retry.group(0)) > 1:
-                total_races = min(int(match_retry.group(0)), 14)
+              count_response = pre_model.generate_content(
+                  [detector_prompt, remote_file]
+              )
+              count_json = json.loads(clean_json_string(count_response.text))
+              total_races = int(count_json.get("total_races", 10))
+            except Exception:
+              total_races = 10
 
-            st.success(f"📋 Detected **{total_races} Races** on today's card.")
-          except Exception as e:
-            st.warning(
-                "⚠️ Could not auto-detect race count. Defaulting to 10 races."
-            )
+          # Final safety bounds cap (1 to 14)
+          if not total_races or total_races < 1 or total_races > 14:
             total_races = 10
+
+          st.success(f"📋 Detected **{total_races} Races** on today's card.")
+
+          # --- 3. MAIN MODEL INITIALIZATION FOR RACE ANALYSIS ---
+          active_model_name = normalize_model_name(target_model)
+          try:
+            model = genai.GenerativeModel(
+                active_model_name,
+                system_instruction=system_instruction,
+                generation_config={
+                    "response_mime_type": "application/json",
+                    "temperature": creativity_temp,
+                    "max_output_tokens": 8192,
+                },
+            )
+          except Exception:
+            active_model_name = "gemini-2.0-flash"
+            model = genai.GenerativeModel(
+                active_model_name,
+                system_instruction=system_instruction,
+                generation_config={
+                    "response_mime_type": "application/json",
+                    "temperature": creativity_temp,
+                    "max_output_tokens": 8192,
+                },
+            )
 
           # --- 3. RACE-BY-RACE API LOOP ---
           raw_extracted_data = []
@@ -1224,7 +1269,34 @@ with tab_handicap:
                   break
               except Exception as err:
                 last_err = err
-                if "429" in str(err) or "RESOURCE_EXHAUSTED" in str(err):
+                err_str = str(err)
+                if "404" in err_str or "not found" in err_str.lower():
+                  for alt_name in [
+                      "gemini-3.7-flash-latest",
+                      "gemini-2.0-flash",
+                      "gemini-1.5-flash-latest",
+                  ]:
+                    try:
+                      fallback_model = genai.GenerativeModel(
+                          alt_name,
+                          system_instruction=system_instruction,
+                          generation_config={
+                              "response_mime_type": "application/json",
+                              "temperature": creativity_temp,
+                              "max_output_tokens": 8192,
+                          },
+                      )
+                      response = fallback_model.generate_content(
+                          [race_user_prompt, remote_file]
+                      )
+                      if response and response.text:
+                        model = fallback_model
+                        break
+                    except Exception as f_err:
+                      last_err = f_err
+                  if response and response.text:
+                    break
+                elif "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
                   time.sleep(3.0 * (attempt + 1))
                 else:
                   time.sleep(1.5)
