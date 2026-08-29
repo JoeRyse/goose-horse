@@ -964,6 +964,13 @@ if st.sidebar.checkbox("Type a Custom Model Name?"):
       "Model Name", value="gemini-3.7-flash"
   )
 creativity_temp = st.sidebar.slider("Creativity (Temperature)", 0.0, 1.0, 0.4, 0.1)
+manual_races_input = st.sidebar.number_input(
+    "Total Races (0 = Auto-detect)",
+    min_value=0,
+    max_value=20,
+    value=0,
+    help="Set to 13, 14, etc. to manually override race count.",
+)
 
 if api_key:
   genai.configure(api_key=api_key)
@@ -1156,56 +1163,64 @@ with tab_handicap:
           # --- 2. FAST LOCAL PDF RACE SCANNER & FALLBACK ---
           st.info("🔍 Scanning PDF program to detect total races...")
 
-          total_races = None
+          # Check Manual UI Override
+          if manual_races_input and manual_races_input > 0:
+            total_races = int(manual_races_input)
+            st.info(f"⚙️ Manual override set: **{total_races} Races**")
+          else:
+            total_races = None
 
-          # Step 2A: Instant Local PyMuPDF (fitz) Text Scanner (0.01 seconds)
-          try:
-            import fitz
-
-            doc = fitz.open(temp_pdf_path)
-            pdf_text = ""
-            for page in doc:
-              pdf_text += page.get_text() + "\n"
-
-            race_matches = re.findall(
-                r"(?:RACE|Race|RACE\s*#|Race\s*#)\s*(\d{1,2})", pdf_text
-            )
-            if not race_matches:
-              race_matches = re.findall(r"(\d{1,2})(?:st|nd|rd|th)\s+Race", pdf_text)
-
-            if race_matches:
-              valid_nums = [
-                  int(m) for m in race_matches if 1 <= int(m) <= 16
-              ]
-              if valid_nums:
-                total_races = max(valid_nums)
-          except Exception:
-            pass
-
-          # Step 2B: Fast API Pre-Scan if local detection failed (Always use fast gemini-1.5-flash to prevent 3.7 thinking lock)
-          if not total_races or total_races < 1 or total_races > 16:
-            detector_prompt = (
-                'What is the total number of races on this card (e.g. 8, 9, 10)? Respond ONLY with valid JSON: {"total_races": 8}'
-            )
+            # Step 2A: Multi-Pattern Local PyMuPDF Text Scanner
             try:
-              # Always use fast non-thinking model for 0.5s race count scanning
-              pre_model = genai.GenerativeModel(
-                  "gemini-1.5-flash-latest",
-                  generation_config={"response_mime_type": "application/json"},
-              )
-              count_response = pre_model.generate_content(
-                  [detector_prompt, remote_file]
-              )
-              count_json = json.loads(clean_json_string(count_response.text))
-              total_races = int(count_json.get("total_races", 10))
+              import fitz
+
+              doc = fitz.open(temp_pdf_path)
+              pdf_text = ""
+              for page in doc:
+                pdf_text += page.get_text() + "\n"
+
+              patterns = [
+                  r"(?:RACE|Race|RACE\s*#|Race\s*#|R)\s*(\d{1,2})",
+                  r"(\d{1,2})(?:st|nd|rd|th)\s+Race",
+                  r"Race\s+(\d{1,2})\s+of\s+\d+",
+                  r"Race\s*(\d{1,2})\s*[-–—]",
+              ]
+              found_nums = []
+              for pat in patterns:
+                matches = re.findall(pat, pdf_text, re.IGNORECASE)
+                for m in matches:
+                  val = int(m)
+                  if 1 <= val <= 20:
+                    found_nums.append(val)
+
+              if found_nums:
+                total_races = max(found_nums)
             except Exception:
-              total_races = 10
+              pass
 
-          # Final safety bounds cap (1 to 14)
-          if not total_races or total_races < 1 or total_races > 14:
-            total_races = 10
+            # Step 2B: Fast API Pre-Scan if local detection failed
+            if not total_races or total_races < 1 or total_races > 20:
+              detector_prompt = (
+                  'Examine every page of the attached PDF program. What is the HIGHEST race number programmed on this card (e.g. 10, 12, 13, 14, 15, 16)? Respond ONLY with valid JSON: {"total_races": <integer>}'
+              )
+              try:
+                pre_model = genai.GenerativeModel(
+                    "gemini-1.5-flash-latest",
+                    generation_config={"response_mime_type": "application/json"},
+                )
+                count_response = pre_model.generate_content(
+                    [detector_prompt, remote_file]
+                )
+                count_json = json.loads(clean_json_string(count_response.text))
+                total_races = int(count_json.get("total_races", 13))
+              except Exception:
+                total_races = 13
 
-          st.success(f"📋 Detected **{total_races} Races** on today's card.")
+            # Safety bounds cap (1 to 20)
+            if not total_races or total_races < 1 or total_races > 20:
+              total_races = 13
+
+            st.success(f"📋 Detected **{total_races} Races** on today's card.")
 
           # --- 3. MAIN MODEL INITIALIZATION FOR RACE ANALYSIS ---
           active_model_name = normalize_model_name(target_model)
