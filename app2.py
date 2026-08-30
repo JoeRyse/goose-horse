@@ -1170,7 +1170,7 @@ with tab_handicap:
           else:
             total_races = None
 
-            # Step 2A: Multi-Pattern Local PyMuPDF Text Scanner
+            # Step 2A: Bulletproof Consecutive Sequence Text Scanner
             try:
               import fitz
 
@@ -1179,29 +1179,35 @@ with tab_handicap:
               for page in doc:
                 pdf_text += page.get_text() + "\n"
 
-              patterns = [
-                  r"(?:RACE|Race|RACE\s*#|Race\s*#|R)\s*(\d{1,2})",
-                  r"(\d{1,2})(?:st|nd|rd|th)\s+Race",
-                  r"Race\s+(\d{1,2})\s+of\s+\d+",
-                  r"Race\s*(\d{1,2})\s*[-–—]",
-              ]
-              found_nums = []
-              for pat in patterns:
-                matches = re.findall(pat, pdf_text, re.IGNORECASE)
-                for m in matches:
-                  val = int(m)
-                  if 1 <= val <= 20:
-                    found_nums.append(val)
+              # Search for explicit race headers (Race 1, RACE 2, Race #3, R4)
+              matches = re.findall(
+                  r"\b(?:RACE|Race|RACE\s*#|Race\s*#)\s*(\d{1,2})\b", pdf_text
+              )
+              if not matches:
+                matches = re.findall(r"\bR(\d{1,2})\b", pdf_text)
+              if not matches:
+                matches = re.findall(
+                    r"(\d{1,2})(?:st|nd|rd|th)\s+Race", pdf_text, re.IGNORECASE
+                )
 
-              if found_nums:
-                total_races = max(found_nums)
+              if matches:
+                found_set = set(int(m) for m in matches if 1 <= int(m) <= 20)
+                # Find longest continuous sequence starting at Race 1
+                seq_max = 0
+                for expected in range(1, 21):
+                  if expected in found_set:
+                    seq_max = expected
+                  else:
+                    break
+                if seq_max >= 1:
+                  total_races = seq_max
             except Exception:
               pass
 
-            # Step 2B: Fast API Pre-Scan if local detection failed
+            # Step 2B: Fast API Pre-Scan if local text detection failed (e.g. scanned image PDF)
             if not total_races or total_races < 1 or total_races > 20:
               detector_prompt = (
-                  'Examine every page of the attached PDF program. What is the HIGHEST race number programmed on this card (e.g. 10, 12, 13, 14, 15, 16)? Respond ONLY with valid JSON: {"total_races": <integer>}'
+                  'Examine every page of the attached PDF program. List every race number present on the card starting from Race 1 (e.g. Race 1 through Race 8, Race 10, Race 13). What is the total count of sequential races? Respond ONLY with valid JSON: {"total_races": <integer>}'
               )
               try:
                 pre_model = genai.GenerativeModel(
@@ -1212,13 +1218,13 @@ with tab_handicap:
                     [detector_prompt, remote_file]
                 )
                 count_json = json.loads(clean_json_string(count_response.text))
-                total_races = int(count_json.get("total_races", 13))
+                total_races = int(count_json.get("total_races", 8))
               except Exception:
-                total_races = 13
+                total_races = 8
 
             # Safety bounds cap (1 to 20)
             if not total_races or total_races < 1 or total_races > 20:
-              total_races = 13
+              total_races = 8
 
             st.success(f"📋 Detected **{total_races} Races** on today's card.")
 
