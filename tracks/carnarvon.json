@@ -1,0 +1,38 @@
+{
+    "track_code": "CARN",
+    "location": "Carnarvon, Gascoyne Region, WA, Australia",
+    "nicknames": [
+        "Carnarvon Racecourse",
+        "Carnarvon Race Club",
+        "Home of the Carnarvon Cup",
+        "Gascoyne Dirt Circuit"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1,600 metres",
+            "surface": "Dirt (Compacted red dirt & loam sand mixture)",
+            "stretch_length": "300 metres",
+            "bias_notes": "Anti-Clockwise (left-handed). Primary dirt venue in the Gascoyne region of Western Australia operated by the Carnarvon Race Club (racing May to September). Features a 1,600m dirt oval with a 300m home straight. The red dirt surface produces significant kickback, creating a powerful bias toward front-runners ('E' style) and rail-running stalkers ('P' style). Off-pace closers ('C' style) face severe vision and kickback penalties when coming from back in the field.",
+            "post_bias": "STRONG INSIDE BARRIER ADVANTAGE: Inside barriers (1-4) are critical over 1000m, 1200m, and 1400m to secure early rail position ahead of the first turn and avoid flying dirt kickback. Outer draws (7+) suffer heavy wide ground penalties on tight turns."
+        }
+    },
+    "handicapping_angles": {
+        "carnarvon_cup_gascoyne_feature": "The Carnarvon Cup ($60k+ Country Feature, September) is the culmination of the Gascoyne racing season. Upgrade horses with proven WA country dirt form (Carnarvon, Broome, Port Hedland, Roebourne) over turf horses trying dirt for the first time (+3.0 pts dirt specialty angle).",
+        "wa_gascoyne_dirt_season_circuit_form": "Form flows directly between Carnarvon, Broome, Port Hedland, and Geraldton during the WA winter/spring country season (May-September). Horses with winning form at Broome or Geraldton transition seamlessly to Carnarvon's red dirt surface.",
+        "lone_speed_front_runner_lock": "On Carnarvon's 300m home straight, a lone front-runner ('E' style with 'is_lone_speed': true) that secures an uncontested lead on the rail is exceptionally difficult to run down. Grant a strong lone-speed pace bonus (+6.0 pts).",
+        "kickback_penalty_for_closers": "Deep closers ('S' and 'C' styles) struggle on this surface due to heavy dirt kickback. Penalize horses that lack early speed unless a severe pace meltdown (multiple 'E' runners fighting up front) is predicted.",
+        "perth_metro_shipper_transition": "Metropolitan trainers shipping runners north from Perth (Belmont, Ascot) or Geraldton (e.g. Peter Daly, Jacqueline Scott, Michelle Vallentine, Ray Malpass) carry class superiority, but verify dirt track suitability before backing short-priced favorites.",
+        "typical_distances": "Standard distances: 1000m, 1200m, 1400m, 1600m, 1700m, 2000m (Carnarvon Cup)."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3.5 (WA Gascoyne Regional Dirt Country)",
+        "class_rating": 81,
+        "speed_par_offsets": {
+            "dirt_sprint": "+0.0",
+            "dirt_route": "+0.5"
+        },
+        "lengths": 0.5,
+        "points": 1.5
+    },
+    "region_group": "Australia_Thoroughbred_Western_Australia_Country"
+}

@@ -1,0 +1,38 @@
+{
+    "track_code": "MUDG",
+    "location": "Mudgee, Central Tablelands, NSW, Australia",
+    "nicknames": [
+        "Mudgee Racecourse",
+        "Mudgee Race Club",
+        "Home of the Mudgee Cup",
+        "Gooree Park Turf Circuit"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,650 metres",
+            "surface": "Turf (Couch grass on well-drained loam base)",
+            "stretch_length": "360 metres",
+            "bias_notes": "Clockwise (right-handed). Premier country racing venue in the Central Tablelands of NSW operated by the Mudgee Race Club. Features a 1,650m oval circuit with a 360m home straight and cambered turns. Starts from the 1100m chute have a short 250m run to the home bend, favoring inside barrier draws and early speed ('E' and 'P' styles). The 1400m chute provides a long, fair back-straight run where wide barriers are easily overcome.",
+            "post_bias": "INSIDE BARRIER ADVANTAGE IN SPRINTS: Draw positions 1-5 hold a distinct edge over 1000m and 1100m due to the immediate turn entry. On 1400m, 1600m, and 2000m route distances, barrier penalties drop significantly as runners have 400m+ to settle before the first turn."
+        }
+    },
+    "handicapping_angles": {
+        "mudgee_cup_big_dance_qualifier": "The Mudgee Cup ($75k+ Showcase Handicap, December) is an official qualifier for The Big Dance at Royal Randwick. Class levels spike dramatically to Provincial/Metro grade. Upgrade horses shipping in with proven metropolitan or high-tier provincial benchmark form (+3.5 pts class angle).",
+        "gooree_park_stud_and_local_stables": "Local trainers based at Mudgee and nearby Dubbo/Bathurst (e.g. Mack Griffith, Brett Robb, Bryan Dixon, Gayna Williams) maintain exceptional strike rates on their home turf. Grant a local track familiarity bonus (+2.0 pts).",
+        "sydney_and_provincial_shipper_advantage": "Trainers shipping in from Sydney Metro (Warwick Farm, Rosehill, Randwick), Hawkesbury, Newcastle, and Scone (e.g. Bjorn Baker, Waterhouse & Bott, Kris Lees, Ciaron Maher) carry a significant class and speed figure advantage over regional rivals.",
+        "front_runner_rail_bias_in_dry_conditions": "On Good 3/4 turf, the 360m home straight rewards horses that can lead ('E') or box-seat ('P') along the inside rail. When the track plays fast, swoopers ('C') often struggle to make up more than 4 lengths in the straight.",
+        "soft_heavy_track_drainage": "Elevated Central Tablelands position provides good natural slope drainage. However, on Heavy ground, the track can chop up on the inside rail, shifting the lane bias wider towards lanes 3-6 late in the meeting.",
+        "typical_distances": "Standard distances: 1000m, 1100m, 1200m, 1400m, 1600m, 2000m. Dedicated chutes at 1100m and 1400m."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3 (NSW Central Tablelands Regional Country)",
+        "class_rating": 85,
+        "speed_par_offsets": {
+            "turf_sprint": "-0.5",
+            "turf_route": "+0.0"
+        },
+        "lengths": 0.5,
+        "points": 1.5
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
+}
