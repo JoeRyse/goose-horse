@@ -1,16 +1,38 @@
 {
-    "location": "Franklin, KY",
-    "surface": "Turf Only",
-    "distance": "1 5/16 Miles",
-    "bias_notes": "Unique European-style course with elevation changes. NO DIRT.",
+    "track_code": "KD",
+    "location": "Franklin, Simpson County, Kentucky, USA",
+    "nicknames": [
+        "Kentucky Downs",
+        "The Pear Circuit",
+        "America's European Turf Course",
+        "Home of the Mint Millions Festival"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1 5/16 miles (2,112 metres / 10.5 furlongs)",
+            "surface": "Turf (European-style cool-season grass on rolling undulating terrain)",
+            "stretch_length": "Over 1/4 mile (420 metres) uphill stretch run",
+            "bias_notes": "Left-handed (counter-clockwise). Unique pear-shaped, non-symmetrical European-style turf course — the only one of its kind in North America. Features a 70-foot elevation change with a notable dip in the far turn ('The Dip') followed by a grueling uphill climb through the 420m home straight. Pure front-runners ('E' style) frequently tire on the uphill climb. Off-pace pressers ('P') and strong-finishing closers ('S' and 'C' styles) thrive, provided they can handle the undulating terrain.",
+            "post_bias": "SWEEPING BENDS NEUTRALIZE WIDE DRAWS: Sweeping, broad turns minimize barrier draw penalties compared to standard flat oval tracks. Over 6f and 6.5f sprints, draws 3 through 8 provide the optimal balance of ground-saving and clean racing room without getting boxed along the rail during the downhill dip."
+        }
+    },
     "handicapping_angles": {
-        "surface_bias": "Unique course - experience matters enormously.",
-        "pace_scenario": "Horses need to rate and handle the hills. Closers often thrive."
+        "boutique_purse_power_house": "Kentucky Downs offers the highest average daily purse distribution in North America ($2M+ to $3M+ per day during its September festival). Fields attract elite Grade 1 quality shippers from New York (Saratoga, Belmont), Kentucky (Churchill, Keeneland), Del Mar, and Europe (+3.5 pts purse quality angle).",
+        "european_course_experience_premium": "Course experience is paramount. Horses with a previous start or win over Kentucky Downs' undulating hill-and-dip layout hold a massive advantage over horses experiencing the course for the first time (+3.0 pts course familiarity bonus).",
+        "european_shippers_and_pedigree_boost": "European-trained or European-bred runners (by sires like Frankel, Dubawi, Lope de Vega, Kingman, No Nay Never, Sea The Stars) excel over this layout because the course mirrors European venues (Ascot, Newmarket, Goodwood). Upgrade European shippers (+2.5 pts).",
+        "uphill_stretch_stamina_tax_on_speed": "The steep uphill finish through the final 420m taxes early speed horses. Front-runners ('E' style) that set a fast early pace will melt down late. Boost mid-pack stalkers ('P') and closing swoopers ('S' / 'C') with proven late 300m sectional endurance.",
+        "turf_only_no_dirt_transfer": "Kentucky Downs is an all-turf facility with NO dirt track. In case of extreme weather/soft ground, races are delayed or rescheduled rather than moved to dirt. Treat Soft/Yielding ground ratings as authentic turf endurance tests.",
+        "typical_distances": "Standard program: 5.5f, 6f, 6.5f, 7f, 1 Mile, 1 5/16 Miles (2100m), 1 1/2 Miles (2400m)."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (Regional Premier)",
-        "lengths": 2.0,
-        "points": 5.0
+        "tier": "Tier 1 (USA Premier Turf Boutique Festival)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "turf_sprint": "+1.5",
+            "turf_route": "+2.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "USA_Thoroughbred"
 }
