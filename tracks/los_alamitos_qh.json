@@ -1,0 +1,39 @@
+{
+    "track_code": "LA",
+    "location": "Cypress, Orange County, California, USA",
+    "nicknames": [
+        "Los Alamitos Race Course",
+        "Los Al Quarter Horses",
+        "Home of the Los Alamitos Two Million",
+        "Mecca of Quarter Horse Racing"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "5/8 mile oval (1,000 metres / 5 furlongs) with dedicated 440-yard straightaway chute",
+            "surface": "Dirt (Engineered silt and sand loam cushion for maximum sprint traction)",
+            "stretch_length": "1,380 feet (420 metres) wide home straightaway",
+            "bias_notes": "Counter-clockwise (left-handed) for oval races; straightaway chute for 220y-440y dashes. Premier Quarter Horse venue in North America operating night meetings year-round. Straightaway dashes (220y, 300y, 330y, 350y, 400y, 440y) are pure speed tests where first-step gate break ('E' style) is 90% decisive. Off-pace closing ('C') is virtually non-existent in short dashes unless an early leader breaks down or stumbles out of the gate.",
+            "post_bias": "MIDDLE-TO-OUTSIDE DRAW ADVANTAGE IN STRAIGHTAWAY DASHES: In 220y to 400y sprints, post draws 4 through 8 provide cleaner straightaway paths away from inside gate crowding. Outside draws (6-10) in 400y and 440y G1 Futurities allow horses to extend their stride without inside interference."
+        }
+    },
+    "handicapping_angles": {
+        "premier_g1_futurity_and_champion_of_champions": "Los Alamitos hosts America's most prestigious Quarter Horse events: Los Alamitos Two Million Futurity ($2M G1), Golden State Million Futurity ($1M G1), Ed Burke Million Futurity ($1M G1), and the Champion of Champions ($750k G1). Trial heat time qualifiers and top-tier Speed Index (SI 95-105+) earners hold absolute authority (+4.0 pts class angle).",
+        "gate_break_first_step_acceleration_lock": "In Quarter Horse racing, the break out of the starting gate determines 90% of outcomes. Horses with proven top 60-yard split times and elite gate jockeys (e.g. Jesus Rios Ayala, Armando Viramontes) receive a major break-speed upgrade (+4.0 pts).",
+        "aqha_speed_index_si_rating": "Utilize AQHA Speed Index (SI) as the foundational speed metric. Horses earning consistent SI 95+ ratings against graded stakes competition carry a decisive advantage over SI 85-89 regional horses.",
+        "elite_trainer_trial_heat_dominance": "Hall of Fame and top-tier Quarter Horse trainers (e.g. Paul Jones, Monty Arrossa, Jaime Gomez, Heath Taylor, Jose Flores) dominate futurity trial nights and stakes finals. Grant trainer trial execution bonus (+2.5 pts).",
+        "night_racing_track_firmness": "Night racing in Orange County produces cooler temperatures that firm up the dirt cushion, causing the surface to play extremely fast. Early speed ('E') holds a dominant bias on cool evening tracks.",
+        "870_yard_distance_turn_specialists": "In 870-yard races (around one turn), Thoroughbred/Quarter Horse crossover horses with strong 4.5f-5f round-turn experience gain a distinct advantage over pure straightaway sprinters.",
+        "typical_distances": "Straightaway dashes: 220y, 300y, 330y, 350y, 400y, 440y. Turn races: 870 yards."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (USA Premier Quarter Horse Headquarters)",
+        "class_rating": 98,
+        "speed_par_offsets": {
+            "dirt_sprint": "+2.5",
+            "dirt_route": "+1.5"
+        },
+        "lengths": 0.0,
+        "points": 0.0
+    },
+    "region_group": "USA_QuarterHorse"
+}
