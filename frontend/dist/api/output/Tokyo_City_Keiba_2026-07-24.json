@@ -1,0 +1,2552 @@
+{
+    "meta": {
+        "track": "Tokyo City Keiba",
+        "date": "2026-07-24",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1800m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1800m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Michino Sicilia",
+                        "handicapper_notes": "Struggled last start (10th) but prior 4th shows some capability. Best at route distances.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Keiryu O",
+                        "handicapper_notes": "Returning from a 9-month layoff. Highly class-proven in C2 previously. Strong contender if fit.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "9",
+                        "horse_name": "Warbucks",
+                        "handicapper_notes": "Grinding veteran but recent form is poor (9th, 8th).",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Top Dia",
+                        "handicapper_notes": "Excellent 2nd last start over 1m. Proven winner at 1 1/8m on this track. Strong stamina profile.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "10",
+                        "horse_name": "Nishino Konukaame",
+                        "handicapper_notes": "Needs significant improvement after a poor 9th last start.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Teruken Yumikabuto",
+                        "handicapper_notes": "Sprinting background, stepping up to route. Unlikely to threaten.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Gol Duke",
+                        "handicapper_notes": "Consistent but slow. Needs to find extra gears.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Falcon Black",
+                        "handicapper_notes": "Outclassed in recent starts, finishing near the rear.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "5",
+                        "horse_name": "Caltha Palustris",
+                        "handicapper_notes": "Consistent C2/C3 performer. Solid 5th last start. Stamina is a plus.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "7",
+                        "horse_name": "Bettina",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "2",
+                        "horse_name": "Justin Long",
+                        "handicapper_notes": "Second-up after a long break. Sasagawa takes the mount. Fitter now and very dangerous.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "11",
+                        "horse_name": "Rhein Stryker",
+                        "handicapper_notes": "Struggling to make an impact in recent runs.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "1",
+                        "horse_name": "Bear Way To Go",
+                        "handicapper_notes": "Massive longshot with no form to recommend.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "7",
+                        "horse_name": "Positano",
+                        "handicapper_notes": "Double-digit finishes in recent starts. Hard to back.",
+                        "features": {
+                            "ai_holistic_score": 42,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "10",
+                        "horse_name": "Ganymedes Rey",
+                        "handicapper_notes": "Veteran who is past his best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Top Dia",
+                    "rating": 92.0,
+                    "reason": "Excellent 2nd last start over 1m. Proven winner at 1 1/8m on this track. Strong stamina profile."
+                },
+                {
+                    "number": "11",
+                    "barrier": "2",
+                    "name": "Justin Long",
+                    "rating": 88.0,
+                    "reason": "Second-up after a long break. Sasagawa takes the mount. Fitter now and very dangerous."
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Keiryu O",
+                    "rating": 85.0,
+                    "reason": "Returning from a 9-month layoff. Highly class-proven in C2 previously. Strong contender if fit."
+                },
+                {
+                    "number": "9",
+                    "barrier": "5",
+                    "name": "Caltha Palustris",
+                    "rating": 80.0,
+                    "reason": "Consistent C2/C3 performer. Solid 5th last start. Stamina is a plus."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "7",
+                "name": "Keiryu O",
+                "rating": 85.0,
+                "reason": "Returning from a 9-month layoff. Highly class-proven in C2 previously. Strong contender if fit."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#4 Top Dia</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #11, #2<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #11, #2"
+        },
+        {
+            "number": 2,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Kamiko",
+                        "handicapper_notes": "Disappointed on debut and subsequent starts.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Komizu Pierre",
+                        "handicapper_notes": "Impressive debut winner over 6f. Hard to beat with natural progression.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Orange Lucifer",
+                        "handicapper_notes": "Two consecutive runner-up finishes. Highly consistent and the main threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Aun",
+                        "handicapper_notes": "Midpack finishes, needs to find more speed.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Due Up",
+                        "handicapper_notes": "Finished last in a small field on debut.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Komizu Pierre",
+                    "rating": 95.0,
+                    "reason": "Impressive debut winner over 6f. Hard to beat with natural progression."
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Orange Lucifer",
+                    "rating": 93.0,
+                    "reason": "Two consecutive runner-up finishes. Highly consistent and the main threat."
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Aun",
+                    "rating": 70.0,
+                    "reason": "Midpack finishes, needs to find more speed."
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Kamiko",
+                    "rating": 55.0,
+                    "reason": "Disappointed on debut and subsequent starts."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "2",
+                "name": "Orange Lucifer",
+                "rating": 93.0,
+                "reason": "Two consecutive runner-up finishes. Highly consistent and the main threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Komizu Pierre</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #2, #3, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #2, #3, #4"
+        },
+        {
+            "number": 3,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Into The Light",
+                        "handicapper_notes": "Led and just missed on debut. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Gold Schmidt",
+                        "handicapper_notes": "Solid 3rd on debut. Fitter now.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Shinzen Akagi",
+                        "handicapper_notes": "Led and faded to 2nd on debut. Speed threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Shark Ring",
+                        "handicapper_notes": "Won debut in good style. Strong tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "12",
+                        "horse_name": "Friend Tonnerre",
+                        "handicapper_notes": "Poor debut and subsequent run. Outclassed.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Into The Light",
+                    "rating": 94.0,
+                    "reason": "Led and just missed on debut. Strong speed."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Shark Ring",
+                    "rating": 92.0,
+                    "reason": "Won debut in good style. Strong tactical speed."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Shinzen Akagi",
+                    "rating": 88.0,
+                    "reason": "Led and faded to 2nd on debut. Speed threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Gold Schmidt",
+                    "rating": 82.0,
+                    "reason": "Solid 3rd on debut. Fitter now."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Shinzen Akagi",
+                "rating": 88.0,
+                "reason": "Led and faded to 2nd on debut. Speed threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Into The Light</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #4, #3<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #4, #3"
+        },
+        {
+            "number": 4,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "11",
+                        "horse_name": "S Class",
+                        "handicapper_notes": "Won first-up over 6f. Classy filly with room to grow.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Buon Viaggio",
+                        "handicapper_notes": "Won two back but disappointed last start. Bounce-back candidate.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bois Vert",
+                        "handicapper_notes": "Returning from a layoff. Consistent placer.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Tee N Tee",
+                        "handicapper_notes": "Disappointed last start but won prior. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Career Ladder",
+                        "handicapper_notes": "Grinding type, consistent 4th-place finishes.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Last Love Love",
+                        "handicapper_notes": "Excellent 2nd two back, disappointed last start.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "9",
+                        "horse_name": "Dear More",
+                        "handicapper_notes": "Consistent filly, placed 2nd three back.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Hayama Days",
+                        "handicapper_notes": "Struggling to compete at this level.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Omoideno Atosaki",
+                        "handicapper_notes": "Won two back, solid 3rd last start. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Fuji Perlman",
+                        "handicapper_notes": "Won two back but disappointed last start.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "Self Ace",
+                        "handicapper_notes": "Highly consistent with multiple runner-up finishes. Overdue for a win.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Self Ace",
+                    "rating": 92.0,
+                    "reason": "Highly consistent with multiple runner-up finishes. Overdue for a win."
+                },
+                {
+                    "number": "1",
+                    "barrier": "11",
+                    "name": "S Class",
+                    "rating": 90.0,
+                    "reason": "Won first-up over 6f. Classy filly with room to grow."
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Omoideno Atosaki",
+                    "rating": 88.0,
+                    "reason": "Won two back, solid 3rd last start. Strong contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Tee N Tee",
+                    "rating": 84.0,
+                    "reason": "Disappointed last start but won prior. Strong speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "6",
+                "name": "Omoideno Atosaki",
+                "rating": 88.0,
+                "reason": "Won two back, solid 3rd last start. Strong contender."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #11, #1, #9<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #11, #1, #9"
+        },
+        {
+            "number": 5,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Suzuno Al Rimal",
+                        "handicapper_notes": "On a two-race win streak. Highly impressive speed.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "12",
+                        "horse_name": "Rose Princess",
+                        "handicapper_notes": "JRA transfer with decent form. Dangerous if handles the sand.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "13",
+                        "horse_name": "Playback",
+                        "handicapper_notes": "Consistent placer, solid 3rd last start.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Revuelto Dio",
+                        "handicapper_notes": "Solid 4th last start. Proven winner previously.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "8",
+                        "horse_name": "Heian Tear",
+                        "handicapper_notes": "Surprised with a 2nd last start. Needs to prove it wasn't a fluke.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Pyrgos Aetos",
+                        "handicapper_notes": "Struggling to make an impact.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Mew Chan",
+                        "handicapper_notes": "Decent 4th last start. Proven winner.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Nijiiro Pikal",
+                        "handicapper_notes": "Returning from a spell. Won first-up previously.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "11",
+                        "horse_name": "Longing Star",
+                        "handicapper_notes": "Faded to 6th last start. Needs a softer trip.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "7",
+                        "horse_name": "Edono Star Wood",
+                        "handicapper_notes": "Returning from a break. Won two of three career starts.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "2",
+                        "horse_name": "Three Banker's",
+                        "handicapper_notes": "Excellent 2nd last start. Strong tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "4",
+                        "horse_name": "Hatchin",
+                        "handicapper_notes": "Returning from a spell. Decent placer previously.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "7",
+                        "horse_name": "Haru Ichiban",
+                        "handicapper_notes": "Won debut in impressive fashion. High potential.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "7",
+                        "horse_name": "Canterbury Time",
+                        "handicapper_notes": "Surprised with a 2nd last start. Hard to replicate.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Suzuno Al Rimal",
+                    "rating": 95.0,
+                    "reason": "On a two-race win streak. Highly impressive speed."
+                },
+                {
+                    "number": "13",
+                    "barrier": "7",
+                    "name": "Haru Ichiban",
+                    "rating": 90.0,
+                    "reason": "Won debut in impressive fashion. High potential."
+                },
+                {
+                    "number": "10",
+                    "barrier": "7",
+                    "name": "Edono Star Wood",
+                    "rating": 88.0,
+                    "reason": "Returning from a break. Won two of three career starts."
+                },
+                {
+                    "number": "11",
+                    "barrier": "2",
+                    "name": "Three Banker's",
+                    "rating": 86.0,
+                    "reason": "Excellent 2nd last start. Strong tactical speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "12",
+                "name": "Rose Princess",
+                "rating": 85.0,
+                "reason": "JRA transfer with decent form. Dangerous if handles the sand."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#1 Suzuno Al Rimal</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #13, #2 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #13, #10"
+        },
+        {
+            "number": 6,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Shimpu Ace",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Samani Denka",
+                        "handicapper_notes": "Disappointed last start but won three back.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Magic Elegance",
+                        "handicapper_notes": "Highly consistent, won two back. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Mine Gold",
+                        "handicapper_notes": "Won last start in good style.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Cheval Nez Blanc",
+                        "handicapper_notes": "Struggling in recent starts.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Taisei Deity",
+                        "handicapper_notes": "Excellent 2nd last start. Overdue for a win.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "14",
+                        "horse_name": "V Three",
+                        "handicapper_notes": "Solid 3rd last start. Consistent speed.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Otemoyan",
+                        "handicapper_notes": "Won two back, solid 4th last start.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "Bobby",
+                        "handicapper_notes": "Struggling to compete, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "5",
+                        "horse_name": "Straight Beam",
+                        "handicapper_notes": "Won three back but disappointed since.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "6",
+                        "horse_name": "Ampan Time",
+                        "handicapper_notes": "Won three back, disappointed last start.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "7",
+                        "horse_name": "Orange Man",
+                        "handicapper_notes": "Consistent midpack finishes.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "1",
+                        "horse_name": "Savoie",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "12",
+                        "horse_name": "Scratch Clutch",
+                        "handicapper_notes": "Won three back but poor since.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "16",
+                        "horse_name": "Takezo",
+                        "handicapper_notes": "Excellent 3rd last start. Strong closer.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Magic Elegance",
+                    "rating": 92.0,
+                    "reason": "Highly consistent, won two back. Strong contender."
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Taisei Deity",
+                    "rating": 88.0,
+                    "reason": "Excellent 2nd last start. Overdue for a win."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Mine Gold",
+                    "rating": 85.0,
+                    "reason": "Won last start in good style."
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Otemoyan",
+                    "rating": 84.0,
+                    "reason": "Won two back, solid 4th last start."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "6",
+                "name": "Magic Elegance",
+                "rating": 92.0,
+                "reason": "Highly consistent, won two back. Strong contender."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#3 Magic Elegance</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #6, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #6, #4"
+        },
+        {
+            "number": 7,
+            "distance": "2000m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "2000m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Bentayga",
+                        "handicapper_notes": "Returning from a spell. Highly class-proven.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Glare Neon Light",
+                        "handicapper_notes": "Decent 4th last start. Stamina is a question.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "9",
+                        "horse_name": "Sparta Leonidas",
+                        "handicapper_notes": "Consistent route performer. Won three back.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Marron Chantilly",
+                        "handicapper_notes": "Won two back over 1 1/4m. Strong stamina profile.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Shadow Lupin",
+                        "handicapper_notes": "Won two back, disappointed last start.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Dibaryon",
+                        "handicapper_notes": "Struggling to compete at this level.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Fergus",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Sabuno Hakutaka",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Bishamonten",
+                        "handicapper_notes": "Decent 5th last start. Grinding style suits the route.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Bentayga",
+                    "rating": 95.0,
+                    "reason": "Returning from a spell. Highly class-proven."
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Marron Chantilly",
+                    "rating": 90.0,
+                    "reason": "Won two back over 1 1/4m. Strong stamina profile."
+                },
+                {
+                    "number": "3",
+                    "barrier": "9",
+                    "name": "Sparta Leonidas",
+                    "rating": 88.0,
+                    "reason": "Consistent route performer. Won three back."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Shadow Lupin",
+                    "rating": 84.0,
+                    "reason": "Won two back, disappointed last start."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "1",
+                "name": "Shadow Lupin",
+                "rating": 84.0,
+                "reason": "Won two back, disappointed last start."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#1 Bentayga</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #4, #5 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #4, #3"
+        },
+        {
+            "number": 8,
+            "distance": "1000m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1000m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Sakaben Queen",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Ninlil",
+                        "handicapper_notes": "Struggling to make an impact.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Friendly Ship",
+                        "handicapper_notes": "Consistent placer, solid 3rd two back.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Reve Legend",
+                        "handicapper_notes": "Disappointed last start but has speed.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Ammonyaito",
+                        "handicapper_notes": "Stepping down in distance. Hard to back.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Magician Girl",
+                        "handicapper_notes": "Highly consistent, multiple placings. Overdue.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "12",
+                        "horse_name": "Lucky Come Come",
+                        "handicapper_notes": "Struggling in recent starts.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "T's Apex",
+                        "handicapper_notes": "Consistent midpack finishes.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Mademoisellerennes",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "7",
+                        "horse_name": "Sound Courage",
+                        "handicapper_notes": "Excellent 2nd last start. Strong tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "Aoi Koki",
+                        "handicapper_notes": "Won last start in good style. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "9",
+                        "horse_name": "Tagano Sadaf",
+                        "handicapper_notes": "Consistent 4th-place finishes.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "7",
+                    "name": "Sound Courage",
+                    "rating": 95.0,
+                    "reason": "Excellent 2nd last start. Strong tactical speed."
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Magician Girl",
+                    "rating": 92.0,
+                    "reason": "Highly consistent, multiple placings. Overdue."
+                },
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Aoi Koki",
+                    "rating": 88.0,
+                    "reason": "Won last start in good style. Strong speed."
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Friendly Ship",
+                    "rating": 80.0,
+                    "reason": "Consistent placer, solid 3rd two back."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "10",
+                "name": "Magician Girl",
+                "rating": 92.0,
+                "reason": "Highly consistent, multiple placings. Overdue."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#10 Sound Courage</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #10, #6, #11<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #10, #6, #11"
+        },
+        {
+            "number": 9,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "You Hinata",
+                        "handicapper_notes": "Struggling in recent starts.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Keiai Elnath",
+                        "handicapper_notes": "Returning from a break. Highly class-proven.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Esprit Richard",
+                        "handicapper_notes": "Won three back but poor since.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Hakuai Soleil",
+                        "handicapper_notes": "Won three back, consistent since.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Gloire Sky",
+                        "handicapper_notes": "Won last start in good style. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Meiner Aegis",
+                        "handicapper_notes": "Excellent 2nd last start. Strong closer.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "3",
+                        "horse_name": "Valtari",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "10",
+                        "horse_name": "Kogen Silver",
+                        "handicapper_notes": "Consistent placer, solid 3rd last start.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Kazuno Treasure",
+                        "handicapper_notes": "Consistent midpack finishes.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "San Diego",
+                        "handicapper_notes": "JRA transfer with decent form.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "8",
+                        "horse_name": "Gregg",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "9",
+                        "horse_name": "Guren (USA)",
+                        "handicapper_notes": "Won debut in impressive fashion. High potential.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "12",
+                    "barrier": "9",
+                    "name": "Guren (USA)",
+                    "rating": 95.0,
+                    "reason": "Won debut in impressive fashion. High potential."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Keiai Elnath",
+                    "rating": 90.0,
+                    "reason": "Returning from a break. Highly class-proven."
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Gloire Sky",
+                    "rating": 88.0,
+                    "reason": "Won last start in good style. Strong speed."
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Meiner Aegis",
+                    "rating": 86.0,
+                    "reason": "Excellent 2nd last start. Strong closer."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "1",
+                "name": "Keiai Elnath",
+                "rating": 90.0,
+                "reason": "Returning from a break. Highly class-proven."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#12 Guren (USA)</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #12, #2, #5<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #12, #2, #5"
+        },
+        {
+            "number": 10,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "10",
+                        "horse_name": "Gonzago",
+                        "handicapper_notes": "Consistent placer, solid 3rd two back.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Lycia",
+                        "handicapper_notes": "JRA transfer with poor recent form.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Chancelade",
+                        "handicapper_notes": "Won last start in good style. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "14",
+                        "horse_name": "T's Link",
+                        "handicapper_notes": "Won two back but disappointed last start.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "Kitasan Yuja",
+                        "handicapper_notes": "Excellent 2nd last start. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "One Way",
+                        "handicapper_notes": "Consistent 5th-place finishes.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "9",
+                        "horse_name": "Mikuni Sunshine",
+                        "handicapper_notes": "On a three-race win streak. Highly impressive.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "11",
+                        "horse_name": "Cavall",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Dubai Mission",
+                        "handicapper_notes": "Won two back, solid 4th last start.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "4",
+                        "horse_name": "Drive Me Home",
+                        "handicapper_notes": "Consistent 3rd last start.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "2",
+                        "horse_name": "Vanbee",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "1",
+                        "horse_name": "Zeitoku",
+                        "handicapper_notes": "Consistent placer, solid 2nd three back.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "3",
+                        "horse_name": "Quads",
+                        "handicapper_notes": "Won two back, solid 2nd last start.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "4",
+                        "horse_name": "Perseids",
+                        "handicapper_notes": "Won last start in good style.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "9",
+                    "name": "Mikuni Sunshine",
+                    "rating": 95.0,
+                    "reason": "On a three-race win streak. Highly impressive."
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Chancelade",
+                    "rating": 92.0,
+                    "reason": "Won last start in good style. Strong speed."
+                },
+                {
+                    "number": "13",
+                    "barrier": "3",
+                    "name": "Quads",
+                    "rating": 90.0,
+                    "reason": "Won two back, solid 2nd last start."
+                },
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "Kitasan Yuja",
+                    "rating": 88.0,
+                    "reason": "Excellent 2nd last start. Strong speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "9",
+                "name": "Mikuni Sunshine",
+                "rating": 95.0,
+                "reason": "On a three-race win streak. Highly impressive."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#7 Mikuni Sunshine</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #3, #13<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #3, #13"
+        },
+        {
+            "number": 11,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Legend Way",
+                        "handicapper_notes": "Won last start in good style. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Chadal Kun",
+                        "handicapper_notes": "Disappointed last start but won prior.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Univers",
+                        "handicapper_notes": "Consistent placer, won three back.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Armin Tesoro",
+                        "handicapper_notes": "Returning from a spell. Highly class-proven.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Dona Schon (USA)",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Duro Avanti",
+                        "handicapper_notes": "Consistent placer, solid 3rd two back.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Osorno",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Italo",
+                        "handicapper_notes": "Struggling in recent starts.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "12",
+                        "horse_name": "Kaseno Tiger",
+                        "handicapper_notes": "Excellent 2nd last start. Strong speed.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "4",
+                        "horse_name": "Grass Greed",
+                        "handicapper_notes": "Won two back, solid 4th last start.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "White Magic",
+                        "handicapper_notes": "Won last start in good style. On a strong run.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "4",
+                        "horse_name": "Erz",
+                        "handicapper_notes": "Won three back but poor since.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "11",
+                        "horse_name": "La Paix Le Ciel",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "4",
+                        "horse_name": "Nagisano Runa",
+                        "handicapper_notes": "Won three back but poor since.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "6",
+                        "horse_name": "Baby Gate",
+                        "handicapper_notes": "Consistent 4th last start.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16",
+                        "barrier": "10",
+                        "horse_name": "Win Irene",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "White Magic",
+                    "rating": 95.0,
+                    "reason": "Won last start in good style. On a strong run."
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Legend Way",
+                    "rating": 92.0,
+                    "reason": "Won last start in good style. Strong speed."
+                },
+                {
+                    "number": "10",
+                    "barrier": "4",
+                    "name": "Grass Greed",
+                    "rating": 90.0,
+                    "reason": "Won two back, solid 4th last start."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Armin Tesoro",
+                    "rating": 88.0,
+                    "reason": "Returning from a spell. Highly class-proven."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "3",
+                "name": "White Magic",
+                "rating": 95.0,
+                "reason": "Won last start in good style. On a strong run."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#11 White Magic</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #11, #1, #10<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #11, #1, #10"
+        },
+        {
+            "number": 12,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Token Renan",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Barrel",
+                        "handicapper_notes": "Consistent but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Sabuno Ryoma",
+                        "handicapper_notes": "Struggling in recent starts.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "11",
+                        "horse_name": "Vittinki Bara",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "10",
+                        "horse_name": "A Shin Nectar",
+                        "handicapper_notes": "Poor recent form, double-digit finishes.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Singing Blues",
+                        "handicapper_notes": "On a massive win streak. Highly impressive.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Komizu Amour",
+                        "handicapper_notes": "Consistent but lacks winning speed.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "After Review",
+                        "handicapper_notes": "Excellent 3rd last start. Overdue for a win.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "4",
+                        "horse_name": "Yamano Warrior",
+                        "handicapper_notes": "Consistent midpack finishes.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Singing Blues",
+                    "rating": 98.0,
+                    "reason": "On a massive win streak. Highly impressive."
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "After Review",
+                    "rating": 90.0,
+                    "reason": "Excellent 3rd last start. Overdue for a win."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Komizu Amour",
+                    "rating": 74.0,
+                    "reason": "Consistent but lacks winning speed."
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Barrel",
+                    "rating": 72.0,
+                    "reason": "Consistent but lacks winning punch."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "6",
+                "name": "After Review",
+                "rating": 90.0,
+                "reason": "Excellent 3rd last start. Overdue for a win."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 Singing Blues</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #6 over #8, #7<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #6 / #8, #7 / #8, #7, #2"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#4, #11) with (#2, #3)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#2, #3) with (#1, #4)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1, #4) with (#11, #1)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#11, #1) with (#1, #13)",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#1, #13) with (#3, #6)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3, #6) with (#1, #4)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#1, #4) with (#10, #6)",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#10, #6) with (#12, #2)",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#12, #2) with (#7, #3)",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#7, #3) with (#11, #1)",
+        "<b>R11 \u2794 R12 DAILY DOUBLE:</b> Play (#11, #1) with (#6 (Solo Lock))"
+    ]
+}

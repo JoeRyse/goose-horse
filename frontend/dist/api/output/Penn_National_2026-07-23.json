@@ -1,0 +1,983 @@
+{
+    "meta": {
+        "track": "Penn National",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 2, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Mencke",
+                        "handicapper_notes": "Faded to third over six furlongs last time out. Cutting back to 5 1/2 furlongs should play perfectly into his early speed style, especially from the rail post on this speed-favoring track.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E/EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Shorter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "The Beast Master",
+                        "handicapper_notes": "Impressive maiden winner last out posting a field-high 98 speed figure. He showed great tractability and should sit a perfect stalking trip just behind the speed.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "War Salute",
+                        "handicapper_notes": "Vied and weakened over a sloppy track two starts back but showed better resilience on dry dirt. Needs to establish an early position to contend.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Stonecoldhandsome",
+                        "handicapper_notes": "Outpaced early last time out but has shown the ability to wire fields when allowed to dictate terms. Mejias takes the mount looking to secure the lead.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "The Beast Master",
+                    "rating": 95.0,
+                    "reason": "Impressive maiden winner last out posting a field-high 98 speed figure. He showed great tractability and should sit a perfect stalking trip just behind the speed."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Mencke",
+                    "rating": 88.0,
+                    "reason": "Faded to third over six furlongs last time out. Cutting back to 5 1/2 furlongs should play perfectly into his early speed style, especially from the rail post on this speed-favoring track. | <i>\ud83d\udccf Shorter</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "War Salute",
+                    "rating": 84.0,
+                    "reason": "Vied and weakened over a sloppy track two starts back but showed better resilience on dry dirt. Needs to establish an early position to contend."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Stonecoldhandsome",
+                    "rating": 82.0,
+                    "reason": "Outpaced early last time out but has shown the ability to wire fields when allowed to dictate terms. Mejias takes the mount looking to secure the lead."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "War Salute",
+                "rating": 84.0,
+                "reason": "Vied and weakened over a sloppy track two starts back but showed better resilience on dry dirt. Needs to establish an early position to contend."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 The Beast Master</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #2 over #1, #4"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Pergamon",
+                        "handicapper_notes": "Stalked and weakened on the turf last time out. Inside draw gives him a ground-saving trip, but needs to find extra reserves late.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Impazible Prince",
+                        "handicapper_notes": "Saved ground and offered no bid last time out. Veteran gelding needs a fast pace setup to make an impact late.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Country Charlie",
+                        "handicapper_notes": "Bumped at the first turn last out and never got on track. Better than that effort suggests and can surprise at a price.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Master Munnings",
+                        "handicapper_notes": "Solid late rally to secure fourth last time out. Wolfsont retains the mount and should have him primed for a strong closing kick.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Mungo",
+                        "handicapper_notes": "Stalked wide and faded last time out. Boasts a massive 106 speed figure in his back-past performances; a return to that form makes him the one to beat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lewis The Robber",
+                        "handicapper_notes": "Chased and was ridden early last time out. Solid local turf record and should appreciate the slight class relief.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Atomico",
+                        "handicapper_notes": "Five-wide upper stretch run was not enough last time out. Will need a more efficient trip from the wide draw.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Music Box Dancer",
+                        "handicapper_notes": "Set the pace and weakened late to finish third last time out. Early speed is dangerous if he can clear the field.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Mungo",
+                    "rating": 94.0,
+                    "reason": "Stalked wide and faded last time out. Boasts a massive 106 speed figure in his back-past performances; a return to that form makes him the one to beat."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Master Munnings",
+                    "rating": 92.0,
+                    "reason": "Solid late rally to secure fourth last time out. Wolfsont retains the mount and should have him primed for a strong closing kick."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Music Box Dancer",
+                    "rating": 91.0,
+                    "reason": "Set the pace and weakened late to finish third last time out. Early speed is dangerous if he can clear the field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lewis The Robber",
+                    "rating": 89.0,
+                    "reason": "Chased and was ridden early last time out. Solid local turf record and should appreciate the slight class relief."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Country Charlie",
+                "rating": 85.0,
+                "reason": "Bumped at the first turn last out and never got on track. Better than that effort suggests and can surprise at a price."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #4, #3 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #4, #9"
+        },
+        {
+            "number": 3,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 3, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Pageant Princess",
+                        "handicapper_notes": "Failed to keep pace on the dirt last time out but returns to her preferred turf sprint surface. Inside draw is a massive advantage.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "E/EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Air One",
+                        "handicapper_notes": "Determined winner last time out at Presque Isle. Boasts a massive 112 speed figure in her arsenal and must be respected.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Whiskey Lullaby",
+                        "handicapper_notes": "Dueling winner last time out over this course. She loves the local turf and has the tactical speed to sit a perfect trip.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "My Girl Back Home",
+                        "handicapper_notes": "Set the pace and gave way late last time out. Speed is her main weapon, but she may face pressure early.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "I B Flyin",
+                        "handicapper_notes": "Stalked wide and finished evenly last time out. Needs to find a bit more late to threaten the top selections.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "The Furmanator",
+                        "handicapper_notes": "Vied early and re-bid gamely to secure second last time out. Consistent turf sprinter always runs her race.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "E/EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Kissed At Dawn",
+                        "handicapper_notes": "Slowly away and finished evenly last time out. Hard to back in this deep allowance field.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Winning Play",
+                        "handicapper_notes": "Solid late gain to secure third last time out. Demasi-trained filly is in career-best form and looms a major threat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "P/S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Whiskey Lullaby",
+                    "rating": 95.0,
+                    "reason": "Dueling winner last time out over this course. She loves the local turf and has the tactical speed to sit a perfect trip."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Winning Play",
+                    "rating": 94.0,
+                    "reason": "Solid late gain to secure third last time out. Demasi-trained filly is in career-best form and looms a major threat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Pageant Princess",
+                    "rating": 93.0,
+                    "reason": "Failed to keep pace on the dirt last time out but returns to her preferred turf sprint surface. Inside draw is a massive advantage."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Air One",
+                    "rating": 91.0,
+                    "reason": "Determined winner last time out at Presque Isle. Boasts a massive 112 speed figure in her arsenal and must be respected."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "The Furmanator",
+                "rating": 89.0,
+                "reason": "Vied early and re-bid gamely to secure second last time out. Consistent turf sprinter always runs her race."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Whiskey Lullaby</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #9, #6 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #9, #1"
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Blo By The Field",
+                        "handicapper_notes": "Rallied three-wide and prevailed last time out. Inside post on this speed-favoring track is a massive asset.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Little Cocoa Bean",
+                        "handicapper_notes": "Pressed the lead and weakened late last time out. Speed figure of 97 makes her a solid contender if she can ration her speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Joyous Song",
+                        "handicapper_notes": "Pulled and drifted wide last time out. High speed figure history makes her a major threat if she can settle early.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Misspent",
+                        "handicapper_notes": "Five-wide move was not enough last time out. Needs a more efficient trip to contend with the top two.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Peridot Pendant",
+                        "handicapper_notes": "Dominant winner last time out, clearing the field easily. Boasts a field-high 104 speed figure and is the class of the race.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Peridot Pendant",
+                    "rating": 101.0,
+                    "reason": "Dominant winner last time out, clearing the field easily. Boasts a field-high 104 speed figure and is the class of the race. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Blo By The Field",
+                    "rating": 96.0,
+                    "reason": "Rallied three-wide and prevailed last time out. Inside post on this speed-favoring track is a massive asset."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Joyous Song",
+                    "rating": 91.0,
+                    "reason": "Pulled and drifted wide last time out. High speed figure history makes her a major threat if she can settle early."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Little Cocoa Bean",
+                    "rating": 88.0,
+                    "reason": "Pressed the lead and weakened late last time out. Speed figure of 97 makes her a solid contender if she can ration her speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Joyous Song",
+                "rating": 91.0,
+                "reason": "Pulled and drifted wide last time out. High speed figure history makes her a major threat if she can settle early."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#5 Peridot Pendant</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #1, #3<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #5, #1, #3"
+        },
+        {
+            "number": 5,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 2",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Strawberry Treat",
+                        "handicapper_notes": "Angled out and made a strong three-wide move to win last time out. Inside draw is perfect for his tactical style.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Uncle Money",
+                        "handicapper_notes": "Led and kicked clear easily last time out. Boasts a field-high 105 speed figure and is the clear horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "For Some Reason",
+                        "handicapper_notes": "Ridden early and weakened last time out. Needs to establish an early position to contend.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Prince Of Rain",
+                        "handicapper_notes": "Broke poorly but made a game rally to secure second last time out. Solid late threat if the pace collapses.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Likebelivingnmagic",
+                        "handicapper_notes": "Rallied along the inside to secure second last time out. Hard to back for the win but can fill out the exotics.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Uncle Money",
+                    "rating": 101.0,
+                    "reason": "Led and kicked clear easily last time out. Boasts a field-high 105 speed figure and is the clear horse to beat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Strawberry Treat",
+                    "rating": 93.0,
+                    "reason": "Angled out and made a strong three-wide move to win last time out. Inside draw is perfect for his tactical style."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Prince Of Rain",
+                    "rating": 89.0,
+                    "reason": "Broke poorly but made a game rally to secure second last time out. Solid late threat if the pace collapses."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "For Some Reason",
+                    "rating": 85.0,
+                    "reason": "Ridden early and weakened last time out. Needs to establish an early position to contend."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Prince Of Rain",
+                "rating": 89.0,
+                "reason": "Broke poorly but made a game rally to secure second last time out. Solid late threat if the pace collapses."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Uncle Money</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #2 over #1, #4<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #2 / #1, #4 / #1, #4, #3"
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 2, 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bruder",
+                        "handicapper_notes": "Made a strong bid three-wide to secure second last time out. Consistent local sprinter is primed for a top effort.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Legal Attack (gb)",
+                        "handicapper_notes": "Shuffled early and eased back last time out. Boasts a massive 111 speed figure in his back-past performances; class of the race.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Rob The Rich",
+                        "handicapper_notes": "Hop start and faded last time out. Veteran gelding needs a clean break to utilize his early speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Fast Freeze Kaz",
+                        "handicapper_notes": "Bobbled early and weakened last time out. Hard to back in this deep claiming field.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Joking Way",
+                        "handicapper_notes": "Tracked four-wide and faded last time out. Needs a more efficient trip to threaten the top selections.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Legal Attack (gb)",
+                    "rating": 96.0,
+                    "reason": "Shuffled early and eased back last time out. Boasts a massive 111 speed figure in his back-past performances; class of the race."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bruder",
+                    "rating": 94.0,
+                    "reason": "Made a strong bid three-wide to secure second last time out. Consistent local sprinter is primed for a top effort."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Rob The Rich",
+                    "rating": 91.0,
+                    "reason": "Hop start and faded last time out. Veteran gelding needs a clean break to utilize his early speed. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Joking Way",
+                    "rating": 85.0,
+                    "reason": "Tracked four-wide and faded last time out. Needs a more efficient trip to threaten the top selections."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Joking Way",
+                "rating": 85.0,
+                "reason": "Tracked four-wide and faded last time out. Needs a more efficient trip to threaten the top selections."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #2, #7 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #2, #5"
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Town's Warrior",
+                        "handicapper_notes": "Chased wide and weakened last time out. Inside draw is a massive asset on this speed-favoring track.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Tactical Humor",
+                        "handicapper_notes": "Set the pace and gave way late last time out. Early speed is dangerous if he can clear the field.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Mighty Minion",
+                        "handicapper_notes": "Rallied along the inside to secure second last time out. Solid late threat if the pace collapses.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Rapidity",
+                        "handicapper_notes": "Rail run and gave way late last time out. Hard to back in this deep claiming field.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Debate",
+                        "handicapper_notes": "Grinded out a tough win last time out. Consistent local miler is primed for another top effort.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Uninvited Guest",
+                        "handicapper_notes": "Moved outside and faded last time out. Needs a more efficient trip to threaten the top selections.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Ocala Dream",
+                        "handicapper_notes": "Dawdled inside and held well to win last time out. Boasts a solid local record and is the class of the field.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Twenty One Kid",
+                        "handicapper_notes": "Set a narrow lead and weakened late last time out. Hard to back from the wide draw.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E/EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Ocala Dream",
+                    "rating": 95.0,
+                    "reason": "Dawdled inside and held well to win last time out. Boasts a solid local record and is the class of the field."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Debate",
+                    "rating": 94.0,
+                    "reason": "Grinded out a tough win last time out. Consistent local miler is primed for another top effort."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Town's Warrior",
+                    "rating": 91.0,
+                    "reason": "Chased wide and weakened last time out. Inside draw is a massive asset on this speed-favoring track."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Tactical Humor",
+                    "rating": 91.0,
+                    "reason": "Set the pace and gave way late last time out. Early speed is dangerous if he can clear the field. | <i>\ud83d\udd25 Lone Speed</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Uninvited Guest",
+                "rating": 85.0,
+                "reason": "Moved outside and faded last time out. Needs a more efficient trip to threaten the top selections."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #5, #6 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #5, #1"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#2, #1) with (#6, #4)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#6, #4) with (#3, #9)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#3, #9) with (#5 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#3, #2)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3, #2) with (#7, #5)"
+    ]
+}

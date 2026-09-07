@@ -1,0 +1,1779 @@
+{
+    "meta": {
+        "track": "Delaware Park",
+        "date": "2026-07-29",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1M 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1M 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 3, 10, 4; Trifecta 3 with 4, 10 with 2, 4, 7, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "As The Bell Toles",
+                        "handicapper_notes": "Top overall choice with Paco Lopez riding for high-percentage trainer Michael Simone. Features elite local dirt route speed figures and tactical early speed ideally suited for the muddy track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser Advantage",
+                            "ai_holistic_score": 94,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Back Wall Bandit",
+                        "handicapper_notes": "Mid-Atlantic shipper taking a meaningful class drop out of higher Laurel Park claimers ($16k) into $7,500 claiming. Picks up jockey Jeiron Barbosa and owns top-tier speed figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Pasila",
+                        "handicapper_notes": "Flagged as the Danger Horse after a strong 2nd place finish over this exact wet Delaware main track on July 9th. Consistent stalker with solid overall class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Forget Tomorrow",
+                        "handicapper_notes": "Enters off consecutive runner-up efforts at Penn National. Shows dependable form and useful tactical positioning to contend for exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Aggro",
+                        "handicapper_notes": "Parx shipper with forward tactical speed. Has four previous off-track placings and should be prominent in the early pace setup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Warriors Jewel",
+                        "handicapper_notes": "Finished 3rd behind Pasila over a sloppy track on July 9th. Holds solid off-track stats (5 starts, 1 win, 2 thirds) and fits underneath in superfectas.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "As The Bell Toles",
+                    "rating": 94.0,
+                    "reason": "Top overall choice with Paco Lopez riding for high-percentage trainer Michael Simone. Features elite local dirt route speed figures and tactical early speed ideally suited for the muddy track."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Back Wall Bandit",
+                    "rating": 89.0,
+                    "reason": "Mid-Atlantic shipper taking a meaningful class drop out of higher Laurel Park claimers ($16k) into $7,500 claiming. Picks up jockey Jeiron Barbosa and owns top-tier speed figures. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pasila",
+                    "rating": 86.0,
+                    "reason": "Flagged as the Danger Horse after a strong 2nd place finish over this exact wet Delaware main track on July 9th. Consistent stalker with solid overall class."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Forget Tomorrow",
+                    "rating": 83.0,
+                    "reason": "Enters off consecutive runner-up efforts at Penn National. Shows dependable form and useful tactical positioning to contend for exotics."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Aggro",
+                    "rating": 81.0,
+                    "reason": "Parx shipper with forward tactical speed. Has four previous off-track placings and should be prominent in the early pace setup."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "As The Bell Toles",
+                    "rating": 94.0,
+                    "reason": "Top overall choice with Paco Lopez riding for high-percentage trainer Michael Simone. Features elite local dirt route speed figures and tactical early speed ideally suited for the muddy track."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Back Wall Bandit",
+                    "rating": 89.0,
+                    "reason": "Mid-Atlantic shipper taking a meaningful class drop out of higher Laurel Park claimers ($16k) into $7,500 claiming. Picks up jockey Jeiron Barbosa and owns top-tier speed figures. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pasila",
+                    "rating": 86.0,
+                    "reason": "Flagged as the Danger Horse after a strong 2nd place finish over this exact wet Delaware main track on July 9th. Consistent stalker with solid overall class."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Forget Tomorrow",
+                    "rating": 83.0,
+                    "reason": "Enters off consecutive runner-up efforts at Penn National. Shows dependable form and useful tactical positioning to contend for exotics."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Aggro",
+                    "rating": 81.0,
+                    "reason": "Parx shipper with forward tactical speed. Has four previous off-track placings and should be prominent in the early pace setup."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Warriors Jewel",
+                    "rating": 78.0,
+                    "reason": "Finished 3rd behind Pasila over a sloppy track on July 9th. Holds solid off-track stats (5 starts, 1 win, 2 thirds) and fits underneath in superfectas."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Pasila",
+                "rating": 86.0,
+                "reason": "Flagged as the Danger Horse after a strong 2nd place finish over this exact wet Delaware main track on July 9th. Consistent stalker with solid overall class."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 As The Bell Toles</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#10, #4) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 7; Exacta Straight 7-2; Exacta Box 2, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Latest Edition",
+                        "handicapper_notes": "Holds a distinct overall rating edge with a 104 speed figure. Missed by a neck at this track and distance on July 8. Draws well outside in a short field and should get an ideal stalking trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Stalking",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Little Crybaby",
+                        "handicapper_notes": "Finished a narrow third behind Latest Edition on July 8 after encountering trouble at the 5/8 pole. Drawn inside on muddy surface, gives her tactical position behind the front runners.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Presser",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Steadied 5/8",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Bertie's Cause",
+                        "handicapper_notes": "Possesses powerful back class with a 98 speed rating. Was beaten favorite on July 8 but projectable pace meltdown or turn of form makes her the primary upset threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Miss Neo",
+                        "handicapper_notes": "Wire-to-wire winner at Monmouth Park in her last outing on June 26 with a 2.5-length victory. Returns to Delaware main dirt with strong early foot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Golden Philly",
+                        "handicapper_notes": "Shows solid local placing experience and consistently earns competitive numbers on Mid-Atlantic dirt circuit. Under top jockey Cipriano Gil.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Style To Follow",
+                        "handicapper_notes": "Early speed factor who led until late in the stretch on July 8. Will ensure an honest early pace alongside Miss Neo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sirani",
+                        "handicapper_notes": "Saves ground from the rail draw on a muddy main track, but recent Parx form has lacked punch. Rider change to Sebastian Orellana.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Off the Pace",
+                            "ai_holistic_score": 77,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Latest Edition",
+                    "rating": 92.0,
+                    "reason": "Holds a distinct overall rating edge with a 104 speed figure. Missed by a neck at this track and distance on July 8. Draws well outside in a short field and should get an ideal stalking trip."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Little Crybaby",
+                    "rating": 87.0,
+                    "reason": "Finished a narrow third behind Latest Edition on July 8 after encountering trouble at the 5/8 pole. Drawn inside on muddy surface, gives her tactical position behind the front runners. | <i>\u26a0\ufe0f Steadied 5/8</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Bertie's Cause",
+                    "rating": 85.0,
+                    "reason": "Possesses powerful back class with a 98 speed rating. Was beaten favorite on July 8 but projectable pace meltdown or turn of form makes her the primary upset threat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Miss Neo",
+                    "rating": 83.0,
+                    "reason": "Wire-to-wire winner at Monmouth Park in her last outing on June 26 with a 2.5-length victory. Returns to Delaware main dirt with strong early foot."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Golden Philly",
+                    "rating": 81.0,
+                    "reason": "Shows solid local placing experience and consistently earns competitive numbers on Mid-Atlantic dirt circuit. Under top jockey Cipriano Gil."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Latest Edition",
+                    "rating": 92.0,
+                    "reason": "Holds a distinct overall rating edge with a 104 speed figure. Missed by a neck at this track and distance on July 8. Draws well outside in a short field and should get an ideal stalking trip."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Little Crybaby",
+                    "rating": 87.0,
+                    "reason": "Finished a narrow third behind Latest Edition on July 8 after encountering trouble at the 5/8 pole. Drawn inside on muddy surface, gives her tactical position behind the front runners. | <i>\u26a0\ufe0f Steadied 5/8</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Bertie's Cause",
+                    "rating": 85.0,
+                    "reason": "Possesses powerful back class with a 98 speed rating. Was beaten favorite on July 8 but projectable pace meltdown or turn of form makes her the primary upset threat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Miss Neo",
+                    "rating": 83.0,
+                    "reason": "Wire-to-wire winner at Monmouth Park in her last outing on June 26 with a 2.5-length victory. Returns to Delaware main dirt with strong early foot."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Golden Philly",
+                    "rating": 81.0,
+                    "reason": "Shows solid local placing experience and consistently earns competitive numbers on Mid-Atlantic dirt circuit. Under top jockey Cipriano Gil."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Style To Follow",
+                    "rating": 80.0,
+                    "reason": "Early speed factor who led until late in the stretch on July 8. Will ensure an honest early pace alongside Miss Neo."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sirani",
+                    "rating": 77.0,
+                    "reason": "Saves ground from the rail draw on a muddy main track, but recent Parx form has lacked punch. Rider change to Sebastian Orellana."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Bertie's Cause",
+                "rating": 85.0,
+                "reason": "Possesses powerful back class with a 98 speed rating. Was beaten favorite on July 8 but projectable pace meltdown or turn of form makes her the primary upset threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#7 Latest Edition</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #7 over (#2, #8) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta Straight 1 / 5, 4; Trifecta 1 / 4, 5 / 3, 4, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Hotter Than Fire",
+                        "handicapper_notes": "Massive advantage moving off-the-turf to muddy dirt. Drawn on the rail in Post 1, she is the indisputable post-scratch lone speed ('E') in a field completely lacking early pace. Backed by elite connections Jamie Ness and Paco Lopez, she earns the wet track rail-speed boost and lone speed bonus to stand as a clear solo lock.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Tiz Complex",
+                        "handicapper_notes": "Represents the primary threat to the favorite. Boasts back class competing in Maiden Special Weight and $40k maiden claimers at Monmouth and Laurel. Ran a career-best 68 dirt figure at Delaware over a two-turn route and gets relief dropping into this $16k condition.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Good Axe",
+                        "handicapper_notes": "Second entry from the potent Jamie Ness stable with Martin Chuan taking the mount. Showed an improved 55 speed figure on a soft surface last start and possesses tactical versatility to track the lone leader.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "In Close Quarters",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Line Of Frost",
+                        "handicapper_notes": "Trained by Anthony Pecoraro with Carol Cedeno in the saddle. Shows early tactical speed in route races on dirt and could press the top choice early from an outside starting post.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Smokeshow",
+                        "handicapper_notes": "Gets a major jockey upgrade to Jevian Toledo. Moves from dirt sprint company to a two-turn route on muddy ground, which could suit her Tapwrit lineage.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Star Over Malibu",
+                        "handicapper_notes": "Has dirt route experience at Oaklawn Park and Delaware. Suffered a pinched start at the break last out and could improve with a cleaner trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Trouble at Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Justmymagination",
+                        "handicapper_notes": "Lightly raced 3-year-old making her dirt debut after an uninspiring maiden attempt on the grass. Figures are currently well below par for this level.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hotter Than Fire",
+                    "rating": 97.0,
+                    "reason": "Massive advantage moving off-the-turf to muddy dirt. Drawn on the rail in Post 1, she is the indisputable post-scratch lone speed ('E') in a field completely lacking early pace. Backed by elite connections Jamie Ness and Paco Lopez, she earns the wet track rail-speed boost and lone speed bonus to stand as a clear solo lock. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Tiz Complex",
+                    "rating": 88.0,
+                    "reason": "Represents the primary threat to the favorite. Boasts back class competing in Maiden Special Weight and $40k maiden claimers at Monmouth and Laurel. Ran a career-best 68 dirt figure at Delaware over a two-turn route and gets relief dropping into this $16k condition."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Good Axe",
+                    "rating": 85.0,
+                    "reason": "Second entry from the potent Jamie Ness stable with Martin Chuan taking the mount. Showed an improved 55 speed figure on a soft surface last start and possesses tactical versatility to track the lone leader. | <i>\u26a0\ufe0f In Close Quarters</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Line Of Frost",
+                    "rating": 82.0,
+                    "reason": "Trained by Anthony Pecoraro with Carol Cedeno in the saddle. Shows early tactical speed in route races on dirt and could press the top choice early from an outside starting post. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Smokeshow",
+                    "rating": 80.0,
+                    "reason": "Gets a major jockey upgrade to Jevian Toledo. Moves from dirt sprint company to a two-turn route on muddy ground, which could suit her Tapwrit lineage. | <i>\u26a0\ufe0f Slow Start \u2022 \ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hotter Than Fire",
+                    "rating": 97.0,
+                    "reason": "Massive advantage moving off-the-turf to muddy dirt. Drawn on the rail in Post 1, she is the indisputable post-scratch lone speed ('E') in a field completely lacking early pace. Backed by elite connections Jamie Ness and Paco Lopez, she earns the wet track rail-speed boost and lone speed bonus to stand as a clear solo lock. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Tiz Complex",
+                    "rating": 88.0,
+                    "reason": "Represents the primary threat to the favorite. Boasts back class competing in Maiden Special Weight and $40k maiden claimers at Monmouth and Laurel. Ran a career-best 68 dirt figure at Delaware over a two-turn route and gets relief dropping into this $16k condition."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Good Axe",
+                    "rating": 85.0,
+                    "reason": "Second entry from the potent Jamie Ness stable with Martin Chuan taking the mount. Showed an improved 55 speed figure on a soft surface last start and possesses tactical versatility to track the lone leader. | <i>\u26a0\ufe0f In Close Quarters</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Line Of Frost",
+                    "rating": 82.0,
+                    "reason": "Trained by Anthony Pecoraro with Carol Cedeno in the saddle. Shows early tactical speed in route races on dirt and could press the top choice early from an outside starting post. | <i>\ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Smokeshow",
+                    "rating": 80.0,
+                    "reason": "Gets a major jockey upgrade to Jevian Toledo. Moves from dirt sprint company to a two-turn route on muddy ground, which could suit her Tapwrit lineage. | <i>\u26a0\ufe0f Slow Start \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Star Over Malibu",
+                    "rating": 78.0,
+                    "reason": "Has dirt route experience at Oaklawn Park and Delaware. Suffered a pinched start at the break last out and could improve with a cleaner trip. | <i>\u26a0\ufe0f Trouble at Start</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Justmymagination",
+                    "rating": 75.0,
+                    "reason": "Lightly raced 3-year-old making her dirt debut after an uninspiring maiden attempt on the grass. Figures are currently well below par for this level. | <i>\ud83d\udccf Turf to Dirt</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Tiz Complex",
+                "rating": 88.0,
+                "reason": "Represents the primary threat to the favorite. Boasts back class competing in Maiden Special Weight and $40k maiden claimers at Monmouth and Laurel. Ran a career-best 68 dirt figure at Delaware over a two-turn route and gets relief dropping into this $16k condition."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Hotter Than Fire</b> (Solo Lock - Gap: +9.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#5, #4) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 2 / Exacta 2 over 1, 5 / Trifecta 2 over 1, 5 over 1, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Shane's Wonder",
+                        "handicapper_notes": "Dominant 3yo monster with superior Class rating (117) and highest speed figures (97 in G3 Chick Lang, 95 in MSW). Gets 116 lbs weight break and ideal muddy track early speed bias fit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable - Speed Bias",
+                            "ai_holistic_score": 96,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Bouncer",
+                        "handicapper_notes": "Trained by Jamie Ness (36 percent DEL strike rate). Possesses elite 100+ back speed figures at 6f dirt and strong tactical versatility for muddy going.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Yahoo Omar",
+                        "handicapper_notes": "Fast early sprinter for Simoff/Hernandez. 7-time winner with strong speed figures (105 peak) and high baseline consistency.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Beach Colt (CHI)",
+                        "handicapper_notes": "Classy Chilean Group winner with high-end Gulfstream figures (91-94 Equibase). High upside presser threat if pace heats up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Temecula",
+                        "handicapper_notes": "Ridden by top DEL jockey Paco Lopez (40 percent track win rate). Solid local Delaware form over dirt sprint distances.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tenebris",
+                        "handicapper_notes": "Veteran gelding entered for $32k tag. Honest closing effort expected but faces formidable pace upfront.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Shane's Wonder",
+                    "rating": 96.0,
+                    "reason": "Dominant 3yo monster with superior Class rating (117) and highest speed figures (97 in G3 Chick Lang, 95 in MSW). Gets 116 lbs weight break and ideal muddy track early speed bias fit."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bouncer",
+                    "rating": 90.0,
+                    "reason": "Trained by Jamie Ness (36 percent DEL strike rate). Possesses elite 100+ back speed figures at 6f dirt and strong tactical versatility for muddy going."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Yahoo Omar",
+                    "rating": 88.0,
+                    "reason": "Fast early sprinter for Simoff/Hernandez. 7-time winner with strong speed figures (105 peak) and high baseline consistency."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Beach Colt (CHI)",
+                    "rating": 86.0,
+                    "reason": "Classy Chilean Group winner with high-end Gulfstream figures (91-94 Equibase). High upside presser threat if pace heats up."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Temecula",
+                    "rating": 84.0,
+                    "reason": "Ridden by top DEL jockey Paco Lopez (40 percent track win rate). Solid local Delaware form over dirt sprint distances."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Shane's Wonder",
+                    "rating": 96.0,
+                    "reason": "Dominant 3yo monster with superior Class rating (117) and highest speed figures (97 in G3 Chick Lang, 95 in MSW). Gets 116 lbs weight break and ideal muddy track early speed bias fit."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Bouncer",
+                    "rating": 90.0,
+                    "reason": "Trained by Jamie Ness (36 percent DEL strike rate). Possesses elite 100+ back speed figures at 6f dirt and strong tactical versatility for muddy going."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Yahoo Omar",
+                    "rating": 88.0,
+                    "reason": "Fast early sprinter for Simoff/Hernandez. 7-time winner with strong speed figures (105 peak) and high baseline consistency."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Beach Colt (CHI)",
+                    "rating": 86.0,
+                    "reason": "Classy Chilean Group winner with high-end Gulfstream figures (91-94 Equibase). High upside presser threat if pace heats up."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Temecula",
+                    "rating": 84.0,
+                    "reason": "Ridden by top DEL jockey Paco Lopez (40 percent track win rate). Solid local Delaware form over dirt sprint distances."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Tenebris",
+                    "rating": 82.0,
+                    "reason": "Veteran gelding entered for $32k tag. Honest closing effort expected but faces formidable pace upfront."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Beach Colt (CHI)",
+                "rating": 86.0,
+                "reason": "Classy Chilean Group winner with high-end Gulfstream figures (91-94 Equibase). High upside presser threat if pace heats up."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Shane's Wonder</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#5, #1, #6) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta 4 / 1, 6",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ready As Ever",
+                        "handicapper_notes": "Jamie Ness trainee comes off a dominant SOC victory at Parx with an 80 speed figure and has proven muddy track capability at DEL (77 figure). Moves off turf to dirt where he holds a massive class and speed figure advantage over the remaining field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Stalking Trip",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Majestic Blue",
+                        "handicapper_notes": "Gains a massive jockey upgrade to Paco Lopez and inherits the lone early speed role following off-turf scratches. Draws the rail on a muddy main track where inside speed holds a tactical bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Kitten's Ploy",
+                        "handicapper_notes": "Turf-bred gelding forced onto the main dirt track due to the surface change. Showed poor form in his sole dirt route attempt at Delaware Park and faces a tough task handling the muddy main track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ready As Ever",
+                    "rating": 95.0,
+                    "reason": "Jamie Ness trainee comes off a dominant SOC victory at Parx with an 80 speed figure and has proven muddy track capability at DEL (77 figure). Moves off turf to dirt where he holds a massive class and speed figure advantage over the remaining field. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Majestic Blue",
+                    "rating": 92.0,
+                    "reason": "Gains a massive jockey upgrade to Paco Lopez and inherits the lone early speed role following off-turf scratches. Draws the rail on a muddy main track where inside speed holds a tactical bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Kitten's Ploy",
+                    "rating": 80.0,
+                    "reason": "Turf-bred gelding forced onto the main dirt track due to the surface change. Showed poor form in his sole dirt route attempt at Delaware Park and faces a tough task handling the muddy main track. | <i>\ud83d\udccf Turf to Dirt</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ready As Ever",
+                    "rating": 95.0,
+                    "reason": "Jamie Ness trainee comes off a dominant SOC victory at Parx with an 80 speed figure and has proven muddy track capability at DEL (77 figure). Moves off turf to dirt where he holds a massive class and speed figure advantage over the remaining field. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Majestic Blue",
+                    "rating": 92.0,
+                    "reason": "Gains a massive jockey upgrade to Paco Lopez and inherits the lone early speed role following off-turf scratches. Draws the rail on a muddy main track where inside speed holds a tactical bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Kitten's Ploy",
+                    "rating": 80.0,
+                    "reason": "Turf-bred gelding forced onto the main dirt track due to the surface change. Showed poor form in his sole dirt route attempt at Delaware Park and faces a tough task handling the muddy main track. | <i>\ud83d\udccf Turf to Dirt</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Majestic Blue",
+                "rating": 92.0,
+                "reason": "Gains a massive jockey upgrade to Paco Lopez and inherits the lone early speed role following off-turf scratches. Draws the rail on a muddy main track where inside speed holds a tactical bias. | <i>\ud83d\udd25 Lone Speed</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Ready As Ever</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #1, #6 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#1 Majestic Blue</b>"
+        },
+        {
+            "number": 6,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 9 over 1, 6, 7; Trifecta 9 over 1, 6 over 1, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Double Edge Sword",
+                        "handicapper_notes": "Dominant top pick holding high speed figures (up to 98) and paired with top meet jockey Paco Lopez. Won last start at DEL in 1:04.96 showing sharp tactical speed. Outstanding form and class edge over the field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Reverend Moon",
+                        "handicapper_notes": "Proven wet-track specialist who dominated on muddy dirt at DEL in May with an 88 speed figure. Won his last outing wire-to-wire in 1:11.74 and possesses front-running speed suited for today's track condition.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Wet Track Speed Boost",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Newyearsblockparty",
+                        "handicapper_notes": "Riding a two-race win streak at DEL including a victory over wet dirt on June 27. Draws rail post 1 which is a major advantage on muddy main dirt when combined with early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Golden Rail Inside Speed",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Curlins Cruzin",
+                        "handicapper_notes": "Strong closer who won at this course and distance two starts back with an 84 speed figure. Represents an upside threat to collapse the exotics if front-runners engage in a hot pace duel on the sloppy track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Closer",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Uniwinner",
+                        "handicapper_notes": "Comes off a driving win at DEL over 5 1/2 furlongs on July 16 with an 84 speed figure. Angel Cruz takes the reins, making him a dependable candidate for lower exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Cut Glass",
+                        "handicapper_notes": "Solid Mid-Atlantic veteran with multiple top-three finishes at DEL. Has tactical versatility to maneuver through traffic and pass tiring rivals late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Double Edge Sword",
+                    "rating": 93.0,
+                    "reason": "Dominant top pick holding high speed figures (up to 98) and paired with top meet jockey Paco Lopez. Won last start at DEL in 1:04.96 showing sharp tactical speed. Outstanding form and class edge over the field."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Reverend Moon",
+                    "rating": 88.0,
+                    "reason": "Proven wet-track specialist who dominated on muddy dirt at DEL in May with an 88 speed figure. Won his last outing wire-to-wire in 1:11.74 and possesses front-running speed suited for today's track condition."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Newyearsblockparty",
+                    "rating": 86.0,
+                    "reason": "Riding a two-race win streak at DEL including a victory over wet dirt on June 27. Draws rail post 1 which is a major advantage on muddy main dirt when combined with early speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Curlins Cruzin",
+                    "rating": 84.0,
+                    "reason": "Strong closer who won at this course and distance two starts back with an 84 speed figure. Represents an upside threat to collapse the exotics if front-runners engage in a hot pace duel on the sloppy track."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Uniwinner",
+                    "rating": 82.0,
+                    "reason": "Comes off a driving win at DEL over 5 1/2 furlongs on July 16 with an 84 speed figure. Angel Cruz takes the reins, making him a dependable candidate for lower exotics."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Double Edge Sword",
+                    "rating": 93.0,
+                    "reason": "Dominant top pick holding high speed figures (up to 98) and paired with top meet jockey Paco Lopez. Won last start at DEL in 1:04.96 showing sharp tactical speed. Outstanding form and class edge over the field."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Reverend Moon",
+                    "rating": 88.0,
+                    "reason": "Proven wet-track specialist who dominated on muddy dirt at DEL in May with an 88 speed figure. Won his last outing wire-to-wire in 1:11.74 and possesses front-running speed suited for today's track condition."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Newyearsblockparty",
+                    "rating": 86.0,
+                    "reason": "Riding a two-race win streak at DEL including a victory over wet dirt on June 27. Draws rail post 1 which is a major advantage on muddy main dirt when combined with early speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Curlins Cruzin",
+                    "rating": 84.0,
+                    "reason": "Strong closer who won at this course and distance two starts back with an 84 speed figure. Represents an upside threat to collapse the exotics if front-runners engage in a hot pace duel on the sloppy track."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Uniwinner",
+                    "rating": 82.0,
+                    "reason": "Comes off a driving win at DEL over 5 1/2 furlongs on July 16 with an 84 speed figure. Angel Cruz takes the reins, making him a dependable candidate for lower exotics."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Cut Glass",
+                    "rating": 80.0,
+                    "reason": "Solid Mid-Atlantic veteran with multiple top-three finishes at DEL. Has tactical versatility to maneuver through traffic and pass tiring rivals late."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Curlins Cruzin",
+                "rating": 84.0,
+                "reason": "Strong closer who won at this course and distance two starts back with an 84 speed figure. Represents an upside threat to collapse the exotics if front-runners engage in a hot pace duel on the sloppy track."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 Double Edge Sword</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#6, #1, #7) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "1 1/16 Miles Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 1/16 Miles Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 7 over 1, 2, 5, 9",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Drop Shot",
+                        "handicapper_notes": "Switches from off-turf to muddy main dirt where he holds a massive speed figure advantage (84 last out at DEL, 92 at Keeneland). Highest upside in the field on dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Stalker",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Objection",
+                        "handicapper_notes": "Brittany Russell trainee by Curlin out of a Bernardini mare. Showed good early speed in debut at Colonial and moves to muddy main track with significant pedigree upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed Presser",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Faded Late",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Run Aaron Run",
+                        "handicapper_notes": "Ran an 81 speed figure two starts back at 6f on dirt and finished 3rd over wet dirt route at DEL last out. Early speed factor.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Off The Deck",
+                        "handicapper_notes": "Munnings gelding drawn inside on wet track. Ran a solid 78 speed figure at Parx two starts back in a two-turn route.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Speed",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bore Out 3/4",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Slobberknocker",
+                        "handicapper_notes": "Tacitus colt drawn on the inside rail. Ran a strong closing 2nd with an 80 speed figure over wet dirt at DEL on May 28.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Rail Presser",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "No More Kings",
+                        "handicapper_notes": "Greg Compton trainee with consistent dirt figures (74, 68). Paco Lopez stays aboard for off-turf route distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack Stalker",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Drop Shot",
+                    "rating": 94.0,
+                    "reason": "Switches from off-turf to muddy main dirt where he holds a massive speed figure advantage (84 last out at DEL, 92 at Keeneland). Highest upside in the field on dirt."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Objection",
+                    "rating": 89.0,
+                    "reason": "Brittany Russell trainee by Curlin out of a Bernardini mare. Showed good early speed in debut at Colonial and moves to muddy main track with significant pedigree upside. | <i>\u26a0\ufe0f Faded Late</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Run Aaron Run",
+                    "rating": 86.0,
+                    "reason": "Ran an 81 speed figure two starts back at 6f on dirt and finished 3rd over wet dirt route at DEL last out. Early speed factor. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Off The Deck",
+                    "rating": 84.0,
+                    "reason": "Munnings gelding drawn inside on wet track. Ran a solid 78 speed figure at Parx two starts back in a two-turn route. | <i>\u26a0\ufe0f Bore Out 3/4</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Slobberknocker",
+                    "rating": 83.0,
+                    "reason": "Tacitus colt drawn on the inside rail. Ran a strong closing 2nd with an 80 speed figure over wet dirt at DEL on May 28."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Drop Shot",
+                    "rating": 94.0,
+                    "reason": "Switches from off-turf to muddy main dirt where he holds a massive speed figure advantage (84 last out at DEL, 92 at Keeneland). Highest upside in the field on dirt."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Objection",
+                    "rating": 89.0,
+                    "reason": "Brittany Russell trainee by Curlin out of a Bernardini mare. Showed good early speed in debut at Colonial and moves to muddy main track with significant pedigree upside. | <i>\u26a0\ufe0f Faded Late</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Run Aaron Run",
+                    "rating": 86.0,
+                    "reason": "Ran an 81 speed figure two starts back at 6f on dirt and finished 3rd over wet dirt route at DEL last out. Early speed factor. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Off The Deck",
+                    "rating": 84.0,
+                    "reason": "Munnings gelding drawn inside on wet track. Ran a solid 78 speed figure at Parx two starts back in a two-turn route. | <i>\u26a0\ufe0f Bore Out 3/4</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Slobberknocker",
+                    "rating": 83.0,
+                    "reason": "Tacitus colt drawn on the inside rail. Ran a strong closing 2nd with an 80 speed figure over wet dirt at DEL on May 28."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "No More Kings",
+                    "rating": 81.0,
+                    "reason": "Greg Compton trainee with consistent dirt figures (74, 68). Paco Lopez stays aboard for off-turf route distance. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Objection",
+                "rating": 89.0,
+                "reason": "Brittany Russell trainee by Curlin out of a Bernardini mare. Showed good early speed in debut at Colonial and moves to muddy main track with significant pedigree upside. | <i>\u26a0\ufe0f Faded Late</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#7 Drop Shot</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #7 over (#9, #5) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 7, 1, 5; Trifecta Key 7 with 1, 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Pam Pam",
+                        "handicapper_notes": "Top-tier route mare for dominant trainer Jamie Ness (36% DEL win rate). Holds superb back class and consistent 88-89 speed figures in similar route conditions. Ideal tactical position to control the race.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "The Beach Goes On",
+                        "handicapper_notes": "Undefeated 3-for-3 in 2026 shipping in from Parx in peak form. Possesses sharp early-pressing speed to secure an advantageous rail position around the turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Ms Sophistication",
+                        "handicapper_notes": "High-upside 3yo filly by Into Mischief coming off a strong Monmouth maiden win. Gets leading rider Paco Lopez (40% DEL win rate) and previously finished a close 2nd on a muddy DEL surface in May.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Le Touche",
+                        "handicapper_notes": "Extremely consistent filly with top overall class figures. Has finished 2nd in three consecutive Allowance/AOC events and will be prominent throughout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Lord's Lady",
+                        "handicapper_notes": "Mid-Atlantic shipper with proven Allowance win capability at Penn National. Strong late-turn engine that fits well if the early leaders press each other.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Moon Cache",
+                        "handicapper_notes": "DANGER HORSE: Longshot threat who thrives on wet, off-track conditions (previously won on a muddy surface at Laurel Park). Should get a pace setup to make a late rally.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Pam Pam",
+                    "rating": 93.0,
+                    "reason": "Top-tier route mare for dominant trainer Jamie Ness (36% DEL win rate). Holds superb back class and consistent 88-89 speed figures in similar route conditions. Ideal tactical position to control the race."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "The Beach Goes On",
+                    "rating": 89.0,
+                    "reason": "Undefeated 3-for-3 in 2026 shipping in from Parx in peak form. Possesses sharp early-pressing speed to secure an advantageous rail position around the turns. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Ms Sophistication",
+                    "rating": 87.0,
+                    "reason": "High-upside 3yo filly by Into Mischief coming off a strong Monmouth maiden win. Gets leading rider Paco Lopez (40% DEL win rate) and previously finished a close 2nd on a muddy DEL surface in May."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Le Touche",
+                    "rating": 85.0,
+                    "reason": "Extremely consistent filly with top overall class figures. Has finished 2nd in three consecutive Allowance/AOC events and will be prominent throughout."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Lord's Lady",
+                    "rating": 82.0,
+                    "reason": "Mid-Atlantic shipper with proven Allowance win capability at Penn National. Strong late-turn engine that fits well if the early leaders press each other."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Pam Pam",
+                    "rating": 93.0,
+                    "reason": "Top-tier route mare for dominant trainer Jamie Ness (36% DEL win rate). Holds superb back class and consistent 88-89 speed figures in similar route conditions. Ideal tactical position to control the race."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "The Beach Goes On",
+                    "rating": 89.0,
+                    "reason": "Undefeated 3-for-3 in 2026 shipping in from Parx in peak form. Possesses sharp early-pressing speed to secure an advantageous rail position around the turns. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Ms Sophistication",
+                    "rating": 87.0,
+                    "reason": "High-upside 3yo filly by Into Mischief coming off a strong Monmouth maiden win. Gets leading rider Paco Lopez (40% DEL win rate) and previously finished a close 2nd on a muddy DEL surface in May."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Le Touche",
+                    "rating": 85.0,
+                    "reason": "Extremely consistent filly with top overall class figures. Has finished 2nd in three consecutive Allowance/AOC events and will be prominent throughout."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Lord's Lady",
+                    "rating": 82.0,
+                    "reason": "Mid-Atlantic shipper with proven Allowance win capability at Penn National. Strong late-turn engine that fits well if the early leaders press each other."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Moon Cache",
+                    "rating": 80.0,
+                    "reason": "DANGER HORSE: Longshot threat who thrives on wet, off-track conditions (previously won on a muddy surface at Laurel Park). Should get a pace setup to make a late rally."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Moon Cache",
+                "rating": 80.0,
+                "reason": "DANGER HORSE: Longshot threat who thrives on wet, off-track conditions (previously won on a muddy surface at Laurel Park). Should get a pace setup to make a late rally."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Pam Pam</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #1, #4 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta Straight 1-7; Trifecta Key 1 over 2, 4, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Spikezone",
+                        "handicapper_notes": "Dominant early speed equipped with elite Ness and Lopez connections (36% and 39% DEL win rates). Benefits greatly from post-scratch lone speed advantage with key rivals scratched. Boasts triple-digit speed figures (100, 106, 107) that easily top this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 96,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "No Easy Days",
+                        "handicapper_notes": "High-upside Mid-Atlantic sprinter coming off a sharp 95 speed figure placed behind Winning Time at Parx. Picks up jockey Carol Cedeno per track updates. Represents the primary threat to the favorite if the pace gets contested.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Intrepid's Legacy",
+                        "handicapper_notes": "Capuano trainee with a strong regional record. Ran a speed figure of 92 winning AOC at Laurel earlier this year. Tactical presser who will get first crack at Spikezone turning for home.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "S S Sinatra",
+                        "handicapper_notes": "Consistent gelding with 106 overall speed rating and a 100 speed figure on form at Laurel. Drawn inside in post 2, will track the leader early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sacred Thunder",
+                        "handicapper_notes": "Second Capuano entry who produced a 94 speed figure winning AOC at Laurel in April. Off-the-pace runner who needs a fast pace up front to make an impact.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Grim Reaper",
+                        "handicapper_notes": "Orseno trainee with Gil aboard. Has solid class background from Gulfstream Park, but speed figures (78, 86) trail the main contenders in this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spikezone",
+                    "rating": 99.0,
+                    "reason": "Dominant early speed equipped with elite Ness and Lopez connections (36% and 39% DEL win rates). Benefits greatly from post-scratch lone speed advantage with key rivals scratched. Boasts triple-digit speed figures (100, 106, 107) that easily top this field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "No Easy Days",
+                    "rating": 89.0,
+                    "reason": "High-upside Mid-Atlantic sprinter coming off a sharp 95 speed figure placed behind Winning Time at Parx. Picks up jockey Carol Cedeno per track updates. Represents the primary threat to the favorite if the pace gets contested."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Intrepid's Legacy",
+                    "rating": 87.0,
+                    "reason": "Capuano trainee with a strong regional record. Ran a speed figure of 92 winning AOC at Laurel earlier this year. Tactical presser who will get first crack at Spikezone turning for home."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "S S Sinatra",
+                    "rating": 85.0,
+                    "reason": "Consistent gelding with 106 overall speed rating and a 100 speed figure on form at Laurel. Drawn inside in post 2, will track the leader early."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sacred Thunder",
+                    "rating": 83.0,
+                    "reason": "Second Capuano entry who produced a 94 speed figure winning AOC at Laurel in April. Off-the-pace runner who needs a fast pace up front to make an impact. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spikezone",
+                    "rating": 99.0,
+                    "reason": "Dominant early speed equipped with elite Ness and Lopez connections (36% and 39% DEL win rates). Benefits greatly from post-scratch lone speed advantage with key rivals scratched. Boasts triple-digit speed figures (100, 106, 107) that easily top this field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "No Easy Days",
+                    "rating": 89.0,
+                    "reason": "High-upside Mid-Atlantic sprinter coming off a sharp 95 speed figure placed behind Winning Time at Parx. Picks up jockey Carol Cedeno per track updates. Represents the primary threat to the favorite if the pace gets contested."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Intrepid's Legacy",
+                    "rating": 87.0,
+                    "reason": "Capuano trainee with a strong regional record. Ran a speed figure of 92 winning AOC at Laurel earlier this year. Tactical presser who will get first crack at Spikezone turning for home."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "S S Sinatra",
+                    "rating": 85.0,
+                    "reason": "Consistent gelding with 106 overall speed rating and a 100 speed figure on form at Laurel. Drawn inside in post 2, will track the leader early."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sacred Thunder",
+                    "rating": 83.0,
+                    "reason": "Second Capuano entry who produced a 94 speed figure winning AOC at Laurel in April. Off-the-pace runner who needs a fast pace up front to make an impact. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Grim Reaper",
+                    "rating": 80.0,
+                    "reason": "Orseno trainee with Gil aboard. Has solid class background from Gulfstream Park, but speed figures (78, 86) trail the main contenders in this field."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "No Easy Days",
+                "rating": 89.0,
+                "reason": "High-upside Mid-Atlantic sprinter coming off a sharp 95 speed figure placed behind Winning Time at Parx. Picks up jockey Carol Cedeno per track updates. Represents the primary threat to the favorite if the pace gets contested."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Spikezone</b> (Solo Lock - Gap: +10.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#7, #4) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#3 As The Bell Toles</b> in R1 & <b>#7 Latest Edition</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#7 Latest Edition</b> in R2 & <b>#1 Hotter Than Fire</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#1 Hotter Than Fire</b> in R3 & <b>#2 Shane's Wonder</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#2 Shane's Wonder</b> in R4 & <b>#4 Ready As Ever</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#4 Ready As Ever</b> in R5 & <b>#9 Double Edge Sword</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R6 \u2794 R7):</b> Single <b>#9 Double Edge Sword</b> in R6 & <b>#7 Drop Shot</b> in R7 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#1 (Solo Lock))"
+    ]
+}
