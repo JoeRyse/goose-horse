@@ -1,0 +1,1625 @@
+{
+    "meta": {
+        "track": "Yonkers Raceway",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Purameri",
+                        "handicapper_notes": "Draws the rail which is a massive advantage at Yonkers, but lacks the early foot to protect it. Likely to get shuffled back early.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Big City Daisy",
+                        "handicapper_notes": "The horse to beat. Holland is highly aggressive off the gate, and from post 2, she should easily secure the lead or pocket. Boasts a strong 125 speed rating.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Iris Seelster",
+                        "handicapper_notes": "Decent tactical speed but lacks the top-end speed figures of the main contenders. Best used underneath in exotics.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Hurrikane Marigold",
+                        "handicapper_notes": "Ships in from Harrington. Shows some early speed but faces a tough transition to the Yonkers half-mile elite class.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Th Rizzo",
+                        "handicapper_notes": "Won last start at Yonkers in 1:54.2. In peak form with a 127 speed rating, but the post 5 draw makes the trip more difficult.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Pull Me Through",
+                        "handicapper_notes": "Deep closer heavily downgraded due to the extreme half-mile track bias. Hard to envision a winning trip from post 6.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Quick Menu",
+                        "handicapper_notes": "Stuck out in post 7. Lacks the gate speed to overcome the draw on this tight bullring.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Pine Bush Maga",
+                        "handicapper_notes": "Stuck in the 'Death Trap' post 8. Abysmal win percentage from this starting spot makes her an automatic toss.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Big City Daisy",
+                    "rating": 98.0,
+                    "reason": "The horse to beat. Holland is highly aggressive off the gate, and from post 2, she should easily secure the lead or pocket. Boasts a strong 125 speed rating. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Purameri",
+                    "rating": 82.0,
+                    "reason": "Draws the rail which is a massive advantage at Yonkers, but lacks the early foot to protect it. Likely to get shuffled back early."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Iris Seelster",
+                    "rating": 80.0,
+                    "reason": "Decent tactical speed but lacks the top-end speed figures of the main contenders. Best used underneath in exotics."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Hurrikane Marigold",
+                    "rating": 78.0,
+                    "reason": "Ships in from Harrington. Shows some early speed but faces a tough transition to the Yonkers half-mile elite class."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Th Rizzo",
+                "rating": 92.0,
+                "reason": "Won last start at Yonkers in 1:54.2. In peak form with a 127 speed rating, but the post 5 draw makes the trip more difficult."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Rich Eileen",
+                        "handicapper_notes": "Massive post advantage. Has shown good early speed in recent starts and Holland will look to protect the rail.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Doral Delight",
+                        "handicapper_notes": "Consistent speed figures but lacks a winning punch. Likely to secure a pocket or third-inside trip.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Odds On Commandeer",
+                        "handicapper_notes": "Alexander trainee qualified very sharply. Tyler Buter is aggressive and should secure a highly advantageous early position.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Just My World",
+                        "handicapper_notes": "Slow speed figures and poor recent form. Hard to recommend even from a decent post.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Precious Gemma",
+                        "handicapper_notes": "Tritton trainee has won two straight in dominant fashion at Monticello. Fast enough to overcome post 5.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Shadow Delight",
+                        "handicapper_notes": "Outside post and lacks the early speed to loop the field. Heavily downgraded.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Napalm",
+                        "handicapper_notes": "Class of the field with a 100 class rating, but post 7 on this half-mile track is a brutal draw. Will need a masterful drive.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Goldeen N",
+                        "handicapper_notes": "Bako trainee stuck in the death trap post 8. Toss.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Precious Gemma",
+                    "rating": 97.0,
+                    "reason": "Tritton trainee has won two straight in dominant fashion at Monticello. Fast enough to overcome post 5. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Napalm",
+                    "rating": 89.0,
+                    "reason": "Class of the field with a 100 class rating, but post 7 on this half-mile track is a brutal draw. Will need a masterful drive."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Rich Eileen",
+                    "rating": 88.0,
+                    "reason": "Massive post advantage. Has shown good early speed in recent starts and Holland will look to protect the rail."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Doral Delight",
+                    "rating": 82.0,
+                    "reason": "Consistent speed figures but lacks a winning punch. Likely to secure a pocket or third-inside trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Odds On Commandeer",
+                "rating": 90.0,
+                "reason": "Alexander trainee qualified very sharply. Tyler Buter is aggressive and should secure a highly advantageous early position."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Trot Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Trot Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ajax Blue Chip",
+                        "handicapper_notes": "Broke stride in his last start but has the rail and is very dangerous if he can stay flat.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Broke Stride",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pine Bush Mud Bug",
+                        "handicapper_notes": "Slow speed figures and poor form. Hard to back even from post 2.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Belle's Victory",
+                        "handicapper_notes": "Decent speed figures and Tyler Buter in the bike. Should grab a good early spot.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Zuzu Zoom",
+                        "handicapper_notes": "Noel Daley trainee is highly consistent. Boasts a strong 115 speed rating and tactical versatility.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Kill The Noise As",
+                        "handicapper_notes": "Anette Lorentzon trainee. Joe Bongiorno is highly aggressive and will likely send him to secure a top spot.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Core Values",
+                        "handicapper_notes": "Decent speed but post 6 on this half-mile track makes it highly unlikely she can threaten the top choices.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Foreign Xchange",
+                        "handicapper_notes": "Won last start at Goshen but faces a much tougher post and class hike here.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Raucous",
+                        "handicapper_notes": "Stuck in post 8. Abysmal win percentage from this spot. Toss.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Kill The Noise As",
+                    "rating": 95.0,
+                    "reason": "Anette Lorentzon trainee. Joe Bongiorno is highly aggressive and will likely send him to secure a top spot. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Zuzu Zoom",
+                    "rating": 94.0,
+                    "reason": "Noel Daley trainee is highly consistent. Boasts a strong 115 speed rating and tactical versatility."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Belle's Victory",
+                    "rating": 82.0,
+                    "reason": "Decent speed figures and Tyler Buter in the bike. Should grab a good early spot."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Core Values",
+                    "rating": 78.0,
+                    "reason": "Decent speed but post 6 on this half-mile track makes it highly unlikely she can threaten the top choices."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Ajax Blue Chip",
+                "rating": 85.0,
+                "reason": "Broke stride in his last start but has the rail and is very dangerous if he can stay flat. | <i>\u26a0\ufe0f Broke Stride</i>"
+            }
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bronx Mixer",
+                        "handicapper_notes": "Schnittker trainee gets the rail. Needs to show more early foot to protect it, but must be respected.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Tall Dark Tequila",
+                        "handicapper_notes": "Hunter Oakes trainee is extremely fast. Boasts a massive 135 speed rating. The clear horse to beat from post 2.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Jordanna Hanover",
+                        "handicapper_notes": "Tom Fanning trainee is highly consistent with good tactical speed. Strong exotics candidate.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Threecurtaincalls",
+                        "handicapper_notes": "Fast but can be inconsistent. Tyler Buter will need to be aggressive from post 4.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Youllfindout",
+                        "handicapper_notes": "Nik Drennan trainee has high speed (130) but post 5 is a tough starting spot on this track.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Reckless Abandon",
+                        "handicapper_notes": "Highly class-proven (138 rating). Joe Bongiorno will likely send her hard to overcome post 6. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Sammy Jo Hanover",
+                        "handicapper_notes": "Stuck in post 7. Hard to see a path to victory against this elite field.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Tall Dark Tequila",
+                    "rating": 98.0,
+                    "reason": "Hunter Oakes trainee is extremely fast. Boasts a massive 135 speed rating. The clear horse to beat from post 2."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Jordanna Hanover",
+                    "rating": 89.0,
+                    "reason": "Tom Fanning trainee is highly consistent with good tactical speed. Strong exotics candidate."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Bronx Mixer",
+                    "rating": 86.0,
+                    "reason": "Schnittker trainee gets the rail. Needs to show more early foot to protect it, but must be respected."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Youllfindout",
+                    "rating": 85.0,
+                    "reason": "Nik Drennan trainee has high speed (130) but post 5 is a tough starting spot on this track."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Reckless Abandon",
+                "rating": 97.0,
+                "reason": "Highly class-proven (138 rating). Joe Bongiorno will likely send her hard to overcome post 6. Major threat. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 4, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Hot Cam",
+                        "handicapper_notes": "Cote Keim trainee gets the rail. Boasts a strong 132 speed rating. Will look to protect the lead early.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Onyx Bovino",
+                        "handicapper_notes": "Decent form and post 2 helps, but speed figures are slightly below the top choices.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tip Of Time",
+                        "handicapper_notes": "Lacks early speed. Likely to get shuffled back and find trouble on the tight turns.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Well That's Marky",
+                        "handicapper_notes": "Paul Blumenfeld trainee is highly consistent. Strong tactical speed makes him a major threat from post 4.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Hank The Hunk",
+                        "handicapper_notes": "Won two starts back but post 5 is a tough starting spot for him against this field.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Mad River",
+                        "handicapper_notes": "Per Engblom trainee has good speed but the outside post draw severely limits his options.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Themaskedcrusadr N",
+                        "handicapper_notes": "Outside post and slow speed figures. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Alabamajamma",
+                        "handicapper_notes": "Adamczyk trainee is highly class-proven with a 132 speed rating. However, post 8 is the death trap. Will need luck.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hot Cam",
+                    "rating": 95.0,
+                    "reason": "Cote Keim trainee gets the rail. Boasts a strong 132 speed rating. Will look to protect the lead early. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Well That's Marky",
+                    "rating": 88.0,
+                    "reason": "Paul Blumenfeld trainee is highly consistent. Strong tactical speed makes him a major threat from post 4."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Mad River",
+                    "rating": 84.0,
+                    "reason": "Per Engblom trainee has good speed but the outside post draw severely limits his options."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Onyx Bovino",
+                    "rating": 82.0,
+                    "reason": "Decent form and post 2 helps, but speed figures are slightly below the top choices."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Alabamajamma",
+                "rating": 85.0,
+                "reason": "Adamczyk trainee is highly class-proven with a 132 speed rating. However, post 8 is the death trap. Will need luck."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Trot Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Trot Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 2, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tregaron",
+                        "handicapper_notes": "Jared Bako trainee gets the massive rail advantage. Should protect the pocket or lead early.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Zaheera",
+                        "handicapper_notes": "Noel Daley trainee is highly consistent. Boasts a strong 118 speed rating. Major contender.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Rico Tubbs",
+                        "handicapper_notes": "Scott Di Domenico trainee has decent form but lacks the top-end speed of the favorites.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Shady Maple Becky",
+                        "handicapper_notes": "Slow speed figures. Hard to recommend even from a mid-pack post.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Goya",
+                        "handicapper_notes": "Anette Lorentzon trainee is highly consistent and fast. Strong contender despite post 5.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Beersnsunshine Deo",
+                        "handicapper_notes": "Outside post draw severely limits her options on this tight track.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Just Teasing",
+                        "handicapper_notes": "Julie Miller trainee is fast but post 7 is a brutal draw. Will need a highly aggressive drive.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Press",
+                        "handicapper_notes": "Stuck in the death trap post 8. Toss.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Zaheera",
+                    "rating": 94.0,
+                    "reason": "Noel Daley trainee is highly consistent. Boasts a strong 118 speed rating. Major contender."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tregaron",
+                    "rating": 88.0,
+                    "reason": "Jared Bako trainee gets the massive rail advantage. Should protect the pocket or lead early."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Just Teasing",
+                    "rating": 84.0,
+                    "reason": "Julie Miller trainee is fast but post 7 is a brutal draw. Will need a highly aggressive drive."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Rico Tubbs",
+                    "rating": 82.0,
+                    "reason": "Scott Di Domenico trainee has decent form but lacks the top-end speed of the favorites."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Goya",
+                "rating": 93.0,
+                "reason": "Anette Lorentzon trainee is highly consistent and fast. Strong contender despite post 5. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Walkinshaw N",
+                        "handicapper_notes": "Lance Hudson trainee gets the rail. Veteran pacer knows how to protect the lead on this track.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Aussie Hanover",
+                        "handicapper_notes": "Paul Blumenfeld trainee gets a good post. Decent speed figures make him an exotics threat.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Foxhunt",
+                        "handicapper_notes": "Deborah Daguet trainee is highly consistent. Good tactical speed from post 3.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Curly James A",
+                        "handicapper_notes": "Paul Fusco trainee is highly class-proven with a 129 speed rating. The clear horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Italian Lad N",
+                        "handicapper_notes": "Joe Bongiorno is highly aggressive and will likely send him hard. Boasts a strong 130 speed rating.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Maximus Red A",
+                        "handicapper_notes": "Outside post draw severely limits his options against this field.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Minotaur",
+                        "handicapper_notes": "Stuck in post 7. Hard to envision a winning trip.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Great Somewhere",
+                        "handicapper_notes": "Stuck in the death trap post 8. Toss.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Curly James A",
+                    "rating": 96.0,
+                    "reason": "Paul Fusco trainee is highly class-proven with a 129 speed rating. The clear horse to beat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Walkinshaw N",
+                    "rating": 93.0,
+                    "reason": "Lance Hudson trainee gets the rail. Veteran pacer knows how to protect the lead on this track. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Foxhunt",
+                    "rating": 86.0,
+                    "reason": "Deborah Daguet trainee is highly consistent. Good tactical speed from post 3."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Aussie Hanover",
+                    "rating": 82.0,
+                    "reason": "Paul Blumenfeld trainee gets a good post. Decent speed figures make him an exotics threat."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Italian Lad N",
+                "rating": 92.0,
+                "reason": "Joe Bongiorno is highly aggressive and will likely send him hard. Boasts a strong 130 speed rating."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Brutallyhandsome A",
+                        "handicapper_notes": "Cory Stratton trainee gets the rail. Will look to protect the pocket or lead early.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Iknowbetter",
+                        "handicapper_notes": "Joe Bongiorno is highly aggressive. Boasts a strong 135 speed rating. Major contender.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bettor By Seaside",
+                        "handicapper_notes": "Adamczyk trainee is extremely fast with a 132 speed rating. Perfect post 3 draw.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Bondi Shake N",
+                        "handicapper_notes": "James Siegelman trainee is consistent but faces a very tough field here.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Ourmatemenko N",
+                        "handicapper_notes": "Scott Di Domenico trainee has decent speed but post 5 is a tough starting spot.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Bet On Big Joe",
+                        "handicapper_notes": "Dennis J Laterza trainee is highly class-proven with a 134 speed rating, but post 6 is a major hurdle.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Shipmaster",
+                        "handicapper_notes": "Outside post draw severely limits his options against this elite field.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Invisible N",
+                        "handicapper_notes": "Stuck in the death trap post 8. Toss.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Iknowbetter",
+                    "rating": 99.0,
+                    "reason": "Joe Bongiorno is highly aggressive. Boasts a strong 135 speed rating. Major contender. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bettor By Seaside",
+                    "rating": 95.0,
+                    "reason": "Adamczyk trainee is extremely fast with a 132 speed rating. Perfect post 3 draw."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Brutallyhandsome A",
+                    "rating": 88.0,
+                    "reason": "Cory Stratton trainee gets the rail. Will look to protect the pocket or lead early."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Bondi Shake N",
+                    "rating": 82.0,
+                    "reason": "James Siegelman trainee is consistent but faces a very tough field here."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Bet On Big Joe",
+                "rating": 86.0,
+                "reason": "Dennis J Laterza trainee is highly class-proven with a 134 speed rating, but post 6 is a major hurdle."
+            }
+        },
+        {
+            "number": 9,
+            "distance": "1 Mile Trot Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1 Mile Trot Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Halfadozen",
+                        "handicapper_notes": "Gets the rail. Highly consistent with a 112 speed rating. Should protect the lead early.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Moni Man",
+                        "handicapper_notes": "Pat Lachance trainee is highly consistent. Good tactical speed from post 2.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Matthews",
+                        "handicapper_notes": "Cote Keim trainee is extremely fast with a 122 speed rating. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Wish List",
+                        "handicapper_notes": "Robert Baggitt trainee is solid but faces a very tough field here.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "D'wood",
+                        "handicapper_notes": "Anette Lorentzon trainee has strong speed (120) but post 5 is a tough starting spot.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Marin County",
+                        "handicapper_notes": "Outside post draw severely limits his options against this elite field.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Camera Man",
+                        "handicapper_notes": "Stuck in post 7. Hard to envision a winning trip.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Bizzy Brenda",
+                        "handicapper_notes": "Stuck in the death trap post 8. Toss.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Halfadozen",
+                    "rating": 95.0,
+                    "reason": "Gets the rail. Highly consistent with a 112 speed rating. Should protect the lead early. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Matthews",
+                    "rating": 94.0,
+                    "reason": "Cote Keim trainee is extremely fast with a 122 speed rating. Strong contender."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Moni Man",
+                    "rating": 88.0,
+                    "reason": "Pat Lachance trainee is highly consistent. Good tactical speed from post 2."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Wish List",
+                    "rating": 82.0,
+                    "reason": "Robert Baggitt trainee is solid but faces a very tough field here."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "D'wood",
+                "rating": 86.0,
+                "reason": "Anette Lorentzon trainee has strong speed (120) but post 5 is a tough starting spot."
+            }
+        },
+        {
+            "number": 10,
+            "distance": "1 Mile Pace Crushed Limestone",
+            "surface": "Limestone",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 Mile Pace Crushed Limestone",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 4, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Papi's Opinion",
+                        "handicapper_notes": "Gets the rail but slow speed figures make her hard to back even from post 1.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Gabbys Wish",
+                        "handicapper_notes": "Nicholas Devita trainee is consistent but lacks the top-end speed of the favorites.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Wave Dancer",
+                        "handicapper_notes": "Linda Toscano trainee is highly consistent with a strong 133 speed rating. Major contender.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Heartofthesunrise",
+                        "handicapper_notes": "Enrico Robinson trainee is extremely consistent with good tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Crystal Coast",
+                        "handicapper_notes": "Jenny Melander trainee has solid form but post 5 is a tough starting spot.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Imagine Heaven",
+                        "handicapper_notes": "Outside post draw severely limits her options against this elite field.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Send It Down Slim",
+                        "handicapper_notes": "Stuck in post 7. Hard to envision a winning trip.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Call Me Angelita",
+                        "handicapper_notes": "Scott Di Domenico trainee is highly class-proven with a 136 speed rating. However, post 8 is the death trap.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wave Dancer",
+                    "rating": 94.0,
+                    "reason": "Linda Toscano trainee is highly consistent with a strong 133 speed rating. Major contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Heartofthesunrise",
+                    "rating": 90.0,
+                    "reason": "Enrico Robinson trainee is extremely consistent with good tactical speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Crystal Coast",
+                    "rating": 86.0,
+                    "reason": "Jenny Melander trainee has solid form but post 5 is a tough starting spot."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Gabbys Wish",
+                    "rating": 82.0,
+                    "reason": "Nicholas Devita trainee is consistent but lacks the top-end speed of the favorites."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Call Me Angelita",
+                "rating": 91.0,
+                "reason": "Scott Di Domenico trainee is highly class-proven with a 136 speed rating. However, post 8 is the death trap. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        }
+    ]
+}

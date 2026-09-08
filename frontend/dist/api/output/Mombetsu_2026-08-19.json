@@ -1,0 +1,2410 @@
+{
+    "meta": {
+        "track": "Mombetsu",
+        "date": "2026-08-19",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 10, 11, 7, 4",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Iris Baby",
+                        "handicapper_notes": "Sets the speed standard with back-to-back strong speed ratings of 61 and 59 over this track and trip. Rates as the one to beat with Masaaki Kuwamura in the irons.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pacesetter / Presser (+3)",
+                            "ai_holistic_score": 90,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Yamami Aokaze",
+                        "handicapper_notes": "Substantial class drop from debut in a 26K yen newcomer event to this 5K condition race. Hokkaido premier rider Genta Ochiai retains the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Direct Presser (+2)",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Princess Jus",
+                        "handicapper_notes": "Proven hitting the board in higher 12K company in recent starts. Fresh off a 43-day letup and poised to take advantage of the class drop.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Will Eiger",
+                        "handicapper_notes": "Most experienced juvenile in the lineup with three career placings and consistent speed figures in the 43 to 52 range. Strong underneath contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Forward Stalker (+1)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Saori",
+                        "handicapper_notes": "Ran a respectable 4th on debut in 25K company with a solid 47 speed rating. Huge class relief makes her an intriguing danger horse at a price.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Midpack Stalker (+1)",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sasakure Nai",
+                        "handicapper_notes": "Attracted heavy market support on debut at 3.70 before tiring in 26K company. Draws the ground-saving rail and should improve second-out.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Inside Tracker (+1)",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Iris Baby",
+                    "rating": 90.0,
+                    "reason": "Sets the speed standard with back-to-back strong speed ratings of 61 and 59 over this track and trip. Rates as the one to beat with Masaaki Kuwamura in the irons."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Saori",
+                    "rating": 90.0,
+                    "reason": "Ran a respectable 4th on debut in 25K company with a solid 47 speed rating. Huge class relief makes her an intriguing danger horse at a price. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Yamami Aokaze",
+                    "rating": 88.0,
+                    "reason": "Substantial class drop from debut in a 26K yen newcomer event to this 5K condition race. Hokkaido premier rider Genta Ochiai retains the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sasakure Nai",
+                    "rating": 88.0,
+                    "reason": "Attracted heavy market support on debut at 3.70 before tiring in 26K company. Draws the ground-saving rail and should improve second-out. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Princess Jus",
+                    "rating": 85.0,
+                    "reason": "Proven hitting the board in higher 12K company in recent starts. Fresh off a 43-day letup and poised to take advantage of the class drop. | <i>\ud83d\udd3b Class Drop</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Iris Baby",
+                    "rating": 90.0,
+                    "reason": "Sets the speed standard with back-to-back strong speed ratings of 61 and 59 over this track and trip. Rates as the one to beat with Masaaki Kuwamura in the irons."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Saori",
+                    "rating": 90.0,
+                    "reason": "Ran a respectable 4th on debut in 25K company with a solid 47 speed rating. Huge class relief makes her an intriguing danger horse at a price. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Yamami Aokaze",
+                    "rating": 88.0,
+                    "reason": "Substantial class drop from debut in a 26K yen newcomer event to this 5K condition race. Hokkaido premier rider Genta Ochiai retains the mount. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sasakure Nai",
+                    "rating": 88.0,
+                    "reason": "Attracted heavy market support on debut at 3.70 before tiring in 26K company. Draws the ground-saving rail and should improve second-out. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Princess Jus",
+                    "rating": 85.0,
+                    "reason": "Proven hitting the board in higher 12K company in recent starts. Fresh off a 43-day letup and poised to take advantage of the class drop. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Will Eiger",
+                    "rating": 84.0,
+                    "reason": "Most experienced juvenile in the lineup with three career placings and consistent speed figures in the 43 to 52 range. Strong underneath contender."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Saori",
+                "rating": 90.0,
+                "reason": "Ran a respectable 4th on debut in 25K company with a solid 47 speed rating. Huge class relief makes her an intriguing danger horse at a price. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win Wager (Tight Gap: +0.0 pts on #10 Iris Baby)<br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #8, #11 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#8 Saori</b>"
+        },
+        {
+            "number": 2,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 10, 1, 11; Trifecta: 10 with 1, 11 with 1, 4, 6, 9, 11",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Oryza Nova",
+                        "handicapper_notes": "Sets the pace benchmark in this field with consistent speed ratings of 63, 60, and 63 across his last three starts. Ran a sharp fourth beaten just 0.6 lengths over 6f last out and previously hit the board twice over sprint distances. Has natural tactical speed to clear from stall 10 and dominate this group.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pacesetter (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Foresight Gaze",
+                        "handicapper_notes": "Represents the powerhouse Tanaka barn and top jockey Genta Ochiai. Earned a field-best 64 speed figure over this exact track and 5 1/2f trip two starts back when just missing by a head. Well positioned along the rail to save ground into the bend and stalk the leaders.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+3)",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Mana Uila",
+                        "handicapper_notes": "Returns from a freshening after producing a career-best 63 speed rating when finishing a clear second over 5 1/2f in $12K company on June 11. Enjoys a sharp class drop into this $5K conditional race and gets top rider Yamato Ishikawa.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Freshened",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Riko Zeppelin",
+                        "handicapper_notes": "Showed marked improvement last time out over this distance on August 5, sitting on the pace and sticking on for third with an upgraded 58 speed rating. In good form and commands respect for exotic placings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+1)",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Miraieno Heroine",
+                        "handicapper_notes": "Showed good early gate speed to lead on debut in a much tougher $25K condition race before tiring late. Drops significantly in class to this $5K level and has scope to improve second-up.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Early Speed",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Token Opus",
+                        "handicapper_notes": "Ran third on debut in a $26K maiden before fading to seventh in his first attempt at 5 1/2f. Can bounce back if he manages early fractions better from an inside draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Oryza Nova",
+                    "rating": 92.0,
+                    "reason": "Sets the pace benchmark in this field with consistent speed ratings of 63, 60, and 63 across his last three starts. Ran a sharp fourth beaten just 0.6 lengths over 6f last out and previously hit the board twice over sprint distances. Has natural tactical speed to clear from stall 10 and dominate this group. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Foresight Gaze",
+                    "rating": 89.0,
+                    "reason": "Represents the powerhouse Tanaka barn and top jockey Genta Ochiai. Earned a field-best 64 speed figure over this exact track and 5 1/2f trip two starts back when just missing by a head. Well positioned along the rail to save ground into the bend and stalk the leaders."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Miraieno Heroine",
+                    "rating": 88.0,
+                    "reason": "Showed good early gate speed to lead on debut in a much tougher $25K condition race before tiring late. Drops significantly in class to this $5K level and has scope to improve second-up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Mana Uila",
+                    "rating": 86.0,
+                    "reason": "Returns from a freshening after producing a career-best 63 speed rating when finishing a clear second over 5 1/2f in $12K company on June 11. Enjoys a sharp class drop into this $5K conditional race and gets top rider Yamato Ishikawa. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Freshened</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Riko Zeppelin",
+                    "rating": 83.0,
+                    "reason": "Showed marked improvement last time out over this distance on August 5, sitting on the pace and sticking on for third with an upgraded 58 speed rating. In good form and commands respect for exotic placings."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Oryza Nova",
+                    "rating": 92.0,
+                    "reason": "Sets the pace benchmark in this field with consistent speed ratings of 63, 60, and 63 across his last three starts. Ran a sharp fourth beaten just 0.6 lengths over 6f last out and previously hit the board twice over sprint distances. Has natural tactical speed to clear from stall 10 and dominate this group. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Foresight Gaze",
+                    "rating": 89.0,
+                    "reason": "Represents the powerhouse Tanaka barn and top jockey Genta Ochiai. Earned a field-best 64 speed figure over this exact track and 5 1/2f trip two starts back when just missing by a head. Well positioned along the rail to save ground into the bend and stalk the leaders."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Miraieno Heroine",
+                    "rating": 88.0,
+                    "reason": "Showed good early gate speed to lead on debut in a much tougher $25K condition race before tiring late. Drops significantly in class to this $5K level and has scope to improve second-up. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Mana Uila",
+                    "rating": 86.0,
+                    "reason": "Returns from a freshening after producing a career-best 63 speed rating when finishing a clear second over 5 1/2f in $12K company on June 11. Enjoys a sharp class drop into this $5K conditional race and gets top rider Yamato Ishikawa. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Freshened</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Riko Zeppelin",
+                    "rating": 83.0,
+                    "reason": "Showed marked improvement last time out over this distance on August 5, sitting on the pace and sticking on for third with an upgraded 58 speed rating. In good form and commands respect for exotic placings."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Token Opus",
+                    "rating": 78.0,
+                    "reason": "Ran third on debut in a $26K maiden before fading to seventh in his first attempt at 5 1/2f. Can bounce back if he manages early fractions better from an inside draw."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "11",
+                "name": "Mana Uila",
+                "rating": 86.0,
+                "reason": "Returns from a freshening after producing a career-best 63 speed rating when finishing a clear second over 5 1/2f in $12K company on June 11. Enjoys a sharp class drop into this $5K conditional race and gets top rider Yamato Ishikawa. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Freshened</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#10 Oryza Nova</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #1, #11 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 1 over 2, 3, 9; Trifecta 1 / 2, 9 / 2, 3, 5, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "A Shin Skuld",
+                        "handicapper_notes": "Dominant gate-to-wire winner over this track and trip on July 29 stopping the clock in a blistering 1:00.4 to score by four lengths. Retains premier jockey Yamato Ishikawa and draws the rail to dictate early pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Leader (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Lady Pink",
+                        "handicapper_notes": "Ultra-consistent 2yo filly who has hit the board in four straight starts over the 5f sprint. Narrowly missed by half a length last start in 1:01.2 and won easily two back in 1:01.1. Main threat from stall 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Direct Presser (+2)",
+                            "ai_holistic_score": 89,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Million Jupiter",
+                        "handicapper_notes": "Bred for speed by Real Steel from the elite Junji Tanaka barn with leading rider Genta Ochiai aboard. Rattled home for third just 0.8 lengths back in a fast 1:01.2 last start. Well suited to Mombetsu wide homestretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+3)",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Yui Fire",
+                        "handicapper_notes": "Broke through decisively last start with a 2-length victory tracking the leaders in 1:02.2. Has 5 top-three finishes from 6 career starts and possesses the tactical versatility to capitalize on an inside trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midfield Stalker (+1)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Riko Raider",
+                        "handicapper_notes": "Sharp front-running winner on August 4 over 5f clocking 1:02.1 under a positive ride. Faces stiffer pace pressure here but picks up in-form jockey Tatsuya Watanabe.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Speed Contender (0)",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Luminous One",
+                        "handicapper_notes": "Showed sharp improvement when closing from midfield to take down a 5f maiden on August 6 in 1:03.0. Steps up into tougher handicap conditions but can grab a minor share.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer (0)",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "A Shin Skuld",
+                    "rating": 92.0,
+                    "reason": "Dominant gate-to-wire winner over this track and trip on July 29 stopping the clock in a blistering 1:00.4 to score by four lengths. Retains premier jockey Yamato Ishikawa and draws the rail to dictate early pace."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Lady Pink",
+                    "rating": 89.0,
+                    "reason": "Ultra-consistent 2yo filly who has hit the board in four straight starts over the 5f sprint. Narrowly missed by half a length last start in 1:01.2 and won easily two back in 1:01.1. Main threat from stall 2."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Million Jupiter",
+                    "rating": 86.0,
+                    "reason": "Bred for speed by Real Steel from the elite Junji Tanaka barn with leading rider Genta Ochiai aboard. Rattled home for third just 0.8 lengths back in a fast 1:01.2 last start. Well suited to Mombetsu wide homestretch."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Yui Fire",
+                    "rating": 84.0,
+                    "reason": "Broke through decisively last start with a 2-length victory tracking the leaders in 1:02.2. Has 5 top-three finishes from 6 career starts and possesses the tactical versatility to capitalize on an inside trip."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Riko Raider",
+                    "rating": 82.0,
+                    "reason": "Sharp front-running winner on August 4 over 5f clocking 1:02.1 under a positive ride. Faces stiffer pace pressure here but picks up in-form jockey Tatsuya Watanabe."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "A Shin Skuld",
+                    "rating": 92.0,
+                    "reason": "Dominant gate-to-wire winner over this track and trip on July 29 stopping the clock in a blistering 1:00.4 to score by four lengths. Retains premier jockey Yamato Ishikawa and draws the rail to dictate early pace."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Lady Pink",
+                    "rating": 89.0,
+                    "reason": "Ultra-consistent 2yo filly who has hit the board in four straight starts over the 5f sprint. Narrowly missed by half a length last start in 1:01.2 and won easily two back in 1:01.1. Main threat from stall 2."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Million Jupiter",
+                    "rating": 86.0,
+                    "reason": "Bred for speed by Real Steel from the elite Junji Tanaka barn with leading rider Genta Ochiai aboard. Rattled home for third just 0.8 lengths back in a fast 1:01.2 last start. Well suited to Mombetsu wide homestretch."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Yui Fire",
+                    "rating": 84.0,
+                    "reason": "Broke through decisively last start with a 2-length victory tracking the leaders in 1:02.2. Has 5 top-three finishes from 6 career starts and possesses the tactical versatility to capitalize on an inside trip."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Riko Raider",
+                    "rating": 82.0,
+                    "reason": "Sharp front-running winner on August 4 over 5f clocking 1:02.1 under a positive ride. Faces stiffer pace pressure here but picks up in-form jockey Tatsuya Watanabe."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Luminous One",
+                    "rating": 79.0,
+                    "reason": "Showed sharp improvement when closing from midfield to take down a 5f maiden on August 6 in 1:03.0. Steps up into tougher handicap conditions but can grab a minor share."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Million Jupiter",
+                "rating": 86.0,
+                "reason": "Bred for speed by Real Steel from the elite Junji Tanaka barn with leading rider Genta Ochiai aboard. Rattled home for third just 0.8 lengths back in a fast 1:01.2 last start. Well suited to Mombetsu wide homestretch."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 A Shin Skuld</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #2, #9 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "1 1/16 m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 1/16 m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 8, 5; Trifecta 8 over 5, 7 over 3, 5, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Sarang",
+                        "handicapper_notes": "Main contender holding the highest and most consistent speed ratings in the field (SR 68 two back at this exact 1 1/16m distance when beaten only 0.75L). Perfectly drawn outside to stalk the early speed and unleash her bid into Mombetsu generous 330m straight with top pilot Yamato Ishikawa aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Best Luire",
+                        "handicapper_notes": "Enormous weight pull carrying featherweight 117 lbs (53.0 kg) via Ryoga Fujita, granting a key physical stamina edge over the 1700m route. Ran a sharp 66 speed rating when 5th beaten just 1.75 lengths behind Sarang on July 22 carrying 121 lbs, so the 4 lb weight drop makes her a massive win threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+3)",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Active Tailor",
+                        "handicapper_notes": "Sets the early tempo as the primary pacesetter in the field. Rebounded last start on August 5 over 1m when leading every step until collared late for 2nd at huge odds (SR 54). If allowed an uncontested lead around Mombetsu wide turns, she can take them deep into the lane.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Front-Runner (+2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bubbly Dash",
+                        "handicapper_notes": "Seasoned 9yo veteran with 111 starts and two course-and-distance victories. Ran 2nd over 1m three starts ago with a solid 58 speed rating. Well-drawn inside to track along the rail under Ryu Abe.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Mid-Pack (+1)",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Earth Wolf",
+                        "handicapper_notes": "Old warrior who hit the board at 1 1/16m on July 22 running 3rd (SR 61), finishing right alongside Sarang and Best Luire. Capable of passing tiring sprinters in the final furlong.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Poporon",
+                        "handicapper_notes": "Attracts top rider Genta Ochiai which demands respect, but steps up from 6f sprints to 1 1/16m for the first time with modest sprint speed figures (31-47 range).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sarang",
+                    "rating": 92.0,
+                    "reason": "Main contender holding the highest and most consistent speed ratings in the field (SR 68 two back at this exact 1 1/16m distance when beaten only 0.75L). Perfectly drawn outside to stalk the early speed and unleash her bid into Mombetsu generous 330m straight with top pilot Yamato Ishikawa aboard."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Best Luire",
+                    "rating": 88.0,
+                    "reason": "Enormous weight pull carrying featherweight 117 lbs (53.0 kg) via Ryoga Fujita, granting a key physical stamina edge over the 1700m route. Ran a sharp 66 speed rating when 5th beaten just 1.75 lengths behind Sarang on July 22 carrying 121 lbs, so the 4 lb weight drop makes her a massive win threat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Active Tailor",
+                    "rating": 87.0,
+                    "reason": "Sets the early tempo as the primary pacesetter in the field. Rebounded last start on August 5 over 1m when leading every step until collared late for 2nd at huge odds (SR 54). If allowed an uncontested lead around Mombetsu wide turns, she can take them deep into the lane. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bubbly Dash",
+                    "rating": 82.0,
+                    "reason": "Seasoned 9yo veteran with 111 starts and two course-and-distance victories. Ran 2nd over 1m three starts ago with a solid 58 speed rating. Well-drawn inside to track along the rail under Ryu Abe."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Earth Wolf",
+                    "rating": 80.0,
+                    "reason": "Old warrior who hit the board at 1 1/16m on July 22 running 3rd (SR 61), finishing right alongside Sarang and Best Luire. Capable of passing tiring sprinters in the final furlong."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sarang",
+                    "rating": 92.0,
+                    "reason": "Main contender holding the highest and most consistent speed ratings in the field (SR 68 two back at this exact 1 1/16m distance when beaten only 0.75L). Perfectly drawn outside to stalk the early speed and unleash her bid into Mombetsu generous 330m straight with top pilot Yamato Ishikawa aboard."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Best Luire",
+                    "rating": 88.0,
+                    "reason": "Enormous weight pull carrying featherweight 117 lbs (53.0 kg) via Ryoga Fujita, granting a key physical stamina edge over the 1700m route. Ran a sharp 66 speed rating when 5th beaten just 1.75 lengths behind Sarang on July 22 carrying 121 lbs, so the 4 lb weight drop makes her a massive win threat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Active Tailor",
+                    "rating": 87.0,
+                    "reason": "Sets the early tempo as the primary pacesetter in the field. Rebounded last start on August 5 over 1m when leading every step until collared late for 2nd at huge odds (SR 54). If allowed an uncontested lead around Mombetsu wide turns, she can take them deep into the lane. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bubbly Dash",
+                    "rating": 82.0,
+                    "reason": "Seasoned 9yo veteran with 111 starts and two course-and-distance victories. Ran 2nd over 1m three starts ago with a solid 58 speed rating. Well-drawn inside to track along the rail under Ryu Abe."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Earth Wolf",
+                    "rating": 80.0,
+                    "reason": "Old warrior who hit the board at 1 1/16m on July 22 running 3rd (SR 61), finishing right alongside Sarang and Best Luire. Capable of passing tiring sprinters in the final furlong."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Poporon",
+                    "rating": 77.0,
+                    "reason": "Attracts top rider Genta Ochiai which demands respect, but steps up from 6f sprints to 1 1/16m for the first time with modest sprint speed figures (31-47 range). | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Best Luire",
+                "rating": 88.0,
+                "reason": "Enormous weight pull carrying featherweight 117 lbs (53.0 kg) via Ryoga Fujita, granting a key physical stamina edge over the 1700m route. Ran a sharp 66 speed rating when 5th beaten just 1.75 lengths behind Sarang on July 22 carrying 121 lbs, so the 4 lb weight drop makes her a massive win threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#8 Sarang</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #8, #5, #7 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 9 over 1, 8, 12",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Conti Musashi",
+                        "handicapper_notes": "Boasts superior speed figures (SR 62-68) across recent starts. Finished on the board in four consecutive sprint events over this layout and possesses ideal tactical versatility to stalk and pounce down the 330m homestretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Madonna Blue",
+                        "handicapper_notes": "Sharp runner-up effort over this track and trip on August 6 when beaten only a half-length after pressing the pace. Proven sprint veteran drawn favorably outside to avoid kickback.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "On-Pace (+3)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ulzzang",
+                        "handicapper_notes": "Benefits from light 117 lbs impost. Flashed solid early foot when third two back behind Pierre Angel and has hit the board multiple times at the 5-furlong distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Kitano Miracle",
+                        "handicapper_notes": "Ran a solid third here two starts ago behind Excellen Winner. Draws the inside rail gate and carries a light weight assignment of 119 lbs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Mid-pack (+1)",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Kanetoshi Celeste",
+                        "handicapper_notes": "Showed quick early dash to finish second over this course on July 23. Capable of carving out an early lead from an inside barrier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (+1)",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Shiawasecappuccino",
+                        "handicapper_notes": "Dangerous returnee for leading trainer Junji Tanaka. Won consecutive races at Kasamatsu during previous preparation and must be respected if sharp off the layoff.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Conti Musashi",
+                    "rating": 92.0,
+                    "reason": "Boasts superior speed figures (SR 62-68) across recent starts. Finished on the board in four consecutive sprint events over this layout and possesses ideal tactical versatility to stalk and pounce down the 330m homestretch."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Madonna Blue",
+                    "rating": 87.0,
+                    "reason": "Sharp runner-up effort over this track and trip on August 6 when beaten only a half-length after pressing the pace. Proven sprint veteran drawn favorably outside to avoid kickback."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ulzzang",
+                    "rating": 84.0,
+                    "reason": "Benefits from light 117 lbs impost. Flashed solid early foot when third two back behind Pierre Angel and has hit the board multiple times at the 5-furlong distance."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kitano Miracle",
+                    "rating": 82.0,
+                    "reason": "Ran a solid third here two starts ago behind Excellen Winner. Draws the inside rail gate and carries a light weight assignment of 119 lbs."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Kanetoshi Celeste",
+                    "rating": 80.0,
+                    "reason": "Showed quick early dash to finish second over this course on July 23. Capable of carving out an early lead from an inside barrier."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Conti Musashi",
+                    "rating": 92.0,
+                    "reason": "Boasts superior speed figures (SR 62-68) across recent starts. Finished on the board in four consecutive sprint events over this layout and possesses ideal tactical versatility to stalk and pounce down the 330m homestretch."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Madonna Blue",
+                    "rating": 87.0,
+                    "reason": "Sharp runner-up effort over this track and trip on August 6 when beaten only a half-length after pressing the pace. Proven sprint veteran drawn favorably outside to avoid kickback."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ulzzang",
+                    "rating": 84.0,
+                    "reason": "Benefits from light 117 lbs impost. Flashed solid early foot when third two back behind Pierre Angel and has hit the board multiple times at the 5-furlong distance."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kitano Miracle",
+                    "rating": 82.0,
+                    "reason": "Ran a solid third here two starts ago behind Excellen Winner. Draws the inside rail gate and carries a light weight assignment of 119 lbs."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Kanetoshi Celeste",
+                    "rating": 80.0,
+                    "reason": "Showed quick early dash to finish second over this course on July 23. Capable of carving out an early lead from an inside barrier."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Shiawasecappuccino",
+                    "rating": 79.0,
+                    "reason": "Dangerous returnee for leading trainer Junji Tanaka. Won consecutive races at Kasamatsu during previous preparation and must be respected if sharp off the layoff. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Shiawasecappuccino",
+                "rating": 79.0,
+                "reason": "Dangerous returnee for leading trainer Junji Tanaka. Won consecutive races at Kasamatsu during previous preparation and must be respected if sharp off the layoff. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 Conti Musashi</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#12, #8, #5) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1000m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1000m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 6, 10, 1; Trifecta Key 6 over 1, 3, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Fukuno Antares",
+                        "handicapper_notes": "Major class dropper transitioning from JRA unplaced maiden company ($69K-$98K level) down to local NAR C4 tier. Flashed high potential when 3rd at Nakayama (SR 78) and picks up top pilot Yamato Ishikawa. Class Drop Elevator bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Stalker (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Morning Ajisai",
+                        "handicapper_notes": "In career-best form over the Mombetsu 5f trip, scoring a sharp victory on August 6 (SR 65) after a close runner-up finish (SR 63). Excellent tactical speed suited to the 330m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Presser (+3)",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sarasa Go Sign",
+                        "handicapper_notes": "Very reliable performer who missed by just a nose over this track and distance on August 5 recording a fast SR 68. Drawn ideally in Stall 1 to save ground and launch late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "River Jewel",
+                        "handicapper_notes": "JRA class dropper who was backed down to 2.30 favoritism on local debut, setting the pace before being edged out by 1.6 lengths. Natural early speed makes her dangerous with that run under her belt.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Early Speed (+2)",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Chogolisa",
+                        "handicapper_notes": "Gets elite jockey Genta Ochiai back aboard. Won over 5f three starts back with an SR 66 and was beaten under two lengths last time out. Solid exotics contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midfield Closer (+1)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Raven Knight",
+                        "handicapper_notes": "Brings back-to-back runner-up efforts at this track and distance. Has good early positioning from barrier 2 to contest the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "On Pace (+1)",
+                            "ai_holistic_score": 83,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Fukuno Antares",
+                    "rating": 92.0,
+                    "reason": "Major class dropper transitioning from JRA unplaced maiden company ($69K-$98K level) down to local NAR C4 tier. Flashed high potential when 3rd at Nakayama (SR 78) and picks up top pilot Yamato Ishikawa. Class Drop Elevator bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Morning Ajisai",
+                    "rating": 88.0,
+                    "reason": "In career-best form over the Mombetsu 5f trip, scoring a sharp victory on August 6 (SR 65) after a close runner-up finish (SR 63). Excellent tactical speed suited to the 330m straight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sarasa Go Sign",
+                    "rating": 87.0,
+                    "reason": "Very reliable performer who missed by just a nose over this track and distance on August 5 recording a fast SR 68. Drawn ideally in Stall 1 to save ground and launch late."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "River Jewel",
+                    "rating": 85.0,
+                    "reason": "JRA class dropper who was backed down to 2.30 favoritism on local debut, setting the pace before being edged out by 1.6 lengths. Natural early speed makes her dangerous with that run under her belt. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Chogolisa",
+                    "rating": 84.0,
+                    "reason": "Gets elite jockey Genta Ochiai back aboard. Won over 5f three starts back with an SR 66 and was beaten under two lengths last time out. Solid exotics contender."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Fukuno Antares",
+                    "rating": 92.0,
+                    "reason": "Major class dropper transitioning from JRA unplaced maiden company ($69K-$98K level) down to local NAR C4 tier. Flashed high potential when 3rd at Nakayama (SR 78) and picks up top pilot Yamato Ishikawa. Class Drop Elevator bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Morning Ajisai",
+                    "rating": 88.0,
+                    "reason": "In career-best form over the Mombetsu 5f trip, scoring a sharp victory on August 6 (SR 65) after a close runner-up finish (SR 63). Excellent tactical speed suited to the 330m straight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sarasa Go Sign",
+                    "rating": 87.0,
+                    "reason": "Very reliable performer who missed by just a nose over this track and distance on August 5 recording a fast SR 68. Drawn ideally in Stall 1 to save ground and launch late."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "River Jewel",
+                    "rating": 85.0,
+                    "reason": "JRA class dropper who was backed down to 2.30 favoritism on local debut, setting the pace before being edged out by 1.6 lengths. Natural early speed makes her dangerous with that run under her belt. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Chogolisa",
+                    "rating": 84.0,
+                    "reason": "Gets elite jockey Genta Ochiai back aboard. Won over 5f three starts back with an SR 66 and was beaten under two lengths last time out. Solid exotics contender."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Raven Knight",
+                    "rating": 83.0,
+                    "reason": "Brings back-to-back runner-up efforts at this track and distance. Has good early positioning from barrier 2 to contest the pace."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "River Jewel",
+                "rating": 85.0,
+                "reason": "JRA class dropper who was backed down to 2.30 favoritism on local debut, setting the pace before being edged out by 1.6 lengths. Natural early speed makes her dangerous with that run under her belt. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Fukuno Antares</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #10, #7 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 4 over 3, 8, 9, 11",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Yui Ganesha",
+                        "handicapper_notes": "Impressive wire-to-wire winner at this track and 5f distance last start earning a field-best 68 speed rating. In peak form and retains top pilot Genta Ochiai.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pacesetter (+3)",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Mo Mo Blue",
+                        "handicapper_notes": "Game last-start winner over 5f clocking a sharp 64 speed rating. Highly experienced over the track and distance and gets reliable handling from Takafumi Hattori.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+2)",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Oishi Sakura",
+                        "handicapper_notes": "Forgivable effort last time when breaking poorly. Romped two starts back by 5 lengths over track and trip earning a 65 speed rating. Primed to rebound.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Broke Slowly",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Flaring Baron",
+                        "handicapper_notes": "Closed well to grab 3rd against tougher company last start. Registered a powerful 69 speed rating when winning three back and possesses a potent stretch kick.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer (+2)",
+                            "ai_holistic_score": 83,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Scallop Pearl",
+                        "handicapper_notes": "Consistent 3yo filly coming off a sharp front-running victory at this distance on July 28. Inside draw allows her to secure a forward position easily.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+1)",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Marino Marvelous",
+                        "handicapper_notes": "JRA maiden dropper making local NAR debut. Produced an improved 58 speed rating at Fukushima last out and merits respect dropping into local C4 company.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Stalker (+1)",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Yui Ganesha",
+                    "rating": 91.0,
+                    "reason": "Impressive wire-to-wire winner at this track and 5f distance last start earning a field-best 68 speed rating. In peak form and retains top pilot Genta Ochiai."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Marino Marvelous",
+                    "rating": 88.0,
+                    "reason": "JRA maiden dropper making local NAR debut. Produced an improved 58 speed rating at Fukushima last out and merits respect dropping into local C4 company. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Mo Mo Blue",
+                    "rating": 86.0,
+                    "reason": "Game last-start winner over 5f clocking a sharp 64 speed rating. Highly experienced over the track and distance and gets reliable handling from Takafumi Hattori."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Oishi Sakura",
+                    "rating": 84.0,
+                    "reason": "Forgivable effort last time when breaking poorly. Romped two starts back by 5 lengths over track and trip earning a 65 speed rating. Primed to rebound. | <i>\u26a0\ufe0f Broke Slowly</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Flaring Baron",
+                    "rating": 83.0,
+                    "reason": "Closed well to grab 3rd against tougher company last start. Registered a powerful 69 speed rating when winning three back and possesses a potent stretch kick."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Yui Ganesha",
+                    "rating": 91.0,
+                    "reason": "Impressive wire-to-wire winner at this track and 5f distance last start earning a field-best 68 speed rating. In peak form and retains top pilot Genta Ochiai."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Marino Marvelous",
+                    "rating": 88.0,
+                    "reason": "JRA maiden dropper making local NAR debut. Produced an improved 58 speed rating at Fukushima last out and merits respect dropping into local C4 company. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Mo Mo Blue",
+                    "rating": 86.0,
+                    "reason": "Game last-start winner over 5f clocking a sharp 64 speed rating. Highly experienced over the track and distance and gets reliable handling from Takafumi Hattori."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Oishi Sakura",
+                    "rating": 84.0,
+                    "reason": "Forgivable effort last time when breaking poorly. Romped two starts back by 5 lengths over track and trip earning a 65 speed rating. Primed to rebound. | <i>\u26a0\ufe0f Broke Slowly</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Flaring Baron",
+                    "rating": 83.0,
+                    "reason": "Closed well to grab 3rd against tougher company last start. Registered a powerful 69 speed rating when winning three back and possesses a potent stretch kick."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Scallop Pearl",
+                    "rating": 81.0,
+                    "reason": "Consistent 3yo filly coming off a sharp front-running victory at this distance on July 28. Inside draw allows her to secure a forward position easily."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Oishi Sakura",
+                "rating": 84.0,
+                "reason": "Forgivable effort last time when breaking poorly. Romped two starts back by 5 lengths over track and trip earning a 65 speed rating. Primed to rebound. | <i>\u26a0\ufe0f Broke Slowly</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Yui Ganesha</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #12, #8 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 1 over 5, 6, 7, 10; Trifecta 1 / 6, 7 / 3, 5, 6, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ayasan Jolene",
+                        "handicapper_notes": "Massive class dropper transitioning back to Mombetsu from competitive JRA Allowance company at Hakodate where she posted solid speed ratings (SR 72). Draws the ground-saving rail and holds a significant class edge over local NAR B4 opposition.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Stalker (+4)",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Pierre Tennessee",
+                        "handicapper_notes": "Extremely reliable mare at this course and distance. Finished a sharp second in B4 class last start clocking 1:14.2 (SR 64) with a strong closing kick down the 330m straight. Must be included in all exactas.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Dunk Barows",
+                        "handicapper_notes": "Hails from the elite Junji Tanaka stable and pairs with Takafumi Hattori. Won over this track and trip two back in 1:14.1 and possesses tactical presser versatility perfectly suited to Mombetsu's sweeping turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Presser (+2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Ryuno Magician",
+                        "handicapper_notes": "Deep closer who receives significant weight relief down to 119 lbs (54.0kg). Closed strongly to finish 4th behind Queen's Merengue last out and will relish charging down the wide outer straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer (+3)",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Porickey",
+                        "handicapper_notes": "Second-up following a long layoff for top trainer Hideki Kakugawa with leading rider Masaaki Kuwamura. Possesses high juvenile back-class and should take a large step forward second off the bench.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Charpentier",
+                        "handicapper_notes": "Solid local debut when 5th beaten under 4 lengths in B4 company after shipping from Funabashi. Yamato Ishikawa retains the ride second-up and can grab a minor share.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ayasan Jolene",
+                    "rating": 91.0,
+                    "reason": "Massive class dropper transitioning back to Mombetsu from competitive JRA Allowance company at Hakodate where she posted solid speed ratings (SR 72). Draws the ground-saving rail and holds a significant class edge over local NAR B4 opposition. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pierre Tennessee",
+                    "rating": 87.0,
+                    "reason": "Extremely reliable mare at this course and distance. Finished a sharp second in B4 class last start clocking 1:14.2 (SR 64) with a strong closing kick down the 330m straight. Must be included in all exactas."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Dunk Barows",
+                    "rating": 84.0,
+                    "reason": "Hails from the elite Junji Tanaka stable and pairs with Takafumi Hattori. Won over this track and trip two back in 1:14.1 and possesses tactical presser versatility perfectly suited to Mombetsu's sweeping turns."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Ryuno Magician",
+                    "rating": 83.0,
+                    "reason": "Deep closer who receives significant weight relief down to 119 lbs (54.0kg). Closed strongly to finish 4th behind Queen's Merengue last out and will relish charging down the wide outer straight."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Porickey",
+                    "rating": 82.0,
+                    "reason": "Second-up following a long layoff for top trainer Hideki Kakugawa with leading rider Masaaki Kuwamura. Possesses high juvenile back-class and should take a large step forward second off the bench."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ayasan Jolene",
+                    "rating": 91.0,
+                    "reason": "Massive class dropper transitioning back to Mombetsu from competitive JRA Allowance company at Hakodate where she posted solid speed ratings (SR 72). Draws the ground-saving rail and holds a significant class edge over local NAR B4 opposition. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pierre Tennessee",
+                    "rating": 87.0,
+                    "reason": "Extremely reliable mare at this course and distance. Finished a sharp second in B4 class last start clocking 1:14.2 (SR 64) with a strong closing kick down the 330m straight. Must be included in all exactas."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Dunk Barows",
+                    "rating": 84.0,
+                    "reason": "Hails from the elite Junji Tanaka stable and pairs with Takafumi Hattori. Won over this track and trip two back in 1:14.1 and possesses tactical presser versatility perfectly suited to Mombetsu's sweeping turns."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Ryuno Magician",
+                    "rating": 83.0,
+                    "reason": "Deep closer who receives significant weight relief down to 119 lbs (54.0kg). Closed strongly to finish 4th behind Queen's Merengue last out and will relish charging down the wide outer straight."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Porickey",
+                    "rating": 82.0,
+                    "reason": "Second-up following a long layoff for top trainer Hideki Kakugawa with leading rider Masaaki Kuwamura. Possesses high juvenile back-class and should take a large step forward second off the bench."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Charpentier",
+                    "rating": 80.0,
+                    "reason": "Solid local debut when 5th beaten under 4 lengths in B4 company after shipping from Funabashi. Yamato Ishikawa retains the ride second-up and can grab a minor share."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Ryuno Magician",
+                "rating": 83.0,
+                "reason": "Deep closer who receives significant weight relief down to 119 lbs (54.0kg). Closed strongly to finish 4th behind Queen's Merengue last out and will relish charging down the wide outer straight."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Ayasan Jolene</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #6, #10 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 5, 7, 4; Trifecta Key 5 over 4, 7 with 1, 3, 4, 7",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Geist Segen",
+                        "handicapper_notes": "Boasts supreme current form at the 1200m trip, rattling off five consecutive speed ratings above 71 including an easy 1.5-length victory last start in 1:14.0. Possesses ideal tactical stalk-and-pounce speed to thrive down Mombetsus 330m straight with top rider Tatsuya Watanabe.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+3)",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Virtue",
+                        "handicapper_notes": "Drops back into regular B4 handicap company after competing in a competitive 51K feature last month. A five-time winner over the course with peak speed figures of 75-76 at this distance, partnering seamlessly with elite pilot Masaaki Kuwamura.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Front-runner/Presser (+2)",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Dujac",
+                        "handicapper_notes": "Established early pacesetter with 4 career wins at Mombetsu. Comes off solid 3rd and 4th place efforts against similar company and has the early zip to dictate terms or sit right off the lead from gate 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pacesetter (+1)",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Win Tolkien",
+                        "handicapper_notes": "Seven-time career winner who caught the eye running on late into 6th on local return at this track and distance. Lands rail barrier and picks up premier pilot Toshiya Yamamoto.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+1)",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Meiner Genius",
+                        "handicapper_notes": "Steps back up to 1200m after finding 1000m sprints a bit sharp. Guided by Yamato Ishikawa and owns three wins over the Mombetsu oval; capable of securing minor placings if able to draft behind the leaders.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Win Protea",
+                        "handicapper_notes": "Showed good early speed before faltering late in a B4 race on August 5. If rated more conservatively under apprentice Asahi Wakasugi, she has the back-class to round out the multi-race exotic tickets.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (-1)",
+                            "ai_holistic_score": 74,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Geist Segen",
+                    "rating": 91.0,
+                    "reason": "Boasts supreme current form at the 1200m trip, rattling off five consecutive speed ratings above 71 including an easy 1.5-length victory last start in 1:14.0. Possesses ideal tactical stalk-and-pounce speed to thrive down Mombetsus 330m straight with top rider Tatsuya Watanabe."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Virtue",
+                    "rating": 88.0,
+                    "reason": "Drops back into regular B4 handicap company after competing in a competitive 51K feature last month. A five-time winner over the course with peak speed figures of 75-76 at this distance, partnering seamlessly with elite pilot Masaaki Kuwamura. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Dujac",
+                    "rating": 84.0,
+                    "reason": "Established early pacesetter with 4 career wins at Mombetsu. Comes off solid 3rd and 4th place efforts against similar company and has the early zip to dictate terms or sit right off the lead from gate 4."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Win Tolkien",
+                    "rating": 80.0,
+                    "reason": "Seven-time career winner who caught the eye running on late into 6th on local return at this track and distance. Lands rail barrier and picks up premier pilot Toshiya Yamamoto."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Meiner Genius",
+                    "rating": 78.0,
+                    "reason": "Steps back up to 1200m after finding 1000m sprints a bit sharp. Guided by Yamato Ishikawa and owns three wins over the Mombetsu oval; capable of securing minor placings if able to draft behind the leaders. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Geist Segen",
+                    "rating": 91.0,
+                    "reason": "Boasts supreme current form at the 1200m trip, rattling off five consecutive speed ratings above 71 including an easy 1.5-length victory last start in 1:14.0. Possesses ideal tactical stalk-and-pounce speed to thrive down Mombetsus 330m straight with top rider Tatsuya Watanabe."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Virtue",
+                    "rating": 88.0,
+                    "reason": "Drops back into regular B4 handicap company after competing in a competitive 51K feature last month. A five-time winner over the course with peak speed figures of 75-76 at this distance, partnering seamlessly with elite pilot Masaaki Kuwamura. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Dujac",
+                    "rating": 84.0,
+                    "reason": "Established early pacesetter with 4 career wins at Mombetsu. Comes off solid 3rd and 4th place efforts against similar company and has the early zip to dictate terms or sit right off the lead from gate 4."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Win Tolkien",
+                    "rating": 80.0,
+                    "reason": "Seven-time career winner who caught the eye running on late into 6th on local return at this track and distance. Lands rail barrier and picks up premier pilot Toshiya Yamamoto."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Meiner Genius",
+                    "rating": 78.0,
+                    "reason": "Steps back up to 1200m after finding 1000m sprints a bit sharp. Guided by Yamato Ishikawa and owns three wins over the Mombetsu oval; capable of securing minor placings if able to draft behind the leaders. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Win Protea",
+                    "rating": 74.0,
+                    "reason": "Showed good early speed before faltering late in a B4 race on August 5. If rated more conservatively under apprentice Asahi Wakasugi, she has the back-class to round out the multi-race exotic tickets."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Virtue",
+                "rating": 88.0,
+                "reason": "Drops back into regular B4 handicap company after competing in a competitive 51K feature last month. A five-time winner over the course with peak speed figures of 75-76 at this distance, partnering seamlessly with elite pilot Masaaki Kuwamura. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Geist Segen</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #7, #4 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#7 Virtue</b>"
+        },
+        {
+            "number": 10,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 10, 7 with Trifecta Key 1 over 2, 6, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Koko Kohaku",
+                        "handicapper_notes": "Boasts a sterling local record of 5 wins and 7 minors from 17 starts at Mombetsu. Benefits from a 119 lbs featherweight assignment and the coveted rail draw to track the pace cleanly down the 330m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+4)",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Kitasan Mondo",
+                        "handicapper_notes": "Bred by Kitasan Black and enters in sharp form having won 3 of 7 at the venue, including a decisive front-running score over 6f on July 30. Proven tactical turn of foot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "On-Pace (+3)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Tulearensis",
+                        "handicapper_notes": "Progressive 3-year-old filly with 4 wins and 4 seconds from 13 Mombetsu outings. Comes off a commendable 4th in fast B4 company on August 6 and gets top local pilot Yamato Ishikawa.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+2)",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Golden Seeker",
+                        "handicapper_notes": "Possesses JRA allowance back class. Showed high early speed and retained sharp stamina to run 2nd behind Clever Ben off a 16-month layoff on July 22. Entitled to second-up progression.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (+2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Meisho Marble",
+                        "handicapper_notes": "Extremely seasoned over course and distance with 27 starts (5 wins, 9 minors). Consistent late closing fraction makes him a dependable underneath contender for exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tomoe",
+                        "handicapper_notes": "Speedy mare who dominated B4 rivals two starts back on July 22 over this track and trip. Disappointed when up in grade to B3 last start but dangerous if allowed an uncontested trip near the front.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (+1)",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Koko Kohaku",
+                    "rating": 90.0,
+                    "reason": "Boasts a sterling local record of 5 wins and 7 minors from 17 starts at Mombetsu. Benefits from a 119 lbs featherweight assignment and the coveted rail draw to track the pace cleanly down the 330m straight."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Kitasan Mondo",
+                    "rating": 87.0,
+                    "reason": "Bred by Kitasan Black and enters in sharp form having won 3 of 7 at the venue, including a decisive front-running score over 6f on July 30. Proven tactical turn of foot."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tulearensis",
+                    "rating": 85.0,
+                    "reason": "Progressive 3-year-old filly with 4 wins and 4 seconds from 13 Mombetsu outings. Comes off a commendable 4th in fast B4 company on August 6 and gets top local pilot Yamato Ishikawa."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Golden Seeker",
+                    "rating": 84.0,
+                    "reason": "Possesses JRA allowance back class. Showed high early speed and retained sharp stamina to run 2nd behind Clever Ben off a 16-month layoff on July 22. Entitled to second-up progression."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Meisho Marble",
+                    "rating": 82.0,
+                    "reason": "Extremely seasoned over course and distance with 27 starts (5 wins, 9 minors). Consistent late closing fraction makes him a dependable underneath contender for exotics."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Koko Kohaku",
+                    "rating": 90.0,
+                    "reason": "Boasts a sterling local record of 5 wins and 7 minors from 17 starts at Mombetsu. Benefits from a 119 lbs featherweight assignment and the coveted rail draw to track the pace cleanly down the 330m straight."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Kitasan Mondo",
+                    "rating": 87.0,
+                    "reason": "Bred by Kitasan Black and enters in sharp form having won 3 of 7 at the venue, including a decisive front-running score over 6f on July 30. Proven tactical turn of foot."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tulearensis",
+                    "rating": 85.0,
+                    "reason": "Progressive 3-year-old filly with 4 wins and 4 seconds from 13 Mombetsu outings. Comes off a commendable 4th in fast B4 company on August 6 and gets top local pilot Yamato Ishikawa."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Golden Seeker",
+                    "rating": 84.0,
+                    "reason": "Possesses JRA allowance back class. Showed high early speed and retained sharp stamina to run 2nd behind Clever Ben off a 16-month layoff on July 22. Entitled to second-up progression."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Meisho Marble",
+                    "rating": 82.0,
+                    "reason": "Extremely seasoned over course and distance with 27 starts (5 wins, 9 minors). Consistent late closing fraction makes him a dependable underneath contender for exotics."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Tomoe",
+                    "rating": 80.0,
+                    "reason": "Speedy mare who dominated B4 rivals two starts back on July 22 over this track and trip. Disappointed when up in grade to B3 last start but dangerous if allowed an uncontested trip near the front."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Golden Seeker",
+                "rating": 84.0,
+                "reason": "Possesses JRA allowance back class. Showed high early speed and retained sharp stamina to run 2nd behind Clever Ben off a 16-month layoff on July 22. Entitled to second-up progression."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Koko Kohaku</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #10, #2 (Selective Box)"
+        },
+        {
+            "number": 11,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 5, 2, 6 with Trifecta Key 5 over 2, 3, 6",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Crown Villain",
+                        "handicapper_notes": "Maintains elite tactical speed and tremendous consistency at this 5f sprint trip. Missed by just a half-length in back-to-back fast B3 contests stopwatches (1:00.3 and 1:00.2). Top winning credentials with Ishikawa retaining.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+3)",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Sayuribana",
+                        "handicapper_notes": "Undefeated at this track and distance with 3 consecutive dominating victories in the spring. Returns fresh and carries a featherweight 115 lbs with apprentice allowance. Major front-running danger from the inside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (+2)",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Nishiken Cabal",
+                        "handicapper_notes": "Relentless gate speed and top regional jockey Genta Ochiai booked. Has finished right alongside Crown Villain in recent outings and will dispute the lead from the break.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed (+1)",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Takeno Roule",
+                        "handicapper_notes": "Sharp 3yo filly with 3 wins from 8 local appearances. Possesses balanced midpack sectionals and can capitalize down the 330m straight if the top two duel early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+2)",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Dual Career (USA)",
+                        "handicapper_notes": "Ten-year-old veteran dropping back from 6f where he finished runner-up last start. Benefits from a 119 lbs light assignment but faces sharper specialist speed at 5f.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Shorter Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Saya Eonni",
+                        "handicapper_notes": "Seasoned mare with 6 career wins over 5f. Ran an honest fifth last time out and could sneak into the superfecta at long odds with clean outside running.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Crown Villain",
+                    "rating": 91.0,
+                    "reason": "Maintains elite tactical speed and tremendous consistency at this 5f sprint trip. Missed by just a half-length in back-to-back fast B3 contests stopwatches (1:00.3 and 1:00.2). Top winning credentials with Ishikawa retaining."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Sayuribana",
+                    "rating": 90.0,
+                    "reason": "Undefeated at this track and distance with 3 consecutive dominating victories in the spring. Returns fresh and carries a featherweight 115 lbs with apprentice allowance. Major front-running danger from the inside."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Nishiken Cabal",
+                    "rating": 88.0,
+                    "reason": "Relentless gate speed and top regional jockey Genta Ochiai booked. Has finished right alongside Crown Villain in recent outings and will dispute the lead from the break."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Takeno Roule",
+                    "rating": 86.0,
+                    "reason": "Sharp 3yo filly with 3 wins from 8 local appearances. Possesses balanced midpack sectionals and can capitalize down the 330m straight if the top two duel early."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Dual Career (USA)",
+                    "rating": 83.0,
+                    "reason": "Ten-year-old veteran dropping back from 6f where he finished runner-up last start. Benefits from a 119 lbs light assignment but faces sharper specialist speed at 5f. | <i>\ud83d\udccf Sprint to Shorter Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Crown Villain",
+                    "rating": 91.0,
+                    "reason": "Maintains elite tactical speed and tremendous consistency at this 5f sprint trip. Missed by just a half-length in back-to-back fast B3 contests stopwatches (1:00.3 and 1:00.2). Top winning credentials with Ishikawa retaining."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Sayuribana",
+                    "rating": 90.0,
+                    "reason": "Undefeated at this track and distance with 3 consecutive dominating victories in the spring. Returns fresh and carries a featherweight 115 lbs with apprentice allowance. Major front-running danger from the inside."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Nishiken Cabal",
+                    "rating": 88.0,
+                    "reason": "Relentless gate speed and top regional jockey Genta Ochiai booked. Has finished right alongside Crown Villain in recent outings and will dispute the lead from the break."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Takeno Roule",
+                    "rating": 86.0,
+                    "reason": "Sharp 3yo filly with 3 wins from 8 local appearances. Possesses balanced midpack sectionals and can capitalize down the 330m straight if the top two duel early."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Dual Career (USA)",
+                    "rating": 83.0,
+                    "reason": "Ten-year-old veteran dropping back from 6f where he finished runner-up last start. Benefits from a 119 lbs light assignment but faces sharper specialist speed at 5f. | <i>\ud83d\udccf Sprint to Shorter Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Saya Eonni",
+                    "rating": 80.0,
+                    "reason": "Seasoned mare with 6 career wins over 5f. Ran an honest fifth last time out and could sneak into the superfecta at long odds with clean outside running."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Sayuribana",
+                "rating": 90.0,
+                "reason": "Undefeated at this track and distance with 3 consecutive dominating victories in the spring. Returns fresh and carries a featherweight 115 lbs with apprentice allowance. Major front-running danger from the inside."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Crown Villain</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #2, #6 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#2 Sayuribana</b>"
+        },
+        {
+            "number": 12,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 5 over 3, 6, 8, 12",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sellout Crowd",
+                        "handicapper_notes": "Sensational undefeated filly who crushed open company last start with an elite 85 speed rating clocking 59.2s over 5f. Holds overwhelming class and speed figures over this field; Genta Ochiai retains the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pacesetter (+5)",
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Kura Prosper",
+                        "handicapper_notes": "Proven route and 6f form with a sharp 74 speed rating winning over 1200m two starts back. Possesses a dangerous closing kick perfectly suited for Mombetsus 330m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker (+4)",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Dokkan Cabbage",
+                        "handicapper_notes": "Dominated on debut by 30 lengths recording 1:08.3 over 5 1/2f. Comes off a layoff but has high upside and Yamato Ishikawa in the irons.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser (+3)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Tree Of Life",
+                        "handicapper_notes": "Very consistent filly (5: 2-3-0) who finished 2nd to Sellout Crowd last out. Has early tactical position and reliably hits the board.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Labyrinth Tiara",
+                        "handicapper_notes": "Proven 1200m performer with 2 wins and two 3rds at the distance, including a solid 3rd in 41k company last start in 1:14.0.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "La Mantovana",
+                        "handicapper_notes": "Scored decisively on debut by 3 lengths from the Tanaka barn. Fresh for this test and could take another step forward.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sellout Crowd",
+                    "rating": 95.0,
+                    "reason": "Sensational undefeated filly who crushed open company last start with an elite 85 speed rating clocking 59.2s over 5f. Holds overwhelming class and speed figures over this field; Genta Ochiai retains the mount. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Kura Prosper",
+                    "rating": 89.0,
+                    "reason": "Proven route and 6f form with a sharp 74 speed rating winning over 1200m two starts back. Possesses a dangerous closing kick perfectly suited for Mombetsus 330m straight. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Dokkan Cabbage",
+                    "rating": 87.0,
+                    "reason": "Dominated on debut by 30 lengths recording 1:08.3 over 5 1/2f. Comes off a layoff but has high upside and Yamato Ishikawa in the irons. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Tree Of Life",
+                    "rating": 84.0,
+                    "reason": "Very consistent filly (5: 2-3-0) who finished 2nd to Sellout Crowd last out. Has early tactical position and reliably hits the board. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Labyrinth Tiara",
+                    "rating": 82.0,
+                    "reason": "Proven 1200m performer with 2 wins and two 3rds at the distance, including a solid 3rd in 41k company last start in 1:14.0. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sellout Crowd",
+                    "rating": 95.0,
+                    "reason": "Sensational undefeated filly who crushed open company last start with an elite 85 speed rating clocking 59.2s over 5f. Holds overwhelming class and speed figures over this field; Genta Ochiai retains the mount. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Kura Prosper",
+                    "rating": 89.0,
+                    "reason": "Proven route and 6f form with a sharp 74 speed rating winning over 1200m two starts back. Possesses a dangerous closing kick perfectly suited for Mombetsus 330m straight. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Dokkan Cabbage",
+                    "rating": 87.0,
+                    "reason": "Dominated on debut by 30 lengths recording 1:08.3 over 5 1/2f. Comes off a layoff but has high upside and Yamato Ishikawa in the irons. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Tree Of Life",
+                    "rating": 84.0,
+                    "reason": "Very consistent filly (5: 2-3-0) who finished 2nd to Sellout Crowd last out. Has early tactical position and reliably hits the board. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Labyrinth Tiara",
+                    "rating": 82.0,
+                    "reason": "Proven 1200m performer with 2 wins and two 3rds at the distance, including a solid 3rd in 41k company last start in 1:14.0. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "La Mantovana",
+                    "rating": 80.0,
+                    "reason": "Scored decisively on debut by 3 lengths from the Tanaka barn. Fresh for this test and could take another step forward. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Dokkan Cabbage",
+                "rating": 87.0,
+                "reason": "Dominated on debut by 30 lengths recording 1:08.3 over 5 1/2f. Comes off a layoff but has high upside and Yamato Ishikawa in the irons. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Sellout Crowd</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#8, #3) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#10 (Solo Lock)) with (#10 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#10 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#8 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R11 \u2794 R12 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#5 (Solo Lock))"
+    ]
+}

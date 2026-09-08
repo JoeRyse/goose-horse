@@ -1,0 +1,1192 @@
+{
+    "meta": {
+        "track": "Monticello Raceway",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Lochinvar Matilda",
+                        "handicapper_notes": "Elite Captaintreacherous filly. Dominated from the gate last start here in 1:54.2. Draws the rail and should dictate terms easily.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Queen Of Egypt",
+                        "handicapper_notes": "Possesses elite gate speed but faces a massive disadvantage from post 8. Must cross over early to have any chance.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Southwind Rodan",
+                        "handicapper_notes": "Consistent performer on this track. Strong third last time out and won two back in 1:57.4.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Love Me Like Youdo",
+                        "handicapper_notes": "Solid speed figures. Won three back in 1:56.4 from the rail. Good post position to secure a pocket trip.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Lochinvar Matilda",
+                    "rating": 101.0,
+                    "reason": "Elite Captaintreacherous filly. Dominated from the gate last start here in 1:54.2. Draws the rail and should dictate terms easily. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Queen Of Egypt",
+                    "rating": 88.0,
+                    "reason": "Possesses elite gate speed but faces a massive disadvantage from post 8. Must cross over early to have any chance."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Southwind Rodan",
+                    "rating": 85.0,
+                    "reason": "Consistent performer on this track. Strong third last time out and won two back in 1:57.4."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Love Me Like Youdo",
+                    "rating": 84.0,
+                    "reason": "Solid speed figures. Won three back in 1:56.4 from the rail. Good post position to secure a pocket trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Queen Of Egypt",
+                "rating": 88.0,
+                "reason": "Possesses elite gate speed but faces a massive disadvantage from post 8. Must cross over early to have any chance."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Lochinvar Matilda</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #1 over #8, #3<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #1 / #8, #3 / #8, #3, #4"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Scootnroll",
+                        "handicapper_notes": "Won last start here in 1:57.0. Very sharp form and has the tactical speed to overcome post 5.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Star Island",
+                        "handicapper_notes": "Rail draw is a massive upgrade. Won three starts back from the same post in 1:59.1.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "See You Friday",
+                        "handicapper_notes": "Classy veteran with high speed figures. Post 6 is tough, but has the raw speed to make an impact late.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "What The Luck",
+                        "handicapper_notes": "Won last start from the rail in 1:57.3. Moves out slightly to post 3 but remains a strong exotics contender.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Scootnroll",
+                    "rating": 92.0,
+                    "reason": "Won last start here in 1:57.0. Very sharp form and has the tactical speed to overcome post 5."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Star Island",
+                    "rating": 88.0,
+                    "reason": "Rail draw is a massive upgrade. Won three starts back from the same post in 1:59.1."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "See You Friday",
+                    "rating": 85.0,
+                    "reason": "Classy veteran with high speed figures. Post 6 is tough, but has the raw speed to make an impact late."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "What The Luck",
+                    "rating": 83.0,
+                    "reason": "Won last start from the rail in 1:57.3. Moves out slightly to post 3 but remains a strong exotics contender."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "See You Friday",
+                "rating": 85.0,
+                "reason": "Classy veteran with high speed figures. Post 6 is tough, but has the raw speed to make an impact late."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#5 Scootnroll</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #5, #1, #6<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #5, #1, #6"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Little Admiral",
+                        "handicapper_notes": "Excellent inside draw. Won four starts back in 1:57.1. Should get a perfect pocket trip behind the speed.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "The Last Song",
+                        "handicapper_notes": "Consistent speed figures. Solid third last start. Well-positioned to strike from post 4.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "No Pulse Richie",
+                        "handicapper_notes": "Won two starts back in 1:58.1. Tactical speed is decent, but post 5 makes it slightly harder to clear.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Call Me Lightning",
+                        "handicapper_notes": "Draws the rail which is key on this track. Form has been a bit spotty but must be respected from post 1.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Little Admiral",
+                    "rating": 90.0,
+                    "reason": "Excellent inside draw. Won four starts back in 1:57.1. Should get a perfect pocket trip behind the speed."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "The Last Song",
+                    "rating": 87.0,
+                    "reason": "Consistent speed figures. Solid third last start. Well-positioned to strike from post 4."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "No Pulse Richie",
+                    "rating": 85.0,
+                    "reason": "Won two starts back in 1:58.1. Tactical speed is decent, but post 5 makes it slightly harder to clear."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Call Me Lightning",
+                    "rating": 82.0,
+                    "reason": "Draws the rail which is key on this track. Form has been a bit spotty but must be respected from post 1."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Call Me Lightning",
+                "rating": 82.0,
+                "reason": "Draws the rail which is key on this track. Form has been a bit spotty but must be respected from post 1."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#2 Little Admiral</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #2, #4, #1 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #2, #4, #5"
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "On The Virg",
+                        "handicapper_notes": "Veteran pacer draws the rail. Solid third last start in 1:57.2. Should control the pace from the inside.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Thersomthinggoinon",
+                        "handicapper_notes": "Has the highest raw speed figures in the field. Shipping in from Scioto Downs. Major threat if he handles the track.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Rockmyster N",
+                        "handicapper_notes": "Decent form on Delaware circuit. Draws well in post 2 and should get a cozy inside trip.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Pembroke Joey",
+                        "handicapper_notes": "Struggled recently but drops in class. Post 3 is favorable for a minor share.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "On The Virg",
+                    "rating": 94.0,
+                    "reason": "Veteran pacer draws the rail. Solid third last start in 1:57.2. Should control the pace from the inside. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Thersomthinggoinon",
+                    "rating": 88.0,
+                    "reason": "Has the highest raw speed figures in the field. Shipping in from Scioto Downs. Major threat if he handles the track."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Rockmyster N",
+                    "rating": 85.0,
+                    "reason": "Decent form on Delaware circuit. Draws well in post 2 and should get a cozy inside trip."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Pembroke Joey",
+                    "rating": 80.0,
+                    "reason": "Struggled recently but drops in class. Post 3 is favorable for a minor share."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Thersomthinggoinon",
+                "rating": 88.0,
+                "reason": "Has the highest raw speed figures in the field. Shipping in from Scioto Downs. Major threat if he handles the track."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 On The Virg</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #4, #2<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #4, #2"
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Snappy Chip",
+                        "handicapper_notes": "Won last start in 1:56.0. Draws the rail and has excellent gate speed. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Greg The Leg",
+                        "handicapper_notes": "Classy individual shipping in from Yonkers. High speed figures but post 6 is a major obstacle.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Luke Skywalker",
+                        "handicapper_notes": "Won two starts back from the rail in 1:57.0. Favorable draw in post 3 makes him a major player.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Atlantis",
+                        "handicapper_notes": "Won last start in 1:57.1. Consistent form and can hit the board with a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Snappy Chip",
+                    "rating": 98.0,
+                    "reason": "Won last start in 1:56.0. Draws the rail and has excellent gate speed. The horse to beat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Greg The Leg",
+                    "rating": 88.0,
+                    "reason": "Classy individual shipping in from Yonkers. High speed figures but post 6 is a major obstacle."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Luke Skywalker",
+                    "rating": 86.0,
+                    "reason": "Won two starts back from the rail in 1:57.0. Favorable draw in post 3 makes him a major player."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Atlantis",
+                    "rating": 84.0,
+                    "reason": "Won last start in 1:57.1. Consistent form and can hit the board with a clean trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Greg The Leg",
+                "rating": 88.0,
+                "reason": "Classy individual shipping in from Yonkers. High speed figures but post 6 is a major obstacle."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Snappy Chip</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #1 over #6, #3<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #1 / #6, #3 / #6, #3, #5"
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Levi",
+                        "handicapper_notes": "Rail draw is perfect. Won three starts back in 1:57.4. Should protect the rail and lead early.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Barrywhite Hanover",
+                        "handicapper_notes": "Won last start in 1:58.0. Favorable draw in post 3. Strong exotics contender.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Village Blue Chip",
+                        "handicapper_notes": "Consistent performer. Won three starts back in 1:58.3. Solid speed figures.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Yepyepyep",
+                        "handicapper_notes": "Won three starts back in 2:00.0. Solid speed figures but post 4 is slightly tricky.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Levi",
+                    "rating": 95.0,
+                    "reason": "Rail draw is perfect. Won three starts back in 1:57.4. Should protect the rail and lead early. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Barrywhite Hanover",
+                    "rating": 88.0,
+                    "reason": "Won last start in 1:58.0. Favorable draw in post 3. Strong exotics contender."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Village Blue Chip",
+                    "rating": 85.0,
+                    "reason": "Consistent performer. Won three starts back in 1:58.3. Solid speed figures."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Yepyepyep",
+                    "rating": 83.0,
+                    "reason": "Won three starts back in 2:00.0. Solid speed figures but post 4 is slightly tricky."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Yepyepyep",
+                "rating": 83.0,
+                "reason": "Won three starts back in 2:00.0. Solid speed figures but post 4 is slightly tricky."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Levi</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #1 over #3, #5"
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Rj Wine Chip",
+                        "handicapper_notes": "Draws the rail which is key. Form has been decent on this track. Favorable spot.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Essie",
+                        "handicapper_notes": "Has high raw speed figures. Shipping in from Vernon Downs. Favorable draw in post 4.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Chandon",
+                        "handicapper_notes": "Decent form. Draws well in post 2 and should get a cozy inside trip.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Golden Gesture",
+                        "handicapper_notes": "Classy veteran but post 7 is a major downgrade. Needs a hot pace to close into.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Rj Wine Chip",
+                    "rating": 93.0,
+                    "reason": "Draws the rail which is key. Form has been decent on this track. Favorable spot. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Essie",
+                    "rating": 87.0,
+                    "reason": "Has high raw speed figures. Shipping in from Vernon Downs. Favorable draw in post 4."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Chandon",
+                    "rating": 84.0,
+                    "reason": "Decent form. Draws well in post 2 and should get a cozy inside trip."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Golden Gesture",
+                    "rating": 80.0,
+                    "reason": "Classy veteran but post 7 is a major downgrade. Needs a hot pace to close into."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Essie",
+                "rating": 87.0,
+                "reason": "Has high raw speed figures. Shipping in from Vernon Downs. Favorable draw in post 4."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Rj Wine Chip</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #4, #2<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #4, #2"
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Rikki Rockett",
+                        "handicapper_notes": "Draws the rail which is key on this track. Favorable spot to lead all the way.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sicano",
+                        "handicapper_notes": "Won last start in 1:57.2. Consistent form and can hit the board with a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Dragon Plus",
+                        "handicapper_notes": "Consistent performer. Solid speed figures. Favorable draw in post 3.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bulvilnancyslegacy",
+                        "handicapper_notes": "Won three starts back in 1:58.4. Favorable draw in post 2. Strong exotics contender.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Rikki Rockett",
+                    "rating": 96.0,
+                    "reason": "Draws the rail which is key on this track. Favorable spot to lead all the way. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sicano",
+                    "rating": 88.0,
+                    "reason": "Won last start in 1:57.2. Consistent form and can hit the board with a clean trip."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Dragon Plus",
+                    "rating": 86.0,
+                    "reason": "Consistent performer. Solid speed figures. Favorable draw in post 3."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bulvilnancyslegacy",
+                    "rating": 84.0,
+                    "reason": "Won three starts back in 1:58.4. Favorable draw in post 2. Strong exotics contender."
+                }
+            ],
+            "danger_horse": {},
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Rikki Rockett</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #1 over #5, #3<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #1 / #5, #3 / #5, #3, #2"
+        },
+        {
+            "number": 9,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Some Deal Hanover",
+                        "handicapper_notes": "Consistent performer. Won three starts back in 1:56.3. Favorable draw in post 3.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Zander",
+                        "handicapper_notes": "Won last start in 1:57.2. Consistent form but post 7 is a major obstacle.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Jolly Harbor",
+                        "handicapper_notes": "Draws the rail which is key. Form has been decent on this track. Favorable spot.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Cruise Hanover",
+                        "handicapper_notes": "Decent form. Draws well in post 2 and should get a cozy inside trip.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Some Deal Hanover",
+                    "rating": 91.0,
+                    "reason": "Consistent performer. Won three starts back in 1:56.3. Favorable draw in post 3."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Zander",
+                    "rating": 86.0,
+                    "reason": "Won last start in 1:57.2. Consistent form but post 7 is a major obstacle."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jolly Harbor",
+                    "rating": 84.0,
+                    "reason": "Draws the rail which is key. Form has been decent on this track. Favorable spot."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Cruise Hanover",
+                    "rating": 82.0,
+                    "reason": "Decent form. Draws well in post 2 and should get a cozy inside trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Zander",
+                "rating": 86.0,
+                "reason": "Won last start in 1:57.2. Consistent form but post 7 is a major obstacle."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#3 Some Deal Hanover</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #7, #1<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #7, #1"
+        },
+        {
+            "number": 10,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Banderas Hanover",
+                        "handicapper_notes": "Draws the rail which is key on this track. Favorable spot to lead all the way.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Coin Flip",
+                        "handicapper_notes": "Decent form. Draws well in post 2 and should get a cozy inside trip.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Typhoon Stride N",
+                        "handicapper_notes": "Won three starts back in 1:58.4. Consistent form but post 6 is a major obstacle.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Grand Priority",
+                        "handicapper_notes": "Consistent performer. Solid speed figures. Favorable draw in post 3.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Banderas Hanover",
+                    "rating": 93.0,
+                    "reason": "Draws the rail which is key on this track. Favorable spot to lead all the way. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Coin Flip",
+                    "rating": 86.0,
+                    "reason": "Decent form. Draws well in post 2 and should get a cozy inside trip."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Typhoon Stride N",
+                    "rating": 84.0,
+                    "reason": "Won three starts back in 1:58.4. Consistent form but post 6 is a major obstacle."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Grand Priority",
+                    "rating": 82.0,
+                    "reason": "Consistent performer. Solid speed figures. Favorable draw in post 3."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Typhoon Stride N",
+                "rating": 84.0,
+                "reason": "Won three starts back in 1:58.4. Consistent form but post 6 is a major obstacle."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Banderas Hanover</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #1 over #2, #6"
+        },
+        {
+            "number": 11,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Captain Planet",
+                        "handicapper_notes": "Consistent performer. Solid speed figures. Favorable draw in post 2.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bueller",
+                        "handicapper_notes": "Draws the rail which is key on this track. Favorable spot to lead all the way.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Pocket-Sitter",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Getaway",
+                        "handicapper_notes": "Consistent performer. Solid speed figures. Favorable draw in post 4.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Keystone Dash",
+                        "handicapper_notes": "Won three starts back in 1:58.1. Consistent form but post 6 is a major obstacle.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Captain Planet",
+                    "rating": 97.0,
+                    "reason": "Consistent performer. Solid speed figures. Favorable draw in post 2. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Bueller",
+                    "rating": 90.0,
+                    "reason": "Draws the rail which is key on this track. Favorable spot to lead all the way."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Getaway",
+                    "rating": 86.0,
+                    "reason": "Consistent performer. Solid speed figures. Favorable draw in post 4."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Keystone Dash",
+                    "rating": 84.0,
+                    "reason": "Won three starts back in 1:58.1. Consistent form but post 6 is a major obstacle."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Keystone Dash",
+                "rating": 84.0,
+                "reason": "Won three starts back in 1:58.1. Consistent form but post 6 is a major obstacle."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Captain Planet</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #2 over #1, #4<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #2 / #1, #4 / #1, #4, #6"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5, #1)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#5, #1) with (#2, #4)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2, #4) with (#1, #4)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1, #4) with (#1 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1, #3)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1, #3) with (#1, #4)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#1, #4) with (#1 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#3, #7)",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#3, #7) with (#1, #2)",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#1, #2) with (#2 (Solo Lock))"
+    ]
+}

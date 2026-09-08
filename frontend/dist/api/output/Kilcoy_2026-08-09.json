@@ -1,0 +1,1413 @@
+{
+    "meta": {
+        "track": "Kilcoy",
+        "date": "2026-08-09",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1200m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1200m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 9, Exacta 9 / 4, 7, Trifecta 9 / 4, 7 / 2, 3, 4, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Miss Informed",
+                        "handicapper_notes": "Brings the strongest form lines into this event, having placed at Toowoomba and run competitive fourths at Gold Coast and Beaudesert in $21k provincial maidens. Drops into country QTIS maiden class with a distinct fitness advantage over unrace/1-run fillies. Fits the SE QLD shipper class edge perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "3",
+                        "horse_name": "Formal Affair",
+                        "handicapper_notes": "Resumes after showing prominent early speed at Rockhampton 6f where she led to the home turn. Following scratches, she maps as the clear sole pacemaker on a circuit where early speed and inside barriers (stall 3) hold an extreme natural bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "La Premiere",
+                        "handicapper_notes": "Resumes for Liam Birchley following an encouraging debut fifth at Sunshine Coast over 5f on a soft track. Trialed well enough on the inner track at Sunshine Coast and is the primary danger horse if fully wound up for first-up run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Mishani Cabello",
+                        "handicapper_notes": "Shipped down from Metro 2yo Maiden level at Eagle Farm where she was completely outpaced over 5f. Will appreciate stepping up to 6f and stepping down into country benchmark class.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Better Fire Up",
+                        "handicapper_notes": "First starter by Dubious trained at Sunshine Coast. Placed third in her sole official trial. Draw in stall 7 is tricky on Kilcoy tight turns, but market support must be respected.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "2",
+                        "horse_name": "Cause She's Worthy",
+                        "handicapper_notes": "Beaten heavily on debut at Eagle Farm in July. Draws ideally in stall 2 and gets class drop relief, but needs to improve significantly on raw sectional speed.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Miss Informed",
+                    "rating": 92.0,
+                    "reason": "Brings the strongest form lines into this event, having placed at Toowoomba and run competitive fourths at Gold Coast and Beaudesert in $21k provincial maidens. Drops into country QTIS maiden class with a distinct fitness advantage over unrace/1-run fillies. Fits the SE QLD shipper class edge perfectly. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Formal Affair",
+                    "rating": 90.0,
+                    "reason": "Resumes after showing prominent early speed at Rockhampton 6f where she led to the home turn. Following scratches, she maps as the clear sole pacemaker on a circuit where early speed and inside barriers (stall 3) hold an extreme natural bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Mishani Cabello",
+                    "rating": 88.0,
+                    "reason": "Shipped down from Metro 2yo Maiden level at Eagle Farm where she was completely outpaced over 5f. Will appreciate stepping up to 6f and stepping down into country benchmark class. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "La Premiere",
+                    "rating": 83.0,
+                    "reason": "Resumes for Liam Birchley following an encouraging debut fifth at Sunshine Coast over 5f on a soft track. Trialed well enough on the inner track at Sunshine Coast and is the primary danger horse if fully wound up for first-up run. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Cause She's Worthy",
+                    "rating": 81.0,
+                    "reason": "Beaten heavily on debut at Eagle Farm in July. Draws ideally in stall 2 and gets class drop relief, but needs to improve significantly on raw sectional speed. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Miss Informed",
+                    "rating": 92.0,
+                    "reason": "Brings the strongest form lines into this event, having placed at Toowoomba and run competitive fourths at Gold Coast and Beaudesert in $21k provincial maidens. Drops into country QTIS maiden class with a distinct fitness advantage over unrace/1-run fillies. Fits the SE QLD shipper class edge perfectly. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Formal Affair",
+                    "rating": 90.0,
+                    "reason": "Resumes after showing prominent early speed at Rockhampton 6f where she led to the home turn. Following scratches, she maps as the clear sole pacemaker on a circuit where early speed and inside barriers (stall 3) hold an extreme natural bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Mishani Cabello",
+                    "rating": 88.0,
+                    "reason": "Shipped down from Metro 2yo Maiden level at Eagle Farm where she was completely outpaced over 5f. Will appreciate stepping up to 6f and stepping down into country benchmark class. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "La Premiere",
+                    "rating": 83.0,
+                    "reason": "Resumes for Liam Birchley following an encouraging debut fifth at Sunshine Coast over 5f on a soft track. Trialed well enough on the inner track at Sunshine Coast and is the primary danger horse if fully wound up for first-up run. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "2",
+                    "name": "Cause She's Worthy",
+                    "rating": 81.0,
+                    "reason": "Beaten heavily on debut at Eagle Farm in July. Draws ideally in stall 2 and gets class drop relief, but needs to improve significantly on raw sectional speed. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Better Fire Up",
+                    "rating": 76.0,
+                    "reason": "First starter by Dubious trained at Sunshine Coast. Placed third in her sole official trial. Draw in stall 7 is tricky on Kilcoy tight turns, but market support must be respected."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "5",
+                "name": "La Premiere",
+                "rating": 83.0,
+                "reason": "Resumes for Liam Birchley following an encouraging debut fifth at Sunshine Coast over 5f on a soft track. Trialed well enough on the inner track at Sunshine Coast and is the primary danger horse if fully wound up for first-up run. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Miss Informed</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #4, #7 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "1 3/16 m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 3/16 m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 6, Exacta Box 5, 6, 8, Trifecta 6 / 5, 8 / 4, 5, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Trusty Bandit",
+                        "handicapper_notes": "Top choice and Best Bet. Boasts outstanding C&D form with a dominant win over 1 3/16m at Kilcoy on wet turf. Drops back to country BM60 class following an impressive 3rd in Metro BM70 company at Doomben. Perfectly mapped in stall 3 to hold fence position.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "O'caldino",
+                        "handicapper_notes": "Strong second choice. Shippers drop from Metro Cl3 company at Doomben and Eagle Farm into Tier 3 country Benchmark grade. Proven front-runner at Kilcoy who will press forward early to overcome the wide draw.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Rainbow Glitter",
+                        "handicapper_notes": "C&D maiden winner at Kilcoy who comes off a solid 2nd over 1 1/16m at Ipswich. Capitalizes on extreme inside bias from barrier 2 and significant weight relief carrying just 119lbs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "4",
+                        "horse_name": "Ucelle",
+                        "handicapper_notes": "Consistent mare holding strong recent formlines with multiple placings at Sunshine Coast and Gatton. Well-drawn in barrier 4 to stalk the leaders along the rail carrying only 119lbs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "11",
+                        "horse_name": "Cheerful Cat",
+                        "handicapper_notes": "Track winner at Kilcoy over 7.5f. Possesses solid early gate speed to lead or press, though draw 11 creates significant early ground loss risk around the first bend.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "8",
+                        "horse_name": "Hell Of A Prince",
+                        "handicapper_notes": "Flagged as the danger horse. Kilcoy specialist with 12 track starts including a close 2nd over this C&D. Capable of surprising at odds if he secures an early forward position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Trusty Bandit",
+                    "rating": 94.0,
+                    "reason": "Top choice and Best Bet. Boasts outstanding C&D form with a dominant win over 1 3/16m at Kilcoy on wet turf. Drops back to country BM60 class following an impressive 3rd in Metro BM70 company at Doomben. Perfectly mapped in stall 3 to hold fence position. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "O'caldino",
+                    "rating": 89.0,
+                    "reason": "Strong second choice. Shippers drop from Metro Cl3 company at Doomben and Eagle Farm into Tier 3 country Benchmark grade. Proven front-runner at Kilcoy who will press forward early to overcome the wide draw. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Rainbow Glitter",
+                    "rating": 87.0,
+                    "reason": "C&D maiden winner at Kilcoy who comes off a solid 2nd over 1 1/16m at Ipswich. Capitalizes on extreme inside bias from barrier 2 and significant weight relief carrying just 119lbs."
+                },
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Ucelle",
+                    "rating": 85.0,
+                    "reason": "Consistent mare holding strong recent formlines with multiple placings at Sunshine Coast and Gatton. Well-drawn in barrier 4 to stalk the leaders along the rail carrying only 119lbs."
+                },
+                {
+                    "number": "4",
+                    "barrier": "11",
+                    "name": "Cheerful Cat",
+                    "rating": 83.0,
+                    "reason": "Track winner at Kilcoy over 7.5f. Possesses solid early gate speed to lead or press, though draw 11 creates significant early ground loss risk around the first bend. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Trusty Bandit",
+                    "rating": 94.0,
+                    "reason": "Top choice and Best Bet. Boasts outstanding C&D form with a dominant win over 1 3/16m at Kilcoy on wet turf. Drops back to country BM60 class following an impressive 3rd in Metro BM70 company at Doomben. Perfectly mapped in stall 3 to hold fence position. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "O'caldino",
+                    "rating": 89.0,
+                    "reason": "Strong second choice. Shippers drop from Metro Cl3 company at Doomben and Eagle Farm into Tier 3 country Benchmark grade. Proven front-runner at Kilcoy who will press forward early to overcome the wide draw. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Rainbow Glitter",
+                    "rating": 87.0,
+                    "reason": "C&D maiden winner at Kilcoy who comes off a solid 2nd over 1 1/16m at Ipswich. Capitalizes on extreme inside bias from barrier 2 and significant weight relief carrying just 119lbs."
+                },
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Ucelle",
+                    "rating": 85.0,
+                    "reason": "Consistent mare holding strong recent formlines with multiple placings at Sunshine Coast and Gatton. Well-drawn in barrier 4 to stalk the leaders along the rail carrying only 119lbs."
+                },
+                {
+                    "number": "4",
+                    "barrier": "11",
+                    "name": "Cheerful Cat",
+                    "rating": 83.0,
+                    "reason": "Track winner at Kilcoy over 7.5f. Possesses solid early gate speed to lead or press, though draw 11 creates significant early ground loss risk around the first bend. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "8",
+                    "name": "Hell Of A Prince",
+                    "rating": 80.0,
+                    "reason": "Flagged as the danger horse. Kilcoy specialist with 12 track starts including a close 2nd over this C&D. Capable of surprising at odds if he secures an early forward position."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "8",
+                "name": "Hell Of A Prince",
+                "rating": 80.0,
+                "reason": "Flagged as the danger horse. Kilcoy specialist with 12 track starts including a close 2nd over this C&D. Capable of surprising at odds if he secures an early forward position."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#6 Trusty Bandit</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #6 over (#5, #8, #11) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "7 1/2 f Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "7 1/2 f Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 2; Exacta 2 / 4, 6; Trifecta 2 / 4, 6 / 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Drialle",
+                        "handicapper_notes": "Massive beneficiary of key pace scratches (The Catch, Mostro), leaving him as the sole clear early speed runner ('E'). Kilcoy features an extreme front-runner bias with a tiny 143m straight. Should command the lead early and prove hard to run down.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Vacillation",
+                        "handicapper_notes": "In sparkling form following a tough win at Gatton over 7f on July 30. Brings strong Metropolitan and Provincial benchmark ratings into this country contest. Drawn well in barrier 5 to track the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Shape Of Water",
+                        "handicapper_notes": "The ultimate course specialist angle with 4 starts at Kilcoy yielding 3 wins and 1 second. Highly effective on the tight turning layout and gets a premium inside stall (barrier 4) to stalk the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Uluwatu",
+                        "handicapper_notes": "Maps ideally from barrier 3 to get a economical rail-skimming trip. Won two starts back at Sunshine Coast over 6f and steps up in distance where her tactical speed will keep her competitive.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "9",
+                        "horse_name": "Brooklyn Daisy",
+                        "handicapper_notes": "Has been uncompetitive in recent outings over 7f and 1m. Outer barrier 9 is a massive penalty on this circuit for a runner needing to make up ground.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Pauli",
+                        "handicapper_notes": "Longshot runner with poor current form lines. Inherits the inside rail from barrier 1 but lacks the acceleration required to threaten top choices.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 71,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Drialle",
+                    "rating": 95.0,
+                    "reason": "Massive beneficiary of key pace scratches (The Catch, Mostro), leaving him as the sole clear early speed runner ('E'). Kilcoy features an extreme front-runner bias with a tiny 143m straight. Should command the lead early and prove hard to run down. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Vacillation",
+                    "rating": 88.0,
+                    "reason": "In sparkling form following a tough win at Gatton over 7f on July 30. Brings strong Metropolitan and Provincial benchmark ratings into this country contest. Drawn well in barrier 5 to track the speed. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Shape Of Water",
+                    "rating": 85.0,
+                    "reason": "The ultimate course specialist angle with 4 starts at Kilcoy yielding 3 wins and 1 second. Highly effective on the tight turning layout and gets a premium inside stall (barrier 4) to stalk the pace."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Uluwatu",
+                    "rating": 82.0,
+                    "reason": "Maps ideally from barrier 3 to get a economical rail-skimming trip. Won two starts back at Sunshine Coast over 6f and steps up in distance where her tactical speed will keep her competitive. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Brooklyn Daisy",
+                    "rating": 76.0,
+                    "reason": "Has been uncompetitive in recent outings over 7f and 1m. Outer barrier 9 is a massive penalty on this circuit for a runner needing to make up ground."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Drialle",
+                    "rating": 95.0,
+                    "reason": "Massive beneficiary of key pace scratches (The Catch, Mostro), leaving him as the sole clear early speed runner ('E'). Kilcoy features an extreme front-runner bias with a tiny 143m straight. Should command the lead early and prove hard to run down. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Vacillation",
+                    "rating": 88.0,
+                    "reason": "In sparkling form following a tough win at Gatton over 7f on July 30. Brings strong Metropolitan and Provincial benchmark ratings into this country contest. Drawn well in barrier 5 to track the speed. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Shape Of Water",
+                    "rating": 85.0,
+                    "reason": "The ultimate course specialist angle with 4 starts at Kilcoy yielding 3 wins and 1 second. Highly effective on the tight turning layout and gets a premium inside stall (barrier 4) to stalk the pace."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Uluwatu",
+                    "rating": 82.0,
+                    "reason": "Maps ideally from barrier 3 to get a economical rail-skimming trip. Won two starts back at Sunshine Coast over 6f and steps up in distance where her tactical speed will keep her competitive. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Brooklyn Daisy",
+                    "rating": 76.0,
+                    "reason": "Has been uncompetitive in recent outings over 7f and 1m. Outer barrier 9 is a massive penalty on this circuit for a runner needing to make up ground."
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Pauli",
+                    "rating": 71.0,
+                    "reason": "Longshot runner with poor current form lines. Inherits the inside rail from barrier 1 but lacks the acceleration required to threaten top choices."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "4",
+                "name": "Shape Of Water",
+                "rating": 85.0,
+                "reason": "The ultimate course specialist angle with 4 starts at Kilcoy yielding 3 wins and 1 second. Highly effective on the tight turning layout and gets a premium inside stall (barrier 4) to stalk the pace."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Drialle</b> (Solo Lock - Gap: +7.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#4, #6) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1500m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1500m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 3, Exacta Box 1, 3, 11",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Enjector",
+                        "handicapper_notes": "Massive class drop dropping out of EAF $28k maiden company and coming off a sharp 2nd over 1400m at Sunshine Coast. Draws ideally in stall 4 to secure the box seat on Kilcoy's tight track. Outstanding winning chance.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Bartle Frere",
+                        "handicapper_notes": "Solid Sunshine Coast shipper dropping down into country maiden company. Posted a fair 4th two back over 1000m and steps up to a distance where his stamina can shine.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "14",
+                        "horse_name": "Happy Coffee",
+                        "handicapper_notes": "Gains a start following scratches. Holds crucial course and distance experience having placed 3rd over this track and trip on June 20. Dangerous closer if she can overcome the wide draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Draw",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Shrewdness",
+                        "handicapper_notes": "Savabeel gelding who showed early speed and battled on 5th over 1700m at Gold Coast last start. Has the tactical speed required to settle in the front half around Kilcoy.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ellofaby",
+                        "handicapper_notes": "Faced tough maiden company at Gold Coast and Gatton recently. Was only beaten 2.6 lengths two back over 1600m at Gatton and gets significant weight relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "M",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "3",
+                        "horse_name": "Rubick's Shadow",
+                        "handicapper_notes": "Showed early speed to lead the turn at Doomben last start before tiring late over 1350m. Drawn inside in gate 3 which is a huge advantage over 1500m at Kilcoy.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Faded",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Enjector",
+                    "rating": 93.0,
+                    "reason": "Massive class drop dropping out of EAF $28k maiden company and coming off a sharp 2nd over 1400m at Sunshine Coast. Draws ideally in stall 4 to secure the box seat on Kilcoy's tight track. Outstanding winning chance. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Bartle Frere",
+                    "rating": 87.0,
+                    "reason": "Solid Sunshine Coast shipper dropping down into country maiden company. Posted a fair 4th two back over 1000m and steps up to a distance where his stamina can shine. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "14",
+                    "name": "Happy Coffee",
+                    "rating": 84.0,
+                    "reason": "Gains a start following scratches. Holds crucial course and distance experience having placed 3rd over this track and trip on June 20. Dangerous closer if she can overcome the wide draw. | <i>\u26a0\ufe0f Wide Draw</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Shrewdness",
+                    "rating": 82.0,
+                    "reason": "Savabeel gelding who showed early speed and battled on 5th over 1700m at Gold Coast last start. Has the tactical speed required to settle in the front half around Kilcoy. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ellofaby",
+                    "rating": 79.0,
+                    "reason": "Faced tough maiden company at Gold Coast and Gatton recently. Was only beaten 2.6 lengths two back over 1600m at Gatton and gets significant weight relief."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Enjector",
+                    "rating": 93.0,
+                    "reason": "Massive class drop dropping out of EAF $28k maiden company and coming off a sharp 2nd over 1400m at Sunshine Coast. Draws ideally in stall 4 to secure the box seat on Kilcoy's tight track. Outstanding winning chance. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Bartle Frere",
+                    "rating": 87.0,
+                    "reason": "Solid Sunshine Coast shipper dropping down into country maiden company. Posted a fair 4th two back over 1000m and steps up to a distance where his stamina can shine. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "14",
+                    "name": "Happy Coffee",
+                    "rating": 84.0,
+                    "reason": "Gains a start following scratches. Holds crucial course and distance experience having placed 3rd over this track and trip on June 20. Dangerous closer if she can overcome the wide draw. | <i>\u26a0\ufe0f Wide Draw</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Shrewdness",
+                    "rating": 82.0,
+                    "reason": "Savabeel gelding who showed early speed and battled on 5th over 1700m at Gold Coast last start. Has the tactical speed required to settle in the front half around Kilcoy. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ellofaby",
+                    "rating": 79.0,
+                    "reason": "Faced tough maiden company at Gold Coast and Gatton recently. Was only beaten 2.6 lengths two back over 1600m at Gatton and gets significant weight relief."
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Rubick's Shadow",
+                    "rating": 77.0,
+                    "reason": "Showed early speed to lead the turn at Doomben last start before tiring late over 1350m. Drawn inside in gate 3 which is a huge advantage over 1500m at Kilcoy. | <i>\u26a0\ufe0f Faded</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "14",
+                "name": "Happy Coffee",
+                "rating": 84.0,
+                "reason": "Gains a start following scratches. Holds crucial course and distance experience having placed 3rd over this track and trip on June 20. Dangerous closer if she can overcome the wide draw. | <i>\u26a0\ufe0f Wide Draw</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Enjector</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#1, #11) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "7 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "7 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5; Exacta 5 / 3, 8, 9; Trifecta 5 / 3, 8, 9 / 3, 7, 8, 9, 13",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Brain Wave",
+                        "handicapper_notes": "Massive class dropper shipping in from Eagle Farm Cl1 and Gold Coast company into Kilcoy country Class 1 level. Perfect barrier 4 draw allows her to sit right on the pace on this tight circuit where early speed holds an overwhelming natural bias.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "15",
+                        "horse_name": "Tartan Tiger",
+                        "handicapper_notes": "Toowoomba shipper dropping back into country Class 1 company after a strong 3rd at Ipswich in Cl1 grade. Holds significant class edge over local country rivals and possesses tactical gate speed to move across smoothly.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "16",
+                        "horse_name": "Piggietales",
+                        "handicapper_notes": "Showed explosive early speed last start at Sunshine Coast leading to the home bend in Bm58 grade. Her sharp gate speed is tailor-made for Kilcoy 7 1/2f start with the short 143m home straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "Skieda",
+                        "handicapper_notes": "Capitalizes on inside barrier 3 draw to hold a rail-skimming position early. Toowoomba shipper with proven maiden winning form at Dalby and Roma.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13e",
+                        "barrier": "5",
+                        "horse_name": "Air Of Authority",
+                        "handicapper_notes": "Comes off a convincing 1.75 length maiden victory over 7 3/8f at Esk. Drawn ideally in gate 5 to punch forward and represents a dangerous ascending longshot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Mystical Gem",
+                        "handicapper_notes": "Gold Coast shipper who won her maiden on wet ground three starts back. Recent 5th at Ipswich shows she is competitive at this distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Brain Wave",
+                    "rating": 92.0,
+                    "reason": "Massive class dropper shipping in from Eagle Farm Cl1 and Gold Coast company into Kilcoy country Class 1 level. Perfect barrier 4 draw allows her to sit right on the pace on this tight circuit where early speed holds an overwhelming natural bias. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "15",
+                    "name": "Tartan Tiger",
+                    "rating": 87.0,
+                    "reason": "Toowoomba shipper dropping back into country Class 1 company after a strong 3rd at Ipswich in Cl1 grade. Holds significant class edge over local country rivals and possesses tactical gate speed to move across smoothly. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "16",
+                    "name": "Piggietales",
+                    "rating": 85.0,
+                    "reason": "Showed explosive early speed last start at Sunshine Coast leading to the home bend in Bm58 grade. Her sharp gate speed is tailor-made for Kilcoy 7 1/2f start with the short 143m home straight."
+                },
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "Skieda",
+                    "rating": 84.0,
+                    "reason": "Capitalizes on inside barrier 3 draw to hold a rail-skimming position early. Toowoomba shipper with proven maiden winning form at Dalby and Roma."
+                },
+                {
+                    "number": "13e",
+                    "barrier": "5",
+                    "name": "Air Of Authority",
+                    "rating": 82.0,
+                    "reason": "Comes off a convincing 1.75 length maiden victory over 7 3/8f at Esk. Drawn ideally in gate 5 to punch forward and represents a dangerous ascending longshot."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Brain Wave",
+                    "rating": 92.0,
+                    "reason": "Massive class dropper shipping in from Eagle Farm Cl1 and Gold Coast company into Kilcoy country Class 1 level. Perfect barrier 4 draw allows her to sit right on the pace on this tight circuit where early speed holds an overwhelming natural bias. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "15",
+                    "name": "Tartan Tiger",
+                    "rating": 87.0,
+                    "reason": "Toowoomba shipper dropping back into country Class 1 company after a strong 3rd at Ipswich in Cl1 grade. Holds significant class edge over local country rivals and possesses tactical gate speed to move across smoothly. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "16",
+                    "name": "Piggietales",
+                    "rating": 85.0,
+                    "reason": "Showed explosive early speed last start at Sunshine Coast leading to the home bend in Bm58 grade. Her sharp gate speed is tailor-made for Kilcoy 7 1/2f start with the short 143m home straight."
+                },
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "Skieda",
+                    "rating": 84.0,
+                    "reason": "Capitalizes on inside barrier 3 draw to hold a rail-skimming position early. Toowoomba shipper with proven maiden winning form at Dalby and Roma."
+                },
+                {
+                    "number": "13e",
+                    "barrier": "5",
+                    "name": "Air Of Authority",
+                    "rating": 82.0,
+                    "reason": "Comes off a convincing 1.75 length maiden victory over 7 3/8f at Esk. Drawn ideally in gate 5 to punch forward and represents a dangerous ascending longshot."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Mystical Gem",
+                    "rating": 80.0,
+                    "reason": "Gold Coast shipper who won her maiden on wet ground three starts back. Recent 5th at Ipswich shows she is competitive at this distance."
+                }
+            ],
+            "danger_horse": {
+                "number": "13e",
+                "barrier": "5",
+                "name": "Air Of Authority",
+                "rating": 82.0,
+                "reason": "Comes off a convincing 1.75 length maiden victory over 7 3/8f at Esk. Drawn ideally in gate 5 to punch forward and represents a dangerous ascending longshot."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Brain Wave</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#3, #8, #13e) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1200m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1200m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta 4 / 1, 10, 11",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Esprit Du Jour",
+                        "handicapper_notes": "Premier Tony Gollan shipper dropping sharply from Brisbane metropolitan Cl2 and Cl3 grade at Doomben and Ipswich into a Country BM60 handicap. Holds exceptional soft track form (8: 2-1-2) and maps to secure the optimal pocket-presser rail position from barrier 2 on this extremely tight course.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favors Speed / Presser",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Whispering Rogue",
+                        "handicapper_notes": "Chris & Corey Munce trained runner with explosive first-call gate speed. Dropping out of tight metropolitan and provincial Cl1 races at Sunshine Coast and Ipswich. Moves in several stalls after broad scratchings and possesses the requisite early speed to dictate on the turn.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Speed Bias Advantage",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Faded late last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "9",
+                        "horse_name": "Usual Limits",
+                        "handicapper_notes": "Prototypical Kilcoy horse for course, having previously finished 2nd over this track and distance in Soft 5 conditions before scoring a victory at Esk over 1200m. Shows great early tactical speed to slide forward and overcome the outer barrier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Handy Presser",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "Star Venture",
+                        "handicapper_notes": "Renita Beaton trained mare drawing an ideal low gate in stall 3. Holds solid provincial form at Ipswich and Sunshine Coast including a 1200m win. Her handy settling style is ideally suited to Kilcoys short 143m home straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "7",
+                        "horse_name": "Zaindara",
+                        "handicapper_notes": "Maryann Brosnan stable representative coming off a credible 4th placed effort at Gold Coast over 1000m in Cl2 company. Steps back up to 1200m where she previously won her maiden.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Uncle Russ",
+                        "handicapper_notes": "Veteran 8yo gelding receiving a huge structural boost from the rail draw in stall 1. While recent form at Goondiwindi has been sub-par, the extreme inside rail advantage at Kilcoy gives him every chance to hold position early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Advantage",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Esprit Du Jour",
+                    "rating": 94.0,
+                    "reason": "Premier Tony Gollan shipper dropping sharply from Brisbane metropolitan Cl2 and Cl3 grade at Doomben and Ipswich into a Country BM60 handicap. Holds exceptional soft track form (8: 2-1-2) and maps to secure the optimal pocket-presser rail position from barrier 2 on this extremely tight course. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Whispering Rogue",
+                    "rating": 89.0,
+                    "reason": "Chris & Corey Munce trained runner with explosive first-call gate speed. Dropping out of tight metropolitan and provincial Cl1 races at Sunshine Coast and Ipswich. Moves in several stalls after broad scratchings and possesses the requisite early speed to dictate on the turn. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Faded late last start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "9",
+                    "name": "Usual Limits",
+                    "rating": 84.0,
+                    "reason": "Prototypical Kilcoy horse for course, having previously finished 2nd over this track and distance in Soft 5 conditions before scoring a victory at Esk over 1200m. Shows great early tactical speed to slide forward and overcome the outer barrier."
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Star Venture",
+                    "rating": 83.0,
+                    "reason": "Renita Beaton trained mare drawing an ideal low gate in stall 3. Holds solid provincial form at Ipswich and Sunshine Coast including a 1200m win. Her handy settling style is ideally suited to Kilcoys short 143m home straight."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Zaindara",
+                    "rating": 81.0,
+                    "reason": "Maryann Brosnan stable representative coming off a credible 4th placed effort at Gold Coast over 1000m in Cl2 company. Steps back up to 1200m where she previously won her maiden. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Esprit Du Jour",
+                    "rating": 94.0,
+                    "reason": "Premier Tony Gollan shipper dropping sharply from Brisbane metropolitan Cl2 and Cl3 grade at Doomben and Ipswich into a Country BM60 handicap. Holds exceptional soft track form (8: 2-1-2) and maps to secure the optimal pocket-presser rail position from barrier 2 on this extremely tight course. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Whispering Rogue",
+                    "rating": 89.0,
+                    "reason": "Chris & Corey Munce trained runner with explosive first-call gate speed. Dropping out of tight metropolitan and provincial Cl1 races at Sunshine Coast and Ipswich. Moves in several stalls after broad scratchings and possesses the requisite early speed to dictate on the turn. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Faded late last start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "9",
+                    "name": "Usual Limits",
+                    "rating": 84.0,
+                    "reason": "Prototypical Kilcoy horse for course, having previously finished 2nd over this track and distance in Soft 5 conditions before scoring a victory at Esk over 1200m. Shows great early tactical speed to slide forward and overcome the outer barrier."
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Star Venture",
+                    "rating": 83.0,
+                    "reason": "Renita Beaton trained mare drawing an ideal low gate in stall 3. Holds solid provincial form at Ipswich and Sunshine Coast including a 1200m win. Her handy settling style is ideally suited to Kilcoys short 143m home straight."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Zaindara",
+                    "rating": 81.0,
+                    "reason": "Maryann Brosnan stable representative coming off a credible 4th placed effort at Gold Coast over 1000m in Cl2 company. Steps back up to 1200m where she previously won her maiden. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Uncle Russ",
+                    "rating": 78.0,
+                    "reason": "Veteran 8yo gelding receiving a huge structural boost from the rail draw in stall 1. While recent form at Goondiwindi has been sub-par, the extreme inside rail advantage at Kilcoy gives him every chance to hold position early."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "9",
+                "name": "Usual Limits",
+                "rating": 84.0,
+                "reason": "Prototypical Kilcoy horse for course, having previously finished 2nd over this track and distance in Soft 5 conditions before scoring a victory at Esk over 1200m. Shows great early tactical speed to slide forward and overcome the outer barrier."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Esprit Du Jour</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#1, #11) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "6f Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "6f Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 9; Exacta Box 9, 4, 6; Trifecta 9 / 4, 6 / 1, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Resolute Lady",
+                        "handicapper_notes": "Ideal profile for Kilcoy. Holds a proven course-and-distance winning record at this track and ratings band. Drawn ideally in barrier 2 to secure the rail/pocket presser position on a circuit with a 143m straight. Upgraded significantly via track specialist angle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favored Speed Scenario (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Claw Machine",
+                        "handicapper_notes": "Massive weight relief carrying only 49kg after William Galloway 4kg claim. Showed explosive early gate speed when winning at Toowoomba two starts back and boasts previous placing form at Kilcoy over 6f. Dangerous front-runner under featherweight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Early Pace",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Skellig Rock",
+                        "handicapper_notes": "Resumed with a solid 3rd at Bundaberg and draws perfectly in stall 3. Possesses strong Victorian country form and settles close to the speed. Apprentice claim drops weight to 57kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Copper Star",
+                        "handicapper_notes": "Drops out of stronger Grafton BM58 company where he finished a close 3rd over 6f. Carries top weight tax (60kg) which limits ultimate upside around tight turns, but holds a clear class edge.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Duke Of Lancaster",
+                        "handicapper_notes": "Placed 3rd at Bundaberg last outing and has prior Kilcoy placing experience. Mid-tier country performer who will benefit from scratching shifts to land a mid-pack rail run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Bolla Bolla Babe",
+                        "handicapper_notes": "Faded fresh at Rockhampton but gets an immediate gear/position upgrade moving to barrier 4. Handles soft going well and possesses tactical early speed to hold position around the first turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Resolute Lady",
+                    "rating": 92.0,
+                    "reason": "Ideal profile for Kilcoy. Holds a proven course-and-distance winning record at this track and ratings band. Drawn ideally in barrier 2 to secure the rail/pocket presser position on a circuit with a 143m straight. Upgraded significantly via track specialist angle."
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Copper Star",
+                    "rating": 91.0,
+                    "reason": "Drops out of stronger Grafton BM58 company where he finished a close 3rd over 6f. Carries top weight tax (60kg) which limits ultimate upside around tight turns, but holds a clear class edge. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Claw Machine",
+                    "rating": 88.0,
+                    "reason": "Massive weight relief carrying only 49kg after William Galloway 4kg claim. Showed explosive early gate speed when winning at Toowoomba two starts back and boasts previous placing form at Kilcoy over 6f. Dangerous front-runner under featherweight."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Skellig Rock",
+                    "rating": 85.0,
+                    "reason": "Resumed with a solid 3rd at Bundaberg and draws perfectly in stall 3. Possesses strong Victorian country form and settles close to the speed. Apprentice claim drops weight to 57kg."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Duke Of Lancaster",
+                    "rating": 81.0,
+                    "reason": "Placed 3rd at Bundaberg last outing and has prior Kilcoy placing experience. Mid-tier country performer who will benefit from scratching shifts to land a mid-pack rail run."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Resolute Lady",
+                    "rating": 92.0,
+                    "reason": "Ideal profile for Kilcoy. Holds a proven course-and-distance winning record at this track and ratings band. Drawn ideally in barrier 2 to secure the rail/pocket presser position on a circuit with a 143m straight. Upgraded significantly via track specialist angle."
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Copper Star",
+                    "rating": 91.0,
+                    "reason": "Drops out of stronger Grafton BM58 company where he finished a close 3rd over 6f. Carries top weight tax (60kg) which limits ultimate upside around tight turns, but holds a clear class edge. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Claw Machine",
+                    "rating": 88.0,
+                    "reason": "Massive weight relief carrying only 49kg after William Galloway 4kg claim. Showed explosive early gate speed when winning at Toowoomba two starts back and boasts previous placing form at Kilcoy over 6f. Dangerous front-runner under featherweight."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Skellig Rock",
+                    "rating": 85.0,
+                    "reason": "Resumed with a solid 3rd at Bundaberg and draws perfectly in stall 3. Possesses strong Victorian country form and settles close to the speed. Apprentice claim drops weight to 57kg."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Duke Of Lancaster",
+                    "rating": 81.0,
+                    "reason": "Placed 3rd at Bundaberg last outing and has prior Kilcoy placing experience. Mid-tier country performer who will benefit from scratching shifts to land a mid-pack rail run."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Bolla Bolla Babe",
+                    "rating": 79.0,
+                    "reason": "Faded fresh at Rockhampton but gets an immediate gear/position upgrade moving to barrier 4. Handles soft going well and possesses tactical early speed to hold position around the first turn."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "8",
+                "name": "Claw Machine",
+                "rating": 88.0,
+                "reason": "Massive weight relief carrying only 49kg after William Galloway 4kg claim. Showed explosive early gate speed when winning at Toowoomba two starts back and boasts previous placing form at Kilcoy over 6f. Dangerous front-runner under featherweight."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Resolute Lady</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #1, #4 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#9 Miss Informed</b> in R1 & <b>#6 Trusty Bandit</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#3 Enjector</b> in R4 & <b>#5 Brain Wave</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#5 Brain Wave</b> in R5 & <b>#4 Esprit Du Jour</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#9 (Solo Lock))"
+    ]
+}

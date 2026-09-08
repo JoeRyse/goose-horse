@@ -1,0 +1,1243 @@
+{
+    "meta": {
+        "track": "Mountaineer",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "7 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "7 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 10, 5, 4",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ramsey",
+                        "handicapper_notes": "Consistent speed figures in the high 80s and low 90s. Chased and closed the gap well last time out at Mountaineer on dirt. Lacks recent turf experience but fits well on class.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Stomping Moon",
+                        "handicapper_notes": "Solid presser/stalker type with speed figures consistently in the 80-90+ range. Pressed and stayed on late last time on wet dirt. Strong contender if this transfers to turf.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Surprise Boss",
+                        "handicapper_notes": "Slow starter who has struggled to find form recently, posting low speed figures. Vied top lane on turf last year but hung late. Hard to back with confidence.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Prairie Hawk",
+                        "handicapper_notes": "Set the pace and drew off impressively last time out on wet dirt. Possesses high tactical speed and should secure a great position early.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Unraptured",
+                        "handicapper_notes": "Ran clear 6 wide last time out on wet dirt. Speed figures are slightly below the top contenders here, but holds minor exotic appeal.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Prairie Hawk",
+                    "rating": 92.0,
+                    "reason": "Set the pace and drew off impressively last time out on wet dirt. Possesses high tactical speed and should secure a great position early. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ramsey",
+                    "rating": 84.0,
+                    "reason": "Consistent speed figures in the high 80s and low 90s. Chased and closed the gap well last time out at Mountaineer on dirt. Lacks recent turf experience but fits well on class."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Unraptured",
+                    "rating": 78.0,
+                    "reason": "Ran clear 6 wide last time out on wet dirt. Speed figures are slightly below the top contenders here, but holds minor exotic appeal."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Surprise Boss",
+                    "rating": 68.0,
+                    "reason": "Slow starter who has struggled to find form recently, posting low speed figures. Vied top lane on turf last year but hung late. Hard to back with confidence."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Stomping Moon",
+                "rating": 86.0,
+                "reason": "Solid presser/stalker type with speed figures consistently in the 80-90+ range. Pressed and stayed on late last time on wet dirt. Strong contender if this transfers to turf."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "7 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 9, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Butterfly Effect",
+                        "handicapper_notes": "Slow early and has been no factor in recent starts. Speed figures are very low and needs a major turnaround.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "My Angel Does",
+                        "handicapper_notes": "Failed to menace last time out on turf. Rallied for show four starts back but lacks consistency.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Imprudent",
+                        "handicapper_notes": "Opened up driving last time out on wet dirt. Rallied on turf two starts back to finish a strong second. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Buxtehude",
+                        "handicapper_notes": "Weakened on the turn in allowance company last time. Won prior start in tight early at Mountaineer. Tactical speed is a plus.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lumenique",
+                        "handicapper_notes": "Came on late 8 wide last time out on turf. Had a solid rail bid prior. Should appreciate the turf course geometry.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Intel Agent",
+                        "handicapper_notes": "Won last time out at Mountaineer on dirt and salvaged second on turf prior. In good form and must be respected.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Smiles For David",
+                        "handicapper_notes": "Never involved recently and posting low speed figures. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 66,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Quince",
+                        "handicapper_notes": "Failed to respond last time out. Moved up late on turf three starts back, showing some grass affinity.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Imprudent",
+                    "rating": 92.0,
+                    "reason": "Opened up driving last time out on wet dirt. Rallied on turf two starts back to finish a strong second. The horse to beat."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Intel Agent",
+                    "rating": 85.0,
+                    "reason": "Won last time out at Mountaineer on dirt and salvaged second on turf prior. In good form and must be respected."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Buxtehude",
+                    "rating": 80.0,
+                    "reason": "Weakened on the turn in allowance company last time. Won prior start in tight early at Mountaineer. Tactical speed is a plus."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Quince",
+                    "rating": 74.0,
+                    "reason": "Failed to respond last time out. Moved up late on turf three starts back, showing some grass affinity."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Lumenique",
+                "rating": 83.0,
+                "reason": "Came on late 8 wide last time out on turf. Had a solid rail bid prior. Should appreciate the turf course geometry."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1 1/16 Miles Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 1/16 Miles Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win on 8, Exacta Box 8, 1, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Missing Rocks",
+                        "handicapper_notes": "Won last time out at Lone Star on dirt. Ships in from tougher regional circuits, giving him a significant shipper advantage.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Wings Of God",
+                        "handicapper_notes": "Stalked pace and came up short last time. Passed and came again prior. Consistent figures in the 60s and 70s.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Unaffected",
+                        "handicapper_notes": "Stalked pace and tired last time out. Shook clear and held firm last year. Needs to find best form.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Curlins Incharge",
+                        "handicapper_notes": "Well placed but did not respond last time at Presque Isle. Vied 3w and chased prior. Minor award potential.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Klimtster",
+                        "handicapper_notes": "Folded up on the far turn last time out. Faded prior and shows very low speed figures. Hard to back.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Semper Anticus",
+                        "handicapper_notes": "Vied turn and drew away last time out at Mountaineer. Vied willingly prior. Excellent form and the clear class of the field.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Semper Anticus",
+                    "rating": 97.0,
+                    "reason": "Vied turn and drew away last time out at Mountaineer. Vied willingly prior. Excellent form and the clear class of the field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Missing Rocks",
+                    "rating": 88.0,
+                    "reason": "Won last time out at Lone Star on dirt. Ships in from tougher regional circuits, giving him a significant shipper advantage."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wings Of God",
+                    "rating": 81.0,
+                    "reason": "Stalked pace and came up short last time. Passed and came again prior. Consistent figures in the 60s and 70s."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Curlins Incharge",
+                    "rating": 79.0,
+                    "reason": "Well placed but did not respond last time at Presque Isle. Vied 3w and chased prior. Minor award potential."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Unaffected",
+                "rating": 76.0,
+                "reason": "Stalked pace and tired last time out. Shook clear and held firm last year. Needs to find best form."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 7, 1, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Kantpaythetoll",
+                        "handicapper_notes": "Played no factor last time. Led late and grabbed wire two starts back. Capable of a bounce-back performance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Mr Hoover",
+                        "handicapper_notes": "Stalked pace and tired last time out. Showed early speed prior. Solid exotic candidate.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Jura",
+                        "handicapper_notes": "Always outrun last time on turf. Pressed pace and tired on dirt prior. Hard to trust.",
+                        "features": {
+                            "ai_holistic_score": 69,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Classic King",
+                        "handicapper_notes": "Slow early and no factor last time. Rallied for second best prior. Needs pace to chase.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Ready For Action",
+                        "handicapper_notes": "Rail surge and driving win last time out at Mountaineer. Mid move and tired prior. Holds the form edge.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mission Mike",
+                        "handicapper_notes": "Faltered and eased last time on a wet track. Midpack and ran willingly late prior. Dangerous if track is fast.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "R Doc",
+                        "handicapper_notes": "Chased turn and tired last time out. Played no factor prior. Needs to show more early interest.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Luvtheoneurwith",
+                        "handicapper_notes": "Always outrun last time. Folded up early prior. Speed figures are not competitive.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Ready For Action",
+                    "rating": 87.0,
+                    "reason": "Rail surge and driving win last time out at Mountaineer. Mid move and tired prior. Holds the form edge."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kantpaythetoll",
+                    "rating": 82.0,
+                    "reason": "Played no factor last time. Led late and grabbed wire two starts back. Capable of a bounce-back performance."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Classic King",
+                    "rating": 80.0,
+                    "reason": "Slow early and no factor last time. Rallied for second best prior. Needs pace to chase."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mr Hoover",
+                    "rating": 78.0,
+                    "reason": "Stalked pace and tired last time out. Showed early speed prior. Solid exotic candidate."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Mission Mike",
+                "rating": 81.0,
+                "reason": "Faltered and eased last time on a wet track. Midpack and ran willingly late prior. Dangerous if track is fast."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Vingativa",
+                        "handicapper_notes": "Rallied turn and faded last time out. No threat prior. Needs a fast pace up front to make an impact.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Sonador",
+                        "handicapper_notes": "Pressed pace and tired last time. Reared at the start prior. Hard to trust at short odds.",
+                        "features": {
+                            "ai_holistic_score": 71,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Alter The Stars",
+                        "handicapper_notes": "Led turn and was outfinished last time out. Rallied well prior. Strong contender with tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ashlee's Ring",
+                        "handicapper_notes": "Always outrun last time. Chased early and faded prior. Needs to show more late interest.",
+                        "features": {
+                            "ai_holistic_score": 73,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Stolen Kisses",
+                        "handicapper_notes": "Rallied turn and bid between last time out. Dueled and gave way prior. In good form.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Vitaemi",
+                        "handicapper_notes": "Finished evenly on the rail last time. Weakened late prior. Should get a good ground-saving trip.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Bellavalencia",
+                        "handicapper_notes": "Evenly run with a mild rally lane last time. Mid move and faded prior. Minor exotic hope.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Miss Wild",
+                        "handicapper_notes": "Pressed pace and faded last time. Vied on turn and faded prior. Needs to ration early speed better.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Miss Fort",
+                        "handicapper_notes": "Never involved last time. No threat prior. Speed figures are not competitive.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Alter The Stars",
+                    "rating": 86.0,
+                    "reason": "Led turn and was outfinished last time out. Rallied well prior. Strong contender with tactical speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Stolen Kisses",
+                    "rating": 85.0,
+                    "reason": "Rallied turn and bid between last time out. Dueled and gave way prior. In good form."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Bellavalencia",
+                    "rating": 76.0,
+                    "reason": "Evenly run with a mild rally lane last time. Mid move and faded prior. Minor exotic hope."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Miss Wild",
+                    "rating": 75.0,
+                    "reason": "Pressed pace and faded last time. Vied on turn and faded prior. Needs to ration early speed better."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Vitaemi",
+                "rating": 82.0,
+                "reason": "Finished evenly on the rail last time. Weakened late prior. Should get a good ground-saving trip."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 6, 2",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Gavea",
+                        "handicapper_notes": "Emerged second best last time out. Shook clear and held firm prior. High speed figures (71, 77) make him a top pick.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Lomachenko",
+                        "handicapper_notes": "Mid move and empty last time at Mahoning Valley. 4-w and improved position prior. Class dropper with a shipper advantage.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Weekend Flame",
+                        "handicapper_notes": "Played no factor last time. Always outrun prior. Hard to recommend on current form.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Road To Stardom",
+                        "handicapper_notes": "Never involved last time. 3-4w and outkicked prior. Needs to show more early interest.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Poppy's Pride",
+                        "handicapper_notes": "Hop start but ran evenly last time at Mahoning Valley. Swift solo pace prior. Class dropper who should control the pace.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Big Producer",
+                        "handicapper_notes": "Evenly outbid others last time. Played no factor prior. Minor award potential.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Belts 'n Brooks",
+                        "handicapper_notes": "Never threatened recently. Speed figures are very low and needs a major turnaround.",
+                        "features": {
+                            "ai_holistic_score": 66,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Gavea",
+                    "rating": 93.0,
+                    "reason": "Emerged second best last time out. Shook clear and held firm prior. High speed figures (71, 77) make him a top pick."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Lomachenko",
+                    "rating": 88.0,
+                    "reason": "Mid move and empty last time at Mahoning Valley. 4-w and improved position prior. Class dropper with a shipper advantage."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Big Producer",
+                    "rating": 78.0,
+                    "reason": "Evenly outbid others last time. Played no factor prior. Minor award potential."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Road To Stardom",
+                    "rating": 75.0,
+                    "reason": "Never involved last time. 3-4w and outkicked prior. Needs to show more early interest."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Poppy's Pride",
+                "rating": 94.0,
+                "reason": "Hop start but ran evenly last time at Mahoning Valley. Swift solo pace prior. Class dropper who should control the pace. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        },
+        {
+            "number": 7,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Union Branch",
+                        "handicapper_notes": "Clear driving win mid track last time. Weakened prior. Solid tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Tup's To Take",
+                        "handicapper_notes": "Driving win last time out. Pressed 2w and clear prior. Strong contender in peak form.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "A Ok",
+                        "handicapper_notes": "Rallied well last time. Caught late prior. Extremely consistent and the horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Dembe Zuma",
+                        "handicapper_notes": "Even finish 3deep last time. Late surge prior. Holds minor exotic appeal.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Prince Jeremy",
+                        "handicapper_notes": "Stopped last time out. Angled out and saved second prior. Needs a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Shotgun Margaret",
+                        "handicapper_notes": "Hit stride and drew away last time. Well back and no factor prior. Dangerous if she gets loose.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Giacomo Casanova",
+                        "handicapper_notes": "Always outrun last time. In close mid stretch prior. Needs a fast pace to chase.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "A Ok",
+                    "rating": 92.0,
+                    "reason": "Rallied well last time. Caught late prior. Extremely consistent and the horse to beat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Tup's To Take",
+                    "rating": 89.0,
+                    "reason": "Driving win last time out. Pressed 2w and clear prior. Strong contender in peak form."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Union Branch",
+                    "rating": 83.0,
+                    "reason": "Clear driving win mid track last time. Weakened prior. Solid tactical speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Prince Jeremy",
+                    "rating": 81.0,
+                    "reason": "Stopped last time out. Angled out and saved second prior. Needs a clean trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Shotgun Margaret",
+                "rating": 88.0,
+                "reason": "Hit stride and drew away last time. Well back and no factor prior. Dangerous if she gets loose. | <i>\ud83d\udd25 Lone Speed</i>"
+            }
+        },
+        {
+            "number": 8,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 2, 3, 1",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Legacy Trail",
+                        "handicapper_notes": "Loomed 3deep and drew off last time. Rallied prior. Strong contender with tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Waterworks",
+                        "handicapper_notes": "Got up for place last time. Pressed clear and driving prior. The horse to beat on current form.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Stubold",
+                        "handicapper_notes": "Driving win last time out. Failed to menace prior. Consistent speed figures make her a threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Datttsafancyfox",
+                        "handicapper_notes": "Weakened turn last time. Kicked clear and held firm prior. Needs to ration early speed.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Honestly",
+                        "handicapper_notes": "Evenly run and moved up last time. Drop back 1/2 and no factor prior. Minor award potential.",
+                        "features": {
+                            "ai_holistic_score": 77,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Later Days",
+                        "handicapper_notes": "Rallied up abreast last time. Brief speed prior. Should get a good ground-saving trip.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Entitled Defense",
+                        "handicapper_notes": "Lost irons at the 3/8 pole last time. Vied between and faded prior. Hard to back.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Rock Star Parking",
+                        "handicapper_notes": "Played no factor last time. Rallied late between prior. Needs a fast pace to chase.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Swooper",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Revenue Train",
+                        "handicapper_notes": "Never involved last time. Angled out and saved place prior. Holds minor exotic appeal.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Waterworks",
+                    "rating": 90.0,
+                    "reason": "Got up for place last time. Pressed clear and driving prior. The horse to beat on current form."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Stubold",
+                    "rating": 88.0,
+                    "reason": "Driving win last time out. Failed to menace prior. Consistent speed figures make her a threat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Legacy Trail",
+                    "rating": 86.0,
+                    "reason": "Loomed 3deep and drew off last time. Rallied prior. Strong contender with tactical speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Datttsafancyfox",
+                    "rating": 81.0,
+                    "reason": "Weakened turn last time. Kicked clear and held firm prior. Needs to ration early speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Later Days",
+                "rating": 83.0,
+                "reason": "Rallied up abreast last time. Brief speed prior. Should get a good ground-saving trip."
+            }
+        }
+    ]
+}
