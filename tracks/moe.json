@@ -1,35 +1,39 @@
 {
     "track_code": "MOE",
-    "location": "Moe, Gippsland, Victoria, Australia",
+    "location": "Moe, Gippsland Region, Victoria, Australia",
     "nicknames": [
         "Moe Racecourse",
         "Moe Racing Club",
         "Gippsland Racing HQ",
-        "Home of the Moe Cup"
+        "Home of the Moe Cup",
+        "West Gippsland Turf Circuit"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,720 metres",
-            "surface": "Turf",
+            "surface": "Turf (Rye/Kikuyu grass on reconstructed sub-surface drainage base)",
             "stretch_length": "300 metres",
-            "bias_notes": "Anti-clockwise (left-handed). A reconstructed 1,720m Gippsland track featuring a 24m width, long sweeping turns, and a 300m home straight. Early tactical speed ('E' and 'P') holding the fence holds a distinct advantage in 1000m, 1100m, and 1200m sprint dashes.",
-            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–5) hold an advantage in sprint races. Outer draws (9+) face ground-loss penalties unless possessing elite gate speed."
+            "bias_notes": "Anti-clockwise (left-handed). Premier country racing headquarters in West Gippsland operated by the Moe Racing Club. Features a reconstructed 1,720m oval with a 24m track width, long cambered turns, and a 300m home straight. Sprint starts from the 1000m, 1100m, and 1200m chutes favor early tactical speed ('E' and 'P' styles) holding inside positions (draws 1-5). On Good 3/4 turf, leaders along the fence hold a distinct advantage. On Heavy 8-10 winter ground, the inside lanes chop up late in the card, shifting the sprint groove wider to lanes 4-8.",
+            "post_bias": "INSIDE BARRIER EDGE IN SPRINTS: Barrier draws 1-5 hold a strong advantage in 1000m, 1100m, and 1200m sprint dashes due to the rapid entry into the sweeping turn. Over 1600m, 2050m, and 2400m route distances, long chute run-ups neutralize wide draws."
         }
     },
     "handicapping_angles": {
-        "gippsland_winter_heavy_mudlarks": "Like many Gippsland venues, Moe frequently races on deeply rain-affected ground (Soft 7 to Heavy 10) during Victorian winter cards. Heavily upgrade proven wet-track performers ('Mudlarks') with 2+ wins on heavy going (+4.0 pts).",
-        "melbourne_metro_shippers": "Moe is a major regional target for top Melbourne metropolitan yards (Ciaron Maher, Busuttin/Young, Ben, Will & JD Hayes, Price/Kent Jr.). Upgrade class-dropping Metro runners (+3.0 pts).",
-        "moe_cup_carnival": "During the October Moe Cup ($150k+) feature meeting, race quality elevates to Victorian Provincial grade. Factor in higher speed par offsets for feature races."
+        "moe_cup_showcase_spring_feature": "The Moe Cup ($150k+ Showcase Handicap, October) is one of Victoria's marquee spring country cup meetings. Class levels elevate significantly to Victorian Provincial and Midweek Metro grade (+3.5 pts class angle). Upgrade runners with proven Melbourne metro benchmark form.",
+        "gippsland_winter_heavy_mudlarks": "Like many Gippsland venues, Moe frequently races on deeply rain-affected ground (Soft 6 to Heavy 10) during Victorian winter cards (June-August). Heavily upgrade proven wet-track performers ('Mudlarks') with 2+ wins on soft/heavy going (+4.0 pts wet track specialty angle).",
+        "melbourne_metro_and_cranbourne_shippers": "Located near the Cranbourne and Pakenham training hubs and 1.5 hours from Melbourne, Moe attracts top-tier Victorian stables (e.g. Ciaron Maher, Mick Price & Michael Kent Jr, Busuttin & Young, Ben, Will & JD Hayes, Robbie Griffiths). Metro class-dropping runners carry a major speed figure and class advantage over regional country rivals.",
+        "heavy_track_wide_lane_shift": "When Moe is rated Heavy 8 to Heavy 10, the inside 3 lanes chop up by Race 4. Jockeys shift wide towards lanes 4-8 in the 300m home straight. Swoopers ('S' and 'C' styles) fanning wide late in the meeting receive a distinct lane bias upgrade.",
+        "chute_distance_starts": "Dedicated starting chutes at 1000m, 1200m, 1600m, and 2050m. The 1600m start provides a 350m straight run-up into the back turn, providing a fair start for all runners.",
+        "typical_distances": "Standard distances: 1000m, 1100m, 1200m, 1600m, 2050m, 2400m."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Victorian Gippsland Circuit HQ)",
-        "class_rating": 86,
+        "tier": "Tier 2.5 (Victorian Premier Gippsland Regional HQ)",
+        "class_rating": 88,
         "speed_par_offsets": {
-            "turf_sprint": "+0.0",
-            "turf_route": "+0.5"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": 1.0,
-        "points": 2.0
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_Victoria"
 }

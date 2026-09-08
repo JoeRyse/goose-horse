@@ -1,17 +1,37 @@
 {
-    "location": "Queanbeyan, NSW",
-    "track_type": "Turf",
-    "direction": "Clockwise",
-    "straight_length": "400m",
-    "bias_notes": "Clockwise (right-handed). Located just outside Canberra, this track has an 1810m circumference and a 400m home straight. It frequently utilizes a cutaway rail in the straight to assist horses caught on the fence.",
+    "track_code": "QUAN",
+    "location": "Queanbeyan, Capital Region / Southern Tablelands, NSW, Australia",
+    "nicknames": [
+        "Queanbeyan Racecourse",
+        "Queanbeyan Racing Club",
+        "Home of the Queanbeyan Cup",
+        "Capital Region Bullring"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,460 metres",
+            "surface": "Turf (Couch grass on clay loam base)",
+            "stretch_length": "240 metres",
+            "bias_notes": "Clockwise (right-handed). Premier country circuit in the NSW Capital Region bordering the ACT. Features a tight 1,460m 'bullring' oval layout with a very short 240m home straight. Due to the tight turns and brief home stretch, early speed ('E' style) and rail-running pressers ('P' style) hold a heavy advantage. Off-pace swoopers ('C' style) face severe penalties unless an extreme front-end pace battle occurs.",
+            "post_bias": "STRONG INSIDE BARRIER ADVANTAGE: Inside barrier draws (1-4) are critical over 900m, 1000m, and 1200m sprints. Tight turns into the short 240m home straight make wide draws (7+) exceptionally penalizing as runners get forced wide."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Relatively fair due to the 400m straight. The cutaway rail means horses saving ground on the inside turn often get a clear run home without having to fan wide.",
-        "barrier_draw": "Fair across most distances, though tactical speed to hold a position before the cutaway is highly beneficial."
+        "tight_bullring_240m_straight_speed_lock": "Queanbeyan's 240m home straight is one of the shortest in NSW. Early leaders ('E' style) with 'is_lone_speed': true that lead around the home turn are almost impossible to run down. Grant a strong early speed upgrade (+4.0 pts).",
+        "canberra_act_shipper_advantage": "Located adjacent to the ACT, Queanbeyan receives high-volume entries from Canberra-based trainers (e.g. Keith Dryden, Matthew Dale, Gratz Vella, Joseph & Jones, Nick Olive). Canberra provincial form carries a distinct class and speed figure advantage over regional country rivals (+3.0 pts class angle).",
+        "cutaway_rail_inside_sprint_lane": "Queanbeyan frequently utilizes a cutaway rail entering the 240m home straight. Horses box-seating behind the leader along the inside rail receive an instant sprint lane without having to fan wide around turns.",
+        "queanbeyan_cup_feature": "The Queanbeyan Cup ($50k+ Country Showcase Handicap, October) is the feature event of the Queanbeyan season. Upgrade horses with proven Canberra or Kembla Grange benchmark form.",
+        "typical_distances": "Standard distances: 900m, 1000m, 1200m, 1460m, 1600m, 2000m."
     },
     "par_adjustment": {
-        "tier": "Tier 5 (Bush Country)",
-        "lengths": -2.0,
-        "points": -5.0
+        "tier": "Tier 3 (NSW Capital Region Country)",
+        "class_rating": 84,
+        "speed_par_offsets": {
+            "turf_sprint": "-0.5",
+            "turf_route": "+0.0"
+        },
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

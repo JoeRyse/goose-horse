@@ -1,0 +1,46 @@
+{
+    "track_code": "PAL",
+    "location": "Palermo, Buenos Aires, Argentina",
+    "nicknames": [
+        "Hipódromo Argentino de Palermo",
+        "Palermo Racecourse",
+        "Catedral del Surf y Arena",
+        "Home of the Gran Premio Nacional (Argentine Derby)"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "2,400 metres (1.5 miles) main dirt track",
+            "surface": "Dirt (Deep natural sand and silt loam cushion — 'Arena de Palermo')",
+            "stretch_length": "700 metres — one of the longest dirt home straights in international racing",
+            "bias_notes": "Anti-Clockwise (left-handed). Premier South American dirt racing headquarters operated since 1876. Features a massive 2,400m dirt circuit with an expansive 700m home straight and 28m track width. The grueling 700m dirt stretch run tests deep stamina and rewards mid-pack pressers ('P' style) and strong closing swoopers ('S' and 'C' styles). Pure front-runners ('E' style) setting aggressive early fractions frequently collapse over the long stretch run.",
+            "post_bias": "FAIR BARRIER DISTRIBUTION ACROSS ALL DISTANCES: The 28m track width and massive 700m straightaway eliminate barrier draw penalties. Over 1000m, 1200m, 1400m, 1600m, 2000m, and 2500m classic distances, barrier draws are exceptionally fair — race tempo, class rating, and stamina dominate outcomes."
+        },
+        "main_turf": {
+            "circumference": "2,200 metres inner turf course ('Césped')",
+            "surface": "Turf (Natural Ryegrass & Bermuda grass mixture)",
+            "stretch_length": "650 metres home straight",
+            "bias_notes": "Anti-Clockwise (left-handed). Inner turf course utilized for major turf festivals. Fast-draining turf surface favoring horses with proven acceleration over 650m home straight."
+        }
+    },
+    "handicapping_angles": {
+        "premier_g1_classic_headquarters": "Palermo hosts Argentina's most famous Group 1 Classic races: Gran Premio Nacional ($100k+ G1 - Argentine Derby, 2500m Dirt), Gran Premio República Argentina (G1), Gran Premio Polla de Potrillos (G1 - 2000 Guineas), Gran Premio Selección (G1 - Argentine Oaks), Gran Premio Criadores (G1), and Gran Premio Palermo (G1). Class ratings are Tier 1 international grade (+4.0 pts class angle).",
+        "grueling_700m_dirt_stretch_swooper_upgrade": "At 700 metres, Palermo's dirt stretch is an authentic stamina test. Front-runners ('E' style) over-exerting early burn out in the final 200m. Boost mid-pack stalkers ('P') and closing swoopers ('S' / 'C') with proven late 400m sectional speed (+3.5 pts stretch stamina angle).",
+        "deep_sand_dirt_cushion_stamina_tax": "The 'Arena de Palermo' dirt surface features a deep sand cushion that taxes non-staying horses. Upgrade horses with proven wins or placings over 1600m–2500m on dirt.",
+        "san_isidro_and_la_plata_shipper_form_flow": "Form flows directly between Argentina's 'Big Three' tracks: Palermo (Dirt), San Isidro (Turf/Dirt), and La Plata (Dirt). Horses shipping in from San Isidro turf to Palermo dirt require proven dirt track suitability.",
+        "top_argentine_stables_and_jockeys": "Elite Argentine trainers (e.g. Nicolas Martin Ferro, Juan Franco Saldivia, Roberto Pellegatta, Carlos Daniel Etchechoury) and star jockeys (e.g. Francisco Leandro Fernandes Goncalves, Brian Enrique, William Pereyra) maintain high strike rates in G1 fixtures.",
+        "typical_distances": "Dirt: 1000m, 1200m, 1400m, 1600m, 1800m, 2000m, 2200m, 2500m (Gran Premio Nacional). Turf: 1000m, 1400m, 1600m, 2000m."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (South America Premier Group 1 Headquarters)",
+        "class_rating": 96,
+        "speed_par_offsets": {
+            "dirt_sprint": "+1.5",
+            "dirt_route": "+2.0",
+            "turf_sprint": "+1.0",
+            "turf_route": "+1.5"
+        },
+        "lengths": 0.0,
+        "points": 0.0
+    },
+    "region_group": "South_America_Thoroughbred"
+}
