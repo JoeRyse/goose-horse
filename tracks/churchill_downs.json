@@ -1,41 +1,46 @@
 {
     "track_code": "CD",
-    "location": "Louisville, KY",
+    "location": "Louisville, Jefferson County, Kentucky, USA",
     "nicknames": [
+        "Churchill Downs",
         "The Twin Spires",
-        "Home of the Kentucky Derby"
+        "Home of the Kentucky Derby",
+        "Louisville Turf & Dirt HQ"
     ],
     "courses": {
         "main_dirt": {
-            "circumference": "1 Mile",
-            "surface": "Dirt",
-            "stretch_length": "1,234 feet",
-            "bias_notes": "A 1-mile oval featuring one of the longest home stretches in North America (1,234 feet). The dirt surface can vary heavily depending on weather, sometimes playing cuppy and tiring, and other times becoming a lightning-fast 'highway'. Because of the long stretch, deep closers have a significantly better chance here than at tight-turn tracks like Parx or Thistledown.",
-            "post_bias": "In 1 Mile dirt races (run out of the one-turn chute), outside posts are generally fine. In two-turn routes (1 1/16 miles or longer), inside posts hold an advantage, as saving ground on both turns is crucial."
+            "circumference": "1 Mile (8 Furlongs / 1,609 metres)",
+            "surface": "Dirt (Silt, clay, and sandy loam cushion)",
+            "stretch_length": "1,234 feet (376 metres) — long stretch run",
+            "bias_notes": "Counter-clockwise (left-handed). World-famous 1-mile dirt oval featuring a long 1,234-foot home straight. The Louisville dirt surface is unique — it can play cuppy and tiring on hot dry days, or become a fast 'highway' rail bias when sealed after rain. The 1,234ft stretch gives deep swoopers ('S' and 'C' styles) ample time to run down early leaders in route races.",
+            "post_bias": "ONE-TURN CHUTE VS TWO-TURN ROUTES: In 7f and 1 Mile 1-turn chute races, outer post draws have a long run to settle before the turn. In 2-turn routes (1 1/16M, 1 1/8M, 1 1/4M Kentucky Derby), saving ground on the inside rails (draws 1-6) is crucial to avoid running wide around both turns."
         },
-        "matt_winn_turf": {
-            "circumference": "7/8 Mile",
-            "surface": "Turf",
-            "stretch_length": "900 feet (approx)",
-            "bias_notes": "Located inside the main track, this 7/8-mile oval is much tighter than the sprawling dirt course. Because the turns are sharper, tactical speed and ground-saving trips are vital. The turf course handles rain decently, but can develop a distinct 'outside paths' bias when heavily chewed up.",
-            "post_bias": "Inside posts are advantageous in 1 Mile and 1 1/16 mile turf routes due to the short run to the first turn."
+        "secretariat_turf": {
+            "circumference": "7/8 Mile (7 Furlongs / 1,408 metres)",
+            "surface": "Turf (Rebuilt Tahoma 31 Bermuda grass with sub-surface drainage)",
+            "stretch_length": "900 feet (274 metres)",
+            "bias_notes": "Counter-clockwise (left-handed). Completely rebuilt $10M+ state-of-the-art turf course located inside the main dirt track. Features tighter turns than the dirt track. Rail positions (0ft, 12ft, 24ft, 30ft out) heavily dictate bias — when rails are out, inside front-runners ('E') and box-seaters ('P') hold a dominant ground-saving advantage.",
+            "post_bias": "INSIDE DRAW ADVANTAGE IN TURF ROUTES: Inside barriers (1-5) are advantageous in 1 Mile and 1 1/16 Mile turf routes due to the short 200m run to the first tight turn."
         }
     },
     "handicapping_angles": {
-        "horses_for_courses": "Churchill Downs has one of the highest 'Horses for Courses' predictability ratings in the country. Heavily upgrade horses with proven winning form specifically over the Churchill dirt, as many horses simply refuse to run over this unique surface.",
-        "the_long_stretch_swoop": "In route races, heavily downgrade front-runners ('E' types) who have a history of folding in the final furlong. The 1,234-foot stretch will completely expose horses lacking genuine stamina.",
-        "the_shipper_advantage": "In undercard stakes and allowance races, respect horses shipping in from tough circuits like New York (Aqueduct/Saratoga) or Gulfstream Park, as they often outclass local Midwest horses."
+        "kentucky_derby_and_spring_autumn_class": "Home of the Kentucky Derby ($5M G1 - 1 1/4M), Kentucky Oaks ($1.5M G1 - 1 1/8M), Stephen Foster ($1M G1), Clark Handicap ($1M G1), and Churchill Downs Stakes (G1). Class ratings represent top Tier 1 international grade (+4.0 pts class angle).",
+        "churchill_dirt_horses_for_courses": "Churchill Downs dirt has one of the highest 'Horses for Courses' predictability ratings in North America. Heavily upgrade horses with proven winning form specifically over the Churchill dirt (+3.0 pts), as many horses refuse to handle this unique Louisville clay/silt cushion.",
+        "1234ft_stretch_stamina_test": "In route races (1 1/16M+), front-runners ('E' style) that over-exert early frequently fold over the final 100 yards of the 1,234ft stretch. Upgrade mid-pack stalkers ('P') and closing swoopers ('S' / 'C') with high late 300m sectional speed.",
+        "gulfstream_and_nyra_shipper_advantage": "In spring and autumn undercard stakes/allowances, respect elite shippers arriving from New York (Saratoga, Belmont) or Gulfstream Park, as NYRA/Florida class form carries a strong speed figure advantage over regional midwest horses.",
+        "rail_position_turf_bias": "On the Secretariat Turf Course, monitor rail settings. When the portable rail is set at 24ft or 30ft, outer draws struggle to cross over, creating a heavy inside rail bias.",
+        "typical_distances": "Dirt: 5f, 5.5f, 6f, 6.5f, 7f, 1 Mile, 1 1/16M, 1 1/8M, 1 1/4M (Derby). Turf: 5.5f, 1 Mile, 1 1/16M, 1 1/8M, 1 1/2M."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Max)",
+        "tier": "Tier 1 (USA Premier Triple Crown HQ)",
         "class_rating": 100,
         "speed_par_offsets": {
             "dirt_sprint": "+3.5",
             "dirt_route": "+4.0",
-            "turf": "+3.0"
+            "turf": "+3.5"
         },
-        "lengths": 4.0,
-        "points": 10.0
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "USA_Thoroughbred"
 }

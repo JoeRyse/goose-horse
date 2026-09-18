@@ -1,0 +1,1282 @@
+{
+    "meta": {
+        "track": "Louisiana Downs",
+        "date": "2026-07-28",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 6, 1, 2; Trifecta Key 6 with 1, 2, 7",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Eagle In The Air",
+                        "handicapper_notes": "Top pick on the drop back to 5f turf. Holds the highest grass speed figure in the field (71 at LAD) and possesses ideal early tactical speed for this turf sprint layout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace / Presser",
+                            "ai_holistic_score": 89,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Spiders Revenge",
+                        "handicapper_notes": "Significant class drop coming off Maiden Special Weight events at Lone Star Park into local maiden claiming ranks. Fits well on speed figures (69, 63) and draws inside post.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Presser",
+                            "ai_holistic_score": 86,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Riddick",
+                        "handicapper_notes": "Shipper from Lone Star dropping from MCL25k to MCL10k. Ran a solid 63 speed figure on the grass two starts back and gets ground-saving post 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Presser",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Bumped start last race",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Sky Witness",
+                        "handicapper_notes": "Turf debut candidate picking up meet leading jockey Isaac Castillo (33 percent win rate). Possesses early speed to cross over and track the leaders.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf Debut",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Hay Lover Boy",
+                        "handicapper_notes": "Narrowly missed winning last out on dirt at LAD, caught by a nose. Has forward early pace to challenge early but must prove turf form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 75,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "Nailed late last out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Firstup",
+                        "handicapper_notes": "Evangeline shipper dropping out of state-bred Maiden Special Weight company into maiden claiming ranks. Makes first grass attempt for trainer Eric Ramaekers.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Off Pace Closer",
+                            "ai_holistic_score": 71,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf Debut",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Eagle In The Air",
+                    "rating": 89.0,
+                    "reason": "Top pick on the drop back to 5f turf. Holds the highest grass speed figure in the field (71 at LAD) and possesses ideal early tactical speed for this turf sprint layout. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spiders Revenge",
+                    "rating": 86.0,
+                    "reason": "Significant class drop coming off Maiden Special Weight events at Lone Star Park into local maiden claiming ranks. Fits well on speed figures (69, 63) and draws inside post. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Riddick",
+                    "rating": 81.0,
+                    "reason": "Shipper from Lone Star dropping from MCL25k to MCL10k. Ran a solid 63 speed figure on the grass two starts back and gets ground-saving post 2. | <i>\u26a0\ufe0f Bumped start last race \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Sky Witness",
+                    "rating": 78.0,
+                    "reason": "Turf debut candidate picking up meet leading jockey Isaac Castillo (33 percent win rate). Possesses early speed to cross over and track the leaders. | <i>\ud83d\udccf Dirt to Turf Debut</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Hay Lover Boy",
+                    "rating": 75.0,
+                    "reason": "Narrowly missed winning last out on dirt at LAD, caught by a nose. Has forward early pace to challenge early but must prove turf form. | <i>\u26a0\ufe0f Nailed late last out \u2022 \ud83d\udccf Dirt to Turf</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Eagle In The Air",
+                    "rating": 89.0,
+                    "reason": "Top pick on the drop back to 5f turf. Holds the highest grass speed figure in the field (71 at LAD) and possesses ideal early tactical speed for this turf sprint layout. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Spiders Revenge",
+                    "rating": 86.0,
+                    "reason": "Significant class drop coming off Maiden Special Weight events at Lone Star Park into local maiden claiming ranks. Fits well on speed figures (69, 63) and draws inside post. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Riddick",
+                    "rating": 81.0,
+                    "reason": "Shipper from Lone Star dropping from MCL25k to MCL10k. Ran a solid 63 speed figure on the grass two starts back and gets ground-saving post 2. | <i>\u26a0\ufe0f Bumped start last race \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Sky Witness",
+                    "rating": 78.0,
+                    "reason": "Turf debut candidate picking up meet leading jockey Isaac Castillo (33 percent win rate). Possesses early speed to cross over and track the leaders. | <i>\ud83d\udccf Dirt to Turf Debut</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Hay Lover Boy",
+                    "rating": 75.0,
+                    "reason": "Narrowly missed winning last out on dirt at LAD, caught by a nose. Has forward early pace to challenge early but must prove turf form. | <i>\u26a0\ufe0f Nailed late last out \u2022 \ud83d\udccf Dirt to Turf</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Firstup",
+                    "rating": 71.0,
+                    "reason": "Evangeline shipper dropping out of state-bred Maiden Special Weight company into maiden claiming ranks. Makes first grass attempt for trainer Eric Ramaekers. | <i>\ud83d\udccf Dirt to Turf Debut</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Sky Witness",
+                "rating": 78.0,
+                "reason": "Turf debut candidate picking up meet leading jockey Isaac Castillo (33 percent win rate). Possesses early speed to cross over and track the leaders. | <i>\ud83d\udccf Dirt to Turf Debut</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Eagle In The Air</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #1, #7 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#7 Sky Witness</b>"
+        },
+        {
+            "number": 2,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Classic Embrace",
+                        "handicapper_notes": "Substantial class drop from CLM 10k ranks into local $5k NW2L condition. Holds the highest speed and overall class ratings in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Major Move",
+                        "handicapper_notes": "Broke maiden last out over 5.5f at Louisiana Downs showing strong early pace. Fits well at 7f with strong tactical early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Roseigh All Day",
+                        "handicapper_notes": "Showed determination winning maiden score at 1m70y last out. Shortens up to 7f dirt sprint for top connections.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Shelbi's Star",
+                        "handicapper_notes": "Proved capably effective over this specific track and distance two starts back, defeating Major Move convincingly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Mom's Hands",
+                        "handicapper_notes": "Returns to Louisiana Downs after minor placings at Evangeline Downs. Back speed figures make her a sneaky threat if early pace collapses.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Trouble Start",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Classic Embrace",
+                    "rating": 92.0,
+                    "reason": "Substantial class drop from CLM 10k ranks into local $5k NW2L condition. Holds the highest speed and overall class ratings in the field."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Major Move",
+                    "rating": 85.0,
+                    "reason": "Broke maiden last out over 5.5f at Louisiana Downs showing strong early pace. Fits well at 7f with strong tactical early speed."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Roseigh All Day",
+                    "rating": 83.0,
+                    "reason": "Showed determination winning maiden score at 1m70y last out. Shortens up to 7f dirt sprint for top connections. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shelbi's Star",
+                    "rating": 81.0,
+                    "reason": "Proved capably effective over this specific track and distance two starts back, defeating Major Move convincingly."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mom's Hands",
+                    "rating": 78.0,
+                    "reason": "Returns to Louisiana Downs after minor placings at Evangeline Downs. Back speed figures make her a sneaky threat if early pace collapses. | <i>\u26a0\ufe0f Trouble Start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Classic Embrace",
+                    "rating": 92.0,
+                    "reason": "Substantial class drop from CLM 10k ranks into local $5k NW2L condition. Holds the highest speed and overall class ratings in the field."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Major Move",
+                    "rating": 85.0,
+                    "reason": "Broke maiden last out over 5.5f at Louisiana Downs showing strong early pace. Fits well at 7f with strong tactical early speed."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Roseigh All Day",
+                    "rating": 83.0,
+                    "reason": "Showed determination winning maiden score at 1m70y last out. Shortens up to 7f dirt sprint for top connections. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shelbi's Star",
+                    "rating": 81.0,
+                    "reason": "Proved capably effective over this specific track and distance two starts back, defeating Major Move convincingly."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mom's Hands",
+                    "rating": 78.0,
+                    "reason": "Returns to Louisiana Downs after minor placings at Evangeline Downs. Back speed figures make her a sneaky threat if early pace collapses. | <i>\u26a0\ufe0f Trouble Start</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Mom's Hands",
+                "rating": 78.0,
+                "reason": "Returns to Louisiana Downs after minor placings at Evangeline Downs. Back speed figures make her a sneaky threat if early pace collapses. | <i>\u26a0\ufe0f Trouble Start</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Classic Embrace</b> (Solo Lock - Gap: +7.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#3, #2, #5) [$9 total stake]<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#5 Mom's Hands</b>"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 3 over 6, 1",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Time To Party",
+                        "handicapper_notes": "Dominant top pick on Frank's Turf Course. Boosted (+6) for Post-Scratch Lone Speed as the sole remaining front-runner in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 96,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Bright Spark",
+                        "handicapper_notes": "Classy dirt route performer shifting to turf. High speed figures (100-102 Beyers) make him the main danger if adapting well to the green.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt Route to Turf Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "White Mountain",
+                        "handicapper_notes": "Drawn in Stall 1 on Frank's Turf, securing a prime ground-saving rail trip behind the lone leader. Ran 3rd behind Time To Party last outing.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Rail Advantage",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "King Arthur Ridge",
+                        "handicapper_notes": "Deep closer who will be heavily compromised by a slow, unchallenged front-end pace on a tight turf circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Unfavorable Pace",
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Time To Party",
+                    "rating": 99.0,
+                    "reason": "Dominant top pick on Frank's Turf Course. Boosted (+6) for Post-Scratch Lone Speed as the sole remaining front-runner in the field. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bright Spark",
+                    "rating": 89.0,
+                    "reason": "Classy dirt route performer shifting to turf. High speed figures (100-102 Beyers) make him the main danger if adapting well to the green. | <i>\ud83d\udccf Dirt Route to Turf Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "White Mountain",
+                    "rating": 85.0,
+                    "reason": "Drawn in Stall 1 on Frank's Turf, securing a prime ground-saving rail trip behind the lone leader. Ran 3rd behind Time To Party last outing. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "King Arthur Ridge",
+                    "rating": 74.0,
+                    "reason": "Deep closer who will be heavily compromised by a slow, unchallenged front-end pace on a tight turf circuit. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Time To Party",
+                    "rating": 99.0,
+                    "reason": "Dominant top pick on Frank's Turf Course. Boosted (+6) for Post-Scratch Lone Speed as the sole remaining front-runner in the field. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bright Spark",
+                    "rating": 89.0,
+                    "reason": "Classy dirt route performer shifting to turf. High speed figures (100-102 Beyers) make him the main danger if adapting well to the green. | <i>\ud83d\udccf Dirt Route to Turf Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "White Mountain",
+                    "rating": 85.0,
+                    "reason": "Drawn in Stall 1 on Frank's Turf, securing a prime ground-saving rail trip behind the lone leader. Ran 3rd behind Time To Party last outing. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "King Arthur Ridge",
+                    "rating": 74.0,
+                    "reason": "Deep closer who will be heavily compromised by a slow, unchallenged front-end pace on a tight turf circuit. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Bright Spark",
+                "rating": 89.0,
+                "reason": "Classy dirt route performer shifting to turf. High speed figures (100-102 Beyers) make him the main danger if adapting well to the green. | <i>\ud83d\udccf Dirt Route to Turf Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Time To Party</b> (Solo Lock - Gap: +10.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#6, #1) [$9 total stake]<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#6 Bright Spark</b>"
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 2, 3, 6; Trifecta 3,6 / 2,3,6 / 1,2,3,4,6",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Ocean Voyager",
+                        "handicapper_notes": "Boasts the highest speed figures in the field with proven competitive form at Fair Grounds and Evangeline Downs. Takes a logical spot in local $5k maiden claiming ranks.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Fosforito",
+                        "handicapper_notes": "Extremely reliable on the local Louisiana Downs strip, hitting the board in four straight maiden claiming events. Should sit a cozy tracking trip from the outside stall.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Wicked Times",
+                        "handicapper_notes": "Drops to bottom-level $5k maiden claimers for top trainer Joseph Foster after fading against tougher competition at Delta Downs and in local MSW ranks.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Velocity Storm",
+                        "handicapper_notes": "Has struggled to threaten in 10 career outings but holds decent tactical versatility. Carries lightweight assignment with 5lb jockey allowance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Hopped at start two back",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Midnight Supercell",
+                        "handicapper_notes": "Plunges from maiden special weight into low-level maiden claiming after a rough debut where he stepped slow. Eligible for second-out improvement.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Off step slow in debut",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Expect Victory",
+                        "handicapper_notes": "First-time starter debuting at the bottom maiden claiming level. Shows a steady series of three-furlong morning drills at Delta Downs.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 65,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Time Starter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ocean Voyager",
+                    "rating": 88.0,
+                    "reason": "Boasts the highest speed figures in the field with proven competitive form at Fair Grounds and Evangeline Downs. Takes a logical spot in local $5k maiden claiming ranks. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Fosforito",
+                    "rating": 86.0,
+                    "reason": "Extremely reliable on the local Louisiana Downs strip, hitting the board in four straight maiden claiming events. Should sit a cozy tracking trip from the outside stall. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Wicked Times",
+                    "rating": 83.0,
+                    "reason": "Drops to bottom-level $5k maiden claimers for top trainer Joseph Foster after fading against tougher competition at Delta Downs and in local MSW ranks. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Velocity Storm",
+                    "rating": 74.0,
+                    "reason": "Has struggled to threaten in 10 career outings but holds decent tactical versatility. Carries lightweight assignment with 5lb jockey allowance. | <i>\u26a0\ufe0f Hopped at start two back \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Midnight Supercell",
+                    "rating": 72.0,
+                    "reason": "Plunges from maiden special weight into low-level maiden claiming after a rough debut where he stepped slow. Eligible for second-out improvement. | <i>\u26a0\ufe0f Off step slow in debut \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ocean Voyager",
+                    "rating": 88.0,
+                    "reason": "Boasts the highest speed figures in the field with proven competitive form at Fair Grounds and Evangeline Downs. Takes a logical spot in local $5k maiden claiming ranks. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Fosforito",
+                    "rating": 86.0,
+                    "reason": "Extremely reliable on the local Louisiana Downs strip, hitting the board in four straight maiden claiming events. Should sit a cozy tracking trip from the outside stall. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Wicked Times",
+                    "rating": 83.0,
+                    "reason": "Drops to bottom-level $5k maiden claimers for top trainer Joseph Foster after fading against tougher competition at Delta Downs and in local MSW ranks. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Velocity Storm",
+                    "rating": 74.0,
+                    "reason": "Has struggled to threaten in 10 career outings but holds decent tactical versatility. Carries lightweight assignment with 5lb jockey allowance. | <i>\u26a0\ufe0f Hopped at start two back \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Midnight Supercell",
+                    "rating": 72.0,
+                    "reason": "Plunges from maiden special weight into low-level maiden claiming after a rough debut where he stepped slow. Eligible for second-out improvement. | <i>\u26a0\ufe0f Off step slow in debut \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Expect Victory",
+                    "rating": 65.0,
+                    "reason": "First-time starter debuting at the bottom maiden claiming level. Shows a steady series of three-furlong morning drills at Delta Downs. | <i>\ud83d\udccf First Time Starter</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Midnight Supercell",
+                "rating": 72.0,
+                "reason": "Plunges from maiden special weight into low-level maiden claiming after a rough debut where he stepped slow. Eligible for second-out improvement. | <i>\u26a0\ufe0f Off step slow in debut \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Ocean Voyager</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #6, #1 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#1 Midnight Supercell</b>"
+        },
+        {
+            "number": 5,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta Box 3, 5, 8; Trifecta 3, 5 / 2, 3, 5, 8 / 1, 2, 5, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Hand",
+                        "handicapper_notes": "Ran a stellar second in debut over this exact track and distance on June 30, closing fast despite a slow start. Boasts the top speed ratings in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Off slow, came in late",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Boss Kid",
+                        "handicapper_notes": "Finished fourth beaten under two lengths in the same key June 30 turf sprint. High upside for elite trainer Gary Scherer and jockey Harry Hernandez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Angled, drifted stretch",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mouseketoodle",
+                        "handicapper_notes": "Shows dynamic front-running speed on dirt and moves to turf for top team. With Sarge Custivity scratched, holds post-scratch lone speed advantage if cleared early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Housequake",
+                        "handicapper_notes": "Proven dirt form with speed figures up to 79. Benefits directly from track bias in stall 2 on tight Frank's Turf Course bends with Isaac Castillo riding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Electric Man",
+                        "handicapper_notes": "First time starter by Star Guitar training smartly for Shane Wilson. Half-brother to Housequake who demands respect on debut.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Time Starter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bayou Time",
+                        "handicapper_notes": "Experienced maiden with four second-place finishes on dirt. Draws the coveted rail post on turf but must prove turf affinity.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Hand",
+                    "rating": 92.0,
+                    "reason": "Ran a stellar second in debut over this exact track and distance on June 30, closing fast despite a slow start. Boasts the top speed ratings in the field. | <i>\u26a0\ufe0f Off slow, came in late \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mouseketoodle",
+                    "rating": 89.0,
+                    "reason": "Shows dynamic front-running speed on dirt and moves to turf for top team. With Sarge Custivity scratched, holds post-scratch lone speed advantage if cleared early. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Boss Kid",
+                    "rating": 88.0,
+                    "reason": "Finished fourth beaten under two lengths in the same key June 30 turf sprint. High upside for elite trainer Gary Scherer and jockey Harry Hernandez. | <i>\u26a0\ufe0f Angled, drifted stretch \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Housequake",
+                    "rating": 84.0,
+                    "reason": "Proven dirt form with speed figures up to 79. Benefits directly from track bias in stall 2 on tight Frank's Turf Course bends with Isaac Castillo riding. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Electric Man",
+                    "rating": 80.0,
+                    "reason": "First time starter by Star Guitar training smartly for Shane Wilson. Half-brother to Housequake who demands respect on debut. | <i>\ud83d\udccf First Time Starter</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Hand",
+                    "rating": 92.0,
+                    "reason": "Ran a stellar second in debut over this exact track and distance on June 30, closing fast despite a slow start. Boasts the top speed ratings in the field. | <i>\u26a0\ufe0f Off slow, came in late \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mouseketoodle",
+                    "rating": 89.0,
+                    "reason": "Shows dynamic front-running speed on dirt and moves to turf for top team. With Sarge Custivity scratched, holds post-scratch lone speed advantage if cleared early. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Boss Kid",
+                    "rating": 88.0,
+                    "reason": "Finished fourth beaten under two lengths in the same key June 30 turf sprint. High upside for elite trainer Gary Scherer and jockey Harry Hernandez. | <i>\u26a0\ufe0f Angled, drifted stretch \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Housequake",
+                    "rating": 84.0,
+                    "reason": "Proven dirt form with speed figures up to 79. Benefits directly from track bias in stall 2 on tight Frank's Turf Course bends with Isaac Castillo riding. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Electric Man",
+                    "rating": 80.0,
+                    "reason": "First time starter by Star Guitar training smartly for Shane Wilson. Half-brother to Housequake who demands respect on debut. | <i>\ud83d\udccf First Time Starter</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Bayou Time",
+                    "rating": 78.0,
+                    "reason": "Experienced maiden with four second-place finishes on dirt. Draws the coveted rail post on turf but must prove turf affinity. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Mouseketoodle",
+                "rating": 89.0,
+                "reason": "Shows dynamic front-running speed on dirt and moves to turf for top team. With Sarge Custivity scratched, holds post-scratch lone speed advantage if cleared early. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Hand</b> (Solo Lock - Gap: +3.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#8, #5) [$9 total stake]<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#8 Mouseketoodle</b>"
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Wise Verdict",
+                        "handicapper_notes": "Prime contender with top overall class and speed figures (92 speed rating). Outstanding 28 percent win rate for trainer Jonas Gibson.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Izzy's Baby Boy",
+                        "handicapper_notes": "Scratches leave him as the post-scratch lone speed runner. Granted +6 pace bonus and should dictate terms on the lead.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Syvestar",
+                        "handicapper_notes": "Finished 3rd behind Wise Verdict last out over this track and distance. Solid underlying route record.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "All Together",
+                        "handicapper_notes": "Inside draw but soundly defeated by Izzy's Baby Boy in last local sprint effort. Needs significant step up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Izzy's Baby Boy",
+                    "rating": 93.0,
+                    "reason": "Scratches leave him as the post-scratch lone speed runner. Granted +6 pace bonus and should dictate terms on the lead. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wise Verdict",
+                    "rating": 92.0,
+                    "reason": "Prime contender with top overall class and speed figures (92 speed rating). Outstanding 28 percent win rate for trainer Jonas Gibson. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Syvestar",
+                    "rating": 84.0,
+                    "reason": "Finished 3rd behind Wise Verdict last out over this track and distance. Solid underlying route record. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "All Together",
+                    "rating": 79.0,
+                    "reason": "Inside draw but soundly defeated by Izzy's Baby Boy in last local sprint effort. Needs significant step up. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Izzy's Baby Boy",
+                    "rating": 93.0,
+                    "reason": "Scratches leave him as the post-scratch lone speed runner. Granted +6 pace bonus and should dictate terms on the lead. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wise Verdict",
+                    "rating": 92.0,
+                    "reason": "Prime contender with top overall class and speed figures (92 speed rating). Outstanding 28 percent win rate for trainer Jonas Gibson. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Syvestar",
+                    "rating": 84.0,
+                    "reason": "Finished 3rd behind Wise Verdict last out over this track and distance. Solid underlying route record. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "All Together",
+                    "rating": 79.0,
+                    "reason": "Inside draw but soundly defeated by Izzy's Baby Boy in last local sprint effort. Needs significant step up. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Wise Verdict",
+                "rating": 92.0,
+                "reason": "Prime contender with top overall class and speed figures (92 speed rating). Outstanding 28 percent win rate for trainer Jonas Gibson. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Izzy's Baby Boy</b><br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#3, #4) [$9 total stake]<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#3 Wise Verdict</b>"
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 8, 9; Trifecta Key 2 with 6, 8, 9, 10",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Ambridge",
+                        "handicapper_notes": "Prime turf contender drawn ideally in stall 2 on Frank's Turf Course. Returns for elite trainer Jonathan Wong (33% win rate) following a strong victory over this course and distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Star Rock Star",
+                        "handicapper_notes": "Dangerous early presser for high-percentage trainer Shane Wilson and jockey Harry Hernandez. Possesses elite 103 speed rating and consistent local turf form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "EP",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Fort Campbell",
+                        "handicapper_notes": "Wong's second entrant features high class potential and War Front turf pedigree. Expected to secure a ideal forward position under Lane Luzzi.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Don'task Don'ttell",
+                        "handicapper_notes": "Veteran 12-year-old with 23 lifetime wins and a 106 speed rating. Moves inward due to scratches and holds strong back class on turf.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Flash N Class",
+                        "handicapper_notes": "Consistent local turf performer who finished a close second over this course on May 26 and July 3. Always a threat for the exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Emancipation",
+                        "handicapper_notes": "Drawn in stall 1 to leverage the inner rail bias on Frank's Turf Course. Placed second behind Ambridge at long odds two starts back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Ambridge",
+                    "rating": 92.0,
+                    "reason": "Prime turf contender drawn ideally in stall 2 on Frank's Turf Course. Returns for elite trainer Jonathan Wong (33% win rate) following a strong victory over this course and distance. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Star Rock Star",
+                    "rating": 89.0,
+                    "reason": "Dangerous early presser for high-percentage trainer Shane Wilson and jockey Harry Hernandez. Possesses elite 103 speed rating and consistent local turf form. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Fort Campbell",
+                    "rating": 86.0,
+                    "reason": "Wong's second entrant features high class potential and War Front turf pedigree. Expected to secure a ideal forward position under Lane Luzzi. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Don'task Don'ttell",
+                    "rating": 84.0,
+                    "reason": "Veteran 12-year-old with 23 lifetime wins and a 106 speed rating. Moves inward due to scratches and holds strong back class on turf. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Flash N Class",
+                    "rating": 82.0,
+                    "reason": "Consistent local turf performer who finished a close second over this course on May 26 and July 3. Always a threat for the exotics. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Ambridge",
+                    "rating": 92.0,
+                    "reason": "Prime turf contender drawn ideally in stall 2 on Frank's Turf Course. Returns for elite trainer Jonathan Wong (33% win rate) following a strong victory over this course and distance. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Star Rock Star",
+                    "rating": 89.0,
+                    "reason": "Dangerous early presser for high-percentage trainer Shane Wilson and jockey Harry Hernandez. Possesses elite 103 speed rating and consistent local turf form. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Fort Campbell",
+                    "rating": 86.0,
+                    "reason": "Wong's second entrant features high class potential and War Front turf pedigree. Expected to secure a ideal forward position under Lane Luzzi. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Don'task Don'ttell",
+                    "rating": 84.0,
+                    "reason": "Veteran 12-year-old with 23 lifetime wins and a 106 speed rating. Moves inward due to scratches and holds strong back class on turf. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Flash N Class",
+                    "rating": 82.0,
+                    "reason": "Consistent local turf performer who finished a close second over this course on May 26 and July 3. Always a threat for the exotics. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Emancipation",
+                    "rating": 78.0,
+                    "reason": "Drawn in stall 1 to leverage the inner rail bias on Frank's Turf Course. Placed second behind Ambridge at long odds two starts back. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Star Rock Star",
+                "rating": 89.0,
+                "reason": "Dangerous early presser for high-percentage trainer Shane Wilson and jockey Harry Hernandez. Possesses elite 103 speed rating and consistent local turf form. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Ambridge</b> (Solo Lock - Gap: +3.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#9, #8) [$9 total stake]<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#9 Star Rock Star</b>"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#1 Classic Embrace</b> in R2 & <b>#3 Time To Party</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#3, #6)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#3, #6) with (#3 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#2 (Solo Lock))"
+    ]
+}
