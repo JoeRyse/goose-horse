@@ -1,0 +1,1737 @@
+{
+    "meta": {
+        "track": "Penn National",
+        "date": "2026-07-29",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta 4 / 2, 9, 10; Trifecta 4 / 9, 10 / 2, 5, 9, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Paterno",
+                        "handicapper_notes": "Moves from off-turf to dirt where he possesses a substantial form advantage, featuring a dominant 89 speed figure victory over 5.5F on this track. Draws ideal inside post 4 perfectly aligning with today's speed and inside bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 94,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Showtime Matinee",
+                        "handicapper_notes": "Extremely fast dirt sprinter with recent 92 and 89 speed figures at Penn National. High pace figure allows him to control the early tempo, though post 10 is slightly wider than ideal for the track profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Mask Patrol",
+                        "handicapper_notes": "Proven dirt performer at Penn National with multiple speed figures in the upper 80s to low 90s. His press/close style makes him the key beneficiary if Paterno and Showtime Matinee duel early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Beneficiary",
+                            "ai_holistic_score": 86,
+                            "running_style": "P/C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Night Preacher",
+                        "handicapper_notes": "Possesses brisk early foot and gets a prime inside post draw in hole 2. Figures to press the early fractions on dirt where he recently recorded a solid 79 speed rating at Delaware.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 84,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Altobelli",
+                        "handicapper_notes": "Shipper with a back dirt figure of 88 at Mahoning Valley. Takes a 7-pound weight relief with bug rider Noel Herman aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Checked in recent start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Petey Motto",
+                        "handicapper_notes": "Recent maiden winner stepping up to allowance company. Dirt speed figures max out in the mid-60s, requiring a significant step forward.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Paterno",
+                    "rating": 94.0,
+                    "reason": "Moves from off-turf to dirt where he possesses a substantial form advantage, featuring a dominant 89 speed figure victory over 5.5F on this track. Draws ideal inside post 4 perfectly aligning with today's speed and inside bias. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Showtime Matinee",
+                    "rating": 89.0,
+                    "reason": "Extremely fast dirt sprinter with recent 92 and 89 speed figures at Penn National. High pace figure allows him to control the early tempo, though post 10 is slightly wider than ideal for the track profile. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Mask Patrol",
+                    "rating": 86.0,
+                    "reason": "Proven dirt performer at Penn National with multiple speed figures in the upper 80s to low 90s. His press/close style makes him the key beneficiary if Paterno and Showtime Matinee duel early. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Night Preacher",
+                    "rating": 84.0,
+                    "reason": "Possesses brisk early foot and gets a prime inside post draw in hole 2. Figures to press the early fractions on dirt where he recently recorded a solid 79 speed rating at Delaware. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Altobelli",
+                    "rating": 82.0,
+                    "reason": "Shipper with a back dirt figure of 88 at Mahoning Valley. Takes a 7-pound weight relief with bug rider Noel Herman aboard. | <i>\u26a0\ufe0f Checked in recent start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Paterno",
+                    "rating": 94.0,
+                    "reason": "Moves from off-turf to dirt where he possesses a substantial form advantage, featuring a dominant 89 speed figure victory over 5.5F on this track. Draws ideal inside post 4 perfectly aligning with today's speed and inside bias. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Showtime Matinee",
+                    "rating": 89.0,
+                    "reason": "Extremely fast dirt sprinter with recent 92 and 89 speed figures at Penn National. High pace figure allows him to control the early tempo, though post 10 is slightly wider than ideal for the track profile. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Mask Patrol",
+                    "rating": 86.0,
+                    "reason": "Proven dirt performer at Penn National with multiple speed figures in the upper 80s to low 90s. His press/close style makes him the key beneficiary if Paterno and Showtime Matinee duel early. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Night Preacher",
+                    "rating": 84.0,
+                    "reason": "Possesses brisk early foot and gets a prime inside post draw in hole 2. Figures to press the early fractions on dirt where he recently recorded a solid 79 speed rating at Delaware. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Altobelli",
+                    "rating": 82.0,
+                    "reason": "Shipper with a back dirt figure of 88 at Mahoning Valley. Takes a 7-pound weight relief with bug rider Noel Herman aboard. | <i>\u26a0\ufe0f Checked in recent start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Petey Motto",
+                    "rating": 79.0,
+                    "reason": "Recent maiden winner stepping up to allowance company. Dirt speed figures max out in the mid-60s, requiring a significant step forward. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Mask Patrol",
+                "rating": 86.0,
+                "reason": "Proven dirt performer at Penn National with multiple speed figures in the upper 80s to low 90s. His press/close style makes him the key beneficiary if Paterno and Showtime Matinee duel early. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Paterno</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#10, #9) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile 70 Yards Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile 70 Yards Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 4 over 5, 9; Trifecta Key 4 with 5, 7, 9",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Pemberley",
+                        "handicapper_notes": "Dominant dirt router moving main-track off turf. Possesses the highest dirt speed figures in the field (82 at TAM, 81 at DEL) and a dominant 10-length dirt win three starts back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Omikami",
+                        "handicapper_notes": "Major class drop from Allowance competition down to $8k claiming off-turf. Trained by top circuit conditioner Brandon Kulp (32% wins). High upside threat on class alone.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "E M's Treasuregirl",
+                        "handicapper_notes": "Inherits post-scratch lone speed advantage after off-turf scratches removed all other front-runners. Receives Lone Speed (+6) scenario bonus.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "African Angel",
+                        "handicapper_notes": "Experienced Penn National dirt router with 21 local dirt starts, but needs a step up from recent speed figures to challenge top choice.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pemberley",
+                    "rating": 94.0,
+                    "reason": "Dominant dirt router moving main-track off turf. Possesses the highest dirt speed figures in the field (82 at TAM, 81 at DEL) and a dominant 10-length dirt win three starts back."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Omikami",
+                    "rating": 89.0,
+                    "reason": "Major class drop from Allowance competition down to $8k claiming off-turf. Trained by top circuit conditioner Brandon Kulp (32% wins). High upside threat on class alone."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "E M's Treasuregirl",
+                    "rating": 89.0,
+                    "reason": "Inherits post-scratch lone speed advantage after off-turf scratches removed all other front-runners. Receives Lone Speed (+6) scenario bonus. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "African Angel",
+                    "rating": 82.0,
+                    "reason": "Experienced Penn National dirt router with 21 local dirt starts, but needs a step up from recent speed figures to challenge top choice."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Pemberley",
+                    "rating": 94.0,
+                    "reason": "Dominant dirt router moving main-track off turf. Possesses the highest dirt speed figures in the field (82 at TAM, 81 at DEL) and a dominant 10-length dirt win three starts back."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Omikami",
+                    "rating": 89.0,
+                    "reason": "Major class drop from Allowance competition down to $8k claiming off-turf. Trained by top circuit conditioner Brandon Kulp (32% wins). High upside threat on class alone."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "E M's Treasuregirl",
+                    "rating": 89.0,
+                    "reason": "Inherits post-scratch lone speed advantage after off-turf scratches removed all other front-runners. Receives Lone Speed (+6) scenario bonus. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "African Angel",
+                    "rating": 82.0,
+                    "reason": "Experienced Penn National dirt router with 21 local dirt starts, but needs a step up from recent speed figures to challenge top choice."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Omikami",
+                "rating": 89.0,
+                "reason": "Major class drop from Allowance competition down to $8k claiming off-turf. Trained by top circuit conditioner Brandon Kulp (32% wins). High upside threat on class alone."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Pemberley</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#5, #9) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 9; Exacta 9 / 4, 5, 10; Trifecta 9 with 4, 10 with 1, 4, 5, 10",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Chilling Zensation",
+                        "handicapper_notes": "Top dirt speed figures in the field including a 76 Beyer equivalent at Parx in maiden special weight company. Fits the off-turf dirt sprint surface perfectly and gets a prime pace position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Grinda",
+                        "handicapper_notes": "Exited a solid 3rd place finish over this exact 5 furlong dirt track at Penn National on July 8. Maintains tactical speed and fits the track bias profile well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "King Of The Cross",
+                        "handicapper_notes": "Significant class drop from higher maiden claiming levels at Laurel and Parx into MCL16k. Ran 3rd in MCL40k with a 57 rating.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Mr. Manhattan",
+                        "handicapper_notes": "Class drop elevator rule applied. Drops from $50k/$65k Maiden Special Weight company at Parx into $16k Maiden Claiming. High upside threat off the layoff.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Stopped Abruptly",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tap The Devil",
+                        "handicapper_notes": "Drawn inside post 1 which aligns with the Penn National inside dirt bias facts. Capable of grabbing a minor award if clean out of the gate.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Jimmy's Page",
+                        "handicapper_notes": "Shows early speed from Parx maiden starts and gets an inside post. Secondary contender if able to clear early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Chilling Zensation",
+                    "rating": 92.0,
+                    "reason": "Top dirt speed figures in the field including a 76 Beyer equivalent at Parx in maiden special weight company. Fits the off-turf dirt sprint surface perfectly and gets a prime pace position."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mr. Manhattan",
+                    "rating": 92.0,
+                    "reason": "Class drop elevator rule applied. Drops from $50k/$65k Maiden Special Weight company at Parx into $16k Maiden Claiming. High upside threat off the layoff. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Stopped Abruptly \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Grinda",
+                    "rating": 87.0,
+                    "reason": "Exited a solid 3rd place finish over this exact 5 furlong dirt track at Penn National on July 8. Maintains tactical speed and fits the track bias profile well."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "King Of The Cross",
+                    "rating": 85.0,
+                    "reason": "Significant class drop from higher maiden claiming levels at Laurel and Parx into MCL16k. Ran 3rd in MCL40k with a 57 rating. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tap The Devil",
+                    "rating": 81.0,
+                    "reason": "Drawn inside post 1 which aligns with the Penn National inside dirt bias facts. Capable of grabbing a minor award if clean out of the gate. | <i>\u26a0\ufe0f Slow Start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Chilling Zensation",
+                    "rating": 92.0,
+                    "reason": "Top dirt speed figures in the field including a 76 Beyer equivalent at Parx in maiden special weight company. Fits the off-turf dirt sprint surface perfectly and gets a prime pace position."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mr. Manhattan",
+                    "rating": 92.0,
+                    "reason": "Class drop elevator rule applied. Drops from $50k/$65k Maiden Special Weight company at Parx into $16k Maiden Claiming. High upside threat off the layoff. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Stopped Abruptly \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Grinda",
+                    "rating": 87.0,
+                    "reason": "Exited a solid 3rd place finish over this exact 5 furlong dirt track at Penn National on July 8. Maintains tactical speed and fits the track bias profile well."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "King Of The Cross",
+                    "rating": 85.0,
+                    "reason": "Significant class drop from higher maiden claiming levels at Laurel and Parx into MCL16k. Ran 3rd in MCL40k with a 57 rating. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tap The Devil",
+                    "rating": 81.0,
+                    "reason": "Drawn inside post 1 which aligns with the Penn National inside dirt bias facts. Capable of grabbing a minor award if clean out of the gate. | <i>\u26a0\ufe0f Slow Start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Jimmy's Page",
+                    "rating": 78.0,
+                    "reason": "Shows early speed from Parx maiden starts and gets an inside post. Secondary contender if able to clear early."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Mr. Manhattan",
+                "rating": 92.0,
+                "reason": "Class drop elevator rule applied. Drops from $50k/$65k Maiden Special Weight company at Parx into $16k Maiden Claiming. High upside threat off the layoff. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Stopped Abruptly \u2022 \ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win Wager (Tight Gap: +0.0 pts on #9 Chilling Zensation)<br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #5, #4 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#5 Mr. Manhattan</b>"
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta 4 / 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Tortuga Island",
+                        "handicapper_notes": "Significant class advantage dropping from Churchill Downs CLM16k into Penn National RHP starter allowance ranks. Boasts top speed figures (74-78 range) in the field and strong route capability.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Wink Of An Eye",
+                        "handicapper_notes": "Inherits post-scratch lone speed profile with scratched horses removed. Highly upgraded by inside post position and Penn dirt track speed bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Peach Perfect",
+                        "handicapper_notes": "Flagged as the primary danger horse due to consistent late-closing speed figures on dirt tracks at Penn and Parx. Will capitalise if pace heats up early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tavria",
+                        "handicapper_notes": "Carrying 1 lb overweight (121 lbs). Holds decent back figures from Kentucky tracks but recent form lines show significant degradation.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Trouble Trip Noted",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Dancing Chime",
+                        "handicapper_notes": "Stretching back out to a mile distance after sprint attempts. Outside post position is disadvantageous on this speed-biased oval.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Unfavorable",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Tortuga Island",
+                    "rating": 92.0,
+                    "reason": "Significant class advantage dropping from Churchill Downs CLM16k into Penn National RHP starter allowance ranks. Boasts top speed figures (74-78 range) in the field and strong route capability. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wink Of An Eye",
+                    "rating": 90.0,
+                    "reason": "Inherits post-scratch lone speed profile with scratched horses removed. Highly upgraded by inside post position and Penn dirt track speed bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Peach Perfect",
+                    "rating": 84.0,
+                    "reason": "Flagged as the primary danger horse due to consistent late-closing speed figures on dirt tracks at Penn and Parx. Will capitalise if pace heats up early."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tavria",
+                    "rating": 81.0,
+                    "reason": "Carrying 1 lb overweight (121 lbs). Holds decent back figures from Kentucky tracks but recent form lines show significant degradation. | <i>\u26a0\ufe0f Trouble Trip Noted</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Dancing Chime",
+                    "rating": 78.0,
+                    "reason": "Stretching back out to a mile distance after sprint attempts. Outside post position is disadvantageous on this speed-biased oval. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Tortuga Island",
+                    "rating": 92.0,
+                    "reason": "Significant class advantage dropping from Churchill Downs CLM16k into Penn National RHP starter allowance ranks. Boasts top speed figures (74-78 range) in the field and strong route capability. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Wink Of An Eye",
+                    "rating": 90.0,
+                    "reason": "Inherits post-scratch lone speed profile with scratched horses removed. Highly upgraded by inside post position and Penn dirt track speed bias. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Peach Perfect",
+                    "rating": 84.0,
+                    "reason": "Flagged as the primary danger horse due to consistent late-closing speed figures on dirt tracks at Penn and Parx. Will capitalise if pace heats up early."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tavria",
+                    "rating": 81.0,
+                    "reason": "Carrying 1 lb overweight (121 lbs). Holds decent back figures from Kentucky tracks but recent form lines show significant degradation. | <i>\u26a0\ufe0f Trouble Trip Noted</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Dancing Chime",
+                    "rating": 78.0,
+                    "reason": "Stretching back out to a mile distance after sprint attempts. Outside post position is disadvantageous on this speed-biased oval. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Peach Perfect",
+                "rating": 84.0,
+                "reason": "Flagged as the primary danger horse due to consistent late-closing speed figures on dirt tracks at Penn and Parx. Will capitalise if pace heats up early."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Tortuga Island</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #3, #2 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 2 with 1, 4, 6; Trifecta 2 / 1, 4 / 1, 3, 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Follow The Fellow",
+                        "handicapper_notes": "Dominant last-out Monmouth Park winner posting a field-topping 84 speed figure. Drawn perfectly inside to capitalize on Penn National speed bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 92,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Go East",
+                        "handicapper_notes": "Backed by the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combination. Coming off a decisive winning effort over the local surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ninja Prize",
+                        "handicapper_notes": "Finished a clear second in this exact PA-bred allowance condition on June 26 with an 81 speed figure. Gets prime rail positioning.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Ridley Park",
+                        "handicapper_notes": "Consistent late closer who finished third behind Ninja Prize last out. Will benefit if the inside frontrunners duel early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Potential",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Great Composer",
+                        "handicapper_notes": "Flagged as danger horse due to blistering early speed background in Parx allowance ranks. Threat to clear early under rider change to Eliseo Ruiz.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Early Speed",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Kit Scat",
+                        "handicapper_notes": "Broke maiden three starts back but has struggled to produce competitive speed figures against allowance foes in recent outings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Shuffled",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Follow The Fellow",
+                    "rating": 92.0,
+                    "reason": "Dominant last-out Monmouth Park winner posting a field-topping 84 speed figure. Drawn perfectly inside to capitalize on Penn National speed bias."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Go East",
+                    "rating": 88.0,
+                    "reason": "Backed by the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combination. Coming off a decisive winning effort over the local surface."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ninja Prize",
+                    "rating": 85.0,
+                    "reason": "Finished a clear second in this exact PA-bred allowance condition on June 26 with an 81 speed figure. Gets prime rail positioning."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ridley Park",
+                    "rating": 83.0,
+                    "reason": "Consistent late closer who finished third behind Ninja Prize last out. Will benefit if the inside frontrunners duel early."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Great Composer",
+                    "rating": 80.0,
+                    "reason": "Flagged as danger horse due to blistering early speed background in Parx allowance ranks. Threat to clear early under rider change to Eliseo Ruiz. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Follow The Fellow",
+                    "rating": 92.0,
+                    "reason": "Dominant last-out Monmouth Park winner posting a field-topping 84 speed figure. Drawn perfectly inside to capitalize on Penn National speed bias."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Go East",
+                    "rating": 88.0,
+                    "reason": "Backed by the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combination. Coming off a decisive winning effort over the local surface."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ninja Prize",
+                    "rating": 85.0,
+                    "reason": "Finished a clear second in this exact PA-bred allowance condition on June 26 with an 81 speed figure. Gets prime rail positioning."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ridley Park",
+                    "rating": 83.0,
+                    "reason": "Consistent late closer who finished third behind Ninja Prize last out. Will benefit if the inside frontrunners duel early."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Great Composer",
+                    "rating": 80.0,
+                    "reason": "Flagged as danger horse due to blistering early speed background in Parx allowance ranks. Threat to clear early under rider change to Eliseo Ruiz. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Kit Scat",
+                    "rating": 78.0,
+                    "reason": "Broke maiden three starts back but has struggled to produce competitive speed figures against allowance foes in recent outings. | <i>\u26a0\ufe0f Shuffled</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Great Composer",
+                "rating": 80.0,
+                "reason": "Flagged as danger horse due to blistering early speed background in Parx allowance ranks. Threat to clear early under rider change to Eliseo Ruiz. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Follow The Fellow</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #4, #3 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 8, 2; Trifecta Key 4 over 2, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Arrow Speed",
+                        "handicapper_notes": "Top choice representing the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combo. Suffered a wide 3-to-5 path trip as the favorite last out, but previously recorded back-to-back sharp runner-up efforts at Penn National with 81 and 78 speed ratings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Trip Last Out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Amazing Bernie",
+                        "handicapper_notes": "Timothy Kreiser trainee owns the highest career speed figure in the field (96) and comes in off a solid second-place effort at 1m70y. Fits well at this starter allowance level and possesses tactical early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Freedom Maker",
+                        "handicapper_notes": "Drawn ideally in barrier 2 to leverage Penn National's inside post and early speed bias. Won at this distance two starts back and matched his top recent speed figure (84) in a dead-heat second last time out.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Speed Bias Fit",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Hay Chief",
+                        "handicapper_notes": "Today's designated Danger Horse. Second entry from the Brandon Kulp barn coming off a sharp dead-heat second with Freedom Maker earning an 84 speed rating. Owns a winning career top 90 speed rating at 1 1/8 miles.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Makabim",
+                        "handicapper_notes": "Honest 9-year-old gelding stepping up from $4,000 claiming conditions after consecutive second-place finishes at Penn National. Solid underlying class speed figures, though faces tougher condition today.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Kevin's Strike",
+                        "handicapper_notes": "Benefits from the rail barrier on today's inside-biased dirt surface. Showed strong winter form with a 79 speed figure, but must bounce back from three consecutive unplaced outings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Post Advantage",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Arrow Speed",
+                    "rating": 88.0,
+                    "reason": "Top choice representing the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combo. Suffered a wide 3-to-5 path trip as the favorite last out, but previously recorded back-to-back sharp runner-up efforts at Penn National with 81 and 78 speed ratings. | <i>\u26a0\ufe0f Wide Trip Last Out</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Amazing Bernie",
+                    "rating": 86.0,
+                    "reason": "Timothy Kreiser trainee owns the highest career speed figure in the field (96) and comes in off a solid second-place effort at 1m70y. Fits well at this starter allowance level and possesses tactical early speed. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Freedom Maker",
+                    "rating": 85.0,
+                    "reason": "Drawn ideally in barrier 2 to leverage Penn National's inside post and early speed bias. Won at this distance two starts back and matched his top recent speed figure (84) in a dead-heat second last time out."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Hay Chief",
+                    "rating": 83.0,
+                    "reason": "Today's designated Danger Horse. Second entry from the Brandon Kulp barn coming off a sharp dead-heat second with Freedom Maker earning an 84 speed rating. Owns a winning career top 90 speed rating at 1 1/8 miles."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Makabim",
+                    "rating": 81.0,
+                    "reason": "Honest 9-year-old gelding stepping up from $4,000 claiming conditions after consecutive second-place finishes at Penn National. Solid underlying class speed figures, though faces tougher condition today."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Arrow Speed",
+                    "rating": 88.0,
+                    "reason": "Top choice representing the dominant Brandon Kulp and Angel Rodriguez trainer/jockey combo. Suffered a wide 3-to-5 path trip as the favorite last out, but previously recorded back-to-back sharp runner-up efforts at Penn National with 81 and 78 speed ratings. | <i>\u26a0\ufe0f Wide Trip Last Out</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Amazing Bernie",
+                    "rating": 86.0,
+                    "reason": "Timothy Kreiser trainee owns the highest career speed figure in the field (96) and comes in off a solid second-place effort at 1m70y. Fits well at this starter allowance level and possesses tactical early speed. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Freedom Maker",
+                    "rating": 85.0,
+                    "reason": "Drawn ideally in barrier 2 to leverage Penn National's inside post and early speed bias. Won at this distance two starts back and matched his top recent speed figure (84) in a dead-heat second last time out."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Hay Chief",
+                    "rating": 83.0,
+                    "reason": "Today's designated Danger Horse. Second entry from the Brandon Kulp barn coming off a sharp dead-heat second with Freedom Maker earning an 84 speed rating. Owns a winning career top 90 speed rating at 1 1/8 miles."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Makabim",
+                    "rating": 81.0,
+                    "reason": "Honest 9-year-old gelding stepping up from $4,000 claiming conditions after consecutive second-place finishes at Penn National. Solid underlying class speed figures, though faces tougher condition today."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kevin's Strike",
+                    "rating": 80.0,
+                    "reason": "Benefits from the rail barrier on today's inside-biased dirt surface. Showed strong winter form with a 79 speed figure, but must bounce back from three consecutive unplaced outings."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Hay Chief",
+                "rating": 83.0,
+                "reason": "Today's designated Danger Horse. Second entry from the Brandon Kulp barn coming off a sharp dead-heat second with Freedom Maker earning an 84 speed rating. Owns a winning career top 90 speed rating at 1 1/8 miles."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Arrow Speed</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #8, #7 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5; Exacta 5 / 2, 4; Trifecta 5 / 4 / 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Supremely Wicked",
+                        "handicapper_notes": "Dominant top pick as the only established early speed in the field on a speed-biased dirt strip. First start since reported gelded and owns the field's highest speed figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Tocik Hall",
+                        "handicapper_notes": "High-upside debutant for trainer Flint Stites. Fired a bullet 5F gate drill in 1:00.10 on July 11 and looks well-prepared to challenge first out.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Suyay",
+                        "handicapper_notes": "Four-year-old debutant trained by Ricardo Murillo. Shows steady morning workouts and draws an inside post to benefit from track bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Forever Rain",
+                        "handicapper_notes": "Showed late interest to finish 4th despite breaking slowly in debut back in March. Second-time starter eligible for growth.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Zoey's Honor",
+                        "handicapper_notes": "Code of Honor colt debuting from the inside rail for trainer Christopher Reck. Overweight reported at 123 lbs; monitor tote board action.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Lido Shuffle",
+                        "handicapper_notes": "Connect gelding debuting for Kathleen Demasi with a late jockey change to Kendry Rivera. Needs to show quickness from the gates.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Supremely Wicked",
+                    "rating": 95.0,
+                    "reason": "Dominant top pick as the only established early speed in the field on a speed-biased dirt strip. First start since reported gelded and owns the field's highest speed figures. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Tocik Hall",
+                    "rating": 87.0,
+                    "reason": "High-upside debutant for trainer Flint Stites. Fired a bullet 5F gate drill in 1:00.10 on July 11 and looks well-prepared to challenge first out."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Suyay",
+                    "rating": 84.0,
+                    "reason": "Four-year-old debutant trained by Ricardo Murillo. Shows steady morning workouts and draws an inside post to benefit from track bias."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Forever Rain",
+                    "rating": 82.0,
+                    "reason": "Showed late interest to finish 4th despite breaking slowly in debut back in March. Second-time starter eligible for growth. | <i>\u26a0\ufe0f Slow Start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Zoey's Honor",
+                    "rating": 79.0,
+                    "reason": "Code of Honor colt debuting from the inside rail for trainer Christopher Reck. Overweight reported at 123 lbs; monitor tote board action."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Supremely Wicked",
+                    "rating": 95.0,
+                    "reason": "Dominant top pick as the only established early speed in the field on a speed-biased dirt strip. First start since reported gelded and owns the field's highest speed figures. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Tocik Hall",
+                    "rating": 87.0,
+                    "reason": "High-upside debutant for trainer Flint Stites. Fired a bullet 5F gate drill in 1:00.10 on July 11 and looks well-prepared to challenge first out."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Suyay",
+                    "rating": 84.0,
+                    "reason": "Four-year-old debutant trained by Ricardo Murillo. Shows steady morning workouts and draws an inside post to benefit from track bias."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Forever Rain",
+                    "rating": 82.0,
+                    "reason": "Showed late interest to finish 4th despite breaking slowly in debut back in March. Second-time starter eligible for growth. | <i>\u26a0\ufe0f Slow Start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Zoey's Honor",
+                    "rating": 79.0,
+                    "reason": "Code of Honor colt debuting from the inside rail for trainer Christopher Reck. Overweight reported at 123 lbs; monitor tote board action."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Lido Shuffle",
+                    "rating": 77.0,
+                    "reason": "Connect gelding debuting for Kathleen Demasi with a late jockey change to Kendry Rivera. Needs to show quickness from the gates."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Tocik Hall",
+                "rating": 87.0,
+                "reason": "High-upside debutant for trainer Flint Stites. Fired a bullet 5F gate drill in 1:00.10 on July 11 and looks well-prepared to challenge first out."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Supremely Wicked</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#4, #2) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 2 over 10, 5, 1; Trifecta Key 2 over 1, 4, 5, 10",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bronx Boys",
+                        "handicapper_notes": "Prime contender for top Penn trainer Brandon Kulp and jockey Angel Rodriguez. Holds superior speed figure consistency on dirt routes and fits the inside speed bias ideally.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pressing Speed (+3)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Bermuda Triangle",
+                        "handicapper_notes": "Enters off a dominant wire-to-wire allowance win at Penn National. Carries 3 wins in 2026 and physically moves inside following scratches.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace Presser",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Guitar Money",
+                        "handicapper_notes": "Controlled the pace wire-to-wire over course and distance last time out. Expected to establish early command and capitalize on track bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Pace Advantage",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Try To Make Cents",
+                        "handicapper_notes": "Draws the rail position on a track profile favoring inside posts. Extremely consistent in starter and allowance ranks on dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Rail Tracker",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Devil's Cay",
+                        "handicapper_notes": "Dangerous contender for elite trainer Jamie Ness. Forgive sloppy track failure last start; won by 12+ lengths two starts back at Parx.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Late Stalker",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Sloppy Track Slip",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Smoke Wagon",
+                        "handicapper_notes": "Finished a close 3rd behind Bronx Boys in last start at Penn. Receives rider switch to Yabriel Ramos and can fill lower exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack Tracker",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bronx Boys",
+                    "rating": 92.0,
+                    "reason": "Prime contender for top Penn trainer Brandon Kulp and jockey Angel Rodriguez. Holds superior speed figure consistency on dirt routes and fits the inside speed bias ideally."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Bermuda Triangle",
+                    "rating": 89.0,
+                    "reason": "Enters off a dominant wire-to-wire allowance win at Penn National. Carries 3 wins in 2026 and physically moves inside following scratches. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Guitar Money",
+                    "rating": 87.0,
+                    "reason": "Controlled the pace wire-to-wire over course and distance last time out. Expected to establish early command and capitalize on track bias."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Try To Make Cents",
+                    "rating": 86.0,
+                    "reason": "Draws the rail position on a track profile favoring inside posts. Extremely consistent in starter and allowance ranks on dirt."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Devil's Cay",
+                    "rating": 84.0,
+                    "reason": "Dangerous contender for elite trainer Jamie Ness. Forgive sloppy track failure last start; won by 12+ lengths two starts back at Parx. | <i>\u26a0\ufe0f Sloppy Track Slip</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bronx Boys",
+                    "rating": 92.0,
+                    "reason": "Prime contender for top Penn trainer Brandon Kulp and jockey Angel Rodriguez. Holds superior speed figure consistency on dirt routes and fits the inside speed bias ideally."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Bermuda Triangle",
+                    "rating": 89.0,
+                    "reason": "Enters off a dominant wire-to-wire allowance win at Penn National. Carries 3 wins in 2026 and physically moves inside following scratches. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Guitar Money",
+                    "rating": 87.0,
+                    "reason": "Controlled the pace wire-to-wire over course and distance last time out. Expected to establish early command and capitalize on track bias."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Try To Make Cents",
+                    "rating": 86.0,
+                    "reason": "Draws the rail position on a track profile favoring inside posts. Extremely consistent in starter and allowance ranks on dirt."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Devil's Cay",
+                    "rating": 84.0,
+                    "reason": "Dangerous contender for elite trainer Jamie Ness. Forgive sloppy track failure last start; won by 12+ lengths two starts back at Parx. | <i>\u26a0\ufe0f Sloppy Track Slip</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Smoke Wagon",
+                    "rating": 80.0,
+                    "reason": "Finished a close 3rd behind Bronx Boys in last start at Penn. Receives rider switch to Yabriel Ramos and can fill lower exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Devil's Cay",
+                "rating": 84.0,
+                "reason": "Dangerous contender for elite trainer Jamie Ness. Forgive sloppy track failure last start; won by 12+ lengths two starts back at Parx. | <i>\u26a0\ufe0f Sloppy Track Slip</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Bronx Boys</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #10, #4 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 10; Exacta 10 / 1, 8, 9; Trifecta 10 / 8, 9 / 1, 2, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Artist Mark",
+                        "handicapper_notes": "Massive class drop from Allowance ($37k) to CLM $5k triggers Class Drop Elevator bonus (+10 pts). Paired with top track trainer Brandon Kulp and top jockey Angel Rodriguez.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Fast / Contested Pace",
+                            "ai_holistic_score": 94,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mischief Warrior",
+                        "handicapper_notes": "Very consistent sprint form with back-to-back high speed figures in CLM 5k/4k company. Ideal tactical presser style to sit just off early heat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast / Contested Pace",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Doctor's Orders",
+                        "handicapper_notes": "Draws inside rail post which heavily benefits from today's track bias. Solid stalker from top barn of Timothy Kreiser.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast / Contested Pace",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Purecrazigroove",
+                        "handicapper_notes": "Dominant wire-to-wire winner last out by over 5 lengths. High-upside threat if he clears the field early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast / Contested Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Tommy The Torch",
+                        "handicapper_notes": "Blowout winner by 9 lengths last start at 5.5F. Drawn inside post 2 which fits the speed bias profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast / Contested Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Spinning Musician",
+                        "handicapper_notes": "Closing sprinter who stands to benefit most if the abundance of early speed produces a pace meltdown.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Setup",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Artist Mark",
+                    "rating": 94.0,
+                    "reason": "Massive class drop from Allowance ($37k) to CLM $5k triggers Class Drop Elevator bonus (+10 pts). Paired with top track trainer Brandon Kulp and top jockey Angel Rodriguez. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mischief Warrior",
+                    "rating": 90.0,
+                    "reason": "Very consistent sprint form with back-to-back high speed figures in CLM 5k/4k company. Ideal tactical presser style to sit just off early heat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Doctor's Orders",
+                    "rating": 87.0,
+                    "reason": "Draws inside rail post which heavily benefits from today's track bias. Solid stalker from top barn of Timothy Kreiser. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Purecrazigroove",
+                    "rating": 85.0,
+                    "reason": "Dominant wire-to-wire winner last out by over 5 lengths. High-upside threat if he clears the field early."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Tommy The Torch",
+                    "rating": 84.0,
+                    "reason": "Blowout winner by 9 lengths last start at 5.5F. Drawn inside post 2 which fits the speed bias profile."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Artist Mark",
+                    "rating": 94.0,
+                    "reason": "Massive class drop from Allowance ($37k) to CLM $5k triggers Class Drop Elevator bonus (+10 pts). Paired with top track trainer Brandon Kulp and top jockey Angel Rodriguez. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mischief Warrior",
+                    "rating": 90.0,
+                    "reason": "Very consistent sprint form with back-to-back high speed figures in CLM 5k/4k company. Ideal tactical presser style to sit just off early heat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Doctor's Orders",
+                    "rating": 87.0,
+                    "reason": "Draws inside rail post which heavily benefits from today's track bias. Solid stalker from top barn of Timothy Kreiser. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Purecrazigroove",
+                    "rating": 85.0,
+                    "reason": "Dominant wire-to-wire winner last out by over 5 lengths. High-upside threat if he clears the field early."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Tommy The Torch",
+                    "rating": 84.0,
+                    "reason": "Blowout winner by 9 lengths last start at 5.5F. Drawn inside post 2 which fits the speed bias profile."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Spinning Musician",
+                    "rating": 82.0,
+                    "reason": "Closing sprinter who stands to benefit most if the abundance of early speed produces a pace meltdown."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Purecrazigroove",
+                "rating": 85.0,
+                "reason": "Dominant wire-to-wire winner last out by over 5 lengths. High-upside threat if he clears the field early."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#10 Artist Mark</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #8, #9 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#4 Paterno</b> in R1 & <b>#4 Pemberley</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#4 Pemberley</b> in R2 & <b>#9 Chilling Zensation</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#9 Chilling Zensation</b> in R3 & <b>#4 Tortuga Island</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#4, #8)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#4, #8) with (#5 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#10 (Solo Lock))"
+    ]
+}

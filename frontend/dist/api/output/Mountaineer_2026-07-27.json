@@ -1,0 +1,1598 @@
+{
+    "meta": {
+        "track": "Mountaineer",
+        "date": "2026-07-27",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 6, 10; Trifecta 3, 10 / 3, 6, 10 / 1, 6, 7, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Sanford Route",
+                        "handicapper_notes": "Strong runner-up effort over this course and distance on July 14 earning a race-best recent turf figure of 62. Draws well inside and gets prime tactical tracking position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Fiction",
+                        "handicapper_notes": "Comes off a stellar runner-up effort in a local maiden special weight sprint posting a 73 speed figure. Transitions to turf route with upper-level back class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Broken Sound",
+                        "handicapper_notes": "Finished a close third behind Sanford Route on July 14 over this grass course with a 60 speed figure. Highly consistent router who fits well in this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Could Do",
+                        "handicapper_notes": "Solid fourth behind Sanford Route and Broken Sound on July 14 and previously earned a 66 speed figure over this turf course in May. Dangerous stalker.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Robert Lee",
+                        "handicapper_notes": "Class drop bonus applied due to prior high-level MSW background at Churchill Downs and Fair Grounds where he earned a 77 figure. Longshot possibility if regaining winter form.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Finn D'oro",
+                        "handicapper_notes": "Draws the preferred inside rail stall and returns to turf after finishing second in a dirt maiden claiming sprint. Tactical early position from post 1.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Sanford Route",
+                    "rating": 86.0,
+                    "reason": "Strong runner-up effort over this course and distance on July 14 earning a race-best recent turf figure of 62. Draws well inside and gets prime tactical tracking position."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Fiction",
+                    "rating": 84.0,
+                    "reason": "Comes off a stellar runner-up effort in a local maiden special weight sprint posting a 73 speed figure. Transitions to turf route with upper-level back class. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Robert Lee",
+                    "rating": 84.0,
+                    "reason": "Class drop bonus applied due to prior high-level MSW background at Churchill Downs and Fair Grounds where he earned a 77 figure. Longshot possibility if regaining winter form. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Broken Sound",
+                    "rating": 82.0,
+                    "reason": "Finished a close third behind Sanford Route on July 14 over this grass course with a 60 speed figure. Highly consistent router who fits well in this field."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Could Do",
+                    "rating": 79.0,
+                    "reason": "Solid fourth behind Sanford Route and Broken Sound on July 14 and previously earned a 66 speed figure over this turf course in May. Dangerous stalker."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Sanford Route",
+                    "rating": 86.0,
+                    "reason": "Strong runner-up effort over this course and distance on July 14 earning a race-best recent turf figure of 62. Draws well inside and gets prime tactical tracking position."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Fiction",
+                    "rating": 84.0,
+                    "reason": "Comes off a stellar runner-up effort in a local maiden special weight sprint posting a 73 speed figure. Transitions to turf route with upper-level back class. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Robert Lee",
+                    "rating": 84.0,
+                    "reason": "Class drop bonus applied due to prior high-level MSW background at Churchill Downs and Fair Grounds where he earned a 77 figure. Longshot possibility if regaining winter form. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Broken Sound",
+                    "rating": 82.0,
+                    "reason": "Finished a close third behind Sanford Route on July 14 over this grass course with a 60 speed figure. Highly consistent router who fits well in this field."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Could Do",
+                    "rating": 79.0,
+                    "reason": "Solid fourth behind Sanford Route and Broken Sound on July 14 and previously earned a 66 speed figure over this turf course in May. Dangerous stalker."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Finn D'oro",
+                    "rating": 73.0,
+                    "reason": "Draws the preferred inside rail stall and returns to turf after finishing second in a dirt maiden claiming sprint. Tactical early position from post 1. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Robert Lee",
+                "rating": 84.0,
+                "reason": "Class drop bonus applied due to prior high-level MSW background at Churchill Downs and Fair Grounds where he earned a 77 figure. Longshot possibility if regaining winter form. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Sanford Route</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #10, #8 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#8 Robert Lee</b>"
+        },
+        {
+            "number": 2,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta Box 4, 6, 9; Trifecta 9 with 2, 4, 6 with 2, 4, 5, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Dancing Shadows",
+                        "handicapper_notes": "Strong closing profile on Mountaineer turf course with consecutive placings at this level. Sets up ideally behind contested front-runners.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Setup",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Shez Twisted",
+                        "handicapper_notes": "Draws advantageous inside stall 4 on 5f turf circuit. Runner-up on local turf two starts back with high tactical speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "In tight break last time on turf",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Leave Drama Behind",
+                        "handicapper_notes": "Consistently hits board in 5f Mountaineer turf sprints. Holds top-tier overall speed ratings in field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Weakened late setting pace",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Miss Teca",
+                        "handicapper_notes": "Bred for turf sprint performance and gets premier circuit jockey Luis Negron from inside stall 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Outbid late in dirt start",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Late Spring Night",
+                        "handicapper_notes": "Dominant gate-to-wire maiden winner last start. Score boosted via Class Drop Elevator after dropping down from 100k Turfway MSW earlier in campaign.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Animal Security",
+                        "handicapper_notes": "Maiden winner two back making second attempt on local turf course under Kevin Gonzalez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Weakened on turn on turf debut",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Bailey's Girl",
+                        "handicapper_notes": "Turf maiden winner two starts back cutting back from 7f route to 5f turf sprint.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Tired in off-track dirt sprint",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Late Spring Night",
+                    "rating": 90.0,
+                    "reason": "Dominant gate-to-wire maiden winner last start. Score boosted via Class Drop Elevator after dropping down from 100k Turfway MSW earlier in campaign. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Dancing Shadows",
+                    "rating": 88.0,
+                    "reason": "Strong closing profile on Mountaineer turf course with consecutive placings at this level. Sets up ideally behind contested front-runners. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shez Twisted",
+                    "rating": 86.0,
+                    "reason": "Draws advantageous inside stall 4 on 5f turf circuit. Runner-up on local turf two starts back with high tactical speed. | <i>\u26a0\ufe0f In tight break last time on turf \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Leave Drama Behind",
+                    "rating": 85.0,
+                    "reason": "Consistently hits board in 5f Mountaineer turf sprints. Holds top-tier overall speed ratings in field. | <i>\u26a0\ufe0f Weakened late setting pace \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Miss Teca",
+                    "rating": 84.0,
+                    "reason": "Bred for turf sprint performance and gets premier circuit jockey Luis Negron from inside stall 2. | <i>\u26a0\ufe0f Outbid late in dirt start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Late Spring Night",
+                    "rating": 90.0,
+                    "reason": "Dominant gate-to-wire maiden winner last start. Score boosted via Class Drop Elevator after dropping down from 100k Turfway MSW earlier in campaign. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Dancing Shadows",
+                    "rating": 88.0,
+                    "reason": "Strong closing profile on Mountaineer turf course with consecutive placings at this level. Sets up ideally behind contested front-runners. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shez Twisted",
+                    "rating": 86.0,
+                    "reason": "Draws advantageous inside stall 4 on 5f turf circuit. Runner-up on local turf two starts back with high tactical speed. | <i>\u26a0\ufe0f In tight break last time on turf \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Leave Drama Behind",
+                    "rating": 85.0,
+                    "reason": "Consistently hits board in 5f Mountaineer turf sprints. Holds top-tier overall speed ratings in field. | <i>\u26a0\ufe0f Weakened late setting pace \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Miss Teca",
+                    "rating": 84.0,
+                    "reason": "Bred for turf sprint performance and gets premier circuit jockey Luis Negron from inside stall 2. | <i>\u26a0\ufe0f Outbid late in dirt start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Animal Security",
+                    "rating": 76.0,
+                    "reason": "Maiden winner two back making second attempt on local turf course under Kevin Gonzalez. | <i>\u26a0\ufe0f Weakened on turn on turf debut \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Bailey's Girl",
+                    "rating": 74.0,
+                    "reason": "Turf maiden winner two starts back cutting back from 7f route to 5f turf sprint. | <i>\u26a0\ufe0f Tired in off-track dirt sprint \u2022 \ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Miss Teca",
+                "rating": 84.0,
+                "reason": "Bred for turf sprint performance and gets premier circuit jockey Luis Negron from inside stall 2. | <i>\u26a0\ufe0f Outbid late in dirt start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Dancing Shadows</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #4, #2 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 3, 10; Trifecta 1, 10 / 1, 3, 7, 10 / 1, 3, 6, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tap Em",
+                        "handicapper_notes": "Top choice paired with elite trainer Juan Silva and leading jockey Luis Negron. Drops from tougher AOC competition into CLM 7500 where his 83 Speed figure and stalking style are ideal.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Trap Line",
+                        "handicapper_notes": "Strong turf route form at Mountaineer with 2 wins and 5 in-the-money finishes from 5 grass tries. Came wide to finish 3rd in CLM 12500 last month and drops into a very winnable spot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Squeezed back in previous dirt try",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bustin Up",
+                        "handicapper_notes": "Consistent turf router at Mountaineer with multiple sub-20 second final quarters and peak speed figures over 100. Key scratches of early pace rivals open up an ideal trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Blocked turn in previous grass route",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Maxwell Esquire",
+                        "handicapper_notes": "Hails from the dominant Jay Bernardini barn. Possesses highest career back class in the field and standard closing kick that benefits from hot or standard tempo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": ""
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tap Em",
+                    "rating": 89.0,
+                    "reason": "Top choice paired with elite trainer Juan Silva and leading jockey Luis Negron. Drops from tougher AOC competition into CLM 7500 where his 83 Speed figure and stalking style are ideal. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Trap Line",
+                    "rating": 86.0,
+                    "reason": "Strong turf route form at Mountaineer with 2 wins and 5 in-the-money finishes from 5 grass tries. Came wide to finish 3rd in CLM 12500 last month and drops into a very winnable spot. | <i>\u26a0\ufe0f Squeezed back in previous dirt try \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bustin Up",
+                    "rating": 84.0,
+                    "reason": "Consistent turf router at Mountaineer with multiple sub-20 second final quarters and peak speed figures over 100. Key scratches of early pace rivals open up an ideal trip. | <i>\u26a0\ufe0f Blocked turn in previous grass route \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Maxwell Esquire",
+                    "rating": 82.0,
+                    "reason": "Hails from the dominant Jay Bernardini barn. Possesses highest career back class in the field and standard closing kick that benefits from hot or standard tempo. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "",
+                    "barrier": "",
+                    "name": "Unknown",
+                    "rating": 80.0,
+                    "reason": "No notes provided."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Tap Em",
+                    "rating": 89.0,
+                    "reason": "Top choice paired with elite trainer Juan Silva and leading jockey Luis Negron. Drops from tougher AOC competition into CLM 7500 where his 83 Speed figure and stalking style are ideal. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Trap Line",
+                    "rating": 86.0,
+                    "reason": "Strong turf route form at Mountaineer with 2 wins and 5 in-the-money finishes from 5 grass tries. Came wide to finish 3rd in CLM 12500 last month and drops into a very winnable spot. | <i>\u26a0\ufe0f Squeezed back in previous dirt try \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bustin Up",
+                    "rating": 84.0,
+                    "reason": "Consistent turf router at Mountaineer with multiple sub-20 second final quarters and peak speed figures over 100. Key scratches of early pace rivals open up an ideal trip. | <i>\u26a0\ufe0f Blocked turn in previous grass route \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Maxwell Esquire",
+                    "rating": 82.0,
+                    "reason": "Hails from the dominant Jay Bernardini barn. Possesses highest career back class in the field and standard closing kick that benefits from hot or standard tempo. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "",
+                    "barrier": "",
+                    "name": "Unknown",
+                    "rating": 80.0,
+                    "reason": "No notes provided."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Trap Line",
+                "rating": 86.0,
+                "reason": "Strong turf route form at Mountaineer with 2 wins and 5 in-the-money finishes from 5 grass tries. Came wide to finish 3rd in CLM 12500 last month and drops into a very winnable spot. | <i>\u26a0\ufe0f Squeezed back in previous dirt try \u2022 \ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Tap Em</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #10, #3 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 7, 8, 6",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Old Flag (IRE)",
+                        "handicapper_notes": "Maintains prime consistency over the Mountaineer turf with top-class recent speed figures of 88 and 85 at similar conditions. Fits ideally into this pace setup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Valentine Bug",
+                        "handicapper_notes": "Significant class relief shipping back into local $7500 claiming ranks from higher AOC company. Boasts superior peak turf speed figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Legal Titan",
+                        "handicapper_notes": "Narrowly missed last out over 7 furlongs on turf at this track, earning an 83 speed rating. Strong local turf record (8-1-1-2).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Lord Ante",
+                        "handicapper_notes": "Possesses sharp early speed and previously generated impressive 94 speed figures on the Mountaineer grass course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Marsala Monarch",
+                        "handicapper_notes": "Draws into the main body following scratches. Comes off a solid 3rd in allowance company with an 81 speed figure.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Man On The Moon",
+                        "handicapper_notes": "Reliable veteran stalker with solid dirt figures who transitions back to grass looking for minor awards.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Old Flag (IRE)",
+                    "rating": 89.0,
+                    "reason": "Maintains prime consistency over the Mountaineer turf with top-class recent speed figures of 88 and 85 at similar conditions. Fits ideally into this pace setup. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Valentine Bug",
+                    "rating": 86.0,
+                    "reason": "Significant class relief shipping back into local $7500 claiming ranks from higher AOC company. Boasts superior peak turf speed figures. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Legal Titan",
+                    "rating": 83.0,
+                    "reason": "Narrowly missed last out over 7 furlongs on turf at this track, earning an 83 speed rating. Strong local turf record (8-1-1-2). | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Lord Ante",
+                    "rating": 80.0,
+                    "reason": "Possesses sharp early speed and previously generated impressive 94 speed figures on the Mountaineer grass course. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Marsala Monarch",
+                    "rating": 77.0,
+                    "reason": "Draws into the main body following scratches. Comes off a solid 3rd in allowance company with an 81 speed figure. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Old Flag (IRE)",
+                    "rating": 89.0,
+                    "reason": "Maintains prime consistency over the Mountaineer turf with top-class recent speed figures of 88 and 85 at similar conditions. Fits ideally into this pace setup. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Valentine Bug",
+                    "rating": 86.0,
+                    "reason": "Significant class relief shipping back into local $7500 claiming ranks from higher AOC company. Boasts superior peak turf speed figures. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Legal Titan",
+                    "rating": 83.0,
+                    "reason": "Narrowly missed last out over 7 furlongs on turf at this track, earning an 83 speed rating. Strong local turf record (8-1-1-2). | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Lord Ante",
+                    "rating": 80.0,
+                    "reason": "Possesses sharp early speed and previously generated impressive 94 speed figures on the Mountaineer grass course. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Marsala Monarch",
+                    "rating": 77.0,
+                    "reason": "Draws into the main body following scratches. Comes off a solid 3rd in allowance company with an 81 speed figure. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Man On The Moon",
+                    "rating": 75.0,
+                    "reason": "Reliable veteran stalker with solid dirt figures who transitions back to grass looking for minor awards. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Lord Ante",
+                "rating": 80.0,
+                "reason": "Possesses sharp early speed and previously generated impressive 94 speed figures on the Mountaineer grass course. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Old Flag (IRE)</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #8, #9 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 5, 6, 9",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Vintage Sparkle",
+                        "handicapper_notes": "Top speed figure contender in the field with proven winning form over Mountaineer 1-mile dirt circuit. Paired with top local jockey Luis Negron.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Summersattheshore",
+                        "handicapper_notes": "Consistent mid-pack stalker who frequently hits the board in local route claimers. Finished a solid 3rd behind Vintage Sparkle last time out.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "One Night Stand",
+                        "handicapper_notes": "In sharp form following back-to-back victories at 6 furlongs. Stretches out to two turns where tactical speed should keep her prominent.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Kaz' Rose",
+                        "handicapper_notes": "Wire-to-wire winner over track and distance on June 30. Inside post position allows jockey Yaranga to secure favorable forward placement.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Judith's Cross",
+                        "handicapper_notes": "Possesses tactical early speed and can factor in the early tempo from an inside draw. Needs to pace herself late in two-turn routes.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Shewearsmyring",
+                        "handicapper_notes": "Unpressured late-closing style will benefit if the front-runners duel early. Best suited for underlying vertical exotic inclusion.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Lost rider on June 23",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Vintage Sparkle",
+                    "rating": 88.0,
+                    "reason": "Top speed figure contender in the field with proven winning form over Mountaineer 1-mile dirt circuit. Paired with top local jockey Luis Negron."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Summersattheshore",
+                    "rating": 83.0,
+                    "reason": "Consistent mid-pack stalker who frequently hits the board in local route claimers. Finished a solid 3rd behind Vintage Sparkle last time out."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "One Night Stand",
+                    "rating": 81.0,
+                    "reason": "In sharp form following back-to-back victories at 6 furlongs. Stretches out to two turns where tactical speed should keep her prominent. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Kaz' Rose",
+                    "rating": 78.0,
+                    "reason": "Wire-to-wire winner over track and distance on June 30. Inside post position allows jockey Yaranga to secure favorable forward placement."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Judith's Cross",
+                    "rating": 75.0,
+                    "reason": "Possesses tactical early speed and can factor in the early tempo from an inside draw. Needs to pace herself late in two-turn routes."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Vintage Sparkle",
+                    "rating": 88.0,
+                    "reason": "Top speed figure contender in the field with proven winning form over Mountaineer 1-mile dirt circuit. Paired with top local jockey Luis Negron."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Summersattheshore",
+                    "rating": 83.0,
+                    "reason": "Consistent mid-pack stalker who frequently hits the board in local route claimers. Finished a solid 3rd behind Vintage Sparkle last time out."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "One Night Stand",
+                    "rating": 81.0,
+                    "reason": "In sharp form following back-to-back victories at 6 furlongs. Stretches out to two turns where tactical speed should keep her prominent. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Kaz' Rose",
+                    "rating": 78.0,
+                    "reason": "Wire-to-wire winner over track and distance on June 30. Inside post position allows jockey Yaranga to secure favorable forward placement."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Judith's Cross",
+                    "rating": 75.0,
+                    "reason": "Possesses tactical early speed and can factor in the early tempo from an inside draw. Needs to pace herself late in two-turn routes."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shewearsmyring",
+                    "rating": 72.0,
+                    "reason": "Unpressured late-closing style will benefit if the front-runners duel early. Best suited for underlying vertical exotic inclusion. | <i>\u26a0\ufe0f Lost rider on June 23 \u2022 \ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "One Night Stand",
+                "rating": 81.0,
+                "reason": "In sharp form following back-to-back victories at 6 furlongs. Stretches out to two turns where tactical speed should keep her prominent. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Vintage Sparkle</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #6, #9 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 3, 4",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Breezy Money",
+                        "handicapper_notes": "Delivered a sharp second-place finish last out in a tough regional handicap with an 89 speed figure. Possesses crisp early pace to set or press the tempo from a favorable inside post.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Soupersilverdollar",
+                        "handicapper_notes": "Enters off a gutsy front-running win over this surface on July 12. Displays strong tactical speed and consistent form, making him a prime win candidate.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Saqeel",
+                        "handicapper_notes": "Rider upgrade to leading jockey Luis Negron. Forgive his last out bounce; two starts back he dominated local claimers with a race-high speed potential.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Big Spin",
+                        "handicapper_notes": "Established closer who will benefit if the early front-runners duel through hot fractions. Won at this track and distance three starts back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Potential",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Kakao",
+                        "handicapper_notes": "Ran a solid third behind Breezy Money last time out. Drawn inside on a track where saving ground around two turns is vital.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Colonel Poppy",
+                        "handicapper_notes": "Stalker returning to routes after a brief sprint effort. Needs to replicate his spring speed figures to threaten for top exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Breezy Money",
+                    "rating": 88.0,
+                    "reason": "Delivered a sharp second-place finish last out in a tough regional handicap with an 89 speed figure. Possesses crisp early pace to set or press the tempo from a favorable inside post. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Soupersilverdollar",
+                    "rating": 86.0,
+                    "reason": "Enters off a gutsy front-running win over this surface on July 12. Displays strong tactical speed and consistent form, making him a prime win candidate. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Saqeel",
+                    "rating": 85.0,
+                    "reason": "Rider upgrade to leading jockey Luis Negron. Forgive his last out bounce; two starts back he dominated local claimers with a race-high speed potential. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Big Spin",
+                    "rating": 84.0,
+                    "reason": "Established closer who will benefit if the early front-runners duel through hot fractions. Won at this track and distance three starts back. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kakao",
+                    "rating": 81.0,
+                    "reason": "Ran a solid third behind Breezy Money last time out. Drawn inside on a track where saving ground around two turns is vital. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Breezy Money",
+                    "rating": 88.0,
+                    "reason": "Delivered a sharp second-place finish last out in a tough regional handicap with an 89 speed figure. Possesses crisp early pace to set or press the tempo from a favorable inside post. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Soupersilverdollar",
+                    "rating": 86.0,
+                    "reason": "Enters off a gutsy front-running win over this surface on July 12. Displays strong tactical speed and consistent form, making him a prime win candidate. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Saqeel",
+                    "rating": 85.0,
+                    "reason": "Rider upgrade to leading jockey Luis Negron. Forgive his last out bounce; two starts back he dominated local claimers with a race-high speed potential. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Big Spin",
+                    "rating": 84.0,
+                    "reason": "Established closer who will benefit if the early front-runners duel through hot fractions. Won at this track and distance three starts back. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Kakao",
+                    "rating": 81.0,
+                    "reason": "Ran a solid third behind Breezy Money last time out. Drawn inside on a track where saving ground around two turns is vital. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Colonel Poppy",
+                    "rating": 78.0,
+                    "reason": "Stalker returning to routes after a brief sprint effort. Needs to replicate his spring speed figures to threaten for top exotics. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Saqeel",
+                "rating": 85.0,
+                "reason": "Rider upgrade to leading jockey Luis Negron. Forgive his last out bounce; two starts back he dominated local claimers with a race-high speed potential. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Breezy Money</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #4, #3 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 8, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ur Fabulous",
+                        "handicapper_notes": "Morning line favorite shipping in from Charles Town allowance and higher-level maiden special weights. Holds a distinct class and speed figure advantage over this local field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Presser",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Elmigdar",
+                        "handicapper_notes": "Shipper from Presque Isle Downs maiden special weight level. Well-bred 3yo filly by Curlin who should improve drastically facing regional Mountaineer maidens.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Mid-pack Stalker",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Savvy Savannah",
+                        "handicapper_notes": "First-time starter for trainer Marion Cuttino. Has shown sharp morning gate works at Mountaineer and gets top jockey Bailey Weatherly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Speed Contender",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Time Starter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Sagcy",
+                        "handicapper_notes": "Exhibits early tactical speed from Florida winter form. Picks up top Mountaineer rider Luis Negron which provides a major jockey upgrade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Presser",
+                            "ai_holistic_score": 78,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "La Neto",
+                        "handicapper_notes": "Drawn favorably in post 2 to establish early tracking position. Shows occasional speed figures that put her in line for minor awards.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Liz Dreamin",
+                        "handicapper_notes": "Experienced local maiden who exits claiming ranks. Needs a career-best performance to threaten the top choices.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Sustained Closer",
+                            "ai_holistic_score": 68,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ur Fabulous",
+                    "rating": 92.0,
+                    "reason": "Morning line favorite shipping in from Charles Town allowance and higher-level maiden special weights. Holds a distinct class and speed figure advantage over this local field. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Elmigdar",
+                    "rating": 85.0,
+                    "reason": "Shipper from Presque Isle Downs maiden special weight level. Well-bred 3yo filly by Curlin who should improve drastically facing regional Mountaineer maidens. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Savvy Savannah",
+                    "rating": 81.0,
+                    "reason": "First-time starter for trainer Marion Cuttino. Has shown sharp morning gate works at Mountaineer and gets top jockey Bailey Weatherly. | <i>\ud83d\udccf First Time Starter</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Sagcy",
+                    "rating": 78.0,
+                    "reason": "Exhibits early tactical speed from Florida winter form. Picks up top Mountaineer rider Luis Negron which provides a major jockey upgrade. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "La Neto",
+                    "rating": 72.0,
+                    "reason": "Drawn favorably in post 2 to establish early tracking position. Shows occasional speed figures that put her in line for minor awards. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ur Fabulous",
+                    "rating": 92.0,
+                    "reason": "Morning line favorite shipping in from Charles Town allowance and higher-level maiden special weights. Holds a distinct class and speed figure advantage over this local field. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Elmigdar",
+                    "rating": 85.0,
+                    "reason": "Shipper from Presque Isle Downs maiden special weight level. Well-bred 3yo filly by Curlin who should improve drastically facing regional Mountaineer maidens. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Savvy Savannah",
+                    "rating": 81.0,
+                    "reason": "First-time starter for trainer Marion Cuttino. Has shown sharp morning gate works at Mountaineer and gets top jockey Bailey Weatherly. | <i>\ud83d\udccf First Time Starter</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Sagcy",
+                    "rating": 78.0,
+                    "reason": "Exhibits early tactical speed from Florida winter form. Picks up top Mountaineer rider Luis Negron which provides a major jockey upgrade. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "La Neto",
+                    "rating": 72.0,
+                    "reason": "Drawn favorably in post 2 to establish early tracking position. Shows occasional speed figures that put her in line for minor awards. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Liz Dreamin",
+                    "rating": 68.0,
+                    "reason": "Experienced local maiden who exits claiming ranks. Needs a career-best performance to threaten the top choices. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Savvy Savannah",
+                "rating": 81.0,
+                "reason": "First-time starter for trainer Marion Cuttino. Has shown sharp morning gate works at Mountaineer and gets top jockey Bailey Weatherly. | <i>\ud83d\udccf First Time Starter</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Ur Fabulous</b> (Solo Lock - Gap: +7.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#4, #5) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 4, 8, 9; Trifecta Key 8 over 1, 4, 9",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Tammy's Cruiser",
+                        "handicapper_notes": "Massive regional shipper class drop coming in from Parx, Laurel, and Delaware Park $10k-$12.5k claiming ranks. Deshawn Parker takes the mount, signaling maximum intent.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Tempo",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Buzzworthy",
+                        "handicapper_notes": "Ran a stellar second last out at Mountaineer in a higher $12.5k claiming event earning an 80 speed figure. Dropping to $4,000 NW3L makes her a formidable win contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Tempo",
+                            "ai_holistic_score": 89,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Pushing Through",
+                        "handicapper_notes": "Enters on a two-race winning streak from Louisiana Downs and secures leading rider Luis Negron. Tactical speed allows her to overcome the wide draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Tempo",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Go Go Star",
+                        "handicapper_notes": "Drawn ideally in stall 1 to take advantage of Mountaineer dirt sprint inside post bias. Came close over track and trip last time out.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Tempo",
+                            "ai_holistic_score": 82,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Cajunette",
+                        "handicapper_notes": "Reliable local performer who finished third behind Go Go Star on July 15. Capable stalker who can grab a minor spot late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Mean To Me",
+                        "handicapper_notes": "Ran a strong second at six furlongs two starts back over a wet track. Needs an aggressive early pace meltdown to threaten for top honors.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Tammy's Cruiser",
+                    "rating": 92.0,
+                    "reason": "Massive regional shipper class drop coming in from Parx, Laurel, and Delaware Park $10k-$12.5k claiming ranks. Deshawn Parker takes the mount, signaling maximum intent. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Buzzworthy",
+                    "rating": 89.0,
+                    "reason": "Ran a stellar second last out at Mountaineer in a higher $12.5k claiming event earning an 80 speed figure. Dropping to $4,000 NW3L makes her a formidable win contender. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Pushing Through",
+                    "rating": 85.0,
+                    "reason": "Enters on a two-race winning streak from Louisiana Downs and secures leading rider Luis Negron. Tactical speed allows her to overcome the wide draw. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Go Go Star",
+                    "rating": 82.0,
+                    "reason": "Drawn ideally in stall 1 to take advantage of Mountaineer dirt sprint inside post bias. Came close over track and trip last time out. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Cajunette",
+                    "rating": 78.0,
+                    "reason": "Reliable local performer who finished third behind Go Go Star on July 15. Capable stalker who can grab a minor spot late. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Tammy's Cruiser",
+                    "rating": 92.0,
+                    "reason": "Massive regional shipper class drop coming in from Parx, Laurel, and Delaware Park $10k-$12.5k claiming ranks. Deshawn Parker takes the mount, signaling maximum intent. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Buzzworthy",
+                    "rating": 89.0,
+                    "reason": "Ran a stellar second last out at Mountaineer in a higher $12.5k claiming event earning an 80 speed figure. Dropping to $4,000 NW3L makes her a formidable win contender. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Pushing Through",
+                    "rating": 85.0,
+                    "reason": "Enters on a two-race winning streak from Louisiana Downs and secures leading rider Luis Negron. Tactical speed allows her to overcome the wide draw. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Go Go Star",
+                    "rating": 82.0,
+                    "reason": "Drawn ideally in stall 1 to take advantage of Mountaineer dirt sprint inside post bias. Came close over track and trip last time out. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Cajunette",
+                    "rating": 78.0,
+                    "reason": "Reliable local performer who finished third behind Go Go Star on July 15. Capable stalker who can grab a minor spot late. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mean To Me",
+                    "rating": 73.0,
+                    "reason": "Ran a strong second at six furlongs two starts back over a wet track. Needs an aggressive early pace meltdown to threaten for top honors. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Buzzworthy",
+                "rating": 89.0,
+                "reason": "Ran a stellar second last out at Mountaineer in a higher $12.5k claiming event earning an 80 speed figure. Dropping to $4,000 NW3L makes her a formidable win contender. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Tammy's Cruiser</b> (Solo Lock - Gap: +3.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#4, #9) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R7 \u2794 R8):</b> Single <b>#8 Ur Fabulous</b> in R7 & <b>#8 Tammy's Cruiser</b> in R8 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3, #10) with (#5 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#8 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#8 (Solo Lock))"
+    ]
+}
