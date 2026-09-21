@@ -1,0 +1,1523 @@
+{
+    "meta": {
+        "track": "Saratoga",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 3, 9, 6",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bounding Along",
+                        "handicapper_notes": "Strong second-place finish in debut MCL35000 despite hitting the gate. Prat takes the mount for Falcone. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Hit Gate",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Authentic Beauty",
+                        "handicapper_notes": "Solid third-place finish in MCL50000 at Churchill Downs last out. Drops in class and gets Alvarado. Fits perfectly here.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Run On States",
+                        "handicapper_notes": "Drops precipitously from MSW100000. Possesses early speed and gets Gaffalione. Dangerous if allowed to dictate terms.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Key Actress",
+                        "handicapper_notes": "Strong turf router trying a dirt sprint. Classy but surface switch is a major question mark.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Credit Risk",
+                        "handicapper_notes": "Struggled in routes recently. Back to a sprint but needs to find her juvenile form to compete.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Noisetomakenoise",
+                        "handicapper_notes": "Returning from a long layoff since November. Turf router switching to a dirt sprint, tough task.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Maizey Blue",
+                        "handicapper_notes": "Weakened in a turf route last out. Dirt sprint form is uninspiring.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "That's Amore",
+                        "handicapper_notes": "Outrun in recent starts at Gulfstream and Finger Lakes. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bounding Along",
+                    "rating": 94.0,
+                    "reason": "Strong second-place finish in debut MCL35000 despite hitting the gate. Prat takes the mount for Falcone. Major threat. | <i>\u26a0\ufe0f Hit Gate</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Authentic Beauty",
+                    "rating": 92.0,
+                    "reason": "Solid third-place finish in MCL50000 at Churchill Downs last out. Drops in class and gets Alvarado. Fits perfectly here."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Run On States",
+                    "rating": 92.0,
+                    "reason": "Drops precipitously from MSW100000. Possesses early speed and gets Gaffalione. Dangerous if allowed to dictate terms. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Key Actress",
+                    "rating": 85.0,
+                    "reason": "Strong turf router trying a dirt sprint. Classy but surface switch is a major question mark."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Run On States",
+                "rating": 92.0,
+                "reason": "Drops precipitously from MSW100000. Possesses early speed and gets Gaffalione. Dangerous if allowed to dictate terms. | <i>\ud83d\udd25 Lone Speed</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #9, #6<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #9, #6"
+        },
+        {
+            "number": 2,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 3, 5, 2",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Light Fantastic",
+                        "handicapper_notes": "Won MCL50000 last out in impressive fashion. Irad Ortiz Jr. rides for Brad Cox. Strong inner turf profile.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Blast Furnace",
+                        "handicapper_notes": "Consistent turf router. Prat rides for Maker. Solid speed figures make him a major player.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Maximum Promise",
+                        "handicapper_notes": "Solid turf form at Churchill and Keeneland. Santana Jr. rides for Linda Rice. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Madagascar",
+                        "handicapper_notes": "Inner turf inside post is a big help. Elliott rides for Kantarmaci. Can sneak into the exotics.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Gun Barrel City",
+                        "handicapper_notes": "Disappointed last out, but has back class. Franco rides for Pletcher.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "In The Dark",
+                        "handicapper_notes": "Won MCL55000 last out. Step up in class here, but in good form.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Shangrala Road",
+                        "handicapper_notes": "Sprints/routes mix. Strong speed figures on dirt, turf question.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Middle Market",
+                        "handicapper_notes": "Closed for 4th last out. Needs a fast pace to close into.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Tough Critic",
+                        "handicapper_notes": "Weakened late in turf route last out. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Light Fantastic",
+                    "rating": 96.0,
+                    "reason": "Won MCL50000 last out in impressive fashion. Irad Ortiz Jr. rides for Brad Cox. Strong inner turf profile."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Blast Furnace",
+                    "rating": 93.0,
+                    "reason": "Consistent turf router. Prat rides for Maker. Solid speed figures make him a major player."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Maximum Promise",
+                    "rating": 91.0,
+                    "reason": "Solid turf form at Churchill and Keeneland. Santana Jr. rides for Linda Rice. Strong contender."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Madagascar",
+                    "rating": 88.0,
+                    "reason": "Inner turf inside post is a big help. Elliott rides for Kantarmaci. Can sneak into the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Gun Barrel City",
+                "rating": 86.0,
+                "reason": "Disappointed last out, but has back class. Franco rides for Pletcher."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Light Fantastic</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #5, #8 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #5, #2"
+        },
+        {
+            "number": 3,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 1, 3, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Normandy Coast",
+                        "handicapper_notes": "Class drop from CLM50000. Irad Ortiz Jr. rides for Joe Sharp. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Norwich",
+                        "handicapper_notes": "Consistent performer at this level. Santana Jr. rides for Maker. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Hey Toby",
+                        "handicapper_notes": "Solid 3rd last out in ALW82000. Major class drop. Carmouche rides for Englehart.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Sheriff Bianco",
+                        "handicapper_notes": "Consistent check earner, fits well here. Franco rides for Linda Rice.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Mr Skylight",
+                        "handicapper_notes": "Faded last out, but has solid speed figures. Elliott rides for Falcone.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Dot's Dollar",
+                        "handicapper_notes": "Faded last out, but possesses early speed. Davis rides for Joe Sharp.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Fifty Cent Dollars",
+                        "handicapper_notes": "Outrun in recent starts, needs pace setup. Saez rides for Asmussen.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Normandy Coast",
+                    "rating": 95.0,
+                    "reason": "Class drop from CLM50000. Irad Ortiz Jr. rides for Joe Sharp. Strong contender."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Norwich",
+                    "rating": 93.0,
+                    "reason": "Consistent performer at this level. Santana Jr. rides for Maker. Major threat."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Hey Toby",
+                    "rating": 91.0,
+                    "reason": "Solid 3rd last out in ALW82000. Major class drop. Carmouche rides for Englehart."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sheriff Bianco",
+                    "rating": 88.0,
+                    "reason": "Consistent check earner, fits well here. Franco rides for Linda Rice."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Mr Skylight",
+                "rating": 86.0,
+                "reason": "Faded last out, but has solid speed figures. Elliott rides for Falcone."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #3, #7 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #3, #9"
+        },
+        {
+            "number": 4,
+            "distance": "1 1/8 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 1/8 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 2, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Spirit Of St Louis",
+                        "handicapper_notes": "Class of the field. Chad Brown trainee. Franco rides. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 97,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Salamis",
+                        "handicapper_notes": "Chad Brown trainee, Prat rides. Major threat. Strong speed figures.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Sand Pipes",
+                        "handicapper_notes": "Solid 3rd in G3 last out. Strong contender. Carmouche rides for Schultz.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Britain's Kitten",
+                        "handicapper_notes": "Solid second last out. Inside post on inner turf is massive. Irad Ortiz Jr. rides.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Capture The Flag",
+                        "handicapper_notes": "Pletcher trainee, consistent turf router. Velazquez rides.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Sea Singer (ire)",
+                        "handicapper_notes": "McCarthy trainee, needs to improve but has talent. Saez rides.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Spirit Of St Louis",
+                    "rating": 97.0,
+                    "reason": "Class of the field. Chad Brown trainee. Franco rides. Strong contender."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Salamis",
+                    "rating": 94.0,
+                    "reason": "Chad Brown trainee, Prat rides. Major threat. Strong speed figures."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Sand Pipes",
+                    "rating": 92.0,
+                    "reason": "Solid 3rd in G3 last out. Strong contender. Carmouche rides for Schultz."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Britain's Kitten",
+                    "rating": 89.0,
+                    "reason": "Solid second last out. Inside post on inner turf is massive. Irad Ortiz Jr. rides."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Capture The Flag",
+                "rating": 87.0,
+                "reason": "Pletcher trainee, consistent turf router. Velazquez rides."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Spirit Of St Louis</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #2, #5, #4 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #2, #5, #7"
+        },
+        {
+            "number": 5,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 4, 9, 1",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Cadillac Mary",
+                        "handicapper_notes": "3rd in debut at Belmont. Strong experience edge. Davis rides for Englehart.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Side Quest",
+                        "handicapper_notes": "Shuffled in debut, ran on. Irad Ortiz Jr. rides for Walden. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Shuffled",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Cody's Approval",
+                        "handicapper_notes": "Strong workouts for Trombetta. Rodriguez rides. Dangerous firster.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Quoted",
+                        "handicapper_notes": "Casse firster with Prat. Strong pedigree for turf sprinting.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Split The Blanket",
+                        "handicapper_notes": "Giddings firster. Alvarado rides. Solid workouts.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "All Show",
+                        "handicapper_notes": "Amelia Green firster. Velazquez rides. Pedigree suggests speed.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "By Grace",
+                        "handicapper_notes": "Weakened in debut. Gaffalione rides for Sharp. Needs to improve.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Saint Dymphna",
+                        "handicapper_notes": "Faded in debut. Santana Jr. rides for Heath. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Miss Money Pants",
+                        "handicapper_notes": "Faded in debut. Franco rides for Rudy Rodriguez. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Cadillac Mary",
+                    "rating": 94.0,
+                    "reason": "3rd in debut at Belmont. Strong experience edge. Davis rides for Englehart."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Side Quest",
+                    "rating": 92.0,
+                    "reason": "Shuffled in debut, ran on. Irad Ortiz Jr. rides for Walden. Major threat. | <i>\u26a0\ufe0f Shuffled</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Cody's Approval",
+                    "rating": 89.0,
+                    "reason": "Strong workouts for Trombetta. Rodriguez rides. Dangerous firster."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Quoted",
+                    "rating": 87.0,
+                    "reason": "Casse firster with Prat. Strong pedigree for turf sprinting."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Quoted",
+                "rating": 87.0,
+                "reason": "Casse firster with Prat. Strong pedigree for turf sprinting."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #4, #9, #2 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #4, #9, #1"
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 1, 9, 2",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ancient World",
+                        "handicapper_notes": "Class drop, Irad Ortiz Jr. rides for Maker. Strong favorite. Strong speed figures.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Schlomo",
+                        "handicapper_notes": "Consistent, fits well here. Lezcano rides for Mott. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Liberty Rising",
+                        "handicapper_notes": "Consistent performer at this level. Davis rides for Quick. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Nantz",
+                        "handicapper_notes": "Solid 3rd last out. Santana Jr. rides for Kantarmaci.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Tapwrits Temper",
+                        "handicapper_notes": "Won last out at Belmont. Franco rides for Potts.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Catch A Tiger",
+                        "handicapper_notes": "Faded in turf routes, back to dirt sprint. Davis rides for Zito.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Three Little Birds",
+                        "handicapper_notes": "Needs pace setup. Elliott rides for Baker.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Epitaph",
+                        "handicapper_notes": "Won last out in CLM30000. Zayas rides for Potts.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Executive Order",
+                        "handicapper_notes": "Faded last out. Rodriguez rides for Bartkowski.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Otto Nipoti",
+                        "handicapper_notes": "Won last out at Finger Lakes. Coa rides for Ferraro.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ancient World",
+                    "rating": 96.0,
+                    "reason": "Class drop, Irad Ortiz Jr. rides for Maker. Strong favorite. Strong speed figures."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Schlomo",
+                    "rating": 93.0,
+                    "reason": "Consistent, fits well here. Lezcano rides for Mott. Major threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Liberty Rising",
+                    "rating": 91.0,
+                    "reason": "Consistent performer at this level. Davis rides for Quick. Strong contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Nantz",
+                    "rating": 88.0,
+                    "reason": "Solid 3rd last out. Santana Jr. rides for Kantarmaci."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Nantz",
+                "rating": 88.0,
+                "reason": "Solid 3rd last out. Santana Jr. rides for Kantarmaci."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#1 Ancient World</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #9, #4 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #9, #2"
+        },
+        {
+            "number": 7,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 3, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "All Of It",
+                        "handicapper_notes": "Won last out in ALW105000. Strong contender. Franco rides for Clement.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Celtic Dawn",
+                        "handicapper_notes": "Won last out in stakes. Irad Ortiz Jr. rides for Carlos Martin. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Neshika",
+                        "handicapper_notes": "Consistent stakes performer. Prat rides for Maker. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "New York Special",
+                        "handicapper_notes": "Won debut nicely. Inside post advantage. Zayas rides for Casse.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Considerate City",
+                        "handicapper_notes": "Consistent, but needs best. Gaffalione rides for Ferraro.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Cosmic Candy Girl",
+                        "handicapper_notes": "Needs to step up. Elliott rides for Ryerson.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "All Of It",
+                    "rating": 96.0,
+                    "reason": "Won last out in ALW105000. Strong contender. Franco rides for Clement."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Celtic Dawn",
+                    "rating": 93.0,
+                    "reason": "Won last out in stakes. Irad Ortiz Jr. rides for Carlos Martin. Major threat."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Neshika",
+                    "rating": 91.0,
+                    "reason": "Consistent stakes performer. Prat rides for Maker. Strong contender."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "New York Special",
+                    "rating": 88.0,
+                    "reason": "Won debut nicely. Inside post advantage. Zayas rides for Casse."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "New York Special",
+                "rating": 88.0,
+                "reason": "Won debut nicely. Inside post advantage. Zayas rides for Casse."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 All Of It</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #5, #1 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #5, #6"
+        },
+        {
+            "number": 8,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 2, 4, 1",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Senza Parole",
+                        "handicapper_notes": "Strong contender, Irad Ortiz Jr. rides for Chad Brown. Strong speed figures.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Beauty Reigns",
+                        "handicapper_notes": "Strong contender, Alvarado rides for Mott. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Munnings Express",
+                        "handicapper_notes": "Strong speed figures, consistent. Lezcano rides for Linda Rice. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Reputation",
+                        "handicapper_notes": "Strong contender, Prat rides for George Weaver.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Queen's Martini",
+                        "handicapper_notes": "Strong contender. Santana Jr. rides for Moquett.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Autumn Evening",
+                        "handicapper_notes": "Needs pace setup. Velazquez rides for D'Angelo.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Beyond Belief",
+                        "handicapper_notes": "Needs to step up. Saez rides for Breen.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Dazzling Move",
+                        "handicapper_notes": "Needs to step up. Gaffalione rides for Joseph Jr.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Senza Parole",
+                    "rating": 95.0,
+                    "reason": "Strong contender, Irad Ortiz Jr. rides for Chad Brown. Strong speed figures."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Beauty Reigns",
+                    "rating": 93.0,
+                    "reason": "Strong contender, Alvarado rides for Mott. Major threat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Munnings Express",
+                    "rating": 91.0,
+                    "reason": "Strong speed figures, consistent. Lezcano rides for Linda Rice. Strong contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Reputation",
+                    "rating": 88.0,
+                    "reason": "Strong contender, Prat rides for George Weaver."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Reputation",
+                "rating": 88.0,
+                "reason": "Strong contender, Prat rides for George Weaver."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #2, #4, #7 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #2, #4, #1"
+        },
+        {
+            "number": 9,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box: 3, 7, 1",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Midtown Mischief",
+                        "handicapper_notes": "Strong contender. Davis rides for Maker. Strong speed figures.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Garden Of Grace",
+                        "handicapper_notes": "Strong contender. Rodriguez rides for Potts. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Blue Authenticity",
+                        "handicapper_notes": "Strong contender. Saez rides for Bruce Brown. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Avery's Wonderland",
+                        "handicapper_notes": "Strong contender, Irad Ortiz Jr. rides for Dutrow Jr.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Anna Brocknana",
+                        "handicapper_notes": "Strong contender. Franco rides for George Weaver.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "You Know Better",
+                        "handicapper_notes": "Needs to step up. Prat rides for Jorge Abreu.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Stella Fortuna",
+                        "handicapper_notes": "Needs to step up. Gutierrez rides for Miceli.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Mischievous Jo",
+                        "handicapper_notes": "Needs to step up. Gaffalione rides for Schettino.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Dancing Miracle",
+                        "handicapper_notes": "Needs to step up. Santana Jr. rides for Fernando Abreu.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bank On Bebe",
+                        "handicapper_notes": "Needs to step up. Davis rides for Robbie Davis.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Spirit Forward",
+                        "handicapper_notes": "Needs to step up. Elliott rides for David Donk.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Midtown Mischief",
+                    "rating": 95.0,
+                    "reason": "Strong contender. Davis rides for Maker. Strong speed figures."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Garden Of Grace",
+                    "rating": 93.0,
+                    "reason": "Strong contender. Rodriguez rides for Potts. Major threat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Blue Authenticity",
+                    "rating": 91.0,
+                    "reason": "Strong contender. Saez rides for Bruce Brown. Strong contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Avery's Wonderland",
+                    "rating": 88.0,
+                    "reason": "Strong contender, Irad Ortiz Jr. rides for Dutrow Jr."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Avery's Wonderland",
+                "rating": 88.0,
+                "reason": "Strong contender, Irad Ortiz Jr. rides for Dutrow Jr."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #7, #4 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #7, #1"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3, #9) with (#3, #5)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#3, #5) with (#1, #3)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1, #3) with (#2, #5)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#2, #5) with (#4, #9)",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#4, #9) with (#1, #9)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1, #9) with (#3, #5)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#3, #5) with (#2, #4)",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#2, #4) with (#3, #7)"
+    ]
+}

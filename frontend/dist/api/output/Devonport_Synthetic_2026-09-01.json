@@ -1,0 +1,1736 @@
+{
+    "meta": {
+        "track": "Devonport Synthetic",
+        "date": "2026-09-01",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1600m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1600m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Trifecta 1 / 3, 4 / 2, 3, 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Azonto",
+                        "handicapper_notes": "Boasts stellar course form with two wins and two seconds from seven starts on the Spreyton Tapeta. Beaten just a neck over the mile in Class 3 company six days ago carrying 59kg and gets ideal setup here with leading hoop Anthony Darmanin aboard. Tactical presser style (P) suits the circuit perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Eaglefurther",
+                        "handicapper_notes": "Clear lone front-runner (E) in this small field. Led all the way to score over 1600m two starts back before pulling up lame in a BM64. Freshened with a sharp trial placing at Longford, gets 3kg relief, and drawn barrier 3 to dictate uncontested fractions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Alpine Blast",
+                        "handicapper_notes": "Ultimate Devonport synthetic warrior with 9 career victories at this track. Drops to featherweight 54kg from low draw and steps back up to his pet mile trip where his swooping run home (S) will be most potent.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Flossing",
+                        "handicapper_notes": "Veteran galloper dropping back from Open Handicap grade at Hobart where he finished 1.5 lengths 4th. However, he is making his synthetic track debut at age nine without a prior local trial, facing an automatic surface penalty.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Mateus",
+                        "handicapper_notes": "Gets the advantage of barrier 1 and light 54kg impost. Finished 3.4 lengths behind Azonto last week over track and distance, but one-paced closing style (C) leaves him vulnerable for the win.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Sugoi Legend",
+                        "handicapper_notes": "Only 1 win from 19 starts at Devonport and has been beaten 5+ lengths in recent outings. Needs to find several lengths on current form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Azonto",
+                    "rating": 92.0,
+                    "reason": "Boasts stellar course form with two wins and two seconds from seven starts on the Spreyton Tapeta. Beaten just a neck over the mile in Class 3 company six days ago carrying 59kg and gets ideal setup here with leading hoop Anthony Darmanin aboard. Tactical presser style (P) suits the circuit perfectly."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Eaglefurther",
+                    "rating": 91.0,
+                    "reason": "Clear lone front-runner (E) in this small field. Led all the way to score over 1600m two starts back before pulling up lame in a BM64. Freshened with a sharp trial placing at Longford, gets 3kg relief, and drawn barrier 3 to dictate uncontested fractions. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Alpine Blast",
+                    "rating": 84.0,
+                    "reason": "Ultimate Devonport synthetic warrior with 9 career victories at this track. Drops to featherweight 54kg from low draw and steps back up to his pet mile trip where his swooping run home (S) will be most potent. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Flossing",
+                    "rating": 81.0,
+                    "reason": "Veteran galloper dropping back from Open Handicap grade at Hobart where he finished 1.5 lengths 4th. However, he is making his synthetic track debut at age nine without a prior local trial, facing an automatic surface penalty."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Mateus",
+                    "rating": 78.0,
+                    "reason": "Gets the advantage of barrier 1 and light 54kg impost. Finished 3.4 lengths behind Azonto last week over track and distance, but one-paced closing style (C) leaves him vulnerable for the win."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Azonto",
+                    "rating": 92.0,
+                    "reason": "Boasts stellar course form with two wins and two seconds from seven starts on the Spreyton Tapeta. Beaten just a neck over the mile in Class 3 company six days ago carrying 59kg and gets ideal setup here with leading hoop Anthony Darmanin aboard. Tactical presser style (P) suits the circuit perfectly."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Eaglefurther",
+                    "rating": 91.0,
+                    "reason": "Clear lone front-runner (E) in this small field. Led all the way to score over 1600m two starts back before pulling up lame in a BM64. Freshened with a sharp trial placing at Longford, gets 3kg relief, and drawn barrier 3 to dictate uncontested fractions. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Alpine Blast",
+                    "rating": 84.0,
+                    "reason": "Ultimate Devonport synthetic warrior with 9 career victories at this track. Drops to featherweight 54kg from low draw and steps back up to his pet mile trip where his swooping run home (S) will be most potent. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Flossing",
+                    "rating": 81.0,
+                    "reason": "Veteran galloper dropping back from Open Handicap grade at Hobart where he finished 1.5 lengths 4th. However, he is making his synthetic track debut at age nine without a prior local trial, facing an automatic surface penalty."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Mateus",
+                    "rating": 78.0,
+                    "reason": "Gets the advantage of barrier 1 and light 54kg impost. Finished 3.4 lengths behind Azonto last week over track and distance, but one-paced closing style (C) leaves him vulnerable for the win."
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Sugoi Legend",
+                    "rating": 76.0,
+                    "reason": "Only 1 win from 19 starts at Devonport and has been beaten 5+ lengths in recent outings. Needs to find several lengths on current form. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Eaglefurther",
+                "rating": 91.0,
+                "reason": "Clear lone front-runner (E) in this small field. Led all the way to score over 1600m two starts back before pulling up lame in a BM64. Freshened with a sharp trial placing at Longford, gets 3kg relief, and drawn barrier 3 to dictate uncontested fractions. | <i>\ud83d\udd25 Lone Speed</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Azonto</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #3, #4 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#3 Eaglefurther</b>"
+        },
+        {
+            "number": 2,
+            "distance": "1000m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1000m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1 / Exacta 1 over 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Alpine Thunder",
+                        "handicapper_notes": "Dominant last-start winner at Hobart defeating Geegees Missile. With key rivals scratched, he gains uncontested early engine command. Post-scratch lone speed bonus (+6) applied. High tactical strike rate over the sprint trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bold Instinct",
+                        "handicapper_notes": "Devonport synthetic specialist with 5 wins at this venue. Draws ideally in barrier 2 to stalk behind the lone leader. Drops nicely in grade from Open/BM76 company to standard BM76 handicap under Erica Byrne Burke.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Volkanovski",
+                        "handicapper_notes": "Proven Spreyton performer with 12 track placings and tactical speed. Carries only 54.0kg with Jett Stanley aboard. Capable of tucking into the slipstream and threatening late as the primary danger.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Within Sight",
+                        "handicapper_notes": "Third-up today and historically performs well at this stage of preparation. Benefits from inside rail run and bottom weight of 54.0kg, but needs to lift sectionals to reel in the front-runners on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Alpine Thunder",
+                    "rating": 97.0,
+                    "reason": "Dominant last-start winner at Hobart defeating Geegees Missile. With key rivals scratched, he gains uncontested early engine command. Post-scratch lone speed bonus (+6) applied. High tactical strike rate over the sprint trip. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bold Instinct",
+                    "rating": 87.0,
+                    "reason": "Devonport synthetic specialist with 5 wins at this venue. Draws ideally in barrier 2 to stalk behind the lone leader. Drops nicely in grade from Open/BM76 company to standard BM76 handicap under Erica Byrne Burke. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Volkanovski",
+                    "rating": 85.0,
+                    "reason": "Proven Spreyton performer with 12 track placings and tactical speed. Carries only 54.0kg with Jett Stanley aboard. Capable of tucking into the slipstream and threatening late as the primary danger. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Within Sight",
+                    "rating": 81.0,
+                    "reason": "Third-up today and historically performs well at this stage of preparation. Benefits from inside rail run and bottom weight of 54.0kg, but needs to lift sectionals to reel in the front-runners on Tapeta. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Alpine Thunder",
+                    "rating": 97.0,
+                    "reason": "Dominant last-start winner at Hobart defeating Geegees Missile. With key rivals scratched, he gains uncontested early engine command. Post-scratch lone speed bonus (+6) applied. High tactical strike rate over the sprint trip. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bold Instinct",
+                    "rating": 87.0,
+                    "reason": "Devonport synthetic specialist with 5 wins at this venue. Draws ideally in barrier 2 to stalk behind the lone leader. Drops nicely in grade from Open/BM76 company to standard BM76 handicap under Erica Byrne Burke. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Volkanovski",
+                    "rating": 85.0,
+                    "reason": "Proven Spreyton performer with 12 track placings and tactical speed. Carries only 54.0kg with Jett Stanley aboard. Capable of tucking into the slipstream and threatening late as the primary danger. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Within Sight",
+                    "rating": 81.0,
+                    "reason": "Third-up today and historically performs well at this stage of preparation. Benefits from inside rail run and bottom weight of 54.0kg, but needs to lift sectionals to reel in the front-runners on Tapeta. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "4",
+                "name": "Volkanovski",
+                "rating": 85.0,
+                "reason": "Proven Spreyton performer with 12 track placings and tactical speed. Carries only 54.0kg with Jett Stanley aboard. Capable of tucking into the slipstream and threatening late as the primary danger. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Alpine Thunder</b> (Solo Lock - Gap: +10.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#2, #6) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1350m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1350m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 1 (City Wok), Exacta: 1 / 2, 3, Quinella: 1, 2",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "City Wok",
+                        "handicapper_notes": "Undefeated 2-for-2 over the Devonport synthetic track. Scored a dominant Class 1 win over this exact 1350m trip just seven days ago carrying 59.0kg. Maps for the ideal box-seat stalking trip under P style from barrier 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bellsprout",
+                        "handicapper_notes": "Resuming from a five-month spell but primed with three consecutive barrier trial victories on this surface. A previous all-the-way winner at this venue who benefits from low draw barrier 2 and P running style.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Fierce 'N Fabulous",
+                        "handicapper_notes": "Third-up today with superior 3yo Black Type formlines from last preparation. Ran third over 1150m here two starts back and gets crucial apprentice weight relief from low gate 3.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Bella Chinkara",
+                        "handicapper_notes": "Ran a solid third behind City Wok over this course and distance on August 26. Secures the fence in barrier 1 with Craig Newitt aboard and carries a light 54.0kg impost.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Alpine Cowgirl",
+                        "handicapper_notes": "Third-up peaking cycle dropping slightly from BM68 company at Hobart. Carries minimum weight 54.0kg but lacks proven synthetic winning record compared to top choices.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Mid",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Rare Oro",
+                        "handicapper_notes": "Struggling for form with multiple unplaced efforts in lower grades. Drawn widest on synthetic track making synthetic debut.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Mid",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "City Wok",
+                    "rating": 92.0,
+                    "reason": "Undefeated 2-for-2 over the Devonport synthetic track. Scored a dominant Class 1 win over this exact 1350m trip just seven days ago carrying 59.0kg. Maps for the ideal box-seat stalking trip under P style from barrier 4."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bellsprout",
+                    "rating": 87.0,
+                    "reason": "Resuming from a five-month spell but primed with three consecutive barrier trial victories on this surface. A previous all-the-way winner at this venue who benefits from low draw barrier 2 and P running style."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fierce 'N Fabulous",
+                    "rating": 84.0,
+                    "reason": "Third-up today with superior 3yo Black Type formlines from last preparation. Ran third over 1150m here two starts back and gets crucial apprentice weight relief from low gate 3."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Bella Chinkara",
+                    "rating": 82.0,
+                    "reason": "Ran a solid third behind City Wok over this course and distance on August 26. Secures the fence in barrier 1 with Craig Newitt aboard and carries a light 54.0kg impost."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Alpine Cowgirl",
+                    "rating": 79.0,
+                    "reason": "Third-up peaking cycle dropping slightly from BM68 company at Hobart. Carries minimum weight 54.0kg but lacks proven synthetic winning record compared to top choices. | <i>\ud83d\udccf Route to Mid</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "City Wok",
+                    "rating": 92.0,
+                    "reason": "Undefeated 2-for-2 over the Devonport synthetic track. Scored a dominant Class 1 win over this exact 1350m trip just seven days ago carrying 59.0kg. Maps for the ideal box-seat stalking trip under P style from barrier 4."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bellsprout",
+                    "rating": 87.0,
+                    "reason": "Resuming from a five-month spell but primed with three consecutive barrier trial victories on this surface. A previous all-the-way winner at this venue who benefits from low draw barrier 2 and P running style."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fierce 'N Fabulous",
+                    "rating": 84.0,
+                    "reason": "Third-up today with superior 3yo Black Type formlines from last preparation. Ran third over 1150m here two starts back and gets crucial apprentice weight relief from low gate 3."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Bella Chinkara",
+                    "rating": 82.0,
+                    "reason": "Ran a solid third behind City Wok over this course and distance on August 26. Secures the fence in barrier 1 with Craig Newitt aboard and carries a light 54.0kg impost."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Alpine Cowgirl",
+                    "rating": 79.0,
+                    "reason": "Third-up peaking cycle dropping slightly from BM68 company at Hobart. Carries minimum weight 54.0kg but lacks proven synthetic winning record compared to top choices. | <i>\ud83d\udccf Route to Mid</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Rare Oro",
+                    "rating": 72.0,
+                    "reason": "Struggling for form with multiple unplaced efforts in lower grades. Drawn widest on synthetic track making synthetic debut. | <i>\ud83d\udccf Sprint to Mid</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Fierce 'N Fabulous",
+                "rating": 84.0,
+                "reason": "Third-up today with superior 3yo Black Type formlines from last preparation. Ran third over 1150m here two starts back and gets crucial apprentice weight relief from low gate 3."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 City Wok</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#2, #3) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1350m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1350m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Trifecta 3 / 1, 5 / 1, 2, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Simply Deep",
+                        "handicapper_notes": "Spreyton Tapeta surface specialist with an outstanding track record (13: 5-2-4). Comes off a gallant 2nd beaten a head in Open class ($32k) behind Tuskegee over this track and trip. Drops back to BM68 grade, retains top hoop Anthony Darmanin, maps perfectly with P tactical speed to strike.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Stardarmus",
+                        "handicapper_notes": "Racing in career-best form, dominating two of his last three starts on the Devonport synthetic by comfortable margins. Carries a manageable 57.0kg (126 lbs) and Craig Newitt retains the mount. Has the P tactical pressing pattern required to contest the finish.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Stone Cold Stunner",
+                        "handicapper_notes": "High quality 9-time winner dropping in grade from Open class where she finished 5th behind Simply Deep. Drawn ideally in barrier 1 to save vital ground on the fence. Has won 3 times on the Devonport synthetic and gets weight relief from the apprentice claim.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Kakia",
+                        "handicapper_notes": "Brings strong Hobart turf form including a runner-up finish in Class 5 grade on August 19. Drawn well in gate 2 to sit just off the speed (P style), but must prove he can match synthetic specialists at Spreyton.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Sh'bourne Power",
+                        "handicapper_notes": "Unbeaten this campaign winning two straight on turf at Hobart. Faces his first career test on the Spreyton synthetic surface without prior synthetic experience, which carries an adjustment risk, but possesses untapped upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Simply Deep",
+                    "rating": 92.0,
+                    "reason": "Spreyton Tapeta surface specialist with an outstanding track record (13: 5-2-4). Comes off a gallant 2nd beaten a head in Open class ($32k) behind Tuskegee over this track and trip. Drops back to BM68 grade, retains top hoop Anthony Darmanin, maps perfectly with P tactical speed to strike."
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Stardarmus",
+                    "rating": 87.0,
+                    "reason": "Racing in career-best form, dominating two of his last three starts on the Devonport synthetic by comfortable margins. Carries a manageable 57.0kg (126 lbs) and Craig Newitt retains the mount. Has the P tactical pressing pattern required to contest the finish."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Stone Cold Stunner",
+                    "rating": 84.0,
+                    "reason": "High quality 9-time winner dropping in grade from Open class where she finished 5th behind Simply Deep. Drawn ideally in barrier 1 to save vital ground on the fence. Has won 3 times on the Devonport synthetic and gets weight relief from the apprentice claim."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Kakia",
+                    "rating": 82.0,
+                    "reason": "Brings strong Hobart turf form including a runner-up finish in Class 5 grade on August 19. Drawn well in gate 2 to sit just off the speed (P style), but must prove he can match synthetic specialists at Spreyton."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Sh'bourne Power",
+                    "rating": 80.0,
+                    "reason": "Unbeaten this campaign winning two straight on turf at Hobart. Faces his first career test on the Spreyton synthetic surface without prior synthetic experience, which carries an adjustment risk, but possesses untapped upside."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Simply Deep",
+                    "rating": 92.0,
+                    "reason": "Spreyton Tapeta surface specialist with an outstanding track record (13: 5-2-4). Comes off a gallant 2nd beaten a head in Open class ($32k) behind Tuskegee over this track and trip. Drops back to BM68 grade, retains top hoop Anthony Darmanin, maps perfectly with P tactical speed to strike."
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Stardarmus",
+                    "rating": 87.0,
+                    "reason": "Racing in career-best form, dominating two of his last three starts on the Devonport synthetic by comfortable margins. Carries a manageable 57.0kg (126 lbs) and Craig Newitt retains the mount. Has the P tactical pressing pattern required to contest the finish."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Stone Cold Stunner",
+                    "rating": 84.0,
+                    "reason": "High quality 9-time winner dropping in grade from Open class where she finished 5th behind Simply Deep. Drawn ideally in barrier 1 to save vital ground on the fence. Has won 3 times on the Devonport synthetic and gets weight relief from the apprentice claim."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Kakia",
+                    "rating": 82.0,
+                    "reason": "Brings strong Hobart turf form including a runner-up finish in Class 5 grade on August 19. Drawn well in gate 2 to sit just off the speed (P style), but must prove he can match synthetic specialists at Spreyton."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Sh'bourne Power",
+                    "rating": 80.0,
+                    "reason": "Unbeaten this campaign winning two straight on turf at Hobart. Faces his first career test on the Spreyton synthetic surface without prior synthetic experience, which carries an adjustment risk, but possesses untapped upside."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "5",
+                "name": "Sh'bourne Power",
+                "rating": 80.0,
+                "reason": "Unbeaten this campaign winning two straight on turf at Hobart. Faces his first career test on the Spreyton synthetic surface without prior synthetic experience, which carries an adjustment risk, but possesses untapped upside."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Simply Deep</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#5, #1, #4) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "1350m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1350m Synthetic",
+                "confidence_level": "Medium",
+                "suggested_wager": "Box Trifecta / Exacta: 7, 9, 3, 4",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Stollaway Ned",
+                        "handicapper_notes": "Unexposed 5yo gelding who produced an excellent runner-up performance over this exact track and distance on July 12, missing by just a neck. Maintained fitness with a steady trial and gets an ideal tempo setup to finish over the top.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Lyrebird Lady",
+                        "handicapper_notes": "Mainland Victorian synthetic shipper who charged home into 2nd over 1150m here on August 26. Steps up to 1350m which suits her Ballarat Polytrack form, and maps to enjoy the run of the race from barrier 1.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Guber",
+                        "handicapper_notes": "Reliable Devonport synthetic specialist boasting 7 placings from 13 starts on the surface and 3 from 3 over this track and trip. Forced the issue and boxed on bravely for 3rd beaten 0.7L last week. Craig Newitt booked to ride.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Harrata",
+                        "handicapper_notes": "Peaking physically 3rd-up for the Glenn Stevenson stable. Hit the line solidly for 3rd over 1150m on August 26 and the rise to 1350m is a natural progression.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Gee Gees Brother",
+                        "handicapper_notes": "Shows good gate speed and tactical versatility on Tapeta. Battled on fairly for 5th beaten under 3 lengths over this track and trip last week. Will sit on the pace and give a sight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Symphony Queen",
+                        "handicapper_notes": "Possesses genuine ability with two placings from four grass starts in maiden grade. Resuming without a synthetic race appearance and drawn the outside barrier, which tempers enthusiasm at the short quote.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stollaway Ned",
+                    "rating": 88.0,
+                    "reason": "Unexposed 5yo gelding who produced an excellent runner-up performance over this exact track and distance on July 12, missing by just a neck. Maintained fitness with a steady trial and gets an ideal tempo setup to finish over the top."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Lyrebird Lady",
+                    "rating": 87.0,
+                    "reason": "Mainland Victorian synthetic shipper who charged home into 2nd over 1150m here on August 26. Steps up to 1350m which suits her Ballarat Polytrack form, and maps to enjoy the run of the race from barrier 1. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Guber",
+                    "rating": 85.0,
+                    "reason": "Reliable Devonport synthetic specialist boasting 7 placings from 13 starts on the surface and 3 from 3 over this track and trip. Forced the issue and boxed on bravely for 3rd beaten 0.7L last week. Craig Newitt booked to ride."
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Harrata",
+                    "rating": 83.0,
+                    "reason": "Peaking physically 3rd-up for the Glenn Stevenson stable. Hit the line solidly for 3rd over 1150m on August 26 and the rise to 1350m is a natural progression. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Gee Gees Brother",
+                    "rating": 82.0,
+                    "reason": "Shows good gate speed and tactical versatility on Tapeta. Battled on fairly for 5th beaten under 3 lengths over this track and trip last week. Will sit on the pace and give a sight."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stollaway Ned",
+                    "rating": 88.0,
+                    "reason": "Unexposed 5yo gelding who produced an excellent runner-up performance over this exact track and distance on July 12, missing by just a neck. Maintained fitness with a steady trial and gets an ideal tempo setup to finish over the top."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Lyrebird Lady",
+                    "rating": 87.0,
+                    "reason": "Mainland Victorian synthetic shipper who charged home into 2nd over 1150m here on August 26. Steps up to 1350m which suits her Ballarat Polytrack form, and maps to enjoy the run of the race from barrier 1. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Guber",
+                    "rating": 85.0,
+                    "reason": "Reliable Devonport synthetic specialist boasting 7 placings from 13 starts on the surface and 3 from 3 over this track and trip. Forced the issue and boxed on bravely for 3rd beaten 0.7L last week. Craig Newitt booked to ride."
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Harrata",
+                    "rating": 83.0,
+                    "reason": "Peaking physically 3rd-up for the Glenn Stevenson stable. Hit the line solidly for 3rd over 1150m on August 26 and the rise to 1350m is a natural progression. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Gee Gees Brother",
+                    "rating": 82.0,
+                    "reason": "Shows good gate speed and tactical versatility on Tapeta. Battled on fairly for 5th beaten under 3 lengths over this track and trip last week. Will sit on the pace and give a sight."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Symphony Queen",
+                    "rating": 80.0,
+                    "reason": "Possesses genuine ability with two placings from four grass starts in maiden grade. Resuming without a synthetic race appearance and drawn the outside barrier, which tempers enthusiasm at the short quote."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "1",
+                "name": "Lyrebird Lady",
+                "rating": 87.0,
+                "reason": "Mainland Victorian synthetic shipper who charged home into 2nd over 1150m here on August 26. Steps up to 1350m which suits her Ballarat Polytrack form, and maps to enjoy the run of the race from barrier 1. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Stollaway Ned</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #9, #3 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#9 Lyrebird Lady</b>"
+        },
+        {
+            "number": 6,
+            "distance": "1000m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1000m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 8 | Trifecta / Exacta: 8 / 10, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Alkira",
+                        "handicapper_notes": "Sensational synthetic profile from the top Spreyton yard of Barry Campbell. Bolted in two Devonport trials before finding only the handy Brutal Empire better on debut over this track and trip. Carries featherweight 54.0kg (119 lbs) and lands ideal low draw in stall 2 to stalk the speed. Canonical style (P). Clearly the one to beat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "5",
+                        "horse_name": "Precious Illusion",
+                        "handicapper_notes": "Stripped fitter second-up after a solid closing effort when beaten just over 3 lengths at Hobart over 1100m. Showed juvenile ability against stakes company last season. Tactical speed and 54.0kg weight give her huge claims on this synthetic surface. Canonical style (P).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Roland View",
+                        "handicapper_notes": "Consistent improver who flashed home into 3rd at Hobart last start behind Alfarino. Draws well in barrier 3 to save ground around the home bend. Has a strong turn of foot if the leaders overdo it early. Canonical style (S).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Macelleroy",
+                        "handicapper_notes": "Showed good natural early speed in both career outings over the Devonport synthetic. Drops back to the 1000m dash which suits his forward racing pattern. Gets beneficial apprentice weight allowance from barrier 4. Canonical style (E).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Out Of The Sphere",
+                        "handicapper_notes": "Resumes from a spell for Adam Trinder. Trialling solidly around the track, but must contend with the tricky outside alley (barrier 10) over 1000m where wide paths bleed energy. Capable on best figures. Canonical style (E).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Peninsula Rose",
+                        "handicapper_notes": "Fair fifth behind Equivaster last week over 1150m. Has plenty of race fitness on the synthetic, but lacks a decisive finishing kick to threaten the top picks. Place hope. Canonical style (P).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Alkira",
+                    "rating": 91.0,
+                    "reason": "Sensational synthetic profile from the top Spreyton yard of Barry Campbell. Bolted in two Devonport trials before finding only the handy Brutal Empire better on debut over this track and trip. Carries featherweight 54.0kg (119 lbs) and lands ideal low draw in stall 2 to stalk the speed. Canonical style (P). Clearly the one to beat."
+                },
+                {
+                    "number": "10",
+                    "barrier": "5",
+                    "name": "Precious Illusion",
+                    "rating": 86.0,
+                    "reason": "Stripped fitter second-up after a solid closing effort when beaten just over 3 lengths at Hobart over 1100m. Showed juvenile ability against stakes company last season. Tactical speed and 54.0kg weight give her huge claims on this synthetic surface. Canonical style (P). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Roland View",
+                    "rating": 84.0,
+                    "reason": "Consistent improver who flashed home into 3rd at Hobart last start behind Alfarino. Draws well in barrier 3 to save ground around the home bend. Has a strong turn of foot if the leaders overdo it early. Canonical style (S). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Macelleroy",
+                    "rating": 82.0,
+                    "reason": "Showed good natural early speed in both career outings over the Devonport synthetic. Drops back to the 1000m dash which suits his forward racing pattern. Gets beneficial apprentice weight allowance from barrier 4. Canonical style (E). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Out Of The Sphere",
+                    "rating": 80.0,
+                    "reason": "Resumes from a spell for Adam Trinder. Trialling solidly around the track, but must contend with the tricky outside alley (barrier 10) over 1000m where wide paths bleed energy. Capable on best figures. Canonical style (E). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Alkira",
+                    "rating": 91.0,
+                    "reason": "Sensational synthetic profile from the top Spreyton yard of Barry Campbell. Bolted in two Devonport trials before finding only the handy Brutal Empire better on debut over this track and trip. Carries featherweight 54.0kg (119 lbs) and lands ideal low draw in stall 2 to stalk the speed. Canonical style (P). Clearly the one to beat."
+                },
+                {
+                    "number": "10",
+                    "barrier": "5",
+                    "name": "Precious Illusion",
+                    "rating": 86.0,
+                    "reason": "Stripped fitter second-up after a solid closing effort when beaten just over 3 lengths at Hobart over 1100m. Showed juvenile ability against stakes company last season. Tactical speed and 54.0kg weight give her huge claims on this synthetic surface. Canonical style (P). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Roland View",
+                    "rating": 84.0,
+                    "reason": "Consistent improver who flashed home into 3rd at Hobart last start behind Alfarino. Draws well in barrier 3 to save ground around the home bend. Has a strong turn of foot if the leaders overdo it early. Canonical style (S). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Macelleroy",
+                    "rating": 82.0,
+                    "reason": "Showed good natural early speed in both career outings over the Devonport synthetic. Drops back to the 1000m dash which suits his forward racing pattern. Gets beneficial apprentice weight allowance from barrier 4. Canonical style (E). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Out Of The Sphere",
+                    "rating": 80.0,
+                    "reason": "Resumes from a spell for Adam Trinder. Trialling solidly around the track, but must contend with the tricky outside alley (barrier 10) over 1000m where wide paths bleed energy. Capable on best figures. Canonical style (E). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Peninsula Rose",
+                    "rating": 78.0,
+                    "reason": "Fair fifth behind Equivaster last week over 1150m. Has plenty of race fitness on the synthetic, but lacks a decisive finishing kick to threaten the top picks. Place hope. Canonical style (P). | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "3",
+                "name": "Roland View",
+                "rating": 84.0,
+                "reason": "Consistent improver who flashed home into 3rd at Hobart last start behind Alfarino. Draws well in barrier 3 to save ground around the home bend. Has a strong turn of foot if the leaders overdo it early. Canonical style (S). | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Alkira</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#10, #6) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "1150m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1150m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win & Place: 11 (Geegeeschaser) | Exacta: 11 / 2, 3, 6, 9 | Trifecta: 11 with 2, 3 with 2, 3, 6, 9",
+                "contenders": [
+                    {
+                        "program_number": "11",
+                        "barrier": "1",
+                        "horse_name": "Geegeeschaser",
+                        "handicapper_notes": "Maps for absolute control jumping from the inside rail stall 1 on the Devonport synthetic. Drops down to a featherweight 54.0kg with apprentice claim. Boasts multiple placings over this exact track and 1150m trip, including a narrow second to Outbush two runs back. With primary pace competition scratched, canonical style E takes full advantage of the Spreyton inside rail speed bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate to Strong Early Speed",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "10",
+                        "horse_name": "Billie The Great",
+                        "handicapper_notes": "Brings the highest raw class rating into this BM60 contest after scoring a tough win in BM68 company at Hobart over 1000m last start. Previously ran 3rd behind Open performers Simply Deep and Garcon D'espoir on this synthetic surface. Canonical style P handles the wide barrier by slotting into a midfield stalking spot. Top weight offset by solid claims.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Zoete's Rock",
+                        "handicapper_notes": "Proven Devonport Tapeta specialist with 4 career victories at this circuit. Lands an ideal inside draw in barrier 4 to secure the gun run behind the leaders. Last start 3rd in BM60 grade behind Stardarmus reads very well for this assignment. Canonical style P with apprentice Kirra-Lee Lane claiming vital weight relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Wild Nights",
+                        "handicapper_notes": "Consistent mare who rarely runs a bad race at sprint trips. Finished 3rd in BM68 company two starts ago and was only 1.3 lengths off Wild Dancer and Billie The Great over this track and trip in June. Craig Newitt takes the reins and will look to launch late with canonical style S.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "I'm Chev",
+                        "handicapper_notes": "Outran huge odds first-up when second to Ozonica over this track and distance on August 26. Draws barrier 3 to save critical ground throughout. Lighter weight of 56.0kg and natural tactical pace (canonical style P) make him a dangerous exotic booster.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "11",
+                        "horse_name": "Material Madam",
+                        "handicapper_notes": "Resumes from a short spell following solid metropolitan-level form in Hobart through the autumn and winter. Tuned up with a very sharp barrier trial second at Hobart on August 20. Canonical style P runner suited to sprint distances, though gate 11 demands some early luck.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "1",
+                    "name": "Geegeeschaser",
+                    "rating": 91.0,
+                    "reason": "Maps for absolute control jumping from the inside rail stall 1 on the Devonport synthetic. Drops down to a featherweight 54.0kg with apprentice claim. Boasts multiple placings over this exact track and 1150m trip, including a narrow second to Outbush two runs back. With primary pace competition scratched, canonical style E takes full advantage of the Spreyton inside rail speed bias."
+                },
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Billie The Great",
+                    "rating": 88.0,
+                    "reason": "Brings the highest raw class rating into this BM60 contest after scoring a tough win in BM68 company at Hobart over 1000m last start. Previously ran 3rd behind Open performers Simply Deep and Garcon D'espoir on this synthetic surface. Canonical style P handles the wide barrier by slotting into a midfield stalking spot. Top weight offset by solid claims. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Zoete's Rock",
+                    "rating": 86.0,
+                    "reason": "Proven Devonport Tapeta specialist with 4 career victories at this circuit. Lands an ideal inside draw in barrier 4 to secure the gun run behind the leaders. Last start 3rd in BM60 grade behind Stardarmus reads very well for this assignment. Canonical style P with apprentice Kirra-Lee Lane claiming vital weight relief."
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Wild Nights",
+                    "rating": 83.0,
+                    "reason": "Consistent mare who rarely runs a bad race at sprint trips. Finished 3rd in BM68 company two starts ago and was only 1.3 lengths off Wild Dancer and Billie The Great over this track and trip in June. Craig Newitt takes the reins and will look to launch late with canonical style S."
+                },
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "I'm Chev",
+                    "rating": 81.0,
+                    "reason": "Outran huge odds first-up when second to Ozonica over this track and distance on August 26. Draws barrier 3 to save critical ground throughout. Lighter weight of 56.0kg and natural tactical pace (canonical style P) make him a dangerous exotic booster."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "11",
+                    "barrier": "1",
+                    "name": "Geegeeschaser",
+                    "rating": 91.0,
+                    "reason": "Maps for absolute control jumping from the inside rail stall 1 on the Devonport synthetic. Drops down to a featherweight 54.0kg with apprentice claim. Boasts multiple placings over this exact track and 1150m trip, including a narrow second to Outbush two runs back. With primary pace competition scratched, canonical style E takes full advantage of the Spreyton inside rail speed bias."
+                },
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Billie The Great",
+                    "rating": 88.0,
+                    "reason": "Brings the highest raw class rating into this BM60 contest after scoring a tough win in BM68 company at Hobart over 1000m last start. Previously ran 3rd behind Open performers Simply Deep and Garcon D'espoir on this synthetic surface. Canonical style P handles the wide barrier by slotting into a midfield stalking spot. Top weight offset by solid claims. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Zoete's Rock",
+                    "rating": 86.0,
+                    "reason": "Proven Devonport Tapeta specialist with 4 career victories at this circuit. Lands an ideal inside draw in barrier 4 to secure the gun run behind the leaders. Last start 3rd in BM60 grade behind Stardarmus reads very well for this assignment. Canonical style P with apprentice Kirra-Lee Lane claiming vital weight relief."
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Wild Nights",
+                    "rating": 83.0,
+                    "reason": "Consistent mare who rarely runs a bad race at sprint trips. Finished 3rd in BM68 company two starts ago and was only 1.3 lengths off Wild Dancer and Billie The Great over this track and trip in June. Craig Newitt takes the reins and will look to launch late with canonical style S."
+                },
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "I'm Chev",
+                    "rating": 81.0,
+                    "reason": "Outran huge odds first-up when second to Ozonica over this track and distance on August 26. Draws barrier 3 to save critical ground throughout. Lighter weight of 56.0kg and natural tactical pace (canonical style P) make him a dangerous exotic booster."
+                },
+                {
+                    "number": "4",
+                    "barrier": "11",
+                    "name": "Material Madam",
+                    "rating": 80.0,
+                    "reason": "Resumes from a short spell following solid metropolitan-level form in Hobart through the autumn and winter. Tuned up with a very sharp barrier trial second at Hobart on August 20. Canonical style P runner suited to sprint distances, though gate 11 demands some early luck."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "3",
+                "name": "I'm Chev",
+                "rating": 81.0,
+                "reason": "Outran huge odds first-up when second to Ozonica over this track and distance on August 26. Draws barrier 3 to save critical ground throughout. Lighter weight of 56.0kg and natural tactical pace (canonical style P) make him a dangerous exotic booster."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#11 Geegeeschaser</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #11, #3, #9 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "1600m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1600m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 2 (Coal River), Exacta Box: 2, 5, 1, Trifecta: 2 / 1, 5, 6 / 1, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "Coal River",
+                        "handicapper_notes": "Dominant last-start winner over this trip at Hobart carrying 58.5kg. Drops to a featherweight 54kg on his pet surface. Drawn ideally in barrier 3 to dictate from the engine (E) with Anthony Darmanin in the saddle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate to Fast",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "The Longest Yard",
+                        "handicapper_notes": "Proven Devonport Tapeta miler who ran a slashing 2nd carrying 60.5kg two starts ago at this track and trip. Drops significantly in weight to 54kg and gets a lovely stalking trip (P). Dangerous late charger.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Sushi Express",
+                        "handicapper_notes": "The class benchmark of the race and undefeated over the Devonport 1600m (2-for-2). Faces a top-weight tax carrying 58kg giving 4kg to all rivals, but possesses prime tactical speed (E) to control the tempo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Moderate to Fast",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Garcon D'espoir",
+                        "handicapper_notes": "Exceptionally consistent synthetic performer with 7 top-three finishes from 9 starts on this Tapeta layout. Erica Byrne Burke takes the reins with light weight (54kg); maps to press just off the leaders (P).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Captain Cam",
+                        "handicapper_notes": "Four-time track winner who closed solidly to finish 3rd in Open grade over 1350m here on August 26 carrying 58kg. Gets nice weight relief down to 54kg and soft rails run from barrier 2 (S).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Zewinna",
+                        "handicapper_notes": "Veteran mare racing in good heart against open metro company at Hobart. Drawn barrier 1 to hug the rail throughout (S), but lacks prior winning form on this synthetic surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Coal River",
+                    "rating": 92.0,
+                    "reason": "Dominant last-start winner over this trip at Hobart carrying 58.5kg. Drops to a featherweight 54kg on his pet surface. Drawn ideally in barrier 3 to dictate from the engine (E) with Anthony Darmanin in the saddle."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "The Longest Yard",
+                    "rating": 88.0,
+                    "reason": "Proven Devonport Tapeta miler who ran a slashing 2nd carrying 60.5kg two starts ago at this track and trip. Drops significantly in weight to 54kg and gets a lovely stalking trip (P). Dangerous late charger. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Sushi Express",
+                    "rating": 86.0,
+                    "reason": "The class benchmark of the race and undefeated over the Devonport 1600m (2-for-2). Faces a top-weight tax carrying 58kg giving 4kg to all rivals, but possesses prime tactical speed (E) to control the tempo."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Garcon D'espoir",
+                    "rating": 85.0,
+                    "reason": "Exceptionally consistent synthetic performer with 7 top-three finishes from 9 starts on this Tapeta layout. Erica Byrne Burke takes the reins with light weight (54kg); maps to press just off the leaders (P). | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Captain Cam",
+                    "rating": 82.0,
+                    "reason": "Four-time track winner who closed solidly to finish 3rd in Open grade over 1350m here on August 26 carrying 58kg. Gets nice weight relief down to 54kg and soft rails run from barrier 2 (S). | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Coal River",
+                    "rating": 92.0,
+                    "reason": "Dominant last-start winner over this trip at Hobart carrying 58.5kg. Drops to a featherweight 54kg on his pet surface. Drawn ideally in barrier 3 to dictate from the engine (E) with Anthony Darmanin in the saddle."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "The Longest Yard",
+                    "rating": 88.0,
+                    "reason": "Proven Devonport Tapeta miler who ran a slashing 2nd carrying 60.5kg two starts ago at this track and trip. Drops significantly in weight to 54kg and gets a lovely stalking trip (P). Dangerous late charger. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Sushi Express",
+                    "rating": 86.0,
+                    "reason": "The class benchmark of the race and undefeated over the Devonport 1600m (2-for-2). Faces a top-weight tax carrying 58kg giving 4kg to all rivals, but possesses prime tactical speed (E) to control the tempo."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Garcon D'espoir",
+                    "rating": 85.0,
+                    "reason": "Exceptionally consistent synthetic performer with 7 top-three finishes from 9 starts on this Tapeta layout. Erica Byrne Burke takes the reins with light weight (54kg); maps to press just off the leaders (P). | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Captain Cam",
+                    "rating": 82.0,
+                    "reason": "Four-time track winner who closed solidly to finish 3rd in Open grade over 1350m here on August 26 carrying 58kg. Gets nice weight relief down to 54kg and soft rails run from barrier 2 (S). | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Zewinna",
+                    "rating": 80.0,
+                    "reason": "Veteran mare racing in good heart against open metro company at Hobart. Drawn barrier 1 to hug the rail throughout (S), but lacks prior winning form on this synthetic surface."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "The Longest Yard",
+                "rating": 88.0,
+                "reason": "Proven Devonport Tapeta miler who ran a slashing 2nd carrying 60.5kg two starts ago at this track and trip. Drops significantly in weight to 54kg and gets a lovely stalking trip (P). Dangerous late charger. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Coal River</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #5, #1 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "1800m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1800m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Trifecta Box 1, 2, 5, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Bruny Boy",
+                        "handicapper_notes": "Dominant all-the-way maiden winner over 1600m on this synthetic surface last start by 3 lengths. Retains Erica Byrne Burke and maps to lead comfortably from barrier 4 on a track that heavily rewards tactical front-runners.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Bailed (NZ)",
+                        "handicapper_notes": "Brings prime Victorian synthetic experience and produced a sharp 2nd over this exact track and 1880m route on August 12, beaten only half a length. Anthony Darmanin sticks and maps into the ideal stalking box-seat run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Them's The Breaks",
+                        "handicapper_notes": "Highly consistent middle-distance mare who draws gate 1 with Craig Newitt booked. Has hit the board in four of her last five starts across 1600m to 2100m and should save all the ground on the fence.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Staying to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Don Turboas",
+                        "handicapper_notes": "Proven Class 1 performer who has been hitting the line with authority over 1600m in Hobart. Carries 59.0kg top weight tax at the trip, but possesses a strong turn of foot and the Bazan yard is flying.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Last Tremble",
+                        "handicapper_notes": "Genuine stayer coming off consecutive placings over 2100m at Hobart. Jett Stanley picks up the mount; can grind away from a midfield pressing position to contest minor placings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Staying to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Da Silver Flash",
+                        "handicapper_notes": "Broke her maiden on this Tapeta strip two starts back over 1350m before an honest 7th over 1600m. Steps up to 1800m from a tricky wide gate which caps upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Bruny Boy",
+                    "rating": 94.0,
+                    "reason": "Dominant all-the-way maiden winner over 1600m on this synthetic surface last start by 3 lengths. Retains Erica Byrne Burke and maps to lead comfortably from barrier 4 on a track that heavily rewards tactical front-runners. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Bailed (NZ)",
+                    "rating": 88.0,
+                    "reason": "Brings prime Victorian synthetic experience and produced a sharp 2nd over this exact track and 1880m route on August 12, beaten only half a length. Anthony Darmanin sticks and maps into the ideal stalking box-seat run."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Them's The Breaks",
+                    "rating": 85.0,
+                    "reason": "Highly consistent middle-distance mare who draws gate 1 with Craig Newitt booked. Has hit the board in four of her last five starts across 1600m to 2100m and should save all the ground on the fence. | <i>\ud83d\udccf Staying to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Don Turboas",
+                    "rating": 84.0,
+                    "reason": "Proven Class 1 performer who has been hitting the line with authority over 1600m in Hobart. Carries 59.0kg top weight tax at the trip, but possesses a strong turn of foot and the Bazan yard is flying."
+                },
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Last Tremble",
+                    "rating": 82.0,
+                    "reason": "Genuine stayer coming off consecutive placings over 2100m at Hobart. Jett Stanley picks up the mount; can grind away from a midfield pressing position to contest minor placings. | <i>\ud83d\udccf Staying to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Bruny Boy",
+                    "rating": 94.0,
+                    "reason": "Dominant all-the-way maiden winner over 1600m on this synthetic surface last start by 3 lengths. Retains Erica Byrne Burke and maps to lead comfortably from barrier 4 on a track that heavily rewards tactical front-runners. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Bailed (NZ)",
+                    "rating": 88.0,
+                    "reason": "Brings prime Victorian synthetic experience and produced a sharp 2nd over this exact track and 1880m route on August 12, beaten only half a length. Anthony Darmanin sticks and maps into the ideal stalking box-seat run."
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Them's The Breaks",
+                    "rating": 85.0,
+                    "reason": "Highly consistent middle-distance mare who draws gate 1 with Craig Newitt booked. Has hit the board in four of her last five starts across 1600m to 2100m and should save all the ground on the fence. | <i>\ud83d\udccf Staying to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Don Turboas",
+                    "rating": 84.0,
+                    "reason": "Proven Class 1 performer who has been hitting the line with authority over 1600m in Hobart. Carries 59.0kg top weight tax at the trip, but possesses a strong turn of foot and the Bazan yard is flying."
+                },
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Last Tremble",
+                    "rating": 82.0,
+                    "reason": "Genuine stayer coming off consecutive placings over 2100m at Hobart. Jett Stanley picks up the mount; can grind away from a midfield pressing position to contest minor placings. | <i>\ud83d\udccf Staying to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Da Silver Flash",
+                    "rating": 79.0,
+                    "reason": "Broke her maiden on this Tapeta strip two starts back over 1350m before an honest 7th over 1600m. Steps up to 1800m from a tricky wide gate which caps upside."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Don Turboas",
+                "rating": 84.0,
+                "reason": "Proven Class 1 performer who has been hitting the line with authority over 1600m in Hobart. Carries 59.0kg top weight tax at the trip, but possesses a strong turn of foot and the Bazan yard is flying."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Bruny Boy</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#5, #9, #2) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#1 Alpine Thunder</b> in R2 & <b>#1 City Wok</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#1 City Wok</b> in R3 & <b>#3 Simply Deep</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#7, #9)",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#7, #9) with (#8 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#11 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#11 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#1 (Solo Lock))"
+    ]
+}

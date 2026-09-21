@@ -1,0 +1,2652 @@
+{
+    "meta": {
+        "track": "Tokyo City Keiba",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Shark Copa",
+                        "handicapper_notes": "Struggling to find form with recent double-digit finishes. High speed rating of 81 but lacks the late stamina needed for TCK's deep sand outer stretch.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Smart Bianca",
+                        "handicapper_notes": "Class rating of 89 is solid, but recent form shows regression. Needs a slower pace to compete effectively.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Sabuno Luana",
+                        "handicapper_notes": "Strong contender with a recent win on muddy track. Excellent tactical early speed that fits the profile well.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Kibaru Star",
+                        "handicapper_notes": "Very consistent performer at this class level. Strong grinding style fits the deep sand stamina angle perfectly.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Majesty Rule",
+                        "handicapper_notes": "Solid third-place finish last time out. Capable of hitting the board if the pace collapses late.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Winning Shot",
+                        "handicapper_notes": "Disappointing recent form. Hard to recommend despite a decent historical speed figure of 86.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lovely Yoshino",
+                        "handicapper_notes": "Excellent early speed. Won three starts back and finished a strong third last time out. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Camille",
+                        "handicapper_notes": "Lacks the speed figures to compete with the top tier here. Swooping style is unlikely to make an impact.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Fine Day",
+                        "handicapper_notes": "Stalker who has struggled to sustain a run in the final furlong. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Road Of King",
+                        "handicapper_notes": "Decent form with a win five starts back. Needs a clean trip to hit the minor exotics.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Aeno Judge",
+                        "handicapper_notes": "High holistic rating of 85. Won three of last five starts and possesses excellent tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Hitamuki",
+                        "handicapper_notes": "Lacks the class and speed figures to threaten the top selections in this field.",
+                        "features": {
+                            "ai_holistic_score": 42,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Melo Pearl",
+                        "handicapper_notes": "Extremely consistent. Finished second last out and won three back. Highly reliable in this class.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lovely Yoshino",
+                    "rating": 92.0,
+                    "reason": "Excellent early speed. Won three starts back and finished a strong third last time out. Major threat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Aeno Judge",
+                    "rating": 92.0,
+                    "reason": "High holistic rating of 85. Won three of last five starts and possesses excellent tactical speed."
+                },
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Melo Pearl",
+                    "rating": 90.0,
+                    "reason": "Extremely consistent. Finished second last out and won three back. Highly reliable in this class."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Sabuno Luana",
+                    "rating": 88.0,
+                    "reason": "Strong contender with a recent win on muddy track. Excellent tactical early speed that fits the profile well."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Sabuno Luana",
+                "rating": 88.0,
+                "reason": "Strong contender with a recent win on muddy track. Excellent tactical early speed that fits the profile well."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$7, #$11, #$3 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$7, #$11, #$13"
+        },
+        {
+            "number": 2,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Pale Moon",
+                        "handicapper_notes": "Highly consistent stalker with multiple third-place finishes. Excellent rail draw on the inner track.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Assos",
+                        "handicapper_notes": "Strong speed figure of 87. Swooping style is slightly disadvantaged by the short inner stretch.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "African Beat",
+                        "handicapper_notes": "Solid third last out. Tactical speed is well-suited to the inner track configuration.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ikuno Eight Nine",
+                        "handicapper_notes": "Struggling with form and class. Hard to recommend in this spot.",
+                        "features": {
+                            "ai_holistic_score": 41,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "It's Bad",
+                        "handicapper_notes": "Consistent early presser with multiple second and third-place finishes. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Locus Marianne",
+                        "handicapper_notes": "Possesses excellent early speed. Won two of last five starts. Tighter turns favor her style.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "The Goat",
+                        "handicapper_notes": "Superb form, winning last out after a strong second. High speed rating of 87 makes her a top choice.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Shonan Mana",
+                        "handicapper_notes": "Poor recent form with double-digit finishes. Unlikely to factor.",
+                        "features": {
+                            "ai_holistic_score": 38,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Renaissance Club",
+                        "handicapper_notes": "Stalker with decent class figures. Needs a highly contested pace to hit the board.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Jo Sole",
+                        "handicapper_notes": "Out of form. Lacks the early speed required for this inner track sprint.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Defi Rally",
+                        "handicapper_notes": "Struggling to find form. Hard to make a case for him in this spot.",
+                        "features": {
+                            "ai_holistic_score": 42,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Phrosy",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Shosan Rex",
+                        "handicapper_notes": "Impressive winner last time out. High speed rating of 89. The one to beat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "14",
+                        "horse_name": "Win Trouvere",
+                        "handicapper_notes": "Form has completely tailspun. Hard to back.",
+                        "features": {
+                            "ai_holistic_score": 39,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "15",
+                        "horse_name": "G T Urara",
+                        "handicapper_notes": "Decent fifth last out but needs to show more early speed to compete here.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16",
+                        "barrier": "16",
+                        "horse_name": "Rukariri",
+                        "handicapper_notes": "Excellent winner last out with highly consistent form. Major player from the outside post.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Shosan Rex",
+                    "rating": 95.0,
+                    "reason": "Impressive winner last time out. High speed rating of 89. The one to beat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "The Goat",
+                    "rating": 93.0,
+                    "reason": "Superb form, winning last out after a strong second. High speed rating of 87 makes her a top choice."
+                },
+                {
+                    "number": "16",
+                    "barrier": "16",
+                    "name": "Rukariri",
+                    "rating": 91.0,
+                    "reason": "Excellent winner last out with highly consistent form. Major player from the outside post."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "It's Bad",
+                    "rating": 86.0,
+                    "reason": "Consistent early presser with multiple second and third-place finishes. Major threat."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "It's Bad",
+                "rating": 86.0,
+                "reason": "Consistent early presser with multiple second and third-place finishes. Major threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#13 Shosan Rex</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$13, #$7, #$5 (Includes Danger Threat)<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$13, #$7, #$16"
+        },
+        {
+            "number": 3,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Yuyu Prost",
+                        "handicapper_notes": "High class rating of 107. Stalking style should play well if she can secure a rail trip.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Yuyu The Rose",
+                        "handicapper_notes": "Highly consistent performer with solid speed figures. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Dannoura",
+                        "handicapper_notes": "Decent speed figure of 84. Needs to show more early tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Tryon",
+                        "handicapper_notes": "Solid stalker with consistent figures. Hard to ignore for the exotics.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Shanghai Yoshino",
+                        "handicapper_notes": "Impressive winner last time out. Possesses the early speed to dominate this field.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Kakikueba",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Call Up",
+                        "handicapper_notes": "Struggled in recent starts. Needs a significant step forward.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Destroyer",
+                        "handicapper_notes": "Capable of hitting the board if the pace collapses, but lacks winning punch.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "High Grit",
+                        "handicapper_notes": "Lacks the speed figures to compete with the top tier here.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Rovaniemi",
+                        "handicapper_notes": "Early presser who may get caught in a speed duel with Shanghai Yoshino.",
+                        "features": {
+                            "ai_holistic_score": 64,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Dear Wendy",
+                        "handicapper_notes": "Superb winner last time out. Tactical speed and class make him the top choice.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Shanghai Yoshino",
+                    "rating": 95.0,
+                    "reason": "Impressive winner last time out. Possesses the early speed to dominate this field. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Dear Wendy",
+                    "rating": 95.0,
+                    "reason": "Superb winner last time out. Tactical speed and class make him the top choice."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Yuyu The Rose",
+                    "rating": 88.0,
+                    "reason": "Highly consistent performer with solid speed figures. Major threat."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Tryon",
+                    "rating": 82.0,
+                    "reason": "Solid stalker with consistent figures. Hard to ignore for the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Yuyu The Rose",
+                "rating": 88.0,
+                "reason": "Highly consistent performer with solid speed figures. Major threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$5, #$11, #$2<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$5, #$11, #$2"
+        },
+        {
+            "number": 4,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Seeking The Birth",
+                        "handicapper_notes": "Struggling to find form. Swooping style is unlikely to factor in this deep sand route.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Cosmos Flavor",
+                        "handicapper_notes": "Heavy favorite. Won last out in dominant fashion. High class rating of 116 makes him the standout.",
+                        "features": {
+                            "ai_holistic_score": 98,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bubbly Shoko",
+                        "handicapper_notes": "Lacks the class and speed figures to compete with the top selections.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Terre Vert",
+                        "handicapper_notes": "Impressive winner last time out. Possesses the early speed to secure a great position.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Puna",
+                        "handicapper_notes": "Consistent early presser. Hard to ignore for the minor awards.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Kurino Edel",
+                        "handicapper_notes": "Stalker who has struggled to sustain a run. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Flower King S",
+                        "handicapper_notes": "Swooper with decent speed figures but lacks the tactical speed for this route.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Lauren Mont Blanc",
+                        "handicapper_notes": "Excellent winner last time out. Grinding style fits the deep sand stamina angle perfectly.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "She Fresh",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Cosmos Flavor",
+                    "rating": 101.0,
+                    "reason": "Heavy favorite. Won last out in dominant fashion. High class rating of 116 makes him the standout. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Terre Vert",
+                    "rating": 88.0,
+                    "reason": "Impressive winner last time out. Possesses the early speed to secure a great position."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Lauren Mont Blanc",
+                    "rating": 85.0,
+                    "reason": "Excellent winner last time out. Grinding style fits the deep sand stamina angle perfectly."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Puna",
+                    "rating": 80.0,
+                    "reason": "Consistent early presser. Hard to ignore for the minor awards."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Cosmos Flavor",
+                "rating": 101.0,
+                "reason": "Heavy favorite. Won last out in dominant fashion. High class rating of 116 makes him the standout. | <i>\ud83d\udd25 Lone Speed</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Cosmos Flavor</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #$2 over #$4, #$8<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #$2 / #$4, #$8 / #$4, #$8, #$5"
+        },
+        {
+            "number": 5,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Riko Blue Eye",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Will Place",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Emaux",
+                        "handicapper_notes": "Impressive winner last time out. Possesses the early speed to dominate this inner sprint.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Keten Beat",
+                        "handicapper_notes": "Solid stalker with consistent figures. Hard to ignore for the exotics.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Kannon Pyonta",
+                        "handicapper_notes": "Stalker who has struggled to sustain a run. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Lovely Funk",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Kakuhime",
+                        "handicapper_notes": "Superb winner last time out. Tactical speed and class make him a top choice.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "The Rain Song",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Premier Mikki",
+                        "handicapper_notes": "Excellent winner last time out. Possesses the early speed to secure a great position.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Arc Ruesiers",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Dore Venus",
+                        "handicapper_notes": "Impressive winner last time out. Possesses the early speed to dominate this inner sprint.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Will Illumi",
+                        "handicapper_notes": "Superb winner last time out. Tactical speed and class make him a top choice.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Cobra Twist",
+                        "handicapper_notes": "Highly consistent performer with solid speed figures. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Beamer/Early Presser",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "14",
+                        "horse_name": "Mokatto Mone",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 42,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15",
+                        "barrier": "15",
+                        "horse_name": "Amethyst Heart",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16",
+                        "barrier": "16",
+                        "horse_name": "Peaky Grace",
+                        "handicapper_notes": "Superb winner last time out. Tactical speed and class make him a top choice.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Cobra Twist",
+                    "rating": 98.0,
+                    "reason": "Highly consistent performer with solid speed figures. Major threat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Emaux",
+                    "rating": 92.0,
+                    "reason": "Impressive winner last time out. Possesses the early speed to dominate this inner sprint."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Kakuhime",
+                    "rating": 88.0,
+                    "reason": "Superb winner last time out. Tactical speed and class make him a top choice."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Dore Venus",
+                    "rating": 85.0,
+                    "reason": "Impressive winner last time out. Possesses the early speed to dominate this inner sprint."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Emaux",
+                "rating": 92.0,
+                "reason": "Impressive winner last time out. Possesses the early speed to dominate this inner sprint."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#13 Cobra Twist</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$13, #$3, #$7<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$13, #$3, #$7"
+        },
+        {
+            "number": 6,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Shark Warning",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Toa Nakayoshi",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Grandite",
+                        "handicapper_notes": "Impressive winner last time out. Possesses the early speed to dominate this route.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Yoshino Rose",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Shita Bed",
+                        "handicapper_notes": "Superb winner last time out. Tactical speed and class make him a top choice.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Suzuno Hamaya",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Ryuno Wizard",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Vermeer",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Binnada",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "First Forte",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Sun Treader",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Bora Bora Flavor",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Ito",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "14",
+                        "horse_name": "Fragranza",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Grandite",
+                    "rating": 95.0,
+                    "reason": "Impressive winner last time out. Possesses the early speed to dominate this route. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Shita Bed",
+                    "rating": 88.0,
+                    "reason": "Superb winner last time out. Tactical speed and class make him a top choice."
+                },
+                {
+                    "number": "14",
+                    "barrier": "14",
+                    "name": "Fragranza",
+                    "rating": 82.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Bora Bora Flavor",
+                    "rating": 65.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Grandite",
+                "rating": 95.0,
+                "reason": "Impressive winner last time out. Possesses the early speed to dominate this route. | <i>\ud83d\udd25 Lone Speed</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Grandite</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #$3 over #$5, #$14"
+        },
+        {
+            "number": 7,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Nijino Kanatani",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Sarani Kiken",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Power Kingdom",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Bay State",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Eclat Ciel",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Mont Saint Vedette",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Omega Drive",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Delbaeth",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Alistair",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "By A Horn",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Believe And Run",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Three Bobby",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Three Bobby",
+                    "rating": 82.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "By A Horn",
+                    "rating": 65.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Mont Saint Vedette",
+                    "rating": 62.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Nijino Kanatani",
+                    "rating": 58.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {},
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#12 Three Bobby</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #$12 over #$10, #$6"
+        },
+        {
+            "number": 8,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Pearl Pendant",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Keiko Gyugo",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Forty Star",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Kitano Martini",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Imperio",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Kuchomoza Kwa Jua",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "G T Magical",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Hirondelle",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Crazy Fruits",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Kuchomoza Kwa Jua",
+                    "rating": 62.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Pearl Pendant",
+                    "rating": 58.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Kitano Martini",
+                    "rating": 55.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "G T Magical",
+                    "rating": 52.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Pearl Pendant",
+                "rating": 58.0,
+                "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#6 Kuchomoza Kwa Jua</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$6, #$1, #$4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$6, #$1, #$4"
+        },
+        {
+            "number": 9,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sun Piano Sonata",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Poison Noir",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Tiered",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Vestalis",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Felleza",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Cosmo Traumer",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lovely Lucia",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ashaninka",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Hecto Princess",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Cosmo Traumer",
+                    "rating": 62.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sun Piano Sonata",
+                    "rating": 58.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Vestalis",
+                    "rating": 55.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lovely Lucia",
+                    "rating": 52.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Sun Piano Sonata",
+                "rating": 58.0,
+                "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#6 Cosmo Traumer</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$6, #$1, #$4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$6, #$1, #$4"
+        },
+        {
+            "number": 10,
+            "distance": "2400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "2400m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Color Of The Earth",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Carol Bianca",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Greater Hope",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Best Leon",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Multilicense",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Sagano Oumasan",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Think Good",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Waxing Moon",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "All Eyes On",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Wolkenmeer",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Only Used",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Lien Fort",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Piece Field",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "14",
+                        "horse_name": "Real Muhammad",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Lien Fort",
+                    "rating": 82.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Piece Field",
+                    "rating": 80.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "14",
+                    "barrier": "14",
+                    "name": "Real Muhammad",
+                    "rating": 75.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Wolkenmeer",
+                    "rating": 65.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {
+                "number": "13",
+                "barrier": "13",
+                "name": "Piece Field",
+                "rating": 80.0,
+                "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$12, #$13, #$14<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$12, #$13, #$14"
+        },
+        {
+            "number": 11,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ichinichishocho",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Seltsam",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Hachimenroppi",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Louis",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Spirit Guide",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Dixie Gunner",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Master Of Life",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Blue Hisashin",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Civic Dream",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Godsend",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Godsend",
+                    "rating": 65.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Dixie Gunner",
+                    "rating": 62.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ichinichishocho",
+                    "rating": 58.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Louis",
+                    "rating": 55.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Dixie Gunner",
+                "rating": 62.0,
+                "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#10 Godsend</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #$10, #$6, #$1<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #$10, #$6, #$1"
+        },
+        {
+            "number": 12,
+            "distance": "1700m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "1700m Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Shadow Castle",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Moriden Stealth",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 45,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Meiner Bomber",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Yuino Komichi",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Lamorak",
+                        "handicapper_notes": "Lacks competitive speed figures. Major improvement needed.",
+                        "features": {
+                            "ai_holistic_score": 48,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Atlantis",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lumiere",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 52,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Gammo Legend",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 44,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Three Legend",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 40,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Smithsonian",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Ziegel",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 50,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Auto Bianchi",
+                        "handicapper_notes": "Swooper who has struggled to make up ground late. Minor share at best.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Swooper/Deep Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Auto Bianchi",
+                    "rating": 82.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Smithsonian",
+                    "rating": 65.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Atlantis",
+                    "rating": 62.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Shadow Castle",
+                    "rating": 58.0,
+                    "reason": "Swooper who has struggled to make up ground late. Minor share at best."
+                }
+            ],
+            "danger_horse": {},
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#12 Auto Bianchi</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #$12 over #$10, #$6"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#7, #11) with (#13, #7)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#13, #7) with (#5, #11)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#5, #11) with (#2 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#13, #3)",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#13, #3) with (#3, #5)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3, #5) with (#12, #10)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#12, #10) with (#6, #1)",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#6, #1) with (#6, #1)",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#6, #1) with (#12, #13)",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#12, #13) with (#10, #6)",
+        "<b>R11 \u2794 R12 DAILY DOUBLE:</b> Play (#10, #6) with (#12, #10)"
+    ]
+}
