@@ -1,0 +1,37 @@
+{
+    "track_code": "LEET",
+    "location": "Leeton, Riverina Region, NSW, Australia",
+    "nicknames": [
+        "Leeton Racecourse",
+        "Leeton Jockey Club",
+        "Home of the Leeton Cup",
+        "Murrumbidgee Turf Circuit"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,600 metres",
+            "surface": "Turf (Couch and Kikuyu grass on clay loam base)",
+            "stretch_length": "320 metres",
+            "bias_notes": "Clockwise (right-handed). Premier country racing venue in the Murrumbidgee Irrigation Area of the Riverina region, NSW, operated by the Leeton Jockey Club. Features a 1,600m oval circuit with tight turns and a 320m home straight. The tight turns into the 320m straight favor horses with early tactical speed ('E' and 'P' styles) that can secure a forward position along the fence. Off-pace swoopers ('C' style) face ground-loss penalties if caught wide on the tight turns.",
+            "post_bias": "INSIDE BARRIER ADVANTAGE IN SPRINTS: Barrier draws 1 through 5 hold a distinct edge over 1000m, 1150m, and 1350m distances into the first turn. Wide draws (8+) suffer significant ground loss unless blessed with elite gate speed to cross early."
+        }
+    },
+    "handicapping_angles": {
+        "leeton_cup_riverina_feature": "The Leeton Cup ($35k+ Country Feature, October) and Coprice Australia Day Cup are the marquee meetings of the Leeton Jockey Club. Upgrade runners shipping in with proven NSW Country Showcase or Riverina Benchmark form (+3.5 pts class angle).",
+        "wagga_albury_and_canberra_shipper_advantage": "Trainers shipping in from larger Riverina hubs such as Wagga Wagga, Albury, Griffith, and Canberra (e.g. Todd Smart, Mitchell Beer, Matthew Dale, Gary Colvin, Peter J. Morgan) carry superior speed figures and class ratings over local country horses (+3.0 pts).",
+        "tight_turns_front_runner_rail_bias": "On Good 3/4 turf, the tight 1600m oval and 320m straight make it difficult for deep closers ('C' style) to make up ground. Favor early leaders ('E' style) with 'is_lone_speed': true and box-seaters ('P' style) holding the rail.",
+        "riverina_country_circuit_form_flow": "Form flows directly between Leeton, Narrandera, Wagga, Corowa, Tocumwal, and Hillston during the Riverina spring/autumn racing season.",
+        "typical_distances": "Standard distances: 1000m, 1150m, 1350m, 1600m."
+    },
+    "par_adjustment": {
+        "tier": "Tier 3.5 (NSW Riverina Regional Country)",
+        "class_rating": 83,
+        "speed_par_offsets": {
+            "turf_sprint": "-0.5",
+            "turf_route": "+0.0"
+        },
+        "lengths": 0.5,
+        "points": 1.5
+    },
+    "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
+}

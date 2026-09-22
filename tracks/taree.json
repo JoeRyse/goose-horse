@@ -10,17 +10,18 @@
     "courses": {
         "main_turf": {
             "circumference": "1,530 metres",
-            "surface": "Turf (Kikuyu Grass)",
+            "surface": "Turf (Kikuyu grass on alluvial river soil base)",
             "stretch_length": "350 metres",
-            "bias_notes": "Clockwise (right-handed). A triangular-shaped Mid North Coast track with tight, sweeping turns and a 350m home straight. The tight triangular geometry generates a distinct early speed ('E') and on-pace presser ('P') bias. The Kikuyu grass surface holds together remarkably well during rain compared to inland tracks.",
-            "post_bias": "INSIDE BARRIER BIAS: Inside barriers (stalls 1–5) hold a distinct advantage across all sprint distances (1000m to 1400m). Outer draws (9+) must expend significant early energy to cross over or risk being trapped wide on tight turns."
+            "bias_notes": "Clockwise (right-handed). Premier country circuit on the NSW Mid-North Coast operated by the Manning Valley Race Club. Features a unique triangular-shaped 1,530m oval with tight cambered turns and a 350m home straight. The tight triangular geometry generates a heavy early speed ('E' style) and on-pace presser ('P' style) bias. Deep closers ('S' and 'C' styles) struggle unless drawn inside to save ground along the fence.",
+            "post_bias": "STRONG INSIDE BARRIER BIAS: Barrier draws 1 through 5 hold a distinct edge across all sprint distances (1000m, 1250m, 1400m). Outer draws (9+) expend significant early energy to cross over or get trapped wide on the tight turns."
         }
     },
     "handicapping_angles": {
-        "triangular_speed_bias": "Because of the triangular layout and tight corners, pure front-runners ('E' types) and prominent stalkers have a significant edge. Downgrade deep closers ('Swoopers') unless drawn inside to save ground.",
-        "kikuyu_wet_track_durability": "Taree's dense Kikuyu grass surface drains exceptionally well and handles rain better than standard bush tracks. Soft/Heavy tracks often play slightly firmer than official track ratings suggest.",
-        "hunter_and_provincial_shippers": "Taree attracts high-volume shippers from Newcastle, Port Macquarie, and Scone (e.g. Kris Lees, Nathan Doyle, Colt Prosser). Upgrade runners dropping back from Newcastle/Wyong provincial grade (+3.0 pts).",
-        "taree_cup_showcase_class": "During the August Taree Cup ($100k+ Showcase) feature meeting, race quality elevates to Provincial level."
+        "taree_cup_showcase_feature": "The Taree Cup ($100k+ Showcase Handicap, August) is the marquee winter event of the Mid-North Coast. Race quality elevates to NSW Provincial standard. Upgrade horses with proven Newcastle, Wyong, or Sydney midweek benchmark form (+3.5 pts class angle).",
+        "hunter_and_provincial_shipper_advantage": "Taree attracts high-volume entries from Newcastle, Port Macquarie, Scone, and Hawkesbury stables (e.g. Kris Lees, Nathan Doyle, Paul Perry, Kristen Buchanan, Colt Prosser). Provincial class-dropping runners carry a major speed figure advantage over regional country rivals (+3.0 pts).",
+        "triangular_speed_bias": "Because of the tight triangular layout and sharp corners, pure front-runners ('E' style) and box-seaters ('P' style) have a significant edge. Downgrade deep swoopers ('C' style) unless drawn inside.",
+        "kikuyu_wet_track_durability": "Taree's dense Kikuyu grass surface drains exceptionally well and handles heavy rain better than inland bush tracks. Soft and Heavy ratings often play slightly firmer than official ratings suggest.",
+        "typical_distances": "Standard distances: 1000m, 1250m, 1300m, 1400m, 1600m, 2000m. Dedicated chutes at 1000m and 1400m."
     },
     "par_adjustment": {
         "tier": "Tier 3 (NSW Mid North Coast HQ)",
@@ -29,8 +30,8 @@
             "turf_sprint": "+0.0",
             "turf_route": "+0.5"
         },
-        "lengths": 1.0,
-        "points": 2.0
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }
