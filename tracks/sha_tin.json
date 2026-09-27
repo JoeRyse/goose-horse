@@ -1,11 +1,50 @@
 {
-    "location": "Sha Tin",
-    "track_type": "Turf + All-Weather",
-    "direction": "Clockwise",
-    "straight_length": "430m",
-    "bias_notes": "Generally FAIR. 430m straight allows closers.",
+    "track_code": "ST",
+    "location": "Sha Tin, New Territories, Hong Kong",
+    "nicknames": [
+        "Sha Tin Racecourse",
+        "Sha Tin Turf & Dirt HQ",
+        "HKJC Sha Tin Flagship",
+        "Home of the HKIR (Hong Kong International Races)",
+        "The Champions Day Circuit"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,899 metres",
+            "surface": "Turf (Zoysia and Bermuda grass mixture on high-drainage sand base)",
+            "stretch_length": "430 metres — wide 30.5m home straight",
+            "bias_notes": "Clockwise (right-handed). Flagship international racecourse operated by the Hong Kong Jockey Club (HKJC), hosting weekend and feature meetings. Features a broad 1,899m oval with sweeping turns and a generous 430m home straight (30.5m width). On A Course (True rail), the broad stretch and sweeping turns produce one of the fairest turf tracks in world racing, allowing big-striding swoopers ('S' and 'C' styles) to run down leaders. On C and C+3 rail configurations, the track narrows, boosting forward pressers ('P') and inside rail runners.",
+            "post_bias": "FAIR ON TURF OVAL; SEVERE OUTSIDE STANDS BIAS ON 1000m STRAIGHT: Over 1200m, 1400m, 1600m, 1800m, and 2000m turf oval distances, post position penalties are minimal on A Course due to wide sweeping turns. However, on the 1000m Straight Course (no turns), outside barrier draws (stalls 9-14 along the stands-side fence) hold a massive, decisive advantage over inside draws (1-4)."
+        },
+        "all_weather_dirt": {
+            "circumference": "1,560 metres inner dirt track ('AWT / Dirt')",
+            "surface": "Dirt (Engineered silt and sand loam cushion)",
+            "stretch_length": "380 metres",
+            "bias_notes": "Clockwise (right-handed). Inner dirt course utilized for all-weather meetings. Unlike the fair turf track, the AWT dirt surface plays fast and heavily favors early front-runners ('E' style) and rail pressers ('P' style). Deep closers ('C' style) suffer severe vision and kickback penalties.",
+            "post_bias": "INSIDE BARRIER EDGE ON AWT DIRT: Draws 1 through 5 hold a strong advantage in 1200m dirt sprints to secure early rail position and avoid flying kickback."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Turf: Fair. AWT: On-pace/Inner."
+        "hkir_and_champions_day_g1_pinnacle": "Sha Tin hosts world racing's premier international fixtures: LONGINES HKIR ($118M+ HKD December Festival: HK Cup G1, HK Mile G1, HK Sprint G1, HK Vase G1) and FWD Champions Day (April: QEII Cup G1, Champions Mile G1, Chairman's Sprint Prize G1). International Grade 1 entrants carry top Tier 1 class authority (+4.0 pts class angle).",
+        "1000m_straight_course_stands_side_rail_lock": "On the 1000m Straight Course (run with no turns along the home stretch), outside draws (stalls 9-14) racing along the stands-side rail travel on firmer, less chewed-up ground and win over 65% of races. Heavily upgrade stands-side draws 9-14 (+3.5 pts) and downgrade inside draws 1-4.",
+        "turf_vs_awt_dirt_running_style_divergence": "Differentiate running styles by surface: Turf favors broad-striding stalkers ('P') and closing swoopers ('S' / 'C') over the 430m stretch. All-Weather Dirt (AWT) favors aggressive early leaders ('E') and box-seaters ('P') hugging the inside rail.",
+        "master_hkjc_trainers": "Elite HKJC trainers (John Size, Tony Cruz, Francis Lui, Ricky Yiu, Pierre Ng, Caspar Fownes, Frankie Lor, Danny Shum, David Hayes) condition horses with extreme precision for class shifts. John Size and Francis Lui runners exhibit high first-up winning percentages.",
+        "champion_jockey_purton_and_bowman_edge": "Zac Purton (multi-time HKJC Champion Jockey) and Hugh Bowman possess unrivaled tactical positioning and sectional timing at Sha Tin. Grant jockey upgrade bonus when Purton or Bowman ride for top yards.",
+        "sha_tin_to_happy_valley_class_comparison": "Sha Tin 1400m and 1600m form lines carry higher raw speed ratings than Happy Valley 1650m lines. Horses dropping from Sha Tin Class 3 to Happy Valley Class 3 carry a class edge.",
+        "hkjc_class_hierarchy": "Class 1 (90-115+ rating), Class 2 (80-100), Class 3 (60-80 - key wagering heat), Class 4 (40-60 - bread and butter), Class 5 (0-40 - lowest class).",
+        "typical_distances": "Turf: 1000m (Straight), 1200m, 1400m, 1600m, 1800m, 2000m, 2400m. AWT Dirt: 1200m, 1650m, 1800m."
+    },
+    "par_adjustment": {
+        "tier": "Tier 1 (Hong Kong Jockey Club International Flagship HQ)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "turf_sprint": "+3.5",
+            "turf_route": "+4.0",
+            "dirt_sprint": "+2.5",
+            "dirt_route": "+3.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "Asia_Thoroughbred_Hong_Kong"
 }
