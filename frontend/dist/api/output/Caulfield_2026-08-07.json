@@ -1,0 +1,1816 @@
+{
+    "meta": {
+        "track": "Caulfield",
+        "date": "2026-08-07",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1200m Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1200m Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 5, 7; Trifecta 1 / 5, 7 / 2, 3, 5, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Rich On Bubbles",
+                        "handicapper_notes": "Major class drop bonus applied dropping from G1 Randwick Sires Produce company into 3yo $105k handicap. Previously won Listed race over 1200m on this track layout. Drawn barrier 1 to secure an ideal ground-saving trip. Carries 132lbs topweight tax but holds a distinct class edge over the field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Stakes",
+                        "handicapper_notes": "Solid 3rd at Caulfield over 1100m last start, making ground late from the rear. Capitalist gelding gets an effective weight relief carrying 120lbs. Soft track form is strong and will be finishing hard off a honest tempo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Commit",
+                        "handicapper_notes": "Fit 3rd-up gelding by Profiteer. Excels on wet ground with 1 win and 1 placing on heavy going. Drawn ideally in stall 2 to stalk the leaders and step up to 1200m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Leopard Shark",
+                        "handicapper_notes": "Second-up filly coming off an eye-catching 2nd at Flemington over 1000m. Already a winner over 1200m-1300m at Pakenham and Sandown. Well positioned from stall 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Tough Romance",
+                        "handicapper_notes": "High upside runner returning from a break after contesting the G1 Blue Diamond last prep. Won impressively on debut over 1100m at Pakenham. Flagged as the main danger horse if fully forward.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 82,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "10",
+                        "horse_name": "Vallice",
+                        "handicapper_notes": "Ciaron Maher trained Maurice colt resuming. Won a Sandown 1400m heavy track handicap last prep leading throughout. Wide draw in barrier 10 creates potential geometry issues on tight track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 80,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Wide Draw",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Rich On Bubbles",
+                    "rating": 94.0,
+                    "reason": "Major class drop bonus applied dropping from G1 Randwick Sires Produce company into 3yo $105k handicap. Previously won Listed race over 1200m on this track layout. Drawn barrier 1 to secure an ideal ground-saving trip. Carries 132lbs topweight tax but holds a distinct class edge over the field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Tough Romance",
+                    "rating": 90.0,
+                    "reason": "High upside runner returning from a break after contesting the G1 Blue Diamond last prep. Won impressively on debut over 1100m at Pakenham. Flagged as the main danger horse if fully forward. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stakes",
+                    "rating": 88.0,
+                    "reason": "Solid 3rd at Caulfield over 1100m last start, making ground late from the rear. Capitalist gelding gets an effective weight relief carrying 120lbs. Soft track form is strong and will be finishing hard off a honest tempo. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Commit",
+                    "rating": 86.0,
+                    "reason": "Fit 3rd-up gelding by Profiteer. Excels on wet ground with 1 win and 1 placing on heavy going. Drawn ideally in stall 2 to stalk the leaders and step up to 1200m. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Leopard Shark",
+                    "rating": 84.0,
+                    "reason": "Second-up filly coming off an eye-catching 2nd at Flemington over 1000m. Already a winner over 1200m-1300m at Pakenham and Sandown. Well positioned from stall 4. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Rich On Bubbles",
+                    "rating": 94.0,
+                    "reason": "Major class drop bonus applied dropping from G1 Randwick Sires Produce company into 3yo $105k handicap. Previously won Listed race over 1200m on this track layout. Drawn barrier 1 to secure an ideal ground-saving trip. Carries 132lbs topweight tax but holds a distinct class edge over the field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Tough Romance",
+                    "rating": 90.0,
+                    "reason": "High upside runner returning from a break after contesting the G1 Blue Diamond last prep. Won impressively on debut over 1100m at Pakenham. Flagged as the main danger horse if fully forward. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Stakes",
+                    "rating": 88.0,
+                    "reason": "Solid 3rd at Caulfield over 1100m last start, making ground late from the rear. Capitalist gelding gets an effective weight relief carrying 120lbs. Soft track form is strong and will be finishing hard off a honest tempo. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Commit",
+                    "rating": 86.0,
+                    "reason": "Fit 3rd-up gelding by Profiteer. Excels on wet ground with 1 win and 1 placing on heavy going. Drawn ideally in stall 2 to stalk the leaders and step up to 1200m. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Leopard Shark",
+                    "rating": 84.0,
+                    "reason": "Second-up filly coming off an eye-catching 2nd at Flemington over 1000m. Already a winner over 1200m-1300m at Pakenham and Sandown. Well positioned from stall 4. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Vallice",
+                    "rating": 80.0,
+                    "reason": "Ciaron Maher trained Maurice colt resuming. Won a Sandown 1400m heavy track handicap last prep leading throughout. Wide draw in barrier 10 creates potential geometry issues on tight track. | <i>\u26a0\ufe0f Wide Draw \u2022 \ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "5",
+                "name": "Tough Romance",
+                "rating": 90.0,
+                "reason": "High upside runner returning from a break after contesting the G1 Blue Diamond last prep. Won impressively on debut over 1100m at Pakenham. Flagged as the main danger horse if fully forward. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Rich On Bubbles</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #8, #7 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "7 1/2f Turf Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7 1/2f Turf Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Win 11; Exacta Box 4, 6, 11, 13",
+                "contenders": [
+                    {
+                        "program_number": "11",
+                        "barrier": "5",
+                        "horse_name": "Celtics",
+                        "handicapper_notes": "Brings the standout speed ratings into this handicap following back-to-back 2nd place finishes at Caulfield in 3yo Open company over 7f (88 and 86 speed ratings). Carrying 122lbs/119lbs in superior grade previously, he maps ideally from barrier 5 with Lachlan Neindorf retaining the ride.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Botanical Boy",
+                        "handicapper_notes": "Strikes second-up after a commendable 5th in Sandown BM78 over 7f on a heavy surface. Boasts peak 87 speed rating when winning BM70 company second-up last preparation. Drawn gold in barrier 2 for Jamie Mott.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "10",
+                        "horse_name": "Stay Silent",
+                        "handicapper_notes": "Hard-fit gelding coming off a resolute victory over 7 1/2f at Sandown-Hillside BM66 in heavy going with 131lbs. Holds a perfect 2-for-2 record at 7 1/2f and apprentice claim of Jabez Johnstone brings effective weight down.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Speed",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13e",
+                        "barrier": "6",
+                        "horse_name": "Zebra Finch",
+                        "handicapper_notes": "Gains start as emergency with crucial late jockey alteration to Blake Shinn. Dominant last-start winner by 2 lengths over 1m at Sandown-Lakeside on soft track. Drops in weight and maps to get a cover run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "8",
+                        "horse_name": "I've Bean Tryin'",
+                        "handicapper_notes": "Interstate shipper dropping back from competitive Sydney Randwick BM78 handicap performance. Boasts outstanding wet track credential (9 starts for 4 wins on Heavy). Jye McNeil takes the ride.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard Closer",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Zourain",
+                        "handicapper_notes": "Capable longshot who scored two starts back on heavy ground at Seymour BM62 over 6 1/2f (84 rating). Drawn rail barrier 1 with Luke Currie booked, making him a dangerous knockout chance if track condition stays damp.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "5",
+                    "name": "Celtics",
+                    "rating": 93.0,
+                    "reason": "Brings the standout speed ratings into this handicap following back-to-back 2nd place finishes at Caulfield in 3yo Open company over 7f (88 and 86 speed ratings). Carrying 122lbs/119lbs in superior grade previously, he maps ideally from barrier 5 with Lachlan Neindorf retaining the ride. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "8",
+                    "name": "I've Bean Tryin'",
+                    "rating": 90.0,
+                    "reason": "Interstate shipper dropping back from competitive Sydney Randwick BM78 handicap performance. Boasts outstanding wet track credential (9 starts for 4 wins on Heavy). Jye McNeil takes the ride. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Botanical Boy",
+                    "rating": 88.0,
+                    "reason": "Strikes second-up after a commendable 5th in Sandown BM78 over 7f on a heavy surface. Boasts peak 87 speed rating when winning BM70 company second-up last preparation. Drawn gold in barrier 2 for Jamie Mott."
+                },
+                {
+                    "number": "4",
+                    "barrier": "10",
+                    "name": "Stay Silent",
+                    "rating": 86.0,
+                    "reason": "Hard-fit gelding coming off a resolute victory over 7 1/2f at Sandown-Hillside BM66 in heavy going with 131lbs. Holds a perfect 2-for-2 record at 7 1/2f and apprentice claim of Jabez Johnstone brings effective weight down."
+                },
+                {
+                    "number": "13e",
+                    "barrier": "6",
+                    "name": "Zebra Finch",
+                    "rating": 84.0,
+                    "reason": "Gains start as emergency with crucial late jockey alteration to Blake Shinn. Dominant last-start winner by 2 lengths over 1m at Sandown-Lakeside on soft track. Drops in weight and maps to get a cover run. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "11",
+                    "barrier": "5",
+                    "name": "Celtics",
+                    "rating": 93.0,
+                    "reason": "Brings the standout speed ratings into this handicap following back-to-back 2nd place finishes at Caulfield in 3yo Open company over 7f (88 and 86 speed ratings). Carrying 122lbs/119lbs in superior grade previously, he maps ideally from barrier 5 with Lachlan Neindorf retaining the ride. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "8",
+                    "name": "I've Bean Tryin'",
+                    "rating": 90.0,
+                    "reason": "Interstate shipper dropping back from competitive Sydney Randwick BM78 handicap performance. Boasts outstanding wet track credential (9 starts for 4 wins on Heavy). Jye McNeil takes the ride. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Botanical Boy",
+                    "rating": 88.0,
+                    "reason": "Strikes second-up after a commendable 5th in Sandown BM78 over 7f on a heavy surface. Boasts peak 87 speed rating when winning BM70 company second-up last preparation. Drawn gold in barrier 2 for Jamie Mott."
+                },
+                {
+                    "number": "4",
+                    "barrier": "10",
+                    "name": "Stay Silent",
+                    "rating": 86.0,
+                    "reason": "Hard-fit gelding coming off a resolute victory over 7 1/2f at Sandown-Hillside BM66 in heavy going with 131lbs. Holds a perfect 2-for-2 record at 7 1/2f and apprentice claim of Jabez Johnstone brings effective weight down."
+                },
+                {
+                    "number": "13e",
+                    "barrier": "6",
+                    "name": "Zebra Finch",
+                    "rating": 84.0,
+                    "reason": "Gains start as emergency with crucial late jockey alteration to Blake Shinn. Dominant last-start winner by 2 lengths over 1m at Sandown-Lakeside on soft track. Drops in weight and maps to get a cover run. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "Zourain",
+                    "rating": 81.0,
+                    "reason": "Capable longshot who scored two starts back on heavy ground at Seymour BM62 over 6 1/2f (84 rating). Drawn rail barrier 1 with Luke Currie booked, making him a dangerous knockout chance if track condition stays damp."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "1",
+                "name": "Zourain",
+                "rating": 81.0,
+                "reason": "Capable longshot who scored two starts back on heavy ground at Seymour BM62 over 6 1/2f (84 rating). Drawn rail barrier 1 with Luke Currie booked, making him a dangerous knockout chance if track condition stays damp."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#11 Celtics</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #11, #12, #9 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "1000m Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1000m Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Exotic Trifecta: 6 / 2, 5, 7 / 1, 2, 5, 7",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Cavalry Girl",
+                        "handicapper_notes": "Sensational last-start 4.5-length victory in the Listed Lightning Stakes at Morphettville registering a peak 98 speed rating. Races right on the pace, carries a feather weight of 117lbs (53kg), and holds an outstanding record at the 1000m sprint trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 96,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Bazaball Rewarded",
+                        "handicapper_notes": "Prolific 1000m distance specialist with 7 victories from 10 attempts at this exact distance. Drops back from 5.5f where she finished 2nd in BM84 company. Light effective weight of 117lbs gives her a massive turn of foot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 91,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Stokke",
+                        "handicapper_notes": "Quality mare resuming after 9 months off. Won the Listed Century Stakes at Flemington over 1000m last prep with a 98 speed rating. Possesses a lethal first-up record of 3 wins from 5 attempts and mapped ideally from stall 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Along The River",
+                        "handicapper_notes": "In career-peak condition after winning a Flemington BM78 over 1000m two starts back and placing 3rd at 5.5f carrying 134lbs. Receives a massive 17lb weight drop down to 117lbs and boasts 7 wins at 1000m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Klabel",
+                        "handicapper_notes": "Group 3 placed gelding dropping out of the Group 3 Monash Stakes. High overall benchmark class rating but faces a severe 132lb (60kg) stamina tax at 1000m against lighter fit speedsters.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Faded late",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Chinqui",
+                        "handicapper_notes": "Drawn rail barrier 1 with 117lbs. Previous winner at 1000m in HEA BM90 company, but recent inter-state form in Brisbane and Sydney has been plain.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Cavalry Girl",
+                    "rating": 96.0,
+                    "reason": "Sensational last-start 4.5-length victory in the Listed Lightning Stakes at Morphettville registering a peak 98 speed rating. Races right on the pace, carries a feather weight of 117lbs (53kg), and holds an outstanding record at the 1000m sprint trip."
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Bazaball Rewarded",
+                    "rating": 91.0,
+                    "reason": "Prolific 1000m distance specialist with 7 victories from 10 attempts at this exact distance. Drops back from 5.5f where she finished 2nd in BM84 company. Light effective weight of 117lbs gives her a massive turn of foot."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Klabel",
+                    "rating": 90.0,
+                    "reason": "Group 3 placed gelding dropping out of the Group 3 Monash Stakes. High overall benchmark class rating but faces a severe 132lb (60kg) stamina tax at 1000m against lighter fit speedsters. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Faded late</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Stokke",
+                    "rating": 87.0,
+                    "reason": "Quality mare resuming after 9 months off. Won the Listed Century Stakes at Flemington over 1000m last prep with a 98 speed rating. Possesses a lethal first-up record of 3 wins from 5 attempts and mapped ideally from stall 2."
+                },
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Along The River",
+                    "rating": 85.0,
+                    "reason": "In career-peak condition after winning a Flemington BM78 over 1000m two starts back and placing 3rd at 5.5f carrying 134lbs. Receives a massive 17lb weight drop down to 117lbs and boasts 7 wins at 1000m."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Cavalry Girl",
+                    "rating": 96.0,
+                    "reason": "Sensational last-start 4.5-length victory in the Listed Lightning Stakes at Morphettville registering a peak 98 speed rating. Races right on the pace, carries a feather weight of 117lbs (53kg), and holds an outstanding record at the 1000m sprint trip."
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Bazaball Rewarded",
+                    "rating": 91.0,
+                    "reason": "Prolific 1000m distance specialist with 7 victories from 10 attempts at this exact distance. Drops back from 5.5f where she finished 2nd in BM84 company. Light effective weight of 117lbs gives her a massive turn of foot."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Klabel",
+                    "rating": 90.0,
+                    "reason": "Group 3 placed gelding dropping out of the Group 3 Monash Stakes. High overall benchmark class rating but faces a severe 132lb (60kg) stamina tax at 1000m against lighter fit speedsters. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Faded late</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Stokke",
+                    "rating": 87.0,
+                    "reason": "Quality mare resuming after 9 months off. Won the Listed Century Stakes at Flemington over 1000m last prep with a 98 speed rating. Possesses a lethal first-up record of 3 wins from 5 attempts and mapped ideally from stall 2."
+                },
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Along The River",
+                    "rating": 85.0,
+                    "reason": "In career-peak condition after winning a Flemington BM78 over 1000m two starts back and placing 3rd at 5.5f carrying 134lbs. Receives a massive 17lb weight drop down to 117lbs and boasts 7 wins at 1000m."
+                },
+                {
+                    "number": "8",
+                    "barrier": "1",
+                    "name": "Chinqui",
+                    "rating": 78.0,
+                    "reason": "Drawn rail barrier 1 with 117lbs. Previous winner at 1000m in HEA BM90 company, but recent inter-state form in Brisbane and Sydney has been plain."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "6",
+                "name": "Along The River",
+                "rating": 85.0,
+                "reason": "In career-peak condition after winning a Flemington BM78 over 1000m two starts back and placing 3rd at 5.5f carrying 134lbs. Receives a massive 17lb weight drop down to 117lbs and boasts 7 wins at 1000m."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#6 Cavalry Girl</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #6 over (#5, #1, #7) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1m Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1m Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Win 6; Trifecta 6 / 8, 10 / 1, 2, 3, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Jenni Multabella",
+                        "handicapper_notes": "Rapidly improving 5yo mare coming off an impressive 1.5-length victory in Sandown-Hillside BM70 company over 7f on rain-affected ground. Carries a very manageable 126lbs (57kg), providing a significant weight advantage over topweights. Step up to 1m is ideal.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "9",
+                        "horse_name": "Hi Val",
+                        "handicapper_notes": "Lightly raced 4yo mare from the Ciaron Maher stable on a sharp upward trajectory. Won with authority over 7f at Sandown last start carrying 130lbs and drops to 125lbs here. Handles wet tracks well and maps to get a cover run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "Street Lark",
+                        "handicapper_notes": "Ran a stellar second over 1m in Flemington F&M BM78 company last start. Draws perfectly in barrier 2 and gets in featherweight at 122lbs (55.5kg) with apprentice claim. Serious closing threat.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "11",
+                        "horse_name": "Davida",
+                        "handicapper_notes": "Drops out of Tier 1 Flemington 3yo Open company where she ran 8th, beaten just 2.6 lengths. Highest class mare in the field with 4 career wins, but faces a physical stamina tax carrying 133lbs (60.5kg) from a wide gate.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Began Awkwardly",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Lake Vostok",
+                        "handicapper_notes": "Proven 1600m specialist with two wins and four placings over the distance. Finished 5th in Flemington BM78 last start and drops into suitable F&M company from an ideal inside draw in stall 3.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Cat Noir",
+                        "handicapper_notes": "Consistent 1600m performer who finished a close 4th at Flemington last outing and 2nd at Sandown in heavy going. Lightly weighted at 123lbs and will be strong late in the straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Jenni Multabella",
+                    "rating": 92.0,
+                    "reason": "Rapidly improving 5yo mare coming off an impressive 1.5-length victory in Sandown-Hillside BM70 company over 7f on rain-affected ground. Carries a very manageable 126lbs (57kg), providing a significant weight advantage over topweights. Step up to 1m is ideal. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "11",
+                    "name": "Davida",
+                    "rating": 91.0,
+                    "reason": "Drops out of Tier 1 Flemington 3yo Open company where she ran 8th, beaten just 2.6 lengths. Highest class mare in the field with 4 career wins, but faces a physical stamina tax carrying 133lbs (60.5kg) from a wide gate. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Began Awkwardly</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Hi Val",
+                    "rating": 87.0,
+                    "reason": "Lightly raced 4yo mare from the Ciaron Maher stable on a sharp upward trajectory. Won with authority over 7f at Sandown last start carrying 130lbs and drops to 125lbs here. Handles wet tracks well and maps to get a cover run. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "2",
+                    "name": "Street Lark",
+                    "rating": 85.0,
+                    "reason": "Ran a stellar second over 1m in Flemington F&M BM78 company last start. Draws perfectly in barrier 2 and gets in featherweight at 122lbs (55.5kg) with apprentice claim. Serious closing threat. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Lake Vostok",
+                    "rating": 82.0,
+                    "reason": "Proven 1600m specialist with two wins and four placings over the distance. Finished 5th in Flemington BM78 last start and drops into suitable F&M company from an ideal inside draw in stall 3."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Jenni Multabella",
+                    "rating": 92.0,
+                    "reason": "Rapidly improving 5yo mare coming off an impressive 1.5-length victory in Sandown-Hillside BM70 company over 7f on rain-affected ground. Carries a very manageable 126lbs (57kg), providing a significant weight advantage over topweights. Step up to 1m is ideal. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "11",
+                    "name": "Davida",
+                    "rating": 91.0,
+                    "reason": "Drops out of Tier 1 Flemington 3yo Open company where she ran 8th, beaten just 2.6 lengths. Highest class mare in the field with 4 career wins, but faces a physical stamina tax carrying 133lbs (60.5kg) from a wide gate. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Began Awkwardly</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "Hi Val",
+                    "rating": 87.0,
+                    "reason": "Lightly raced 4yo mare from the Ciaron Maher stable on a sharp upward trajectory. Won with authority over 7f at Sandown last start carrying 130lbs and drops to 125lbs here. Handles wet tracks well and maps to get a cover run. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "2",
+                    "name": "Street Lark",
+                    "rating": 85.0,
+                    "reason": "Ran a stellar second over 1m in Flemington F&M BM78 company last start. Draws perfectly in barrier 2 and gets in featherweight at 122lbs (55.5kg) with apprentice claim. Serious closing threat. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Lake Vostok",
+                    "rating": 82.0,
+                    "reason": "Proven 1600m specialist with two wins and four placings over the distance. Finished 5th in Flemington BM78 last start and drops into suitable F&M company from an ideal inside draw in stall 3."
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Cat Noir",
+                    "rating": 80.0,
+                    "reason": "Consistent 1600m performer who finished a close 4th at Flemington last outing and 2nd at Sandown in heavy going. Lightly weighted at 123lbs and will be strong late in the straight."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "2",
+                "name": "Street Lark",
+                "rating": 85.0,
+                "reason": "Ran a stellar second over 1m in Flemington F&M BM78 company last start. Draws perfectly in barrier 2 and gets in featherweight at 122lbs (55.5kg) with apprentice claim. Serious closing threat. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Jenni Multabella</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #2, #10 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1100m Soft6 Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1100m Soft6 Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5; Exacta Box 5, 6, 10; Trifecta 5 / 6, 10, 14 / 6, 7, 10, 12, 14",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Behaviour",
+                        "handicapper_notes": "Boasts standout track and distance credentials at Caulfield, having finished a close 2nd in BM84 grade and 3rd in BM78 company over this exact 1100m trip. Drops in class to BM70/Open grade, draws ideally in barrier 5, and gets the perfect run behind a genuine tempo.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "6",
+                        "horse_name": "Next Step Iowa",
+                        "handicapper_notes": "Highly consistent mare holding strong metropolitan form, including a 3rd at Flemington over 1000m and a close 3rd over this course and distance in F&M BM84 company. Well-weighted at 125lbs and draws ideally in stall 6.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "14",
+                        "horse_name": "High On The Hill",
+                        "handicapper_notes": "High-upside 4yo entire resuming after a 9-week freshen-up. Trialled impressively when winning at Cranbourne on July 27 and was previously runner-up over this track and distance in 3yo Open company. Dangerous closer despite the wide alley.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "7",
+                        "horse_name": "Beautiful Bevy",
+                        "handicapper_notes": "Progressive 4yo filly carrying a featherweight 117lbs. Ran a terrific 3rd over this course and distance on July 25 in 3yo Open company. Drawn well in barrier 7 to sit handy to the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "10",
+                        "horse_name": "Mainmankash",
+                        "handicapper_notes": "Dominant last-start winner at Sale by 3.8 lengths carrying 137lbs. Boasts an impressive record of 3 wins from 6 starts. Faces a step up to Metro company, but possesses dynamic early speed to cross and establish position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "8",
+                        "horse_name": "Nordic Strike",
+                        "handicapper_notes": "Hard-knocking sprinter who comes off a narrow 2nd at Sandown over 1000m on heavy ground. Thrives on wet turf, carries a light weight of 123lbs, and should figure in the finish.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Behaviour",
+                    "rating": 92.0,
+                    "reason": "Boasts standout track and distance credentials at Caulfield, having finished a close 2nd in BM84 grade and 3rd in BM78 company over this exact 1100m trip. Drops in class to BM70/Open grade, draws ideally in barrier 5, and gets the perfect run behind a genuine tempo. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "6",
+                    "name": "Next Step Iowa",
+                    "rating": 88.0,
+                    "reason": "Highly consistent mare holding strong metropolitan form, including a 3rd at Flemington over 1000m and a close 3rd over this course and distance in F&M BM84 company. Well-weighted at 125lbs and draws ideally in stall 6. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "14",
+                    "name": "High On The Hill",
+                    "rating": 86.0,
+                    "reason": "High-upside 4yo entire resuming after a 9-week freshen-up. Trialled impressively when winning at Cranbourne on July 27 and was previously runner-up over this track and distance in 3yo Open company. Dangerous closer despite the wide alley. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "14",
+                    "barrier": "7",
+                    "name": "Beautiful Bevy",
+                    "rating": 85.0,
+                    "reason": "Progressive 4yo filly carrying a featherweight 117lbs. Ran a terrific 3rd over this course and distance on July 25 in 3yo Open company. Drawn well in barrier 7 to sit handy to the speed. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "10",
+                    "name": "Mainmankash",
+                    "rating": 84.0,
+                    "reason": "Dominant last-start winner at Sale by 3.8 lengths carrying 137lbs. Boasts an impressive record of 3 wins from 6 starts. Faces a step up to Metro company, but possesses dynamic early speed to cross and establish position. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Behaviour",
+                    "rating": 92.0,
+                    "reason": "Boasts standout track and distance credentials at Caulfield, having finished a close 2nd in BM84 grade and 3rd in BM78 company over this exact 1100m trip. Drops in class to BM70/Open grade, draws ideally in barrier 5, and gets the perfect run behind a genuine tempo. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "6",
+                    "name": "Next Step Iowa",
+                    "rating": 88.0,
+                    "reason": "Highly consistent mare holding strong metropolitan form, including a 3rd at Flemington over 1000m and a close 3rd over this course and distance in F&M BM84 company. Well-weighted at 125lbs and draws ideally in stall 6. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "14",
+                    "name": "High On The Hill",
+                    "rating": 86.0,
+                    "reason": "High-upside 4yo entire resuming after a 9-week freshen-up. Trialled impressively when winning at Cranbourne on July 27 and was previously runner-up over this track and distance in 3yo Open company. Dangerous closer despite the wide alley. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "14",
+                    "barrier": "7",
+                    "name": "Beautiful Bevy",
+                    "rating": 85.0,
+                    "reason": "Progressive 4yo filly carrying a featherweight 117lbs. Ran a terrific 3rd over this course and distance on July 25 in 3yo Open company. Drawn well in barrier 7 to sit handy to the speed. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "10",
+                    "name": "Mainmankash",
+                    "rating": 84.0,
+                    "reason": "Dominant last-start winner at Sale by 3.8 lengths carrying 137lbs. Boasts an impressive record of 3 wins from 6 starts. Faces a step up to Metro company, but possesses dynamic early speed to cross and establish position. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "8",
+                    "name": "Nordic Strike",
+                    "rating": 82.0,
+                    "reason": "Hard-knocking sprinter who comes off a narrow 2nd at Sandown over 1000m on heavy ground. Thrives on wet turf, carries a light weight of 123lbs, and should figure in the finish. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "14",
+                "name": "High On The Hill",
+                "rating": 86.0,
+                "reason": "High-upside 4yo entire resuming after a 9-week freshen-up. Trialled impressively when winning at Cranbourne on July 27 and was previously runner-up over this track and distance in 3yo Open company. Dangerous closer despite the wide alley. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Behaviour</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #10, #6 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "1200m Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1200m Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Win 9 / Trifecta 9 / 3, 5 / 2, 3, 4, 5, 10",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "4",
+                        "horse_name": "Custom",
+                        "handicapper_notes": "Dominant 3-length winner over this track and distance in F&M BM74 grade last start. Drops to featherweight 119lbs (54kg) with apprentice claim and draws ideally in stall 4. Highly progressive Ciaron Maher-trained mare poised to take another step forward.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Piastri",
+                        "handicapper_notes": "Measured up to Saturday Metro company last start when winning a Flemington BM88 over 1200m on Soft ground. Drawn the rail in barrier 1 for Ethan Brown and Ciaron Maher. Strong pace suitability and robust form line.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Stylish",
+                        "handicapper_notes": "Quality Lonhro mare dropping back to 1200m after a 35-day freshen. Placed 2nd in the Leilani Final at Flemington prior. Drawn well in stall 3 with Jackson Radley claim relief. Proven class performer in the race.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Betwitchery",
+                        "handicapper_notes": "Ran a close 3rd to Piastri in Flemington BM88 company last outing when forced wide from a tough gate. Stakes winner at Caulfield over 1400m earlier this year. Elite jockey Blake Shinn takes the ride.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Without Cover",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "6",
+                        "horse_name": "Thinxzo",
+                        "handicapper_notes": "Enters off impressive back-to-back victories at Sale including a 1.3-length BM70 win in Soft conditions. Lightly weighted at 119lbs (54kg) and possesses significant upside moving into metropolitan grade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Welcometotheshow",
+                        "handicapper_notes": "Resumes from a 5-month spell after competing in Group 3 company last preparation. Possesses strong raw ability but carries topweight tax of 132lbs (60kg) first-up over a sprint distance short of his preferred 1400m-1600m range.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Custom",
+                    "rating": 94.0,
+                    "reason": "Dominant 3-length winner over this track and distance in F&M BM74 grade last start. Drops to featherweight 119lbs (54kg) with apprentice claim and draws ideally in stall 4. Highly progressive Ciaron Maher-trained mare poised to take another step forward."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Piastri",
+                    "rating": 89.0,
+                    "reason": "Measured up to Saturday Metro company last start when winning a Flemington BM88 over 1200m on Soft ground. Drawn the rail in barrier 1 for Ethan Brown and Ciaron Maher. Strong pace suitability and robust form line."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Stylish",
+                    "rating": 86.0,
+                    "reason": "Quality Lonhro mare dropping back to 1200m after a 35-day freshen. Placed 2nd in the Leilani Final at Flemington prior. Drawn well in stall 3 with Jackson Radley claim relief. Proven class performer in the race. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Welcometotheshow",
+                    "rating": 86.0,
+                    "reason": "Resumes from a 5-month spell after competing in Group 3 company last preparation. Possesses strong raw ability but carries topweight tax of 132lbs (60kg) first-up over a sprint distance short of his preferred 1400m-1600m range. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Betwitchery",
+                    "rating": 84.0,
+                    "reason": "Ran a close 3rd to Piastri in Flemington BM88 company last outing when forced wide from a tough gate. Stakes winner at Caulfield over 1400m earlier this year. Elite jockey Blake Shinn takes the ride. | <i>\u26a0\ufe0f Wide Without Cover</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "4",
+                    "name": "Custom",
+                    "rating": 94.0,
+                    "reason": "Dominant 3-length winner over this track and distance in F&M BM74 grade last start. Drops to featherweight 119lbs (54kg) with apprentice claim and draws ideally in stall 4. Highly progressive Ciaron Maher-trained mare poised to take another step forward."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Piastri",
+                    "rating": 89.0,
+                    "reason": "Measured up to Saturday Metro company last start when winning a Flemington BM88 over 1200m on Soft ground. Drawn the rail in barrier 1 for Ethan Brown and Ciaron Maher. Strong pace suitability and robust form line."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Stylish",
+                    "rating": 86.0,
+                    "reason": "Quality Lonhro mare dropping back to 1200m after a 35-day freshen. Placed 2nd in the Leilani Final at Flemington prior. Drawn well in stall 3 with Jackson Radley claim relief. Proven class performer in the race. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Welcometotheshow",
+                    "rating": 86.0,
+                    "reason": "Resumes from a 5-month spell after competing in Group 3 company last preparation. Possesses strong raw ability but carries topweight tax of 132lbs (60kg) first-up over a sprint distance short of his preferred 1400m-1600m range. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Betwitchery",
+                    "rating": 84.0,
+                    "reason": "Ran a close 3rd to Piastri in Flemington BM88 company last outing when forced wide from a tough gate. Stakes winner at Caulfield over 1400m earlier this year. Elite jockey Blake Shinn takes the ride. | <i>\u26a0\ufe0f Wide Without Cover</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "6",
+                    "name": "Thinxzo",
+                    "rating": 81.0,
+                    "reason": "Enters off impressive back-to-back victories at Sale including a 1.3-length BM70 win in Soft conditions. Lightly weighted at 119lbs (54kg) and possesses significant upside moving into metropolitan grade."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "6",
+                "name": "Thinxzo",
+                "rating": 81.0,
+                "reason": "Enters off impressive back-to-back victories at Sale including a 1.3-length BM70 win in Soft conditions. Lightly weighted at 119lbs (54kg) and possesses significant upside moving into metropolitan grade."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 Custom</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#5, #3, #10) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "1 1/8 m Soft6",
+            "surface": "Soft6",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 1/8 m Soft6",
+                "confidence_level": "High",
+                "suggested_wager": "Win 8 / Exacta 8-10 / Trifecta 8 over 10,12 over 2,10,11,12,13",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Perfect Ten",
+                        "handicapper_notes": "Chasing back-to-back wins after a dominant victory in Sandown-Hillside BM74 over 1600m. Fits the 1800m route profile ideally, drawn perfectly in barrier 3, and excels on Soft/Heavy rain-affected turf.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "11",
+                        "horse_name": "Oraqua",
+                        "handicapper_notes": "Ran a strong 3rd at Randwick F&M BM78 over 1800m last start and beat Perfect Ten two back over 1600m on Heavy ground. Key danger dropper returning to VIC metro company with Harry Coffey riding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "14",
+                        "horse_name": "Censori",
+                        "handicapper_notes": "Rapidly improving 4yo mare chasing a hat-trick after back-to-back Sandown victories over 1600m. Handles wet conditions exceptionally well and carries a light effective weight tax of 56.5kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "1",
+                        "horse_name": "Zorro's Flight",
+                        "handicapper_notes": "Won convincingly last start at Sale over 1600m by 2.5 lengths. Benefits from the gold rail position in stall 1 on this triangular circuit and maintains impressive wet-track form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "6",
+                        "horse_name": "The Devil In Her",
+                        "handicapper_notes": "Consistent 7yo mare who won a BM66 at Mornington 3 starts back and ran 4th in Sandown BM74 over 2100m. Maps to get a clean run from mid-field stall 6 under Luke Nolen.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "15",
+                        "horse_name": "Madero",
+                        "handicapper_notes": "French import stepping up to a suitable 1800m trip after a solid 4th in Flemington BM78 company. Possesses peak class ability but faces a tricky wide barrier draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Wide Draw",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Perfect Ten",
+                    "rating": 93.0,
+                    "reason": "Chasing back-to-back wins after a dominant victory in Sandown-Hillside BM74 over 1600m. Fits the 1800m route profile ideally, drawn perfectly in barrier 3, and excels on Soft/Heavy rain-affected turf."
+                },
+                {
+                    "number": "10",
+                    "barrier": "11",
+                    "name": "Oraqua",
+                    "rating": 88.0,
+                    "reason": "Ran a strong 3rd at Randwick F&M BM78 over 1800m last start and beat Perfect Ten two back over 1600m on Heavy ground. Key danger dropper returning to VIC metro company with Harry Coffey riding."
+                },
+                {
+                    "number": "12",
+                    "barrier": "14",
+                    "name": "Censori",
+                    "rating": 85.0,
+                    "reason": "Rapidly improving 4yo mare chasing a hat-trick after back-to-back Sandown victories over 1600m. Handles wet conditions exceptionally well and carries a light effective weight tax of 56.5kg. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "13",
+                    "barrier": "1",
+                    "name": "Zorro's Flight",
+                    "rating": 83.0,
+                    "reason": "Won convincingly last start at Sale over 1600m by 2.5 lengths. Benefits from the gold rail position in stall 1 on this triangular circuit and maintains impressive wet-track form. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "6",
+                    "name": "The Devil In Her",
+                    "rating": 81.0,
+                    "reason": "Consistent 7yo mare who won a BM66 at Mornington 3 starts back and ran 4th in Sandown BM74 over 2100m. Maps to get a clean run from mid-field stall 6 under Luke Nolen. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Perfect Ten",
+                    "rating": 93.0,
+                    "reason": "Chasing back-to-back wins after a dominant victory in Sandown-Hillside BM74 over 1600m. Fits the 1800m route profile ideally, drawn perfectly in barrier 3, and excels on Soft/Heavy rain-affected turf."
+                },
+                {
+                    "number": "10",
+                    "barrier": "11",
+                    "name": "Oraqua",
+                    "rating": 88.0,
+                    "reason": "Ran a strong 3rd at Randwick F&M BM78 over 1800m last start and beat Perfect Ten two back over 1600m on Heavy ground. Key danger dropper returning to VIC metro company with Harry Coffey riding."
+                },
+                {
+                    "number": "12",
+                    "barrier": "14",
+                    "name": "Censori",
+                    "rating": 85.0,
+                    "reason": "Rapidly improving 4yo mare chasing a hat-trick after back-to-back Sandown victories over 1600m. Handles wet conditions exceptionally well and carries a light effective weight tax of 56.5kg. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "13",
+                    "barrier": "1",
+                    "name": "Zorro's Flight",
+                    "rating": 83.0,
+                    "reason": "Won convincingly last start at Sale over 1600m by 2.5 lengths. Benefits from the gold rail position in stall 1 on this triangular circuit and maintains impressive wet-track form. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "6",
+                    "name": "The Devil In Her",
+                    "rating": 81.0,
+                    "reason": "Consistent 7yo mare who won a BM66 at Mornington 3 starts back and ran 4th in Sandown BM74 over 2100m. Maps to get a clean run from mid-field stall 6 under Luke Nolen. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "15",
+                    "name": "Madero",
+                    "rating": 79.0,
+                    "reason": "French import stepping up to a suitable 1800m trip after a solid 4th in Flemington BM78 company. Possesses peak class ability but faces a tricky wide barrier draw. | <i>\u26a0\ufe0f Wide Draw \u2022 \ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "11",
+                "name": "Oraqua",
+                "rating": 88.0,
+                "reason": "Ran a strong 3rd at Randwick F&M BM78 over 1800m last start and beat Perfect Ten two back over 1600m on Heavy ground. Key danger dropper returning to VIC metro company with Harry Coffey riding."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Perfect Ten</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#10, #12) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "1 1/8 m Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 1/8 m Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 8, Trifecta 8 / 1, 4, 5 / 1, 2, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "First Chorus",
+                        "handicapper_notes": "Chasing a hat-trick after back-to-back dominant victories at Caulfield, including a commanding 2.25L win in BM100 company over 1600m. Carries a lightweight advantage, maps perfectly in the box seat, and holds a distinct track-and-distance form edge.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "3",
+                        "horse_name": "Magnaspin",
+                        "handicapper_notes": "Ran a brave second behind First Chorus last start over 1600m at Caulfield. Steps up to 1800m where he previously won a Listed race over 2000m. Drawn ideally in stall 3 to control the speed or sit right on the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Bankers Choice",
+                        "handicapper_notes": "Consistent Tier 1 metropolitan performer dropping back to 1800m where he won an Open Handicap three starts back at Sandown-Hillside. Claims 3kg relief with Radley to offset top weight tax.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Litzdeel",
+                        "handicapper_notes": "High-upside class dropper resuming from a 5th-place finish in the G1 Sydney Cup over 3200m. Upgraded significantly for dropping into $105k handicap company from Tier 1 Group levels. Drawn barrier 1 with Blake Shinn.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "Detonator Jack",
+                        "handicapper_notes": "Group 1/Listed level winner who took out the Winter Championship at Flemington two runs back. Forgive last start effort; possesses strong late closing speed and genuine metropolitan class.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Unlimited",
+                        "handicapper_notes": "Solid second-up run when 5th behind First Chorus at Caulfield. Fitter now third-up and will appreciate the stretch out to 1800m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "First Chorus",
+                    "rating": 94.0,
+                    "reason": "Chasing a hat-trick after back-to-back dominant victories at Caulfield, including a commanding 2.25L win in BM100 company over 1600m. Carries a lightweight advantage, maps perfectly in the box seat, and holds a distinct track-and-distance form edge."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Detonator Jack",
+                    "rating": 91.0,
+                    "reason": "Group 1/Listed level winner who took out the Winter Championship at Flemington two runs back. Forgive last start effort; possesses strong late closing speed and genuine metropolitan class. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Magnaspin",
+                    "rating": 88.0,
+                    "reason": "Ran a brave second behind First Chorus last start over 1600m at Caulfield. Steps up to 1800m where he previously won a Listed race over 2000m. Drawn ideally in stall 3 to control the speed or sit right on the pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Bankers Choice",
+                    "rating": 86.0,
+                    "reason": "Consistent Tier 1 metropolitan performer dropping back to 1800m where he won an Open Handicap three starts back at Sandown-Hillside. Claims 3kg relief with Radley to offset top weight tax. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Litzdeel",
+                    "rating": 85.0,
+                    "reason": "High-upside class dropper resuming from a 5th-place finish in the G1 Sydney Cup over 3200m. Upgraded significantly for dropping into $105k handicap company from Tier 1 Group levels. Drawn barrier 1 with Blake Shinn. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "First Chorus",
+                    "rating": 94.0,
+                    "reason": "Chasing a hat-trick after back-to-back dominant victories at Caulfield, including a commanding 2.25L win in BM100 company over 1600m. Carries a lightweight advantage, maps perfectly in the box seat, and holds a distinct track-and-distance form edge."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "Detonator Jack",
+                    "rating": 91.0,
+                    "reason": "Group 1/Listed level winner who took out the Winter Championship at Flemington two runs back. Forgive last start effort; possesses strong late closing speed and genuine metropolitan class. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "3",
+                    "name": "Magnaspin",
+                    "rating": 88.0,
+                    "reason": "Ran a brave second behind First Chorus last start over 1600m at Caulfield. Steps up to 1800m where he previously won a Listed race over 2000m. Drawn ideally in stall 3 to control the speed or sit right on the pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Bankers Choice",
+                    "rating": 86.0,
+                    "reason": "Consistent Tier 1 metropolitan performer dropping back to 1800m where he won an Open Handicap three starts back at Sandown-Hillside. Claims 3kg relief with Radley to offset top weight tax. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Litzdeel",
+                    "rating": 85.0,
+                    "reason": "High-upside class dropper resuming from a 5th-place finish in the G1 Sydney Cup over 3200m. Upgraded significantly for dropping into $105k handicap company from Tier 1 Group levels. Drawn barrier 1 with Blake Shinn. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Unlimited",
+                    "rating": 80.0,
+                    "reason": "Solid second-up run when 5th behind First Chorus at Caulfield. Fitter now third-up and will appreciate the stretch out to 1800m. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "1",
+                "name": "Litzdeel",
+                "rating": 85.0,
+                "reason": "High-upside class dropper resuming from a 5th-place finish in the G1 Sydney Cup over 3200m. Upgraded significantly for dropping into $105k handicap company from Tier 1 Group levels. Drawn barrier 1 with Blake Shinn. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#8 First Chorus</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #8, #2, #5 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "7 1/2f Soft6 Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "7 1/2f Soft6 Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 8; Exacta 8 / 3, 11; Trifecta 8 / 3, 11 / 1, 3, 5, 11",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Changing Colours",
+                        "handicapper_notes": "Arrives in peak condition following a dominant 2-length victory in Flemington F&M BM78 company over 1600m. Drops weight to 56.5kg, draws ideal inside stall 2, and retains top jockey Blake Shinn. Holds superior rated class and sectional speed over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Stalker",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Black Storm",
+                        "handicapper_notes": "Gains a massive tactical upgrade as post-scratch lone speed after key front-runners Astero and Elouyou were scratched. Led and ran a narrow 2nd in the Mildura Cup last start. Drawn perfectly in barrier 4 to dictate pace on the turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "8",
+                        "horse_name": "Lovelycut",
+                        "handicapper_notes": "Extremely consistent 5yo mare dropping to a feather weight of 55kg under Jye McNeil. Chased home quality horses in Sandown heavy track BM74 events at her last two outings. Possesses a sharp turn of foot if the leaders pressure each other.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Flying Valley",
+                        "handicapper_notes": "Racing in robust form, finishing a tight 3rd in the Mildura Cup behind Black Storm last start after winning a Mornington BM70 prior. Drawn rail stall 1 to get an economical run in the box seat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "9",
+                        "horse_name": "Prestige Forever",
+                        "handicapper_notes": "Lightly raced 4yo colt who won a Sandown-Lakeside BM70 on heavy ground two starts back before struggling in Flemington 3YO Metro company. Capable of bouncing back returning to provincial level.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "10",
+                        "horse_name": "Keane Enuff",
+                        "handicapper_notes": "Scored a solid Sandown BM74 win three starts ago on heavy going but was unplaced in two subsequent Metro runs. Carries a lightweight of 54.5kg but faces a tricky map from wide barrier 10.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Changing Colours",
+                    "rating": 93.0,
+                    "reason": "Arrives in peak condition following a dominant 2-length victory in Flemington F&M BM78 company over 1600m. Drops weight to 56.5kg, draws ideal inside stall 2, and retains top jockey Blake Shinn. Holds superior rated class and sectional speed over this field. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Black Storm",
+                    "rating": 91.0,
+                    "reason": "Gains a massive tactical upgrade as post-scratch lone speed after key front-runners Astero and Elouyou were scratched. Led and ran a narrow 2nd in the Mildura Cup last start. Drawn perfectly in barrier 4 to dictate pace on the turn. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "8",
+                    "name": "Lovelycut",
+                    "rating": 85.0,
+                    "reason": "Extremely consistent 5yo mare dropping to a feather weight of 55kg under Jye McNeil. Chased home quality horses in Sandown heavy track BM74 events at her last two outings. Possesses a sharp turn of foot if the leaders pressure each other."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Flying Valley",
+                    "rating": 82.0,
+                    "reason": "Racing in robust form, finishing a tight 3rd in the Mildura Cup behind Black Storm last start after winning a Mornington BM70 prior. Drawn rail stall 1 to get an economical run in the box seat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "9",
+                    "name": "Prestige Forever",
+                    "rating": 79.0,
+                    "reason": "Lightly raced 4yo colt who won a Sandown-Lakeside BM70 on heavy ground two starts back before struggling in Flemington 3YO Metro company. Capable of bouncing back returning to provincial level."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Changing Colours",
+                    "rating": 93.0,
+                    "reason": "Arrives in peak condition following a dominant 2-length victory in Flemington F&M BM78 company over 1600m. Drops weight to 56.5kg, draws ideal inside stall 2, and retains top jockey Blake Shinn. Holds superior rated class and sectional speed over this field. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Black Storm",
+                    "rating": 91.0,
+                    "reason": "Gains a massive tactical upgrade as post-scratch lone speed after key front-runners Astero and Elouyou were scratched. Led and ran a narrow 2nd in the Mildura Cup last start. Drawn perfectly in barrier 4 to dictate pace on the turn. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "8",
+                    "name": "Lovelycut",
+                    "rating": 85.0,
+                    "reason": "Extremely consistent 5yo mare dropping to a feather weight of 55kg under Jye McNeil. Chased home quality horses in Sandown heavy track BM74 events at her last two outings. Possesses a sharp turn of foot if the leaders pressure each other."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Flying Valley",
+                    "rating": 82.0,
+                    "reason": "Racing in robust form, finishing a tight 3rd in the Mildura Cup behind Black Storm last start after winning a Mornington BM70 prior. Drawn rail stall 1 to get an economical run in the box seat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "9",
+                    "name": "Prestige Forever",
+                    "rating": 79.0,
+                    "reason": "Lightly raced 4yo colt who won a Sandown-Lakeside BM70 on heavy ground two starts back before struggling in Flemington 3YO Metro company. Capable of bouncing back returning to provincial level."
+                },
+                {
+                    "number": "12",
+                    "barrier": "10",
+                    "name": "Keane Enuff",
+                    "rating": 76.0,
+                    "reason": "Scored a solid Sandown BM74 win three starts ago on heavy going but was unplaced in two subsequent Metro runs. Carries a lightweight of 54.5kg but faces a tricky map from wide barrier 10."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "8",
+                "name": "Lovelycut",
+                "rating": 85.0,
+                "reason": "Extremely consistent 5yo mare dropping to a feather weight of 55kg under Jye McNeil. Chased home quality horses in Sandown heavy track BM74 events at her last two outings. Possesses a sharp turn of foot if the leaders pressure each other."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#8 Changing Colours</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #8, #3, #11 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#1 Rich On Bubbles</b> in R1 & <b>#11 Celtics</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#11 Celtics</b> in R2 & <b>#6 Cavalry Girl</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#6 Cavalry Girl</b> in R3 & <b>#6 Jenni Multabella</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R6 \u2794 R7):</b> Single <b>#9 Custom</b> in R6 & <b>#8 Perfect Ten</b> in R7 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R7 \u2794 R8):</b> Single <b>#8 Perfect Ten</b> in R7 & <b>#8 First Chorus</b> in R8 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R8 \u2794 R9):</b> Single <b>#8 First Chorus</b> in R8 & <b>#8 Changing Colours</b> in R9 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#11 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#11 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#8 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#8 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#8 (Solo Lock))"
+    ]
+}
