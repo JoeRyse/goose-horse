@@ -1,0 +1,1415 @@
+{
+    "meta": {
+        "track": "Wolverhampton",
+        "date": "2026-07-31",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "7 Furlongs Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "7 Furlongs Tapeta (AW)",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Key 3 over 1, 4, 8",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Foxy Night",
+                        "handicapper_notes": "Brings strong and reliable All-Weather form following a narrow neck second at Southwell over 7f. Boasts the highest form consistency rating in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Rajiba",
+                        "handicapper_notes": "Holds the top speed figure (98) in the field and already possesses proven track form at Wolverhampton. Dropping back to 7f suits well.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Gilding The Lily",
+                        "handicapper_notes": "Unraced Godolphin newcomer by Blue Point trained by John & Thady Gosden. Well-bred debutante with an advantageous inner stall draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Marianne Mozart",
+                        "handicapper_notes": "Four-year-old filly carrying top weight of 135 lbs. Top jockey Silvestre De Sousa takes the ride for an opportunistic attempt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Navona Grey",
+                        "handicapper_notes": "Sired by Havana Grey with Luke Morris booked. Showed adequate ability on All-Weather surfaces previously.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Pink Pyjamas",
+                        "handicapper_notes": "Unraced filly drawing well in stall 2, which offers a key tactical advantage around the tight Wolverhampton turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Foxy Night",
+                    "rating": 94.5,
+                    "reason": "Brings strong and reliable All-Weather form following a narrow neck second at Southwell over 7f. Boasts the highest form consistency rating in the field."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Gilding The Lily",
+                    "rating": 91.5,
+                    "reason": "Unraced Godolphin newcomer by Blue Point trained by John & Thady Gosden. Well-bred debutante with an advantageous inner stall draw."
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Rajiba",
+                    "rating": 90.5,
+                    "reason": "Holds the top speed figure (98) in the field and already possesses proven track form at Wolverhampton. Dropping back to 7f suits well. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Pink Pyjamas",
+                    "rating": 84.5,
+                    "reason": "Unraced filly drawing well in stall 2, which offers a key tactical advantage around the tight Wolverhampton turns."
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Navona Grey",
+                    "rating": 83.5,
+                    "reason": "Sired by Havana Grey with Luke Morris booked. Showed adequate ability on All-Weather surfaces previously."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Foxy Night",
+                    "rating": 94.5,
+                    "reason": "Brings strong and reliable All-Weather form following a narrow neck second at Southwell over 7f. Boasts the highest form consistency rating in the field."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Gilding The Lily",
+                    "rating": 91.5,
+                    "reason": "Unraced Godolphin newcomer by Blue Point trained by John & Thady Gosden. Well-bred debutante with an advantageous inner stall draw."
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Rajiba",
+                    "rating": 90.5,
+                    "reason": "Holds the top speed figure (98) in the field and already possesses proven track form at Wolverhampton. Dropping back to 7f suits well. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Pink Pyjamas",
+                    "rating": 84.5,
+                    "reason": "Unraced filly drawing well in stall 2, which offers a key tactical advantage around the tight Wolverhampton turns."
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Navona Grey",
+                    "rating": 83.5,
+                    "reason": "Sired by Havana Grey with Luke Morris booked. Showed adequate ability on All-Weather surfaces previously."
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Marianne Mozart",
+                    "rating": 78.0,
+                    "reason": "Four-year-old filly carrying top weight of 135 lbs. Top jockey Silvestre De Sousa takes the ride for an opportunistic attempt."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "5",
+                "name": "Rajiba",
+                "rating": 90.5,
+                "reason": "Holds the top speed figure (98) in the field and already possesses proven track form at Wolverhampton. Dropping back to 7f suits well. | <i>\ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Foxy Night</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #4, #8 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "7 Furlongs Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7 Furlongs Tapeta (AW)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 2 over 1, 3, 4",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "Gunfighter",
+                        "handicapper_notes": "Comes off a convincing last-out win over 7f on all-weather at Southwell where he earned a race-topping 97 speed figure. Retains ideal distance and surface conditions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favored Speed",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Al Muqdad",
+                        "handicapper_notes": "Top official rating runner who has been knocking on the door in strong turf handicaps. Silvestre De Sousa takes the ride for David O'Meara. High consistency profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "8",
+                        "horse_name": "Kit Gabriel",
+                        "handicapper_notes": "Proven synthetic campaigner with a 96 speed figure. Frequently hits the frame over 7f AW and drops slightly in weight here.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretchout",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Merry",
+                        "handicapper_notes": "Unexposed 3yo filly benefiting from stall 1 draw on tight Wolverhampton turns. Daniel Muscutt takes over the ride.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "10",
+                        "horse_name": "Angels' Share",
+                        "handicapper_notes": "Transitions back from turf to AWT where she achieved her career-best winning form as a 2yo. Receives turf-to-AW angle bonus.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "5",
+                        "horse_name": "Quick Quasar",
+                        "handicapper_notes": "Palace Pier gelding who won over 7f on synthetic earlier this year. Luke Morris attached for Archie Watson.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Gunfighter",
+                    "rating": 96.0,
+                    "reason": "Comes off a convincing last-out win over 7f on all-weather at Southwell where he earned a race-topping 97 speed figure. Retains ideal distance and surface conditions."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Al Muqdad",
+                    "rating": 91.5,
+                    "reason": "Top official rating runner who has been knocking on the door in strong turf handicaps. Silvestre De Sousa takes the ride for David O'Meara. High consistency profile."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Merry",
+                    "rating": 89.5,
+                    "reason": "Unexposed 3yo filly benefiting from stall 1 draw on tight Wolverhampton turns. Daniel Muscutt takes over the ride. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "Kit Gabriel",
+                    "rating": 84.5,
+                    "reason": "Proven synthetic campaigner with a 96 speed figure. Frequently hits the frame over 7f AW and drops slightly in weight here. | <i>\ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "10",
+                    "name": "Angels' Share",
+                    "rating": 80.5,
+                    "reason": "Transitions back from turf to AWT where she achieved her career-best winning form as a 2yo. Receives turf-to-AW angle bonus."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Gunfighter",
+                    "rating": 96.0,
+                    "reason": "Comes off a convincing last-out win over 7f on all-weather at Southwell where he earned a race-topping 97 speed figure. Retains ideal distance and surface conditions."
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Al Muqdad",
+                    "rating": 91.5,
+                    "reason": "Top official rating runner who has been knocking on the door in strong turf handicaps. Silvestre De Sousa takes the ride for David O'Meara. High consistency profile."
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Merry",
+                    "rating": 89.5,
+                    "reason": "Unexposed 3yo filly benefiting from stall 1 draw on tight Wolverhampton turns. Daniel Muscutt takes over the ride. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "Kit Gabriel",
+                    "rating": 84.5,
+                    "reason": "Proven synthetic campaigner with a 96 speed figure. Frequently hits the frame over 7f AW and drops slightly in weight here. | <i>\ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "10",
+                    "name": "Angels' Share",
+                    "rating": 80.5,
+                    "reason": "Transitions back from turf to AWT where she achieved her career-best winning form as a 2yo. Receives turf-to-AW angle bonus."
+                },
+                {
+                    "number": "9",
+                    "barrier": "5",
+                    "name": "Quick Quasar",
+                    "rating": 79.0,
+                    "reason": "Palace Pier gelding who won over 7f on synthetic earlier this year. Luke Morris attached for Archie Watson. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "1",
+                "name": "Merry",
+                "rating": 89.5,
+                "reason": "Unexposed 3yo filly benefiting from stall 1 draw on tight Wolverhampton turns. Daniel Muscutt takes over the ride. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Gunfighter</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #1, #4 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "7 Furlongs Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "7 Furlongs Tapeta (AW)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 2 over 4, 6, 9",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Carnival Of Light",
+                        "handicapper_notes": "Dominant 5-length course-and-distance winner here 14 days ago. Boasts superior early speed on this tight Tapeta layout and holds a massive speed figure edge over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Speed",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Ghisa",
+                        "handicapper_notes": "Consistent all-weather performer who previously won over 6f on this track. Bottom-weight carrying 127 lbs with Daniel Muscutt booked makes her a serious threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Bella Bisbee",
+                        "handicapper_notes": "BHA rating in a solid cycle, receiving 3 lb weight relief via apprentice C Howarth. Solid runner-up on turf last time out and very capable on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Tarot",
+                        "handicapper_notes": "Roger Varian trained filly drawn well in post 1. Proven synthetic winner at Kempton with strong form background.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Callahan",
+                        "handicapper_notes": "Kempton winner returning to synthetic surface for trainer James Owen. C Fallon taking the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Inside Story",
+                        "handicapper_notes": "Tapeta winner at Southwell last season with Silvestre De Sousa taking the ride. Low draw advantage on tight AW track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Carnival Of Light",
+                    "rating": 93.0,
+                    "reason": "Dominant 5-length course-and-distance winner here 14 days ago. Boasts superior early speed on this tight Tapeta layout and holds a massive speed figure edge over this field. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Tarot",
+                    "rating": 89.5,
+                    "reason": "Roger Varian trained filly drawn well in post 1. Proven synthetic winner at Kempton with strong form background. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bella Bisbee",
+                    "rating": 88.5,
+                    "reason": "BHA rating in a solid cycle, receiving 3 lb weight relief via apprentice C Howarth. Solid runner-up on turf last time out and very capable on Tapeta. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Ghisa",
+                    "rating": 87.5,
+                    "reason": "Consistent all-weather performer who previously won over 6f on this track. Bottom-weight carrying 127 lbs with Daniel Muscutt booked makes her a serious threat. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Inside Story",
+                    "rating": 86.5,
+                    "reason": "Tapeta winner at Southwell last season with Silvestre De Sousa taking the ride. Low draw advantage on tight AW track. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Carnival Of Light",
+                    "rating": 93.0,
+                    "reason": "Dominant 5-length course-and-distance winner here 14 days ago. Boasts superior early speed on this tight Tapeta layout and holds a massive speed figure edge over this field. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Tarot",
+                    "rating": 89.5,
+                    "reason": "Roger Varian trained filly drawn well in post 1. Proven synthetic winner at Kempton with strong form background. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bella Bisbee",
+                    "rating": 88.5,
+                    "reason": "BHA rating in a solid cycle, receiving 3 lb weight relief via apprentice C Howarth. Solid runner-up on turf last time out and very capable on Tapeta. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "8",
+                    "name": "Ghisa",
+                    "rating": 87.5,
+                    "reason": "Consistent all-weather performer who previously won over 6f on this track. Bottom-weight carrying 127 lbs with Daniel Muscutt booked makes her a serious threat. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Inside Story",
+                    "rating": 86.5,
+                    "reason": "Tapeta winner at Southwell last season with Silvestre De Sousa taking the ride. Low draw advantage on tight AW track. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Callahan",
+                    "rating": 81.0,
+                    "reason": "Kempton winner returning to synthetic surface for trainer James Owen. C Fallon taking the mount. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "8",
+                "name": "Ghisa",
+                "rating": 87.5,
+                "reason": "Consistent all-weather performer who previously won over 6f on this track. Bottom-weight carrying 127 lbs with Daniel Muscutt booked makes her a serious threat. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Carnival Of Light</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #4, #9 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "1 1/8 Miles Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 1/8 Miles Tapeta (AW)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 5 over 1, 3, 8",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "7",
+                        "horse_name": "Suggy",
+                        "handicapper_notes": "Impressive winner over this track and distance on July 6, asserting near the finish with authority. Boasts high current form rating and strong tactical adaptability on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Lightning Glory",
+                        "handicapper_notes": "Solid runner-up on synthetic at Southwell before finishing third at Newbury. Silvestre De Sousa takes the ride for top trainers Simon & Ed Crisford.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "9",
+                        "horse_name": "The Stone Power",
+                        "handicapper_notes": "Ralph Beckett trainee stepped up to 9.5 furlongs at Wolverhampton last time out and stayed on well. Trimming back slightly to 9f fits his ideal stamina range.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Lillie Margot",
+                        "handicapper_notes": "Won over a mile at Nottingham two back and ran right behind Lightning Glory at Southwell. Gets weight relief from apprentice claimer.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Always Blue",
+                        "handicapper_notes": "Showed solid ability on soft turf at Carlisle and Ripon earlier this season. Transitioning to Tapeta for Harriet Bethell with S D Bowen back in the saddle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to AW",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "5",
+                        "horse_name": "India Gold",
+                        "handicapper_notes": "Finished a respectable second at Bath over 1m last month. Holds prior synthetic experience at Wolverhampton.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "7",
+                    "name": "Suggy",
+                    "rating": 96.5,
+                    "reason": "Impressive winner over this track and distance on July 6, asserting near the finish with authority. Boasts high current form rating and strong tactical adaptability on Tapeta."
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Lightning Glory",
+                    "rating": 87.5,
+                    "reason": "Solid runner-up on synthetic at Southwell before finishing third at Newbury. Silvestre De Sousa takes the ride for top trainers Simon & Ed Crisford. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "The Stone Power",
+                    "rating": 84.5,
+                    "reason": "Ralph Beckett trainee stepped up to 9.5 furlongs at Wolverhampton last time out and stayed on well. Trimming back slightly to 9f fits his ideal stamina range."
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Lillie Margot",
+                    "rating": 83.0,
+                    "reason": "Won over a mile at Nottingham two back and ran right behind Lightning Glory at Southwell. Gets weight relief from apprentice claimer."
+                },
+                {
+                    "number": "9",
+                    "barrier": "5",
+                    "name": "India Gold",
+                    "rating": 82.5,
+                    "reason": "Finished a respectable second at Bath over 1m last month. Holds prior synthetic experience at Wolverhampton."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "7",
+                    "name": "Suggy",
+                    "rating": 96.5,
+                    "reason": "Impressive winner over this track and distance on July 6, asserting near the finish with authority. Boasts high current form rating and strong tactical adaptability on Tapeta."
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Lightning Glory",
+                    "rating": 87.5,
+                    "reason": "Solid runner-up on synthetic at Southwell before finishing third at Newbury. Silvestre De Sousa takes the ride for top trainers Simon & Ed Crisford. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "9",
+                    "name": "The Stone Power",
+                    "rating": 84.5,
+                    "reason": "Ralph Beckett trainee stepped up to 9.5 furlongs at Wolverhampton last time out and stayed on well. Trimming back slightly to 9f fits his ideal stamina range."
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Lillie Margot",
+                    "rating": 83.0,
+                    "reason": "Won over a mile at Nottingham two back and ran right behind Lightning Glory at Southwell. Gets weight relief from apprentice claimer."
+                },
+                {
+                    "number": "9",
+                    "barrier": "5",
+                    "name": "India Gold",
+                    "rating": 82.5,
+                    "reason": "Finished a respectable second at Bath over 1m last month. Holds prior synthetic experience at Wolverhampton."
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Always Blue",
+                    "rating": 80.5,
+                    "reason": "Showed solid ability on soft turf at Carlisle and Ripon earlier this season. Transitioning to Tapeta for Harriet Bethell with S D Bowen back in the saddle. | <i>\ud83d\udccf Turf to AW</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "9",
+                "name": "The Stone Power",
+                "rating": 84.5,
+                "reason": "Ralph Beckett trainee stepped up to 9.5 furlongs at Wolverhampton last time out and stayed on well. Trimming back slightly to 9f fits his ideal stamina range."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Suggy</b> (Solo Lock - Gap: +9.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#1, #8) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "1 1/2 Miles Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 1/2 Miles Tapeta (AW)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 3 over 1, 2, 7",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Roc De Fer",
+                        "handicapper_notes": "Dominant winner last time out at Southwell over 1m 3f winning readily for Sir Mark Prescott. Open to further progress stepping up to 1m 4f on Tapeta and Luke Morris stays aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Pace",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretchout",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Jodhpur Blue",
+                        "handicapper_notes": "Extremely consistent AW distance performer with highest speed figure (97) in the field. Multiple placing efforts on synthetic tracks and reliable contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Joseph",
+                        "handicapper_notes": "Two-time AW route winner this season who posted a solid fourth at Wolverhampton recently. Solid record in this class level.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Fans Favourite",
+                        "handicapper_notes": "Winner of two of last four starts for Hugo Palmer. Finished behind Roc De Fer last time but holds exotics appeal with Harry Davies driving.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Much",
+                        "handicapper_notes": "Unexposed 3yo colt by Frankel out of Seal Of Approval making handicap and synthetic track debut for James Fanshawe. Open to improvement.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretchout",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Dartmouth Jet",
+                        "handicapper_notes": "Draws advantageous low barrier with elite rider Silvestre De Sousa booked. Dual code winner over hurdles returning to AW flat track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Roc De Fer",
+                    "rating": 99.5,
+                    "reason": "Dominant winner last time out at Southwell over 1m 3f winning readily for Sir Mark Prescott. Open to further progress stepping up to 1m 4f on Tapeta and Luke Morris stays aboard. | <i>\ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Jodhpur Blue",
+                    "rating": 91.5,
+                    "reason": "Extremely consistent AW distance performer with highest speed figure (97) in the field. Multiple placing efforts on synthetic tracks and reliable contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Fans Favourite",
+                    "rating": 90.5,
+                    "reason": "Winner of two of last four starts for Hugo Palmer. Finished behind Roc De Fer last time but holds exotics appeal with Harry Davies driving."
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Joseph",
+                    "rating": 89.5,
+                    "reason": "Two-time AW route winner this season who posted a solid fourth at Wolverhampton recently. Solid record in this class level."
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Much",
+                    "rating": 86.0,
+                    "reason": "Unexposed 3yo colt by Frankel out of Seal Of Approval making handicap and synthetic track debut for James Fanshawe. Open to improvement. | <i>\ud83d\udccf Stretchout</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Roc De Fer",
+                    "rating": 99.5,
+                    "reason": "Dominant winner last time out at Southwell over 1m 3f winning readily for Sir Mark Prescott. Open to further progress stepping up to 1m 4f on Tapeta and Luke Morris stays aboard. | <i>\ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Jodhpur Blue",
+                    "rating": 91.5,
+                    "reason": "Extremely consistent AW distance performer with highest speed figure (97) in the field. Multiple placing efforts on synthetic tracks and reliable contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Fans Favourite",
+                    "rating": 90.5,
+                    "reason": "Winner of two of last four starts for Hugo Palmer. Finished behind Roc De Fer last time but holds exotics appeal with Harry Davies driving."
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Joseph",
+                    "rating": 89.5,
+                    "reason": "Two-time AW route winner this season who posted a solid fourth at Wolverhampton recently. Solid record in this class level."
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Much",
+                    "rating": 86.0,
+                    "reason": "Unexposed 3yo colt by Frankel out of Seal Of Approval making handicap and synthetic track debut for James Fanshawe. Open to improvement. | <i>\ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Dartmouth Jet",
+                    "rating": 83.0,
+                    "reason": "Draws advantageous low barrier with elite rider Silvestre De Sousa booked. Dual code winner over hurdles returning to AW flat track."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "2",
+                "name": "Much",
+                "rating": 86.0,
+                "reason": "Unexposed 3yo colt by Frankel out of Seal Of Approval making handicap and synthetic track debut for James Fanshawe. Open to improvement. | <i>\ud83d\udccf Stretchout</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Roc De Fer</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#2, #7, #6) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Tapeta",
+            "surface": "Tapeta",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Tapeta",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 9 over 2, 4, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "King Of Chaos (ire)",
+                        "handicapper_notes": "Dominant course specialist arriving on a two-race winning streak over this track and 6f distance. Benefits massively from rail draw 1 on a tight AW track with a short straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Low Draw Speed",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "8",
+                        "horse_name": "American Style",
+                        "handicapper_notes": "Market leader with elite 105 class speed rating. Finished a close third over track and trip last time out, but carries high weight and stall 8 draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "10",
+                        "horse_name": "Papa Cocktail (ire)",
+                        "handicapper_notes": "Consistent handicapper hitting the frame in consecutive turf sprints. Brings high overall speed figures but must navigate wide draw in stall 10.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Angel Of Anfield",
+                        "handicapper_notes": "Drawn perfectly in stall 2 with course expert Luke Morris booked. Proven on synthetic surfaces and primed for sharp improvement back on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Low Draw",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "Angel Love",
+                        "handicapper_notes": "Track and distance winner over 6f at Wolverhampton last autumn. Stall 3 gives great tactical position returning to preferred surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Low Draw",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Hk Fourteen (ire)",
+                        "handicapper_notes": "Elite jockey Silvestre De Sousa booked for trainer Tony Carroll. Dangerous if recapturing form from winning 5f effort last season.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "King Of Chaos (ire)",
+                    "rating": 96.0,
+                    "reason": "Dominant course specialist arriving on a two-race winning streak over this track and 6f distance. Benefits massively from rail draw 1 on a tight AW track with a short straight."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Angel Of Anfield",
+                    "rating": 89.5,
+                    "reason": "Drawn perfectly in stall 2 with course expert Luke Morris booked. Proven on synthetic surfaces and primed for sharp improvement back on Tapeta."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "American Style",
+                    "rating": 87.5,
+                    "reason": "Market leader with elite 105 class speed rating. Finished a close third over track and trip last time out, but carries high weight and stall 8 draw."
+                },
+                {
+                    "number": "4",
+                    "barrier": "10",
+                    "name": "Papa Cocktail (ire)",
+                    "rating": 84.5,
+                    "reason": "Consistent handicapper hitting the frame in consecutive turf sprints. Brings high overall speed figures but must navigate wide draw in stall 10."
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Angel Love",
+                    "rating": 84.0,
+                    "reason": "Track and distance winner over 6f at Wolverhampton last autumn. Stall 3 gives great tactical position returning to preferred surface."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "1",
+                    "name": "King Of Chaos (ire)",
+                    "rating": 96.0,
+                    "reason": "Dominant course specialist arriving on a two-race winning streak over this track and 6f distance. Benefits massively from rail draw 1 on a tight AW track with a short straight."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Angel Of Anfield",
+                    "rating": 89.5,
+                    "reason": "Drawn perfectly in stall 2 with course expert Luke Morris booked. Proven on synthetic surfaces and primed for sharp improvement back on Tapeta."
+                },
+                {
+                    "number": "2",
+                    "barrier": "8",
+                    "name": "American Style",
+                    "rating": 87.5,
+                    "reason": "Market leader with elite 105 class speed rating. Finished a close third over track and trip last time out, but carries high weight and stall 8 draw."
+                },
+                {
+                    "number": "4",
+                    "barrier": "10",
+                    "name": "Papa Cocktail (ire)",
+                    "rating": 84.5,
+                    "reason": "Consistent handicapper hitting the frame in consecutive turf sprints. Brings high overall speed figures but must navigate wide draw in stall 10."
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Angel Love",
+                    "rating": 84.0,
+                    "reason": "Track and distance winner over 6f at Wolverhampton last autumn. Stall 3 gives great tactical position returning to preferred surface."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Hk Fourteen (ire)",
+                    "rating": 79.0,
+                    "reason": "Elite jockey Silvestre De Sousa booked for trainer Tony Carroll. Dangerous if recapturing form from winning 5f effort last season."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "2",
+                "name": "Angel Of Anfield",
+                "rating": 89.5,
+                "reason": "Drawn perfectly in stall 2 with course expert Luke Morris booked. Proven on synthetic surfaces and primed for sharp improvement back on Tapeta."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 King Of Chaos (ire)</b> (Solo Lock - Gap: +6.5 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#7, #2) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "5 Furlongs Tapeta (AW)",
+            "surface": "(AW)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 Furlongs Tapeta (AW)",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 1 over 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Sixcor",
+                        "handicapper_notes": "Enters in peak form following a decisive 2-length victory at Ayr four days ago. Benefits from massive weight relief carrying just 119 lbs with T Kiely-Marshall claiming. High overall speed figures make him the clear top choice.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Poetic Jack",
+                        "handicapper_notes": "Trained by sprint specialist Robert Cowell. Projects as the primary early speed in the field and drawn well in stall 3 to control the tempo around this tight turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Fancy Dancer",
+                        "handicapper_notes": "Drops back to 5 furlongs where she should be more effective. Luke Morris takes the ride from draw 2 which offers a strong track bias advantage on Wolverhampton sprint track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Happier",
+                        "handicapper_notes": "Drawn on the rail in stall 1 which is a key advantage on this short straight track. Jack Doughty takes over and past synthetic form makes her a solid exotic contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Captain Kinsella",
+                        "handicapper_notes": "Has shown flashes of capability over course and distance in the past, but recent outings have been disappointing. Needs pace to collapse to threaten.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Eased last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Bust A Moon",
+                        "handicapper_notes": "Has struggled to make an impact in recent starts and looks outclassed even in this classified event.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Sixcor",
+                    "rating": 96.5,
+                    "reason": "Enters in peak form following a decisive 2-length victory at Ayr four days ago. Benefits from massive weight relief carrying just 119 lbs with T Kiely-Marshall claiming. High overall speed figures make him the clear top choice."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Poetic Jack",
+                    "rating": 96.5,
+                    "reason": "Trained by sprint specialist Robert Cowell. Projects as the primary early speed in the field and drawn well in stall 3 to control the tempo around this tight turn. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Fancy Dancer",
+                    "rating": 91.5,
+                    "reason": "Drops back to 5 furlongs where she should be more effective. Luke Morris takes the ride from draw 2 which offers a strong track bias advantage on Wolverhampton sprint track. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Happier",
+                    "rating": 89.5,
+                    "reason": "Drawn on the rail in stall 1 which is a key advantage on this short straight track. Jack Doughty takes over and past synthetic form makes her a solid exotic contender. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Captain Kinsella",
+                    "rating": 83.0,
+                    "reason": "Has shown flashes of capability over course and distance in the past, but recent outings have been disappointing. Needs pace to collapse to threaten. | <i>\u26a0\ufe0f Eased last start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Sixcor",
+                    "rating": 96.5,
+                    "reason": "Enters in peak form following a decisive 2-length victory at Ayr four days ago. Benefits from massive weight relief carrying just 119 lbs with T Kiely-Marshall claiming. High overall speed figures make him the clear top choice."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Poetic Jack",
+                    "rating": 96.5,
+                    "reason": "Trained by sprint specialist Robert Cowell. Projects as the primary early speed in the field and drawn well in stall 3 to control the tempo around this tight turn. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Fancy Dancer",
+                    "rating": 91.5,
+                    "reason": "Drops back to 5 furlongs where she should be more effective. Luke Morris takes the ride from draw 2 which offers a strong track bias advantage on Wolverhampton sprint track. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Happier",
+                    "rating": 89.5,
+                    "reason": "Drawn on the rail in stall 1 which is a key advantage on this short straight track. Jack Doughty takes over and past synthetic form makes her a solid exotic contender. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Captain Kinsella",
+                    "rating": 83.0,
+                    "reason": "Has shown flashes of capability over course and distance in the past, but recent outings have been disappointing. Needs pace to collapse to threaten. | <i>\u26a0\ufe0f Eased last start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Bust A Moon",
+                    "rating": 74.0,
+                    "reason": "Has struggled to make an impact in recent starts and looks outclassed even in this classified event."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "2",
+                "name": "Fancy Dancer",
+                "rating": 91.5,
+                "reason": "Drops back to 5 furlongs where she should be more effective. Luke Morris takes the ride from draw 2 which offers a strong track bias advantage on Wolverhampton sprint track. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win Wager (Tight Gap: +0.0 pts on #1 Sixcor)<br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #6, #4 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#2 Gunfighter</b> in R2 & <b>#2 Carnival Of Light</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#2 Carnival Of Light</b> in R3 & <b>#5 Suggy</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#5 Suggy</b> in R4 & <b>#3 Roc De Fer</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#3 Roc De Fer</b> in R5 & <b>#9 King Of Chaos (ire)</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R6 \u2794 R7):</b> Single <b>#9 King Of Chaos (ire)</b> in R6 & <b>#1 Sixcor</b> in R7 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3, #4) with (#2 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#1 (Solo Lock))"
+    ]
+}
