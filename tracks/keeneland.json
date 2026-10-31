@@ -1,16 +1,48 @@
 {
-    "location": "Lexington, KY",
-    "surface": "Dirt",
-    "distance": "1 1/16 Miles",
-    "bias_notes": "Short stretch means speed can steal. Rail position critical.",
+    "track_code": "KEE",
+    "location": "Lexington, Fayette County, Kentucky, USA",
+    "nicknames": [
+        "Keeneland Race Course",
+        "Heart of the Bluegrass",
+        "Home of the 2026 Breeders' Cup World Championships",
+        "Bluegrass Boutique Championship HQ"
+    ],
+    "courses": {
+        "main_dirt": {
+            "circumference": "1 1/16 Miles (8.5 Furlongs / 1,710 metres)",
+            "surface": "Dirt (Limestone-screened sandy clay loam cushion)",
+            "stretch_length": "1,236 feet (377m) to Primary Finish Line | 906 feet (276m) to Alternate Sixteenth-Pole Finish Line (1 1/16M routes ONLY)",
+            "bias_notes": "Counter-clockwise (left-handed). CRITICAL TWO-FINISH-LINE GEOMETRY: (1) Sprints (5.5f, 6f, 6.5f, 7f Beard Course) and longer routes (1 1/8M, 1 1/4M Classic, 1 1/2M) finish at the PRIMARY wire with a long 1,236-foot stretch where tactical stalkers ('P') and sustained pressers thrive. (2) 1 1/16 MILE DIRT ROUTES finish at the ALTERNATE SIXTEENTH-POLE WIRE — shortening BOTH the run into the first turn AND the stretch run by 330 feet (only 906ft home stretch!). This creates a powerful early speed ('E' / 'P') and ground-saving rail bias exclusively at 1 1/16 miles on dirt.",
+            "post_bias": "DISTANCE-SPECIFIC POST BIAS: Severe inside post advantage (posts 1-5) in 1 1/16M dirt routes due to the short run to the first turn and short 906ft finish. In 6f-7f Beard Course dirt sprints, middle-to-outside posts (5-10) hold an edge by sitting outside dirt kickback."
+        },
+        "haggin_turf": {
+            "circumference": "7 1/2 Furlongs (1,509 metres)",
+            "surface": "Turf (Cool-season Kentucky bluegrass / rye / fescue blend on limestone-drained base)",
+            "stretch_length": "1,190 feet (363 metres)",
+            "bias_notes": "Counter-clockwise (left-handed). Tight 7.5-furlong inner turf oval with banked turns and a generous 1,190-foot stretch. Portable rail settings (0ft, 10ft, 15ft, 20ft, 30ft) strongly influence geometry. In 5.5f turf sprints, sharp turn geometry heavily favors quick gate breakers ('E' and 'P'). In two-turn turf routes (1M, 1 1/16M, 1 1/8M, 1 1/2M), ground-saving mid-pack stalkers ('P') and explosive late-turn-of-foot closers ('S' and 'C') excel down the 1,190ft lane.",
+            "post_bias": "STRONG INSIDE DRAW EDGE ON TURF: Posts 1-6 hold a decisive ground-saving advantage in 5.5f turf sprints (very short run to the turn) and 1M / 1 1/16M turf routes. Wide draws (10-12) face heavy 3-to-4-wide ground loss around tight 7.5f turns."
+        }
+    },
     "handicapping_angles": {
-        "surface_bias": "Speed bias due to short stretch.",
-        "turf_notes": "Excellent turf. Inside posts slight advantage."
+        "alternate_wire_1_1_16m_dirt_speed_trap": "HIGHEST-VALUE ANGLE AT KEENELAND: 1 1/16-mile dirt races start just before the first turn and end at the sixteenth pole (906ft stretch instead of 1,236ft). Upgrade inside tactical speed ('E' and 'P', posts 1-5) by +3.5 pts and heavily downgrade deep one-run closers ('C') at 8.5 furlongs on dirt.",
+        "boutique_purse_and_breeders_cup_elite_class": "Keeneland operates short, ultra-prestigious Spring (April) and Fall (October) boutique meets plus Breeders' Cup World Championships. Maiden Specials ($100k+), Allowances ($110k-$140k), and Grade 1 fixtures (Blue Grass, Ashland, Maker's Mark Mile, Jenny Wiley, Coolmore Turf Mile, Spinster, Breeders' Futurity, First Lady, Breeders' Cup G1s) draw overflow 12-to-14 horse fields of maximum Tier 1 quality (+4.0 pts class angle).",
+        "beard_course_7f_outside_stalker_angle": "The 7-furlong Beard Course chute features a long straight run down the backstretch into a single sweeping turn and full 1,236ft stretch. Tactical pressers/stalkers ('P') drawn middle-to-outside (posts 5-10) avoid inside kickback and dominate 7f dirt dashes (+2.5 pts).",
+        "european_and_nyra_kentucky_downs_turf_shippers": "On the Haggin Turf Course, European shippers (Charlie Appleby / Godolphin, Aidan O'Brien / Ballydoyle) and elite NYRA / Kentucky Downs turf runners (Chad Brown, Brendan Walsh, Christophe Clement, Brad Cox, Graham Motion) hold a premier turn-of-foot edge (+3.5 pts).",
+        "wesley_ward_sprint_and_bluegrass_connections": "Wesley Ward is lethal in 4.5f (Headley Course) and 5.5f juvenile/turf sprints with bullet Keeneland gate works (+3.0 pts). Elite Keeneland riders (Flavien Prat, Irad Ortiz Jr., Tyler Gaffalione, Luis Saez, Ryan Moore, William Buick) maximize ground-saving trips.",
+        "keeneland_limestone_drainage_wet_fast_speed": "Keeneland's limestone sub-base drains rapidly after rain. Sealed 'Sloppy' or 'Good' dirt tracks become conveyor belts for front-end speed ('E' style).",
+        "typical_distances": "Dirt: 4.5f (Headley Chute), 5.5f, 6f, 6.5f, 7f (Beard Chute), 1 1/16M (Alt Finish), 1 1/8M, 1 1/4M (BC Classic), 1 1/2M, 1 5/8M. Turf: 5.5f, 1 Mile, 1 1/16M, 1 1/8M, 1 3/16M, 1 1/2M (BC Turf)."
     },
     "par_adjustment": {
-        "tier": "Tier 1 (Huge Fields)",
-        "lengths": 5.0,
-        "points": 12.0
+        "tier": "Tier 1 (USA Premier Boutique & Breeders' Cup HQ)",
+        "class_rating": 100,
+        "speed_par_offsets": {
+            "dirt_sprint": "+3.5",
+            "dirt_route": "+4.0",
+            "turf_sprint": "+3.5",
+            "turf_route": "+4.0"
+        },
+        "lengths": 0.0,
+        "points": 0.0
     },
     "region_group": "USA_Thoroughbred"
 }
