@@ -1,0 +1,1610 @@
+{
+    "meta": {
+        "track": "Del Mar",
+        "date": "2026-08-14",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 3, 6; Trifecta 3 / 1, 6 / 1, 2, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Stanford Dropout",
+                        "handicapper_notes": "Exits a sharp second-place effort at this track and distance on July 23 posting an 85 speed figure. Lands in the red-hot Brian Koriner barn (31% meet strike rate) and gets the ideal tactical draw to stalk or lead early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Jalisco",
+                        "handicapper_notes": "Consistent 3YO from the top Doug O'Neill stable with Kazushi Kimura in the irons. Finished third just behind Stanford Dropout last out and benefits from the rail post on the fast Del Mar dirt strip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Chase N Ryan",
+                        "handicapper_notes": "Massive class drop from AOC/Allowance company into $12,500 claiming. Holds a previous win over this track and surface with a competitive 82 figure and possesses the highest raw speed ratings in the field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Turf to Dirt",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Joker Went Wild",
+                        "handicapper_notes": "Second runner from the O'Neill barn. Possesses sharp early foot but weakened to 6th last out. Will be prominent early under Emisael Jaramillo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Original One",
+                        "handicapper_notes": "Rallied for fourth behind the top choices on July 23. Carries 115 lbs with the apprentice allowance but closer running style is disadvantaged on Del Mar sprint profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Eielson",
+                        "handicapper_notes": "Shipper from Los Alamitos with tactical speed, getting a 7-pound weight break. May contest early splits but faces tougher class test.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Stanford Dropout",
+                    "rating": 92.0,
+                    "reason": "Exits a sharp second-place effort at this track and distance on July 23 posting an 85 speed figure. Lands in the red-hot Brian Koriner barn (31% meet strike rate) and gets the ideal tactical draw to stalk or lead early."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jalisco",
+                    "rating": 90.0,
+                    "reason": "Consistent 3YO from the top Doug O'Neill stable with Kazushi Kimura in the irons. Finished third just behind Stanford Dropout last out and benefits from the rail post on the fast Del Mar dirt strip."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Chase N Ryan",
+                    "rating": 86.0,
+                    "reason": "Massive class drop from AOC/Allowance company into $12,500 claiming. Holds a previous win over this track and surface with a competitive 82 figure and possesses the highest raw speed ratings in the field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Original One",
+                    "rating": 83.0,
+                    "reason": "Rallied for fourth behind the top choices on July 23. Carries 115 lbs with the apprentice allowance but closer running style is disadvantaged on Del Mar sprint profile."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Joker Went Wild",
+                    "rating": 79.0,
+                    "reason": "Second runner from the O'Neill barn. Possesses sharp early foot but weakened to 6th last out. Will be prominent early under Emisael Jaramillo."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Stanford Dropout",
+                    "rating": 92.0,
+                    "reason": "Exits a sharp second-place effort at this track and distance on July 23 posting an 85 speed figure. Lands in the red-hot Brian Koriner barn (31% meet strike rate) and gets the ideal tactical draw to stalk or lead early."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jalisco",
+                    "rating": 90.0,
+                    "reason": "Consistent 3YO from the top Doug O'Neill stable with Kazushi Kimura in the irons. Finished third just behind Stanford Dropout last out and benefits from the rail post on the fast Del Mar dirt strip."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Chase N Ryan",
+                    "rating": 86.0,
+                    "reason": "Massive class drop from AOC/Allowance company into $12,500 claiming. Holds a previous win over this track and surface with a competitive 82 figure and possesses the highest raw speed ratings in the field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Turf to Dirt</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Original One",
+                    "rating": 83.0,
+                    "reason": "Rallied for fourth behind the top choices on July 23. Carries 115 lbs with the apprentice allowance but closer running style is disadvantaged on Del Mar sprint profile."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Joker Went Wild",
+                    "rating": 79.0,
+                    "reason": "Second runner from the O'Neill barn. Possesses sharp early foot but weakened to 6th last out. Will be prominent early under Emisael Jaramillo."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Eielson",
+                    "rating": 77.0,
+                    "reason": "Shipper from Los Alamitos with tactical speed, getting a 7-pound weight break. May contest early splits but faces tougher class test."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Chase N Ryan",
+                "rating": 86.0,
+                "reason": "Massive class drop from AOC/Allowance company into $12,500 claiming. Holds a previous win over this track and surface with a competitive 82 figure and possesses the highest raw speed ratings in the field. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Turf to Dirt</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Stanford Dropout</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #1, #6 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Straight Exacta 4 over 1, 3; Trifecta 4 with 1, 3 with 1, 2, 3, 7",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Let Her Fly",
+                        "handicapper_notes": "Massive pace and experience edge. Handily took the lead and set all the fractions over this exact Del Mar 1-mile turf course on July 26, only getting nailed in the final strides while earning a field-best 83 figure. With scratches and an unproven field of firsters, she projects as uncontested Lone Speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 93,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Janie Not Jeanie",
+                        "handicapper_notes": "Barnmate to the favorite has two solid dirt sprint starts under her belt and now stretches out to a mile on turf from the coveted rail post. Retains leading rider Juan Hernandez, who is hitting at a blistering 73% with 2-year-olds at the meet.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Ogle",
+                        "handicapper_notes": "First-time starter by prolific turf sire Oscar Performance out of a Quality Road mare. Showing steady morning drills for Michael McCarthy and attracts leading turf rider Umberto Rispoli. Major upside threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Vendetta",
+                        "handicapper_notes": "Regally bred firster by Curlin out of multiple Grade 1 turf winning mare Avenge. Hall of Fame conditioner Richard Mandella has given her back-to-back 6-furlong gate works at Del Mar to build route stamina.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Miss Parisian",
+                        "handicapper_notes": "Firster by City of Light working in tandem with stablemate Ogle. Draws the outside post and receives FTS penalty against seasoned route form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Vintage Queen",
+                        "handicapper_notes": "Debuting daughter of freshman sprint sire Yaupon for Richard Baltas. Pedigree tilts sprint-heavy for a two-turn debut on grass.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Let Her Fly",
+                    "rating": 96.0,
+                    "reason": "Massive pace and experience edge. Handily took the lead and set all the fractions over this exact Del Mar 1-mile turf course on July 26, only getting nailed in the final strides while earning a field-best 83 figure. With scratches and an unproven field of firsters, she projects as uncontested Lone Speed. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Janie Not Jeanie",
+                    "rating": 90.0,
+                    "reason": "Barnmate to the favorite has two solid dirt sprint starts under her belt and now stretches out to a mile on turf from the coveted rail post. Retains leading rider Juan Hernandez, who is hitting at a blistering 73% with 2-year-olds at the meet. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ogle",
+                    "rating": 87.0,
+                    "reason": "First-time starter by prolific turf sire Oscar Performance out of a Quality Road mare. Showing steady morning drills for Michael McCarthy and attracts leading turf rider Umberto Rispoli. Major upside threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Vendetta",
+                    "rating": 86.0,
+                    "reason": "Regally bred firster by Curlin out of multiple Grade 1 turf winning mare Avenge. Hall of Fame conditioner Richard Mandella has given her back-to-back 6-furlong gate works at Del Mar to build route stamina."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Vintage Queen",
+                    "rating": 78.0,
+                    "reason": "Debuting daughter of freshman sprint sire Yaupon for Richard Baltas. Pedigree tilts sprint-heavy for a two-turn debut on grass."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Let Her Fly",
+                    "rating": 96.0,
+                    "reason": "Massive pace and experience edge. Handily took the lead and set all the fractions over this exact Del Mar 1-mile turf course on July 26, only getting nailed in the final strides while earning a field-best 83 figure. With scratches and an unproven field of firsters, she projects as uncontested Lone Speed. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Janie Not Jeanie",
+                    "rating": 90.0,
+                    "reason": "Barnmate to the favorite has two solid dirt sprint starts under her belt and now stretches out to a mile on turf from the coveted rail post. Retains leading rider Juan Hernandez, who is hitting at a blistering 73% with 2-year-olds at the meet. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Ogle",
+                    "rating": 87.0,
+                    "reason": "First-time starter by prolific turf sire Oscar Performance out of a Quality Road mare. Showing steady morning drills for Michael McCarthy and attracts leading turf rider Umberto Rispoli. Major upside threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Vendetta",
+                    "rating": 86.0,
+                    "reason": "Regally bred firster by Curlin out of multiple Grade 1 turf winning mare Avenge. Hall of Fame conditioner Richard Mandella has given her back-to-back 6-furlong gate works at Del Mar to build route stamina."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Vintage Queen",
+                    "rating": 78.0,
+                    "reason": "Debuting daughter of freshman sprint sire Yaupon for Richard Baltas. Pedigree tilts sprint-heavy for a two-turn debut on grass."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Miss Parisian",
+                    "rating": 76.0,
+                    "reason": "Firster by City of Light working in tandem with stablemate Ogle. Draws the outside post and receives FTS penalty against seasoned route form."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Ogle",
+                "rating": 87.0,
+                "reason": "First-time starter by prolific turf sire Oscar Performance out of a Quality Road mare. Showing steady morning drills for Michael McCarthy and attracts leading turf rider Umberto Rispoli. Major upside threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Let Her Fly</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#1, #3) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 2; Exacta 2 / 3, 4, 7; Trifecta 2 / 3, 4 / 1, 3, 4, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Circuit Breaker",
+                        "handicapper_notes": "Holds a clear form and speed figure edge over this field after posting an imposing 90 speed figure when finishing a game second at this exact track, distance, and $25k claiming level on July 17. Pairs with leading rider Juan Hernandez and draws ideally inside to track just off the frontrunner.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser / Stalker",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Redial",
+                        "handicapper_notes": "Massive danger horse. Completely toss his last race where he hopped and threw his head at the break. Boasts a massive 97 speed figure two starts back at this distance and condition. Antonio Garcia is having an outstanding meet (33% win rate).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Stalker",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Hopped / Threw head at start last race",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Che (IRE)",
+                        "handicapper_notes": "Dominant maiden winner over this dirt strip on July 19 for the red-hot Doug O'Neill barn. Steps up against winners today but retains Kazushi Kimura and possesses strong positional speed to sit in the prime tracking pocket.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tracking",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Straight Buzzin",
+                        "handicapper_notes": "The primary early pacesetter in the race stretching out around two turns for the first time. Won a CLM32k sprint at Santa Anita with an 89 speed figure; could be dangerous if left unchecked on a loose uncontested lead on the glib Del Mar dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Pacesetter",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Curly's Agenda",
+                        "handicapper_notes": "Drew the rail to save all the ground. Rebounded from a slow break two back to win over a mile at Santa Anita with an 83 figure; needs to improve off his recent 74 effort to threaten the top pair.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack Rail",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slight bobble last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Skyquist",
+                        "handicapper_notes": "Proven affinity for the Del Mar main track having won and hit the board in competitive dirt routes here last summer with figures up to 89. Eligible to hit the superfecta at double-digit odds.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Closer",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Circuit Breaker",
+                    "rating": 94.0,
+                    "reason": "Holds a clear form and speed figure edge over this field after posting an imposing 90 speed figure when finishing a game second at this exact track, distance, and $25k claiming level on July 17. Pairs with leading rider Juan Hernandez and draws ideally inside to track just off the frontrunner."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Che (IRE)",
+                    "rating": 88.0,
+                    "reason": "Dominant maiden winner over this dirt strip on July 19 for the red-hot Doug O'Neill barn. Steps up against winners today but retains Kazushi Kimura and possesses strong positional speed to sit in the prime tracking pocket."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Redial",
+                    "rating": 87.0,
+                    "reason": "Massive danger horse. Completely toss his last race where he hopped and threw his head at the break. Boasts a massive 97 speed figure two starts back at this distance and condition. Antonio Garcia is having an outstanding meet (33% win rate). | <i>\u26a0\ufe0f Hopped / Threw head at start last race</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Curly's Agenda",
+                    "rating": 84.0,
+                    "reason": "Drew the rail to save all the ground. Rebounded from a slow break two back to win over a mile at Santa Anita with an 83 figure; needs to improve off his recent 74 effort to threaten the top pair. | <i>\u26a0\ufe0f Slight bobble last start</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Skyquist",
+                    "rating": 80.0,
+                    "reason": "Proven affinity for the Del Mar main track having won and hit the board in competitive dirt routes here last summer with figures up to 89. Eligible to hit the superfecta at double-digit odds."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Circuit Breaker",
+                    "rating": 94.0,
+                    "reason": "Holds a clear form and speed figure edge over this field after posting an imposing 90 speed figure when finishing a game second at this exact track, distance, and $25k claiming level on July 17. Pairs with leading rider Juan Hernandez and draws ideally inside to track just off the frontrunner."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Che (IRE)",
+                    "rating": 88.0,
+                    "reason": "Dominant maiden winner over this dirt strip on July 19 for the red-hot Doug O'Neill barn. Steps up against winners today but retains Kazushi Kimura and possesses strong positional speed to sit in the prime tracking pocket."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Redial",
+                    "rating": 87.0,
+                    "reason": "Massive danger horse. Completely toss his last race where he hopped and threw his head at the break. Boasts a massive 97 speed figure two starts back at this distance and condition. Antonio Garcia is having an outstanding meet (33% win rate). | <i>\u26a0\ufe0f Hopped / Threw head at start last race</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Curly's Agenda",
+                    "rating": 84.0,
+                    "reason": "Drew the rail to save all the ground. Rebounded from a slow break two back to win over a mile at Santa Anita with an 83 figure; needs to improve off his recent 74 effort to threaten the top pair. | <i>\u26a0\ufe0f Slight bobble last start</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Skyquist",
+                    "rating": 80.0,
+                    "reason": "Proven affinity for the Del Mar main track having won and hit the board in competitive dirt routes here last summer with figures up to 89. Eligible to hit the superfecta at double-digit odds."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Straight Buzzin",
+                    "rating": 79.0,
+                    "reason": "The primary early pacesetter in the race stretching out around two turns for the first time. Won a CLM32k sprint at Santa Anita with an 89 speed figure; could be dangerous if left unchecked on a loose uncontested lead on the glib Del Mar dirt. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Redial",
+                "rating": 87.0,
+                "reason": "Massive danger horse. Completely toss his last race where he hopped and threw his head at the break. Boasts a massive 97 speed figure two starts back at this distance and condition. Antonio Garcia is having an outstanding meet (33% win rate). | <i>\u26a0\ufe0f Hopped / Threw head at start last race</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Circuit Breaker</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#3, #4) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 1 over 4, 10; Trifecta 1 with 4, 10 with 2, 3, 4, 5, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Ah Jeez",
+                        "handicapper_notes": "Dominant top pick coming off a sharp, driving win over this course on July 19 with a field-best speed figure. Draws the coveted rail post 1 to save ground perfectly into the tight first turn for high-percentage trainer Doug O Neill and Emisael Jaramillo.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Mubtadaa",
+                        "handicapper_notes": "Classy 8yo gelding stretches back out to his optimal one-mile distance after getting tight at the 5/16 pole in a 5F turf sprint prep. Secures top turf pilot Joel Rosario and ideal mid-pack tactical positioning.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Traffic Trouble",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Zalamo (fr)",
+                        "handicapper_notes": "Ran a strong closing 3rd behind Ah Jeez on July 19 with Umberto Rispoli. Incurred the mandatory -5 point Durante Geometry penalty for drawing post 10 in a Del Mar 1-mile turf route, but remains the most dangerous closing threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Double Neat",
+                        "handicapper_notes": "Consistent router moves into the Peter Miller barn with Hector Berrios up. Incurred a -2 point acclimation penalty as an out-of-state shipper making his Del Mar turf debut, but benefits from post 2 ground-saving geometry.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Phosphorescence (fr)",
+                        "handicapper_notes": "Main speed element of the race following the scratch of Mr. Leasure. Forgive his eased effort last out; his prior gate-to-wire and pace-pressing speed figures at Santa Anita make him dangerous if left uncontested.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "Eased Last Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Uncle Happy",
+                        "handicapper_notes": "Honest grinder for Leonard Powell who has raced competitively against tougher $40k claimers. Well drawn inside to track behind the leaders and grind out a minor share.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ah Jeez",
+                    "rating": 95.0,
+                    "reason": "Dominant top pick coming off a sharp, driving win over this course on July 19 with a field-best speed figure. Draws the coveted rail post 1 to save ground perfectly into the tight first turn for high-percentage trainer Doug O Neill and Emisael Jaramillo. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Mubtadaa",
+                    "rating": 87.0,
+                    "reason": "Classy 8yo gelding stretches back out to his optimal one-mile distance after getting tight at the 5/16 pole in a 5F turf sprint prep. Secures top turf pilot Joel Rosario and ideal mid-pack tactical positioning. | <i>\u26a0\ufe0f Traffic Trouble \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Double Neat",
+                    "rating": 87.0,
+                    "reason": "Consistent router moves into the Peter Miller barn with Hector Berrios up. Incurred a -2 point acclimation penalty as an out-of-state shipper making his Del Mar turf debut, but benefits from post 2 ground-saving geometry."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Phosphorescence (fr)",
+                    "rating": 85.0,
+                    "reason": "Main speed element of the race following the scratch of Mr. Leasure. Forgive his eased effort last out; his prior gate-to-wire and pace-pressing speed figures at Santa Anita make him dangerous if left uncontested. | <i>\ud83d\udd25 Lone Speed \u2022 \u26a0\ufe0f Eased Last Start</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Uncle Happy",
+                    "rating": 83.0,
+                    "reason": "Honest grinder for Leonard Powell who has raced competitively against tougher $40k claimers. Well drawn inside to track behind the leaders and grind out a minor share. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Ah Jeez",
+                    "rating": 95.0,
+                    "reason": "Dominant top pick coming off a sharp, driving win over this course on July 19 with a field-best speed figure. Draws the coveted rail post 1 to save ground perfectly into the tight first turn for high-percentage trainer Doug O Neill and Emisael Jaramillo. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Mubtadaa",
+                    "rating": 87.0,
+                    "reason": "Classy 8yo gelding stretches back out to his optimal one-mile distance after getting tight at the 5/16 pole in a 5F turf sprint prep. Secures top turf pilot Joel Rosario and ideal mid-pack tactical positioning. | <i>\u26a0\ufe0f Traffic Trouble \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Double Neat",
+                    "rating": 87.0,
+                    "reason": "Consistent router moves into the Peter Miller barn with Hector Berrios up. Incurred a -2 point acclimation penalty as an out-of-state shipper making his Del Mar turf debut, but benefits from post 2 ground-saving geometry."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Phosphorescence (fr)",
+                    "rating": 85.0,
+                    "reason": "Main speed element of the race following the scratch of Mr. Leasure. Forgive his eased effort last out; his prior gate-to-wire and pace-pressing speed figures at Santa Anita make him dangerous if left uncontested. | <i>\ud83d\udd25 Lone Speed \u2022 \u26a0\ufe0f Eased Last Start</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Uncle Happy",
+                    "rating": 83.0,
+                    "reason": "Honest grinder for Leonard Powell who has raced competitively against tougher $40k claimers. Well drawn inside to track behind the leaders and grind out a minor share. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Zalamo (fr)",
+                    "rating": 81.0,
+                    "reason": "Ran a strong closing 3rd behind Ah Jeez on July 19 with Umberto Rispoli. Incurred the mandatory -5 point Durante Geometry penalty for drawing post 10 in a Del Mar 1-mile turf route, but remains the most dangerous closing threat."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Zalamo (fr)",
+                "rating": 81.0,
+                "reason": "Ran a strong closing 3rd behind Ah Jeez on July 19 with Umberto Rispoli. Incurred the mandatory -5 point Durante Geometry penalty for drawing post 10 in a Del Mar 1-mile turf route, but remains the most dangerous closing threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Ah Jeez</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#4, #2, #10) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 6 with 4, 2; Trifecta 6 / 2, 4 / 1, 2, 4, 7",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Jetway",
+                        "handicapper_notes": "Top selection. Boasts proven form at this level with an 85 speed figure when second in MCL32k at Santa Anita and a solid third in Del Mar MCL50k on July 19 behind stakes-bound Howie's Law. Sharp bullet 5F drill in 1:00.00 over the track on Aug 7. Gets premier pilot Joel Rosario for top trainer John Sadler.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Broheim",
+                        "handicapper_notes": "Major contender dropping into claiming ranks for the first time. Possesses the highest lifetime figures in the field (98, 90, 85 in MSW company) and pairs Del Mar leading rider Juan Hernandez (41% dirt win rate) with Michael McCarthy. Class drop bonus disabled per Del Mar MSW-to-MCL rule.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Practical Jack",
+                        "handicapper_notes": "Significant class drop from two competitive Maiden Special Weight attempts down to $32k claiming. Fired an eye-catching 4F bullet in 46.80 (4/78) over the Del Mar strip on Aug 7. Has tactical early speed to secure good rail positioning.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Freddy Five Four",
+                        "handicapper_notes": "Stumbled at the start and never got involved in the July 19 Del Mar MCL50k. Has upside in second start over the local strip and draws inside with Joe Bravo. Capable of hitting the board if breaking cleanly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Stumbled start in last",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Zenjin",
+                        "handicapper_notes": "First-time starter by Maximum Security from the Jeff Bonde barn. Shows steady gate drills at Del Mar including 5F in 1:01.00 HG on July 17. Represents an under-the-radar upset threat in a field lacking deep established form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Kore Kinetic",
+                        "handicapper_notes": "Possesses genuine early sprint speed and gets aggressive gate pilot Edwin Maldonado, but has folded tamely in both 2026 starts, beaten combined 37 lengths. Must establish control early to have any staying power.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast",
+                            "ai_holistic_score": 76,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Jetway",
+                    "rating": 90.0,
+                    "reason": "Top selection. Boasts proven form at this level with an 85 speed figure when second in MCL32k at Santa Anita and a solid third in Del Mar MCL50k on July 19 behind stakes-bound Howie's Law. Sharp bullet 5F drill in 1:00.00 over the track on Aug 7. Gets premier pilot Joel Rosario for top trainer John Sadler."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Broheim",
+                    "rating": 87.0,
+                    "reason": "Major contender dropping into claiming ranks for the first time. Possesses the highest lifetime figures in the field (98, 90, 85 in MSW company) and pairs Del Mar leading rider Juan Hernandez (41% dirt win rate) with Michael McCarthy. Class drop bonus disabled per Del Mar MSW-to-MCL rule. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Practical Jack",
+                    "rating": 86.0,
+                    "reason": "Significant class drop from two competitive Maiden Special Weight attempts down to $32k claiming. Fired an eye-catching 4F bullet in 46.80 (4/78) over the Del Mar strip on Aug 7. Has tactical early speed to secure good rail positioning."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Freddy Five Four",
+                    "rating": 83.0,
+                    "reason": "Stumbled at the start and never got involved in the July 19 Del Mar MCL50k. Has upside in second start over the local strip and draws inside with Joe Bravo. Capable of hitting the board if breaking cleanly. | <i>\u26a0\ufe0f Stumbled start in last</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Kore Kinetic",
+                    "rating": 76.0,
+                    "reason": "Possesses genuine early sprint speed and gets aggressive gate pilot Edwin Maldonado, but has folded tamely in both 2026 starts, beaten combined 37 lengths. Must establish control early to have any staying power."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Jetway",
+                    "rating": 90.0,
+                    "reason": "Top selection. Boasts proven form at this level with an 85 speed figure when second in MCL32k at Santa Anita and a solid third in Del Mar MCL50k on July 19 behind stakes-bound Howie's Law. Sharp bullet 5F drill in 1:00.00 over the track on Aug 7. Gets premier pilot Joel Rosario for top trainer John Sadler."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Broheim",
+                    "rating": 87.0,
+                    "reason": "Major contender dropping into claiming ranks for the first time. Possesses the highest lifetime figures in the field (98, 90, 85 in MSW company) and pairs Del Mar leading rider Juan Hernandez (41% dirt win rate) with Michael McCarthy. Class drop bonus disabled per Del Mar MSW-to-MCL rule. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Practical Jack",
+                    "rating": 86.0,
+                    "reason": "Significant class drop from two competitive Maiden Special Weight attempts down to $32k claiming. Fired an eye-catching 4F bullet in 46.80 (4/78) over the Del Mar strip on Aug 7. Has tactical early speed to secure good rail positioning."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Freddy Five Four",
+                    "rating": 83.0,
+                    "reason": "Stumbled at the start and never got involved in the July 19 Del Mar MCL50k. Has upside in second start over the local strip and draws inside with Joe Bravo. Capable of hitting the board if breaking cleanly. | <i>\u26a0\ufe0f Stumbled start in last</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Kore Kinetic",
+                    "rating": 76.0,
+                    "reason": "Possesses genuine early sprint speed and gets aggressive gate pilot Edwin Maldonado, but has folded tamely in both 2026 starts, beaten combined 37 lengths. Must establish control early to have any staying power."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Zenjin",
+                    "rating": 74.0,
+                    "reason": "First-time starter by Maximum Security from the Jeff Bonde barn. Shows steady gate drills at Del Mar including 5F in 1:01.00 HG on July 17. Represents an under-the-radar upset threat in a field lacking deep established form."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Zenjin",
+                "rating": 74.0,
+                "reason": "First-time starter by Maximum Security from the Jeff Bonde barn. Shows steady gate drills at Del Mar including 5F in 1:01.00 HG on July 17. Represents an under-the-radar upset threat in a field lacking deep established form."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Jetway</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #4, #7 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta Box 1, 8, 9 with Trifecta 1, 8, 9 / 1, 4, 7, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Frank Bullitt",
+                        "handicapper_notes": "Draws the ideal rail post to save ground on the tight Del Mar turf turn. Coming off a sharp win at Del Mar and has consistently registered triple-digit speed figures across recent turf and dirt sprints.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Jack Fish",
+                        "handicapper_notes": "Trained by turf sprint specialist Peter Miller and gets the services of Joel Rosario. Boasts proven track-and-trip form with 101 and 99 speed figures over Del Mar 5F turf course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ballyvaughan Gig",
+                        "handicapper_notes": "Possesses blistering early speed with 21.x opening splits. Set the pace over this course and distance on August 1 and holds a stellar 105 turf sprint speed figure.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Contender",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Lucky N Smart",
+                        "handicapper_notes": "Overcame trouble when squeezed early and blocked in upper stretch to win his Del Mar turf sprint debut on July 19. Retains top pilot Kazushi Kimura and Carla Gaines.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Traffic Trouble Last Out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Mo Holland Drive",
+                        "handicapper_notes": "High-upside 3-year-old from the Peter Miller barn gets a major 6-pound weight break at 118 lbs with Antonio Fresu. Dangerous stalker capable of firing fresh.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pokerknightatvees",
+                        "handicapper_notes": "Draws well inside with solid early gate speed. Proven winner at 6F with a 108 speed figure; figures to contest the early pace under Ricardo Gonzalez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Frank Bullitt",
+                    "rating": 92.0,
+                    "reason": "Draws the ideal rail post to save ground on the tight Del Mar turf turn. Coming off a sharp win at Del Mar and has consistently registered triple-digit speed figures across recent turf and dirt sprints. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Lucky N Smart",
+                    "rating": 85.0,
+                    "reason": "Overcame trouble when squeezed early and blocked in upper stretch to win his Del Mar turf sprint debut on July 19. Retains top pilot Kazushi Kimura and Carla Gaines. | <i>\u26a0\ufe0f Traffic Trouble Last Out \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pokerknightatvees",
+                    "rating": 84.0,
+                    "reason": "Draws well inside with solid early gate speed. Proven winner at 6F with a 108 speed figure; figures to contest the early pace under Ricardo Gonzalez. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Jack Fish",
+                    "rating": 83.0,
+                    "reason": "Trained by turf sprint specialist Peter Miller and gets the services of Joel Rosario. Boasts proven track-and-trip form with 101 and 99 speed figures over Del Mar 5F turf course. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ballyvaughan Gig",
+                    "rating": 82.0,
+                    "reason": "Possesses blistering early speed with 21.x opening splits. Set the pace over this course and distance on August 1 and holds a stellar 105 turf sprint speed figure. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Frank Bullitt",
+                    "rating": 92.0,
+                    "reason": "Draws the ideal rail post to save ground on the tight Del Mar turf turn. Coming off a sharp win at Del Mar and has consistently registered triple-digit speed figures across recent turf and dirt sprints. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Lucky N Smart",
+                    "rating": 85.0,
+                    "reason": "Overcame trouble when squeezed early and blocked in upper stretch to win his Del Mar turf sprint debut on July 19. Retains top pilot Kazushi Kimura and Carla Gaines. | <i>\u26a0\ufe0f Traffic Trouble Last Out \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pokerknightatvees",
+                    "rating": 84.0,
+                    "reason": "Draws well inside with solid early gate speed. Proven winner at 6F with a 108 speed figure; figures to contest the early pace under Ricardo Gonzalez. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Jack Fish",
+                    "rating": 83.0,
+                    "reason": "Trained by turf sprint specialist Peter Miller and gets the services of Joel Rosario. Boasts proven track-and-trip form with 101 and 99 speed figures over Del Mar 5F turf course. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ballyvaughan Gig",
+                    "rating": 82.0,
+                    "reason": "Possesses blistering early speed with 21.x opening splits. Set the pace over this course and distance on August 1 and holds a stellar 105 turf sprint speed figure. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Mo Holland Drive",
+                    "rating": 79.0,
+                    "reason": "High-upside 3-year-old from the Peter Miller barn gets a major 6-pound weight break at 118 lbs with Antonio Fresu. Dangerous stalker capable of firing fresh. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Mo Holland Drive",
+                "rating": 79.0,
+                "reason": "High-upside 3-year-old from the Peter Miller barn gets a major 6-pound weight break at 118 lbs with Antonio Fresu. Dangerous stalker capable of firing fresh. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Frank Bullitt</b> (Solo Lock - Gap: +7.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#4, #2, #7) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "6 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "6 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 6 with 1, 5; Trifecta 6 over 1, 5 over 1, 3, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Howie's Law",
+                        "handicapper_notes": "Dominant local winner on July 19 over this dirt surface, romping by 7 1/2 lengths while earning a sharp 91 speed figure. Doug O'Neill is the leading trainer at the meet (24% wins, 27% on main dirt), and Jaramillo retains the mount. Drawn ideally outside to press or clear.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace / Early Pressure",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Got'm Cot'm",
+                        "handicapper_notes": "Possesses the highest last-out dirt speed figure in the field (96) after setting blazing splits (21.76, 44.50) and fighting gamely for second at 7F over this track on July 19. Benefits from the cutback to 6.5F, the rail draw on Del Mar speed-favoring dirt, and elite pilot Joel Rosario.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Speed Advantage",
+                            "ai_holistic_score": 88,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Wall Street",
+                        "handicapper_notes": "Son of Into Mischief makes his California debut firing bullet morning drills at Del Mar (5F in 59.60 and 59.20). Won gate-to-wire at Gulfstream Park and gets top tactical rider Umberto Rispoli. Serious win candidate if transferring workout form to afternoon racing.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Agrowest",
+                        "handicapper_notes": "Unbeaten after scoring handily on debut at Los Alamitos at this exact 6.5F trip. Trainer Neil Drysdale turns to meet-leading jockey Juan Hernandez (26% win rate, 41% on dirt). Strong 6F stamina drill (1:14.00) on Aug 8 indicates fitness for class rise.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "King Stephen",
+                        "handicapper_notes": "Makes first start since being gelded and drops out of tough turf allowance/AOC company into restricted starter conditions. Class drop bonus applied for drop from $90k allowance conditions to SOC50k. Ayuso picks up the assignment.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Closer / Meltdown Threat",
+                            "ai_holistic_score": 81,
+                            "running_style": "P/C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Palmer Beach",
+                        "handicapper_notes": "Finished 6th behind Got'm Cot'm here on July 19 after bobbling at the start. Has tactical sprint ability from Oaklawn form, but must step up speed figures significantly to contend for the top spots.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Troubled Start Last Race",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "King Stephen",
+                    "rating": 92.0,
+                    "reason": "Makes first start since being gelded and drops out of tough turf allowance/AOC company into restricted starter conditions. Class drop bonus applied for drop from $90k allowance conditions to SOC50k. Ayuso picks up the assignment. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Howie's Law",
+                    "rating": 91.0,
+                    "reason": "Dominant local winner on July 19 over this dirt surface, romping by 7 1/2 lengths while earning a sharp 91 speed figure. Doug O'Neill is the leading trainer at the meet (24% wins, 27% on main dirt), and Jaramillo retains the mount. Drawn ideally outside to press or clear. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Got'm Cot'm",
+                    "rating": 91.0,
+                    "reason": "Possesses the highest last-out dirt speed figure in the field (96) after setting blazing splits (21.76, 44.50) and fighting gamely for second at 7F over this track on July 19. Benefits from the cutback to 6.5F, the rail draw on Del Mar speed-favoring dirt, and elite pilot Joel Rosario. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Wall Street",
+                    "rating": 85.0,
+                    "reason": "Son of Into Mischief makes his California debut firing bullet morning drills at Del Mar (5F in 59.60 and 59.20). Won gate-to-wire at Gulfstream Park and gets top tactical rider Umberto Rispoli. Serious win candidate if transferring workout form to afternoon racing. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Agrowest",
+                    "rating": 83.0,
+                    "reason": "Unbeaten after scoring handily on debut at Los Alamitos at this exact 6.5F trip. Trainer Neil Drysdale turns to meet-leading jockey Juan Hernandez (26% win rate, 41% on dirt). Strong 6F stamina drill (1:14.00) on Aug 8 indicates fitness for class rise. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "King Stephen",
+                    "rating": 92.0,
+                    "reason": "Makes first start since being gelded and drops out of tough turf allowance/AOC company into restricted starter conditions. Class drop bonus applied for drop from $90k allowance conditions to SOC50k. Ayuso picks up the assignment. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Howie's Law",
+                    "rating": 91.0,
+                    "reason": "Dominant local winner on July 19 over this dirt surface, romping by 7 1/2 lengths while earning a sharp 91 speed figure. Doug O'Neill is the leading trainer at the meet (24% wins, 27% on main dirt), and Jaramillo retains the mount. Drawn ideally outside to press or clear. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Got'm Cot'm",
+                    "rating": 91.0,
+                    "reason": "Possesses the highest last-out dirt speed figure in the field (96) after setting blazing splits (21.76, 44.50) and fighting gamely for second at 7F over this track on July 19. Benefits from the cutback to 6.5F, the rail draw on Del Mar speed-favoring dirt, and elite pilot Joel Rosario. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Wall Street",
+                    "rating": 85.0,
+                    "reason": "Son of Into Mischief makes his California debut firing bullet morning drills at Del Mar (5F in 59.60 and 59.20). Won gate-to-wire at Gulfstream Park and gets top tactical rider Umberto Rispoli. Serious win candidate if transferring workout form to afternoon racing. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Agrowest",
+                    "rating": 83.0,
+                    "reason": "Unbeaten after scoring handily on debut at Los Alamitos at this exact 6.5F trip. Trainer Neil Drysdale turns to meet-leading jockey Juan Hernandez (26% win rate, 41% on dirt). Strong 6F stamina drill (1:14.00) on Aug 8 indicates fitness for class rise. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Palmer Beach",
+                    "rating": 80.0,
+                    "reason": "Finished 6th behind Got'm Cot'm here on July 19 after bobbling at the start. Has tactical sprint ability from Oaklawn form, but must step up speed figures significantly to contend for the top spots. | <i>\u26a0\ufe0f Troubled Start Last Race \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Wall Street",
+                "rating": 85.0,
+                "reason": "Son of Into Mischief makes his California debut firing bullet morning drills at Del Mar (5F in 59.60 and 59.20). Won gate-to-wire at Gulfstream Park and gets top tactical rider Umberto Rispoli. Serious win candidate if transferring workout form to afternoon racing. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 King Stephen</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #6, #5 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 4, 7; Trifecta 4 / 3, 7, 9 / 2, 3, 7, 9, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Danzing Daisy",
+                        "handicapper_notes": "Holds top overall turf consistency with competitive speed figures (83 last out at Del Mar). Secures an ideal inside-mid draw in Post 4 to save ground into the critical first turn. No class drop elevator applied for MSW-to-MCL per Del Mar rules.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Risky Pleasure",
+                        "handicapper_notes": "Lands elite Del Mar pilot Juan Hernandez (25 percent win rate). Drops out of tough Southern California MSW turf routes into Cal-bred maiden claiming ranks. Well drawn inside to navigate the tight opening bend.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Trouble in previous start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Nancy Two Point O",
+                        "handicapper_notes": "High-upside danger horse returning from extended layoff for Richard Baltas with Joe Bravo up. Flashed ability on Del Mar turf at two (73 speed) and trains sharply at Los Alamitos. Avoids the post 8+ Durante penalty by drawing post 7.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Humidity",
+                        "handicapper_notes": "Boasts field-best turf route figure of 84 at Santa Anita, but heavily penalized by -5 points under the Del Mar Durante Geometry rule for drawing Post 9 into the immediate 1-mile turf turn. Must bounce back from eased outing.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Eased in last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Princesses Phoebe",
+                        "handicapper_notes": "Second start on the Del Mar turf course after passing tired runners on August 1st. Post 2 ensures a ground-saving trip along the rail under Julien Leparoux for Peter Eurton.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow start last race",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Barra Roza",
+                        "handicapper_notes": "First-time starter by Mo Forza gets Joel Rosario in the irons for Leonard Powell. Faces severe physical disadvantage drawing the far outside Post 10, receiving a mandatory -5 point Durante Geometry penalty.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "FTS",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Risky Pleasure",
+                    "rating": 89.0,
+                    "reason": "Lands elite Del Mar pilot Juan Hernandez (25 percent win rate). Drops out of tough Southern California MSW turf routes into Cal-bred maiden claiming ranks. Well drawn inside to navigate the tight opening bend. | <i>\u26a0\ufe0f Trouble in previous start \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Danzing Daisy",
+                    "rating": 88.0,
+                    "reason": "Holds top overall turf consistency with competitive speed figures (83 last out at Del Mar). Secures an ideal inside-mid draw in Post 4 to save ground into the critical first turn. No class drop elevator applied for MSW-to-MCL per Del Mar rules. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Princesses Phoebe",
+                    "rating": 83.0,
+                    "reason": "Second start on the Del Mar turf course after passing tired runners on August 1st. Post 2 ensures a ground-saving trip along the rail under Julien Leparoux for Peter Eurton. | <i>\u26a0\ufe0f Slow start last race</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Nancy Two Point O",
+                    "rating": 80.0,
+                    "reason": "High-upside danger horse returning from extended layoff for Richard Baltas with Joe Bravo up. Flashed ability on Del Mar turf at two (73 speed) and trains sharply at Los Alamitos. Avoids the post 8+ Durante penalty by drawing post 7."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Humidity",
+                    "rating": 78.0,
+                    "reason": "Boasts field-best turf route figure of 84 at Santa Anita, but heavily penalized by -5 points under the Del Mar Durante Geometry rule for drawing Post 9 into the immediate 1-mile turf turn. Must bounce back from eased outing. | <i>\u26a0\ufe0f Eased in last start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Risky Pleasure",
+                    "rating": 89.0,
+                    "reason": "Lands elite Del Mar pilot Juan Hernandez (25 percent win rate). Drops out of tough Southern California MSW turf routes into Cal-bred maiden claiming ranks. Well drawn inside to navigate the tight opening bend. | <i>\u26a0\ufe0f Trouble in previous start \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Danzing Daisy",
+                    "rating": 88.0,
+                    "reason": "Holds top overall turf consistency with competitive speed figures (83 last out at Del Mar). Secures an ideal inside-mid draw in Post 4 to save ground into the critical first turn. No class drop elevator applied for MSW-to-MCL per Del Mar rules. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Princesses Phoebe",
+                    "rating": 83.0,
+                    "reason": "Second start on the Del Mar turf course after passing tired runners on August 1st. Post 2 ensures a ground-saving trip along the rail under Julien Leparoux for Peter Eurton. | <i>\u26a0\ufe0f Slow start last race</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Nancy Two Point O",
+                    "rating": 80.0,
+                    "reason": "High-upside danger horse returning from extended layoff for Richard Baltas with Joe Bravo up. Flashed ability on Del Mar turf at two (73 speed) and trains sharply at Los Alamitos. Avoids the post 8+ Durante penalty by drawing post 7."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Humidity",
+                    "rating": 78.0,
+                    "reason": "Boasts field-best turf route figure of 84 at Santa Anita, but heavily penalized by -5 points under the Del Mar Durante Geometry rule for drawing Post 9 into the immediate 1-mile turf turn. Must bounce back from eased outing. | <i>\u26a0\ufe0f Eased in last start</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Barra Roza",
+                    "rating": 74.0,
+                    "reason": "First-time starter by Mo Forza gets Joel Rosario in the irons for Leonard Powell. Faces severe physical disadvantage drawing the far outside Post 10, receiving a mandatory -5 point Durante Geometry penalty. | <i>\ud83d\udccf FTS</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Nancy Two Point O",
+                "rating": 80.0,
+                "reason": "High-upside danger horse returning from extended layoff for Richard Baltas with Joe Bravo up. Flashed ability on Del Mar turf at two (73 speed) and trains sharply at Los Alamitos. Avoids the post 8+ Durante penalty by drawing post 7."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Risky Pleasure</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #4, #7 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#3, #4)"
+    ]
+}

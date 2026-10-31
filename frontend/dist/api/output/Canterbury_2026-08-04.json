@@ -1,0 +1,1413 @@
+{
+    "meta": {
+        "track": "Canterbury",
+        "date": "2026-08-04",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "6 f Soft 5",
+            "surface": "5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "6 f Soft 5",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 9 | Exacta Box: 1, 2, 9 | Trifecta: 9 / 1, 2 / 1, 2, 5, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Leonessa",
+                        "handicapper_notes": "Massive class dropper into midweek maiden company after finishing a close 4th (beaten 1.3L) in a high-quality $112k Rosehill 2yo Open on heavy ground. Drawn perfectly in stall 2 for Zac Lloyd and Chris Waller, giving her the ideal trailing trip behind the speed on Canterbury's tight turn.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "7",
+                        "horse_name": "Yoshida",
+                        "handicapper_notes": "Proven course and distance performer who ran a outstanding 2nd on debut at this track and distance on July 22, beaten just 0.4L on soft ground. Holds significant early speed and physical maturity as a 4yo gelding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Phantom Major",
+                        "handicapper_notes": "Bred in the purple (Snitzel) for Chris Waller. Debut runner-up at Newcastle on a slow track where he missed victory by a nose. Premium jockey booking with James McDonald taking the reins.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Queen's Gamble",
+                        "handicapper_notes": "Showed excellent closing speed when finishing 2nd over this track and distance on July 22 behind Krasina. Drawn inside stall 4 with Tommy Berry retaining the mount. Fits the profile of a high-upside closer.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "3",
+                        "horse_name": "Lava Flow",
+                        "handicapper_notes": "First starter gelding by Too Darn Hot trained by Bjorn Baker. Won back-to-back Rosehill trials leading into debut and draws stall 3, which is a massive tactical advantage at Canterbury.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Timer",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Endeavour",
+                        "handicapper_notes": "$360k yearing debutant for Chris Waller. Drawn barrier 1 with master front-running jockey Tim Clark aboard. Expect aggressive early riding to command the rail around Canterbury's tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Timer",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Leonessa",
+                    "rating": 92.0,
+                    "reason": "Massive class dropper into midweek maiden company after finishing a close 4th (beaten 1.3L) in a high-quality $112k Rosehill 2yo Open on heavy ground. Drawn perfectly in stall 2 for Zac Lloyd and Chris Waller, giving her the ideal trailing trip behind the speed on Canterbury's tight turn. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Yoshida",
+                    "rating": 87.0,
+                    "reason": "Proven course and distance performer who ran a outstanding 2nd on debut at this track and distance on July 22, beaten just 0.4L on soft ground. Holds significant early speed and physical maturity as a 4yo gelding."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Phantom Major",
+                    "rating": 85.0,
+                    "reason": "Bred in the purple (Snitzel) for Chris Waller. Debut runner-up at Newcastle on a slow track where he missed victory by a nose. Premium jockey booking with James McDonald taking the reins. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Queen's Gamble",
+                    "rating": 83.0,
+                    "reason": "Showed excellent closing speed when finishing 2nd over this track and distance on July 22 behind Krasina. Drawn inside stall 4 with Tommy Berry retaining the mount. Fits the profile of a high-upside closer."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Lava Flow",
+                    "rating": 82.0,
+                    "reason": "First starter gelding by Too Darn Hot trained by Bjorn Baker. Won back-to-back Rosehill trials leading into debut and draws stall 3, which is a massive tactical advantage at Canterbury. | <i>\ud83d\udccf First Timer</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Leonessa",
+                    "rating": 92.0,
+                    "reason": "Massive class dropper into midweek maiden company after finishing a close 4th (beaten 1.3L) in a high-quality $112k Rosehill 2yo Open on heavy ground. Drawn perfectly in stall 2 for Zac Lloyd and Chris Waller, giving her the ideal trailing trip behind the speed on Canterbury's tight turn. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "7",
+                    "name": "Yoshida",
+                    "rating": 87.0,
+                    "reason": "Proven course and distance performer who ran a outstanding 2nd on debut at this track and distance on July 22, beaten just 0.4L on soft ground. Holds significant early speed and physical maturity as a 4yo gelding."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Phantom Major",
+                    "rating": 85.0,
+                    "reason": "Bred in the purple (Snitzel) for Chris Waller. Debut runner-up at Newcastle on a slow track where he missed victory by a nose. Premium jockey booking with James McDonald taking the reins. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Queen's Gamble",
+                    "rating": 83.0,
+                    "reason": "Showed excellent closing speed when finishing 2nd over this track and distance on July 22 behind Krasina. Drawn inside stall 4 with Tommy Berry retaining the mount. Fits the profile of a high-upside closer."
+                },
+                {
+                    "number": "6",
+                    "barrier": "3",
+                    "name": "Lava Flow",
+                    "rating": 82.0,
+                    "reason": "First starter gelding by Too Darn Hot trained by Bjorn Baker. Won back-to-back Rosehill trials leading into debut and draws stall 3, which is a massive tactical advantage at Canterbury. | <i>\ud83d\udccf First Timer</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Endeavour",
+                    "rating": 80.0,
+                    "reason": "$360k yearing debutant for Chris Waller. Drawn barrier 1 with master front-running jockey Tim Clark aboard. Expect aggressive early riding to command the rail around Canterbury's tight turns. | <i>\ud83d\udccf First Timer</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "4",
+                "name": "Queen's Gamble",
+                "rating": 83.0,
+                "reason": "Showed excellent closing speed when finishing 2nd over this track and distance on July 22 behind Krasina. Drawn inside stall 4 with Tommy Berry retaining the mount. Fits the profile of a high-upside closer."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 Leonessa</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#1, #2, #8) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "1550m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1550m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Key Win 7; Quinella/Exotic 7 / 1, 5, 8",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Glissando",
+                        "handicapper_notes": "Highly impressive second-up winner at Kembla Grange over 1300m by 3.5 lengths. Steps up to 1550m and maps to command the rail from barrier 1 under James McDonald. Holds a severe tactical and track bias advantage on Canterbury's tight circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Namaste",
+                        "handicapper_notes": "Drops back from Saturday Metro BM72 company at Rosehill into midweek BM64 grade, triggering a class drop bonus. Has superb track form (4 starts, 1 win, 2 seconds) and maps ideally from barrier 2 under Kerrin McEvoy.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Viva Mauricio",
+                        "handicapper_notes": "Forgive heavy track failure in Rosehill BM72. Won Hawkesbury Super Maiden two runs back over 1300m and boasts 2 placings from 3 starts at Canterbury. Class dropper who can bounce back sharply from stall 4.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Kumbaya",
+                        "handicapper_notes": "Strong last-start maiden winner at Wyong over 1600m coming from off the pace. Gets Zac Lloyd in the saddle, but wide barrier draw (stall 8) on a tight circuit penalizes her early position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Disadvantaged Wide",
+                            "ai_holistic_score": 81,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "My Charm",
+                        "handicapper_notes": "Resuming after a six-month spell. Dual winner in Queensland over 1600m/1700m last campaign. Recent trial at Warwick Farm was solid, and Tim Clark booking warrants respect.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Saloon Passage",
+                        "handicapper_notes": "Warwick Farm Super Maiden winner two starts back over 1400m before failing in Rosehill Saturday BM72 company. Inside draw helps, but faces a tough task giving weight to upside fillies.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Glissando",
+                    "rating": 97.0,
+                    "reason": "Highly impressive second-up winner at Kembla Grange over 1300m by 3.5 lengths. Steps up to 1550m and maps to command the rail from barrier 1 under James McDonald. Holds a severe tactical and track bias advantage on Canterbury's tight circuit. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Viva Mauricio",
+                    "rating": 92.0,
+                    "reason": "Forgive heavy track failure in Rosehill BM72. Won Hawkesbury Super Maiden two runs back over 1300m and boasts 2 placings from 3 starts at Canterbury. Class dropper who can bounce back sharply from stall 4. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Namaste",
+                    "rating": 88.0,
+                    "reason": "Drops back from Saturday Metro BM72 company at Rosehill into midweek BM64 grade, triggering a class drop bonus. Has superb track form (4 starts, 1 win, 2 seconds) and maps ideally from barrier 2 under Kerrin McEvoy. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Saloon Passage",
+                    "rating": 85.0,
+                    "reason": "Warwick Farm Super Maiden winner two starts back over 1400m before failing in Rosehill Saturday BM72 company. Inside draw helps, but faces a tough task giving weight to upside fillies. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Kumbaya",
+                    "rating": 81.0,
+                    "reason": "Strong last-start maiden winner at Wyong over 1600m coming from off the pace. Gets Zac Lloyd in the saddle, but wide barrier draw (stall 8) on a tight circuit penalizes her early position."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Glissando",
+                    "rating": 97.0,
+                    "reason": "Highly impressive second-up winner at Kembla Grange over 1300m by 3.5 lengths. Steps up to 1550m and maps to command the rail from barrier 1 under James McDonald. Holds a severe tactical and track bias advantage on Canterbury's tight circuit. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Viva Mauricio",
+                    "rating": 92.0,
+                    "reason": "Forgive heavy track failure in Rosehill BM72. Won Hawkesbury Super Maiden two runs back over 1300m and boasts 2 placings from 3 starts at Canterbury. Class dropper who can bounce back sharply from stall 4. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Namaste",
+                    "rating": 88.0,
+                    "reason": "Drops back from Saturday Metro BM72 company at Rosehill into midweek BM64 grade, triggering a class drop bonus. Has superb track form (4 starts, 1 win, 2 seconds) and maps ideally from barrier 2 under Kerrin McEvoy. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Saloon Passage",
+                    "rating": 85.0,
+                    "reason": "Warwick Farm Super Maiden winner two starts back over 1400m before failing in Rosehill Saturday BM72 company. Inside draw helps, but faces a tough task giving weight to upside fillies. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Kumbaya",
+                    "rating": 81.0,
+                    "reason": "Strong last-start maiden winner at Wyong over 1600m coming from off the pace. Gets Zac Lloyd in the saddle, but wide barrier draw (stall 8) on a tight circuit penalizes her early position."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "My Charm",
+                    "rating": 79.0,
+                    "reason": "Resuming after a six-month spell. Dual winner in Queensland over 1600m/1700m last campaign. Recent trial at Warwick Farm was solid, and Tim Clark booking warrants respect."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "4",
+                "name": "Viva Mauricio",
+                "rating": 92.0,
+                "reason": "Forgive heavy track failure in Rosehill BM72. Won Hawkesbury Super Maiden two runs back over 1300m and boasts 2 placings from 3 starts at Canterbury. Class dropper who can bounce back sharply from stall 4. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#7 Glissando</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #7 over (#5, #1) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1100m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1100m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 6; Exacta 6 / 2, 4; Trifecta 6 / 2, 4 / 1, 2, 4, 7",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "The Little General",
+                        "handicapper_notes": "Waterhouse & Bott front-runner perfectly suited by Canterbury tight turns and front-running bias. Draws stall 4 to command the tempo. Post-scratch lone speed advantage gives him total tactical control.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 93,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Harry's Evidence",
+                        "handicapper_notes": "First-up gelding for Gerald Ryan & Sterling Alexiou who boasts superb fresh form, including a dominant Wyong maiden win fresh last preparation. Coming off an impressive Rosehill barrier trial win on July 24.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Gambler",
+                        "handicapper_notes": "Drawn barrier 1 on a track with extreme inside draw bias. Raced close and held on well for 4th in Hawkesbury Bm64 last start. Regan Bayliss can hold the rail position early and extract a place finish.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Who But Roo",
+                        "handicapper_notes": "Veterans dropping out of Metropolitan Bm72 company back into mid-week handicap. Effective weight drops to 127lbs with Teaghan Martin's claim. Proven winner over sprints.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Famoso",
+                        "handicapper_notes": "Flagged as the danger horse. Honest 6yo gelding with proven on-pace capabilities. Apprentice claim drops weight to 123lbs. Capable of crashing the trifecta if speed upfront falters.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "2",
+                        "horse_name": "The Main Event",
+                        "handicapper_notes": "Second-up for Terry Robinson with Tommy Berry taking the ride from inside draw 2. Will map softly along the rail and step up on his first-up 8th in Rosehill Highway company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "The Little General",
+                    "rating": 96.0,
+                    "reason": "Waterhouse & Bott front-runner perfectly suited by Canterbury tight turns and front-running bias. Draws stall 4 to command the tempo. Post-scratch lone speed advantage gives him total tactical control. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Who But Roo",
+                    "rating": 91.0,
+                    "reason": "Veterans dropping out of Metropolitan Bm72 company back into mid-week handicap. Effective weight drops to 127lbs with Teaghan Martin's claim. Proven winner over sprints. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Harry's Evidence",
+                    "rating": 88.0,
+                    "reason": "First-up gelding for Gerald Ryan & Sterling Alexiou who boasts superb fresh form, including a dominant Wyong maiden win fresh last preparation. Coming off an impressive Rosehill barrier trial win on July 24."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Gambler",
+                    "rating": 86.0,
+                    "reason": "Drawn barrier 1 on a track with extreme inside draw bias. Raced close and held on well for 4th in Hawkesbury Bm64 last start. Regan Bayliss can hold the rail position early and extract a place finish."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Famoso",
+                    "rating": 81.0,
+                    "reason": "Flagged as the danger horse. Honest 6yo gelding with proven on-pace capabilities. Apprentice claim drops weight to 123lbs. Capable of crashing the trifecta if speed upfront falters."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "The Little General",
+                    "rating": 96.0,
+                    "reason": "Waterhouse & Bott front-runner perfectly suited by Canterbury tight turns and front-running bias. Draws stall 4 to command the tempo. Post-scratch lone speed advantage gives him total tactical control. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Who But Roo",
+                    "rating": 91.0,
+                    "reason": "Veterans dropping out of Metropolitan Bm72 company back into mid-week handicap. Effective weight drops to 127lbs with Teaghan Martin's claim. Proven winner over sprints. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Harry's Evidence",
+                    "rating": 88.0,
+                    "reason": "First-up gelding for Gerald Ryan & Sterling Alexiou who boasts superb fresh form, including a dominant Wyong maiden win fresh last preparation. Coming off an impressive Rosehill barrier trial win on July 24."
+                },
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Gambler",
+                    "rating": 86.0,
+                    "reason": "Drawn barrier 1 on a track with extreme inside draw bias. Raced close and held on well for 4th in Hawkesbury Bm64 last start. Regan Bayliss can hold the rail position early and extract a place finish."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Famoso",
+                    "rating": 81.0,
+                    "reason": "Flagged as the danger horse. Honest 6yo gelding with proven on-pace capabilities. Apprentice claim drops weight to 123lbs. Capable of crashing the trifecta if speed upfront falters."
+                },
+                {
+                    "number": "10",
+                    "barrier": "2",
+                    "name": "The Main Event",
+                    "rating": 79.0,
+                    "reason": "Second-up for Terry Robinson with Tommy Berry taking the ride from inside draw 2. Will map softly along the rail and step up on his first-up 8th in Rosehill Highway company."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "8",
+                "name": "Famoso",
+                "rating": 81.0,
+                "reason": "Flagged as the danger horse. Honest 6yo gelding with proven on-pace capabilities. Apprentice claim drops weight to 123lbs. Capable of crashing the trifecta if speed upfront falters."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#6 The Little General</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #6 over (#1, #4, #7) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "1 3/16 m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 3/16 m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 6 | Exacta: 6 / 4, 8 | Trifecta: 6 / 4, 8 / 2, 4, 5, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Aethelwulf",
+                        "handicapper_notes": "Sensational last-start victory by 6.5 lengths at Kembla Grange over 1m carrying 132 lbs. Highly progressive 4yo stayer who steps up to 1900m with Zac Lloyd taking the reins. Holds a significant ratings and visual momentum edge over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "1",
+                        "horse_name": "Scalextrics",
+                        "handicapper_notes": "Track and distance winner right here at Canterbury on Soft ground on July 22, finishing strongly to capture a Benchmark 72 handicap. Gains a massive tactical upgrade drawing Stall 1, enabling him to save crucial ground around Canterbury tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "7",
+                        "horse_name": "Michelangelo",
+                        "handicapper_notes": "Solid 5th in Tier 1 Saturday Highway company over 1 1/8m at Randwick latest. Ran in the Group 1 Queensland Derby prior to that. Drops sharply back into Midweek Metro BM72 level and will thrive out to 1900m.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "Dubai Warrior",
+                        "handicapper_notes": "Loves soft track condition with 4 wins from 6 attempts on damp surfaces. Comes off a gut-running Wyong BM64 win over 1m and stays under the care of Matthew Smith. Barrier 9 requires tactical navigation from Ashley Morgan.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Castagnola",
+                        "handicapper_notes": "Third-up today and peaks physically for the Bjorn Baker stable. Ran home strongly for 4th at Hawkesbury over 7 1/2f and Dylan Gibbons stays committed for the step up to 1900m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Kapakiri",
+                        "handicapper_notes": "Failed completely last start over this track/distance, but gets top rider James McDonald aboard from Barrier 2 for Chris Waller. Flagged as the danger horse due to high upside if he forgives his anomaly performance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Eased/Tailed Off",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Aethelwulf",
+                    "rating": 94.0,
+                    "reason": "Sensational last-start victory by 6.5 lengths at Kembla Grange over 1m carrying 132 lbs. Highly progressive 4yo stayer who steps up to 1900m with Zac Lloyd taking the reins. Holds a significant ratings and visual momentum edge over this field. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Scalextrics",
+                    "rating": 89.0,
+                    "reason": "Track and distance winner right here at Canterbury on Soft ground on July 22, finishing strongly to capture a Benchmark 72 handicap. Gains a massive tactical upgrade drawing Stall 1, enabling him to save crucial ground around Canterbury tight turns."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Michelangelo",
+                    "rating": 85.0,
+                    "reason": "Solid 5th in Tier 1 Saturday Highway company over 1 1/8m at Randwick latest. Ran in the Group 1 Queensland Derby prior to that. Drops sharply back into Midweek Metro BM72 level and will thrive out to 1900m. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "Dubai Warrior",
+                    "rating": 83.0,
+                    "reason": "Loves soft track condition with 4 wins from 6 attempts on damp surfaces. Comes off a gut-running Wyong BM64 win over 1m and stays under the care of Matthew Smith. Barrier 9 requires tactical navigation from Ashley Morgan. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Castagnola",
+                    "rating": 81.0,
+                    "reason": "Third-up today and peaks physically for the Bjorn Baker stable. Ran home strongly for 4th at Hawkesbury over 7 1/2f and Dylan Gibbons stays committed for the step up to 1900m. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Aethelwulf",
+                    "rating": 94.0,
+                    "reason": "Sensational last-start victory by 6.5 lengths at Kembla Grange over 1m carrying 132 lbs. Highly progressive 4yo stayer who steps up to 1900m with Zac Lloyd taking the reins. Holds a significant ratings and visual momentum edge over this field. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "1",
+                    "name": "Scalextrics",
+                    "rating": 89.0,
+                    "reason": "Track and distance winner right here at Canterbury on Soft ground on July 22, finishing strongly to capture a Benchmark 72 handicap. Gains a massive tactical upgrade drawing Stall 1, enabling him to save crucial ground around Canterbury tight turns."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Michelangelo",
+                    "rating": 85.0,
+                    "reason": "Solid 5th in Tier 1 Saturday Highway company over 1 1/8m at Randwick latest. Ran in the Group 1 Queensland Derby prior to that. Drops sharply back into Midweek Metro BM72 level and will thrive out to 1900m. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "Dubai Warrior",
+                    "rating": 83.0,
+                    "reason": "Loves soft track condition with 4 wins from 6 attempts on damp surfaces. Comes off a gut-running Wyong BM64 win over 1m and stays under the care of Matthew Smith. Barrier 9 requires tactical navigation from Ashley Morgan. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Castagnola",
+                    "rating": 81.0,
+                    "reason": "Third-up today and peaks physically for the Bjorn Baker stable. Ran home strongly for 4th at Hawkesbury over 7 1/2f and Dylan Gibbons stays committed for the step up to 1900m. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Kapakiri",
+                    "rating": 79.0,
+                    "reason": "Failed completely last start over this track/distance, but gets top rider James McDonald aboard from Barrier 2 for Chris Waller. Flagged as the danger horse due to high upside if he forgives his anomaly performance. | <i>\u26a0\ufe0f Eased/Tailed Off</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Kapakiri",
+                "rating": 79.0,
+                "reason": "Failed completely last start over this track/distance, but gets top rider James McDonald aboard from Barrier 2 for Chris Waller. Flagged as the danger horse due to high upside if he forgives his anomaly performance. | <i>\u26a0\ufe0f Eased/Tailed Off</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#6 Aethelwulf</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #6 over (#4, #8, #2) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "5 1/2 f Soft5",
+            "surface": "Soft5",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 1/2 f Soft5",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Exacta / Trifecta 2, 15e, 6, 14",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Brown Sugar",
+                        "handicapper_notes": "High-upside Pierata filly resuming from a spell. Demonstrated lethal early speed winning at Taree and Kembla Grange before taking on Listed stakes company. Draws barrier 2 on Canterbury's tight circuit, giving her a massive tactical rail advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15e",
+                        "barrier": "9",
+                        "horse_name": "Miss Emma",
+                        "handicapper_notes": "Brings strong Metro form into this contest, having won a Kensington BM64 over 6 1/4f two starts back and finishing a close 3rd over 6f at Canterbury last start. Has proven wet-track capability and high gate speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Slight Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Raskol",
+                        "handicapper_notes": "Peter Snowden trained Russian Revolution mare with consistent Sydney midweek form. Finished a close 5th and 4th at Canterbury over 5 1/2f and 6f recently. Kerrin McEvoy stays aboard and maps to settle in the front half.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "3",
+                        "horse_name": "Stubborn Emmelie",
+                        "handicapper_notes": "Resuming for Ryan and Alexiou. Showed strong speed last prep winning her Maiden at Gosford over 5f. Trialled nicely on July 24 at Rosehill behind Harry's Evidence and gets the ideal low draw in barrier 3.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16e",
+                        "barrier": "1",
+                        "horse_name": "Not That Easy",
+                        "handicapper_notes": "Dual acceptor gaining a start following extensive scratches. Maps on the rail from barrier 1 with a 3kg apprentice claim for Mollie Fitzgerald, giving her the ideal setup to utilize track bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "6",
+                        "horse_name": "Dee Dee Express",
+                        "handicapper_notes": "Fit Snitzel mare coming off a dominant front-running Country Class 1 victory at Moruya over 6f. Booking of Tommy Berry signals intent to press forward early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Slight Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Brown Sugar",
+                    "rating": 92.0,
+                    "reason": "High-upside Pierata filly resuming from a spell. Demonstrated lethal early speed winning at Taree and Kembla Grange before taking on Listed stakes company. Draws barrier 2 on Canterbury's tight circuit, giving her a massive tactical rail advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "15e",
+                    "barrier": "9",
+                    "name": "Miss Emma",
+                    "rating": 88.0,
+                    "reason": "Brings strong Metro form into this contest, having won a Kensington BM64 over 6 1/4f two starts back and finishing a close 3rd over 6f at Canterbury last start. Has proven wet-track capability and high gate speed. | <i>\ud83d\udccf Slight Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Raskol",
+                    "rating": 86.0,
+                    "reason": "Peter Snowden trained Russian Revolution mare with consistent Sydney midweek form. Finished a close 5th and 4th at Canterbury over 5 1/2f and 6f recently. Kerrin McEvoy stays aboard and maps to settle in the front half."
+                },
+                {
+                    "number": "14",
+                    "barrier": "3",
+                    "name": "Stubborn Emmelie",
+                    "rating": 84.0,
+                    "reason": "Resuming for Ryan and Alexiou. Showed strong speed last prep winning her Maiden at Gosford over 5f. Trialled nicely on July 24 at Rosehill behind Harry's Evidence and gets the ideal low draw in barrier 3."
+                },
+                {
+                    "number": "16e",
+                    "barrier": "1",
+                    "name": "Not That Easy",
+                    "rating": 82.0,
+                    "reason": "Dual acceptor gaining a start following extensive scratches. Maps on the rail from barrier 1 with a 3kg apprentice claim for Mollie Fitzgerald, giving her the ideal setup to utilize track bias."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Brown Sugar",
+                    "rating": 92.0,
+                    "reason": "High-upside Pierata filly resuming from a spell. Demonstrated lethal early speed winning at Taree and Kembla Grange before taking on Listed stakes company. Draws barrier 2 on Canterbury's tight circuit, giving her a massive tactical rail advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "15e",
+                    "barrier": "9",
+                    "name": "Miss Emma",
+                    "rating": 88.0,
+                    "reason": "Brings strong Metro form into this contest, having won a Kensington BM64 over 6 1/4f two starts back and finishing a close 3rd over 6f at Canterbury last start. Has proven wet-track capability and high gate speed. | <i>\ud83d\udccf Slight Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Raskol",
+                    "rating": 86.0,
+                    "reason": "Peter Snowden trained Russian Revolution mare with consistent Sydney midweek form. Finished a close 5th and 4th at Canterbury over 5 1/2f and 6f recently. Kerrin McEvoy stays aboard and maps to settle in the front half."
+                },
+                {
+                    "number": "14",
+                    "barrier": "3",
+                    "name": "Stubborn Emmelie",
+                    "rating": 84.0,
+                    "reason": "Resuming for Ryan and Alexiou. Showed strong speed last prep winning her Maiden at Gosford over 5f. Trialled nicely on July 24 at Rosehill behind Harry's Evidence and gets the ideal low draw in barrier 3."
+                },
+                {
+                    "number": "16e",
+                    "barrier": "1",
+                    "name": "Not That Easy",
+                    "rating": 82.0,
+                    "reason": "Dual acceptor gaining a start following extensive scratches. Maps on the rail from barrier 1 with a 3kg apprentice claim for Mollie Fitzgerald, giving her the ideal setup to utilize track bias."
+                },
+                {
+                    "number": "11",
+                    "barrier": "6",
+                    "name": "Dee Dee Express",
+                    "rating": 80.0,
+                    "reason": "Fit Snitzel mare coming off a dominant front-running Country Class 1 victory at Moruya over 6f. Booking of Tommy Berry signals intent to press forward early. | <i>\ud83d\udccf Slight Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "15e",
+                "barrier": "9",
+                "name": "Miss Emma",
+                "rating": 88.0,
+                "reason": "Brings strong Metro form into this contest, having won a Kensington BM64 over 6 1/4f two starts back and finishing a close 3rd over 6f at Canterbury last start. Has proven wet-track capability and high gate speed. | <i>\ud83d\udccf Slight Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Brown Sugar</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #15e, #6 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "6 1/4 f Turf Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 1/4 f Turf Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 6, 10; Trifecta 1 / 6, 10 / 2, 4, 6, 10, 15e",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Snack Bar",
+                        "handicapper_notes": "Massive class dropper out of Tier 1 Saturday Rosehill BM78 company where he finished a heroic 2nd carrying 126lbs. Lands Stall 1 at Canterbury which provides an insurmountable rail advantage on this tight circuit. James McDonald takes the reins, making him the definitive top pick.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "Silencio Porfavor",
+                        "handicapper_notes": "Ideal Canterbury speed profile drawn in Stall 3. Possesses elite early gate speed to command the front or sit in the premier pocket turn position. Came off a dominant 3.5L Newcastle win to run a close 5th at Rosehill.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Clear Proof",
+                        "handicapper_notes": "Proven Canterbury track specialist who lost by a nose over this exact course and distance on July 22 in BM72 grade. Races best on Soft ground and will be finishing strongly despite the wide draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Rimbaud",
+                        "handicapper_notes": "In sparkling form, coming off a close 2nd at Warwick Farm 7f BM72 and a win at Wyong. Effective weight relief with apprentice claim helps mitigate the stamina tax.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "15e",
+                        "barrier": "9",
+                        "horse_name": "Miss Emma",
+                        "handicapper_notes": "Thrives on Sydney midweek tracks, having won at Randwick Kensington two starts back and placed 3rd at this track and distance on July 22. Has early speed to cross and contend.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "13",
+                        "horse_name": "Balkans",
+                        "handicapper_notes": "Capable class horse dropping out of Saturday Metro benchmark races. Wide barrier 13 is a severe handicap penalty on Canterbury tight turns, but holds residual class if pace collapses.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Bends",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Snack Bar",
+                    "rating": 95.0,
+                    "reason": "Massive class dropper out of Tier 1 Saturday Rosehill BM78 company where he finished a heroic 2nd carrying 126lbs. Lands Stall 1 at Canterbury which provides an insurmountable rail advantage on this tight circuit. James McDonald takes the reins, making him the definitive top pick. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Silencio Porfavor",
+                    "rating": 90.0,
+                    "reason": "Ideal Canterbury speed profile drawn in Stall 3. Possesses elite early gate speed to command the front or sit in the premier pocket turn position. Came off a dominant 3.5L Newcastle win to run a close 5th at Rosehill."
+                },
+                {
+                    "number": "2",
+                    "barrier": "13",
+                    "name": "Balkans",
+                    "rating": 88.0,
+                    "reason": "Capable class horse dropping out of Saturday Metro benchmark races. Wide barrier 13 is a severe handicap penalty on Canterbury tight turns, but holds residual class if pace collapses. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Wide Bends</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Clear Proof",
+                    "rating": 87.0,
+                    "reason": "Proven Canterbury track specialist who lost by a nose over this exact course and distance on July 22 in BM72 grade. Races best on Soft ground and will be finishing strongly despite the wide draw."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Rimbaud",
+                    "rating": 85.0,
+                    "reason": "In sparkling form, coming off a close 2nd at Warwick Farm 7f BM72 and a win at Wyong. Effective weight relief with apprentice claim helps mitigate the stamina tax. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Snack Bar",
+                    "rating": 95.0,
+                    "reason": "Massive class dropper out of Tier 1 Saturday Rosehill BM78 company where he finished a heroic 2nd carrying 126lbs. Lands Stall 1 at Canterbury which provides an insurmountable rail advantage on this tight circuit. James McDonald takes the reins, making him the definitive top pick. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "Silencio Porfavor",
+                    "rating": 90.0,
+                    "reason": "Ideal Canterbury speed profile drawn in Stall 3. Possesses elite early gate speed to command the front or sit in the premier pocket turn position. Came off a dominant 3.5L Newcastle win to run a close 5th at Rosehill."
+                },
+                {
+                    "number": "2",
+                    "barrier": "13",
+                    "name": "Balkans",
+                    "rating": 88.0,
+                    "reason": "Capable class horse dropping out of Saturday Metro benchmark races. Wide barrier 13 is a severe handicap penalty on Canterbury tight turns, but holds residual class if pace collapses. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Wide Bends</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Clear Proof",
+                    "rating": 87.0,
+                    "reason": "Proven Canterbury track specialist who lost by a nose over this exact course and distance on July 22 in BM72 grade. Races best on Soft ground and will be finishing strongly despite the wide draw."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Rimbaud",
+                    "rating": 85.0,
+                    "reason": "In sparkling form, coming off a close 2nd at Warwick Farm 7f BM72 and a win at Wyong. Effective weight relief with apprentice claim helps mitigate the stamina tax. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "15e",
+                    "barrier": "9",
+                    "name": "Miss Emma",
+                    "rating": 83.0,
+                    "reason": "Thrives on Sydney midweek tracks, having won at Randwick Kensington two starts back and placed 3rd at this track and distance on July 22. Has early speed to cross and contend."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "10",
+                "name": "Clear Proof",
+                "rating": 87.0,
+                "reason": "Proven Canterbury track specialist who lost by a nose over this exact course and distance on July 22 in BM72 grade. Races best on Soft ground and will be finishing strongly despite the wide draw."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Snack Bar</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#10, #2, #6) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "1550m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1550m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Trifecta 6 / 5, 7 / 1, 5, 7, 11",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Let's Fly",
+                        "handicapper_notes": "Commands the inside rail from stall 1 following a dominant track and distance victory at Canterbury two starts back before a solid 3rd in Randwick BM72 company. Elite 1st-call speed perfect for tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable On-Pace",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Tenderize",
+                        "handicapper_notes": "Narrowly missed victory at this track and distance on July 22 when beaten a nose in BM72 company. Drawn ideal stall 3 with an outstanding course record (7 starts, 2 wins, 2 places).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Standard Deviation",
+                        "handicapper_notes": "Chris Waller trained gelding resuming with James McDonald booked from barrier 2. Drops back from Randwick Kensington Saturday Metro BM78 level into midweek BM72 company with significant upside.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "6",
+                        "horse_name": "Sister Daae",
+                        "handicapper_notes": "Consistently in the finish in Sydney midweek ranks with consecutive third-place finishes at Warwick Farm and Kensington. Tommy Berry takes the ride for Chris Waller.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "10",
+                        "horse_name": "Conchiero",
+                        "handicapper_notes": "Gai Waterhouse & Adrian Bott gelding coming off a strong 3rd at Randwick Kensington over 1550m on July 29. Carries top weight but possesses solid tactical early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "4",
+                        "horse_name": "Twisted Queen",
+                        "handicapper_notes": "Solid 3rd in F&M BM72 company at Kensington last time out over 1550m. Well drawn in stall 4 to stalk the speed on a track that rewards low barrier draws.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Let's Fly",
+                    "rating": 94.0,
+                    "reason": "Commands the inside rail from stall 1 following a dominant track and distance victory at Canterbury two starts back before a solid 3rd in Randwick BM72 company. Elite 1st-call speed perfect for tight turns."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Tenderize",
+                    "rating": 90.0,
+                    "reason": "Narrowly missed victory at this track and distance on July 22 when beaten a nose in BM72 company. Drawn ideal stall 3 with an outstanding course record (7 starts, 2 wins, 2 places)."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Standard Deviation",
+                    "rating": 86.0,
+                    "reason": "Chris Waller trained gelding resuming with James McDonald booked from barrier 2. Drops back from Randwick Kensington Saturday Metro BM78 level into midweek BM72 company with significant upside. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "6",
+                    "name": "Sister Daae",
+                    "rating": 84.0,
+                    "reason": "Consistently in the finish in Sydney midweek ranks with consecutive third-place finishes at Warwick Farm and Kensington. Tommy Berry takes the ride for Chris Waller."
+                },
+                {
+                    "number": "1",
+                    "barrier": "10",
+                    "name": "Conchiero",
+                    "rating": 83.0,
+                    "reason": "Gai Waterhouse & Adrian Bott gelding coming off a strong 3rd at Randwick Kensington over 1550m on July 29. Carries top weight but possesses solid tactical early speed."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Let's Fly",
+                    "rating": 94.0,
+                    "reason": "Commands the inside rail from stall 1 following a dominant track and distance victory at Canterbury two starts back before a solid 3rd in Randwick BM72 company. Elite 1st-call speed perfect for tight turns."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Tenderize",
+                    "rating": 90.0,
+                    "reason": "Narrowly missed victory at this track and distance on July 22 when beaten a nose in BM72 company. Drawn ideal stall 3 with an outstanding course record (7 starts, 2 wins, 2 places)."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Standard Deviation",
+                    "rating": 86.0,
+                    "reason": "Chris Waller trained gelding resuming with James McDonald booked from barrier 2. Drops back from Randwick Kensington Saturday Metro BM78 level into midweek BM72 company with significant upside. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "6",
+                    "name": "Sister Daae",
+                    "rating": 84.0,
+                    "reason": "Consistently in the finish in Sydney midweek ranks with consecutive third-place finishes at Warwick Farm and Kensington. Tommy Berry takes the ride for Chris Waller."
+                },
+                {
+                    "number": "1",
+                    "barrier": "10",
+                    "name": "Conchiero",
+                    "rating": 83.0,
+                    "reason": "Gai Waterhouse & Adrian Bott gelding coming off a strong 3rd at Randwick Kensington over 1550m on July 29. Carries top weight but possesses solid tactical early speed."
+                },
+                {
+                    "number": "8",
+                    "barrier": "4",
+                    "name": "Twisted Queen",
+                    "rating": 81.0,
+                    "reason": "Solid 3rd in F&M BM72 company at Kensington last time out over 1550m. Well drawn in stall 4 to stalk the speed on a track that rewards low barrier draws."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "2",
+                "name": "Standard Deviation",
+                "rating": 86.0,
+                "reason": "Chris Waller trained gelding resuming with James McDonald booked from barrier 2. Drops back from Randwick Kensington Saturday Metro BM78 level into midweek BM72 company with significant upside. | <i>\ud83d\udd3b Class Drop</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Let's Fly</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #5, #7 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#9 Leonessa</b> in R1 & <b>#7 Glissando</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#7 Glissando</b> in R2 & <b>#6 The Little General</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R3 \u2794 R4):</b> Single <b>#6 The Little General</b> in R3 & <b>#6 Aethelwulf</b> in R4 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#6 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#6 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#6 (Solo Lock))"
+    ]
+}
