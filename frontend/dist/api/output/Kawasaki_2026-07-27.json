@@ -1,0 +1,2406 @@
+{
+    "meta": {
+        "track": "Kawasaki",
+        "date": "2026-07-27",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Velos",
+                        "handicapper_notes": "Capitalizes on Kawasaki tight-corner leader bias from stall 2. Boasts proven early gate speed with established front-running tactics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favored Speed",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Fanta Festa",
+                        "handicapper_notes": "Enters off a narrow neck second at Urawa after pressing the pace throughout. Maintains strong recent form lines and early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Seiun Pioneer",
+                        "handicapper_notes": "Delivered a strong third-place effort behind Queen's Kayanohime over track and trip last start with a field-leading speed figure.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Aether No Kaze",
+                        "handicapper_notes": "Consistent C3 competitor coming off back-to-back local placings over 7f including a solid runner-up performance on July 7.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Tonitrus",
+                        "handicapper_notes": "Class shipper from Funabashi/Urawa circuits with upper-tier back form. Gets top local jockey Ryo Novata in the saddle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Tindra",
+                        "handicapper_notes": "Demonstrated course capability with a third-place finish over 7f two starts back. Capable of hitting the board if pace opens up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Velos",
+                    "rating": 89.0,
+                    "reason": "Capitalizes on Kawasaki tight-corner leader bias from stall 2. Boasts proven early gate speed with established front-running tactics. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Fanta Festa",
+                    "rating": 86.0,
+                    "reason": "Enters off a narrow neck second at Urawa after pressing the pace throughout. Maintains strong recent form lines and early speed. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Seiun Pioneer",
+                    "rating": 84.0,
+                    "reason": "Delivered a strong third-place effort behind Queen's Kayanohime over track and trip last start with a field-leading speed figure. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Aether No Kaze",
+                    "rating": 82.0,
+                    "reason": "Consistent C3 competitor coming off back-to-back local placings over 7f including a solid runner-up performance on July 7. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Tonitrus",
+                    "rating": 80.0,
+                    "reason": "Class shipper from Funabashi/Urawa circuits with upper-tier back form. Gets top local jockey Ryo Novata in the saddle. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Velos",
+                    "rating": 89.0,
+                    "reason": "Capitalizes on Kawasaki tight-corner leader bias from stall 2. Boasts proven early gate speed with established front-running tactics. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Fanta Festa",
+                    "rating": 86.0,
+                    "reason": "Enters off a narrow neck second at Urawa after pressing the pace throughout. Maintains strong recent form lines and early speed. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Seiun Pioneer",
+                    "rating": 84.0,
+                    "reason": "Delivered a strong third-place effort behind Queen's Kayanohime over track and trip last start with a field-leading speed figure. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Aether No Kaze",
+                    "rating": 82.0,
+                    "reason": "Consistent C3 competitor coming off back-to-back local placings over 7f including a solid runner-up performance on July 7. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Tonitrus",
+                    "rating": 80.0,
+                    "reason": "Class shipper from Funabashi/Urawa circuits with upper-tier back form. Gets top local jockey Ryo Novata in the saddle. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Tindra",
+                    "rating": 78.0,
+                    "reason": "Demonstrated course capability with a third-place finish over 7f two starts back. Capable of hitting the board if pace opens up. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Tonitrus",
+                "rating": 80.0,
+                "reason": "Class shipper from Funabashi/Urawa circuits with upper-tier back form. Gets top local jockey Ryo Novata in the saddle. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Velos</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #5, #9 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 3, 5, 7; Trifecta 7 / 3, 5 / 1, 2, 3, 5",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Riko Stechkina",
+                        "handicapper_notes": "Maintains superior speed metrics at Kawasaki 1,400m, having won wire-to-wire three times in recent months. Perfect fit for the Leader-Lock bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Queen's Kayanohime",
+                        "handicapper_notes": "Dominant 4-length victory over course and distance last time out on July 10 with a top Speed Rating of 62. Threatening for back-to-back wins.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Silver Ginji",
+                        "handicapper_notes": "Drawn ideally in stall 3 to save ground on Kawasaki's tight turns. Back-to-back 1,400m C3 winner in May and June with consistent 65 Speed Ratings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Casa Mila",
+                        "handicapper_notes": "Second-up off a four-month layoff. Benefited from apprentice weight relief (115 lbs) and inside gate to finish 5th behind Queen's Kayanohime last start.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Comic Girl",
+                        "handicapper_notes": "Showed early intent on July 10 before fading late. Likely to push forward into the turn to secure a position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Mega Million",
+                        "handicapper_notes": "Veteran 8yo drawn on the inside rail. Showed competitive speed rating (66) when 2nd over 1,400m in May.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 69,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Riko Stechkina",
+                    "rating": 90.0,
+                    "reason": "Maintains superior speed metrics at Kawasaki 1,400m, having won wire-to-wire three times in recent months. Perfect fit for the Leader-Lock bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Queen's Kayanohime",
+                    "rating": 87.0,
+                    "reason": "Dominant 4-length victory over course and distance last time out on July 10 with a top Speed Rating of 62. Threatening for back-to-back wins. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Silver Ginji",
+                    "rating": 85.0,
+                    "reason": "Drawn ideally in stall 3 to save ground on Kawasaki's tight turns. Back-to-back 1,400m C3 winner in May and June with consistent 65 Speed Ratings. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Casa Mila",
+                    "rating": 77.0,
+                    "reason": "Second-up off a four-month layoff. Benefited from apprentice weight relief (115 lbs) and inside gate to finish 5th behind Queen's Kayanohime last start. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Comic Girl",
+                    "rating": 72.0,
+                    "reason": "Showed early intent on July 10 before fading late. Likely to push forward into the turn to secure a position. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Riko Stechkina",
+                    "rating": 90.0,
+                    "reason": "Maintains superior speed metrics at Kawasaki 1,400m, having won wire-to-wire three times in recent months. Perfect fit for the Leader-Lock bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Queen's Kayanohime",
+                    "rating": 87.0,
+                    "reason": "Dominant 4-length victory over course and distance last time out on July 10 with a top Speed Rating of 62. Threatening for back-to-back wins. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Silver Ginji",
+                    "rating": 85.0,
+                    "reason": "Drawn ideally in stall 3 to save ground on Kawasaki's tight turns. Back-to-back 1,400m C3 winner in May and June with consistent 65 Speed Ratings. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Casa Mila",
+                    "rating": 77.0,
+                    "reason": "Second-up off a four-month layoff. Benefited from apprentice weight relief (115 lbs) and inside gate to finish 5th behind Queen's Kayanohime last start. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Comic Girl",
+                    "rating": 72.0,
+                    "reason": "Showed early intent on July 10 before fading late. Likely to push forward into the turn to secure a position. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Mega Million",
+                    "rating": 69.0,
+                    "reason": "Veteran 8yo drawn on the inside rail. Showed competitive speed rating (66) when 2nd over 1,400m in May. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Queen's Kayanohime",
+                "rating": 87.0,
+                "reason": "Dominant 4-length victory over course and distance last time out on July 10 with a top Speed Rating of 62. Threatening for back-to-back wins. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#7 Riko Stechkina</b> (Solo Lock - Gap: +3.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #7 over (#5, #3) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "4 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "4 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 3, 4, 11",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Gigantomachia",
+                        "handicapper_notes": "Boosted due to Class Drop Elevator after transitioning from JRA $95k Allowance and $245k Listed company. Boasts consecutive runner-up finishes over this track and trip, losing by a nose last time out.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Sound Primo",
+                        "handicapper_notes": "Extremely consistent over Kawasaki 900m chute layout with a 1-1-1 tally from 3 starts. Edged out Gigantomachia last start with leading jockey Takayuki Yano aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Million Flight",
+                        "handicapper_notes": "Possesses sharp early gate speed from an ideal inside stall. Finished a strong 3rd last start behind Grand Mermaid and previously won over 4f at Urawa.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "King Sukeyo",
+                        "handicapper_notes": "Solid course-and-distance specialist who finished 2nd on July 8. Drawn wide but has the tactical speed to press the pace around Kawasaki's sharp turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Wide Turn",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "La Seule Fleur",
+                        "handicapper_notes": "Showed prompt early pace to lead early on July 8 before finishing 4th. Ryo Novata retains ride and should be forwardly placed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Chinon",
+                        "handicapper_notes": "Second run back from a layoff. Showed promising form earlier in the season and can strip fitter here.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Gigantomachia",
+                    "rating": 92.0,
+                    "reason": "Boosted due to Class Drop Elevator after transitioning from JRA $95k Allowance and $245k Listed company. Boasts consecutive runner-up finishes over this track and trip, losing by a nose last time out. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Sound Primo",
+                    "rating": 89.0,
+                    "reason": "Extremely consistent over Kawasaki 900m chute layout with a 1-1-1 tally from 3 starts. Edged out Gigantomachia last start with leading jockey Takayuki Yano aboard. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Million Flight",
+                    "rating": 85.0,
+                    "reason": "Possesses sharp early gate speed from an ideal inside stall. Finished a strong 3rd last start behind Grand Mermaid and previously won over 4f at Urawa. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "King Sukeyo",
+                    "rating": 83.0,
+                    "reason": "Solid course-and-distance specialist who finished 2nd on July 8. Drawn wide but has the tactical speed to press the pace around Kawasaki's sharp turn. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "La Seule Fleur",
+                    "rating": 80.0,
+                    "reason": "Showed prompt early pace to lead early on July 8 before finishing 4th. Ryo Novata retains ride and should be forwardly placed. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Gigantomachia",
+                    "rating": 92.0,
+                    "reason": "Boosted due to Class Drop Elevator after transitioning from JRA $95k Allowance and $245k Listed company. Boasts consecutive runner-up finishes over this track and trip, losing by a nose last time out. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Sound Primo",
+                    "rating": 89.0,
+                    "reason": "Extremely consistent over Kawasaki 900m chute layout with a 1-1-1 tally from 3 starts. Edged out Gigantomachia last start with leading jockey Takayuki Yano aboard. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Million Flight",
+                    "rating": 85.0,
+                    "reason": "Possesses sharp early gate speed from an ideal inside stall. Finished a strong 3rd last start behind Grand Mermaid and previously won over 4f at Urawa. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "King Sukeyo",
+                    "rating": 83.0,
+                    "reason": "Solid course-and-distance specialist who finished 2nd on July 8. Drawn wide but has the tactical speed to press the pace around Kawasaki's sharp turn. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "La Seule Fleur",
+                    "rating": 80.0,
+                    "reason": "Showed prompt early pace to lead early on July 8 before finishing 4th. Ryo Novata retains ride and should be forwardly placed. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Chinon",
+                    "rating": 74.0,
+                    "reason": "Second run back from a layoff. Showed promising form earlier in the season and can strip fitter here. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "11",
+                "name": "Sound Primo",
+                "rating": 89.0,
+                "reason": "Extremely consistent over Kawasaki 900m chute layout with a 1-1-1 tally from 3 starts. Edged out Gigantomachia last start with leading jockey Takayuki Yano aboard. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Gigantomachia</b> (Solo Lock - Gap: +3.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#11, #4) [$9 total stake]"
+        },
+        {
+            "number": 4,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 2, 4, 3",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Broad Hero",
+                        "handicapper_notes": "Market favourite dropping into a soft juvenile spot. Recorded a field-best 37 Speed Rating last start over this track and distance. Drawn ideally in stall 2 to establish a prominent position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ginger Hope",
+                        "handicapper_notes": "Explicitly boosted score due to Lone Speed. Displayed clear gate speed on debut to lead early. Gains massive advantage under Kawasaki's tight Leader-Lock bias with Naoki Machida aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Shumputaito",
+                        "handicapper_notes": "Showed encouraging signs on debut over 7f recording a 31 Speed Rating. Drawn inside in stall 3 which allows ground-saving journey around Kawasaki's sharp bends.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Miya Fides",
+                        "handicapper_notes": "Rail runner drawn in stall 1. Showed early speed in 4.5f debut before stretching to 7f last time out. Expected to show forward initiative early along the inside strip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Regalo Per Te",
+                        "handicapper_notes": "Gained invaluable race experience on debut finishing 5th over 7f. Should strip fitter second-up but faces a wide trip relative to inside contenders.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Rally Back",
+                        "handicapper_notes": "Beaten soundly on debut at 4.5f. Steps up to 7f today looking for improvement under trainer Takayuki Hayashi.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 64,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ginger Hope",
+                    "rating": 87.0,
+                    "reason": "Explicitly boosted score due to Lone Speed. Displayed clear gate speed on debut to lead early. Gains massive advantage under Kawasaki's tight Leader-Lock bias with Naoki Machida aboard. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Broad Hero",
+                    "rating": 85.0,
+                    "reason": "Market favourite dropping into a soft juvenile spot. Recorded a field-best 37 Speed Rating last start over this track and distance. Drawn ideally in stall 2 to establish a prominent position. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Shumputaito",
+                    "rating": 78.0,
+                    "reason": "Showed encouraging signs on debut over 7f recording a 31 Speed Rating. Drawn inside in stall 3 which allows ground-saving journey around Kawasaki's sharp bends. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Miya Fides",
+                    "rating": 76.0,
+                    "reason": "Rail runner drawn in stall 1. Showed early speed in 4.5f debut before stretching to 7f last time out. Expected to show forward initiative early along the inside strip. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Regalo Per Te",
+                    "rating": 72.0,
+                    "reason": "Gained invaluable race experience on debut finishing 5th over 7f. Should strip fitter second-up but faces a wide trip relative to inside contenders. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ginger Hope",
+                    "rating": 87.0,
+                    "reason": "Explicitly boosted score due to Lone Speed. Displayed clear gate speed on debut to lead early. Gains massive advantage under Kawasaki's tight Leader-Lock bias with Naoki Machida aboard. | <i>\ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Broad Hero",
+                    "rating": 85.0,
+                    "reason": "Market favourite dropping into a soft juvenile spot. Recorded a field-best 37 Speed Rating last start over this track and distance. Drawn ideally in stall 2 to establish a prominent position. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Shumputaito",
+                    "rating": 78.0,
+                    "reason": "Showed encouraging signs on debut over 7f recording a 31 Speed Rating. Drawn inside in stall 3 which allows ground-saving journey around Kawasaki's sharp bends. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Miya Fides",
+                    "rating": 76.0,
+                    "reason": "Rail runner drawn in stall 1. Showed early speed in 4.5f debut before stretching to 7f last time out. Expected to show forward initiative early along the inside strip. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Regalo Per Te",
+                    "rating": 72.0,
+                    "reason": "Gained invaluable race experience on debut finishing 5th over 7f. Should strip fitter second-up but faces a wide trip relative to inside contenders. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Rally Back",
+                    "rating": 64.0,
+                    "reason": "Beaten soundly on debut at 4.5f. Steps up to 7f today looking for improvement under trainer Takayuki Hayashi. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Broad Hero",
+                "rating": 85.0,
+                "reason": "Market favourite dropping into a soft juvenile spot. Recorded a field-best 37 Speed Rating last start over this track and distance. Drawn ideally in stall 2 to establish a prominent position. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Broad Hero</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #4, #3 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta / Trifecta Key 7 over 1, 3, 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Cendrillon",
+                        "handicapper_notes": "Monbetsu shipper making local debut for Sunao Yamada with elite jockey Takayuki Yano. Boasts a strong Speed Rating of 56 on debut at Monbetsu, significantly outclassing local form lines.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Speed",
+                            "ai_holistic_score": 91,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sea Story",
+                        "handicapper_notes": "Ran a solid fourth on debut over 7f at this circuit. Benefits immensely from drawing the rail stall on Kawasaki's tight-turning oval.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Time Of River",
+                        "handicapper_notes": "Attracted strong market backing on debut over 4.5f. Stretches out to 7f from an advantageous inside post.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Pamir",
+                        "handicapper_notes": "Brings four starts of foundation into this race. Displays good early gate speed and can press the pace early under Kosuke Sakurai.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Origin",
+                        "handicapper_notes": "Ran fourth on debut over 7f with a 1:33.3 figure. Possesses initial experience over the distance and should improve.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Kisen Sheila",
+                        "handicapper_notes": "Fair effort on debut over 4.5f. Gets a major jockey upgrade to Naoki Machida stepping up to 7f.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 70,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Cendrillon",
+                    "rating": 91.0,
+                    "reason": "Monbetsu shipper making local debut for Sunao Yamada with elite jockey Takayuki Yano. Boasts a strong Speed Rating of 56 on debut at Monbetsu, significantly outclassing local form lines. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sea Story",
+                    "rating": 83.0,
+                    "reason": "Ran a solid fourth on debut over 7f at this circuit. Benefits immensely from drawing the rail stall on Kawasaki's tight-turning oval. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Time Of River",
+                    "rating": 77.0,
+                    "reason": "Attracted strong market backing on debut over 4.5f. Stretches out to 7f from an advantageous inside post. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pamir",
+                    "rating": 76.0,
+                    "reason": "Brings four starts of foundation into this race. Displays good early gate speed and can press the pace early under Kosuke Sakurai. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Origin",
+                    "rating": 73.0,
+                    "reason": "Ran fourth on debut over 7f with a 1:33.3 figure. Possesses initial experience over the distance and should improve. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Cendrillon",
+                    "rating": 91.0,
+                    "reason": "Monbetsu shipper making local debut for Sunao Yamada with elite jockey Takayuki Yano. Boasts a strong Speed Rating of 56 on debut at Monbetsu, significantly outclassing local form lines. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sea Story",
+                    "rating": 83.0,
+                    "reason": "Ran a solid fourth on debut over 7f at this circuit. Benefits immensely from drawing the rail stall on Kawasaki's tight-turning oval. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Time Of River",
+                    "rating": 77.0,
+                    "reason": "Attracted strong market backing on debut over 4.5f. Stretches out to 7f from an advantageous inside post. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pamir",
+                    "rating": 76.0,
+                    "reason": "Brings four starts of foundation into this race. Displays good early gate speed and can press the pace early under Kosuke Sakurai. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Origin",
+                    "rating": 73.0,
+                    "reason": "Ran fourth on debut over 7f with a 1:33.3 figure. Possesses initial experience over the distance and should improve. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Kisen Sheila",
+                    "rating": 70.0,
+                    "reason": "Fair effort on debut over 4.5f. Gets a major jockey upgrade to Naoki Machida stepping up to 7f. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {},
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#7 Cendrillon</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #7 over (#1, #3) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1 m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 3, 4, 5",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Shiga",
+                        "handicapper_notes": "Promising 2yo colt by Gendarme who displayed electric gate speed to lead throughout on 7f debut, falling just 0.5 lengths short. Drawn well in stall 4 with leading jockey Naoki Machida, his early speed aligns perfectly with Kawasaki's track profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Derecho",
+                        "handicapper_notes": "Most experienced runner in the field with proven consistency across three starts (3-0-1-1). Earned the highest speed rating in the field (66) last month and gets elite rider Takayuki Yano from an ideal inner barrier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Yamato Ryu Tan",
+                        "handicapper_notes": "Son of Cheval Grand whose stamina-rich pedigree should thrive with the step up to 1600m. Showed strong form in both 7f outings including a narrow runner-up effort.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Ivy Freyja",
+                        "handicapper_notes": "Built up momentum late on debut over 7f to grab third. Drawn in stall 2, allowing her to save crucial ground around Kawasaki's continuous tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Nut One",
+                        "handicapper_notes": "Showed good professional composure on debut to finish second behind Sun Balkan. Espoir City lineage suggests ample distance potential, though drawn wide in gate 8.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Gold Carrera",
+                        "handicapper_notes": "Doubtless contender for second-start improvement after finishing runner-up on debut. Attracts premier jockey Tsubasa Sasagawa to boost top-3 chances.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shiga",
+                    "rating": 89.0,
+                    "reason": "Promising 2yo colt by Gendarme who displayed electric gate speed to lead throughout on 7f debut, falling just 0.5 lengths short. Drawn well in stall 4 with leading jockey Naoki Machida, his early speed aligns perfectly with Kawasaki's track profile. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Derecho",
+                    "rating": 88.0,
+                    "reason": "Most experienced runner in the field with proven consistency across three starts (3-0-1-1). Earned the highest speed rating in the field (66) last month and gets elite rider Takayuki Yano from an ideal inner barrier. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Yamato Ryu Tan",
+                    "rating": 85.0,
+                    "reason": "Son of Cheval Grand whose stamina-rich pedigree should thrive with the step up to 1600m. Showed strong form in both 7f outings including a narrow runner-up effort. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Ivy Freyja",
+                    "rating": 82.0,
+                    "reason": "Built up momentum late on debut over 7f to grab third. Drawn in stall 2, allowing her to save crucial ground around Kawasaki's continuous tight turns. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Nut One",
+                    "rating": 81.0,
+                    "reason": "Showed good professional composure on debut to finish second behind Sun Balkan. Espoir City lineage suggests ample distance potential, though drawn wide in gate 8. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Shiga",
+                    "rating": 89.0,
+                    "reason": "Promising 2yo colt by Gendarme who displayed electric gate speed to lead throughout on 7f debut, falling just 0.5 lengths short. Drawn well in stall 4 with leading jockey Naoki Machida, his early speed aligns perfectly with Kawasaki's track profile. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Derecho",
+                    "rating": 88.0,
+                    "reason": "Most experienced runner in the field with proven consistency across three starts (3-0-1-1). Earned the highest speed rating in the field (66) last month and gets elite rider Takayuki Yano from an ideal inner barrier. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Yamato Ryu Tan",
+                    "rating": 85.0,
+                    "reason": "Son of Cheval Grand whose stamina-rich pedigree should thrive with the step up to 1600m. Showed strong form in both 7f outings including a narrow runner-up effort. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Ivy Freyja",
+                    "rating": 82.0,
+                    "reason": "Built up momentum late on debut over 7f to grab third. Drawn in stall 2, allowing her to save crucial ground around Kawasaki's continuous tight turns. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Nut One",
+                    "rating": 81.0,
+                    "reason": "Showed good professional composure on debut to finish second behind Sun Balkan. Espoir City lineage suggests ample distance potential, though drawn wide in gate 8. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Gold Carrera",
+                    "rating": 80.0,
+                    "reason": "Doubtless contender for second-start improvement after finishing runner-up on debut. Attracts premier jockey Tsubasa Sasagawa to boost top-3 chances. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Gold Carrera",
+                "rating": 80.0,
+                "reason": "Doubtless contender for second-start improvement after finishing runner-up on debut. Attracts premier jockey Tsubasa Sasagawa to boost top-3 chances. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Shiga</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #3, #7 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 4, 5, 7; Trifecta 4 / 5, 7 / 1, 3, 5, 7, 11",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Vuelo Oscuras",
+                        "handicapper_notes": "Undefeated wire-to-wire debut winner over this track and distance in 1:33.3. Capitalizes on ideal inside post 4 to execute Kawasaki front-running bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favors Speed",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Shock The World",
+                        "handicapper_notes": "Blasted to the front last start on July 10 and was collared by only half a length over 7f. Fits the tight-corner leader-lock profile perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Shigo Deki",
+                        "handicapper_notes": "Gets elite jockey Tsubasa Sasagawa. Ran a sharp 2nd over 7f two starts back in 1:32.3 and expects a major rebound following a wide trip last time.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Wide Run",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Sempreverde",
+                        "handicapper_notes": "Closed well to secure 3rd place behind Shock The World on July 10. Needs to overcome wide stall 11 but possesses solid local current form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Power Raccoon",
+                        "handicapper_notes": "Draws the rail stall 1 where ground-saving trips are paramount around Kawasaki's tight turns. Placed 3rd at Urawa over 7f two back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Cat Queen",
+                        "handicapper_notes": "First-up off a layoff with Naoki Machida taking the reins from a high-percentage inside stall 3. Placed multiple times in strong 2yo company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Layoff Return",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Vuelo Oscuras",
+                    "rating": 92.0,
+                    "reason": "Undefeated wire-to-wire debut winner over this track and distance in 1:33.3. Capitalizes on ideal inside post 4 to execute Kawasaki front-running bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Shock The World",
+                    "rating": 86.0,
+                    "reason": "Blasted to the front last start on July 10 and was collared by only half a length over 7f. Fits the tight-corner leader-lock profile perfectly. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shigo Deki",
+                    "rating": 84.0,
+                    "reason": "Gets elite jockey Tsubasa Sasagawa. Ran a sharp 2nd over 7f two starts back in 1:32.3 and expects a major rebound following a wide trip last time. | <i>\u26a0\ufe0f Wide Run \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Sempreverde",
+                    "rating": 81.0,
+                    "reason": "Closed well to secure 3rd place behind Shock The World on July 10. Needs to overcome wide stall 11 but possesses solid local current form. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Power Raccoon",
+                    "rating": 78.0,
+                    "reason": "Draws the rail stall 1 where ground-saving trips are paramount around Kawasaki's tight turns. Placed 3rd at Urawa over 7f two back. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Vuelo Oscuras",
+                    "rating": 92.0,
+                    "reason": "Undefeated wire-to-wire debut winner over this track and distance in 1:33.3. Capitalizes on ideal inside post 4 to execute Kawasaki front-running bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Shock The World",
+                    "rating": 86.0,
+                    "reason": "Blasted to the front last start on July 10 and was collared by only half a length over 7f. Fits the tight-corner leader-lock profile perfectly. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shigo Deki",
+                    "rating": 84.0,
+                    "reason": "Gets elite jockey Tsubasa Sasagawa. Ran a sharp 2nd over 7f two starts back in 1:32.3 and expects a major rebound following a wide trip last time. | <i>\u26a0\ufe0f Wide Run \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Sempreverde",
+                    "rating": 81.0,
+                    "reason": "Closed well to secure 3rd place behind Shock The World on July 10. Needs to overcome wide stall 11 but possesses solid local current form. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Power Raccoon",
+                    "rating": 78.0,
+                    "reason": "Draws the rail stall 1 where ground-saving trips are paramount around Kawasaki's tight turns. Placed 3rd at Urawa over 7f two back. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Cat Queen",
+                    "rating": 76.0,
+                    "reason": "First-up off a layoff with Naoki Machida taking the reins from a high-percentage inside stall 3. Placed multiple times in strong 2yo company. | <i>\ud83d\udccf Layoff Return</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Cat Queen",
+                "rating": 76.0,
+                "reason": "First-up off a layoff with Naoki Machida taking the reins from a high-percentage inside stall 3. Placed multiple times in strong 2yo company. | <i>\ud83d\udccf Layoff Return</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Vuelo Oscuras</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#5, #7, #3) [$9 total stake]"
+        },
+        {
+            "number": 8,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 4, 9",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Seikan Sanran",
+                        "handicapper_notes": "Massive class shift dropping from JRA central stakes/allowance ranks down to provincial NAR C-level condition. Class drop bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Jun Siri",
+                        "handicapper_notes": "Capitalizes on prime stall 1 inside rail bias at Kawasaki. Possesses early gate speed to secure the front or box seat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Miracle Guy",
+                        "handicapper_notes": "Proven Kawasaki 7f performer with back-to-back runner-up efforts at this track earlier in the season. Fresh off a layoff.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Pisan Zapra",
+                        "handicapper_notes": "Top jockey Takayuki Yano takes the reins. Flashes prominent early speed and can overcome wide gate if aggressive early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Yuyu Katsu Sand",
+                        "handicapper_notes": "Enters off back-to-back third-place finishes over this course and distance. Consistent closing effort expected.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Celestella",
+                        "handicapper_notes": "Inside draw allows a ground-saving trip. Showed excellent speed when finishing second over 7f two starts back.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 73,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Seikan Sanran",
+                    "rating": 91.0,
+                    "reason": "Massive class shift dropping from JRA central stakes/allowance ranks down to provincial NAR C-level condition. Class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jun Siri",
+                    "rating": 87.0,
+                    "reason": "Capitalizes on prime stall 1 inside rail bias at Kawasaki. Possesses early gate speed to secure the front or box seat. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Miracle Guy",
+                    "rating": 84.0,
+                    "reason": "Proven Kawasaki 7f performer with back-to-back runner-up efforts at this track earlier in the season. Fresh off a layoff. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Pisan Zapra",
+                    "rating": 82.0,
+                    "reason": "Top jockey Takayuki Yano takes the reins. Flashes prominent early speed and can overcome wide gate if aggressive early. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Yuyu Katsu Sand",
+                    "rating": 76.0,
+                    "reason": "Enters off back-to-back third-place finishes over this course and distance. Consistent closing effort expected. | <i>\ud83d\udccf Same</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Seikan Sanran",
+                    "rating": 91.0,
+                    "reason": "Massive class shift dropping from JRA central stakes/allowance ranks down to provincial NAR C-level condition. Class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jun Siri",
+                    "rating": 87.0,
+                    "reason": "Capitalizes on prime stall 1 inside rail bias at Kawasaki. Possesses early gate speed to secure the front or box seat. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Miracle Guy",
+                    "rating": 84.0,
+                    "reason": "Proven Kawasaki 7f performer with back-to-back runner-up efforts at this track earlier in the season. Fresh off a layoff. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Pisan Zapra",
+                    "rating": 82.0,
+                    "reason": "Top jockey Takayuki Yano takes the reins. Flashes prominent early speed and can overcome wide gate if aggressive early. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Yuyu Katsu Sand",
+                    "rating": 76.0,
+                    "reason": "Enters off back-to-back third-place finishes over this course and distance. Consistent closing effort expected. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Celestella",
+                    "rating": 73.0,
+                    "reason": "Inside draw allows a ground-saving trip. Showed excellent speed when finishing second over 7f two starts back. | <i>\ud83d\udccf Same</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Jun Siri",
+                "rating": 87.0,
+                "reason": "Capitalizes on prime stall 1 inside rail bias at Kawasaki. Possesses early gate speed to secure the front or box seat. | <i>\ud83d\udccf Same</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Seikan Sanran</b> (Solo Lock - Gap: +4.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#1, #9) [$9 total stake]"
+        },
+        {
+            "number": 9,
+            "distance": "4 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "4 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 4, 10; Trifecta 4 / 1, 10 / 1, 5, 9, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Cloudy Looks",
+                        "handicapper_notes": "Capitalizes heavily on Kawasaki's extreme 900m sprint chute bias. Possesses dominant gate speed ('E') and draws inside stall 4. Coming off consecutive narrow runner-up finishes over course and distance while leading throughout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable - Speed Bias",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Hi Barbie",
+                        "handicapper_notes": "Ideal rail-skimming track position from Stall 1. Former course-and-distance winner (April 9) who ran a sharp second on July 10. Benefits tremendously from Takayuki Yano riding Kawasaki's tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable - Rail Advantage",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Ange Grace",
+                        "handicapper_notes": "Gets valuable weight relief (115 lbs) with apprentice claim. Reliable C2 900m performer who repeatedly finishes in the money around this oval despite tricky outer barrier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Maono Volcano",
+                        "handicapper_notes": "Consistently handy stalker over the 900m trip. Finished 4th in back-to-back outings and draws nicely mid-pack to avoid wide ground loss.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Quantize",
+                        "handicapper_notes": "Flashing early gate speed and often contends for early lead before flattening out. Needs to work hard from Stall 9 but has enough raw sprint speed to hit minor placing.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Front",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Wide Turn",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Ikunoga Kitazo",
+                        "handicapper_notes": "Fair closing effort last out when 5th beaten 3.3 lengths. Needs pace collapse to make up major ground on the short 300m stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Unfavorable - Off Pace",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Cloudy Looks",
+                    "rating": 92.0,
+                    "reason": "Capitalizes heavily on Kawasaki's extreme 900m sprint chute bias. Possesses dominant gate speed ('E') and draws inside stall 4. Coming off consecutive narrow runner-up finishes over course and distance while leading throughout. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hi Barbie",
+                    "rating": 90.0,
+                    "reason": "Ideal rail-skimming track position from Stall 1. Former course-and-distance winner (April 9) who ran a sharp second on July 10. Benefits tremendously from Takayuki Yano riding Kawasaki's tight turns. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Ange Grace",
+                    "rating": 85.0,
+                    "reason": "Gets valuable weight relief (115 lbs) with apprentice claim. Reliable C2 900m performer who repeatedly finishes in the money around this oval despite tricky outer barrier. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Maono Volcano",
+                    "rating": 83.0,
+                    "reason": "Consistently handy stalker over the 900m trip. Finished 4th in back-to-back outings and draws nicely mid-pack to avoid wide ground loss. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Quantize",
+                    "rating": 81.0,
+                    "reason": "Flashing early gate speed and often contends for early lead before flattening out. Needs to work hard from Stall 9 but has enough raw sprint speed to hit minor placing. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Cloudy Looks",
+                    "rating": 92.0,
+                    "reason": "Capitalizes heavily on Kawasaki's extreme 900m sprint chute bias. Possesses dominant gate speed ('E') and draws inside stall 4. Coming off consecutive narrow runner-up finishes over course and distance while leading throughout. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hi Barbie",
+                    "rating": 90.0,
+                    "reason": "Ideal rail-skimming track position from Stall 1. Former course-and-distance winner (April 9) who ran a sharp second on July 10. Benefits tremendously from Takayuki Yano riding Kawasaki's tight turns. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Ange Grace",
+                    "rating": 85.0,
+                    "reason": "Gets valuable weight relief (115 lbs) with apprentice claim. Reliable C2 900m performer who repeatedly finishes in the money around this oval despite tricky outer barrier. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Maono Volcano",
+                    "rating": 83.0,
+                    "reason": "Consistently handy stalker over the 900m trip. Finished 4th in back-to-back outings and draws nicely mid-pack to avoid wide ground loss. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Quantize",
+                    "rating": 81.0,
+                    "reason": "Flashing early gate speed and often contends for early lead before flattening out. Needs to work hard from Stall 9 but has enough raw sprint speed to hit minor placing. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Ikunoga Kitazo",
+                    "rating": 78.0,
+                    "reason": "Fair closing effort last out when 5th beaten 3.3 lengths. Needs pace collapse to make up major ground on the short 300m stretch. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Hi Barbie",
+                "rating": 90.0,
+                "reason": "Ideal rail-skimming track position from Stall 1. Former course-and-distance winner (April 9) who ran a sharp second on July 10. Benefits tremendously from Takayuki Yano riding Kawasaki's tight turns. | <i>\ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Cloudy Looks</b><br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#1, #10) [$9 total stake]"
+        },
+        {
+            "number": 10,
+            "distance": "7 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "7 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 3, 4, 8 and Trifecta 3, 4 / 1, 3, 4, 8 / 1, 2, 3, 4, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Dateotoko",
+                        "handicapper_notes": "Dominant last-start winner by 4 lengths over course and distance. High speed figures and ideal inside draw make him the clear top selection.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "South Ville Stella",
+                        "handicapper_notes": "Game winner over 7.5f on July 7 utilizing front-running speed. Capitalizes heavily on Kawasaki's severe on-pace inside-barrier bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Horse One",
+                        "handicapper_notes": "Returns fresh off a 3.5-month spell. Boasts three consecutive local wins earlier this season and possesses strong class metrics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Sam Barows",
+                        "handicapper_notes": "Secures the prized rail draw. Won well two starts back over this track and trip and should get an economical ground-saving journey.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Olperer",
+                        "handicapper_notes": "Flashed prominent early pace two starts back when finishing second over 1m. Needs to cross over early from stall 9.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "Wide Turn",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Belleek",
+                        "handicapper_notes": "Consistent C1 campaigner who placed 3rd last start over course and distance. Draws low to save ground throughout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Dateotoko",
+                    "rating": 92.0,
+                    "reason": "Dominant last-start winner by 4 lengths over course and distance. High speed figures and ideal inside draw make him the clear top selection. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "South Ville Stella",
+                    "rating": 88.0,
+                    "reason": "Game winner over 7.5f on July 7 utilizing front-running speed. Capitalizes heavily on Kawasaki's severe on-pace inside-barrier bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Horse One",
+                    "rating": 86.0,
+                    "reason": "Returns fresh off a 3.5-month spell. Boasts three consecutive local wins earlier this season and possesses strong class metrics. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sam Barows",
+                    "rating": 85.0,
+                    "reason": "Secures the prized rail draw. Won well two starts back over this track and trip and should get an economical ground-saving journey. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Olperer",
+                    "rating": 82.0,
+                    "reason": "Flashed prominent early pace two starts back when finishing second over 1m. Needs to cross over early from stall 9. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Dateotoko",
+                    "rating": 92.0,
+                    "reason": "Dominant last-start winner by 4 lengths over course and distance. High speed figures and ideal inside draw make him the clear top selection. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "South Ville Stella",
+                    "rating": 88.0,
+                    "reason": "Game winner over 7.5f on July 7 utilizing front-running speed. Capitalizes heavily on Kawasaki's severe on-pace inside-barrier bias. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Horse One",
+                    "rating": 86.0,
+                    "reason": "Returns fresh off a 3.5-month spell. Boasts three consecutive local wins earlier this season and possesses strong class metrics. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Sam Barows",
+                    "rating": 85.0,
+                    "reason": "Secures the prized rail draw. Won well two starts back over this track and trip and should get an economical ground-saving journey. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Olperer",
+                    "rating": 82.0,
+                    "reason": "Flashed prominent early pace two starts back when finishing second over 1m. Needs to cross over early from stall 9. | <i>\u26a0\ufe0f Wide Turn \u2022 \ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Belleek",
+                    "rating": 78.0,
+                    "reason": "Consistent C1 campaigner who placed 3rd last start over course and distance. Draws low to save ground throughout. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Horse One",
+                "rating": 86.0,
+                "reason": "Returns fresh off a 3.5-month spell. Boasts three consecutive local wins earlier this season and possesses strong class metrics. | <i>\ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Dateotoko</b> (Solo Lock - Gap: +4.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#4, #8) [$9 total stake]"
+        },
+        {
+            "number": 11,
+            "distance": "4 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "4 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 3, 5; Trifecta 3 / 1, 5 / 1, 5, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Primo Python",
+                        "handicapper_notes": "Dominant Kawasaki 900m specialist with 9 course/distance victories. Well-positioned in Stall 3 to utilize early speed on Kawasaki's extreme leader-lock short oval.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Advantage",
+                            "ai_holistic_score": 93,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Makaze",
+                        "handicapper_notes": "Capitalizes on the vital Stall 1 rail advantage in 900m sprints. Coming directly off a crisp victory over course and distance on July 10 carrying light weight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Rail Saver / Speed",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Joyful Rock",
+                        "handicapper_notes": "Displays superior gate speed from Funabashi circuit. Cutting back to the hyper-extended 900m chute where his front-running style fits Kawasaki's speed-biased track profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint Cutback",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Tsutsu Uraura",
+                        "handicapper_notes": "Highly consistent B1/B2 performer at Kawasaki 900m with multiple podium finishes. Reliable presser who figures prominently in exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Ecoro Neo",
+                        "handicapper_notes": "High class back-class earner ($206K). Ran on solidly for 3rd behind Makaze on July 10 over 900m and will benefit if early leaders set a hot pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Off-the-Pace",
+                            "ai_holistic_score": 83,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "El Roi",
+                        "handicapper_notes": "Benefits structurally from Stall 2 draw on tight rail, though needs to step up on recent 6th place effort behind Makaze.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Stalker",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint Cutback",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Primo Python",
+                    "rating": 93.0,
+                    "reason": "Dominant Kawasaki 900m specialist with 9 course/distance victories. Well-positioned in Stall 3 to utilize early speed on Kawasaki's extreme leader-lock short oval. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Makaze",
+                    "rating": 91.0,
+                    "reason": "Capitalizes on the vital Stall 1 rail advantage in 900m sprints. Coming directly off a crisp victory over course and distance on July 10 carrying light weight. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Joyful Rock",
+                    "rating": 89.0,
+                    "reason": "Displays superior gate speed from Funabashi circuit. Cutting back to the hyper-extended 900m chute where his front-running style fits Kawasaki's speed-biased track profile. | <i>\ud83d\udccf Sprint Cutback</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tsutsu Uraura",
+                    "rating": 85.0,
+                    "reason": "Highly consistent B1/B2 performer at Kawasaki 900m with multiple podium finishes. Reliable presser who figures prominently in exotics. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ecoro Neo",
+                    "rating": 83.0,
+                    "reason": "High class back-class earner ($206K). Ran on solidly for 3rd behind Makaze on July 10 over 900m and will benefit if early leaders set a hot pace. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Primo Python",
+                    "rating": 93.0,
+                    "reason": "Dominant Kawasaki 900m specialist with 9 course/distance victories. Well-positioned in Stall 3 to utilize early speed on Kawasaki's extreme leader-lock short oval. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Makaze",
+                    "rating": 91.0,
+                    "reason": "Capitalizes on the vital Stall 1 rail advantage in 900m sprints. Coming directly off a crisp victory over course and distance on July 10 carrying light weight. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Joyful Rock",
+                    "rating": 89.0,
+                    "reason": "Displays superior gate speed from Funabashi circuit. Cutting back to the hyper-extended 900m chute where his front-running style fits Kawasaki's speed-biased track profile. | <i>\ud83d\udccf Sprint Cutback</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tsutsu Uraura",
+                    "rating": 85.0,
+                    "reason": "Highly consistent B1/B2 performer at Kawasaki 900m with multiple podium finishes. Reliable presser who figures prominently in exotics. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ecoro Neo",
+                    "rating": 83.0,
+                    "reason": "High class back-class earner ($206K). Ran on solidly for 3rd behind Makaze on July 10 over 900m and will benefit if early leaders set a hot pace. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "El Roi",
+                    "rating": 77.0,
+                    "reason": "Benefits structurally from Stall 2 draw on tight rail, though needs to step up on recent 6th place effort behind Makaze. | <i>\ud83d\udccf Sprint Cutback</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Makaze",
+                "rating": 91.0,
+                "reason": "Capitalizes on the vital Stall 1 rail advantage in 900m sprints. Coming directly off a crisp victory over course and distance on July 10 carrying light weight. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Primo Python</b><br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#1, #5) [$9 total stake]"
+        },
+        {
+            "number": 12,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 4, 10; Trifecta 4 / 2, 6, 10 / 1, 2, 6, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Marcell Tesoro",
+                        "handicapper_notes": "Massive class dropper into local B3 ranks. Previously competed in JRA $100k Allowance races and regional upper-tier stakes ($42k-$44k). Class Drop Elevator bonus applied (+10 points). Drawn ideally in stall 4 to secure an early forward position around Kawasaki tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Presser / Forward positioning advantage",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Rama",
+                        "handicapper_notes": "Promising 3yo colt with superb track consistency (10 starts: 1 win, 2 seconds, 3 thirds). Won over 1m at Kawasaki on May 11 and comes off solid 3rd and 4th place efforts against similar company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "G T Kaisoku",
+                        "handicapper_notes": "Narrowly missed victory last start over course and distance on June 16, finishing 2nd by a neck. Enlists top jockey Tsubasa Sasagawa and gets low barrier 2 to save ground around the bullring turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Canal Shohei",
+                        "handicapper_notes": "Brisk early speed type who controlled the tempo to finish 3rd over 1m on July 6 at Kawasaki. Fits the track Leader-Lock bias perfectly if allowed to clear early.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "On-Pace Advantage",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Yume Dream",
+                        "handicapper_notes": "Fairly consistent upper-half finisher in this benchmark class, including a 4th on June 16 (beaten only 1.8 lengths) and a 5th on July 6 over 1m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Dirt Raising",
+                        "handicapper_notes": "Draws the rail stall 1 which provides maximum ground-saving potential around Kawasaki continuous sharp turns. Capable of sneaking into minor exotic payouts.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Rail Saver",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same Distance",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Marcell Tesoro",
+                    "rating": 93.0,
+                    "reason": "Massive class dropper into local B3 ranks. Previously competed in JRA $100k Allowance races and regional upper-tier stakes ($42k-$44k). Class Drop Elevator bonus applied (+10 points). Drawn ideally in stall 4 to secure an early forward position around Kawasaki tight turns. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Rama",
+                    "rating": 88.0,
+                    "reason": "Promising 3yo colt with superb track consistency (10 starts: 1 win, 2 seconds, 3 thirds). Won over 1m at Kawasaki on May 11 and comes off solid 3rd and 4th place efforts against similar company. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "G T Kaisoku",
+                    "rating": 87.0,
+                    "reason": "Narrowly missed victory last start over course and distance on June 16, finishing 2nd by a neck. Enlists top jockey Tsubasa Sasagawa and gets low barrier 2 to save ground around the bullring turns. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Canal Shohei",
+                    "rating": 85.0,
+                    "reason": "Brisk early speed type who controlled the tempo to finish 3rd over 1m on July 6 at Kawasaki. Fits the track Leader-Lock bias perfectly if allowed to clear early. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Yume Dream",
+                    "rating": 80.0,
+                    "reason": "Fairly consistent upper-half finisher in this benchmark class, including a 4th on June 16 (beaten only 1.8 lengths) and a 5th on July 6 over 1m. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Marcell Tesoro",
+                    "rating": 93.0,
+                    "reason": "Massive class dropper into local B3 ranks. Previously competed in JRA $100k Allowance races and regional upper-tier stakes ($42k-$44k). Class Drop Elevator bonus applied (+10 points). Drawn ideally in stall 4 to secure an early forward position around Kawasaki tight turns. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Rama",
+                    "rating": 88.0,
+                    "reason": "Promising 3yo colt with superb track consistency (10 starts: 1 win, 2 seconds, 3 thirds). Won over 1m at Kawasaki on May 11 and comes off solid 3rd and 4th place efforts against similar company. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "G T Kaisoku",
+                    "rating": 87.0,
+                    "reason": "Narrowly missed victory last start over course and distance on June 16, finishing 2nd by a neck. Enlists top jockey Tsubasa Sasagawa and gets low barrier 2 to save ground around the bullring turns. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Canal Shohei",
+                    "rating": 85.0,
+                    "reason": "Brisk early speed type who controlled the tempo to finish 3rd over 1m on July 6 at Kawasaki. Fits the track Leader-Lock bias perfectly if allowed to clear early. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Yume Dream",
+                    "rating": 80.0,
+                    "reason": "Fairly consistent upper-half finisher in this benchmark class, including a 4th on June 16 (beaten only 1.8 lengths) and a 5th on July 6 over 1m. | <i>\ud83d\udccf Same Distance</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Dirt Raising",
+                    "rating": 78.0,
+                    "reason": "Draws the rail stall 1 which provides maximum ground-saving potential around Kawasaki continuous sharp turns. Capable of sneaking into minor exotic payouts. | <i>\ud83d\udccf Same Distance</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Dirt Raising",
+                "rating": 78.0,
+                "reason": "Draws the rail stall 1 which provides maximum ground-saving potential around Kawasaki continuous sharp turns. Capable of sneaking into minor exotic payouts. | <i>\ud83d\udccf Same Distance</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Marcell Tesoro</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#10, #2, #1) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R2 \u2794 R3):</b> Single <b>#7 Riko Stechkina</b> in R2 & <b>#3 Gigantomachia</b> in R3 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R7 \u2794 R8):</b> Single <b>#4 Vuelo Oscuras</b> in R7 & <b>#4 Seikan Sanran</b> in R8 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#4, #2)",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#4, #2) with (#7 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R11 \u2794 R12 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#4 (Solo Lock))"
+    ]
+}

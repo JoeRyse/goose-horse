@@ -1,0 +1,1228 @@
+{
+    "meta": {
+        "track": "Mountaineer",
+        "date": "2026-07-21",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Eloper",
+                        "handicapper_notes": "Class dropper from regional circuits. Solid second-place finish two starts back on this track.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Up Her Sleeve",
+                        "handicapper_notes": "Outrun on turf last time but possesses solid historical back class on the dirt track.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Harlan's Legacy",
+                        "handicapper_notes": "Has shown a tendency to tire late in route races; needs a slower early pace to contend.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Amalfi Lady",
+                        "handicapper_notes": "Consistent performer at this level with solid tactical speed. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Sweet Talia",
+                        "handicapper_notes": "Angled out last time to secure a minor share. Fits well in this field.",
+                        "features": {
+                            "ai_holistic_score": 81,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Forglo",
+                        "handicapper_notes": "Poor recent form and consistently outrun in late stages.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "In To The Night",
+                        "handicapper_notes": "Saved ground mid-track last out in wet weather. Upgraded if track is off.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Eloper",
+                    "rating": 88.0,
+                    "reason": "Class dropper from regional circuits. Solid second-place finish two starts back on this track."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Amalfi Lady",
+                    "rating": 85.0,
+                    "reason": "Consistent performer at this level with solid tactical speed. Major threat."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Sweet Talia",
+                    "rating": 81.0,
+                    "reason": "Angled out last time to secure a minor share. Fits well in this field."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Up Her Sleeve",
+                    "rating": 78.0,
+                    "reason": "Outrun on turf last time but possesses solid historical back class on the dirt track."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "In To The Night",
+                "rating": 80.0,
+                "reason": "Saved ground mid-track last out in wet weather. Upgraded if track is off."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "7.5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Low",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "7.5 Furlongs Turf",
+                "confidence_level": "Low",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Junito's Boy",
+                        "handicapper_notes": "Always outrun on dirt/wet tracks. Needs to show massive improvement on turf.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Midnight Stroller",
+                        "handicapper_notes": "Pressed the pace and faded last out. Possesses sharp early speed.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Team Ramajama",
+                        "handicapper_notes": "Slow early but finished evenly on a sloppy track. Turf pedigree is questionable.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Team Mischievous",
+                        "handicapper_notes": "Flashed speed and gave way in debut. Eligible to improve.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Ocata",
+                        "handicapper_notes": "Gave way on the turn last time. Needs to show more stamina.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Doom Loop",
+                        "handicapper_notes": "Chased turn and weakened on sloppy track. Decent turf form last year.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mark Of Greatness",
+                        "handicapper_notes": "Stalked and secured second last out. Very consistent on dirt; must translate to turf.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mark Of Greatness",
+                    "rating": 84.0,
+                    "reason": "Stalked and secured second last out. Very consistent on dirt; must translate to turf."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Team Ramajama",
+                    "rating": 76.0,
+                    "reason": "Slow early but finished evenly on a sloppy track. Turf pedigree is questionable."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Midnight Stroller",
+                    "rating": 75.0,
+                    "reason": "Pressed the pace and faded last out. Possesses sharp early speed."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ocata",
+                    "rating": 72.0,
+                    "reason": "Gave way on the turn last time. Needs to show more stamina."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Doom Loop",
+                "rating": 82.0,
+                "reason": "Chased turn and weakened on sloppy track. Decent turf form last year."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "7 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "7 Furlongs Turf",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "One Step Beyond",
+                        "handicapper_notes": "Battled to the end inside last out in allowance company. Strong class drop.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Brave Words",
+                        "handicapper_notes": "Gave way last out. Best runs are on the lead but faces pressure.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Dancing King",
+                        "handicapper_notes": "Stalked and bid willingly last out. Good current form.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "How About It",
+                        "handicapper_notes": "Angled 4w and rallied for second last out. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Frozen Four",
+                        "handicapper_notes": "Saved ground and ran evenly last out. Tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Ante Antman",
+                        "handicapper_notes": "Evenly between foes last out. Consistent.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Lord Baranof",
+                        "handicapper_notes": "Gained show last out on turf. Solid turf record.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Blown Away",
+                        "handicapper_notes": "Bobbled and chased short last out.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "One Step Beyond",
+                    "rating": 92.0,
+                    "reason": "Battled to the end inside last out in allowance company. Strong class drop."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "How About It",
+                    "rating": 89.0,
+                    "reason": "Angled 4w and rallied for second last out. Strong contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Ante Antman",
+                    "rating": 86.0,
+                    "reason": "Evenly between foes last out. Consistent."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Dancing King",
+                    "rating": 85.0,
+                    "reason": "Stalked and bid willingly last out. Good current form."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Lord Baranof",
+                "rating": 88.0,
+                "reason": "Gained show last out on turf. Solid turf record."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "5 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "5 Furlongs Turf",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Fiveminutsofpasion",
+                        "handicapper_notes": "Got up gamely last out. Strong sprint form.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Mornin' Boss",
+                        "handicapper_notes": "Hung late last out. Solid early speed.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Fair Trade",
+                        "handicapper_notes": "Pressed pace and shortened last out.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Alien Princess",
+                        "handicapper_notes": "Set pace and tired last out.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Mornin' Boss",
+                    "rating": 89.0,
+                    "reason": "Hung late last out. Solid early speed."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Fair Trade",
+                    "rating": 86.0,
+                    "reason": "Pressed pace and shortened last out."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Alien Princess",
+                    "rating": 85.0,
+                    "reason": "Set pace and tired last out."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Fiveminutsofpasion",
+                "rating": 91.0,
+                "reason": "Got up gamely last out. Strong sprint form."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tappin Royalty",
+                        "handicapper_notes": "Played no factor last out. Best runs are from off the pace.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bailamos",
+                        "handicapper_notes": "Came on late 7w last out. Solid regional shipper.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "El Marro",
+                        "handicapper_notes": "Gave way on turn last out.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "First Citizen",
+                        "handicapper_notes": "Weakened on turn last out.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Team Leyendecker",
+                        "handicapper_notes": "Mild rally last out. Class drop makes him a major threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Law Of The Jungle",
+                        "handicapper_notes": "Pressed, stopped, bled last out. Major risk.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Southern Sense",
+                        "handicapper_notes": "Slow early, no factor last out.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Abuelo Paps",
+                        "handicapper_notes": "Finished well mid-track last out. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Etretat",
+                        "handicapper_notes": "Pressed early, faded last out.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Drewpower",
+                        "handicapper_notes": "Moved up 6w but no threat last out.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Team Leyendecker",
+                    "rating": 88.0,
+                    "reason": "Mild rally last out. Class drop makes him a major threat."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bailamos",
+                    "rating": 84.0,
+                    "reason": "Came on late 7w last out. Solid regional shipper."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Abuelo Paps",
+                    "rating": 80.0,
+                    "reason": "Finished well mid-track last out. Strong contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Southern Sense",
+                    "rating": 79.0,
+                    "reason": "Slow early, no factor last out."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Drewpower",
+                "rating": 76.0,
+                "reason": "Moved up 6w but no threat last out."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "State Of Attack",
+                        "handicapper_notes": "Mid move, bid short last out. Strong class drop.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Silent Breeze",
+                        "handicapper_notes": "Played no factor last out.",
+                        "features": {
+                            "ai_holistic_score": 79,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Reverend Jack",
+                        "handicapper_notes": "Ins move, second best last out. Consistent.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Briarcliff",
+                        "handicapper_notes": "Overpowered, saved 2nd last out.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Dancing On Air",
+                        "handicapper_notes": "Gained position 5 wide last out.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Classic Alphie",
+                        "handicapper_notes": "Even drive last out.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Souper Justified",
+                        "handicapper_notes": "Evenly, outbid others last out.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Global Phenom",
+                        "handicapper_notes": "Bid mid-track, held spot last out.",
+                        "features": {
+                            "ai_holistic_score": 73,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "State Of Attack",
+                    "rating": 85.0,
+                    "reason": "Mid move, bid short last out. Strong class drop."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Reverend Jack",
+                    "rating": 84.0,
+                    "reason": "Ins move, second best last out. Consistent."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Dancing On Air",
+                    "rating": 84.0,
+                    "reason": "Gained position 5 wide last out."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Silent Breeze",
+                    "rating": 79.0,
+                    "reason": "Played no factor last out."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Classic Alphie",
+                "rating": 87.0,
+                "reason": "Even drive last out."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "5.5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5.5 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Blue Cheese Olive",
+                        "handicapper_notes": "Chased, weakened last out. Strong sprinter.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Buckin' Dreamer",
+                        "handicapper_notes": "Ceded to wide pressure last out.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Enlighten",
+                        "handicapper_notes": "Late effort last out. Strong class.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Atlantic Firestorm",
+                        "handicapper_notes": "Willingly outfinished last out.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Priority Lane",
+                        "handicapper_notes": "Ceded to pressure last out.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Atlantic Firestorm",
+                    "rating": 91.0,
+                    "reason": "Willingly outfinished last out."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Blue Cheese Olive",
+                    "rating": 89.0,
+                    "reason": "Chased, weakened last out. Strong sprinter."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Buckin' Dreamer",
+                    "rating": 89.0,
+                    "reason": "Ceded to wide pressure last out."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Priority Lane",
+                    "rating": 85.0,
+                    "reason": "Ceded to pressure last out."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Enlighten",
+                "rating": 88.0,
+                "reason": "Late effort last out. Strong class."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Bashful Daisy",
+                        "handicapper_notes": "Pressed turn, tired last out.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Seems To Whisper",
+                        "handicapper_notes": "Rallied late between last out.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Betsy Is The Code",
+                        "handicapper_notes": "Chased, weakened last out.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Pasta Salad Rhonda",
+                        "handicapper_notes": "Slow early, even finish last out.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Smalltownsmokeshow",
+                        "handicapper_notes": "Pressed, chased, spent last out.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lil Breezzy",
+                        "handicapper_notes": "Abreast, edged clear last out. Strong contender.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Lino And Me",
+                        "handicapper_notes": "No breathers, bit short last out.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Sassy Maxine",
+                        "handicapper_notes": "Slow start, no threat last out.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Wedding March",
+                        "handicapper_notes": "Hard used short inside last out.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Photo Finish",
+                        "handicapper_notes": "Played no factor last out.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Seems To Whisper",
+                    "rating": 93.0,
+                    "reason": "Rallied late between last out."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Bashful Daisy",
+                    "rating": 89.0,
+                    "reason": "Pressed turn, tired last out."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Betsy Is The Code",
+                    "rating": 89.0,
+                    "reason": "Chased, weakened last out."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Sassy Maxine",
+                    "rating": 87.0,
+                    "reason": "Slow start, no threat last out."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Lil Breezzy",
+                "rating": 90.0,
+                "reason": "Abreast, edged clear last out. Strong contender."
+            }
+        }
+    ]
+}
