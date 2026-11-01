@@ -1,30 +1,38 @@
 {
     "track_code": "MORN",
-    "location": "Mornington Peninsula, VIC",
-    "nicknames": [],
+    "location": "Mornington, Mornington Peninsula, Victoria, Australia",
+    "nicknames": [
+        "Mornington Racecourse",
+        "MRC Mornington",
+        "Peninsula Racing HQ",
+        "Home of the Mornington & Peninsula Cups"
+    ],
     "courses": {
         "main_turf": {
             "circumference": "1,800 metres",
-            "surface": "Turf",
-            "stretch_length": "210 metres",
-            "bias_notes": "Anti-clockwise (left-handed). A highly unique, 'figure-eight' style track with a notoriously short 210m home straight. The run into the home turn is downhill, causing horses to naturally speed up, but the short straight is sharply uphill.",
-            "post_bias": "Inside barriers are highly advantageous. The sharp turns and short straight make it very difficult to loop the field from out wide."
+            "surface": "Turf (Rye and Kikuyu grass on free-draining sandy Peninsula loam)",
+            "stretch_length": "210 metres — steeply uphill to the winning post",
+            "bias_notes": "Anti-clockwise (left-handed). Operated by the Melbourne Racing Club (MRC). A highly distinctive, undulating 1,800m circuit featuring a fast downhill sweeping run from the 600m mark into the home corner, followed immediately by a sharp turn and a notoriously short 210-metre steep uphill home straight. Pure tearaway leaders ('E') who burn energy downhill often stall on the uphill rise, while deep backmarkers ('C') run out of straight. Agile on-pace stalkers ('P') holding momentum around the home turn dominate.",
+            "post_bias": "STRONG INSIDE-TO-MIDDLE BARRIER BIAS: Barriers 1 through 5 are major advantages over 1000m, 1200m, and 1500m. Looping the field 4-wide on the downhill cambered turn into a 210m straight is virtually impossible, especially when the portable rail is Out 5m to 8m."
         }
     },
     "handicapping_angles": {
-        "the_mornington_specialist": "Because of the downhill turn and uphill finish, Mornington is the ultimate 'horses for courses' track. Heavily upgrade horses with previous wins at this specific venue.",
-        "momentum_runners": "The uphill straight stops weak front-runners dead in their tracks. Look for horses that can secure an economical run just behind the leaders (the 'box seat') and pop out at the top of the short straight.",
-        "class_drop_shippers": "Horses dropping back from Metro racing at Caulfield or Sandown often find the provincial company here much easier, provided they can handle the tight turns."
+        "downhill_turn_uphill_210m_horses_for_courses": "Mornington's downhill-turn-to-uphill-210m-finish geometry is unique in Victoria. Horses that stay balanced cornering downhill and corner tightly carry an enormous venue-specialist advantage (+3.5 pts for prior Mornington winners).",
+        "peninsula_cup_and_mornington_cup_metro_class": "Hosts marquee MRC feature cards including Peninsula Cup Day (November Spring Carnival) and Mornington Cup Day (Autumn Saturday Metropolitan card granting Caulfield Cup ballot exemption). Feature fields reach full Melbourne Metro Benchmark 78-100 / Listed quality (+3.5 pts class angle).",
+        "local_peninsula_and_cranbourne_stable_edge": "Mornington and neighboring Cranbourne/Balnarring trainers (Matt Laurie, Anthony & Sam Freedman, Cliff Brown, Shane Nichols, Jerome Hunter, Ciaron Maher, Gavin Bedggood) target home-peninsula cards heavily (+2.5 pts).",
+        "rail_out_momentum_lock": "Monitor MRC portable rail positions (True vs Out 3m/6m/8m). When the rail is Out 5m+, ground-saving leaders ('E') and box-seat stalkers ('P') cornering on the fence hold a decisive advantage.",
+        "melbourne_metro_class_droppers": "Runners dropping from Caulfield, Sandown, or Moonee Valley midweek/Saturday metro races hold a clear speed-figure edge over country-grade rivals, provided they possess tactical gate speed.",
+        "typical_distances": "Standard distances: 1000m, 1200m, 1500m, 1600m (Peninsula Cup), 2000m, 2400m (Mornington Cup)."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
+        "tier": "Tier 2 (Victorian Premier MRC Provincial / Metro Venue)",
         "class_rating": 92,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
-            "turf_route": "0.0"
+            "turf_sprint": "+1.0",
+            "turf_route": "+1.5"
         },
-        "lengths": 0.0,
-        "points": 0.0
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_Victoria_Provincial"
 }

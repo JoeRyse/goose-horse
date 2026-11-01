@@ -9,22 +9,22 @@
     ],
     "courses": {
         "main_turf": {
-            "circumference": "1,720 metres",
-            "surface": "Turf (Kikuyu grass on loam soil base)",
-            "stretch_length": "320 metres",
-            "bias_notes": "Anti-clockwise (left-handed). Situated in the Limestone Coast region of South Australia near the Victorian border. A 1,720m undulating turf oval featuring a short 320m home straight. The short run-in creates a distinct advantage for tactical, on-pace runners ('E' and 'P' styles) who can settle in the first four before turning for home. Deep closers ('C') struggle down the short 320m stretch unless early pace is frantic.",
-            "post_bias": "INSIDE BARRIER EDGE: Inside barriers (stalls 1–4) offer a noticeable advantage in sprint trips up to 1200m due to the short run to the first turn. Wide draws (8+) over 1000m and 1200m are penalizing unless the runner possesses enough early speed to cross cleanly."
+            "circumference": "1,730 metres",
+            "surface": "Turf (Kikuyu and Rye grass on free-draining Limestone Coast loam)",
+            "stretch_length": "270 metres — short run-in",
+            "bias_notes": "Anti-clockwise (left-handed). Located in South Australia's Limestone Coast near the Western Victorian border. Features a 1,730m undulating turf oval with tight-to-medium bends and a very short 270-metre home straight. Because the home stretch is only 270m, leaders ('E') and forward box-seat pressers ('P') turning in the top three hold a commanding advantage. Deep backmarkers ('C') rarely circle the field in time unless early sectionals collapse.",
+            "post_bias": "STRONG INSIDE BARRIER ADVANTAGE: Barriers 1 through 4 hold a clear edge in 1000m, 1100m, 1200m, and 1430m events. Wide draws (8+) suffer heavy ground loss on the turns with minimal straight length (270m) to recover."
         }
     },
     "handicapping_angles": {
-        "naracoorte_cup_february_feature": "The Naracoorte Cup ($40k+ Handicap, 2000m, February) is the marquee event of the Naracoorte Racing Club. Attracts Adelaide metropolitan and Western Victorian country stables. Upgrade horses with proven Limestone Coast form (+2.5 pts).",
-        "victorian_border_and_adelaide_shippers": "Naracoorte receives high-volume shippers from Western Victorian country tracks (Warrnambool, Casterton, Hamilton, Horsham) and Adelaide metro yards (e.g. Sue & Jason Jaensch, Tom Dabernig, Symon Wilde, Paul Preusker). Upgrade Victorian provincial/metro drop-down shippers (+3.0 pts).",
-        "limestone_coast_circuit_form": "Form translates seamlessly between Naracoorte, Mount Gambier, Penola, Bordertown, and Millicent. Horses with proven wins across the Limestone Coast circuit hold a distinct track-suitability edge.",
-        "short_320m_straight_pace_bias": "Tactical pressers ('P') holding the fence entering the 320m home stretch win over 68% of races. Downgrade deep back-markers ('C') unless early speed is contested.",
-        "typical_distances": "Standard program: 1000m, 1100m, 1200m, 1430m, 2000m (Cup trip)."
+        "short_270m_straight_on_pace_lock": "With just a 270m home straight, tactical early speed ('E' with 'is_lone_speed': true) and rail-hugging stalkers ('P') dominate across all distances (+3.5 pts pace-map upgrade). Penalize slow-breaking get-back runners ('C').",
+        "western_victorian_cross_border_shipper_edge": "Positioned right beside the Victorian border, Naracoorte attracts far stronger Victorian country/provincial stables shipping across from Warrnambool, Stawell, Horsham, and Ballarat (Tom Dabernig, Symon Wilde, Paul Preusker, Maddie Raymond, Lindsey Smith) alongside top SA yards (Sue & Jason Jaensch, Richard & Chantelle Jolly, Michael Hickmott). Upgrade VIC benchmark droppers (+3.0 pts).",
+        "naracoorte_cup_showcase": "The Naracoorte Cup ($40k+ Feature, 2000m, February) elevates field strength to SA Provincial / VIC Country Cup standard.",
+        "limestone_coast_circuit_translation": "Form flows directly between Naracoorte, Mount Gambier, Penola, Bordertown, and Millicent. Wet winter/early-spring meetings on Soft 6 to Heavy 9 reward proven Limestone Coast mudlarks.",
+        "typical_distances": "Standard distances: 1000m, 1100m, 1200m, 1430m, 1800m, 2000m (Naracoorte Cup)."
     },
     "par_adjustment": {
-        "tier": "Tier 3.5 (SA Limestone Coast Circuit)",
+        "tier": "Tier 3.5 (SA Limestone Coast Regional)",
         "class_rating": 84,
         "speed_par_offsets": {
             "turf_sprint": "-0.5",

@@ -1,36 +1,38 @@
 {
     "track_code": "MWBK",
-    "location": "Muswellbrook, Upper Hunter, NSW, Australia",
+    "location": "Muswellbrook, Upper Hunter Valley, NSW, Australia",
     "nicknames": [
+        "Muswellbrook Racecourse",
         "Skellatar Park",
         "The Upper Hunter Hub",
-        "Home of the Muswellbrook Cup"
+        "Home of the Muswellbrook Gold Cup"
     ],
     "courses": {
         "main_turf": {
             "circumference": "2,010 metres",
-            "surface": "Turf",
+            "surface": "Turf (Kikuyu and Couch grass on well-draining Hunter Valley alluvial loam)",
             "stretch_length": "400 metres",
-            "bias_notes": "Clockwise. A wide, championship-standard 2,010m country oval with cambered turns and a spacious 400m home straight. Features a long turning back straight between the 1500m and 900m marks with dedicated starting chutes for 1000m and 1280m races. The wide layout and generous 400m straight provide a fair contest for all running styles, though saving ground on the sweeping turns remains vital.",
-            "post_bias": "In 1000m sprint chute starts, inside-to-middle barriers (2-6) hold a slight advantage before the turn into the straight. In 1280m chute starts, the straightaway run gives wider draws time to find cover before joining the long turning backstretch. In route races (1500m+), inside draws (1-4) offer an advantage by saving ground."
+            "bias_notes": "Clockwise (right-handed). Championship-scale 2,010m country oval ('Skellatar Park') featuring broad cambered turns, a long sweeping backstretch from the 1500m to the 900m mark, dedicated chutes for 1000m and 1280m, and a spacious 400-metre home straight. Unlike tight NSW bush bullrings, Muswellbrook gives mid-pack pressers ('P') and strong-finishing swoopers ('S' and 'C') full opportunity to wind up down the long 400m stretch.",
+            "post_bias": "FAIR ACROSS MOST CHUTES: In 900m and 1000m sprint chute dashes, barriers 2-6 hold a mild tactical edge entering the home bend. In 1280m chute starts, a long straight run-up allows wider draws (5-10) time to slot in cleanly. Over 1500m-1750m routes, inside-to-mid draws (1-6) save valuable ground around the sweeping turns."
         }
     },
     "handicapping_angles": {
-        "upper_hunter_breeding_and_provincial_class_spike": "Located in Australia's major thoroughbred breeding capital, Muswellbrook frequently attracts high-priced, unexposed young horses from Sydney and Newcastle yards (Lees, Doyle, Perry). Heavily upgrade runners shipping in from Newcastle or Sydney midweek company into local country benchmarks.",
-        "spacious_400m_straight_fairness": "Muswellbrook's 400m home straight and cambered turns prevent the severe front-runner locks seen at tighter country venues. Stalkers ('P') and strong-finishing closers ('Swoopers') have ample stretch room to wind up.",
-        "1280m_chute_positioning": "In 1280m races, target runners drawn in Barriers 3 through 7 who can establish a rhythm in the chute before navigating the long, sweeping backstretch turn without burning early fuel.",
-        "country_championships_showcase_class": "During the autumn Muswellbrook Showcase Cup meeting and Country Championships Heat, local country form lines face high-class regional opposition. Prioritize horses with proven metropolitan or provincial speed figures.",
-        "nsw_country_benchmark_weight_penalty": "In NSW Country Benchmark handicaps (BM58-BM74), top weights carrying 59.5kg+ face a strict penalty (1kg = ~1 length over 400m). In Showcase Cup and feature events, ignore minor weight spreads and prioritize peak class ratings."
+        "muswellbrook_gold_cup_big_dance_qualifier": "The Muswellbrook Gold Cup ($150k+ Showcase, 1500m, November) is an official Big Dance Eligibility Qualifier, alongside Country Championships Showcase heats. Feature cards attract metropolitan/provincial class horses (+3.5 pts class angle).",
+        "upper_hunter_stud_and_provincial_shippers": "Situated in Australia's Thoroughbred breeding heartland near Scone, Skellatar Park draws blue-blood lightly raced stock from major Sydney, Newcastle, and Scone stables (Kris Lees, Nathan Doyle, Paul Messara & Leah Gavranich, Brett Cavanough, Cameron Crockett, Bjorn Baker). Heavily upgrade Newcastle/Wyong/Sydney midweek droppers (+3.0 pts).",
+        "spacious_400m_straight_swooper_fairness": "Muswellbrook's expansive 2,010m circumference and 400m straight expose weak front-runners ('E') when early pace is contested. Upgrade sustained stalkers ('P') and strong L400m closers ('S').",
+        "1280m_chute_rhythm_angle": "The signature 1280m chute feeds into a long sweeping bend from the 900m; horses with tactical cruising speed drawn barriers 3-8 avoid early traffic and hit the 400m straight balanced.",
+        "nsw_country_benchmark_weight_spread": "In standard NSW Country Benchmarks (BM58-BM66), topweights lugging 60kg+ are vulnerable late down the 400m stretch against progressive 3YOs/4YOs or apprentice-claimed runners.",
+        "typical_distances": "Standard distances: 900m, 1000m, 1280m, 1450m, 1500m (Muswellbrook Cup), 1750m, 2300m."
     },
     "par_adjustment": {
-        "tier": "Tier 2 (NSW Premier Country / Hunter Headquarters)",
-        "class_rating": 91,
+        "tier": "Tier 2.5 (NSW Premier Upper Hunter Showcase HQ)",
+        "class_rating": 90,
         "speed_par_offsets": {
-            "turf_sprint": "0.0",
+            "turf_sprint": "+0.5",
             "turf_route": "+0.5"
         },
-        "lengths": 1.0,
-        "points": 2.0
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }
