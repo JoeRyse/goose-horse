@@ -1269,6 +1269,91 @@ with tab_handicap:
                 },
             )
 
+          def unwrap_and_normalize_race(raw_obj, expected_r_num):
+            """Unwraps nested JSON structures from Gemini 4 and normalizes contender keys."""
+            target = None
+            if isinstance(raw_obj, list):
+              for item in raw_obj:
+                if isinstance(item, dict):
+                  if str(item.get("race_number", "")) == str(expected_r_num):
+                    target = item
+                    break
+              if not target and len(raw_obj) > 0 and isinstance(raw_obj[0], dict):
+                target = raw_obj[0]
+            elif isinstance(raw_obj, dict):
+              # Check if wrapped inside {"races": [...]}, {"race": {...}}, {"data": [...]}
+              for wrap_key in ["races", "data", "results", "card"]:
+                if isinstance(raw_obj.get(wrap_key), list) and len(raw_obj[wrap_key]) > 0:
+                  return unwrap_and_normalize_race(raw_obj[wrap_key], expected_r_num)
+                elif isinstance(raw_obj.get(wrap_key), dict):
+                  target = raw_obj[wrap_key]
+                  break
+              if not target and isinstance(raw_obj.get("race"), dict):
+                target = raw_obj["race"]
+              if not target:
+                target = raw_obj
+
+            if not isinstance(target, dict):
+              return {"race_number": expected_r_num, "contenders": []}
+
+            if not target.get("race_number"):
+              target["race_number"] = expected_r_num
+
+            if not target.get("distance_surface"):
+              dist_part = str(target.get("distance", ""))
+              surf_part = str(target.get("surface", ""))
+              target["distance_surface"] = f"{dist_part} {surf_part}".strip() or "Standard"
+
+            # Normalize contenders array key
+            contenders_list = target.get("contenders")
+            if not isinstance(contenders_list, list) or len(contenders_list) == 0:
+              for alt_k in ["selections", "runners", "horses", "entries", "field", "top_contenders"]:
+                if isinstance(target.get(alt_k), list) and len(target[alt_k]) > 0:
+                  contenders_list = target[alt_k]
+                  break
+            if not isinstance(contenders_list, list):
+              contenders_list = []
+
+            normalized_contenders = []
+            for h in contenders_list:
+              if not isinstance(h, dict):
+                continue
+              feats = h.get("features") if isinstance(h.get("features"), dict) else {}
+              # Pull top-level feature keys if model flattened them
+              for fk in [
+                  "ai_holistic_score",
+                  "running_style",
+                  "is_lone_speed",
+                  "class_drop_bonus_applied",
+                  "pace_scenario_eval",
+                  "distance_transition",
+                  "trouble_trip",
+                  "is_danger_horse",
+              ]:
+                if fk not in feats and fk in h:
+                  feats[fk] = h[fk]
+              if "ai_holistic_score" not in feats:
+                feats["ai_holistic_score"] = h.get("rating", h.get("score", 82))
+
+              normalized_contenders.append({
+                  "program_number": str(
+                      h.get("program_number", h.get("number", h.get("saddle_cloth", h.get("tab_no", h.get("post", "")))))
+                  ),
+                  "barrier": str(
+                      h.get("barrier", h.get("post", h.get("draw", h.get("gate", h.get("program_number", "")))))
+                  ),
+                  "horse_name": str(
+                      h.get("horse_name", h.get("name", h.get("horse", "Unknown")))
+                  ),
+                  "handicapper_notes": str(
+                      h.get("handicapper_notes", h.get("notes", h.get("reason", h.get("analysis", "Contender."))))
+                  ),
+                  "features": feats,
+              })
+
+            target["contenders"] = normalized_contenders
+            return target
+
           def parse_race_from_pdf(r_num):
             """Stage 1: Fast PDF extraction for a single race using gemini-3.8-flash."""
             extract_prompt = f"""
@@ -1276,9 +1361,9 @@ with tab_handicap:
             OFFICIAL SCRATCHES TO EXCLUDE: {scratches if scratches.strip() else "None"}
             Include:
             1. Race {r_num} exact distance, surface, class/grade, purse, and conditions.
-            2. Every active (non-scratched) runner: Program #, Post/Barrier, Horse Name, Jockey/Driver, Trainer, Weight/Claim/Medications, Morning Line/Odds.
-            3. Running Style (E, E/P, P, S, C), early pace call positions, fractional/sectional splits, last 3-5 Speed Figures & Class Ratings, class transitions (e.g. MSW/Allowance to Claiming, Metro to Provincial/Country), recent finishes, track/distance/wet record, workouts, and trip/comment notes.
-            Be comprehensive and concise so the downstream handicapping engine has 100% of Race {r_num}'s form facts.
+            2. Every active (non-scratched) runner in the field: Program #, Post/Barrier, Horse Name, Jockey/Driver, Trainer, Weight/Claim/Medications, Morning Line/Odds.
+            3. Running Style (E, E/P, P, S, C), early pace call positions, fractional/sectional splits, last 3-5 Speed Figures & Class Ratings, class transitions, recent finishes, track/distance/wet record, workouts, and trip/comment notes.
+            List EVERY runner in Race {r_num} so no horse is omitted.
             """
             for p_name in [active_parser_name, "gemini-3.8-flash", "gemini-3.7-flash"]:
               try:
@@ -1290,20 +1375,21 @@ with tab_handicap:
                     },
                 )
                 p_resp = p_model.generate_content([extract_prompt, remote_file])
-                if p_resp and p_resp.text and len(p_resp.text.strip()) > 80:
+                if p_resp and p_resp.text and len(p_resp.text.strip()) > 120:
                   return p_resp.text.strip()
               except Exception:
+                time.sleep(1.0)
                 continue
             return ""
 
-          # Stage 1: Launch parallel PDF parsing across races with gemini-3.8-flash
+          # Stage 1: Launch controlled 2-worker PDF parsing with gemini-3.8-flash (avoids 429 burst throttling)
           raw_extracted_data = []
           progress_bar = st.progress(
               0,
               text=f"⚡ Stage 1: {active_parser_name} parsing {total_races} races from PDF...",
           )
 
-          executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+          executor = concurrent.futures.ThreadPoolExecutor(max_workers=2)
           parse_futures = {
               r_num: executor.submit(parse_race_from_pdf, r_num)
               for r_num in range(1, total_races + 1)
@@ -1319,7 +1405,7 @@ with tab_handicap:
                 ),
             )
             try:
-              parsed_race_sheet = parse_futures[race_num].result(timeout=60)
+              parsed_race_sheet = parse_futures[race_num].result(timeout=65)
             except Exception:
               parsed_race_sheet = ""
 
@@ -1332,102 +1418,85 @@ with tab_handicap:
             )
 
             race_user_prompt = f"""
-                        [TASK] Deeply handicap Race {race_num} ONLY for {selected_track}.
+                        [TASK] Deeply handicap Race {race_num} ONLY for {selected_track} using both the parsed race sheet below and the attached PDF.
                         [TRACK PROFILE] {current_track_profile}
                         [OFFICIAL SCRATCHES & UPDATES]
                         {scratches if scratches.strip() else "No scratches provided."}
 
                         [EXTRACTED RACE {race_num} PAST PERFORMANCES (Parsed by {active_parser_name})]
-                        {parsed_race_sheet if parsed_race_sheet else "Use attached PDF directly for Race " + str(race_num)}
+                        {parsed_race_sheet if parsed_race_sheet else "Inspect attached PDF directly for Race " + str(race_num)}
 
                         [CRITICAL HANDICAPPING DIRECTIVES FOR RACE {race_num}]
                             1. ANALYZE RACE {race_num} ONLY.
                             2. SCRATCHES ARE ABSOLUTE: Fully ignore scratched horses listed above.
                             3. OFF-TURF DIRECTIVE: If scratches/updates state 'all races off the turf', 'off turf', 'off-turf', or 'moved to dirt', treat ALL turf races as DIRT races! Re-evaluate contenders based on dirt speed figures, dirt past performances, and prioritize Main Track Only (MTO) entrants!
-                            4. FIELD COVERAGE: Extract and rank AT LEAST 5 to 6 CONTENDERS in 'contenders'.
+                            4. MANDATORY FULL FIELD COVERAGE: You MUST extract and rank AT LEAST 5 to 6 CONTENDERS (or all active runners if field < 6) inside the 'contenders' array. NEVER return an empty 'contenders' array!
                             5. ENFORCE OVERRIDE RULES:
                             - Class Drop Elevator: If dropping from MSW ($75k+) or Allowance to MCL/CLM, set 'class_drop_bonus_applied': true and grant +10 points.
                             - Post-Scratch Lone Speed: If scratches leave only ONE 'E' runner, set 'is_lone_speed': true, set 'pace_scenario_eval': 'Lone Speed (+6)', and grant +6 points.
                             6. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.
                         """
 
-            # Only attach the heavy PDF binary if Stage 1 text extraction was empty
-            handicap_payload = (
-                [race_user_prompt]
-                if len(parsed_race_sheet) > 80
-                else [race_user_prompt, remote_file]
-            )
+            # Always include remote_file alongside the 3.8-flash parsed sheet so 4-hydrogen never misses runners
+            handicap_payload = [race_user_prompt, remote_file]
 
-            response = None
+            normalized_race = None
             last_err = None
+            candidate_models = [
+                active_model_name,
+                "gemini-4-hydrogen",
+                "gemini-3.8-flash",
+                "gemini-3.7-flash",
+            ]
+            # Deduplicate while preserving order
+            seen_m = set()
+            ordered_models = [
+                m for m in candidate_models if not (m in seen_m or seen_m.add(m))
+            ]
+
             for attempt in range(3):
+              cur_model_name = ordered_models[min(attempt, len(ordered_models) - 1)]
               try:
-                response = model.generate_content(handicap_payload)
+                cur_model = genai.GenerativeModel(
+                    cur_model_name,
+                    system_instruction=system_instruction,
+                    generation_config={
+                        "response_mime_type": "application/json",
+                        "temperature": creativity_temp,
+                        "max_output_tokens": 8192,
+                    },
+                )
+                response = cur_model.generate_content(handicap_payload)
                 if response and response.text:
-                  break
+                  json_str = clean_json_string(response.text)
+                  try:
+                    parsed_obj = json.loads(json_str)
+                  except Exception:
+                    try:
+                      parsed_obj = json.loads(repair_json(json_str))
+                    except Exception:
+                      sanitized = re.sub(r"[\r\n\t]+", " ", json_str)
+                      sanitized = re.sub(r",\s*([\]}])", r"\1", sanitized)
+                      parsed_obj = json.loads(repair_json(sanitized))
+
+                  candidate_race = unwrap_and_normalize_race(parsed_obj, race_num)
+                  if len(candidate_race.get("contenders", [])) >= 2:
+                    normalized_race = candidate_race
+                    break
+                  else:
+                    last_err = f"Model returned {len(candidate_race.get('contenders', []))} contenders on attempt {attempt + 1}"
               except Exception as err:
                 last_err = err
                 err_str = str(err)
-                if "404" in err_str or "not found" in err_str.lower():
-                  for alt_name in [
-                      "gemini-4-hydrogen",
-                      "gemini-4-argon",
-                      "gemini-3.8-flash",
-                      "gemini-3.7-flash",
-                  ]:
-                    try:
-                      fallback_model = genai.GenerativeModel(
-                          alt_name,
-                          system_instruction=system_instruction,
-                          generation_config={
-                              "response_mime_type": "application/json",
-                              "temperature": creativity_temp,
-                              "max_output_tokens": 8192,
-                          },
-                      )
-                      response = fallback_model.generate_content(
-                          handicap_payload
-                      )
-                      if response and response.text:
-                        model = fallback_model
-                        active_model_name = alt_name
-                        break
-                    except Exception as f_err:
-                      last_err = f_err
-                  if response and response.text:
-                    break
-                elif "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                  time.sleep(3.0 * (attempt + 1))
+                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                  time.sleep(2.5 * (attempt + 1))
                 else:
-                  time.sleep(1.5)
+                  time.sleep(1.0)
 
-            if not response or not response.text:
+            if normalized_race and len(normalized_race.get("contenders", [])) >= 1:
+              raw_extracted_data.append(normalized_race)
+            else:
               st.error(f"⚠️ Error analyzing Race {race_num}: {last_err}")
-              continue
-
-            try:
-              json_str = clean_json_string(response.text)
-
-              # --- BULLETPROOF JSON PARSER & REPAIR ENGINE ---
-              try:
-                race_json = json.loads(json_str)
-              except Exception:
-                try:
-                  repaired_str = repair_json(json_str)
-                  race_json = json.loads(repaired_str)
-                except Exception:
-                  sanitized = re.sub(r"[\r\n\t]+", " ", json_str)
-                  sanitized = re.sub(r",\s*([\]}])", r"\1", sanitized)
-                  repaired_str = repair_json(sanitized)
-                  race_json = json.loads(repaired_str)
-
-              if isinstance(race_json, list) and len(race_json) > 0:
-                raw_extracted_data.append(race_json[0])
-              elif isinstance(race_json, dict):
-                raw_extracted_data.append(race_json)
-
-            except Exception as e:
-              st.error(f"⚠️ Error parsing JSON for Race {race_num}: {e}")
 
           executor.shutdown(wait=False)
           progress_bar.empty()
