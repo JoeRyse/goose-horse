@@ -1,0 +1,2227 @@
+{
+    "meta": {
+        "track": "Belmont Park",
+        "date": "2026-11-14",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "6 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "6 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Win #5 Donegal Luster (Win wagering only due to scratches)",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Donegal Luster",
+                        "handicapper_notes": "Only runner in the reduced three-horse field with prior race experience, posting a competitive 64 speed figure in debut over this main dirt oval after a step slow start and climbing early. Sharp Nov 6 4F breeze in 48.48 (4/31) signals forward progression at 6.5F on Good dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow start and climbed in 6F debut",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Warspite",
+                        "handicapper_notes": "Well-bred Flightline first-time starter out of G1 winner Paulassilverlining with top jockey Flavien Prat (37 percent win rate with 2YOs at the meet). Consistent 48-second 4F breezes including a gate work, though Chad Brown is more dominant in turf routes than 2YO dirt sprints so no blanket elite trainer bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Smead",
+                        "handicapper_notes": "Dangerous Essential Quality debut runner for Kenneth McPeek with leading meet rider Manuel Franco (21 percent). Owns the strongest stamina and speed work tab in the field, including two 5F drills in 1:01.01 and 1:01.03 from the gate plus a sharp 36.00 3F blowout on Nov 10.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Donegal Luster",
+                    "rating": 86.0,
+                    "reason": "Only runner in the reduced three-horse field with prior race experience, posting a competitive 64 speed figure in debut over this main dirt oval after a step slow start and climbing early. Sharp Nov 6 4F breeze in 48.48 (4/31) signals forward progression at 6.5F on Good dirt. | <i>\u26a0\ufe0f Slow start and climbed in 6F debut</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Warspite",
+                    "rating": 84.0,
+                    "reason": "Well-bred Flightline first-time starter out of G1 winner Paulassilverlining with top jockey Flavien Prat (37 percent win rate with 2YOs at the meet). Consistent 48-second 4F breezes including a gate work, though Chad Brown is more dominant in turf routes than 2YO dirt sprints so no blanket elite trainer bonus applied."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Smead",
+                    "rating": 82.0,
+                    "reason": "Dangerous Essential Quality debut runner for Kenneth McPeek with leading meet rider Manuel Franco (21 percent). Owns the strongest stamina and speed work tab in the field, including two 5F drills in 1:01.01 and 1:01.03 from the gate plus a sharp 36.00 3F blowout on Nov 10."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Donegal Luster",
+                    "rating": 86.0,
+                    "reason": "Only runner in the reduced three-horse field with prior race experience, posting a competitive 64 speed figure in debut over this main dirt oval after a step slow start and climbing early. Sharp Nov 6 4F breeze in 48.48 (4/31) signals forward progression at 6.5F on Good dirt. | <i>\u26a0\ufe0f Slow start and climbed in 6F debut</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Warspite",
+                    "rating": 84.0,
+                    "reason": "Well-bred Flightline first-time starter out of G1 winner Paulassilverlining with top jockey Flavien Prat (37 percent win rate with 2YOs at the meet). Consistent 48-second 4F breezes including a gate work, though Chad Brown is more dominant in turf routes than 2YO dirt sprints so no blanket elite trainer bonus applied."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Smead",
+                    "rating": 82.0,
+                    "reason": "Dangerous Essential Quality debut runner for Kenneth McPeek with leading meet rider Manuel Franco (21 percent). Owns the strongest stamina and speed work tab in the field, including two 5F drills in 1:01.01 and 1:01.03 from the gate plus a sharp 36.00 3F blowout on Nov 10."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Smead",
+                "rating": 82.0,
+                "reason": "Dangerous Essential Quality debut runner for Kenneth McPeek with leading meet rider Manuel Franco (21 percent). Owns the strongest stamina and speed work tab in the field, including two 5F drills in 1:01.01 and 1:01.03 from the gate plus a sharp 36.00 3F blowout on Nov 10."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Donegal Luster</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #2, #4 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile All-Weather",
+            "surface": "All-Weather",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile All-Weather",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Win #1 Hammerhead; Exacta Key Box 1 / 2, 3, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Hammerhead",
+                        "handicapper_notes": "Top selection moving off turf onto the 1-mile Tapeta track. Proven Grade 3 winner on Woodbine Tapeta (Valedictory G3, 102 speed) with sharp recent turf figures (104, 105) at Belmont. Inside Post 1 provides a major ground-saving advantage into the first turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Burhan (GB)",
+                        "handicapper_notes": "Elite NYRA connections (Chad Brown and Flavien Prat) with prior All-Weather placing in France (Chantilly AWT 2nd). First start since reported as a gelding off a 4-month layoff after tossing his head and racing wide at Saratoga. Post 3 fits well, though US speed figures (89-93) trail Hammerhead.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Tossed head start, wide 7p at SAR in last",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Spirit Prince",
+                        "handicapper_notes": "Consistent class performer (15: 2-5-4) making his first start since being gelded off an 8-month layoff for Miguel Clement. Previously ran 4th with a blocked trip on Gulfstream Tapeta and owns multiple 98-103 turf speed figures. Post 6 stays inside the advantageous 1-6 draw zone.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Blocked 1/4 in Nov GP Tapeta start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Depiction",
+                        "handicapper_notes": "Danger horse returning from a 14-month layoff as a first-time gelding for synthetic-savvy trainer Mark Casse and top local rider Manuel Franco. Sharp Kentucky worktab (47.80 at KEE, 48.00 at CD) and high back class (101-105 turf figures, G3-placed). Inside Post 2 saves ground for his late rally in the 1,097ft stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Ciao Chuck",
+                        "handicapper_notes": "Proven synthetic ability with a 103 speed figure finishing 4th in a $100k Gulfstream Tapeta handicap in January. Weakened behind Hammerhead in his latest on soft turf and represents a cold trainer/jockey combo (Hennig/Davis both 6%), limiting him to underlying exotic consideration.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Off slow two starts back",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Funny Factor",
+                        "handicapper_notes": "Three-year-old colt with three turf wins in 2026 (94-96 speed) and tactical E/P pace from a favorable Post 4 draw. However, he has zero synthetic starts, steps into open AOC $80k company against older rivals, and exits a 16-length defeat in the Mohawk.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Rachael's Wagon",
+                        "handicapper_notes": "Extensive Tapeta experience at Presque Isle and Turfway, but speed figures (74-77) are far below the par required for this $108k Belmont AOC field. Widest Post 7 draw further compounds a major class hurdle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 65,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "On heels at KD three back",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hammerhead",
+                    "rating": 89.0,
+                    "reason": "Top selection moving off turf onto the 1-mile Tapeta track. Proven Grade 3 winner on Woodbine Tapeta (Valedictory G3, 102 speed) with sharp recent turf figures (104, 105) at Belmont. Inside Post 1 provides a major ground-saving advantage into the first turn."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Burhan (GB)",
+                    "rating": 86.0,
+                    "reason": "Elite NYRA connections (Chad Brown and Flavien Prat) with prior All-Weather placing in France (Chantilly AWT 2nd). First start since reported as a gelding off a 4-month layoff after tossing his head and racing wide at Saratoga. Post 3 fits well, though US speed figures (89-93) trail Hammerhead. | <i>\u26a0\ufe0f Tossed head start, wide 7p at SAR in last</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Spirit Prince",
+                    "rating": 84.0,
+                    "reason": "Consistent class performer (15: 2-5-4) making his first start since being gelded off an 8-month layoff for Miguel Clement. Previously ran 4th with a blocked trip on Gulfstream Tapeta and owns multiple 98-103 turf speed figures. Post 6 stays inside the advantageous 1-6 draw zone. | <i>\u26a0\ufe0f Blocked 1/4 in Nov GP Tapeta start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Depiction",
+                    "rating": 83.0,
+                    "reason": "Danger horse returning from a 14-month layoff as a first-time gelding for synthetic-savvy trainer Mark Casse and top local rider Manuel Franco. Sharp Kentucky worktab (47.80 at KEE, 48.00 at CD) and high back class (101-105 turf figures, G3-placed). Inside Post 2 saves ground for his late rally in the 1,097ft stretch."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Ciao Chuck",
+                    "rating": 81.0,
+                    "reason": "Proven synthetic ability with a 103 speed figure finishing 4th in a $100k Gulfstream Tapeta handicap in January. Weakened behind Hammerhead in his latest on soft turf and represents a cold trainer/jockey combo (Hennig/Davis both 6%), limiting him to underlying exotic consideration. | <i>\u26a0\ufe0f Off slow two starts back</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Hammerhead",
+                    "rating": 89.0,
+                    "reason": "Top selection moving off turf onto the 1-mile Tapeta track. Proven Grade 3 winner on Woodbine Tapeta (Valedictory G3, 102 speed) with sharp recent turf figures (104, 105) at Belmont. Inside Post 1 provides a major ground-saving advantage into the first turn."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Burhan (GB)",
+                    "rating": 86.0,
+                    "reason": "Elite NYRA connections (Chad Brown and Flavien Prat) with prior All-Weather placing in France (Chantilly AWT 2nd). First start since reported as a gelding off a 4-month layoff after tossing his head and racing wide at Saratoga. Post 3 fits well, though US speed figures (89-93) trail Hammerhead. | <i>\u26a0\ufe0f Tossed head start, wide 7p at SAR in last</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Spirit Prince",
+                    "rating": 84.0,
+                    "reason": "Consistent class performer (15: 2-5-4) making his first start since being gelded off an 8-month layoff for Miguel Clement. Previously ran 4th with a blocked trip on Gulfstream Tapeta and owns multiple 98-103 turf speed figures. Post 6 stays inside the advantageous 1-6 draw zone. | <i>\u26a0\ufe0f Blocked 1/4 in Nov GP Tapeta start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Depiction",
+                    "rating": 83.0,
+                    "reason": "Danger horse returning from a 14-month layoff as a first-time gelding for synthetic-savvy trainer Mark Casse and top local rider Manuel Franco. Sharp Kentucky worktab (47.80 at KEE, 48.00 at CD) and high back class (101-105 turf figures, G3-placed). Inside Post 2 saves ground for his late rally in the 1,097ft stretch."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Ciao Chuck",
+                    "rating": 81.0,
+                    "reason": "Proven synthetic ability with a 103 speed figure finishing 4th in a $100k Gulfstream Tapeta handicap in January. Weakened behind Hammerhead in his latest on soft turf and represents a cold trainer/jockey combo (Hennig/Davis both 6%), limiting him to underlying exotic consideration. | <i>\u26a0\ufe0f Off slow two starts back</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Funny Factor",
+                    "rating": 80.0,
+                    "reason": "Three-year-old colt with three turf wins in 2026 (94-96 speed) and tactical E/P pace from a favorable Post 4 draw. However, he has zero synthetic starts, steps into open AOC $80k company against older rivals, and exits a 16-length defeat in the Mohawk."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Rachael's Wagon",
+                    "rating": 65.0,
+                    "reason": "Extensive Tapeta experience at Presque Isle and Turfway, but speed figures (74-77) are far below the par required for this $108k Belmont AOC field. Widest Post 7 draw further compounds a major class hurdle. | <i>\u26a0\ufe0f On heels at KD three back</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Depiction",
+                "rating": 83.0,
+                "reason": "Danger horse returning from a 14-month layoff as a first-time gelding for synthetic-savvy trainer Mark Casse and top local rider Manuel Franco. Sharp Kentucky worktab (47.80 at KEE, 48.00 at CD) and high back class (101-105 turf figures, G3-placed). Inside Post 2 saves ground for his late rally in the 1,097ft stretch."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Hammerhead</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #3, #2 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "7 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "7 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win 8 / Exacta 8 over 2, 5, 4 / Trifecta 8, 2 with 8, 2, 5, 4 with 8, 2, 5, 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Mursal",
+                        "handicapper_notes": "Top choice and Best Bet (+4.0 gap). Holds clear edges in Class (111), Form (96), and Overall (106) ratings for elite main-track trainer Linda Rice (18% meet, 23% routes). Owns a 3-1 head-to-head advantage over Despo's Dream in recent meetings, finished 2nd by 2L ahead of both Despo's Dream (4th) and Furry Fox (7th) in 17Oct26-8BEL (fig 82), and owns standout dirt figures of 94 (07Aug26-11SAR win) and 95 (25May26-7BAQ sloppy win). Post 8 is fair on Belmont's 1 1/4M oval, and her 'P' stalking style fits the 1,097ft home stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Extended Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Despo's Dream",
+                        "handicapper_notes": "Primary threat to Mursal. Gets a major jockey upgrade to Flavien Prat (23% win, 57% ITM at BEL; 29% in Maiden/Claiming), who rode her to a game 1m win at SAR on 03Sep26 (fig 82) and a nose loss in 7f BAQ action (fig 91). Ran a solid 4th despite an awkward start behind Mursal last out on 17Oct26-8BEL (fig 79), has proven Good/wet track form (2: 1-1-0), and cuts back slightly to 7 1/2F from post 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Extended Sprint",
+                            "trouble_trip": "Awkward start in 17Oct26-8BEL",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Furry Fox",
+                        "handicapper_notes": "Boosted by both Class Drop Elevator (+10 pts, dropping from $105k NYB Allowance on 25Oct26-7BEL to $35k NYB Claiming) and Lone Speed (+6 pts, sole pure 'E' runner in the field). Won at this exact 7 1/2F distance on a muddy Belmont strip on 20Sep26-3BEL (fig 77) under Kendrick Carmouche, who stays aboard. Needs to hold off late pressure in the 1,097ft stretch as her peak figures (77) sit below the top two.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "Sprint to Extended Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Proud Foot",
+                        "handicapper_notes": "Danger horse at 6/1 ML. Excused from 17Oct26-6BEL when pinched and steadied right after the start, and returns with top NYRA rider Manuel Franco (22% win, 55% ITM at BEL) who guided her to a head loss to Mursal on 25Jun26-7BAQ (fig 82) and an AQU 7f win on 02Apr26 (fig 83). Signals readiness with a sharp 4F :48.00 work (2/23) on Nov 4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Extended Sprint",
+                            "trouble_trip": "Pinched and steadied after start in 17Oct26-6BEL",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Fast And Frisky",
+                        "handicapper_notes": "Receives the Class Drop Elevator (+10 pts) dropping from NY-bred Allowance Optional Claiming ($45k-$120k) ranks into $35k NY-bred Claiming. Holds strong back-class (Class 107, 93 figure in Feb) and gets a 5 lb apprentice weight break to 121 lbs, but recent form has deteriorated badly (60 and 59 figures in last two) with zero wet-track experience.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Extended Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Edistrudis",
+                        "handicapper_notes": "Consistent hard-knocking mare with off-track ability (4: 1-1-0) and Edgard Zayas aboard (15% meet win rate). Finished 4th on Good dirt in 17Oct26-6BEL (fig 75), 3 1/2L ahead of Proud Foot, and ran a close 3rd behind Mursal in 31Jul26-3SAR (fig 77). Typically most effective at 6F-6.5F, so 7 1/2F tests her late stamina.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P/C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Extended Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Baby Sassicaia",
+                        "handicapper_notes": "Likes wet dirt surfaces (3: 2-0-0, $42,840) and returns to dirt after two Tapeta route starts at BEL. Previously ran 4th and 5th behind Mursal and Despo's Dream at SAR in August and September (figs 77-78), though low-percentage trainer/jockey combo keeps her a notch below the top group.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P/C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Extended Sprint",
+                            "trouble_trip": "Bumped start in 17Oct26-4BEL",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Baytown Storm",
+                        "handicapper_notes": "30/1 longshot shipping in from Tier 3 synthetic and turf company (Presque Isle, Turfway, KD) with zero wet-track or NYRA dirt form. Beaten 10 1/2L in $16k claiming at PID last out (fig 69) and faces a steep class test here despite the 7 lb apprentice allowance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 66,
+                            "running_style": "P/S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Extended Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Furry Fox",
+                    "rating": 94.0,
+                    "reason": "Boosted by both Class Drop Elevator (+10 pts, dropping from $105k NYB Allowance on 25Oct26-7BEL to $35k NYB Claiming) and Lone Speed (+6 pts, sole pure 'E' runner in the field). Won at this exact 7 1/2F distance on a muddy Belmont strip on 20Sep26-3BEL (fig 77) under Kendrick Carmouche, who stays aboard. Needs to hold off late pressure in the 1,097ft stretch as her peak figures (77) sit below the top two. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Extended Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mursal",
+                    "rating": 90.0,
+                    "reason": "Top choice and Best Bet (+4.0 gap). Holds clear edges in Class (111), Form (96), and Overall (106) ratings for elite main-track trainer Linda Rice (18% meet, 23% routes). Owns a 3-1 head-to-head advantage over Despo's Dream in recent meetings, finished 2nd by 2L ahead of both Despo's Dream (4th) and Furry Fox (7th) in 17Oct26-8BEL (fig 82), and owns standout dirt figures of 94 (07Aug26-11SAR win) and 95 (25May26-7BAQ sloppy win). Post 8 is fair on Belmont's 1 1/4M oval, and her 'P' stalking style fits the 1,097ft home stretch. | <i>\ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fast And Frisky",
+                    "rating": 87.0,
+                    "reason": "Receives the Class Drop Elevator (+10 pts) dropping from NY-bred Allowance Optional Claiming ($45k-$120k) ranks into $35k NY-bred Claiming. Holds strong back-class (Class 107, 93 figure in Feb) and gets a 5 lb apprentice weight break to 121 lbs, but recent form has deteriorated badly (60 and 59 figures in last two) with zero wet-track experience. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Despo's Dream",
+                    "rating": 86.0,
+                    "reason": "Primary threat to Mursal. Gets a major jockey upgrade to Flavien Prat (23% win, 57% ITM at BEL; 29% in Maiden/Claiming), who rode her to a game 1m win at SAR on 03Sep26 (fig 82) and a nose loss in 7f BAQ action (fig 91). Ran a solid 4th despite an awkward start behind Mursal last out on 17Oct26-8BEL (fig 79), has proven Good/wet track form (2: 1-1-0), and cuts back slightly to 7 1/2F from post 2. | <i>\u26a0\ufe0f Awkward start in 17Oct26-8BEL \u2022 \ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Proud Foot",
+                    "rating": 82.0,
+                    "reason": "Danger horse at 6/1 ML. Excused from 17Oct26-6BEL when pinched and steadied right after the start, and returns with top NYRA rider Manuel Franco (22% win, 55% ITM at BEL) who guided her to a head loss to Mursal on 25Jun26-7BAQ (fig 82) and an AQU 7f win on 02Apr26 (fig 83). Signals readiness with a sharp 4F :48.00 work (2/23) on Nov 4. | <i>\u26a0\ufe0f Pinched and steadied after start in 17Oct26-6BEL \u2022 \ud83d\udccf Sprint to Extended Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Furry Fox",
+                    "rating": 94.0,
+                    "reason": "Boosted by both Class Drop Elevator (+10 pts, dropping from $105k NYB Allowance on 25Oct26-7BEL to $35k NYB Claiming) and Lone Speed (+6 pts, sole pure 'E' runner in the field). Won at this exact 7 1/2F distance on a muddy Belmont strip on 20Sep26-3BEL (fig 77) under Kendrick Carmouche, who stays aboard. Needs to hold off late pressure in the 1,097ft stretch as her peak figures (77) sit below the top two. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udd25 Lone Speed \u2022 \ud83d\udccf Sprint to Extended Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Mursal",
+                    "rating": 90.0,
+                    "reason": "Top choice and Best Bet (+4.0 gap). Holds clear edges in Class (111), Form (96), and Overall (106) ratings for elite main-track trainer Linda Rice (18% meet, 23% routes). Owns a 3-1 head-to-head advantage over Despo's Dream in recent meetings, finished 2nd by 2L ahead of both Despo's Dream (4th) and Furry Fox (7th) in 17Oct26-8BEL (fig 82), and owns standout dirt figures of 94 (07Aug26-11SAR win) and 95 (25May26-7BAQ sloppy win). Post 8 is fair on Belmont's 1 1/4M oval, and her 'P' stalking style fits the 1,097ft home stretch. | <i>\ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fast And Frisky",
+                    "rating": 87.0,
+                    "reason": "Receives the Class Drop Elevator (+10 pts) dropping from NY-bred Allowance Optional Claiming ($45k-$120k) ranks into $35k NY-bred Claiming. Holds strong back-class (Class 107, 93 figure in Feb) and gets a 5 lb apprentice weight break to 121 lbs, but recent form has deteriorated badly (60 and 59 figures in last two) with zero wet-track experience. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Despo's Dream",
+                    "rating": 86.0,
+                    "reason": "Primary threat to Mursal. Gets a major jockey upgrade to Flavien Prat (23% win, 57% ITM at BEL; 29% in Maiden/Claiming), who rode her to a game 1m win at SAR on 03Sep26 (fig 82) and a nose loss in 7f BAQ action (fig 91). Ran a solid 4th despite an awkward start behind Mursal last out on 17Oct26-8BEL (fig 79), has proven Good/wet track form (2: 1-1-0), and cuts back slightly to 7 1/2F from post 2. | <i>\u26a0\ufe0f Awkward start in 17Oct26-8BEL \u2022 \ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Proud Foot",
+                    "rating": 82.0,
+                    "reason": "Danger horse at 6/1 ML. Excused from 17Oct26-6BEL when pinched and steadied right after the start, and returns with top NYRA rider Manuel Franco (22% win, 55% ITM at BEL) who guided her to a head loss to Mursal on 25Jun26-7BAQ (fig 82) and an AQU 7f win on 02Apr26 (fig 83). Signals readiness with a sharp 4F :48.00 work (2/23) on Nov 4. | <i>\u26a0\ufe0f Pinched and steadied after start in 17Oct26-6BEL \u2022 \ud83d\udccf Sprint to Extended Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Edistrudis",
+                    "rating": 78.0,
+                    "reason": "Consistent hard-knocking mare with off-track ability (4: 1-1-0) and Edgard Zayas aboard (15% meet win rate). Finished 4th on Good dirt in 17Oct26-6BEL (fig 75), 3 1/2L ahead of Proud Foot, and ran a close 3rd behind Mursal in 31Jul26-3SAR (fig 77). Typically most effective at 6F-6.5F, so 7 1/2F tests her late stamina. | <i>\ud83d\udccf Sprint to Extended Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Baby Sassicaia",
+                    "rating": 76.0,
+                    "reason": "Likes wet dirt surfaces (3: 2-0-0, $42,840) and returns to dirt after two Tapeta route starts at BEL. Previously ran 4th and 5th behind Mursal and Despo's Dream at SAR in August and September (figs 77-78), though low-percentage trainer/jockey combo keeps her a notch below the top group. | <i>\u26a0\ufe0f Bumped start in 17Oct26-4BEL \u2022 \ud83d\udccf Route to Extended Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Baytown Storm",
+                    "rating": 66.0,
+                    "reason": "30/1 longshot shipping in from Tier 3 synthetic and turf company (Presque Isle, Turfway, KD) with zero wet-track or NYRA dirt form. Beaten 10 1/2L in $16k claiming at PID last out (fig 69) and faces a steep class test here despite the 7 lb apprentice allowance. | <i>\ud83d\udccf Route to Extended Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Proud Foot",
+                "rating": 82.0,
+                "reason": "Danger horse at 6/1 ML. Excused from 17Oct26-6BEL when pinched and steadied right after the start, and returns with top NYRA rider Manuel Franco (22% win, 55% ITM at BEL) who guided her to a head loss to Mursal on 25Jun26-7BAQ (fig 82) and an AQU 7f win on 02Apr26 (fig 83). Signals readiness with a sharp 4F :48.00 work (2/23) on Nov 4. | <i>\u26a0\ufe0f Pinched and steadied after start in 17Oct26-6BEL \u2022 \ud83d\udccf Sprint to Extended Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Furry Fox</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #8, #4 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "6.5 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6.5 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win #7 Tiger Twenty Four; Exacta Box 5, 7, 9",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Tiger Twenty Four",
+                        "handicapper_notes": "Clear Best Bet (+4.0 gap) on superior dirt speed figures (91, 96, 90, 88, 90 Beyers in last six starts). Drops from $55k claiming where he ran 91 as the 0.53 favorite, owns a 6.5f Belmont win in May, and shows two bullet 4f workouts in late October. Tactical 'P' style fits the fair Belmont oval cleanly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "War Stride",
+                        "handicapper_notes": "Class Drop Elevator applied (+10 pts) dropping sharply from $108k/$125k Allowance Optional Claiming into $35k claiming. Proven on off/good dirt (2-0-1-1, 85 Beyer in Saratoga slop), gets leading rider Manuel Franco (22% win), and fired a sharp 47.81 work on Nov 8.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Special Ops",
+                        "handicapper_notes": "Danger Horse at 8/1 ML. Won at this exact 6.5f Belmont trip two starts back with a 90 Beyer (and posted a 93 in March against AOC125k). Excused for trouble on Oct 18 after hitting the gate, getting pinched between foes, and brushing 4w, yet still finished ahead of Seeker's Hope. Major rider upgrade to Flavien Prat (23% win).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Hit gate, pinched between horses, brushed 4w on Oct 18",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Seeker's Hope",
+                        "handicapper_notes": "Capable of spiking a massive figure (97 Beyer in 10-length Saratoga win three back, 89 at 6.5f in May). Bumped and raced 3-5w behind Epitaph on Oct 18; firing sharp morning works including two bullets in October and 48.45 (7/24) on Nov 10.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Brushed 3w and 5w on Oct 18",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Khozeiress",
+                        "handicapper_notes": "Route-to-sprint cutback from 1m to 6.5f while dipping slightly from $40k claiming to $35k. Owns back-class 97 and 93 Beyers at Monmouth and Tampa earlier this year and trained a bullet 47.00 H (1/38) at Monmouth on Oct 18; Javier Castellano takes the mount.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Uncle Jim",
+                        "handicapper_notes": "Consistent stalker who posted an 80 Beyer finishing 2nd in a $20k claimer on Oct 31 and an 83 in April. Steps back up to $35k claiming here and must overcome a low-percentage rider switch to Rocco Bowen (4% at meet).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "On The Hill",
+                        "handicapper_notes": "Class Drop Elevator applied (+10 pts) dropping from $110k NY-bred AOC into $40k NY-bred claiming. Closed well for 3rd at Saratoga on July 10 (83 Beyer), but returns from a 4-month layoff with slow works for a winless barn (0-for-12).",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Gypsy Dreaming",
+                        "handicapper_notes": "Shows early speed ('E') and an 88 Beyer win back in February, plus gets a 5-lb apprentice allowance, but recent form has deteriorated sharply (63, 51, 67 Beyers) and faces pace pressure from Seeker's Hope and Khozeiress.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Gamebred",
+                        "handicapper_notes": "Switches back from turf to dirt for a 0-for-27 barn and 2% sprint rider Dylan Davis. Recent dirt numbers (69, 69, 80) leave him well below the top contenders at this $35k/$40k level.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None"
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tiger Twenty Four",
+                    "rating": 91.0,
+                    "reason": "Clear Best Bet (+4.0 gap) on superior dirt speed figures (91, 96, 90, 88, 90 Beyers in last six starts). Drops from $55k claiming where he ran 91 as the 0.53 favorite, owns a 6.5f Belmont win in May, and shows two bullet 4f workouts in late October. Tactical 'P' style fits the fair Belmont oval cleanly."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "War Stride",
+                    "rating": 87.0,
+                    "reason": "Class Drop Elevator applied (+10 pts) dropping sharply from $108k/$125k Allowance Optional Claiming into $35k claiming. Proven on off/good dirt (2-0-1-1, 85 Beyer in Saratoga slop), gets leading rider Manuel Franco (22% win), and fired a sharp 47.81 work on Nov 8. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Special Ops",
+                    "rating": 85.0,
+                    "reason": "Danger Horse at 8/1 ML. Won at this exact 6.5f Belmont trip two starts back with a 90 Beyer (and posted a 93 in March against AOC125k). Excused for trouble on Oct 18 after hitting the gate, getting pinched between foes, and brushing 4w, yet still finished ahead of Seeker's Hope. Major rider upgrade to Flavien Prat (23% win). | <i>\u26a0\ufe0f Hit gate, pinched between horses, brushed 4w on Oct 18</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "On The Hill",
+                    "rating": 85.0,
+                    "reason": "Class Drop Elevator applied (+10 pts) dropping from $110k NY-bred AOC into $40k NY-bred claiming. Closed well for 3rd at Saratoga on July 10 (83 Beyer), but returns from a 4-month layoff with slow works for a winless barn (0-for-12). | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Seeker's Hope",
+                    "rating": 82.0,
+                    "reason": "Capable of spiking a massive figure (97 Beyer in 10-length Saratoga win three back, 89 at 6.5f in May). Bumped and raced 3-5w behind Epitaph on Oct 18; firing sharp morning works including two bullets in October and 48.45 (7/24) on Nov 10. | <i>\u26a0\ufe0f Brushed 3w and 5w on Oct 18</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Tiger Twenty Four",
+                    "rating": 91.0,
+                    "reason": "Clear Best Bet (+4.0 gap) on superior dirt speed figures (91, 96, 90, 88, 90 Beyers in last six starts). Drops from $55k claiming where he ran 91 as the 0.53 favorite, owns a 6.5f Belmont win in May, and shows two bullet 4f workouts in late October. Tactical 'P' style fits the fair Belmont oval cleanly."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "War Stride",
+                    "rating": 87.0,
+                    "reason": "Class Drop Elevator applied (+10 pts) dropping sharply from $108k/$125k Allowance Optional Claiming into $35k claiming. Proven on off/good dirt (2-0-1-1, 85 Beyer in Saratoga slop), gets leading rider Manuel Franco (22% win), and fired a sharp 47.81 work on Nov 8. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Special Ops",
+                    "rating": 85.0,
+                    "reason": "Danger Horse at 8/1 ML. Won at this exact 6.5f Belmont trip two starts back with a 90 Beyer (and posted a 93 in March against AOC125k). Excused for trouble on Oct 18 after hitting the gate, getting pinched between foes, and brushing 4w, yet still finished ahead of Seeker's Hope. Major rider upgrade to Flavien Prat (23% win). | <i>\u26a0\ufe0f Hit gate, pinched between horses, brushed 4w on Oct 18</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "On The Hill",
+                    "rating": 85.0,
+                    "reason": "Class Drop Elevator applied (+10 pts) dropping from $110k NY-bred AOC into $40k NY-bred claiming. Closed well for 3rd at Saratoga on July 10 (83 Beyer), but returns from a 4-month layoff with slow works for a winless barn (0-for-12). | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Seeker's Hope",
+                    "rating": 82.0,
+                    "reason": "Capable of spiking a massive figure (97 Beyer in 10-length Saratoga win three back, 89 at 6.5f in May). Bumped and raced 3-5w behind Epitaph on Oct 18; firing sharp morning works including two bullets in October and 48.45 (7/24) on Nov 10. | <i>\u26a0\ufe0f Brushed 3w and 5w on Oct 18</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Khozeiress",
+                    "rating": 81.0,
+                    "reason": "Route-to-sprint cutback from 1m to 6.5f while dipping slightly from $40k claiming to $35k. Owns back-class 97 and 93 Beyers at Monmouth and Tampa earlier this year and trained a bullet 47.00 H (1/38) at Monmouth on Oct 18; Javier Castellano takes the mount. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Uncle Jim",
+                    "rating": 79.0,
+                    "reason": "Consistent stalker who posted an 80 Beyer finishing 2nd in a $20k claimer on Oct 31 and an 83 in April. Steps back up to $35k claiming here and must overcome a low-percentage rider switch to Rocco Bowen (4% at meet)."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Gypsy Dreaming",
+                    "rating": 74.0,
+                    "reason": "Shows early speed ('E') and an 88 Beyer win back in February, plus gets a 5-lb apprentice allowance, but recent form has deteriorated sharply (63, 51, 67 Beyers) and faces pace pressure from Seeker's Hope and Khozeiress."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Gamebred",
+                    "rating": 72.0,
+                    "reason": "Switches back from turf to dirt for a 0-for-27 barn and 2% sprint rider Dylan Davis. Recent dirt numbers (69, 69, 80) leave him well below the top contenders at this $35k/$40k level."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Special Ops",
+                "rating": 85.0,
+                "reason": "Danger Horse at 8/1 ML. Won at this exact 6.5f Belmont trip two starts back with a 90 Beyer (and posted a 93 in March against AOC125k). Excused for trouble on Oct 18 after hitting the gate, getting pinched between foes, and brushing 4w, yet still finished ahead of Seeker's Hope. Major rider upgrade to Flavien Prat (23% win). | <i>\u26a0\ufe0f Hit gate, pinched between horses, brushed 4w on Oct 18</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Tiger Twenty Four</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #5, #9 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1 1/16 Miles Tapeta",
+            "surface": "Tapeta",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 1/16 Miles Tapeta",
+                "confidence_level": "High",
+                "suggested_wager": "Win #2; Exacta 2 / 1, 6; Exacta Box 1, 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Bring Cash",
+                        "handicapper_notes": "Best Bet (+4.0 pt gap). Owns the field's top recent speed figure (99) when missing by a head in 1m turf MSW at Belmont on Oct 18, finishing clear of #1 Katz In The Cradle. Uniquely brings proven synthetic form on this exact Belmont Tapeta oval (2nd by a nose in 1m MSW on Sep 20), earning the Tapeta specialty upgrade. Inside Post 2 saves ground into the first turn under leading rider Manuel Franco, backed by a sharp 48.22 breeze on Nov 6.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Katz In The Cradle",
+                        "handicapper_notes": "Primary challenger. Posted a competitive 94 speed figure in the common Oct 18 race behind #2 Bring Cash despite steadying near the 7/16 pole. Draws the advantageous rail (Post 1) to save ground into the Tapeta first turn, retains Javier Castellano, and enters off two brisk 4F works (47.90 and 48.30). Bolt D'oro-Liam's Map pedigree suits synthetic.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Steadied 7/16 last out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Special Warfare",
+                        "handicapper_notes": "Major second-out upside. Trainer Claude McGaughey III excels specifically with 2-year-olds stretching out to routes (31% routes, 33% maiden/claiming at the meet). Finished a steady 4th (74 fig) going 7f on Oct 30 while racing 6-7 wide in the upper stretch. Drawn in the advantageous 1-6 inner-to-mid zone (Post 6) and bred by Violence out of a Blame mare for the synthetic stretchout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "6-7w upper stretch in debut",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Kingsley",
+                        "handicapper_notes": "Dangerous debut connections (Chad Brown and Flavien Prat, both elite with 2YO route runners) and strong Kingman-Arrogate turf/synthetic pedigree from Juddmonte. However, receives the mandatory -3 pt FTS penalty for drawing outside experienced runners with strong figures (#1 and #2), and",
+                        "features": {
+                            "ai_holistic_score": 82
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bring Cash",
+                    "rating": 90.0,
+                    "reason": "Best Bet (+4.0 pt gap). Owns the field's top recent speed figure (99) when missing by a head in 1m turf MSW at Belmont on Oct 18, finishing clear of #1 Katz In The Cradle. Uniquely brings proven synthetic form on this exact Belmont Tapeta oval (2nd by a nose in 1m MSW on Sep 20), earning the Tapeta specialty upgrade. Inside Post 2 saves ground into the first turn under leading rider Manuel Franco, backed by a sharp 48.22 breeze on Nov 6."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Katz In The Cradle",
+                    "rating": 86.0,
+                    "reason": "Primary challenger. Posted a competitive 94 speed figure in the common Oct 18 race behind #2 Bring Cash despite steadying near the 7/16 pole. Draws the advantageous rail (Post 1) to save ground into the Tapeta first turn, retains Javier Castellano, and enters off two brisk 4F works (47.90 and 48.30). Bolt D'oro-Liam's Map pedigree suits synthetic. | <i>\u26a0\ufe0f Steadied 7/16 last out</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Special Warfare",
+                    "rating": 84.0,
+                    "reason": "Major second-out upside. Trainer Claude McGaughey III excels specifically with 2-year-olds stretching out to routes (31% routes, 33% maiden/claiming at the meet). Finished a steady 4th (74 fig) going 7f on Oct 30 while racing 6-7 wide in the upper stretch. Drawn in the advantageous 1-6 inner-to-mid zone (Post 6) and bred by Violence out of a Blame mare for the synthetic stretchout. | <i>\u26a0\ufe0f 6-7w upper stretch in debut \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Kingsley",
+                    "rating": 82.0,
+                    "reason": "Dangerous debut connections (Chad Brown and Flavien Prat, both elite with 2YO route runners) and strong Kingman-Arrogate turf/synthetic pedigree from Juddmonte. However, receives the mandatory -3 pt FTS penalty for drawing outside experienced runners with strong figures (#1 and #2), and"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Bring Cash",
+                    "rating": 90.0,
+                    "reason": "Best Bet (+4.0 pt gap). Owns the field's top recent speed figure (99) when missing by a head in 1m turf MSW at Belmont on Oct 18, finishing clear of #1 Katz In The Cradle. Uniquely brings proven synthetic form on this exact Belmont Tapeta oval (2nd by a nose in 1m MSW on Sep 20), earning the Tapeta specialty upgrade. Inside Post 2 saves ground into the first turn under leading rider Manuel Franco, backed by a sharp 48.22 breeze on Nov 6."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Katz In The Cradle",
+                    "rating": 86.0,
+                    "reason": "Primary challenger. Posted a competitive 94 speed figure in the common Oct 18 race behind #2 Bring Cash despite steadying near the 7/16 pole. Draws the advantageous rail (Post 1) to save ground into the Tapeta first turn, retains Javier Castellano, and enters off two brisk 4F works (47.90 and 48.30). Bolt D'oro-Liam's Map pedigree suits synthetic. | <i>\u26a0\ufe0f Steadied 7/16 last out</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Special Warfare",
+                    "rating": 84.0,
+                    "reason": "Major second-out upside. Trainer Claude McGaughey III excels specifically with 2-year-olds stretching out to routes (31% routes, 33% maiden/claiming at the meet). Finished a steady 4th (74 fig) going 7f on Oct 30 while racing 6-7 wide in the upper stretch. Drawn in the advantageous 1-6 inner-to-mid zone (Post 6) and bred by Violence out of a Blame mare for the synthetic stretchout. | <i>\u26a0\ufe0f 6-7w upper stretch in debut \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Kingsley",
+                    "rating": 82.0,
+                    "reason": "Dangerous debut connections (Chad Brown and Flavien Prat, both elite with 2YO route runners) and strong Kingman-Arrogate turf/synthetic pedigree from Juddmonte. However, receives the mandatory -3 pt FTS penalty for drawing outside experienced runners with strong figures (#1 and #2), and"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Katz In The Cradle",
+                "rating": 86.0,
+                "reason": "Primary challenger. Posted a competitive 94 speed figure in the common Oct 18 race behind #2 Bring Cash despite steadying near the 7/16 pole. Draws the advantageous rail (Post 1) to save ground into the Tapeta first turn, retains Javier Castellano, and enters off two brisk 4F works (47.90 and 48.30). Bolt D'oro-Liam's Map pedigree suits synthetic. | <i>\u26a0\ufe0f Steadied 7/16 last out</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Bring Cash</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #1, #6 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs All Weather",
+            "surface": "Weather",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs All Weather",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 6, 10, 12 / Win 10 / Longshot Saver 11",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Final Verdict",
+                        "handicapper_notes": "Top synthetic proven contender following the off-turf transfer to the Belmont Tapeta course. Finished a close 2nd beaten only a neck at this exact 6f All-Weather distance and $80k AOC level on Oct 16, earning a 97 speed figure while finishing ahead of Bosun. Consistent 93-97 turf and synthetic figures fit squarely at Tier 1 NYRA.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Mission Improbable",
+                        "handicapper_notes": "Enters in peak form with three wins in five 2026 starts, including back-to-back victories capped by a 98 speed figure over 6f on Belmont turf on Oct 17. Proven on synthetic via a strong 2nd on Turfway Tapeta in Dec 2025 (91 speed fig) and signals readiness with a bullet 47.16 4F work on Nov 7. Wide post 12 and deep closing style create minor ground-loss risk.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Bosun",
+                        "handicapper_notes": "Major win threat switching to top NYRA rider Manuel Franco (22% meet win rate). Checked in 5th just 1.5 lengths behind Final Verdict in the Oct 16 Belmont Tapeta 6f race (94 fig) after bumping at the start and racing 3-wide. Prior 99-101 Saratoga turf figures and mid-pack tactical speed from post 6 give him strong upset leverage.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped start and raced 3w on Oct 16",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Voodoo Doll",
+                        "handicapper_notes": "Lightly raced 3yo gelding with 3 wins from 4 lifetime starts, including a debut victory on Woodbine Tapeta at 6f. First start since being gelded for elite synthetic/turf trainer Mark Casse and Javier Castellano, backed by sharp Belmont workouts (47.31 and 47.52). Cuts back from a 1 1/16m route where he bobbled and folded; tactical speed plays well here.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Bobbled start on Jul 24",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Wow Whata Party",
+                        "handicapper_notes": "Designated Danger Horse at 20/1 morning line with the surface switch to Tapeta. Comes off a sharp 6f Tapeta allowance win at Presque Isle on Oct 19 posting a 98 speed figure, preceded by a stakes placing on the same synthetic oval. Fires a bullet 47.00 4F work on Oct 6 and gets Kendrick Carmouche for this NYRA step up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Flat To Da Mat",
+                        "handicapper_notes": "Returning from a 6.5-month layoff off a career-best 100 speed figure winning a 6f Aqueduct turf allowance in April. Fires a bullet 47.47 (1/21) work on Nov 9 and draws inside post 2, though his sole prior Tapeta try at Gulfstream was a troubled 9th (87 fig) and trainer Michael Maker is cold at 2% for the meet.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Stumbled start on Tapeta Jan 16",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Glorious Boy",
+                        "handicapper_notes": "Captured the Pulpit Stakes on Gulfstream Tapeta as a 2yo (85 fig) and posted a 91 figure over 6f turf at Belmont at the Big A in May. Trains sharply for his return (47.15 and 47.67 recent 4F works) while cutting back from 1m, though 0-for-4 in 2026 and rider Dylan Davis has struggled in sprints (2%).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Antisocial",
+                        "handicapper_notes": "Consistent turf sprinter and miler with 90-98 figures across Mid-Atlantic and NYRA circuits, including a close 2nd at Colonial in July. However, he is winless in four 2026 starts, lacks prior Tapeta experience, and draws outside with a low-percentage rider.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Final Verdict",
+                    "rating": 87.0,
+                    "reason": "Top synthetic proven contender following the off-turf transfer to the Belmont Tapeta course. Finished a close 2nd beaten only a neck at this exact 6f All-Weather distance and $80k AOC level on Oct 16, earning a 97 speed figure while finishing ahead of Bosun. Consistent 93-97 turf and synthetic figures fit squarely at Tier 1 NYRA."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Mission Improbable",
+                    "rating": 85.0,
+                    "reason": "Enters in peak form with three wins in five 2026 starts, including back-to-back victories capped by a 98 speed figure over 6f on Belmont turf on Oct 17. Proven on synthetic via a strong 2nd on Turfway Tapeta in Dec 2025 (91 speed fig) and signals readiness with a bullet 47.16 4F work on Nov 7. Wide post 12 and deep closing style create minor ground-loss risk."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bosun",
+                    "rating": 84.0,
+                    "reason": "Major win threat switching to top NYRA rider Manuel Franco (22% meet win rate). Checked in 5th just 1.5 lengths behind Final Verdict in the Oct 16 Belmont Tapeta 6f race (94 fig) after bumping at the start and racing 3-wide. Prior 99-101 Saratoga turf figures and mid-pack tactical speed from post 6 give him strong upset leverage. | <i>\u26a0\ufe0f Bumped start and raced 3w on Oct 16</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Voodoo Doll",
+                    "rating": 81.0,
+                    "reason": "Lightly raced 3yo gelding with 3 wins from 4 lifetime starts, including a debut victory on Woodbine Tapeta at 6f. First start since being gelded for elite synthetic/turf trainer Mark Casse and Javier Castellano, backed by sharp Belmont workouts (47.31 and 47.52). Cuts back from a 1 1/16m route where he bobbled and folded; tactical speed plays well here. | <i>\u26a0\ufe0f Bobbled start on Jul 24 \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Wow Whata Party",
+                    "rating": 80.0,
+                    "reason": "Designated Danger Horse at 20/1 morning line with the surface switch to Tapeta. Comes off a sharp 6f Tapeta allowance win at Presque Isle on Oct 19 posting a 98 speed figure, preceded by a stakes placing on the same synthetic oval. Fires a bullet 47.00 4F work on Oct 6 and gets Kendrick Carmouche for this NYRA step up."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Final Verdict",
+                    "rating": 87.0,
+                    "reason": "Top synthetic proven contender following the off-turf transfer to the Belmont Tapeta course. Finished a close 2nd beaten only a neck at this exact 6f All-Weather distance and $80k AOC level on Oct 16, earning a 97 speed figure while finishing ahead of Bosun. Consistent 93-97 turf and synthetic figures fit squarely at Tier 1 NYRA."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Mission Improbable",
+                    "rating": 85.0,
+                    "reason": "Enters in peak form with three wins in five 2026 starts, including back-to-back victories capped by a 98 speed figure over 6f on Belmont turf on Oct 17. Proven on synthetic via a strong 2nd on Turfway Tapeta in Dec 2025 (91 speed fig) and signals readiness with a bullet 47.16 4F work on Nov 7. Wide post 12 and deep closing style create minor ground-loss risk."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Bosun",
+                    "rating": 84.0,
+                    "reason": "Major win threat switching to top NYRA rider Manuel Franco (22% meet win rate). Checked in 5th just 1.5 lengths behind Final Verdict in the Oct 16 Belmont Tapeta 6f race (94 fig) after bumping at the start and racing 3-wide. Prior 99-101 Saratoga turf figures and mid-pack tactical speed from post 6 give him strong upset leverage. | <i>\u26a0\ufe0f Bumped start and raced 3w on Oct 16</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Voodoo Doll",
+                    "rating": 81.0,
+                    "reason": "Lightly raced 3yo gelding with 3 wins from 4 lifetime starts, including a debut victory on Woodbine Tapeta at 6f. First start since being gelded for elite synthetic/turf trainer Mark Casse and Javier Castellano, backed by sharp Belmont workouts (47.31 and 47.52). Cuts back from a 1 1/16m route where he bobbled and folded; tactical speed plays well here. | <i>\u26a0\ufe0f Bobbled start on Jul 24 \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Wow Whata Party",
+                    "rating": 80.0,
+                    "reason": "Designated Danger Horse at 20/1 morning line with the surface switch to Tapeta. Comes off a sharp 6f Tapeta allowance win at Presque Isle on Oct 19 posting a 98 speed figure, preceded by a stakes placing on the same synthetic oval. Fires a bullet 47.00 4F work on Oct 6 and gets Kendrick Carmouche for this NYRA step up."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Flat To Da Mat",
+                    "rating": 79.0,
+                    "reason": "Returning from a 6.5-month layoff off a career-best 100 speed figure winning a 6f Aqueduct turf allowance in April. Fires a bullet 47.47 (1/21) work on Nov 9 and draws inside post 2, though his sole prior Tapeta try at Gulfstream was a troubled 9th (87 fig) and trainer Michael Maker is cold at 2% for the meet. | <i>\u26a0\ufe0f Stumbled start on Tapeta Jan 16</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Glorious Boy",
+                    "rating": 76.0,
+                    "reason": "Captured the Pulpit Stakes on Gulfstream Tapeta as a 2yo (85 fig) and posted a 91 figure over 6f turf at Belmont at the Big A in May. Trains sharply for his return (47.15 and 47.67 recent 4F works) while cutting back from 1m, though 0-for-4 in 2026 and rider Dylan Davis has struggled in sprints (2%). | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Antisocial",
+                    "rating": 75.0,
+                    "reason": "Consistent turf sprinter and miler with 90-98 figures across Mid-Atlantic and NYRA circuits, including a close 2nd at Colonial in July. However, he is winless in four 2026 starts, lacks prior Tapeta experience, and draws outside with a low-percentage rider."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "11",
+                "name": "Wow Whata Party",
+                "rating": 80.0,
+                "reason": "Designated Danger Horse at 20/1 morning line with the surface switch to Tapeta. Comes off a sharp 6f Tapeta allowance win at Presque Isle on Oct 19 posting a 98 speed figure, preceded by a stakes placing on the same synthetic oval. Fires a bullet 47.00 4F work on Oct 6 and gets Kendrick Carmouche for this NYRA step up."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#10 Final Verdict</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #12, #11 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 5, 9",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Heavenly Light",
+                        "handicapper_notes": "Top dirt speed figure consistency (81 last out) winning over 7.5f at Belmont on Sep 30 under Flavien Prat, defeating Miss Lao, Ah Ca Ira, and Looks First. Elite NYRA trainer-jockey combo with Linda Rice (18 percent overall) and Prat (23 percent). Proven on off tracks (1 win, 1 second in 2 starts) which fits today's Good dirt surface. Slight drop from $20k to NY-bred $16k claiming, though not an Allowance-to-Claiming elevator drop.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Vekomancer",
+                        "handicapper_notes": "Sharp front-running 3.75-length winner at 6.5f at Belmont on Oct 4 posting a 79 figure in hand under Manuel Franco. Trainer Brad Cox hits at 30 percent overall and 38 percent in sprints, paired with top rider Franco (22 percent). Outside post 9 is fair over Belmont's sweeping 7f chute and one-turn configuration. Expect tactical forward placement right off the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 86,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Princess Becca",
+                        "handicapper_notes": "Score boosted by Class Drop Elevator dropping from Allowance Optional Claiming $45k at Saratoga to NY-bred $16k claiming. Owns the highest recent dirt speed figure in the field (86) when winning at 1 mile on Jul 5. Off since Aug 20 and cuts back from 1 mile to 7f, while low-percentage rider Rocco Bowen (4 percent) takes the mount, keeping her slightly behind the top two despite the major class relief.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Miss Lao",
+                        "handicapper_notes": "Joe Sharp trainee (20 percent win) who ran a sharp 82 figure winning a $16k claimer at Saratoga in August and finished 3rd behind Heavenly Light at 7.5f in September after dueling on the pace. Faced traffic trouble (bumped and steadied at the 7/16 pole) when 4th on Oct 14. Capable of rebounding at 7f under Kendrick Carmouche.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 82,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped and steadied 7/16 pole on 14Oct26",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Looks First",
+                        "handicapper_notes": "Drops from $32k Starter Allowance to open $12.5k claiming after two dull local efforts (67 and 59 figures) following solid 76-78 allowance form in Maryland. Signals readiness for a rebound with a bullet 3f work (35.82, 1/7) on Nov 2 and has a win and a third from 3 starts on off tracks.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Steadied after start on 17Oct26",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Summer Flower",
+                        "handicapper_notes": "Designated Danger Horse at 12-1 morning line. Finished 3rd with a 75 figure in a $16k claimer at 1 mile at Belmont on Oct 21 and turns back to 7f while training well (49.00, 1/6 on Nov 3). With multiple E/P types signed on, her sustained closing kick could capitalize on any pace meltdown in the long Belmont stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Carolina Smokeshow",
+                        "handicapper_notes": "Returns from a 3-month layoff after stopping badly on the rail in a $16k/$20k Starter at Saratoga on Aug 7 (26 figure). Previously posted solid 71-74 sprint figures at Aqueduct including a 2.5-length CLM30k win in March. Needs to hold off several pace rivals from post 2.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Honest Pace",
+                            "ai_holistic_score": 75,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Dropped back rail 3/8 and stopped on 07Aug26",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Heavenly Light",
+                    "rating": 88.0,
+                    "reason": "Top dirt speed figure consistency (81 last out) winning over 7.5f at Belmont on Sep 30 under Flavien Prat, defeating Miss Lao, Ah Ca Ira, and Looks First. Elite NYRA trainer-jockey combo with Linda Rice (18 percent overall) and Prat (23 percent). Proven on off tracks (1 win, 1 second in 2 starts) which fits today's Good dirt surface. Slight drop from $20k to NY-bred $16k claiming, though not an Allowance-to-Claiming elevator drop."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Vekomancer",
+                    "rating": 86.0,
+                    "reason": "Sharp front-running 3.75-length winner at 6.5f at Belmont on Oct 4 posting a 79 figure in hand under Manuel Franco. Trainer Brad Cox hits at 30 percent overall and 38 percent in sprints, paired with top rider Franco (22 percent). Outside post 9 is fair over Belmont's sweeping 7f chute and one-turn configuration. Expect tactical forward placement right off the pace."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Princess Becca",
+                    "rating": 85.0,
+                    "reason": "Score boosted by Class Drop Elevator dropping from Allowance Optional Claiming $45k at Saratoga to NY-bred $16k claiming. Owns the highest recent dirt speed figure in the field (86) when winning at 1 mile on Jul 5. Off since Aug 20 and cuts back from 1 mile to 7f, while low-percentage rider Rocco Bowen (4 percent) takes the mount, keeping her slightly behind the top two despite the major class relief. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Miss Lao",
+                    "rating": 82.0,
+                    "reason": "Joe Sharp trainee (20 percent win) who ran a sharp 82 figure winning a $16k claimer at Saratoga in August and finished 3rd behind Heavenly Light at 7.5f in September after dueling on the pace. Faced traffic trouble (bumped and steadied at the 7/16 pole) when 4th on Oct 14. Capable of rebounding at 7f under Kendrick Carmouche. | <i>\u26a0\ufe0f Bumped and steadied 7/16 pole on 14Oct26</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Looks First",
+                    "rating": 79.0,
+                    "reason": "Drops from $32k Starter Allowance to open $12.5k claiming after two dull local efforts (67 and 59 figures) following solid 76-78 allowance form in Maryland. Signals readiness for a rebound with a bullet 3f work (35.82, 1/7) on Nov 2 and has a win and a third from 3 starts on off tracks. | <i>\u26a0\ufe0f Steadied after start on 17Oct26</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Heavenly Light",
+                    "rating": 88.0,
+                    "reason": "Top dirt speed figure consistency (81 last out) winning over 7.5f at Belmont on Sep 30 under Flavien Prat, defeating Miss Lao, Ah Ca Ira, and Looks First. Elite NYRA trainer-jockey combo with Linda Rice (18 percent overall) and Prat (23 percent). Proven on off tracks (1 win, 1 second in 2 starts) which fits today's Good dirt surface. Slight drop from $20k to NY-bred $16k claiming, though not an Allowance-to-Claiming elevator drop."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Vekomancer",
+                    "rating": 86.0,
+                    "reason": "Sharp front-running 3.75-length winner at 6.5f at Belmont on Oct 4 posting a 79 figure in hand under Manuel Franco. Trainer Brad Cox hits at 30 percent overall and 38 percent in sprints, paired with top rider Franco (22 percent). Outside post 9 is fair over Belmont's sweeping 7f chute and one-turn configuration. Expect tactical forward placement right off the pace."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Princess Becca",
+                    "rating": 85.0,
+                    "reason": "Score boosted by Class Drop Elevator dropping from Allowance Optional Claiming $45k at Saratoga to NY-bred $16k claiming. Owns the highest recent dirt speed figure in the field (86) when winning at 1 mile on Jul 5. Off since Aug 20 and cuts back from 1 mile to 7f, while low-percentage rider Rocco Bowen (4 percent) takes the mount, keeping her slightly behind the top two despite the major class relief. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Miss Lao",
+                    "rating": 82.0,
+                    "reason": "Joe Sharp trainee (20 percent win) who ran a sharp 82 figure winning a $16k claimer at Saratoga in August and finished 3rd behind Heavenly Light at 7.5f in September after dueling on the pace. Faced traffic trouble (bumped and steadied at the 7/16 pole) when 4th on Oct 14. Capable of rebounding at 7f under Kendrick Carmouche. | <i>\u26a0\ufe0f Bumped and steadied 7/16 pole on 14Oct26</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Looks First",
+                    "rating": 79.0,
+                    "reason": "Drops from $32k Starter Allowance to open $12.5k claiming after two dull local efforts (67 and 59 figures) following solid 76-78 allowance form in Maryland. Signals readiness for a rebound with a bullet 3f work (35.82, 1/7) on Nov 2 and has a win and a third from 3 starts on off tracks. | <i>\u26a0\ufe0f Steadied after start on 17Oct26</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Summer Flower",
+                    "rating": 78.0,
+                    "reason": "Designated Danger Horse at 12-1 morning line. Finished 3rd with a 75 figure in a $16k claimer at 1 mile at Belmont on Oct 21 and turns back to 7f while training well (49.00, 1/6 on Nov 3). With multiple E/P types signed on, her sustained closing kick could capitalize on any pace meltdown in the long Belmont stretch. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Carolina Smokeshow",
+                    "rating": 75.0,
+                    "reason": "Returns from a 3-month layoff after stopping badly on the rail in a $16k/$20k Starter at Saratoga on Aug 7 (26 figure). Previously posted solid 71-74 sprint figures at Aqueduct including a 2.5-length CLM30k win in March. Needs to hold off several pace rivals from post 2. | <i>\u26a0\ufe0f Dropped back rail 3/8 and stopped on 07Aug26</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Summer Flower",
+                "rating": 78.0,
+                "reason": "Designated Danger Horse at 12-1 morning line. Finished 3rd with a 75 figure in a $16k claimer at 1 mile at Belmont on Oct 21 and turns back to 7f while training well (49.00, 1/6 on Nov 3). With multiple E/P types signed on, her sustained closing kick could capitalize on any pace meltdown in the long Belmont stretch. | <i>\ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Heavenly Light</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #9, #6 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "6 Furlongs All Weather (Tapeta)",
+            "surface": "(Tapeta)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "6 Furlongs All Weather (Tapeta)",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5 / Exacta Box 5, 6 / Trifecta 5, 6 with 5, 6, 9, 1, 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Titan Ready",
+                        "handicapper_notes": "Best Bet with a +4 pt separation over the field due to proven Tapeta synthetic stakes form (85 speed fig finishing 2nd by a head in the Victoria L at Woodbine) paired with a 4-length Belmont turf MSW win (86 fig). Elite NYRA sprint/2YO trainer Brad Cox (30% meet, 38% sprints) teams with leading rider Manuel Franco. Draws ideal mid-gate Post 5 on the Tapeta with tactical speed, though not lone speed with Arctic Wolf and Mcmoon entered.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Reza",
+                        "handicapper_notes": "Primary threat and proven synthetic specialist (+3.5 synthetic angle). Exploded to an 8-length MSW victory on Gulfstream All-Weather Tapeta (79 fig) in his debut and validated that class with an 85 fig against tough NW2L allowance company at Churchill Downs. Stalking style sets up ideally behind expected contested early pace from Titan Ready, Arctic Wolf, and Mcmoon.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "5F to 6F",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Arctic Wolf",
+                        "handicapper_notes": "Stakes winner on turf (85 fig winning the Speakeasy L at Santa Anita and 84 fig winning at BAQ). Zero lifetime dirt or synthetic starts, though Frosted-by-Tapit/Practical Joke pedigree offers strong Tapeta/dirt adaptability. Sharp TTC workout tab, but wide Post 9 and shared early speed with Titan Ready and Mcmoon create potential ground loss.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "5F to 6F",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Just Joe",
+                        "handicapper_notes": "Rail draw with top rider Flavien Prat for George Weaver. Zero synthetic/dirt starts, but exempt from surface-switch penalty via elite Uncle Mo-Curlin pedigree. Posted a 78 fig winning at KD and ran a respectable 4th in the G3 Futurity (73 fig) behind a hot pace. Crisp 47.49 Nov 7 work suggests readiness to close into contested fractions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "3w pursuit in G3 Futurity",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "More Champagne",
+                        "handicapper_notes": "[TUF-to-DIRT RISK] Talented filly (87 KEE MSW fig, 81 in G3 Matron) training sharply with a Nov 1 bullet 47.00 at BEL. However, all 4 lifetime starts came on turf with zero dirt/synthetic experience and Golden Pal turf-sprint sire, warranting an off-turf risk adjustment facing boys on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 78,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Metallican",
+                        "handicapper_notes": "Flagged as Danger Horse at 12/1 ML. Undefeated 3-for-3 with back-to-back 84 and 83 figures on turf at Laurel plus a dirt sprint debut win at Timonium. Moves up in class to NYRA stakes for Jamie Ness, but inside Post 3, tactical pressing style, and proven non-turf win make him a live underneath and upset longshot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 77,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped start in last two",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Riyadh Way",
+                        "handicapper_notes": "[TUF-to-DIRT RISK] Two-time turf sprint winner at Gulfstream (78 peak fig), but finished a well-beaten 4th by 9 lengths in his lone dirt try (56 fig, 22 pts below turf par) with a heavily turf-oriented Karakontie-Kittens Joy pedigree and zero synthetic starts. Penalized heavily for the off-turf switch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "5F to 6F",
+                            "trouble_trip": "Held up in traffic last out",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Mcmoon",
+                        "handicapper_notes": "Proven dirt winner having wired $50k maiden claimers at Belmont last out (69 fig), and has early speed that further heats up the pace scenario. Faces a steep class rise into a $175k stakes with zero synthetic starts and figures well below the top contenders.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 68,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Moneta Agenda",
+                        "handicapper_notes": "[TUF-to-DIRT RISK",
+                        "features": {
+                            "ai_holistic_score": 82
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Titan Ready",
+                    "rating": 90.0,
+                    "reason": "Best Bet with a +4 pt separation over the field due to proven Tapeta synthetic stakes form (85 speed fig finishing 2nd by a head in the Victoria L at Woodbine) paired with a 4-length Belmont turf MSW win (86 fig). Elite NYRA sprint/2YO trainer Brad Cox (30% meet, 38% sprints) teams with leading rider Manuel Franco. Draws ideal mid-gate Post 5 on the Tapeta with tactical speed, though not lone speed with Arctic Wolf and Mcmoon entered."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Reza",
+                    "rating": 86.0,
+                    "reason": "Primary threat and proven synthetic specialist (+3.5 synthetic angle). Exploded to an 8-length MSW victory on Gulfstream All-Weather Tapeta (79 fig) in his debut and validated that class with an 85 fig against tough NW2L allowance company at Churchill Downs. Stalking style sets up ideally behind expected contested early pace from Titan Ready, Arctic Wolf, and Mcmoon. | <i>\ud83d\udccf 5F to 6F</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Arctic Wolf",
+                    "rating": 82.0,
+                    "reason": "Stakes winner on turf (85 fig winning the Speakeasy L at Santa Anita and 84 fig winning at BAQ). Zero lifetime dirt or synthetic starts, though Frosted-by-Tapit/Practical Joke pedigree offers strong Tapeta/dirt adaptability. Sharp TTC workout tab, but wide Post 9 and shared early speed with Titan Ready and Mcmoon create potential ground loss. | <i>\ud83d\udccf 5F to 6F</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Moneta Agenda",
+                    "rating": 82.0,
+                    "reason": "[TUF-to-DIRT RISK"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Just Joe",
+                    "rating": 79.0,
+                    "reason": "Rail draw with top rider Flavien Prat for George Weaver. Zero synthetic/dirt starts, but exempt from surface-switch penalty via elite Uncle Mo-Curlin pedigree. Posted a 78 fig winning at KD and ran a respectable 4th in the G3 Futurity (73 fig) behind a hot pace. Crisp 47.49 Nov 7 work suggests readiness to close into contested fractions. | <i>\u26a0\ufe0f 3w pursuit in G3 Futurity</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Titan Ready",
+                    "rating": 90.0,
+                    "reason": "Best Bet with a +4 pt separation over the field due to proven Tapeta synthetic stakes form (85 speed fig finishing 2nd by a head in the Victoria L at Woodbine) paired with a 4-length Belmont turf MSW win (86 fig). Elite NYRA sprint/2YO trainer Brad Cox (30% meet, 38% sprints) teams with leading rider Manuel Franco. Draws ideal mid-gate Post 5 on the Tapeta with tactical speed, though not lone speed with Arctic Wolf and Mcmoon entered."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Reza",
+                    "rating": 86.0,
+                    "reason": "Primary threat and proven synthetic specialist (+3.5 synthetic angle). Exploded to an 8-length MSW victory on Gulfstream All-Weather Tapeta (79 fig) in his debut and validated that class with an 85 fig against tough NW2L allowance company at Churchill Downs. Stalking style sets up ideally behind expected contested early pace from Titan Ready, Arctic Wolf, and Mcmoon. | <i>\ud83d\udccf 5F to 6F</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Arctic Wolf",
+                    "rating": 82.0,
+                    "reason": "Stakes winner on turf (85 fig winning the Speakeasy L at Santa Anita and 84 fig winning at BAQ). Zero lifetime dirt or synthetic starts, though Frosted-by-Tapit/Practical Joke pedigree offers strong Tapeta/dirt adaptability. Sharp TTC workout tab, but wide Post 9 and shared early speed with Titan Ready and Mcmoon create potential ground loss. | <i>\ud83d\udccf 5F to 6F</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Moneta Agenda",
+                    "rating": 82.0,
+                    "reason": "[TUF-to-DIRT RISK"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Just Joe",
+                    "rating": 79.0,
+                    "reason": "Rail draw with top rider Flavien Prat for George Weaver. Zero synthetic/dirt starts, but exempt from surface-switch penalty via elite Uncle Mo-Curlin pedigree. Posted a 78 fig winning at KD and ran a respectable 4th in the G3 Futurity (73 fig) behind a hot pace. Crisp 47.49 Nov 7 work suggests readiness to close into contested fractions. | <i>\u26a0\ufe0f 3w pursuit in G3 Futurity</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "More Champagne",
+                    "rating": 78.0,
+                    "reason": "[TUF-to-DIRT RISK] Talented filly (87 KEE MSW fig, 81 in G3 Matron) training sharply with a Nov 1 bullet 47.00 at BEL. However, all 4 lifetime starts came on turf with zero dirt/synthetic experience and Golden Pal turf-sprint sire, warranting an off-turf risk adjustment facing boys on Tapeta."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Metallican",
+                    "rating": 77.0,
+                    "reason": "Flagged as Danger Horse at 12/1 ML. Undefeated 3-for-3 with back-to-back 84 and 83 figures on turf at Laurel plus a dirt sprint debut win at Timonium. Moves up in class to NYRA stakes for Jamie Ness, but inside Post 3, tactical pressing style, and proven non-turf win make him a live underneath and upset longshot. | <i>\u26a0\ufe0f Bumped start in last two</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Riyadh Way",
+                    "rating": 72.0,
+                    "reason": "[TUF-to-DIRT RISK] Two-time turf sprint winner at Gulfstream (78 peak fig), but finished a well-beaten 4th by 9 lengths in his lone dirt try (56 fig, 22 pts below turf par) with a heavily turf-oriented Karakontie-Kittens Joy pedigree and zero synthetic starts. Penalized heavily for the off-turf switch. | <i>\u26a0\ufe0f Held up in traffic last out \u2022 \ud83d\udccf 5F to 6F</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Mcmoon",
+                    "rating": 68.0,
+                    "reason": "Proven dirt winner having wired $50k maiden claimers at Belmont last out (69 fig), and has early speed that further heats up the pace scenario. Faces a steep class rise into a $175k stakes with zero synthetic starts and figures well below the top contenders."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Metallican",
+                "rating": 77.0,
+                "reason": "Flagged as Danger Horse at 12/1 ML. Undefeated 3-for-3 with back-to-back 84 and 83 figures on turf at Laurel plus a dirt sprint debut win at Timonium. Moves up in class to NYRA stakes for Jamie Ness, but inside Post 3, tactical pressing style, and proven non-turf win make him a live underneath and upset longshot. | <i>\u26a0\ufe0f Bumped start in last two</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Titan Ready</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #6, #3 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "6 Furlongs All Weather",
+            "surface": "Weather",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "6 Furlongs All Weather",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 5, 7, 9 / Win 5",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Brickyard Belle",
+                        "handicapper_notes": "Class and speed figure standout dropping out of the Breeders Cup Juvenile Turf Sprint G1 where she earned a massive 101 speed figure, preceded by a dominant Matron G3 victory at Belmont with an 87 figure. Though making her Tapeta debut, her Yaupon-More Than Ready pedigree projects a seamless turf-to-synthetic transition, and elite NYRA connections Miguel Clement and Manuel Franco should get an ideal stalking trip behind multiple speed runners.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Hot Pace Setup",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped start in Oct 30 BC Juvenile Turf Sprint G1",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Fanshell Beach",
+                        "handicapper_notes": "Major contender trained by 2YO sprint specialist Wesley Ward with proven 90 speed figures on both dirt and turf, plus Royal Ascot Norfolk G2 experience. Sire Corniche has already produced a Belmont Tapeta sprint winner in this field, and she owns the tactical speed to sit a favorable stalking trip outside the inner speed duel.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bobble/bit in Apr 28 debut",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Zomoroda",
+                        "handicapper_notes": "Receives the synthetic specialty upgrade as the only runner in the field with a victory over this exact 6F Belmont Tapeta course, posting a 79 speed figure on Oct 11 when beating 11 rivals. Trained by Brad Cox who hits at 38 percent in sprints and 30 percent with 2YOs at Belmont, offering strong second-out upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Winchester Road",
+                        "handicapper_notes": "Flagged as the danger horse at 10/1 morning line for synthetic-savvy trainer Mark Casse. Rebounded from a troubled Tapeta debut at Woodbine to air by 4.25 lengths in a 6F turf MSW with an 87 speed figure, matching Brickyard Belle's Matron figure. Draws the rail with sharp Belmont workouts including a 47.28 breeze on Nov 7.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Shied/brushed between horses in Aug 30 Tapeta debut",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Yuquot (fr)",
+                        "handicapper_notes": "French stakes-placed filly making her US debut for Joe Sharp with top rider Flavien Prat aboard. Posted a bullet 47.63 4F work at Belmont on Nov 7 and gets an advantageous mid-inside draw on the Tapeta, though she must prove she can handle fast synthetic sprint fractions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Pink Venom (ire)",
+                        "handicapper_notes": "Enters on a three-race turf sprint win streak in Ireland for trainer John Murtagh and jockey Jamie Spencer. Shows solid early-to-tactical speed overseas, though transitioning to US Tapeta against stakes fillies with zero synthetic starts leaves her a notch below the top trio.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Legacy Lady",
+                        "handicapper_notes": "Finished second with a 79 speed figure in the Joe A. Gimma Stakes over Belmont turf on Oct 2 after setting the pace, and previously broke her maiden on turf at Monmouth. Likely to be part of a lively early pace scenario from post 8 which could compromise her late stamina on Tapeta.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Speed",
+                            "ai_holistic_score": 76,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped at break in Jun 18 dirt debut",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Bittersweet Memory",
+                        "handicapper_notes": "Has raced exclusively in 1 1/16M turf routes including a fourth in the Miss Grillo G2 with a 73 speed figure. Faces a difficult route-to-sprint cutback from wide post 10 on Tapeta against sharper pure sprinters.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Brickyard Belle",
+                    "rating": 89.0,
+                    "reason": "Class and speed figure standout dropping out of the Breeders Cup Juvenile Turf Sprint G1 where she earned a massive 101 speed figure, preceded by a dominant Matron G3 victory at Belmont with an 87 figure. Though making her Tapeta debut, her Yaupon-More Than Ready pedigree projects a seamless turf-to-synthetic transition, and elite NYRA connections Miguel Clement and Manuel Franco should get an ideal stalking trip behind multiple speed runners. | <i>\u26a0\ufe0f Bumped start in Oct 30 BC Juvenile Turf Sprint G1</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Fanshell Beach",
+                    "rating": 86.0,
+                    "reason": "Major contender trained by 2YO sprint specialist Wesley Ward with proven 90 speed figures on both dirt and turf, plus Royal Ascot Norfolk G2 experience. Sire Corniche has already produced a Belmont Tapeta sprint winner in this field, and she owns the tactical speed to sit a favorable stalking trip outside the inner speed duel. | <i>\u26a0\ufe0f Bobble/bit in Apr 28 debut</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Zomoroda",
+                    "rating": 85.0,
+                    "reason": "Receives the synthetic specialty upgrade as the only runner in the field with a victory over this exact 6F Belmont Tapeta course, posting a 79 speed figure on Oct 11 when beating 11 rivals. Trained by Brad Cox who hits at 38 percent in sprints and 30 percent with 2YOs at Belmont, offering strong second-out upside."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Winchester Road",
+                    "rating": 83.0,
+                    "reason": "Flagged as the danger horse at 10/1 morning line for synthetic-savvy trainer Mark Casse. Rebounded from a troubled Tapeta debut at Woodbine to air by 4.25 lengths in a 6F turf MSW with an 87 speed figure, matching Brickyard Belle's Matron figure. Draws the rail with sharp Belmont workouts including a 47.28 breeze on Nov 7. | <i>\u26a0\ufe0f Shied/brushed between horses in Aug 30 Tapeta debut</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Yuquot (fr)",
+                    "rating": 81.0,
+                    "reason": "French stakes-placed filly making her US debut for Joe Sharp with top rider Flavien Prat aboard. Posted a bullet 47.63 4F work at Belmont on Nov 7 and gets an advantageous mid-inside draw on the Tapeta, though she must prove she can handle fast synthetic sprint fractions. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Brickyard Belle",
+                    "rating": 89.0,
+                    "reason": "Class and speed figure standout dropping out of the Breeders Cup Juvenile Turf Sprint G1 where she earned a massive 101 speed figure, preceded by a dominant Matron G3 victory at Belmont with an 87 figure. Though making her Tapeta debut, her Yaupon-More Than Ready pedigree projects a seamless turf-to-synthetic transition, and elite NYRA connections Miguel Clement and Manuel Franco should get an ideal stalking trip behind multiple speed runners. | <i>\u26a0\ufe0f Bumped start in Oct 30 BC Juvenile Turf Sprint G1</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Fanshell Beach",
+                    "rating": 86.0,
+                    "reason": "Major contender trained by 2YO sprint specialist Wesley Ward with proven 90 speed figures on both dirt and turf, plus Royal Ascot Norfolk G2 experience. Sire Corniche has already produced a Belmont Tapeta sprint winner in this field, and she owns the tactical speed to sit a favorable stalking trip outside the inner speed duel. | <i>\u26a0\ufe0f Bobble/bit in Apr 28 debut</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Zomoroda",
+                    "rating": 85.0,
+                    "reason": "Receives the synthetic specialty upgrade as the only runner in the field with a victory over this exact 6F Belmont Tapeta course, posting a 79 speed figure on Oct 11 when beating 11 rivals. Trained by Brad Cox who hits at 38 percent in sprints and 30 percent with 2YOs at Belmont, offering strong second-out upside."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Winchester Road",
+                    "rating": 83.0,
+                    "reason": "Flagged as the danger horse at 10/1 morning line for synthetic-savvy trainer Mark Casse. Rebounded from a troubled Tapeta debut at Woodbine to air by 4.25 lengths in a 6F turf MSW with an 87 speed figure, matching Brickyard Belle's Matron figure. Draws the rail with sharp Belmont workouts including a 47.28 breeze on Nov 7. | <i>\u26a0\ufe0f Shied/brushed between horses in Aug 30 Tapeta debut</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Yuquot (fr)",
+                    "rating": 81.0,
+                    "reason": "French stakes-placed filly making her US debut for Joe Sharp with top rider Flavien Prat aboard. Posted a bullet 47.63 4F work at Belmont on Nov 7 and gets an advantageous mid-inside draw on the Tapeta, though she must prove she can handle fast synthetic sprint fractions. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pink Venom (ire)",
+                    "rating": 78.0,
+                    "reason": "Enters on a three-race turf sprint win streak in Ireland for trainer John Murtagh and jockey Jamie Spencer. Shows solid early-to-tactical speed overseas, though transitioning to US Tapeta against stakes fillies with zero synthetic starts leaves her a notch below the top trio."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Legacy Lady",
+                    "rating": 76.0,
+                    "reason": "Finished second with a 79 speed figure in the Joe A. Gimma Stakes over Belmont turf on Oct 2 after setting the pace, and previously broke her maiden on turf at Monmouth. Likely to be part of a lively early pace scenario from post 8 which could compromise her late stamina on Tapeta. | <i>\u26a0\ufe0f Bumped at break in Jun 18 dirt debut</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Bittersweet Memory",
+                    "rating": 75.0,
+                    "reason": "Has raced exclusively in 1 1/16M turf routes including a fourth in the Miss Grillo G2 with a 73 speed figure. Faces a difficult route-to-sprint cutback from wide post 10 on Tapeta against sharper pure sprinters. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Winchester Road",
+                "rating": 83.0,
+                "reason": "Flagged as the danger horse at 10/1 morning line for synthetic-savvy trainer Mark Casse. Rebounded from a troubled Tapeta debut at Woodbine to air by 4.25 lengths in a 6F turf MSW with an 87 speed figure, matching Brickyard Belle's Matron figure. Draws the rail with sharp Belmont workouts including a 47.28 breeze on Nov 7. | <i>\u26a0\ufe0f Shied/brushed between horses in Aug 30 Tapeta debut</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Brickyard Belle</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #9, #1 (Selective Box)"
+        },
+        {
+            "number": 10,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Win #9; Exacta 9 / 3, 10, 11, 12",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Playa Del Mar",
+                        "handicapper_notes": "Clear Best Bet (+3 gap) on superior 1M dirt speed ceiling (105, 99, 95) and ideal stalker ('P') running style for Belmont's 1,097ft stretch. Elite NYRA connections (Linda Rice 18%, Manuel Franco 22%/24% routes) and sharp 48.48 breeze on Nov 8 off a fresh August layoff; handles Good/off tracks (2-for-2 in the money).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Ideal Stalker Setup",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "6w upper in 19Jul SAR 1M",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Filoso",
+                        "handicapper_notes": "Primary challenger exiting a strong 99 speed figure runner-up finish over Good dirt at Belmont at 1 1/16M on Oct 16. Forwardly placed ('P'/'E') with sharp recent works (47.98 on Nov 8); slight turnback from 1 1/16M to 1M should help him finish through the 1,097ft straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pressing Contested Pace",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Lunged start in 16Oct BEL race",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Cocktailsnkringle",
+                        "handicapper_notes": "Consistent 1M dirt router who posted a 96 figure finishing 3rd just a neck behind Filoso on Good dirt at Belmont last out. Stalker ('P') profile fits the 1,097ft stretch well and signaled sharp readiness with a 48.00 (2/21) breeze on Nov 9.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Ideal Stalker Setup",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Sidearm",
+                        "handicapper_notes": "Upwardly mobile Gun Runner gelding riding back-to-back dirt route wins (91 and 88 figures), including a gutsy front-running score at 1 1/16M at Belmont on Oct 8. Steps up from starter allowance to open ALW105k and faces early pace pressure from #1, #3, and #4.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Pace",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "First Mover",
+                        "handicapper_notes": "Lightly raced 3yo by Gun Runner from the elite Chad Brown (24% overall, 28% routes, 29% 3YOs) and Flavien Prat (22%, 30% routes) stable. Won debut at MTH (1m70y, 80 figure) and owns major second-start upside, though must improve 10+ speed points against seasoned allowance foes.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Fateful Lightning",
+                        "handicapper_notes": "Designated Danger Horse at 12/1 ML. Improving Tapit closer ('S') exiting back-to-back 91 and 94 1M dirt figures, plus a bullet 59.36 5F work on Oct 6. Picks up Javier Castellano (18%) and benefits from contested early fractions (#1, #3, #4, #12) and Belmont's 1,097ft stretch swooper angle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Closer",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Off beat slow in recent starts",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Mo the Merrier",
+                        "handicapper_notes": "Stretches back out to 1M after dull 5th-place finishes in 6f and 6.5f Belmont allowance sprints (79, 76 figures). Previously posted an 88 at 1M in June at BAQ, but needs a bounce-back to threaten the top trio.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Wide 4w in 23Oct BEL race",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Gulfy",
+                        "handicapper_notes": "Rebounded to post a 93 speed figure finishing 4th in a 1M Belmont starter allowance on Oct 17, but was well beaten (10th, 67 figure) in his lone attempt at this open ALW105k level in September. Secondary underneath exotics piece.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Playa Del Mar",
+                    "rating": 89.0,
+                    "reason": "Clear Best Bet (+3 gap) on superior 1M dirt speed ceiling (105, 99, 95) and ideal stalker ('P') running style for Belmont's 1,097ft stretch. Elite NYRA connections (Linda Rice 18%, Manuel Franco 22%/24% routes) and sharp 48.48 breeze on Nov 8 off a fresh August layoff; handles Good/off tracks (2-for-2 in the money). | <i>\u26a0\ufe0f 6w upper in 19Jul SAR 1M</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Filoso",
+                    "rating": 86.0,
+                    "reason": "Primary challenger exiting a strong 99 speed figure runner-up finish over Good dirt at Belmont at 1 1/16M on Oct 16. Forwardly placed ('P'/'E') with sharp recent works (47.98 on Nov 8); slight turnback from 1 1/16M to 1M should help him finish through the 1,097ft straight. | <i>\u26a0\ufe0f Lunged start in 16Oct BEL race</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Cocktailsnkringle",
+                    "rating": 84.0,
+                    "reason": "Consistent 1M dirt router who posted a 96 figure finishing 3rd just a neck behind Filoso on Good dirt at Belmont last out. Stalker ('P') profile fits the 1,097ft stretch well and signaled sharp readiness with a 48.00 (2/21) breeze on Nov 9."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Sidearm",
+                    "rating": 83.0,
+                    "reason": "Upwardly mobile Gun Runner gelding riding back-to-back dirt route wins (91 and 88 figures), including a gutsy front-running score at 1 1/16M at Belmont on Oct 8. Steps up from starter allowance to open ALW105k and faces early pace pressure from #1, #3, and #4."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "First Mover",
+                    "rating": 82.0,
+                    "reason": "Lightly raced 3yo by Gun Runner from the elite Chad Brown (24% overall, 28% routes, 29% 3YOs) and Flavien Prat (22%, 30% routes) stable. Won debut at MTH (1m70y, 80 figure) and owns major second-start upside, though must improve 10+ speed points against seasoned allowance foes."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Playa Del Mar",
+                    "rating": 89.0,
+                    "reason": "Clear Best Bet (+3 gap) on superior 1M dirt speed ceiling (105, 99, 95) and ideal stalker ('P') running style for Belmont's 1,097ft stretch. Elite NYRA connections (Linda Rice 18%, Manuel Franco 22%/24% routes) and sharp 48.48 breeze on Nov 8 off a fresh August layoff; handles Good/off tracks (2-for-2 in the money). | <i>\u26a0\ufe0f 6w upper in 19Jul SAR 1M</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Filoso",
+                    "rating": 86.0,
+                    "reason": "Primary challenger exiting a strong 99 speed figure runner-up finish over Good dirt at Belmont at 1 1/16M on Oct 16. Forwardly placed ('P'/'E') with sharp recent works (47.98 on Nov 8); slight turnback from 1 1/16M to 1M should help him finish through the 1,097ft straight. | <i>\u26a0\ufe0f Lunged start in 16Oct BEL race</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Cocktailsnkringle",
+                    "rating": 84.0,
+                    "reason": "Consistent 1M dirt router who posted a 96 figure finishing 3rd just a neck behind Filoso on Good dirt at Belmont last out. Stalker ('P') profile fits the 1,097ft stretch well and signaled sharp readiness with a 48.00 (2/21) breeze on Nov 9."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Sidearm",
+                    "rating": 83.0,
+                    "reason": "Upwardly mobile Gun Runner gelding riding back-to-back dirt route wins (91 and 88 figures), including a gutsy front-running score at 1 1/16M at Belmont on Oct 8. Steps up from starter allowance to open ALW105k and faces early pace pressure from #1, #3, and #4."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "First Mover",
+                    "rating": 82.0,
+                    "reason": "Lightly raced 3yo by Gun Runner from the elite Chad Brown (24% overall, 28% routes, 29% 3YOs) and Flavien Prat (22%, 30% routes) stable. Won debut at MTH (1m70y, 80 figure) and owns major second-start upside, though must improve 10+ speed points against seasoned allowance foes."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Fateful Lightning",
+                    "rating": 81.0,
+                    "reason": "Designated Danger Horse at 12/1 ML. Improving Tapit closer ('S') exiting back-to-back 91 and 94 1M dirt figures, plus a bullet 59.36 5F work on Oct 6. Picks up Javier Castellano (18%) and benefits from contested early fractions (#1, #3, #4, #12) and Belmont's 1,097ft stretch swooper angle. | <i>\u26a0\ufe0f Off beat slow in recent starts</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mo the Merrier",
+                    "rating": 77.0,
+                    "reason": "Stretches back out to 1M after dull 5th-place finishes in 6f and 6.5f Belmont allowance sprints (79, 76 figures). Previously posted an 88 at 1M in June at BAQ, but needs a bounce-back to threaten the top trio. | <i>\u26a0\ufe0f Wide 4w in 23Oct BEL race \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Gulfy",
+                    "rating": 76.0,
+                    "reason": "Rebounded to post a 93 speed figure finishing 4th in a 1M Belmont starter allowance on Oct 17, but was well beaten (10th, 67 figure) in his lone attempt at this open ALW105k level in September. Secondary underneath exotics piece."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "11",
+                "name": "Fateful Lightning",
+                "rating": 81.0,
+                "reason": "Designated Danger Horse at 12/1 ML. Improving Tapit closer ('S') exiting back-to-back 91 and 94 1M dirt figures, plus a bullet 59.36 5F work on Oct 6. Picks up Javier Castellano (18%) and benefits from contested early fractions (#1, #3, #4, #12) and Belmont's 1,097ft stretch swooper angle. | <i>\u26a0\ufe0f Off beat slow in recent starts</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Playa Del Mar</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #3, #11 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#5, #2) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#7 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#10, #12)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#10, #12) with (#4, #9)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#4, #9) with (#5 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#5, #9)",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#5, #9) with (#9 (Solo Lock))"
+    ]
+}

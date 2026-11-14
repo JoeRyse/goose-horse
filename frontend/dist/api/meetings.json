@@ -2,6 +2,18 @@
     "status":  "success",
     "meetings":  [
                      {
+                         "id":  "Belmont_Park_2026-11-14",
+                         "filename":  "Belmont_Park_2026-11-14.json",
+                         "track":  "Belmont Park",
+                         "date":  "2026-11-14",
+                         "race_count":  10,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  7,
+                         "region":  "AUS",
+                         "is_published":  true,
+                         "last_modified":  639302852188373226
+                     },
+                     {
                          "id":  "Doomben_2026-11-13",
                          "filename":  "Doomben_2026-11-13.json",
                          "track":  "Doomben",
@@ -10,32 +22,20 @@
                          "solo_locks_count":  2,
                          "best_bets_count":  1,
                          "region":  "AUS",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639302187599204573
                      },
                      {
-                         "id":  "Illawarra_Grange_2026-11-13",
-                         "filename":  "Illawarra_Grange_2026-11-13.json",
-                         "track":  "Illawarra Grange",
+                         "id":  "Sandown_2026-11-13",
+                         "filename":  "Sandown_2026-11-13.json",
+                         "track":  "Sandown",
                          "date":  "2026-11-13",
-                         "race_count":  8,
+                         "race_count":  10,
                          "solo_locks_count":  2,
-                         "best_bets_count":  3,
-                         "region":  "USA",
-                         "is_published":  true,
-                         "last_modified":  639302204574612432
-                     },
-                     {
-                         "id":  "Ipswich_2026-11-13",
-                         "filename":  "Ipswich_2026-11-13.json",
-                         "track":  "Ipswich",
-                         "date":  "2026-11-13",
-                         "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  4,
+                         "best_bets_count":  6,
                          "region":  "AUS",
-                         "is_published":  true,
-                         "last_modified":  639302198269007459
+                         "is_published":  false,
+                         "last_modified":  639302225597460091
                      },
                      {
                          "id":  "Ascot_2026-11-13",
@@ -46,7 +46,7 @@
                          "solo_locks_count":  2,
                          "best_bets_count":  3,
                          "region":  "UK",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639302233431966344
                      },
                      {
@@ -58,20 +58,20 @@
                          "solo_locks_count":  1,
                          "best_bets_count":  6,
                          "region":  "ASIA",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639302277725703008
                      },
                      {
-                         "id":  "Sandown_2026-11-13",
-                         "filename":  "Sandown_2026-11-13.json",
-                         "track":  "Sandown",
+                         "id":  "Ipswich_2026-11-13",
+                         "filename":  "Ipswich_2026-11-13.json",
+                         "track":  "Ipswich",
                          "date":  "2026-11-13",
-                         "race_count":  10,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  6,
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  4,
                          "region":  "AUS",
-                         "is_published":  true,
-                         "last_modified":  639302225597460091
+                         "is_published":  false,
+                         "last_modified":  639302198269007459
                      },
                      {
                          "id":  "Newcastle_2026-11-13",
@@ -82,8 +82,20 @@
                          "solo_locks_count":  0,
                          "best_bets_count":  4,
                          "region":  "AUS",
-                         "is_published":  true,
+                         "is_published":  false,
                          "last_modified":  639302212879701731
+                     },
+                     {
+                         "id":  "Illawarra_Grange_2026-11-13",
+                         "filename":  "Illawarra_Grange_2026-11-13.json",
+                         "track":  "Illawarra Grange",
+                         "date":  "2026-11-13",
+                         "race_count":  8,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  3,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639302204574612432
                      },
                      {
                          "id":  "Gawler_2026-11-04",
@@ -110,6 +122,30 @@
                          "last_modified":  639294388956122963
                      },
                      {
+                         "id":  "Ipswich_2026-11-04",
+                         "filename":  "Ipswich_2026-11-04.json",
+                         "track":  "Ipswich",
+                         "date":  "2026-11-04",
+                         "race_count":  6,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639294382072813626
+                     },
+                     {
+                         "id":  "Flemington_2026-11-04",
+                         "filename":  "Flemington_2026-11-04.json",
+                         "track":  "Flemington",
+                         "date":  "2026-11-04",
+                         "race_count":  9,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  5,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639294369159877482
+                     },
+                     {
                          "id":  "Gosford_2026-11-04",
                          "filename":  "Gosford_2026-11-04.json",
                          "track":  "Gosford",
@@ -134,28 +170,16 @@
                          "last_modified":  639294378679424780
                      },
                      {
-                         "id":  "Flemington_2026-11-04",
-                         "filename":  "Flemington_2026-11-04.json",
+                         "id":  "Flemington_2026-11-02",
+                         "filename":  "Flemington_2026-11-02.json",
                          "track":  "Flemington",
-                         "date":  "2026-11-04",
-                         "race_count":  9,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  5,
+                         "date":  "2026-11-02",
+                         "race_count":  10,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  8,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639294369159877482
-                     },
-                     {
-                         "id":  "Ipswich_2026-11-04",
-                         "filename":  "Ipswich_2026-11-04.json",
-                         "track":  "Ipswich",
-                         "date":  "2026-11-04",
-                         "race_count":  6,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639294382072813626
+                         "last_modified":  639292766461600986
                      },
                      {
                          "id":  "Royal_Randwick_2026-11-02",
@@ -170,28 +194,16 @@
                          "last_modified":  639292774611426570
                      },
                      {
-                         "id":  "Flemington_2026-11-02",
-                         "filename":  "Flemington_2026-11-02.json",
-                         "track":  "Flemington",
-                         "date":  "2026-11-02",
-                         "race_count":  10,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  8,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639292766461600986
-                     },
-                     {
-                         "id":  "Muswellbrook_2026-11-01",
-                         "filename":  "Muswellbrook_2026-11-01.json",
-                         "track":  "Muswellbrook",
+                         "id":  "Nowra_2026-11-01",
+                         "filename":  "Nowra_2026-11-01.json",
+                         "track":  "Nowra",
                          "date":  "2026-11-01",
                          "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
+                         "solo_locks_count":  2,
+                         "best_bets_count":  2,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639291032895307943
+                         "last_modified":  639291029334466098
                      },
                      {
                          "id":  "Mornington_2026-11-01",
@@ -206,6 +218,18 @@
                          "last_modified":  639291041815034779
                      },
                      {
+                         "id":  "Muswellbrook_2026-11-01",
+                         "filename":  "Muswellbrook_2026-11-01.json",
+                         "track":  "Muswellbrook",
+                         "date":  "2026-11-01",
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639291032895307943
+                     },
+                     {
                          "id":  "Naracoorte_2026-11-01",
                          "filename":  "Naracoorte_2026-11-01.json",
                          "track":  "Naracoorte",
@@ -216,18 +240,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639291025412384274
-                     },
-                     {
-                         "id":  "Nowra_2026-11-01",
-                         "filename":  "Nowra_2026-11-01.json",
-                         "track":  "Nowra",
-                         "date":  "2026-11-01",
-                         "race_count":  7,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  2,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639291029334466098
                      },
                      {
                          "id":  "Keeneland_2026-10-31",
@@ -242,16 +254,16 @@
                          "last_modified":  639290553537268146
                      },
                      {
-                         "id":  "Kalgoorlie_2026-10-01",
-                         "filename":  "Kalgoorlie_2026-10-01.json",
-                         "track":  "Kalgoorlie",
+                         "id":  "Belmont_Park_2026-10-01",
+                         "filename":  "Belmont_Park_2026-10-01.json",
+                         "track":  "Belmont Park",
                          "date":  "2026-10-01",
-                         "race_count":  7,
+                         "race_count":  8,
                          "solo_locks_count":  1,
-                         "best_bets_count":  4,
-                         "region":  "USA",
+                         "best_bets_count":  3,
+                         "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639264267993790602
+                         "last_modified":  639264800672576280
                      },
                      {
                          "id":  "Sha_Tin_2026-10-01",
@@ -278,16 +290,16 @@
                          "last_modified":  639264270198325198
                      },
                      {
-                         "id":  "Belmont_Park_2026-10-01",
-                         "filename":  "Belmont_Park_2026-10-01.json",
-                         "track":  "Belmont Park",
+                         "id":  "Kalgoorlie_2026-10-01",
+                         "filename":  "Kalgoorlie_2026-10-01.json",
+                         "track":  "Kalgoorlie",
                          "date":  "2026-10-01",
-                         "race_count":  8,
+                         "race_count":  7,
                          "solo_locks_count":  1,
-                         "best_bets_count":  3,
-                         "region":  "AUS",
+                         "best_bets_count":  4,
+                         "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639264800672576280
+                         "last_modified":  639264267993790602
                      },
                      {
                          "id":  "Tamworth_2026-10-01",
@@ -338,6 +350,18 @@
                          "last_modified":  639258195898634331
                      },
                      {
+                         "id":  "Moe_2026-09-23",
+                         "filename":  "Moe_2026-09-23.json",
+                         "track":  "Moe",
+                         "date":  "2026-09-23",
+                         "race_count":  8,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639258175556161258
+                     },
+                     {
                          "id":  "Hawkesbury_2026-09-23",
                          "filename":  "Hawkesbury_2026-09-23.json",
                          "track":  "Hawkesbury",
@@ -360,30 +384,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639258183040281923
-                     },
-                     {
-                         "id":  "Moe_2026-09-23",
-                         "filename":  "Moe_2026-09-23.json",
-                         "track":  "Moe",
-                         "date":  "2026-09-23",
-                         "race_count":  8,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639258175556161258
-                     },
-                     {
-                         "id":  "Taree_2026-09-22",
-                         "filename":  "Taree_2026-09-22.json",
-                         "track":  "Taree",
-                         "date":  "2026-09-22",
-                         "race_count":  7,
-                         "solo_locks_count":  2,
-                         "best_bets_count":  5,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639256467165301098
                      },
                      {
                          "id":  "Swan_Hill_2026-09-22",
@@ -410,6 +410,18 @@
                          "last_modified":  639256469997215752
                      },
                      {
+                         "id":  "Taree_2026-09-22",
+                         "filename":  "Taree_2026-09-22.json",
+                         "track":  "Taree",
+                         "date":  "2026-09-22",
+                         "race_count":  7,
+                         "solo_locks_count":  2,
+                         "best_bets_count":  5,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639256467165301098
+                     },
+                     {
                          "id":  "Grafton_2026-09-21",
                          "filename":  "Grafton_2026-09-21.json",
                          "track":  "Grafton",
@@ -434,18 +446,6 @@
                          "last_modified":  639255609007785343
                      },
                      {
-                         "id":  "Leeton_2026-09-21",
-                         "filename":  "Leeton_2026-09-21.json",
-                         "track":  "Leeton",
-                         "date":  "2026-09-21",
-                         "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639256460783833041
-                     },
-                     {
                          "id":  "Warrnambool_2026-09-21",
                          "filename":  "Warrnambool_2026-09-21.json",
                          "track":  "Warrnambool",
@@ -456,6 +456,18 @@
                          "region":  "AUS",
                          "is_published":  false,
                          "last_modified":  639255614946730373
+                     },
+                     {
+                         "id":  "Leeton_2026-09-21",
+                         "filename":  "Leeton_2026-09-21.json",
+                         "track":  "Leeton",
+                         "date":  "2026-09-21",
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639256460783833041
                      },
                      {
                          "id":  "Parx_Racing_2026-09-19",
@@ -494,18 +506,6 @@
                          "last_modified":  639253491756536457
                      },
                      {
-                         "id":  "Belmont_2026-09-09",
-                         "filename":  "Belmont_2026-09-09.json",
-                         "track":  "Belmont",
-                         "date":  "2026-09-09",
-                         "race_count":  6,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  2,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639245273443770055
-                     },
-                     {
                          "id":  "Happy_Valley_2026-09-09",
                          "filename":  "Happy_Valley_2026-09-09.json",
                          "track":  "Happy Valley",
@@ -518,16 +518,16 @@
                          "last_modified":  639245280767642730
                      },
                      {
-                         "id":  "Ipswich_2026-09-08",
-                         "filename":  "Ipswich_2026-09-08.json",
-                         "track":  "Ipswich",
-                         "date":  "2026-09-08",
-                         "race_count":  7,
+                         "id":  "Belmont_2026-09-09",
+                         "filename":  "Belmont_2026-09-09.json",
+                         "track":  "Belmont",
+                         "date":  "2026-09-09",
+                         "race_count":  6,
                          "solo_locks_count":  3,
-                         "best_bets_count":  3,
+                         "best_bets_count":  2,
                          "region":  "AUS",
                          "is_published":  false,
-                         "last_modified":  639245202831631436
+                         "last_modified":  639245273443770055
                      },
                      {
                          "id":  "Randwick_Kensington_2026-09-08",
@@ -554,6 +554,18 @@
                          "last_modified":  639245201043321047
                      },
                      {
+                         "id":  "Ipswich_2026-09-08",
+                         "filename":  "Ipswich_2026-09-08.json",
+                         "track":  "Ipswich",
+                         "date":  "2026-09-08",
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  3,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639245202831631436
+                     },
+                     {
                          "id":  "Townsville_2026-09-07",
                          "filename":  "Townsville_2026-09-07.json",
                          "track":  "Townsville",
@@ -566,18 +578,6 @@
                          "last_modified":  639244328240332865
                      },
                      {
-                         "id":  "Queanbeyan_2026-09-07",
-                         "filename":  "Queanbeyan_2026-09-07.json",
-                         "track":  "Queanbeyan",
-                         "date":  "2026-09-07",
-                         "race_count":  7,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639244332979423381
-                     },
-                     {
                          "id":  "Saratoga_2026-09-07",
                          "filename":  "Saratoga_2026-09-07.json",
                          "track":  "Saratoga",
@@ -588,18 +588,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639244078955442784
-                     },
-                     {
-                         "id":  "Muswellbrook_2026-09-07",
-                         "filename":  "Muswellbrook_2026-09-07.json",
-                         "track":  "Muswellbrook",
-                         "date":  "2026-09-07",
-                         "race_count":  7,
-                         "solo_locks_count":  3,
-                         "best_bets_count":  4,
-                         "region":  "AUS",
-                         "is_published":  false,
-                         "last_modified":  639244338235759702
                      },
                      {
                          "id":  "Moe_2026-09-07",
@@ -626,6 +614,30 @@
                          "last_modified":  639244081877991035
                      },
                      {
+                         "id":  "Queanbeyan_2026-09-07",
+                         "filename":  "Queanbeyan_2026-09-07.json",
+                         "track":  "Queanbeyan",
+                         "date":  "2026-09-07",
+                         "race_count":  7,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639244332979423381
+                     },
+                     {
+                         "id":  "Muswellbrook_2026-09-07",
+                         "filename":  "Muswellbrook_2026-09-07.json",
+                         "track":  "Muswellbrook",
+                         "date":  "2026-09-07",
+                         "race_count":  7,
+                         "solo_locks_count":  3,
+                         "best_bets_count":  4,
+                         "region":  "AUS",
+                         "is_published":  false,
+                         "last_modified":  639244338235759702
+                     },
+                     {
                          "id":  "Del_Mar_2026-09-07",
                          "filename":  "Del_Mar_2026-09-07.json",
                          "track":  "Del Mar",
@@ -636,6 +648,18 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639244084070483912
+                     },
+                     {
+                         "id":  "Saratoga_2026-09-03",
+                         "filename":  "Saratoga_2026-09-03.json",
+                         "track":  "Saratoga",
+                         "date":  "2026-09-03",
+                         "race_count":  10,
+                         "solo_locks_count":  0,
+                         "best_bets_count":  6,
+                         "region":  "USA",
+                         "is_published":  false,
+                         "last_modified":  639240439882819868
                      },
                      {
                          "id":  "Kentucky_Downs_2026-09-03",
@@ -650,16 +674,16 @@
                          "last_modified":  639240438072705351
                      },
                      {
-                         "id":  "Saratoga_2026-09-03",
-                         "filename":  "Saratoga_2026-09-03.json",
-                         "track":  "Saratoga",
-                         "date":  "2026-09-03",
-                         "race_count":  10,
-                         "solo_locks_count":  0,
-                         "best_bets_count":  6,
+                         "id":  "Coffs_Harbour_2026-09-02",
+                         "filename":  "Coffs_Harbour_2026-09-02.json",
+                         "track":  "Coffs Harbour",
+                         "date":  "2026-09-02",
+                         "race_count":  8,
+                         "solo_locks_count":  1,
+                         "best_bets_count":  5,
                          "region":  "USA",
                          "is_published":  false,
-                         "last_modified":  639240439882819868
+                         "last_modified":  639240026178588654
                      },
                      {
                          "id":  "Warrnambool_2026-09-02",
@@ -684,18 +708,6 @@
                          "region":  "USA",
                          "is_published":  false,
                          "last_modified":  639239588788743022
-                     },
-                     {
-                         "id":  "Coffs_Harbour_2026-09-02",
-                         "filename":  "Coffs_Harbour_2026-09-02.json",
-                         "track":  "Coffs Harbour",
-                         "date":  "2026-09-02",
-                         "race_count":  8,
-                         "solo_locks_count":  1,
-                         "best_bets_count":  5,
-                         "region":  "USA",
-                         "is_published":  false,
-                         "last_modified":  639240026178588654
                      },
                      {
                          "id":  "Tokyo_City_Keiba_2026-09-02",
