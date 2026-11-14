@@ -1,0 +1,2458 @@
+{
+    "meta": {
+        "track": "Colonial Downs",
+        "date": "2026-08-01",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 12, 8, 10; Trifecta 12 / 8, 10 / 2, 5, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Light De Night",
+                        "handicapper_notes": "Top selection following back-to-back runner-up efforts over this exact course and distance. Paco Lopez takes the reins for trainer Jorge Duarte Jr., fitting the Colonial turf profile ideally.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Presser",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "It's Fine",
+                        "handicapper_notes": "Primary danger horse boasting the highest speed rating in the field (105). Was shuffled along the rail last time out before finishing third; gets top local rider Jareth Loveberry.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Presser",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Shuffled rail, no punch last out",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Gotta Be Da Shoes",
+                        "handicapper_notes": "Consistent late-runner who closed stoutly for second over soft/good turf at Colonial last month. The sprawling stretch of the Secretariat course suits her closing kick.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Stalker",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Steadied multi times two back",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Tricker",
+                        "handicapper_notes": "Contended early between rivals in the key July 16 race before weakening in the stretch. Expect her to be prominent early with Declan Cannon riding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Early Pace",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Vied between foes, weakened",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Jubaleve",
+                        "handicapper_notes": "Showed high back speed (103 overall) and gets relief stretching back out to a mile on firm turf after two local sprint tries.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Midpack",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Mendelssohn Adi",
+                        "handicapper_notes": "Drawn on the rail with Jorge Ruiz up. Shuffled four-wide last start at Penn National; holds minor underneath exotics potential on a clean trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Closer",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Shuffled 4-wide last out",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Light De Night",
+                    "rating": 92.0,
+                    "reason": "Top selection following back-to-back runner-up efforts over this exact course and distance. Paco Lopez takes the reins for trainer Jorge Duarte Jr., fitting the Colonial turf profile ideally."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "It's Fine",
+                    "rating": 89.0,
+                    "reason": "Primary danger horse boasting the highest speed rating in the field (105). Was shuffled along the rail last time out before finishing third; gets top local rider Jareth Loveberry. | <i>\u26a0\ufe0f Shuffled rail, no punch last out</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Gotta Be Da Shoes",
+                    "rating": 86.0,
+                    "reason": "Consistent late-runner who closed stoutly for second over soft/good turf at Colonial last month. The sprawling stretch of the Secretariat course suits her closing kick. | <i>\u26a0\ufe0f Steadied multi times two back \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Tricker",
+                    "rating": 83.0,
+                    "reason": "Contended early between rivals in the key July 16 race before weakening in the stretch. Expect her to be prominent early with Declan Cannon riding. | <i>\u26a0\ufe0f Vied between foes, weakened</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Jubaleve",
+                    "rating": 80.0,
+                    "reason": "Showed high back speed (103 overall) and gets relief stretching back out to a mile on firm turf after two local sprint tries. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Light De Night",
+                    "rating": 92.0,
+                    "reason": "Top selection following back-to-back runner-up efforts over this exact course and distance. Paco Lopez takes the reins for trainer Jorge Duarte Jr., fitting the Colonial turf profile ideally."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "It's Fine",
+                    "rating": 89.0,
+                    "reason": "Primary danger horse boasting the highest speed rating in the field (105). Was shuffled along the rail last time out before finishing third; gets top local rider Jareth Loveberry. | <i>\u26a0\ufe0f Shuffled rail, no punch last out</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Gotta Be Da Shoes",
+                    "rating": 86.0,
+                    "reason": "Consistent late-runner who closed stoutly for second over soft/good turf at Colonial last month. The sprawling stretch of the Secretariat course suits her closing kick. | <i>\u26a0\ufe0f Steadied multi times two back \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Tricker",
+                    "rating": 83.0,
+                    "reason": "Contended early between rivals in the key July 16 race before weakening in the stretch. Expect her to be prominent early with Declan Cannon riding. | <i>\u26a0\ufe0f Vied between foes, weakened</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Jubaleve",
+                    "rating": 80.0,
+                    "reason": "Showed high back speed (103 overall) and gets relief stretching back out to a mile on firm turf after two local sprint tries. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Mendelssohn Adi",
+                    "rating": 78.0,
+                    "reason": "Drawn on the rail with Jorge Ruiz up. Shuffled four-wide last start at Penn National; holds minor underneath exotics potential on a clean trip. | <i>\u26a0\ufe0f Shuffled 4-wide last out</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "It's Fine",
+                "rating": 89.0,
+                "reason": "Primary danger horse boasting the highest speed rating in the field (105). Was shuffled along the rail last time out before finishing third; gets top local rider Jareth Loveberry. | <i>\u26a0\ufe0f Shuffled rail, no punch last out</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#12 Light De Night</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #12, #8, #10 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#8 It's Fine</b>"
+        },
+        {
+            "number": 2,
+            "distance": "6 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "6 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 1 over 2, 3, 8; Trifecta 1 over 3, 8 over 2, 3, 4, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Jimmy's Dailys",
+                        "handicapper_notes": "Dominant top pick coming off a brilliant victory over this exact Colonial Downs dirt track at 7 furlongs, earning a 95 speed figure and 112 speed rating. Drawn inside with ideal tactical speed, he holds a clear mathematical gap over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Practically Dark",
+                        "handicapper_notes": "Enters off an impressive victory at Gulfstream for top connections Saffie Joseph Jr. and Paco Lopez. Boasts high lifetime speed numbers and fits well in this optional claimer, though entering for the $50k tag.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Change My World",
+                        "handicapper_notes": "Ultra-consistent Mid-Atlantic runner who registered a 96 speed figure last time out at Delaware Park. Possesses strong finishing kick to capitalize on Colonial Downs long 1,142-foot homestretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Attache",
+                        "handicapper_notes": "High-upside closer equipped with a powerful finishing kick (115 class/speed peak). Sandino Hernandez trains (50% win rate) and Loveberry takes the mount. Perfect setup for the massive Colonial Downs homestretch bias favoring stamina over early speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Fast",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Magic Wallet",
+                        "handicapper_notes": "Promising three-year-old colt taking on older horses after finishing 3rd in the Star de Naskra Stakes here on July 11. Holds a 113 class rating and gets Jorge Ruiz aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Goodbye Note",
+                        "handicapper_notes": "Proven Maryland-based sprinter for Hamilton Smith who fired a 99 speed figure two starts back at Laurel. Running style allows him to sit just off the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jimmy's Dailys",
+                    "rating": 93.0,
+                    "reason": "Dominant top pick coming off a brilliant victory over this exact Colonial Downs dirt track at 7 furlongs, earning a 95 speed figure and 112 speed rating. Drawn inside with ideal tactical speed, he holds a clear mathematical gap over this field."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Practically Dark",
+                    "rating": 88.0,
+                    "reason": "Enters off an impressive victory at Gulfstream for top connections Saffie Joseph Jr. and Paco Lopez. Boasts high lifetime speed numbers and fits well in this optional claimer, though entering for the $50k tag."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Change My World",
+                    "rating": 85.0,
+                    "reason": "Ultra-consistent Mid-Atlantic runner who registered a 96 speed figure last time out at Delaware Park. Possesses strong finishing kick to capitalize on Colonial Downs long 1,142-foot homestretch."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Attache",
+                    "rating": 84.0,
+                    "reason": "High-upside closer equipped with a powerful finishing kick (115 class/speed peak). Sandino Hernandez trains (50% win rate) and Loveberry takes the mount. Perfect setup for the massive Colonial Downs homestretch bias favoring stamina over early speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Magic Wallet",
+                    "rating": 81.0,
+                    "reason": "Promising three-year-old colt taking on older horses after finishing 3rd in the Star de Naskra Stakes here on July 11. Holds a 113 class rating and gets Jorge Ruiz aboard. | <i>\u26a0\ufe0f Bumped</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Jimmy's Dailys",
+                    "rating": 93.0,
+                    "reason": "Dominant top pick coming off a brilliant victory over this exact Colonial Downs dirt track at 7 furlongs, earning a 95 speed figure and 112 speed rating. Drawn inside with ideal tactical speed, he holds a clear mathematical gap over this field."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Practically Dark",
+                    "rating": 88.0,
+                    "reason": "Enters off an impressive victory at Gulfstream for top connections Saffie Joseph Jr. and Paco Lopez. Boasts high lifetime speed numbers and fits well in this optional claimer, though entering for the $50k tag."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Change My World",
+                    "rating": 85.0,
+                    "reason": "Ultra-consistent Mid-Atlantic runner who registered a 96 speed figure last time out at Delaware Park. Possesses strong finishing kick to capitalize on Colonial Downs long 1,142-foot homestretch."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Attache",
+                    "rating": 84.0,
+                    "reason": "High-upside closer equipped with a powerful finishing kick (115 class/speed peak). Sandino Hernandez trains (50% win rate) and Loveberry takes the mount. Perfect setup for the massive Colonial Downs homestretch bias favoring stamina over early speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Magic Wallet",
+                    "rating": 81.0,
+                    "reason": "Promising three-year-old colt taking on older horses after finishing 3rd in the Star de Naskra Stakes here on July 11. Holds a 113 class rating and gets Jorge Ruiz aboard. | <i>\u26a0\ufe0f Bumped</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Goodbye Note",
+                    "rating": 80.0,
+                    "reason": "Proven Maryland-based sprinter for Hamilton Smith who fired a 99 speed figure two starts back at Laurel. Running style allows him to sit just off the pace. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Attache",
+                "rating": 84.0,
+                "reason": "High-upside closer equipped with a powerful finishing kick (115 class/speed peak). Sandino Hernandez trains (50% win rate) and Loveberry takes the mount. Perfect setup for the massive Colonial Downs homestretch bias favoring stamina over early speed."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Jimmy's Dailys</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#8, #2, #3) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "6 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "6 Furlongs Turf",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 7, 8; Trifecta 7, 8 / 3, 7, 8, 9 / 1, 3, 7, 8, 9, 11",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Vinalia (GB)",
+                        "handicapper_notes": "Graham Motion turf shipper perfectly fits the Colonial Downs Turf Mecca angle. Holds a top lifetime turf Speed Figure of 86 from Laurel and project to get an ideal stalking trip over the wide Secretariat turf course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "On My Time",
+                        "handicapper_notes": "Mark Casse trainee cuts back to a turf sprint after showing strong back-class figures of 81 at Gulfstream and 80 at Woodbine. Nik Juarez stays aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Charlotte's Cay",
+                        "handicapper_notes": "Trombetta-Sanchez connection is deadly at Colonial. Posted a field-best 76 Speed Figure over this exact course on June 26 despite early trouble.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "Bumped Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Champagne Brunch",
+                        "handicapper_notes": "Gun Runner filly has local track experience, finishing 3rd over 5.5 furlongs on July 11 with a solid 74 figure. Should be prominent early from post 1.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Spritzn' Around",
+                        "handicapper_notes": "First-time starter by top turf sire Gun Runner out of a stakes-winning turf sprinter. High-percentage jockey Paco Lopez and trainer Jorge Duarte Jr. make her a prime high-upside threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Poverty With Aview",
+                        "handicapper_notes": "Draws into the main body off the also-eligible list following scratches. Fires consistent 73-77 speed figures in competitive Maiden Special Weight fields at Keeneland and Houston.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Vinalia (GB)",
+                    "rating": 89.0,
+                    "reason": "Graham Motion turf shipper perfectly fits the Colonial Downs Turf Mecca angle. Holds a top lifetime turf Speed Figure of 86 from Laurel and project to get an ideal stalking trip over the wide Secretariat turf course."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "On My Time",
+                    "rating": 87.0,
+                    "reason": "Mark Casse trainee cuts back to a turf sprint after showing strong back-class figures of 81 at Gulfstream and 80 at Woodbine. Nik Juarez stays aboard. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Charlotte's Cay",
+                    "rating": 86.0,
+                    "reason": "Trombetta-Sanchez connection is deadly at Colonial. Posted a field-best 76 Speed Figure over this exact course on June 26 despite early trouble. | <i>\u26a0\ufe0f Bumped Start \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Champagne Brunch",
+                    "rating": 85.0,
+                    "reason": "Gun Runner filly has local track experience, finishing 3rd over 5.5 furlongs on July 11 with a solid 74 figure. Should be prominent early from post 1."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Spritzn' Around",
+                    "rating": 84.0,
+                    "reason": "First-time starter by top turf sire Gun Runner out of a stakes-winning turf sprinter. High-percentage jockey Paco Lopez and trainer Jorge Duarte Jr. make her a prime high-upside threat."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Vinalia (GB)",
+                    "rating": 89.0,
+                    "reason": "Graham Motion turf shipper perfectly fits the Colonial Downs Turf Mecca angle. Holds a top lifetime turf Speed Figure of 86 from Laurel and project to get an ideal stalking trip over the wide Secretariat turf course."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "On My Time",
+                    "rating": 87.0,
+                    "reason": "Mark Casse trainee cuts back to a turf sprint after showing strong back-class figures of 81 at Gulfstream and 80 at Woodbine. Nik Juarez stays aboard. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Charlotte's Cay",
+                    "rating": 86.0,
+                    "reason": "Trombetta-Sanchez connection is deadly at Colonial. Posted a field-best 76 Speed Figure over this exact course on June 26 despite early trouble. | <i>\u26a0\ufe0f Bumped Start \u2022 \ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Champagne Brunch",
+                    "rating": 85.0,
+                    "reason": "Gun Runner filly has local track experience, finishing 3rd over 5.5 furlongs on July 11 with a solid 74 figure. Should be prominent early from post 1."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Spritzn' Around",
+                    "rating": 84.0,
+                    "reason": "First-time starter by top turf sire Gun Runner out of a stakes-winning turf sprinter. High-percentage jockey Paco Lopez and trainer Jorge Duarte Jr. make her a prime high-upside threat."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Poverty With Aview",
+                    "rating": 83.0,
+                    "reason": "Draws into the main body off the also-eligible list following scratches. Fires consistent 73-77 speed figures in competitive Maiden Special Weight fields at Keeneland and Houston."
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Spritzn' Around",
+                "rating": 84.0,
+                "reason": "First-time starter by top turf sire Gun Runner out of a stakes-winning turf sprinter. High-percentage jockey Paco Lopez and trainer Jorge Duarte Jr. make her a prime high-upside threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 Vinalia (GB)</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #8, #9 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1, Exacta 1 over 4, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Roja",
+                        "handicapper_notes": "Dominant Grade 2 Intercontinental winner at Saratoga with a field-topping 107 speed figure. Holds a massive class advantage dropping into this $150k stakes. Perfect 4-for-5 lifetime on turf.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 96,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Saturday Flirt",
+                        "handicapper_notes": "Wesley Ward trainee with top-tier speed figures (107 peak at Kentucky Downs). Proven Grade 2 performer with John Velazquez aboard, representing the primary threat to the favorite.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "She's A Tempest",
+                        "handicapper_notes": "Consistent turf sprinter with a 100 peak speed figure. Gets Paco Lopez aboard and boasts strong recent form at Churchill Downs against high-level allowance and stakes company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Somnium",
+                        "handicapper_notes": "Flagged as the danger horse. Late-running swooper who perfectly fits the Colonial Downs track profile where the long stretch rewards finishing kick over early speed. Coming off a sharp win at Laurel.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Target",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Lucy Mcgee",
+                        "handicapper_notes": "Undefeated in two starts in 2026 with a last-out 93 speed figure at Ellis Park. Steps up to stakes competition but shows ascending speed figures.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "G W's Girl",
+                        "handicapper_notes": "Has recent dirt stakes experience but returns to turf where her best 2YO form produced a 91 speed figure. Faces a tough task against Grade 2 turf winners.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Dirt to Turf",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Roja",
+                    "rating": 96.0,
+                    "reason": "Dominant Grade 2 Intercontinental winner at Saratoga with a field-topping 107 speed figure. Holds a massive class advantage dropping into this $150k stakes. Perfect 4-for-5 lifetime on turf."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Saturday Flirt",
+                    "rating": 90.0,
+                    "reason": "Wesley Ward trainee with top-tier speed figures (107 peak at Kentucky Downs). Proven Grade 2 performer with John Velazquez aboard, representing the primary threat to the favorite."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "She's A Tempest",
+                    "rating": 87.0,
+                    "reason": "Consistent turf sprinter with a 100 peak speed figure. Gets Paco Lopez aboard and boasts strong recent form at Churchill Downs against high-level allowance and stakes company."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Somnium",
+                    "rating": 85.0,
+                    "reason": "Flagged as the danger horse. Late-running swooper who perfectly fits the Colonial Downs track profile where the long stretch rewards finishing kick over early speed. Coming off a sharp win at Laurel."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Lucy Mcgee",
+                    "rating": 83.0,
+                    "reason": "Undefeated in two starts in 2026 with a last-out 93 speed figure at Ellis Park. Steps up to stakes competition but shows ascending speed figures."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Roja",
+                    "rating": 96.0,
+                    "reason": "Dominant Grade 2 Intercontinental winner at Saratoga with a field-topping 107 speed figure. Holds a massive class advantage dropping into this $150k stakes. Perfect 4-for-5 lifetime on turf."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Saturday Flirt",
+                    "rating": 90.0,
+                    "reason": "Wesley Ward trainee with top-tier speed figures (107 peak at Kentucky Downs). Proven Grade 2 performer with John Velazquez aboard, representing the primary threat to the favorite."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "She's A Tempest",
+                    "rating": 87.0,
+                    "reason": "Consistent turf sprinter with a 100 peak speed figure. Gets Paco Lopez aboard and boasts strong recent form at Churchill Downs against high-level allowance and stakes company."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Somnium",
+                    "rating": 85.0,
+                    "reason": "Flagged as the danger horse. Late-running swooper who perfectly fits the Colonial Downs track profile where the long stretch rewards finishing kick over early speed. Coming off a sharp win at Laurel."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Lucy Mcgee",
+                    "rating": 83.0,
+                    "reason": "Undefeated in two starts in 2026 with a last-out 93 speed figure at Ellis Park. Steps up to stakes competition but shows ascending speed figures."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "G W's Girl",
+                    "rating": 80.0,
+                    "reason": "Has recent dirt stakes experience but returns to turf where her best 2YO form produced a 91 speed figure. Faces a tough task against Grade 2 turf winners. | <i>\ud83d\udccf Dirt to Turf</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Somnium",
+                "rating": 85.0,
+                "reason": "Flagged as the danger horse. Late-running swooper who perfectly fits the Colonial Downs track profile where the long stretch rewards finishing kick over early speed. Coming off a sharp win at Laurel."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Roja</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#7, #4, #6) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 3 over 5, 6, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bravaro",
+                        "handicapper_notes": "Grade 2 Wood Memorial runner-up and Grade 3 Holy Bull placed contender holds a dominant class advantage dropping into this non-graded stakes. His tactical stalk-and-pounce style is ideally suited for Colonial's sweeping turns and massive 1,142-foot stretch where front-runners routinely collapse.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown (+4)",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Sabino Canyon",
+                        "handicapper_notes": "Bob Baffert trainee comes in off an impressive victory in the Los Alamitos Derby with an 89 speed figure. John Velazquez retains the mount, and his mid-pack stalking style with a strong finishing kick fits the stamina-demanding Colonial track bias perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Stalker (+3)",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Six Speed",
+                        "handicapper_notes": "High-class George Weaver shipper who finished second in the Grade 2 UAE Derby and won a one-mile stakes at Meydan. Manny Franco rides; must manage his early speed over Colonial's long stretch but possesses undeniable back class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed (-2)",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Pont Aven",
+                        "handicapper_notes": "In sharp form for Michael Trombetta with three wins in 2026, including a gutsy victory in the local St. Albans Naskra Stakes on July 11 with an 88 speed figure. Proven affinity over the Colonial Downs main dirt.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Presser Scenario",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Exosome",
+                        "handicapper_notes": "Grade 1 Arkansas Derby alumnus with Tyler Gaffalione booked to ride for Kelsey Danner. His off-the-pace running style benefits from the projected quick early fractions.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Very Volatile",
+                        "handicapper_notes": "Enters off a gate-to-wire allowance win at Laurel Park over 1-1/16 miles. Faces a steeper class test here against graded stakes shippers and will have to endure early pressure inside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed (-2)",
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bravaro",
+                    "rating": 92.0,
+                    "reason": "Grade 2 Wood Memorial runner-up and Grade 3 Holy Bull placed contender holds a dominant class advantage dropping into this non-graded stakes. His tactical stalk-and-pounce style is ideally suited for Colonial's sweeping turns and massive 1,142-foot stretch where front-runners routinely collapse. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sabino Canyon",
+                    "rating": 87.0,
+                    "reason": "Bob Baffert trainee comes in off an impressive victory in the Los Alamitos Derby with an 89 speed figure. John Velazquez retains the mount, and his mid-pack stalking style with a strong finishing kick fits the stamina-demanding Colonial track bias perfectly. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Six Speed",
+                    "rating": 84.0,
+                    "reason": "High-class George Weaver shipper who finished second in the Grade 2 UAE Derby and won a one-mile stakes at Meydan. Manny Franco rides; must manage his early speed over Colonial's long stretch but possesses undeniable back class. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pont Aven",
+                    "rating": 82.0,
+                    "reason": "In sharp form for Michael Trombetta with three wins in 2026, including a gutsy victory in the local St. Albans Naskra Stakes on July 11 with an 88 speed figure. Proven affinity over the Colonial Downs main dirt. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Exosome",
+                    "rating": 80.0,
+                    "reason": "Grade 1 Arkansas Derby alumnus with Tyler Gaffalione booked to ride for Kelsey Danner. His off-the-pace running style benefits from the projected quick early fractions. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bravaro",
+                    "rating": 92.0,
+                    "reason": "Grade 2 Wood Memorial runner-up and Grade 3 Holy Bull placed contender holds a dominant class advantage dropping into this non-graded stakes. His tactical stalk-and-pounce style is ideally suited for Colonial's sweeping turns and massive 1,142-foot stretch where front-runners routinely collapse. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sabino Canyon",
+                    "rating": 87.0,
+                    "reason": "Bob Baffert trainee comes in off an impressive victory in the Los Alamitos Derby with an 89 speed figure. John Velazquez retains the mount, and his mid-pack stalking style with a strong finishing kick fits the stamina-demanding Colonial track bias perfectly. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Six Speed",
+                    "rating": 84.0,
+                    "reason": "High-class George Weaver shipper who finished second in the Grade 2 UAE Derby and won a one-mile stakes at Meydan. Manny Franco rides; must manage his early speed over Colonial's long stretch but possesses undeniable back class. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Pont Aven",
+                    "rating": 82.0,
+                    "reason": "In sharp form for Michael Trombetta with three wins in 2026, including a gutsy victory in the local St. Albans Naskra Stakes on July 11 with an 88 speed figure. Proven affinity over the Colonial Downs main dirt. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Exosome",
+                    "rating": 80.0,
+                    "reason": "Grade 1 Arkansas Derby alumnus with Tyler Gaffalione booked to ride for Kelsey Danner. His off-the-pace running style benefits from the projected quick early fractions. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Very Volatile",
+                    "rating": 78.0,
+                    "reason": "Enters off a gate-to-wire allowance win at Laurel Park over 1-1/16 miles. Faces a steeper class test here against graded stakes shippers and will have to endure early pressure inside. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Sabino Canyon",
+                "rating": 87.0,
+                "reason": "Bob Baffert trainee comes in off an impressive victory in the Los Alamitos Derby with an 89 speed figure. John Velazquez retains the mount, and his mid-pack stalking style with a strong finishing kick fits the stamina-demanding Colonial track bias perfectly. | <i>\ud83d\udccf Route to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#3 Bravaro</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #3 over (#8, #7) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 2 over 4, 7, 9; Trifecta 2 / 4, 7, 9 / 1, 3, 4, 7, 8, 9",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Mashallah",
+                        "handicapper_notes": "Dominant Saratoga winner last out with a standout 96 Beyer speed figure, standardizing at 113 overall speed rating. Holds a massive class and speed edge over this VA-bred stakes field. Top selection with a clear gap.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Presser",
+                            "ai_holistic_score": 95,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Wrong Shoes",
+                        "handicapper_notes": "Shipper from Churchill Downs where she posted a 98 speed figure winning an STR50k two back and ran a strong second in AOC127k company last out. Fits the expansive Colonial dirt track well as a sweeping closer/presser under John Velazquez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace Setup",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Slewperstitus",
+                        "handicapper_notes": "Proven Virginia-bred stakes performer with 3 wins and 5 seconds lifetime. Ran a solid second over this track in the Miss Disco S. and possesses tactical early speed suited for the 7 furlong sprint.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contender in Pace Group",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Shilling",
+                        "handicapper_notes": "Classy Kenny McPeek trainee dropping out of Grade 3 stakes action (Iowa Oaks and Leslie's Lady S.). Has dirt stakes back-class and should benefit from the sweeping turns and long home stretch at Colonial.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace Setup",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Embrace The Moment",
+                        "handicapper_notes": "Speedy front-runner who scored an impressive 103 speed index win at Delaware Downs three back. Will contest the early pace with Lopez aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contended Early Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Celebrity Quest",
+                        "handicapper_notes": "Brad Cox trainee with 2 wins from 4 lifetime starts. Drawing inside, she will need to step up her speed figures to challenge the top pair but has upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard Pace Setup",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Raspberry",
+                        "handicapper_notes": "Ran a decent second over this track on July 9 behind scratched favorite Bolt Dior. Shows rising form and represents a high-upside longshot underneath in exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Late Closing Threat",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mashallah",
+                    "rating": 95.0,
+                    "reason": "Dominant Saratoga winner last out with a standout 96 Beyer speed figure, standardizing at 113 overall speed rating. Holds a massive class and speed edge over this VA-bred stakes field. Top selection with a clear gap."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Wrong Shoes",
+                    "rating": 89.0,
+                    "reason": "Shipper from Churchill Downs where she posted a 98 speed figure winning an STR50k two back and ran a strong second in AOC127k company last out. Fits the expansive Colonial dirt track well as a sweeping closer/presser under John Velazquez."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Slewperstitus",
+                    "rating": 87.0,
+                    "reason": "Proven Virginia-bred stakes performer with 3 wins and 5 seconds lifetime. Ran a solid second over this track in the Miss Disco S. and possesses tactical early speed suited for the 7 furlong sprint."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shilling",
+                    "rating": 85.0,
+                    "reason": "Classy Kenny McPeek trainee dropping out of Grade 3 stakes action (Iowa Oaks and Leslie's Lady S.). Has dirt stakes back-class and should benefit from the sweeping turns and long home stretch at Colonial. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Embrace The Moment",
+                    "rating": 84.0,
+                    "reason": "Speedy front-runner who scored an impressive 103 speed index win at Delaware Downs three back. Will contest the early pace with Lopez aboard."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Mashallah",
+                    "rating": 95.0,
+                    "reason": "Dominant Saratoga winner last out with a standout 96 Beyer speed figure, standardizing at 113 overall speed rating. Holds a massive class and speed edge over this VA-bred stakes field. Top selection with a clear gap."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Wrong Shoes",
+                    "rating": 89.0,
+                    "reason": "Shipper from Churchill Downs where she posted a 98 speed figure winning an STR50k two back and ran a strong second in AOC127k company last out. Fits the expansive Colonial dirt track well as a sweeping closer/presser under John Velazquez."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Slewperstitus",
+                    "rating": 87.0,
+                    "reason": "Proven Virginia-bred stakes performer with 3 wins and 5 seconds lifetime. Ran a solid second over this track in the Miss Disco S. and possesses tactical early speed suited for the 7 furlong sprint."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Shilling",
+                    "rating": 85.0,
+                    "reason": "Classy Kenny McPeek trainee dropping out of Grade 3 stakes action (Iowa Oaks and Leslie's Lady S.). Has dirt stakes back-class and should benefit from the sweeping turns and long home stretch at Colonial. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Embrace The Moment",
+                    "rating": 84.0,
+                    "reason": "Speedy front-runner who scored an impressive 103 speed index win at Delaware Downs three back. Will contest the early pace with Lopez aboard."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Celebrity Quest",
+                    "rating": 81.0,
+                    "reason": "Brad Cox trainee with 2 wins from 4 lifetime starts. Drawing inside, she will need to step up her speed figures to challenge the top pair but has upside. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Raspberry",
+                    "rating": 79.0,
+                    "reason": "Ran a decent second over this track on July 9 behind scratched favorite Bolt Dior. Shows rising form and represents a high-upside longshot underneath in exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Raspberry",
+                "rating": 79.0,
+                "reason": "Ran a decent second over this track on July 9 behind scratched favorite Bolt Dior. Shows rising form and represents a high-upside longshot underneath in exotics."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#2 Mashallah</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #2 over (#9, #4, #8) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "7 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "7 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box: 10, 5, 4. Trifecta Key: 10 with 4, 5 with 2, 4, 5, 9.",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Verifire",
+                        "handicapper_notes": "Top selection. Ships in for elite trainer Brad Cox following a field-topping 110 speed figure in a tenacious duel win at Churchill Downs. Has superior class and stamina to handle Colonial's sprawling stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Illuminare",
+                        "handicapper_notes": "Major contender for Todd Pletcher and Tyler Gaffalione. Earned a impressive 105 speed figure winning an allowance at Keeneland two starts back and already owns a victory over this 7-furlong main track.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Back Em Up",
+                        "handicapper_notes": "Main threat and designated Danger Horse. Enters off a powerful 101 speed figure handicap win at Gulfstream Park. Ridden by Paco Lopez, whose patient positioning fits Colonial's deep-closing track profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Potential",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Suremeanttoobe",
+                        "handicapper_notes": "Thriving in career-best form for Michael Trombetta with back-to-back 99 speed figures, including a convincing win over this surface on July 6.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Celtic Contender",
+                        "handicapper_notes": "Runner-up in the DeFrancis Memorial with a 107 peak speed figure earlier this season. Very dangerous if the early pace gets overly aggressive.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Bold Diversion",
+                        "handicapper_notes": "Consistent local runner who posted a 98 speed figure finishing second behind Zero Blitz on July 13. Honest late-running contender for underneath exotics.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Zero Blitz",
+                        "handicapper_notes": "Scored a 98 speed figure winning a 7-furlong starter event locally on July 13. Rail draw is ideal, but faces a much tougher level of stakes competition today.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Verifire",
+                    "rating": 95.0,
+                    "reason": "Top selection. Ships in for elite trainer Brad Cox following a field-topping 110 speed figure in a tenacious duel win at Churchill Downs. Has superior class and stamina to handle Colonial's sprawling stretch."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Illuminare",
+                    "rating": 91.0,
+                    "reason": "Major contender for Todd Pletcher and Tyler Gaffalione. Earned a impressive 105 speed figure winning an allowance at Keeneland two starts back and already owns a victory over this 7-furlong main track."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Back Em Up",
+                    "rating": 89.0,
+                    "reason": "Main threat and designated Danger Horse. Enters off a powerful 101 speed figure handicap win at Gulfstream Park. Ridden by Paco Lopez, whose patient positioning fits Colonial's deep-closing track profile. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Suremeanttoobe",
+                    "rating": 86.0,
+                    "reason": "Thriving in career-best form for Michael Trombetta with back-to-back 99 speed figures, including a convincing win over this surface on July 6."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Celtic Contender",
+                    "rating": 84.0,
+                    "reason": "Runner-up in the DeFrancis Memorial with a 107 peak speed figure earlier this season. Very dangerous if the early pace gets overly aggressive. | <i>\u26a0\ufe0f Bumped</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Verifire",
+                    "rating": 95.0,
+                    "reason": "Top selection. Ships in for elite trainer Brad Cox following a field-topping 110 speed figure in a tenacious duel win at Churchill Downs. Has superior class and stamina to handle Colonial's sprawling stretch."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Illuminare",
+                    "rating": 91.0,
+                    "reason": "Major contender for Todd Pletcher and Tyler Gaffalione. Earned a impressive 105 speed figure winning an allowance at Keeneland two starts back and already owns a victory over this 7-furlong main track."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Back Em Up",
+                    "rating": 89.0,
+                    "reason": "Main threat and designated Danger Horse. Enters off a powerful 101 speed figure handicap win at Gulfstream Park. Ridden by Paco Lopez, whose patient positioning fits Colonial's deep-closing track profile. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Suremeanttoobe",
+                    "rating": 86.0,
+                    "reason": "Thriving in career-best form for Michael Trombetta with back-to-back 99 speed figures, including a convincing win over this surface on July 6."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Celtic Contender",
+                    "rating": 84.0,
+                    "reason": "Runner-up in the DeFrancis Memorial with a 107 peak speed figure earlier this season. Very dangerous if the early pace gets overly aggressive. | <i>\u26a0\ufe0f Bumped</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bold Diversion",
+                    "rating": 82.0,
+                    "reason": "Consistent local runner who posted a 98 speed figure finishing second behind Zero Blitz on July 13. Honest late-running contender for underneath exotics."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Zero Blitz",
+                    "rating": 80.0,
+                    "reason": "Scored a 98 speed figure winning a 7-furlong starter event locally on July 13. Rail draw is ideal, but faces a much tougher level of stakes competition today."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Back Em Up",
+                "rating": 89.0,
+                "reason": "Main threat and designated Danger Horse. Enters off a powerful 101 speed figure handicap win at Gulfstream Park. Ridden by Paco Lopez, whose patient positioning fits Colonial's deep-closing track profile. | <i>\ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#10 Verifire</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #5, #4 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 13, 7, 12; Trifecta 13 / 7, 12 / 2, 7, 9, 12",
+                "contenders": [
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "My Boy Prince",
+                        "handicapper_notes": "Grade 2 Shakertown winner and Grade 1 Jaipur runner-up holds a clear class advantage over this field. Possesses elite turf sprint speed figures (107-112) and strong tactical positioning.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Witty",
+                        "handicapper_notes": "Defending Van Clief winner with over $1M in career earnings. Deep closer perfectly suited for the sprawling Secretariat Turf course and long 1,000+ foot stretch drive.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown Setup",
+                            "ai_holistic_score": 92,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Governor Sam",
+                        "handicapper_notes": "Speedy Get Serious Stakes winner coming off consecutive triple-digit speed performances. Should set or prompt a hot early tempo under Paco Lopez.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Isivunguvungu (SAF)",
+                        "handicapper_notes": "South African G1 sprint champion returning to stakes competition after a decisive local allowance score. Perfectly fits the Colonial wide swoop upgrade angle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Alogon",
+                        "handicapper_notes": "Grade 3 Belmont Turf Sprint winner who finished second in last year's Da Hoss Stakes over this course. Tactical presser drawing inside post with Castellano aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Quereme Pass (ARG)",
+                        "handicapper_notes": "Argentine-bred speedster registered a massive 115 Speed Figure when narrowly missing in the G3 San Simeon at Santa Anita. Dangerous if replicating that effort.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "My Boy Prince",
+                    "rating": 95.0,
+                    "reason": "Grade 2 Shakertown winner and Grade 1 Jaipur runner-up holds a clear class advantage over this field. Possesses elite turf sprint speed figures (107-112) and strong tactical positioning. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Witty",
+                    "rating": 92.0,
+                    "reason": "Defending Van Clief winner with over $1M in career earnings. Deep closer perfectly suited for the sprawling Secretariat Turf course and long 1,000+ foot stretch drive."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Governor Sam",
+                    "rating": 90.0,
+                    "reason": "Speedy Get Serious Stakes winner coming off consecutive triple-digit speed performances. Should set or prompt a hot early tempo under Paco Lopez."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Isivunguvungu (SAF)",
+                    "rating": 88.0,
+                    "reason": "South African G1 sprint champion returning to stakes competition after a decisive local allowance score. Perfectly fits the Colonial wide swoop upgrade angle."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Alogon",
+                    "rating": 87.0,
+                    "reason": "Grade 3 Belmont Turf Sprint winner who finished second in last year's Da Hoss Stakes over this course. Tactical presser drawing inside post with Castellano aboard."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "My Boy Prince",
+                    "rating": 95.0,
+                    "reason": "Grade 2 Shakertown winner and Grade 1 Jaipur runner-up holds a clear class advantage over this field. Possesses elite turf sprint speed figures (107-112) and strong tactical positioning. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Witty",
+                    "rating": 92.0,
+                    "reason": "Defending Van Clief winner with over $1M in career earnings. Deep closer perfectly suited for the sprawling Secretariat Turf course and long 1,000+ foot stretch drive."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Governor Sam",
+                    "rating": 90.0,
+                    "reason": "Speedy Get Serious Stakes winner coming off consecutive triple-digit speed performances. Should set or prompt a hot early tempo under Paco Lopez."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Isivunguvungu (SAF)",
+                    "rating": 88.0,
+                    "reason": "South African G1 sprint champion returning to stakes competition after a decisive local allowance score. Perfectly fits the Colonial wide swoop upgrade angle."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Alogon",
+                    "rating": 87.0,
+                    "reason": "Grade 3 Belmont Turf Sprint winner who finished second in last year's Da Hoss Stakes over this course. Tactical presser drawing inside post with Castellano aboard."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Quereme Pass (ARG)",
+                    "rating": 86.0,
+                    "reason": "Argentine-bred speedster registered a massive 115 Speed Figure when narrowly missing in the G3 San Simeon at Santa Anita. Dangerous if replicating that effort. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "9",
+                "barrier": "9",
+                "name": "Isivunguvungu (SAF)",
+                "rating": 88.0,
+                "reason": "South African G1 sprint champion returning to stakes competition after a decisive local allowance score. Perfectly fits the Colonial wide swoop upgrade angle."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#13 My Boy Prince</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #13, #7, #9 (Selective Box)"
+        },
+        {
+            "number": 9,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Straight 9 over 3; Trifecta Key 9 over 2, 3, 7",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Alpyland",
+                        "handicapper_notes": "G3 Penn Mile winner and G3 American Derby runner-up posting field-best speed figures up to 103. Class of the field dropping out of graded stakes company into an ideal firm turf setup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Supercharger",
+                        "handicapper_notes": "Primary danger horse who fired a massive 105 speed figure winning at Churchill last out. Perfect match for the Secretariat Turf track profile where wide swoopers thrive on the massive stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Setup",
+                            "ai_holistic_score": 88,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Steadied Start",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Conducted",
+                        "handicapper_notes": "West Coast shipper with a 101 speed figure at Santa Anita and stakes win at Del Mar. Brings dangerous early pace, though Colonial stretch will test his stamina.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Contested Speed",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Street Beast",
+                        "handicapper_notes": "G3 Transylvania winner with proven 102 figure in G1 company. Needs to bounce back from a flat effort in the American Turf but dangerous on best form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Turf Star",
+                        "handicapper_notes": "Graham Motion trainee drops out of the Grade 1 Belmont Derby. Turf stakes winner at Pimlico who fits well on class and draws the rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Fuzzbuster",
+                        "handicapper_notes": "Lightly raced colt coming off a maiden win at Churchill with a 94 speed figure. Gets John Velazquez in the saddle but faces a step up against graded stakes company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Alpyland",
+                    "rating": 92.0,
+                    "reason": "G3 Penn Mile winner and G3 American Derby runner-up posting field-best speed figures up to 103. Class of the field dropping out of graded stakes company into an ideal firm turf setup."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Supercharger",
+                    "rating": 88.0,
+                    "reason": "Primary danger horse who fired a massive 105 speed figure winning at Churchill last out. Perfect match for the Secretariat Turf track profile where wide swoopers thrive on the massive stretch. | <i>\u26a0\ufe0f Steadied Start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Conducted",
+                    "rating": 85.0,
+                    "reason": "West Coast shipper with a 101 speed figure at Santa Anita and stakes win at Del Mar. Brings dangerous early pace, though Colonial stretch will test his stamina."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Street Beast",
+                    "rating": 84.0,
+                    "reason": "G3 Transylvania winner with proven 102 figure in G1 company. Needs to bounce back from a flat effort in the American Turf but dangerous on best form."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Turf Star",
+                    "rating": 83.0,
+                    "reason": "Graham Motion trainee drops out of the Grade 1 Belmont Derby. Turf stakes winner at Pimlico who fits well on class and draws the rail."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Alpyland",
+                    "rating": 92.0,
+                    "reason": "G3 Penn Mile winner and G3 American Derby runner-up posting field-best speed figures up to 103. Class of the field dropping out of graded stakes company into an ideal firm turf setup."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Supercharger",
+                    "rating": 88.0,
+                    "reason": "Primary danger horse who fired a massive 105 speed figure winning at Churchill last out. Perfect match for the Secretariat Turf track profile where wide swoopers thrive on the massive stretch. | <i>\u26a0\ufe0f Steadied Start</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Conducted",
+                    "rating": 85.0,
+                    "reason": "West Coast shipper with a 101 speed figure at Santa Anita and stakes win at Del Mar. Brings dangerous early pace, though Colonial stretch will test his stamina."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Street Beast",
+                    "rating": 84.0,
+                    "reason": "G3 Transylvania winner with proven 102 figure in G1 company. Needs to bounce back from a flat effort in the American Turf but dangerous on best form."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Turf Star",
+                    "rating": 83.0,
+                    "reason": "Graham Motion trainee drops out of the Grade 1 Belmont Derby. Turf stakes winner at Pimlico who fits well on class and draws the rail."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Fuzzbuster",
+                    "rating": 80.0,
+                    "reason": "Lightly raced colt coming off a maiden win at Churchill with a 94 speed figure. Gets John Velazquez in the saddle but faces a step up against graded stakes company."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Supercharger",
+                "rating": 88.0,
+                "reason": "Primary danger horse who fired a massive 105 speed figure winning at Churchill last out. Perfect match for the Secretariat Turf track profile where wide swoopers thrive on the massive stretch. | <i>\u26a0\ufe0f Steadied Start</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Alpyland</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #3, #2 (Selective Box)"
+        },
+        {
+            "number": 10,
+            "distance": "1 3/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 3/16 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 8 over 5, 7, 9, 12",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Stellify",
+                        "handicapper_notes": "Grade 1 performer coming off a massive 114 speed figure in the Breeders' Cup Filly & Mare Turf. Holds a distinct class and figure advantage over this field and fits the sweeping Colonial turf course perfectly.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Stalker",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Gimme A Nother (SAF)",
+                        "handicapper_notes": "Multiple Grade 2 winner with proven stamina and a lethal finishing kick (105 peak figure). The wide turns and long stretch at Colonial perfectly suit her swooping late run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Deep Closer",
+                            "ai_holistic_score": 90,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Pin Up Betty",
+                        "handicapper_notes": "Enters off a decisive stakes victory at Churchill Downs with a 106 speed figure. Boasts a career-best 110 figure and thrives at route turf distances.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Midpack Closer",
+                            "ai_holistic_score": 87,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "12",
+                        "horse_name": "Way To Be Marie",
+                        "handicapper_notes": "Consistent graded stakes performer with 103 speed figures in recent route starts. Wide post is mitigated by the generous width of Colonial's turf course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Stalker",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Crevalle D'oro",
+                        "handicapper_notes": "High-upside threat with a peak 113 speed figure in Grade 2 company. Represents a major under-the-radar longshot threat if she gets a clean trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Sustained Stalker",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Somethinabouther",
+                        "handicapper_notes": "Enters off a dirt win but possesses proven turf form with back-to-back 101/102 figures earlier this year. Gaffalione rides for Brendan Walsh.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Early Pace / Stalker",
+                            "ai_holistic_score": 81,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Stellify",
+                    "rating": 95.0,
+                    "reason": "Grade 1 performer coming off a massive 114 speed figure in the Breeders' Cup Filly & Mare Turf. Holds a distinct class and figure advantage over this field and fits the sweeping Colonial turf course perfectly."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Gimme A Nother (SAF)",
+                    "rating": 90.0,
+                    "reason": "Multiple Grade 2 winner with proven stamina and a lethal finishing kick (105 peak figure). The wide turns and long stretch at Colonial perfectly suit her swooping late run."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Pin Up Betty",
+                    "rating": 87.0,
+                    "reason": "Enters off a decisive stakes victory at Churchill Downs with a 106 speed figure. Boasts a career-best 110 figure and thrives at route turf distances."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Way To Be Marie",
+                    "rating": 85.0,
+                    "reason": "Consistent graded stakes performer with 103 speed figures in recent route starts. Wide post is mitigated by the generous width of Colonial's turf course."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Crevalle D'oro",
+                    "rating": 83.0,
+                    "reason": "High-upside threat with a peak 113 speed figure in Grade 2 company. Represents a major under-the-radar longshot threat if she gets a clean trip. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Stellify",
+                    "rating": 95.0,
+                    "reason": "Grade 1 performer coming off a massive 114 speed figure in the Breeders' Cup Filly & Mare Turf. Holds a distinct class and figure advantage over this field and fits the sweeping Colonial turf course perfectly."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Gimme A Nother (SAF)",
+                    "rating": 90.0,
+                    "reason": "Multiple Grade 2 winner with proven stamina and a lethal finishing kick (105 peak figure). The wide turns and long stretch at Colonial perfectly suit her swooping late run."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Pin Up Betty",
+                    "rating": 87.0,
+                    "reason": "Enters off a decisive stakes victory at Churchill Downs with a 106 speed figure. Boasts a career-best 110 figure and thrives at route turf distances."
+                },
+                {
+                    "number": "12",
+                    "barrier": "12",
+                    "name": "Way To Be Marie",
+                    "rating": 85.0,
+                    "reason": "Consistent graded stakes performer with 103 speed figures in recent route starts. Wide post is mitigated by the generous width of Colonial's turf course."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Crevalle D'oro",
+                    "rating": 83.0,
+                    "reason": "High-upside threat with a peak 113 speed figure in Grade 2 company. Represents a major under-the-radar longshot threat if she gets a clean trip. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Somethinabouther",
+                    "rating": 81.0,
+                    "reason": "Enters off a dirt win but possesses proven turf form with back-to-back 101/102 figures earlier this year. Gaffalione rides for Brendan Walsh."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "Crevalle D'oro",
+                "rating": 83.0,
+                "reason": "High-upside threat with a peak 113 speed figure in Grade 2 company. Represents a major under-the-radar longshot threat if she gets a clean trip. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#8 Stellify</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #8 over (#9, #7, #5) [$9 total stake]"
+        },
+        {
+            "number": 11,
+            "distance": "1 1/4 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "1 1/4 Miles Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 4, 6, 5; Trifecta 4, 6 with 4, 5, 6 with 1, 3, 4, 5, 6",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Integration",
+                        "handicapper_notes": "Grade 1 performer returning to his favorite Secretariat Turf course. Boasts elite speed figures up to 117 and a sustained closing kick ideally suited for Colonial Downs sweeping turns and 1,000+ foot stretch.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Test Score",
+                        "handicapper_notes": "Grade 1 Pegasus World Cup Turf winner coming off a big runner-up finish in the Grade 1 Manhattan with a field-topping 119 speed figure. Major win threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Burnham Square",
+                        "handicapper_notes": "Enters on a sharp three-race graded stakes winning streak including the Grade 2 Elkhorn and Grade 3 Louisville. Outstanding stamina profile and peak current form.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Dresden Row",
+                        "handicapper_notes": "Todd Pletcher trainee in top form, winning two of his last three including a fast 108 speed figure victory at Churchill Downs. Expected to secure a ideal tactical pocket trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Fort Washington",
+                        "handicapper_notes": "Grade 3 Dinner Party winner who thrives as a deep swooper. Colonial Downs expansive turf course and long stretch play directly into his late-closing style.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Benefits Closers",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Gran Oriente (CHI)",
+                        "handicapper_notes": "Saffie Joseph trainee riding a three-race winning streak with figures up to 108. Steps up into Grade 1 company with significant upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Integration",
+                    "rating": 94.0,
+                    "reason": "Grade 1 performer returning to his favorite Secretariat Turf course. Boasts elite speed figures up to 117 and a sustained closing kick ideally suited for Colonial Downs sweeping turns and 1,000+ foot stretch."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Test Score",
+                    "rating": 92.0,
+                    "reason": "Grade 1 Pegasus World Cup Turf winner coming off a big runner-up finish in the Grade 1 Manhattan with a field-topping 119 speed figure. Major win threat."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Burnham Square",
+                    "rating": 89.0,
+                    "reason": "Enters on a sharp three-race graded stakes winning streak including the Grade 2 Elkhorn and Grade 3 Louisville. Outstanding stamina profile and peak current form."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Dresden Row",
+                    "rating": 87.0,
+                    "reason": "Todd Pletcher trainee in top form, winning two of his last three including a fast 108 speed figure victory at Churchill Downs. Expected to secure a ideal tactical pocket trip."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fort Washington",
+                    "rating": 85.0,
+                    "reason": "Grade 3 Dinner Party winner who thrives as a deep swooper. Colonial Downs expansive turf course and long stretch play directly into his late-closing style."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Integration",
+                    "rating": 94.0,
+                    "reason": "Grade 1 performer returning to his favorite Secretariat Turf course. Boasts elite speed figures up to 117 and a sustained closing kick ideally suited for Colonial Downs sweeping turns and 1,000+ foot stretch."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Test Score",
+                    "rating": 92.0,
+                    "reason": "Grade 1 Pegasus World Cup Turf winner coming off a big runner-up finish in the Grade 1 Manhattan with a field-topping 119 speed figure. Major win threat."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Burnham Square",
+                    "rating": 89.0,
+                    "reason": "Enters on a sharp three-race graded stakes winning streak including the Grade 2 Elkhorn and Grade 3 Louisville. Outstanding stamina profile and peak current form."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Dresden Row",
+                    "rating": 87.0,
+                    "reason": "Todd Pletcher trainee in top form, winning two of his last three including a fast 108 speed figure victory at Churchill Downs. Expected to secure a ideal tactical pocket trip."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Fort Washington",
+                    "rating": 85.0,
+                    "reason": "Grade 3 Dinner Party winner who thrives as a deep swooper. Colonial Downs expansive turf course and long stretch play directly into his late-closing style."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Gran Oriente (CHI)",
+                    "rating": 83.0,
+                    "reason": "Saffie Joseph trainee riding a three-race winning streak with figures up to 108. Steps up into Grade 1 company with significant upside."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Fort Washington",
+                "rating": 85.0,
+                "reason": "Grade 3 Dinner Party winner who thrives as a deep swooper. Colonial Downs expansive turf course and long stretch play directly into his late-closing style."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Integration</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #6, #3 (Selective Box)"
+        },
+        {
+            "number": 12,
+            "distance": "1 Mile Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "1 Mile Turf",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Key 5 over 2, 3, 7, 13",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Honey Dutch",
+                        "handicapper_notes": "Massive class drop out of Grade 1 and Grade 3 stakes company into local allowance level. Holds a huge speed figure advantage over the field and gets top jockey Tyler Gaffalione.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Lennox the Grey",
+                        "handicapper_notes": "Proven over the Secretariat Turf course with a sharp 2nd-place finish by a neck at this distance and class on July 6. Fits track profile for a sustained stretch kick with Mychel Sanchez riding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "No Temperance",
+                        "handicapper_notes": "Dominant course-and-distance maiden winner at Colonial Downs on June 25, drawing off by 2 1/4 lengths. Mark Casse trainee steps up to allowance level with high upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Jutland",
+                        "handicapper_notes": "Stakes-placed turf performer as a 2YO (2nd in Central Park Stakes and Laurel Futurity). Returns to grass route with jockey switch to Brian Hernandez Jr.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "13",
+                        "horse_name": "Sound Bite (IRE)",
+                        "handicapper_notes": "Also-eligible entrant who draws in following scratches. Turf maiden winner at Delaware Park coming off a narrow 2nd in allowance company on wet dirt. High-upside threat with strong turf pedigree.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Knoty Knicks",
+                        "handicapper_notes": "Stakes-placed at Tampa Bay Downs and tested against tough allowance fields at Keeneland and Gulfstream. Sheldon Russell retains the ride.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Honey Dutch",
+                    "rating": 95.0,
+                    "reason": "Massive class drop out of Grade 1 and Grade 3 stakes company into local allowance level. Holds a huge speed figure advantage over the field and gets top jockey Tyler Gaffalione. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lennox the Grey",
+                    "rating": 89.0,
+                    "reason": "Proven over the Secretariat Turf course with a sharp 2nd-place finish by a neck at this distance and class on July 6. Fits track profile for a sustained stretch kick with Mychel Sanchez riding."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "No Temperance",
+                    "rating": 87.0,
+                    "reason": "Dominant course-and-distance maiden winner at Colonial Downs on June 25, drawing off by 2 1/4 lengths. Mark Casse trainee steps up to allowance level with high upside."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Jutland",
+                    "rating": 85.0,
+                    "reason": "Stakes-placed turf performer as a 2YO (2nd in Central Park Stakes and Laurel Futurity). Returns to grass route with jockey switch to Brian Hernandez Jr."
+                },
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Sound Bite (IRE)",
+                    "rating": 84.0,
+                    "reason": "Also-eligible entrant who draws in following scratches. Turf maiden winner at Delaware Park coming off a narrow 2nd in allowance company on wet dirt. High-upside threat with strong turf pedigree."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Honey Dutch",
+                    "rating": 95.0,
+                    "reason": "Massive class drop out of Grade 1 and Grade 3 stakes company into local allowance level. Holds a huge speed figure advantage over the field and gets top jockey Tyler Gaffalione. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Lennox the Grey",
+                    "rating": 89.0,
+                    "reason": "Proven over the Secretariat Turf course with a sharp 2nd-place finish by a neck at this distance and class on July 6. Fits track profile for a sustained stretch kick with Mychel Sanchez riding."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "No Temperance",
+                    "rating": 87.0,
+                    "reason": "Dominant course-and-distance maiden winner at Colonial Downs on June 25, drawing off by 2 1/4 lengths. Mark Casse trainee steps up to allowance level with high upside."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Jutland",
+                    "rating": 85.0,
+                    "reason": "Stakes-placed turf performer as a 2YO (2nd in Central Park Stakes and Laurel Futurity). Returns to grass route with jockey switch to Brian Hernandez Jr."
+                },
+                {
+                    "number": "13",
+                    "barrier": "13",
+                    "name": "Sound Bite (IRE)",
+                    "rating": 84.0,
+                    "reason": "Also-eligible entrant who draws in following scratches. Turf maiden winner at Delaware Park coming off a narrow 2nd in allowance company on wet dirt. High-upside threat with strong turf pedigree."
+                },
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Knoty Knicks",
+                    "rating": 83.0,
+                    "reason": "Stakes-placed at Tampa Bay Downs and tested against tough allowance fields at Keeneland and Gulfstream. Sheldon Russell retains the ride."
+                }
+            ],
+            "danger_horse": {
+                "number": "13",
+                "barrier": "13",
+                "name": "Sound Bite (IRE)",
+                "rating": 84.0,
+                "reason": "Also-eligible entrant who draws in following scratches. Turf maiden winner at Delaware Park coming off a narrow 2nd in allowance company on wet dirt. High-upside threat with strong turf pedigree."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Honey Dutch</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#7, #2, #13) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#1 Roja</b> in R4 & <b>#3 Bravaro</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#3 Bravaro</b> in R5 & <b>#2 Mashallah</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#12 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#7, #8)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#7, #8) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#3 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#2 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#10 (Solo Lock))",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#10 (Solo Lock)) with (#13 (Solo Lock))",
+        "<b>R8 \u2794 R9 DAILY DOUBLE:</b> Play (#13 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R9 \u2794 R10 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#8 (Solo Lock))",
+        "<b>R10 \u2794 R11 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R11 \u2794 R12 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#5 (Solo Lock))"
+    ]
+}

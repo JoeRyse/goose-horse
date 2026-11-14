@@ -1,0 +1,1179 @@
+{
+    "meta": {
+        "track": "Broome",
+        "date": "2026-07-23",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1400m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1400m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box (1, 3, 5)",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Close Talker",
+                        "handicapper_notes": "Faded to 7th at Derby last start but is a proven Broome specialist. Won over 1200m here on June 6. Drops back to her preferred track where she can utilize her early speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "The Top Bar",
+                        "handicapper_notes": "Solid 3rd over 1450m here last start. Has a good record on the Broome dirt and should settle in a prominent position from barrier 3.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Rulesque",
+                        "handicapper_notes": "In career-best form with consecutive runner-up finishes at this track. Draws the coveted inside rail (pp 1) which is a massive advantage on this layout. Expect him to lead or box-seat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "5",
+                        "horse_name": "Shasfa",
+                        "handicapper_notes": "Strong last-start winner over 1300m at this track, defeating Rulesque. Up in weight but remains a major player with her tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "6",
+                        "horse_name": "Topaz",
+                        "handicapper_notes": "Runner-up at Derby last start following a dominant 3-length victory here on June 28. Loves the dirt and is a leading contender.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Canggu",
+                        "handicapper_notes": "Disappointed when finishing last of 13 first-up. Needs to show significant improvement to challenge these sharp sprinters.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Sstalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Power To Rule",
+                        "handicapper_notes": "Won a weaker Class B handicap at Derby last start. This is a much tougher assignment, but the low draw gives him a minor chance.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Rulesque",
+                    "rating": 95.0,
+                    "reason": "In career-best form with consecutive runner-up finishes at this track. Draws the coveted inside rail (pp 1) which is a massive advantage on this layout. Expect him to lead or box-seat. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "6",
+                    "name": "Topaz",
+                    "rating": 91.0,
+                    "reason": "Runner-up at Derby last start following a dominant 3-length victory here on June 28. Loves the dirt and is a leading contender."
+                },
+                {
+                    "number": "4",
+                    "barrier": "5",
+                    "name": "Shasfa",
+                    "rating": 90.0,
+                    "reason": "Strong last-start winner over 1300m at this track, defeating Rulesque. Up in weight but remains a major player with her tactical speed."
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Close Talker",
+                    "rating": 88.0,
+                    "reason": "Faded to 7th at Derby last start but is a proven Broome specialist. Won over 1200m here on June 6. Drops back to her preferred track where she can utilize her early speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "6",
+                "name": "Topaz",
+                "rating": 91.0,
+                "reason": "Runner-up at Derby last start following a dominant 3-length victory here on June 28. Loves the dirt and is a leading contender."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Rulesque</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #5, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #5, #4"
+        },
+        {
+            "number": 2,
+            "distance": "1600m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1600m Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Key Trifecta (2 with 3, 4, 7)",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Capricorn Man",
+                        "handicapper_notes": "Narrowly beaten over this track and distance two starts back. Faded late over 1800m at Derby last start but will appreciate dropping back to the mile where he can dictate terms.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Success Play",
+                        "handicapper_notes": "Consistent performer who finished a solid 4th over 1450m here last start. He is third-up today and historically peaks at this stage of his prep.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Lucky Landing",
+                        "handicapper_notes": "Finished 5th in both recent Broome starts but has excellent course credentials at this distance. Kyra Yuill remains aboard, which is a big plus.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Roey Clam",
+                        "handicapper_notes": "Beaten double-digit lengths in all four starts this campaign. Hard to recommend on current form.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Magnaburma",
+                        "handicapper_notes": "Struggled from wide gates recently. Barrier 8 makes it very difficult to avoid kickback, which he dislikes.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Bondi Queen",
+                        "handicapper_notes": "Destroyed a maiden field by 6 lengths here last start. Up in class but has massive upside and early speed to cross from barrier 4.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Shoulder Patch",
+                        "handicapper_notes": "Draws the inside rail but lacks the early speed to take advantage of it. Likely to get buried in kickback.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Capricorn Man",
+                    "rating": 96.0,
+                    "reason": "Narrowly beaten over this track and distance two starts back. Faded late over 1800m at Derby last start but will appreciate dropping back to the mile where he can dictate terms. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Bondi Queen",
+                    "rating": 89.0,
+                    "reason": "Destroyed a maiden field by 6 lengths here last start. Up in class but has massive upside and early speed to cross from barrier 4."
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Success Play",
+                    "rating": 87.0,
+                    "reason": "Consistent performer who finished a solid 4th over 1450m here last start. He is third-up today and historically peaks at this stage of his prep."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Lucky Landing",
+                    "rating": 86.0,
+                    "reason": "Finished 5th in both recent Broome starts but has excellent course credentials at this distance. Kyra Yuill remains aboard, which is a big plus."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "4",
+                "name": "Bondi Queen",
+                "rating": 89.0,
+                "reason": "Destroyed a maiden field by 6 lengths here last start. Up in class but has massive upside and early speed to cross from barrier 4."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Capricorn Man</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #2 over #7, #3"
+        },
+        {
+            "number": 3,
+            "distance": "2000m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "2000m Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Each Way (7)",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Star Testymony",
+                        "handicapper_notes": "Excellent 2nd in the Derby Cup last start. Has the class to win this but must overcome the extreme outside barrier on a tight track.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Fellafromdownunder",
+                        "handicapper_notes": "Fair effort when 6th at Derby last start. Needs to settle closer to the speed to have any chance on this surface.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Alotta Dane",
+                        "handicapper_notes": "Dirt specialist who won over 2000m here last season. Disappointed at Derby last start but is much better suited back on his home deck.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Fortune's Luck",
+                        "handicapper_notes": "Won over 1700m here three starts back. Disappointed at Derby last start but draws beautifully in barrier 2 to get a soft run.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Rubick Lass",
+                        "handicapper_notes": "Struggled in both starts this campaign. Lacks the early speed required to compete effectively on the Broome dirt.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Beautiful Baroque",
+                        "handicapper_notes": "Beaten out of sight last start over 1700m here. Hard to make a case from the wide gate.",
+                        "features": {
+                            "ai_holistic_score": 62,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Street Maschino",
+                        "handicapper_notes": "Proven stayer who loves this track. Ran a very close 4th over 1600m here two starts back. Ready for the 2000m now.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Schuhbeck",
+                        "handicapper_notes": "Veteran who has placed multiple times on this track. Draws the inside rail and can sneak into the trifecta at odds.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "7",
+                        "horse_name": "Spirit Of Luna",
+                        "handicapper_notes": "Struggled at Derby last start. Lacks the class and dirt experience to threaten here.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Street Maschino",
+                    "rating": 90.0,
+                    "reason": "Proven stayer who loves this track. Ran a very close 4th over 1600m here two starts back. Ready for the 2000m now."
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Star Testymony",
+                    "rating": 88.0,
+                    "reason": "Excellent 2nd in the Derby Cup last start. Has the class to win this but must overcome the extreme outside barrier on a tight track."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Fortune's Luck",
+                    "rating": 85.0,
+                    "reason": "Won over 1700m here three starts back. Disappointed at Derby last start but draws beautifully in barrier 2 to get a soft run."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Alotta Dane",
+                    "rating": 82.0,
+                    "reason": "Dirt specialist who won over 2000m here last season. Disappointed at Derby last start but is much better suited back on his home deck."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "6",
+                "name": "Street Maschino",
+                "rating": 90.0,
+                "reason": "Proven stayer who loves this track. Ran a very close 4th over 1600m here two starts back. Ready for the 2000m now."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> PASS Win wager (Low confidence / chaotic field)<br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #7, #1, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #7, #1, #4"
+        },
+        {
+            "number": 4,
+            "distance": "1700m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1700m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Single (2)",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Gambler's Gold",
+                        "handicapper_notes": "Solid 4th behind Vevinsky last start. Meets him better at the weights today and is a proven weight-carrier on dirt.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Vevinsky",
+                        "handicapper_notes": "Demolished a similar field by 3.6 lengths last start over 1600m here. He is the class runner of the race and should lead easily from barrier 7.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Hafey",
+                        "handicapper_notes": "Struggled in both starts this campaign. Hard to see him turning his form around against this caliber of opposition.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Why Me",
+                        "handicapper_notes": "Chased Vevinsky home last start to finish 2nd. Draws inside and should get a perfect run behind the leader.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Lova Session",
+                        "handicapper_notes": "Won a weaker Rtg 58+ over a mile here last start. Up in class but draws the inside rail and has a light weight.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Lautre",
+                        "handicapper_notes": "Solid 3rd behind Pharoah Show last start. Always runs an honest race on dirt and can sneak into the placings.",
+                        "features": {
+                            "ai_holistic_score": 83,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "Wolfman",
+                        "handicapper_notes": "Runner-up behind Pharoah Show last start. Up in class but is in great form and has excellent tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Vevinsky",
+                    "rating": 99.0,
+                    "reason": "Demolished a similar field by 3.6 lengths last start over 1600m here. He is the class runner of the race and should lead easily from barrier 7. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Why Me",
+                    "rating": 90.0,
+                    "reason": "Chased Vevinsky home last start to finish 2nd. Draws inside and should get a perfect run behind the leader."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Lova Session",
+                    "rating": 88.0,
+                    "reason": "Won a weaker Rtg 58+ over a mile here last start. Up in class but draws the inside rail and has a light weight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Gambler's Gold",
+                    "rating": 86.0,
+                    "reason": "Solid 4th behind Vevinsky last start. Meets him better at the weights today and is a proven weight-carrier on dirt."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "2",
+                "name": "Why Me",
+                "rating": 90.0,
+                "reason": "Chased Vevinsky home last start to finish 2nd. Draws inside and should get a perfect run behind the leader."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#2 Vevinsky</b><br><b>\ud83c\udf9f\ufe0f EXACTA KEY:</b> #2 over #4, #5<br><b>\ud83c\udfaa TRIFECTA WHEEL:</b> #2 / #4, #5 / #4, #5, #1"
+        },
+        {
+            "number": 5,
+            "distance": "1200m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1200m Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box (1, 3, 4)",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Mohegan Ruler",
+                        "handicapper_notes": "Classy metropolitan performer making his dirt debut. Stables ship north with great success. If he handles the kickback, he is the one to beat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Reggio Calabria",
+                        "handicapper_notes": "Disappointed first-up at this track. Gets a significant jockey change with Ebony Johnson taking a 4kg claim. Can improve.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "8",
+                        "horse_name": "What's The Point",
+                        "handicapper_notes": "Impressive winner over 1100m here last start. Must overcome a wide barrier (8) but has the early speed to cross and lead.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Sempre",
+                        "handicapper_notes": "Solid 3rd behind Shasfa last start. Draws beautifully in barrier 2 and will get a soft run behind the leaders.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Seeyouatthesession",
+                        "handicapper_notes": "Fair effort when 4th here last start. Draws the inside rail and can box-seat. Place chance.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Coondle",
+                        "handicapper_notes": "Disappointed last start but has multiple placings on this track. Needs a fast pace to chase.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "Sanctions",
+                        "handicapper_notes": "Finished 5th behind What's The Point last start. Lacks the class to win this but can sneak into the first four.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "7",
+                        "horse_name": "Demetrious",
+                        "handicapper_notes": "Struggled in both Broome starts this campaign. Hard to recommend.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "Scenic Wings",
+                        "handicapper_notes": "Beaten out of sight last start. Looks completely outclassed here.",
+                        "features": {
+                            "ai_holistic_score": 58,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Mohegan Ruler",
+                    "rating": 92.0,
+                    "reason": "Classy metropolitan performer making his dirt debut. Stables ship north with great success. If he handles the kickback, he is the one to beat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "What's The Point",
+                    "rating": 89.0,
+                    "reason": "Impressive winner over 1100m here last start. Must overcome a wide barrier (8) but has the early speed to cross and lead."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Sempre",
+                    "rating": 86.0,
+                    "reason": "Solid 3rd behind Shasfa last start. Draws beautifully in barrier 2 and will get a soft run behind the leaders."
+                },
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Seeyouatthesession",
+                    "rating": 82.0,
+                    "reason": "Fair effort when 4th here last start. Draws the inside rail and can box-seat. Place chance."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "8",
+                "name": "What's The Point",
+                "rating": 89.0,
+                "reason": "Impressive winner over 1100m here last start. Must overcome a wide barrier (8) but has the early speed to cross and lead."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $4 Win / $6 Place on <b>#1 Mohegan Ruler</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #1, #3, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #1, #3, #4"
+        },
+        {
+            "number": 6,
+            "distance": "1100m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1100m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Key Trifecta (3 with 5, 7, 8)",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "9",
+                        "horse_name": "Delicate Ruler",
+                        "handicapper_notes": "Sensational last-start winner over this track and distance. He has elite early speed and is the clear benchmark here.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "Fire The Guard",
+                        "handicapper_notes": "Resuming after a 9-month layoff. Excellent first-up record and loves the dirt. Watch the market closely.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Beyond The Wall",
+                        "handicapper_notes": "Disappointed last start but won over this track and distance two starts back. Can bounce back from barrier 2.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Berry Berry Good",
+                        "handicapper_notes": "Did not finish at Derby last start. Lacks the consistency to challenge the top selections.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Outlaw Music",
+                        "handicapper_notes": "Dominant 3-length winner at Derby last start. Has great tactical speed and draws perfectly in barrier 4.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "1",
+                        "horse_name": "Ocean Outlaw",
+                        "handicapper_notes": "Honest performer who draws the inside rail. Will get a soft run and can sneak into the placings.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "8",
+                        "horse_name": "Ole Grande",
+                        "handicapper_notes": "Struggled in both career starts. Hard to recommend from a wide gate.",
+                        "features": {
+                            "ai_holistic_score": 60,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "Zaheadlines",
+                        "handicapper_notes": "Beaten double-digit lengths in both starts. Outclassed.",
+                        "features": {
+                            "ai_holistic_score": 55,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "9",
+                    "name": "Delicate Ruler",
+                    "rating": 95.0,
+                    "reason": "Sensational last-start winner over this track and distance. He has elite early speed and is the clear benchmark here."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Outlaw Music",
+                    "rating": 91.0,
+                    "reason": "Dominant 3-length winner at Derby last start. Has great tactical speed and draws perfectly in barrier 4."
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "Fire The Guard",
+                    "rating": 88.0,
+                    "reason": "Resuming after a 9-month layoff. Excellent first-up record and loves the dirt. Watch the market closely."
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Beyond The Wall",
+                    "rating": 87.0,
+                    "reason": "Disappointed last start but won over this track and distance two starts back. Can bounce back from barrier 2."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "7",
+                "name": "Fire The Guard",
+                "rating": 88.0,
+                "reason": "Resuming after a 9-month layoff. Excellent first-up record and loves the dirt. Watch the market closely."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#3 Delicate Ruler</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #3, #7, #4<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #3, #7, #4"
+        },
+        {
+            "number": 7,
+            "distance": "1300m Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1300m Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box (1, 6, 7)",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Cruise To Victory",
+                        "handicapper_notes": "Excellent runner-up behind Now You See Me last start. Draws beautifully in barrier 2 and meets him better at the weights today.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Hell I Am",
+                        "handicapper_notes": "Solid 5th last start. Lacks the early speed to cross from barrier 7, which will make it tough to avoid kickback.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Climb On Top",
+                        "handicapper_notes": "Disappointed at Derby last start but won over 1100m here three starts back. He is a high-class dirt sprinter who can bounce back.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Gift Of The Heart",
+                        "handicapper_notes": "Won at Derby last start but faces a much tougher field today from a wide barrier.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "Mocha Dream",
+                        "handicapper_notes": "Struggled first-up. Needs to show significant improvement to challenge these.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Now You See Me",
+                        "handicapper_notes": "On a spectacular 4-race winning streak. Blew them away by 5.3 lengths last start. Must overcome the parking lot barrier (10) but is clearly the horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 96,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Housewife",
+                        "handicapper_notes": "Won consecutive races here in June. Fresh and ready to fire. Draws perfectly in barrier 4 to get a soft run.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Cable Boy",
+                        "handicapper_notes": "Disappointed last start but was a close runner-up behind King Cartel two starts back. Place chance.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "1",
+                        "horse_name": "Wakan Tanka",
+                        "handicapper_notes": "Veteran who is struggling for form. Lacks the class to threaten here.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "6",
+                        "horse_name": "Zorbrist",
+                        "handicapper_notes": "Won over 1450m here last start. Up in class but is in great form and cannot be ignored.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Now You See Me",
+                    "rating": 96.0,
+                    "reason": "On a spectacular 4-race winning streak. Blew them away by 5.3 lengths last start. Must overcome the parking lot barrier (10) but is clearly the horse to beat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Cruise To Victory",
+                    "rating": 93.0,
+                    "reason": "Excellent runner-up behind Now You See Me last start. Draws beautifully in barrier 2 and meets him better at the weights today."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Housewife",
+                    "rating": 91.0,
+                    "reason": "Won consecutive races here in June. Fresh and ready to fire. Draws perfectly in barrier 4 to get a soft run."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Climb On Top",
+                    "rating": 88.0,
+                    "reason": "Disappointed at Derby last start but won over 1100m here three starts back. He is a high-class dirt sprinter who can bounce back."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "4",
+                "name": "Housewife",
+                "rating": 91.0,
+                "reason": "Won consecutive races here in June. Fresh and ready to fire. Draws perfectly in barrier 4 to get a soft run."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> Strong $10 Win on <b>#6 Now You See Me</b><br><b>\ud83c\udf9f\ufe0f EXACTA BOX:</b> #6, #1, #7<br><b>\ud83c\udfaa TRIFECTA BOX:</b> #6, #1, #7"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3, #5) with (#2, #7)",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#2, #7) with (#7, #1)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#7, #1) with (#2 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#2 (Solo Lock)) with (#1, #3)",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#1, #3) with (#3, #7)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#3, #7) with (#6, #1)"
+    ]
+}

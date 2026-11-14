@@ -1,0 +1,849 @@
+{
+    "meta": {
+        "track": "Hoosier Park",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Trevors Redhotgirl",
+                        "handicapper_notes": "Draws the statistically dominant post 6. Possesses excellent tactical speed to position herself perfectly before the long 1,255-foot stretch. Major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Tahuya Wicked",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing quarters (28s) make her a major threat if she finds racing room.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Gimmee Da Gelt",
+                        "handicapper_notes": "Has shown early speed but the long HOP stretch will test her stamina from post 7. Best used underneath in exotics.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Front-runner",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Trevors Redhotgirl",
+                    "rating": 92.0,
+                    "reason": "Draws the statistically dominant post 6. Possesses excellent tactical speed to position herself perfectly before the long 1,255-foot stretch. Major threat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Gimmee Da Gelt",
+                    "rating": 85.0,
+                    "reason": "Has shown early speed but the long HOP stretch will test her stamina from post 7. Best used underneath in exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Tahuya Wicked",
+                "rating": 88.0,
+                "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing quarters (28s) make her a major threat if she finds racing room."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pastor's Delicacy",
+                        "handicapper_notes": "Trace Tetrick driving. Extremely consistent speed figures and tactical versatility. Hard to see her out of the trifecta.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Johnny Broad",
+                        "handicapper_notes": "Coming off a strong win. Draws the dominant post 4. Long stretch plays directly into his closing kick.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "You Know Dancer",
+                        "handicapper_notes": "Tough draw from post 10, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers.",
+                        "features": {
+                            "ai_holistic_score": 87,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pastor's Delicacy",
+                    "rating": 94.0,
+                    "reason": "Trace Tetrick driving. Extremely consistent speed figures and tactical versatility. Hard to see her out of the trifecta."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Johnny Broad",
+                    "rating": 89.0,
+                    "reason": "Coming off a strong win. Draws the dominant post 4. Long stretch plays directly into his closing kick."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "You Know Dancer",
+                "rating": 87.0,
+                "reason": "Tough draw from post 10, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Blue Gemstone",
+                        "handicapper_notes": "Trace Tetrick back in the bike. Dominant speed figures in recent starts. Despite post 8, she is the clear class of the field.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Livin'my Dream",
+                        "handicapper_notes": "Draws the dominant post 4. High tactical speed allows her to sit a perfect pocket trip behind the favorite.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Blue Gemstone",
+                    "rating": 95.0,
+                    "reason": "Trace Tetrick back in the bike. Dominant speed figures in recent starts. Despite post 8, she is the clear class of the field."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Livin'my Dream",
+                "rating": 91.0,
+                "reason": "Draws the dominant post 4. High tactical speed allows her to sit a perfect pocket trip behind the favorite."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Fox Valley Sidejob",
+                        "handicapper_notes": "Trace Tetrick driving. Post 4 is statistically dominant. Strong speed figures make him the horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Woggy",
+                        "handicapper_notes": "Inside post requires a clean break. If he avoids getting trapped, his late speed will make him a major threat in the stretch.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Fox Valley Sidejob",
+                    "rating": 94.0,
+                    "reason": "Trace Tetrick driving. Post 4 is statistically dominant. Strong speed figures make him the horse to beat."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Woggy",
+                "rating": 88.0,
+                "reason": "Inside post requires a clean break. If he avoids getting trapped, his late speed will make him a major threat in the stretch."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Donywhy",
+                        "handicapper_notes": "Clear class of the field. Excellent form and speed figures. Should control the race from start to finish.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Southern Hall",
+                        "handicapper_notes": "Draws the dominant post 6. Strong closing kick will be highly effective on the long HOP stretch.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Donywhy",
+                    "rating": 93.0,
+                    "reason": "Clear class of the field. Excellent form and speed figures. Should control the race from start to finish."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Southern Hall",
+                "rating": 89.0,
+                "reason": "Draws the dominant post 6. Strong closing kick will be highly effective on the long HOP stretch."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "The Works",
+                        "handicapper_notes": "Post 6 is statistically dominant. High tactical speed allows him to dictate terms or sit a perfect pocket trip.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Beyond Dazzling",
+                        "handicapper_notes": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "The Works",
+                    "rating": 95.0,
+                    "reason": "Post 6 is statistically dominant. High tactical speed allows him to dictate terms or sit a perfect pocket trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Beyond Dazzling",
+                "rating": 91.0,
+                "reason": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Robintino",
+                        "handicapper_notes": "Post 4 is statistically dominant. Strong closing kick will be highly effective on the long HOP stretch.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Fox Valley Tamara",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong tactical speed makes her a major threat.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Robintino",
+                    "rating": 92.0,
+                    "reason": "Post 4 is statistically dominant. Strong closing kick will be highly effective on the long HOP stretch."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Fox Valley Tamara",
+                "rating": 90.0,
+                "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong tactical speed makes her a major threat."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Ican Hardly Wait",
+                        "handicapper_notes": "Post 4 is statistically dominant. High tactical speed allows her to position herself perfectly before the long stretch.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Judy's Legacy",
+                        "handicapper_notes": "Tough draw from post 8, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers.",
+                        "features": {
+                            "ai_holistic_score": 91,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Ican Hardly Wait",
+                    "rating": 93.0,
+                    "reason": "Post 4 is statistically dominant. High tactical speed allows her to position herself perfectly before the long stretch."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Judy's Legacy",
+                "rating": 91.0,
+                "reason": "Tough draw from post 8, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers."
+            }
+        },
+        {
+            "number": 9,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Finalist",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes him the horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Bridge To Dallars",
+                        "handicapper_notes": "Post 6 is statistically dominant. High tactical speed allows him to position himself perfectly before the long stretch.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Finalist",
+                    "rating": 94.0,
+                    "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes him the horse to beat."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "Bridge To Dallars",
+                "rating": 92.0,
+                "reason": "Post 6 is statistically dominant. High tactical speed allows him to position himself perfectly before the long stretch."
+            }
+        },
+        {
+            "number": 10,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "Dashing Dover",
+                        "handicapper_notes": "Tough draw from post 9, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers.",
+                        "features": {
+                            "ai_holistic_score": 93,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Rollin Giannis",
+                        "handicapper_notes": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Dashing Dover",
+                    "rating": 93.0,
+                    "reason": "Tough draw from post 9, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Rollin Giannis",
+                "rating": 88.0,
+                "reason": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip."
+            }
+        },
+        {
+            "number": 11,
+            "distance": "1 Mile Trot",
+            "surface": "Trot",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 11,
+                "distance_surface": "1 Mile Trot",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Unhynged Adieu",
+                        "handicapper_notes": "Strong favorite. High tactical speed allows her to position herself perfectly before the long stretch.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Swan Raelynn",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes her a major threat.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Unhynged Adieu",
+                    "rating": 94.0,
+                    "reason": "Strong favorite. High tactical speed allows her to position herself perfectly before the long stretch."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Swan Raelynn",
+                "rating": 89.0,
+                "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes her a major threat."
+            }
+        },
+        {
+            "number": 12,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 12,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Keyser Soze",
+                        "handicapper_notes": "Post 6 is statistically dominant. High tactical speed allows him to position himself perfectly before the long stretch.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Er Rocky",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes him a major threat.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Keyser Soze",
+                    "rating": 95.0,
+                    "reason": "Post 6 is statistically dominant. High tactical speed allows him to position himself perfectly before the long stretch."
+                }
+            ],
+            "danger_horse": {
+                "number": "1",
+                "barrier": "1",
+                "name": "Er Rocky",
+                "rating": 88.0,
+                "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong closing kick makes him a major threat."
+            }
+        },
+        {
+            "number": 13,
+            "distance": "5/8 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 13,
+                "distance_surface": "5/8 Mile Pace",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Youremyobsession",
+                        "handicapper_notes": "Inside post requires immediate gate speed to avoid getting trapped. Strong tactical speed makes him a major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Bro Hug",
+                        "handicapper_notes": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 89,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Youremyobsession",
+                    "rating": 92.0,
+                    "reason": "Inside post requires immediate gate speed to avoid getting trapped. Strong tactical speed makes him a major threat."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Bro Hug",
+                "rating": 89.0,
+                "reason": "Strong closing kick. Will benefit from a hot early pace. Major threat if he gets a clean trip."
+            }
+        },
+        {
+            "number": 14,
+            "distance": "1 Mile Pace",
+            "surface": "Pace",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 14,
+                "distance_surface": "1 Mile Pace",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Mel's Vicki Lou",
+                        "handicapper_notes": "Post 4 is statistically dominant. High tactical speed allows her to position herself perfectly before the long stretch.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Tactical",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "Peace Star",
+                        "handicapper_notes": "Tough draw from post 8, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Mel's Vicki Lou",
+                    "rating": 95.0,
+                    "reason": "Post 4 is statistically dominant. High tactical speed allows her to position herself perfectly before the long stretch."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Peace Star",
+                "rating": 90.0,
+                "reason": "Tough draw from post 8, but has the class to overcome it if the pace is hot early. Upgrade if track is playing to closers."
+            }
+        }
+    ]
+}

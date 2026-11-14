@@ -1,0 +1,1108 @@
+{
+    "meta": {
+        "track": "Assiniboia Downs",
+        "date": "2026-07-22",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "7 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "7 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "BETTERLUCKNEXTTIME",
+                        "handicapper_notes": "Boasts a strong local record with 6 wins from 16 starts at ASD. Draws the rail which is highly advantageous on this tight track. Showed good tactical speed last out when dueling and waiting mildly to finish second with a 71 speed figure.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "AL REICHERT",
+                        "handicapper_notes": "Classy individual shipping in from Century Mile. While he is the class of the field, handicappers must apply caution due to the Century Mile Shipper Trap. His long-striding style and tendency to run wide could be compromised by ASD's tight turns.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "NO SHOW NO CALL",
+                        "handicapper_notes": "Comes off a sharp stalking victory at 6 furlongs on this track, registering a 74 speed figure. He has proven capability at route distances and should sit a perfect stalking trip just off the early leaders.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretch-out",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "BETTERMAKETHATTWO",
+                        "handicapper_notes": "Note the significant jockey change to Neville Stephenson and weight increase to 125 lbs. This horse possesses early speed and won two back as lone speed, but may face pressure from the inside draw today.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretch-out",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "PRINCEOFTHEPRAIRIE",
+                        "handicapper_notes": "A deep closer who will find the tight ASD turns challenging. He did pass tired rivals last out to finish 4th, but the track bias heavily disadvantages his running style unless a severe pace meltdown occurs.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "BETTERLUCKNEXTTIME",
+                    "rating": 88.0,
+                    "reason": "Boasts a strong local record with 6 wins from 16 starts at ASD. Draws the rail which is highly advantageous on this tight track. Showed good tactical speed last out when dueling and waiting mildly to finish second with a 71 speed figure."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "NO SHOW NO CALL",
+                    "rating": 85.0,
+                    "reason": "Comes off a sharp stalking victory at 6 furlongs on this track, registering a 74 speed figure. He has proven capability at route distances and should sit a perfect stalking trip just off the early leaders. | <i>\ud83d\udccf Stretch-out</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "PRINCEOFTHEPRAIRIE",
+                    "rating": 80.0,
+                    "reason": "A deep closer who will find the tight ASD turns challenging. He did pass tired rivals last out to finish 4th, but the track bias heavily disadvantages his running style unless a severe pace meltdown occurs."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "BETTERMAKETHATTWO",
+                    "rating": 78.0,
+                    "reason": "Note the significant jockey change to Neville Stephenson and weight increase to 125 lbs. This horse possesses early speed and won two back as lone speed, but may face pressure from the inside draw today. | <i>\ud83d\udccf Stretch-out</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "AL REICHERT",
+                "rating": 92.0,
+                "reason": "Classy individual shipping in from Century Mile. While he is the class of the field, handicappers must apply caution due to the Century Mile Shipper Trap. His long-striding style and tendency to run wide could be compromised by ASD's tight turns. | <i>\u26a0\ufe0f Wide</i>"
+            }
+        },
+        {
+            "number": 2,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "SUMITUP",
+                        "handicapper_notes": "A classic bullring speed specialist. Draws the rail and possesses high-quality early speed. If she can clear the field early, she will be incredibly difficult to catch on this layout. Speed figures consistently in the high 80s and low 90s.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "CYMBAL COURT",
+                        "handicapper_notes": "Struggled to make an impact last out when finishing 6th. Tends to do her best work late, which is a major disadvantage on this track. Needs a fast pace setup to have any chance.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "BIG TIPPA",
+                        "handicapper_notes": "Stumbled at the start last out but still managed to rally wide for 3rd. Possesses decent tactical speed and can sit a good trip if she gets away cleanly from the gate.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Stumbled",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "EAST COAST COWGIRL",
+                        "handicapper_notes": "Consistent performer at this level. Stalked the duel 3-wide early last out before fading slightly to 4th. Should appreciate a slightly more conservative ride today.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "ARIKARA",
+                        "handicapper_notes": "Possesses early speed but draws wide in post 6. Will have to work hard to clear the inside speed, which could leave her vulnerable late on the tight turns.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "PAYTON'S INDIAN",
+                        "handicapper_notes": "In sharp form with a solid stalking win and a second-place finish in her last two starts. She has shown great versatility and the ability to handle wide draws effectively.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "SUMITUP",
+                    "rating": 93.0,
+                    "reason": "A classic bullring speed specialist. Draws the rail and possesses high-quality early speed. If she can clear the field early, she will be incredibly difficult to catch on this layout. Speed figures consistently in the high 80s and low 90s. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "PAYTON'S INDIAN",
+                    "rating": 92.0,
+                    "reason": "In sharp form with a solid stalking win and a second-place finish in her last two starts. She has shown great versatility and the ability to handle wide draws effectively."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "EAST COAST COWGIRL",
+                    "rating": 86.0,
+                    "reason": "Consistent performer at this level. Stalked the duel 3-wide early last out before fading slightly to 4th. Should appreciate a slightly more conservative ride today. | <i>\u26a0\ufe0f Wide</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "BIG TIPPA",
+                    "rating": 82.0,
+                    "reason": "Stumbled at the start last out but still managed to rally wide for 3rd. Possesses decent tactical speed and can sit a good trip if she gets away cleanly from the gate. | <i>\u26a0\ufe0f Stumbled</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "6",
+                "name": "ARIKARA",
+                "rating": 80.0,
+                "reason": "Possesses early speed but draws wide in post 6. Will have to work hard to clear the inside speed, which could leave her vulnerable late on the tight turns."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Trifecta Key 2 / 3, 7, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "HAGGIS",
+                        "handicapper_notes": "Broke his maiden last out on the lead, registering a 60 speed figure. Facing much tougher allowance company today and will need to step up significantly to compete.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "READY FOR ANYTHING",
+                        "handicapper_notes": "Highly consistent performer who gave his best inside last out to finish second with a 73 speed figure. He has excellent early speed and should secure a perfect pocket trip.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "ACQUIRE",
+                        "handicapper_notes": "Solid contender who won his maiden three starts back and has since run respectable races in allowance company. Possesses good tactical speed and should be prominent throughout.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "BORDERLAND",
+                        "handicapper_notes": "Stalked and finished evenly last out. He seems to lack the explosive early speed required to dominate on this track but can sneak into the minor awards with a clean trip.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "MY KINDA DELITE",
+                        "handicapper_notes": "Broke slowly last out but made a decent wide rally. If she can break cleanly today, her tactical speed makes her a dangerous contender at a price.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "ACKNOWLEDGE",
+                        "handicapper_notes": "Struggled in his last few starts, showing little early speed. He will need a complete pace meltdown to be competitive, which is unlikely on this layout.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "PREACHERS SECRET",
+                        "handicapper_notes": "Always in the mix at this level. Ran a solid third last out after dueling wide. He is highly consistent and must be respected in all exotic wagers.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "BANKER MATT",
+                        "handicapper_notes": "Broke his maiden in impressive fashion last out, dueling outside to win with a 71 speed figure. He has high upside and should handle the step up to allowance company.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "READY FOR ANYTHING",
+                    "rating": 90.0,
+                    "reason": "Highly consistent performer who gave his best inside last out to finish second with a 73 speed figure. He has excellent early speed and should secure a perfect pocket trip."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "BANKER MATT",
+                    "rating": 88.0,
+                    "reason": "Broke his maiden in impressive fashion last out, dueling outside to win with a 71 speed figure. He has high upside and should handle the step up to allowance company."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "ACQUIRE",
+                    "rating": 86.0,
+                    "reason": "Solid contender who won his maiden three starts back and has since run respectable races in allowance company. Possesses good tactical speed and should be prominent throughout."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "PREACHERS SECRET",
+                    "rating": 84.0,
+                    "reason": "Always in the mix at this level. Ran a solid third last out after dueling wide. He is highly consistent and must be respected in all exotic wagers. | <i>\u26a0\ufe0f Wide</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "5",
+                "name": "MY KINDA DELITE",
+                "rating": 80.0,
+                "reason": "Broke slowly last out but made a decent wide rally. If she can break cleanly today, her tactical speed makes her a dangerous contender at a price. | <i>\u26a0\ufe0f Slow Start</i>"
+            }
+        },
+        {
+            "number": 4,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "BRINSON",
+                        "handicapper_notes": "Has struggled in recent starts, showing a lack of early speed. Draws the rail but is unlikely to make an impact unless he shows significant improvement.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "BOSSY HOLIDAY",
+                        "handicapper_notes": "Consistent performer at this level. Stalked and finished evenly last out. He should sit a perfect trip just off the early speed and is a strong candidate for the exotics.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "YOU VEE CEE",
+                        "handicapper_notes": "A class dropper who loves to stalk and pounce. He has run some very competitive races recently and should appreciate the slight drop in class today.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "WILL THE THRILL",
+                        "handicapper_notes": "Won last out in a driving finish, showing good determination. He faces tougher company today but has the tactical speed to be competitive.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "WINSTON BLUE",
+                        "handicapper_notes": "A deep closer who will find the tight ASD turns challenging. He is unlikely to threaten the top selections unless a severe pace duel develops.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "PRINTS MONEY",
+                        "handicapper_notes": "In career-best form, winning three in a row at ASD. He possesses high-quality early speed and should be able to clear the field from post 6. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "ROCKETS RED FLAIR",
+                        "handicapper_notes": "Possesses blazing early speed, winning 2 of his last 3 starts. He is a major threat to clear the field early and will be very difficult to run down if he does.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "PACO'S PICO",
+                        "handicapper_notes": "Struggled last out when finishing 7th. He possesses decent tactical speed but draws wide today, which could leave him caught out wide on the turns.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "PRINTS MONEY",
+                    "rating": 94.0,
+                    "reason": "In career-best form, winning three in a row at ASD. He possesses high-quality early speed and should be able to clear the field from post 6. The horse to beat."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "ROCKETS RED FLAIR",
+                    "rating": 92.0,
+                    "reason": "Possesses blazing early speed, winning 2 of his last 3 starts. He is a major threat to clear the field early and will be very difficult to run down if he does."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "YOU VEE CEE",
+                    "rating": 85.0,
+                    "reason": "A class dropper who loves to stalk and pounce. He has run some very competitive races recently and should appreciate the slight drop in class today."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "BOSSY HOLIDAY",
+                    "rating": 82.0,
+                    "reason": "Consistent performer at this level. Stalked and finished evenly last out. He should sit a perfect trip just off the early speed and is a strong candidate for the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "WILL THE THRILL",
+                "rating": 78.0,
+                "reason": "Won last out in a driving finish, showing good determination. He faces tougher company today but has the tactical speed to be competitive."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "JACKS SPRING BREAK",
+                        "handicapper_notes": "The local horse to beat, in peak form with two consecutive wins. He possesses excellent tactical speed and should secure a perfect pocket trip from the rail.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "LUKA GRAZIE",
+                        "handicapper_notes": "Finished a solid second last out behind Jacks Spring Break. He is highly consistent at this distance and should be respected in all exotic wagers.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "BURN JAKEY BURN",
+                        "handicapper_notes": "A deep closer who won last out in a driving finish. He will need a fast pace setup to be effective today, which is possible with the early speed signed up.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "MAGIC TIGER",
+                        "handicapper_notes": "Struggled in his last few starts, showing a lack of early speed. He is unlikely to threaten the top selections unless he shows significant improvement.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Closer",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "VALLEY VICTORY",
+                        "handicapper_notes": "Finished a solid third last out behind Jacks Spring Break. He is highly consistent at this distance and should sit a perfect stalking trip.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "GOLDEN BUCK",
+                        "handicapper_notes": "Possesses high-quality early speed, winning last out in a dominant front-running performance. He is a major threat to clear the field early.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "PAY MY WAY",
+                        "handicapper_notes": "Finished a solid second last out, showing good determination. He possesses decent tactical speed and should be prominent throughout.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "QUARRY",
+                        "handicapper_notes": "A massive class dropper from Churchill Downs/Keeneland. He won a maiden special weight at Churchill with a 94 speed figure. If he handles the tight turns, he should class-compromise this field. The clear danger horse.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "JACKS SPRING BREAK",
+                    "rating": 92.0,
+                    "reason": "The local horse to beat, in peak form with two consecutive wins. He possesses excellent tactical speed and should secure a perfect pocket trip from the rail."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "GOLDEN BUCK",
+                    "rating": 85.0,
+                    "reason": "Possesses high-quality early speed, winning last out in a dominant front-running performance. He is a major threat to clear the field early."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "PAY MY WAY",
+                    "rating": 84.0,
+                    "reason": "Finished a solid second last out, showing good determination. He possesses decent tactical speed and should be prominent throughout."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "VALLEY VICTORY",
+                    "rating": 82.0,
+                    "reason": "Finished a solid third last out behind Jacks Spring Break. He is highly consistent at this distance and should sit a perfect stalking trip."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "QUARRY",
+                "rating": 95.0,
+                "reason": "A massive class dropper from Churchill Downs/Keeneland. He won a maiden special weight at Churchill with a 94 speed figure. If he handles the tight turns, he should class-compromise this field. The clear danger horse."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "6 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "6 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "JUST LIKE THAT",
+                        "handicapper_notes": "Possesses solid back class and draws the rail today. She should sit a perfect pocket trip and is a strong candidate to finish in the top two.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "FLINTLOCK",
+                        "handicapper_notes": "Struggled in her last few starts, showing a lack of early speed. She will need a complete turnaround to be competitive today.",
+                        "features": {
+                            "ai_holistic_score": 68,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "MY LITTLE TOOTSIE",
+                        "handicapper_notes": "Broke her maiden last out in impressive fashion, dueling inside to win. She faces much tougher company today but has the tactical speed to be competitive.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "HIGH MILER",
+                        "handicapper_notes": "Broke her maiden two back and followed it up with a solid fourth-place finish. She is improving and should be respected in all exotic wagers.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "HYPER HOLIDAY",
+                        "handicapper_notes": "Highly consistent performer who is always around the plate. She should sit a perfect stalking trip and is a strong candidate for the exotics.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "THE WRIGHT WAY",
+                        "handicapper_notes": "Struggled last out when finishing 6th. She possesses decent tactical speed but draws wide today, which could leave her caught out wide on the turns.",
+                        "features": {
+                            "ai_holistic_score": 72,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "TURN IT LOOSE",
+                        "handicapper_notes": "Struggled in her last few starts, showing a lack of early speed. She will need a complete turnaround to be competitive today.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "WORTHY SPIRIT",
+                        "handicapper_notes": "Struggled last out when finishing 8th. She possesses decent tactical speed but draws wide today, which could leave her caught out wide on the turns.",
+                        "features": {
+                            "ai_holistic_score": 74,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "BLUE TANGO",
+                        "handicapper_notes": "Possesses early speed but draws wide in post 9. Will have to work hard to clear the inside speed, which could leave her vulnerable late on the tight turns.",
+                        "features": {
+                            "ai_holistic_score": 65,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "10",
+                        "horse_name": "NEYTIRI",
+                        "handicapper_notes": "The class of the field, dropping from allowance company. She is highly consistent and should sit a perfect stalking trip. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "Stalker",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "NEYTIRI",
+                    "rating": 92.0,
+                    "reason": "The class of the field, dropping from allowance company. She is highly consistent and should sit a perfect stalking trip. The horse to beat."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "JUST LIKE THAT",
+                    "rating": 86.0,
+                    "reason": "Possesses solid back class and draws the rail today. She should sit a perfect pocket trip and is a strong candidate to finish in the top two."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "HIGH MILER",
+                    "rating": 82.0,
+                    "reason": "Broke her maiden two back and followed it up with a solid fourth-place finish. She is improving and should be respected in all exotic wagers."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "HYPER HOLIDAY",
+                    "rating": 80.0,
+                    "reason": "Highly consistent performer who is always around the plate. She should sit a perfect stalking trip and is a strong candidate for the exotics."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "MY LITTLE TOOTSIE",
+                "rating": 75.0,
+                "reason": "Broke her maiden last out in impressive fashion, dueling inside to win. She faces much tougher company today but has the tactical speed to be competitive."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "HAY SCOOBY DOO",
+                        "handicapper_notes": "In peak form, coming off a dominant win at this level. He possesses high-quality early speed and draws the rail today. The horse to beat.",
+                        "features": {
+                            "ai_holistic_score": 94,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "MAKENA'S JOY",
+                        "handicapper_notes": "Broke his maiden last out in impressive fashion, dueling inside to win. He faces much tougher company today but has the tactical speed to be competitive.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "LT. NORM",
+                        "handicapper_notes": "Finished a solid third last out, showing good determination. He possesses decent tactical speed and should be prominent throughout.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "CALL THE CAVALRY",
+                        "handicapper_notes": "Possesses early speed but draws wide today. He will have to work hard to clear the inside speed, which could leave him vulnerable late.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "CALMING FORCE",
+                        "handicapper_notes": "Highly consistent performer who is always around the plate. He possesses excellent tactical speed and is a strong candidate to finish in the top two.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "ROLLING ON",
+                        "handicapper_notes": "A dangerous shipper from Tampa Bay with front-running speed. If he can clear the field early, he will be very difficult to run down on this layout.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "8",
+                        "horse_name": "RAGS ROYAL PRINZ",
+                        "handicapper_notes": "Possesses early speed but draws wide today. He will have to work hard to clear the inside speed, which could leave him vulnerable late.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "9",
+                        "horse_name": "RED ROAD RUNNER",
+                        "handicapper_notes": "Possesses early speed but draws wide today. He will have to work hard to clear the inside speed, which could leave him vulnerable late.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "HAY SCOOBY DOO",
+                    "rating": 94.0,
+                    "reason": "In peak form, coming off a dominant win at this level. He possesses high-quality early speed and draws the rail today. The horse to beat."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "CALMING FORCE",
+                    "rating": 90.0,
+                    "reason": "Highly consistent performer who is always around the plate. He possesses excellent tactical speed and is a strong candidate to finish in the top two."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "ROLLING ON",
+                    "rating": 88.0,
+                    "reason": "A dangerous shipper from Tampa Bay with front-running speed. If he can clear the field early, he will be very difficult to run down on this layout."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "RAGS ROYAL PRINZ",
+                    "rating": 84.0,
+                    "reason": "Possesses early speed but draws wide today. He will have to work hard to clear the inside speed, which could leave him vulnerable late."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "LT. NORM",
+                "rating": 82.0,
+                "reason": "Finished a solid third last out, showing good determination. He possesses decent tactical speed and should be prominent throughout."
+            }
+        }
+    ]
+}

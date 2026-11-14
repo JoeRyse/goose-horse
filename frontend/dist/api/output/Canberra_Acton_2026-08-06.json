@@ -1,0 +1,1367 @@
+{
+    "meta": {
+        "track": "Canberra Acton",
+        "date": "2026-08-06",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "6 f Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "6 f Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5; Exacta 5 / 1, 2, 4",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "1",
+                        "horse_name": "Zou Royal",
+                        "handicapper_notes": "Significant class dropper from Warwick Farm trainer Jarrod Austin coming off a fourth at Canterbury 3yo Bm64 and a close second at Hawkesbury Cl1. Capitalizes on barrier 1 on the Acton Polytrack where early speed holding the fence provides a substantial efficiency advantage.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Must Be Sain",
+                        "handicapper_notes": "Strong last-start winner over 5 1/2f on this circuit in Bm60 company carrying 129 lbs. Drawn inside in barrier 4 to sit right behind the lead. Boasts 2 starts for 1 win and 1 third on the Acton synthetic.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Give Me Joy",
+                        "handicapper_notes": "Dominant front-running winner at this track and distance range last start in Cl2 company, stopping the clock in fast time. Draws inside barrier 3 to press forward again, though top weight of 130 lbs presents a physical stamina test.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Spice Alley",
+                        "handicapper_notes": "Chasing a hat-trick after back-to-back synthetic wins at Canberra Acton in Maiden and Bm50 grades. Drawn ideally in barrier 2 and holds an undefeated win rate at 6f on this surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Star Empire",
+                        "handicapper_notes": "Resumes after a four-month layoff. Turf performer making synthetic track debut from an outside stall; off-the-pace running style faces strong tactical headwinds against established Acton synthetic pressers.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Zou Royal",
+                    "rating": 94.0,
+                    "reason": "Significant class dropper from Warwick Farm trainer Jarrod Austin coming off a fourth at Canterbury 3yo Bm64 and a close second at Hawkesbury Cl1. Capitalizes on barrier 1 on the Acton Polytrack where early speed holding the fence provides a substantial efficiency advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Must Be Sain",
+                    "rating": 88.0,
+                    "reason": "Strong last-start winner over 5 1/2f on this circuit in Bm60 company carrying 129 lbs. Drawn inside in barrier 4 to sit right behind the lead. Boasts 2 starts for 1 win and 1 third on the Acton synthetic."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Give Me Joy",
+                    "rating": 86.0,
+                    "reason": "Dominant front-running winner at this track and distance range last start in Cl2 company, stopping the clock in fast time. Draws inside barrier 3 to press forward again, though top weight of 130 lbs presents a physical stamina test."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Spice Alley",
+                    "rating": 84.0,
+                    "reason": "Chasing a hat-trick after back-to-back synthetic wins at Canberra Acton in Maiden and Bm50 grades. Drawn ideally in barrier 2 and holds an undefeated win rate at 6f on this surface."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Star Empire",
+                    "rating": 78.0,
+                    "reason": "Resumes after a four-month layoff. Turf performer making synthetic track debut from an outside stall; off-the-pace running style faces strong tactical headwinds against established Acton synthetic pressers. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "1",
+                    "name": "Zou Royal",
+                    "rating": 94.0,
+                    "reason": "Significant class dropper from Warwick Farm trainer Jarrod Austin coming off a fourth at Canterbury 3yo Bm64 and a close second at Hawkesbury Cl1. Capitalizes on barrier 1 on the Acton Polytrack where early speed holding the fence provides a substantial efficiency advantage. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Must Be Sain",
+                    "rating": 88.0,
+                    "reason": "Strong last-start winner over 5 1/2f on this circuit in Bm60 company carrying 129 lbs. Drawn inside in barrier 4 to sit right behind the lead. Boasts 2 starts for 1 win and 1 third on the Acton synthetic."
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Give Me Joy",
+                    "rating": 86.0,
+                    "reason": "Dominant front-running winner at this track and distance range last start in Cl2 company, stopping the clock in fast time. Draws inside barrier 3 to press forward again, though top weight of 130 lbs presents a physical stamina test."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Spice Alley",
+                    "rating": 84.0,
+                    "reason": "Chasing a hat-trick after back-to-back synthetic wins at Canberra Acton in Maiden and Bm50 grades. Drawn ideally in barrier 2 and holds an undefeated win rate at 6f on this surface."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Star Empire",
+                    "rating": 78.0,
+                    "reason": "Resumes after a four-month layoff. Turf performer making synthetic track debut from an outside stall; off-the-pace running style faces strong tactical headwinds against established Acton synthetic pressers. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "2",
+                "name": "Spice Alley",
+                "rating": 84.0,
+                "reason": "Chasing a hat-trick after back-to-back synthetic wins at Canberra Acton in Maiden and Bm50 grades. Drawn ideally in barrier 2 and holds an undefeated win rate at 6f on this surface."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Zou Royal</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#2, #1, #4) [$9 total stake]"
+        },
+        {
+            "number": 2,
+            "distance": "1 3/16m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1 3/16m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 4, 6, 7; Trifecta 1 / 7 / 4, 6",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Dunwithya",
+                        "handicapper_notes": "Clear top contender stepping up to his ideal stayer trip of 1900m. Brings superior provincial Cl1 and mid-distance form including a past placing at Canberra Acton over 2000m. Carries 130lbs cleanly and draws inside stall 4 to secure an efficient trailing position on the synthetic rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Star Turn Dancer",
+                        "handicapper_notes": "Massive run last start when closing late for 2nd over 1m at Sapphire Coast at $71 odds. Proven at extended stayers trips (3rd over 2200m earlier this year) and gets key weight relief with apprentice Erin Ellison claiming. Primary threat to the top selection.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "8",
+                        "horse_name": "Tis No Man",
+                        "handicapper_notes": "Faded last start at Sapphire Coast but prior form was excellent including a nose 2nd over 7f carrying 137lbs. Should roll forward early under Jeff Penza to avoid synthetic kickback, though distance stamina beyond 1m remains a minor question mark.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Rita's Pearl",
+                        "handicapper_notes": "Significant drop in class out of Kembla Grange Cl1 and Canberra Acton Bm65 company into a Class 1 Set Weights plate. Previously held solid provincial placings over 2100m at Wyong and Gosford. Class drop bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Pontiac",
+                        "handicapper_notes": "Local Norm Gardner trainee who won over 2000m on the Acton synthetic course last preparation. Disappointed in recent turf outings but returning to this track and circuit from barrier 2 gives him realistic exotics upside.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Girl From Oz",
+                        "handicapper_notes": "Maiden runner struggling for form with 0 wins from 12 career starts. Unlikely to contend against proven winners at this distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Dunwithya",
+                    "rating": 93.0,
+                    "reason": "Clear top contender stepping up to his ideal stayer trip of 1900m. Brings superior provincial Cl1 and mid-distance form including a past placing at Canberra Acton over 2000m. Carries 130lbs cleanly and draws inside stall 4 to secure an efficient trailing position on the synthetic rail. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Rita's Pearl",
+                    "rating": 90.0,
+                    "reason": "Significant drop in class out of Kembla Grange Cl1 and Canberra Acton Bm65 company into a Class 1 Set Weights plate. Previously held solid provincial placings over 2100m at Wyong and Gosford. Class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Star Turn Dancer",
+                    "rating": 88.0,
+                    "reason": "Massive run last start when closing late for 2nd over 1m at Sapphire Coast at $71 odds. Proven at extended stayers trips (3rd over 2200m earlier this year) and gets key weight relief with apprentice Erin Ellison claiming. Primary threat to the top selection. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Tis No Man",
+                    "rating": 84.0,
+                    "reason": "Faded last start at Sapphire Coast but prior form was excellent including a nose 2nd over 7f carrying 137lbs. Should roll forward early under Jeff Penza to avoid synthetic kickback, though distance stamina beyond 1m remains a minor question mark. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pontiac",
+                    "rating": 78.0,
+                    "reason": "Local Norm Gardner trainee who won over 2000m on the Acton synthetic course last preparation. Disappointed in recent turf outings but returning to this track and circuit from barrier 2 gives him realistic exotics upside. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Dunwithya",
+                    "rating": 93.0,
+                    "reason": "Clear top contender stepping up to his ideal stayer trip of 1900m. Brings superior provincial Cl1 and mid-distance form including a past placing at Canberra Acton over 2000m. Carries 130lbs cleanly and draws inside stall 4 to secure an efficient trailing position on the synthetic rail. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Rita's Pearl",
+                    "rating": 90.0,
+                    "reason": "Significant drop in class out of Kembla Grange Cl1 and Canberra Acton Bm65 company into a Class 1 Set Weights plate. Previously held solid provincial placings over 2100m at Wyong and Gosford. Class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Star Turn Dancer",
+                    "rating": 88.0,
+                    "reason": "Massive run last start when closing late for 2nd over 1m at Sapphire Coast at $71 odds. Proven at extended stayers trips (3rd over 2200m earlier this year) and gets key weight relief with apprentice Erin Ellison claiming. Primary threat to the top selection. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "8",
+                    "name": "Tis No Man",
+                    "rating": 84.0,
+                    "reason": "Faded last start at Sapphire Coast but prior form was excellent including a nose 2nd over 7f carrying 137lbs. Should roll forward early under Jeff Penza to avoid synthetic kickback, though distance stamina beyond 1m remains a minor question mark. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Pontiac",
+                    "rating": 78.0,
+                    "reason": "Local Norm Gardner trainee who won over 2000m on the Acton synthetic course last preparation. Disappointed in recent turf outings but returning to this track and circuit from barrier 2 gives him realistic exotics upside. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Girl From Oz",
+                    "rating": 72.0,
+                    "reason": "Maiden runner struggling for form with 0 wins from 12 career starts. Unlikely to contend against proven winners at this distance. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Star Turn Dancer",
+                "rating": 88.0,
+                "reason": "Massive run last start when closing late for 2nd over 1m at Sapphire Coast at $71 odds. Proven at extended stayers trips (3rd over 2200m earlier this year) and gets key weight relief with apprentice Erin Ellison claiming. Primary threat to the top selection. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Dunwithya</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #6, #7 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "6 1/4 Furlongs Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "6 1/4 Furlongs Synthetic",
+                "confidence_level": "Medium",
+                "suggested_wager": "Box Exacta / Trifecta 9, 2, 6, 5",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "3",
+                        "horse_name": "Kip Star",
+                        "handicapper_notes": "Drawn ideally in stall 3 to capitalize on Acton synthetic inside barrier bias. Placed 3rd in both prior starts on this track, including behind multi-time winner Spice Alley. First-time blinkers applied by local trainer Gratz Vella.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Cold Mist",
+                        "handicapper_notes": "Proven Acton Polytrack specialist with 3 placings from 4 track attempts. Resumes for Kembla trainer Paul Murray after racing in stronger Provincial company ($32k-$42k Mdn). Main threat on class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Jenni Moo Moo",
+                        "handicapper_notes": "Finished 2nd over 5.5f at this circuit on July 8 beating Kip Star. Drops back from 7f to optimal sprint trip. Barrier 8 is a minor disadvantage on the tight Acton turns, but holds strong speed ratings.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "2",
+                        "horse_name": "Texan Star",
+                        "handicapper_notes": "Gains massive barrier advantage in stall 2. Comes off a strong front-running 2nd at Sapphire Coast. Possesses tactical early speed to hold the fence and avoid synthetic kickback.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "7",
+                        "horse_name": "Monnie",
+                        "handicapper_notes": "Showed capability when 2nd to Spice Alley over 5.5f on June 26. Forgive last run where she was wide and beaten heavily. Capable of bouncing back on synthetic.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Run",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Impending Fortune",
+                        "handicapper_notes": "Resuming off a break. Drawn well in barrier 4 to save ground. Placed twice in regional maiden company prior to spell.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "Kip Star",
+                    "rating": 90.0,
+                    "reason": "Drawn ideally in stall 3 to capitalize on Acton synthetic inside barrier bias. Placed 3rd in both prior starts on this track, including behind multi-time winner Spice Alley. First-time blinkers applied by local trainer Gratz Vella."
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Cold Mist",
+                    "rating": 87.0,
+                    "reason": "Proven Acton Polytrack specialist with 3 placings from 4 track attempts. Resumes for Kembla trainer Paul Murray after racing in stronger Provincial company ($32k-$42k Mdn). Main threat on class."
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Jenni Moo Moo",
+                    "rating": 85.0,
+                    "reason": "Finished 2nd over 5.5f at this circuit on July 8 beating Kip Star. Drops back from 7f to optimal sprint trip. Barrier 8 is a minor disadvantage on the tight Acton turns, but holds strong speed ratings. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Texan Star",
+                    "rating": 83.0,
+                    "reason": "Gains massive barrier advantage in stall 2. Comes off a strong front-running 2nd at Sapphire Coast. Possesses tactical early speed to hold the fence and avoid synthetic kickback."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Monnie",
+                    "rating": 81.0,
+                    "reason": "Showed capability when 2nd to Spice Alley over 5.5f on June 26. Forgive last run where she was wide and beaten heavily. Capable of bouncing back on synthetic. | <i>\u26a0\ufe0f Wide Run</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "3",
+                    "name": "Kip Star",
+                    "rating": 90.0,
+                    "reason": "Drawn ideally in stall 3 to capitalize on Acton synthetic inside barrier bias. Placed 3rd in both prior starts on this track, including behind multi-time winner Spice Alley. First-time blinkers applied by local trainer Gratz Vella."
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Cold Mist",
+                    "rating": 87.0,
+                    "reason": "Proven Acton Polytrack specialist with 3 placings from 4 track attempts. Resumes for Kembla trainer Paul Murray after racing in stronger Provincial company ($32k-$42k Mdn). Main threat on class."
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Jenni Moo Moo",
+                    "rating": 85.0,
+                    "reason": "Finished 2nd over 5.5f at this circuit on July 8 beating Kip Star. Drops back from 7f to optimal sprint trip. Barrier 8 is a minor disadvantage on the tight Acton turns, but holds strong speed ratings. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "2",
+                    "name": "Texan Star",
+                    "rating": 83.0,
+                    "reason": "Gains massive barrier advantage in stall 2. Comes off a strong front-running 2nd at Sapphire Coast. Possesses tactical early speed to hold the fence and avoid synthetic kickback."
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Monnie",
+                    "rating": 81.0,
+                    "reason": "Showed capability when 2nd to Spice Alley over 5.5f on June 26. Forgive last run where she was wide and beaten heavily. Capable of bouncing back on synthetic. | <i>\u26a0\ufe0f Wide Run</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Impending Fortune",
+                    "rating": 78.0,
+                    "reason": "Resuming off a break. Drawn well in barrier 4 to save ground. Placed twice in regional maiden company prior to spell."
+                }
+            ],
+            "danger_horse": {
+                "number": "5",
+                "barrier": "2",
+                "name": "Texan Star",
+                "rating": 83.0,
+                "reason": "Gains massive barrier advantage in stall 2. Comes off a strong front-running 2nd at Sapphire Coast. Possesses tactical early speed to hold the fence and avoid synthetic kickback."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#9 Kip Star</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #9, #2, #5 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "5 1/4 Furlongs Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "5 1/4 Furlongs Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 2, 3, 8; Trifecta 1 / 2, 3 / 2, 3, 5, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Geostorm",
+                        "handicapper_notes": "Dominant Acton Polytrack specialist with 4 starts for 2 wins and a close 2nd. Won over this exact track and distance on July 8 leading all the way in fast time. Establishes post-scratch lone speed control.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Merchant Reign",
+                        "handicapper_notes": "Draws key barrier 1 stall on tight Acton circuit. Proven winner on this surface who drops back to preferred sprint distance where he can press from the inside rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Rail Stalker",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Sir Lunchalots",
+                        "handicapper_notes": "Significant class drop coming out of $84k Rosehill TAB Highway and Goulburn BM58 company down to country BM50 level. Applies class drop bonus and poses as the primary danger.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Midpack Off Pace",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Prophet Time",
+                        "handicapper_notes": "Experienced Acton campaigner with 8 starts on track. Placed 4th over track and distance on May 30 and won at Canberra off a freshen-up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Melodia Perfecta",
+                        "handicapper_notes": "Draws inside barrier 3. Showed good early speed winning at Queanbeyan two starts back. Resumes fresh off a 61-day letup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Stalker",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Beau Rock",
+                        "handicapper_notes": "Veteran synthetic runner with 11 track appearances. Placed 2nd over 5 1/4f four starts back beaten just 0.1 len.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Geostorm",
+                    "rating": 97.0,
+                    "reason": "Dominant Acton Polytrack specialist with 4 starts for 2 wins and a close 2nd. Won over this exact track and distance on July 8 leading all the way in fast time. Establishes post-scratch lone speed control. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Merchant Reign",
+                    "rating": 88.0,
+                    "reason": "Draws key barrier 1 stall on tight Acton circuit. Proven winner on this surface who drops back to preferred sprint distance where he can press from the inside rail. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Sir Lunchalots",
+                    "rating": 85.0,
+                    "reason": "Significant class drop coming out of $84k Rosehill TAB Highway and Goulburn BM58 company down to country BM50 level. Applies class drop bonus and poses as the primary danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Prophet Time",
+                    "rating": 83.0,
+                    "reason": "Experienced Acton campaigner with 8 starts on track. Placed 4th over track and distance on May 30 and won at Canberra off a freshen-up."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Melodia Perfecta",
+                    "rating": 81.0,
+                    "reason": "Draws inside barrier 3. Showed good early speed winning at Queanbeyan two starts back. Resumes fresh off a 61-day letup. | <i>\ud83d\udccf Route to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Geostorm",
+                    "rating": 97.0,
+                    "reason": "Dominant Acton Polytrack specialist with 4 starts for 2 wins and a close 2nd. Won over this exact track and distance on July 8 leading all the way in fast time. Establishes post-scratch lone speed control. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Merchant Reign",
+                    "rating": 88.0,
+                    "reason": "Draws key barrier 1 stall on tight Acton circuit. Proven winner on this surface who drops back to preferred sprint distance where he can press from the inside rail. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Sir Lunchalots",
+                    "rating": 85.0,
+                    "reason": "Significant class drop coming out of $84k Rosehill TAB Highway and Goulburn BM58 company down to country BM50 level. Applies class drop bonus and poses as the primary danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Prophet Time",
+                    "rating": 83.0,
+                    "reason": "Experienced Acton campaigner with 8 starts on track. Placed 4th over track and distance on May 30 and won at Canberra off a freshen-up."
+                },
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Melodia Perfecta",
+                    "rating": 81.0,
+                    "reason": "Draws inside barrier 3. Showed good early speed winning at Queanbeyan two starts back. Resumes fresh off a 61-day letup. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Beau Rock",
+                    "rating": 79.0,
+                    "reason": "Veteran synthetic runner with 11 track appearances. Placed 2nd over 5 1/4f four starts back beaten just 0.1 len."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "10",
+                "name": "Sir Lunchalots",
+                "rating": 85.0,
+                "reason": "Significant class drop coming out of $84k Rosehill TAB Highway and Goulburn BM58 company down to country BM50 level. Applies class drop bonus and poses as the primary danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Geostorm</b> (Solo Lock - Gap: +9.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#3, #2) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "5 1/4 Furlongs Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "5 1/4 Furlongs Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 9; Quinella 4, 9; Trifecta 9 / 2, 4, 5 / 2, 4, 5, 8",
+                "contenders": [
+                    {
+                        "program_number": "9",
+                        "barrier": "7",
+                        "horse_name": "La Stiava",
+                        "handicapper_notes": "Massive class dropper taking advantage of the Class Drop Elevator rule. Last seen contesting the Group 3 Black Opal Stakes ($145k) and Randwick 2YO Open ($112k) before spelling. Prepared locally by Norm Gardner and gets top Canberra jockey Mathew Cahill. Superior class edge over this maiden field.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable Early Speed",
+                            "ai_holistic_score": 94,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Deeply",
+                        "handicapper_notes": "Consistent 4yo mare resuming for local trainer Gratz Vella with Jeff Penza aboard. In the money in 3 of 6 career starts and gets a major track efficiency boost from inside barrier 4 on the Acton Polytrack circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "8",
+                        "horse_name": "Avalon Lady",
+                        "handicapper_notes": "Resuming 5yo mare with prior experience over this synthetic surface. Placed on metropolitan provincial circuits earlier in career and has shown enough in trials to figure prominently fresh.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "5",
+                        "horse_name": "Lavender Rose",
+                        "handicapper_notes": "Unraced 4yo mare making her debut for trainer Luke Pepper and jockey Jean Van Overmeire. Showed ability in Sydney trial wins at Rosehill. Must be respected first-up as the prime unknown danger horse.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "First Starter",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Krasaki",
+                        "handicapper_notes": "Fitted with recent runs including placings at Quirindi and Port Macquarie. Gets significant positional relief from inside barrier 2 on a track known for strong inside bias.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "6",
+                        "horse_name": "Gunna Reign",
+                        "handicapper_notes": "Speedy 4yo mare coming off a fourth at Coonabarabran over 4 1/2f. Possesses early tactical speed to press forward early but faces a tough task holding off late closers on synthetic debut.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "9",
+                    "barrier": "7",
+                    "name": "La Stiava",
+                    "rating": 94.0,
+                    "reason": "Massive class dropper taking advantage of the Class Drop Elevator rule. Last seen contesting the Group 3 Black Opal Stakes ($145k) and Randwick 2YO Open ($112k) before spelling. Prepared locally by Norm Gardner and gets top Canberra jockey Mathew Cahill. Superior class edge over this maiden field. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Deeply",
+                    "rating": 88.0,
+                    "reason": "Consistent 4yo mare resuming for local trainer Gratz Vella with Jeff Penza aboard. In the money in 3 of 6 career starts and gets a major track efficiency boost from inside barrier 4 on the Acton Polytrack circuit. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "8",
+                    "name": "Avalon Lady",
+                    "rating": 84.0,
+                    "reason": "Resuming 5yo mare with prior experience over this synthetic surface. Placed on metropolitan provincial circuits earlier in career and has shown enough in trials to figure prominently fresh. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Lavender Rose",
+                    "rating": 82.0,
+                    "reason": "Unraced 4yo mare making her debut for trainer Luke Pepper and jockey Jean Van Overmeire. Showed ability in Sydney trial wins at Rosehill. Must be respected first-up as the prime unknown danger horse. | <i>\ud83d\udccf First Starter</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Krasaki",
+                    "rating": 81.0,
+                    "reason": "Fitted with recent runs including placings at Quirindi and Port Macquarie. Gets significant positional relief from inside barrier 2 on a track known for strong inside bias. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "9",
+                    "barrier": "7",
+                    "name": "La Stiava",
+                    "rating": 94.0,
+                    "reason": "Massive class dropper taking advantage of the Class Drop Elevator rule. Last seen contesting the Group 3 Black Opal Stakes ($145k) and Randwick 2YO Open ($112k) before spelling. Prepared locally by Norm Gardner and gets top Canberra jockey Mathew Cahill. Superior class edge over this maiden field. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Deeply",
+                    "rating": 88.0,
+                    "reason": "Consistent 4yo mare resuming for local trainer Gratz Vella with Jeff Penza aboard. In the money in 3 of 6 career starts and gets a major track efficiency boost from inside barrier 4 on the Acton Polytrack circuit. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "8",
+                    "name": "Avalon Lady",
+                    "rating": 84.0,
+                    "reason": "Resuming 5yo mare with prior experience over this synthetic surface. Placed on metropolitan provincial circuits earlier in career and has shown enough in trials to figure prominently fresh. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "5",
+                    "name": "Lavender Rose",
+                    "rating": 82.0,
+                    "reason": "Unraced 4yo mare making her debut for trainer Luke Pepper and jockey Jean Van Overmeire. Showed ability in Sydney trial wins at Rosehill. Must be respected first-up as the prime unknown danger horse. | <i>\ud83d\udccf First Starter</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Krasaki",
+                    "rating": 81.0,
+                    "reason": "Fitted with recent runs including placings at Quirindi and Port Macquarie. Gets significant positional relief from inside barrier 2 on a track known for strong inside bias. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "6",
+                    "name": "Gunna Reign",
+                    "rating": 78.0,
+                    "reason": "Speedy 4yo mare coming off a fourth at Coonabarabran over 4 1/2f. Possesses early tactical speed to press forward early but faces a tough task holding off late closers on synthetic debut. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "5",
+                "name": "Lavender Rose",
+                "rating": 82.0,
+                "reason": "Unraced 4yo mare making her debut for trainer Luke Pepper and jockey Jean Van Overmeire. Showed ability in Sydney trial wins at Rosehill. Must be respected first-up as the prime unknown danger horse. | <i>\ud83d\udccf First Starter</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#9 La Stiava</b> (Solo Lock - Gap: +6.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #9 over (#4, #5, #2) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "5 1/4 f Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "5 1/4 f Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta Box 1, 2, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Action King",
+                        "handicapper_notes": "Massive class dropper out of Tier 1 Saturday/Midweek Metro company (narrow 2nd in Eagle Farm BM78 over 5f on July 15). Granted +10 Class Drop Elevator bonus dropping into Tier 3 ACT Federal status. Draws ideal barrier 4 to utilize strong early tactical speed on the Acton Polytrack.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "2",
+                        "horse_name": "Cougars",
+                        "handicapper_notes": "Proven metropolitan performer with a Randwick Highway Cl3 win on resume. Resumes after 3.5 months, mapped perfectly from barrier 2 to stalk early speed without consuming extra ground on the turns. Significant class edge over local provincial runners.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Hellinda",
+                        "handicapper_notes": "In-form last-start winner at Sapphire Coast carrying 134 lbs (60.5 kg). Gets physical weight relief down to 122 lbs (55.5 kg) and lands barrier 1 on the rail to avoid synthetic kickback. Dangerous turn-of-foot closer if pace heats up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Sunrise Ridge",
+                        "handicapper_notes": "Consistent 4yo mare coming off a solid 6th in Canterbury 3yo BM64 metro company. Won Moruya BM66 two starts back. Well weighted at 121 lbs, but needs to overcome minor synthetic debut surface query.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "Cholante",
+                        "handicapper_notes": "Resuming after a prolonged 14-month layoff. Placed in Wagga BM74 company prior to spell, but wide barrier 6 on synthetic speed circuit and lack of recent match practice make her vulnerable against fit rivals.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Turn",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Action King",
+                    "rating": 94.0,
+                    "reason": "Massive class dropper out of Tier 1 Saturday/Midweek Metro company (narrow 2nd in Eagle Farm BM78 over 5f on July 15). Granted +10 Class Drop Elevator bonus dropping into Tier 3 ACT Federal status. Draws ideal barrier 4 to utilize strong early tactical speed on the Acton Polytrack. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Cougars",
+                    "rating": 89.0,
+                    "reason": "Proven metropolitan performer with a Randwick Highway Cl3 win on resume. Resumes after 3.5 months, mapped perfectly from barrier 2 to stalk early speed without consuming extra ground on the turns. Significant class edge over local provincial runners. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Hellinda",
+                    "rating": 86.0,
+                    "reason": "In-form last-start winner at Sapphire Coast carrying 134 lbs (60.5 kg). Gets physical weight relief down to 122 lbs (55.5 kg) and lands barrier 1 on the rail to avoid synthetic kickback. Dangerous turn-of-foot closer if pace heats up."
+                },
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Sunrise Ridge",
+                    "rating": 83.0,
+                    "reason": "Consistent 4yo mare coming off a solid 6th in Canterbury 3yo BM64 metro company. Won Moruya BM66 two starts back. Well weighted at 121 lbs, but needs to overcome minor synthetic debut surface query."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Cholante",
+                    "rating": 76.0,
+                    "reason": "Resuming after a prolonged 14-month layoff. Placed in Wagga BM74 company prior to spell, but wide barrier 6 on synthetic speed circuit and lack of recent match practice make her vulnerable against fit rivals. | <i>\u26a0\ufe0f Wide Turn</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Action King",
+                    "rating": 94.0,
+                    "reason": "Massive class dropper out of Tier 1 Saturday/Midweek Metro company (narrow 2nd in Eagle Farm BM78 over 5f on July 15). Granted +10 Class Drop Elevator bonus dropping into Tier 3 ACT Federal status. Draws ideal barrier 4 to utilize strong early tactical speed on the Acton Polytrack. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Cougars",
+                    "rating": 89.0,
+                    "reason": "Proven metropolitan performer with a Randwick Highway Cl3 win on resume. Resumes after 3.5 months, mapped perfectly from barrier 2 to stalk early speed without consuming extra ground on the turns. Significant class edge over local provincial runners. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Hellinda",
+                    "rating": 86.0,
+                    "reason": "In-form last-start winner at Sapphire Coast carrying 134 lbs (60.5 kg). Gets physical weight relief down to 122 lbs (55.5 kg) and lands barrier 1 on the rail to avoid synthetic kickback. Dangerous turn-of-foot closer if pace heats up."
+                },
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Sunrise Ridge",
+                    "rating": 83.0,
+                    "reason": "Consistent 4yo mare coming off a solid 6th in Canterbury 3yo BM64 metro company. Won Moruya BM66 two starts back. Well weighted at 121 lbs, but needs to overcome minor synthetic debut surface query."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Cholante",
+                    "rating": 76.0,
+                    "reason": "Resuming after a prolonged 14-month layoff. Placed in Wagga BM74 company prior to spell, but wide barrier 6 on synthetic speed circuit and lack of recent match practice make her vulnerable against fit rivals. | <i>\u26a0\ufe0f Wide Turn</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "1",
+                "name": "Hellinda",
+                "rating": 86.0,
+                "reason": "In-form last-start winner at Sapphire Coast carrying 134 lbs (60.5 kg). Gets physical weight relief down to 122 lbs (55.5 kg) and lands barrier 1 on the rail to avoid synthetic kickback. Dangerous turn-of-foot closer if pace heats up."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#1 Action King</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #1 over (#2, #3) [$9 total stake]"
+        },
+        {
+            "number": 7,
+            "distance": "1 1/16 m Synthetic",
+            "surface": "Synthetic",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 1/16 m Synthetic",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 2, 4, 3",
+                "contenders": [
+                    {
+                        "program_number": "2",
+                        "barrier": "1",
+                        "horse_name": "Bombelleistic",
+                        "handicapper_notes": "Top selection. Winner over this track and distance two starts back off an identical rating. Capitalizes on crucial inside barrier 1 geometry on the Acton Polytrack and drops back from Wyong BM64 provincial company for local trainers Joseph and Jones.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "4",
+                        "horse_name": "Sunburnt Country",
+                        "handicapper_notes": "Elite Acton synthetic specialist with three track starts producing two wins and a second. Chased home Bombelleistic over this track and distance on July 8 from an inside stall and returns to his preferred synthetic circuit following a solid provincial test.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 91,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "3",
+                        "horse_name": "Remadosi",
+                        "handicapper_notes": "Flew late last start at this track to finish 3rd beaten under a length despite severe traffic in the stretch. Well situated from barrier 3 carrying 132lbs and poised to turn the tables with a clean run.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Held Up",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "6",
+                        "horse_name": "Flashy Icon",
+                        "handicapper_notes": "Consistent synthetic performer who ran a brave second over this course and distance on July 24 carrying 123lbs. Maintains good form and gets ideal weight relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Tillman",
+                        "handicapper_notes": "Last-start winner over this track and distance at $31 odds leading all the way. Faces a tougher assignment here drawn wide in stall 8 which forces early exertion on the tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Sunsource",
+                        "handicapper_notes": "Metro/Provincial class dropper with proven back form, but faces a crushing effective weight tax of 142lbs (64.5kg). The weight anchor dampens his closing stamina on polytrack.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Bombelleistic",
+                    "rating": 94.0,
+                    "reason": "Top selection. Winner over this track and distance two starts back off an identical rating. Capitalizes on crucial inside barrier 1 geometry on the Acton Polytrack and drops back from Wyong BM64 provincial company for local trainers Joseph and Jones. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Sunburnt Country",
+                    "rating": 91.0,
+                    "reason": "Elite Acton synthetic specialist with three track starts producing two wins and a second. Chased home Bombelleistic over this track and distance on July 8 from an inside stall and returns to his preferred synthetic circuit following a solid provincial test. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Sunsource",
+                    "rating": 89.0,
+                    "reason": "Metro/Provincial class dropper with proven back form, but faces a crushing effective weight tax of 142lbs (64.5kg). The weight anchor dampens his closing stamina on polytrack. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Remadosi",
+                    "rating": 88.0,
+                    "reason": "Flew late last start at this track to finish 3rd beaten under a length despite severe traffic in the stretch. Well situated from barrier 3 carrying 132lbs and poised to turn the tables with a clean run. | <i>\u26a0\ufe0f Held Up</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Flashy Icon",
+                    "rating": 85.0,
+                    "reason": "Consistent synthetic performer who ran a brave second over this course and distance on July 24 carrying 123lbs. Maintains good form and gets ideal weight relief."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "2",
+                    "barrier": "1",
+                    "name": "Bombelleistic",
+                    "rating": 94.0,
+                    "reason": "Top selection. Winner over this track and distance two starts back off an identical rating. Capitalizes on crucial inside barrier 1 geometry on the Acton Polytrack and drops back from Wyong BM64 provincial company for local trainers Joseph and Jones. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Sunburnt Country",
+                    "rating": 91.0,
+                    "reason": "Elite Acton synthetic specialist with three track starts producing two wins and a second. Chased home Bombelleistic over this track and distance on July 8 from an inside stall and returns to his preferred synthetic circuit following a solid provincial test. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Sunsource",
+                    "rating": 89.0,
+                    "reason": "Metro/Provincial class dropper with proven back form, but faces a crushing effective weight tax of 142lbs (64.5kg). The weight anchor dampens his closing stamina on polytrack. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Remadosi",
+                    "rating": 88.0,
+                    "reason": "Flew late last start at this track to finish 3rd beaten under a length despite severe traffic in the stretch. Well situated from barrier 3 carrying 132lbs and poised to turn the tables with a clean run. | <i>\u26a0\ufe0f Held Up</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Flashy Icon",
+                    "rating": 85.0,
+                    "reason": "Consistent synthetic performer who ran a brave second over this course and distance on July 24 carrying 123lbs. Maintains good form and gets ideal weight relief."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Tillman",
+                    "rating": 83.0,
+                    "reason": "Last-start winner over this track and distance at $31 odds leading all the way. Faces a tougher assignment here drawn wide in stall 8 which forces early exertion on the tight turns."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Remadosi",
+                "rating": 88.0,
+                "reason": "Flew late last start at this track to finish 3rd beaten under a length despite severe traffic in the stretch. Well situated from barrier 3 carrying 132lbs and poised to turn the tables with a clean run. | <i>\u26a0\ufe0f Held Up</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#2 Bombelleistic</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #2, #4, #3 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#5 Zou Royal</b> in R1 & <b>#1 Dunwithya</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#1 Geostorm</b> in R4 & <b>#9 La Stiava</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#9 La Stiava</b> in R5 & <b>#1 Action King</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#9, #2)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#9, #2) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#9 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#9 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#2 (Solo Lock))"
+    ]
+}

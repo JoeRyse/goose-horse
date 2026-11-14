@@ -1,0 +1,1613 @@
+{
+    "meta": {
+        "track": "Bairnsdale",
+        "date": "2026-08-03",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1600m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1600m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 7 / Exacta 7, 11 / Trifecta 7 over 4, 11 over 1, 4, 10, 11",
+                "contenders": [
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "King Tagaloa",
+                        "handicapper_notes": "Strong runner-up effort at Seymour over 1m in heavy conditions first-up after setting the tempo. Proven over the 1600m trip, drops into country maiden level, and gets top jockey Jake Noonan.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Favorable",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "2",
+                        "horse_name": "Steal Away",
+                        "handicapper_notes": "Highly consistent wet-track mare stepping up to 1600m. Finished a close 2nd at Moe last start and previously placed at this track and distance.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "Churchill Lane",
+                        "handicapper_notes": "Solid 5th over 1m on soft ground at Bairnsdale last start after racing on speed at Sale prior. Benefits from apprentice claim relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Pride Of Mandy",
+                        "handicapper_notes": "Draws inside stall 1 which carries a ground-saving advantage at Bairnsdale. Dropping back from Cranbourne provincial maiden company for Cliff Brown.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Ask The Captain",
+                        "handicapper_notes": "Recent Pakenham trial winner. Metropolitan/Provincial shipper from Pakenham receiving a class adjustment on the country circuit.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "7",
+                        "horse_name": "Venus Shock",
+                        "handicapper_notes": "Strips fitter third-up after showing improved effort at Seymour behind King Tagaloa. Represents Hayes stable and should continue building fitness over 1600m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "King Tagaloa",
+                    "rating": 92.0,
+                    "reason": "Strong runner-up effort at Seymour over 1m in heavy conditions first-up after setting the tempo. Proven over the 1600m trip, drops into country maiden level, and gets top jockey Jake Noonan. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Pride Of Mandy",
+                    "rating": 90.0,
+                    "reason": "Draws inside stall 1 which carries a ground-saving advantage at Bairnsdale. Dropping back from Cranbourne provincial maiden company for Cliff Brown. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Ask The Captain",
+                    "rating": 88.0,
+                    "reason": "Recent Pakenham trial winner. Metropolitan/Provincial shipper from Pakenham receiving a class adjustment on the country circuit. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "2",
+                    "name": "Steal Away",
+                    "rating": 87.0,
+                    "reason": "Highly consistent wet-track mare stepping up to 1600m. Finished a close 2nd at Moe last start and previously placed at this track and distance."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Churchill Lane",
+                    "rating": 84.0,
+                    "reason": "Solid 5th over 1m on soft ground at Bairnsdale last start after racing on speed at Sale prior. Benefits from apprentice claim relief."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "King Tagaloa",
+                    "rating": 92.0,
+                    "reason": "Strong runner-up effort at Seymour over 1m in heavy conditions first-up after setting the tempo. Proven over the 1600m trip, drops into country maiden level, and gets top jockey Jake Noonan. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Pride Of Mandy",
+                    "rating": 90.0,
+                    "reason": "Draws inside stall 1 which carries a ground-saving advantage at Bairnsdale. Dropping back from Cranbourne provincial maiden company for Cliff Brown. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Ask The Captain",
+                    "rating": 88.0,
+                    "reason": "Recent Pakenham trial winner. Metropolitan/Provincial shipper from Pakenham receiving a class adjustment on the country circuit. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "2",
+                    "name": "Steal Away",
+                    "rating": 87.0,
+                    "reason": "Highly consistent wet-track mare stepping up to 1600m. Finished a close 2nd at Moe last start and previously placed at this track and distance."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Churchill Lane",
+                    "rating": 84.0,
+                    "reason": "Solid 5th over 1m on soft ground at Bairnsdale last start after racing on speed at Sale prior. Benefits from apprentice claim relief."
+                },
+                {
+                    "number": "12",
+                    "barrier": "7",
+                    "name": "Venus Shock",
+                    "rating": 78.0,
+                    "reason": "Strips fitter third-up after showing improved effort at Seymour behind King Tagaloa. Represents Hayes stable and should continue building fitness over 1600m."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "1",
+                "name": "Pride Of Mandy",
+                "rating": 90.0,
+                "reason": "Draws inside stall 1 which carries a ground-saving advantage at Bairnsdale. Dropping back from Cranbourne provincial maiden company for Cliff Brown. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#7 King Tagaloa</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #7, #10, #1 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#10 Pride Of Mandy</b>"
+        },
+        {
+            "number": 2,
+            "distance": "1200m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1200m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 11 / Exacta 11 over 2, 6, 7",
+                "contenders": [
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "Jourama",
+                        "handicapper_notes": "Massive class dropper trained by Freedman. Last seen running 4th in the 689k Caulfield Vobis Showdown after a debut second at Newcastle. Draws ideally in stall 3 and holds a huge class advantage over country maiden rivals.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "9",
+                        "horse_name": "Comradeship",
+                        "handicapper_notes": "Resuming for Cranbourne trainer Enver Jusufovic. Showed talent last preparation placing at Cranbourne and won a trial impressively at Cranbourne on July 20. Main threat if the top pick falters.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "12",
+                        "horse_name": "Lochend Princess",
+                        "handicapper_notes": "Placed twice at Sale in May over 1200m before finishing 7th over this course and distance on July 13. Capable of placing if Jason Maskiell can navigate the wide barrier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "13",
+                        "horse_name": "Welkin Star",
+                        "handicapper_notes": "Fitted third-up after making up late ground to finish 5th over 1200m at this track on July 13. Possesses solid country form and can sneak into the minor money.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Overflirt",
+                        "handicapper_notes": "Third-up today and draws well in barrier 2 to control or press the speed. Ran 4th at Moe over 1200m in heavy going last start and should benefit from ground-saving track geometry.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "1",
+                        "horse_name": "Lim's Perdido",
+                        "handicapper_notes": "Resuming after an 8-month spell. Finished 4th at Ararat prior to break and won a Mornington jumpout earlier this year. Rail draw provides every opportunity.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Jourama",
+                    "rating": 95.0,
+                    "reason": "Massive class dropper trained by Freedman. Last seen running 4th in the 689k Caulfield Vobis Showdown after a debut second at Newcastle. Draws ideally in stall 3 and holds a huge class advantage over country maiden rivals. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "9",
+                    "name": "Comradeship",
+                    "rating": 88.0,
+                    "reason": "Resuming for Cranbourne trainer Enver Jusufovic. Showed talent last preparation placing at Cranbourne and won a trial impressively at Cranbourne on July 20. Main threat if the top pick falters."
+                },
+                {
+                    "number": "6",
+                    "barrier": "12",
+                    "name": "Lochend Princess",
+                    "rating": 84.0,
+                    "reason": "Placed twice at Sale in May over 1200m before finishing 7th over this course and distance on July 13. Capable of placing if Jason Maskiell can navigate the wide barrier."
+                },
+                {
+                    "number": "5",
+                    "barrier": "13",
+                    "name": "Welkin Star",
+                    "rating": 82.0,
+                    "reason": "Fitted third-up after making up late ground to finish 5th over 1200m at this track on July 13. Possesses solid country form and can sneak into the minor money."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Overflirt",
+                    "rating": 80.0,
+                    "reason": "Third-up today and draws well in barrier 2 to control or press the speed. Ran 4th at Moe over 1200m in heavy going last start and should benefit from ground-saving track geometry."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Jourama",
+                    "rating": 95.0,
+                    "reason": "Massive class dropper trained by Freedman. Last seen running 4th in the 689k Caulfield Vobis Showdown after a debut second at Newcastle. Draws ideally in stall 3 and holds a huge class advantage over country maiden rivals. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "9",
+                    "name": "Comradeship",
+                    "rating": 88.0,
+                    "reason": "Resuming for Cranbourne trainer Enver Jusufovic. Showed talent last preparation placing at Cranbourne and won a trial impressively at Cranbourne on July 20. Main threat if the top pick falters."
+                },
+                {
+                    "number": "6",
+                    "barrier": "12",
+                    "name": "Lochend Princess",
+                    "rating": 84.0,
+                    "reason": "Placed twice at Sale in May over 1200m before finishing 7th over this course and distance on July 13. Capable of placing if Jason Maskiell can navigate the wide barrier."
+                },
+                {
+                    "number": "5",
+                    "barrier": "13",
+                    "name": "Welkin Star",
+                    "rating": 82.0,
+                    "reason": "Fitted third-up after making up late ground to finish 5th over 1200m at this track on July 13. Possesses solid country form and can sneak into the minor money."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Overflirt",
+                    "rating": 80.0,
+                    "reason": "Third-up today and draws well in barrier 2 to control or press the speed. Ran 4th at Moe over 1200m in heavy going last start and should benefit from ground-saving track geometry."
+                },
+                {
+                    "number": "3",
+                    "barrier": "1",
+                    "name": "Lim's Perdido",
+                    "rating": 78.0,
+                    "reason": "Resuming after an 8-month spell. Finished 4th at Ararat prior to break and won a Mornington jumpout earlier this year. Rail draw provides every opportunity."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "2",
+                "name": "Overflirt",
+                "rating": 80.0,
+                "reason": "Third-up today and draws well in barrier 2 to control or press the speed. Ran 4th at Moe over 1200m in heavy going last start and should benefit from ground-saving track geometry."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#11 Jourama</b> (Solo Lock - Gap: +7.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #11 over (#2, #6, #7) [$9 total stake]"
+        },
+        {
+            "number": 3,
+            "distance": "1000m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1000m Soft5",
+                "confidence_level": "Medium",
+                "suggested_wager": "Box Quinella / Trifecta 10, 7, 3, 9",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "8",
+                        "horse_name": "Oxley Tycoon",
+                        "handicapper_notes": "Gelded following debut failure where he was backed heavily as a $2.90 favorite. Returns off a 4.5-month spell with sharp Caulfield Heath jumpout form for the premier Moody/Coleman stable. Carries class upside dropping into country maiden grade.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Xuxa Kiss",
+                        "handicapper_notes": "Extreme Choice filly from the Cliff Brown yard. Fitter second-up after sticking on well for 5th on heavy ground at Wangaratta over 1000m. Ideal draw in barrier 1 provides a vital ground-saving rail advantage on the Bairnsdale sprint course.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "11",
+                        "horse_name": "Azzurri Queen",
+                        "handicapper_notes": "Blue Point filly who produced a standout performance on debut at Moe, finishing 3rd beaten just 0.6 lengths on heavy going. Matt Laurie shippers hold strong provincial class offsets. High upside and designated as the main threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "2",
+                        "horse_name": "Millionaire Lover",
+                        "handicapper_notes": "Rich Enuff gelding heavily supported into $3.50 on debut at Seymour before tiring on a wet heavy track. Drawn well in stall 2 for Jason Maskiell and Jerome Hunter; expects significant second-up improvement on a firmer Soft5 surface.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "Ballerini",
+                        "handicapper_notes": "Needs Further filly who displayed sharp early speed on debut at Hobart before weakening late as a beaten favorite. Prepped with a solid Mornington trial and gets Jake Noonan in the saddle.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Annule",
+                        "handicapper_notes": "Bivouac gelding who made a encouraging career debut over this track and distance on July 13, finishing 4th after chasing the speed. Fitter for that experience.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "8",
+                    "name": "Oxley Tycoon",
+                    "rating": 86.0,
+                    "reason": "Gelded following debut failure where he was backed heavily as a $2.90 favorite. Returns off a 4.5-month spell with sharp Caulfield Heath jumpout form for the premier Moody/Coleman stable. Carries class upside dropping into country maiden grade."
+                },
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Xuxa Kiss",
+                    "rating": 84.0,
+                    "reason": "Extreme Choice filly from the Cliff Brown yard. Fitter second-up after sticking on well for 5th on heavy ground at Wangaratta over 1000m. Ideal draw in barrier 1 provides a vital ground-saving rail advantage on the Bairnsdale sprint course."
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Azzurri Queen",
+                    "rating": 83.0,
+                    "reason": "Blue Point filly who produced a standout performance on debut at Moe, finishing 3rd beaten just 0.6 lengths on heavy going. Matt Laurie shippers hold strong provincial class offsets. High upside and designated as the main threat."
+                },
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Millionaire Lover",
+                    "rating": 82.0,
+                    "reason": "Rich Enuff gelding heavily supported into $3.50 on debut at Seymour before tiring on a wet heavy track. Drawn well in stall 2 for Jason Maskiell and Jerome Hunter; expects significant second-up improvement on a firmer Soft5 surface."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Ballerini",
+                    "rating": 81.0,
+                    "reason": "Needs Further filly who displayed sharp early speed on debut at Hobart before weakening late as a beaten favorite. Prepped with a solid Mornington trial and gets Jake Noonan in the saddle."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "8",
+                    "name": "Oxley Tycoon",
+                    "rating": 86.0,
+                    "reason": "Gelded following debut failure where he was backed heavily as a $2.90 favorite. Returns off a 4.5-month spell with sharp Caulfield Heath jumpout form for the premier Moody/Coleman stable. Carries class upside dropping into country maiden grade."
+                },
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Xuxa Kiss",
+                    "rating": 84.0,
+                    "reason": "Extreme Choice filly from the Cliff Brown yard. Fitter second-up after sticking on well for 5th on heavy ground at Wangaratta over 1000m. Ideal draw in barrier 1 provides a vital ground-saving rail advantage on the Bairnsdale sprint course."
+                },
+                {
+                    "number": "3",
+                    "barrier": "11",
+                    "name": "Azzurri Queen",
+                    "rating": 83.0,
+                    "reason": "Blue Point filly who produced a standout performance on debut at Moe, finishing 3rd beaten just 0.6 lengths on heavy going. Matt Laurie shippers hold strong provincial class offsets. High upside and designated as the main threat."
+                },
+                {
+                    "number": "9",
+                    "barrier": "2",
+                    "name": "Millionaire Lover",
+                    "rating": 82.0,
+                    "reason": "Rich Enuff gelding heavily supported into $3.50 on debut at Seymour before tiring on a wet heavy track. Drawn well in stall 2 for Jason Maskiell and Jerome Hunter; expects significant second-up improvement on a firmer Soft5 surface."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Ballerini",
+                    "rating": 81.0,
+                    "reason": "Needs Further filly who displayed sharp early speed on debut at Hobart before weakening late as a beaten favorite. Prepped with a solid Mornington trial and gets Jake Noonan in the saddle."
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Annule",
+                    "rating": 79.0,
+                    "reason": "Bivouac gelding who made a encouraging career debut over this track and distance on July 13, finishing 4th after chasing the speed. Fitter for that experience."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "11",
+                "name": "Azzurri Queen",
+                "rating": 83.0,
+                "reason": "Blue Point filly who produced a standout performance on debut at Moe, finishing 3rd beaten just 0.6 lengths on heavy going. Matt Laurie shippers hold strong provincial class offsets. High upside and designated as the main threat."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#10 Oxley Tycoon</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #10, #7, #3 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#3 Azzurri Queen</b>"
+        },
+        {
+            "number": 4,
+            "distance": "2200m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "2200m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta 5 / 1, 2, 6",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "3",
+                        "horse_name": "Chateau Dancer",
+                        "handicapper_notes": "Drops out of Sandown midweek metropolitan ($38k) and Sale provincial company into country $22k Maiden grade. Ran a excellent second over 7f at Sale two starts back on wet track. Drawn ideally in stall 3 to settle handy over 2200m.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "8",
+                        "horse_name": "Clydebank Robber",
+                        "handicapper_notes": "Consistent veteran maiden who loves this venue and distance, boasting a close second over this track and trip on Soft ground two runs back. Comes off another solid third at Sale over 2200m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Lucky Chance",
+                        "handicapper_notes": "Dominant steeplechase winner over 3600m at Coleraine last start and previously placed third in a Warrnambool high-weight maiden. Exceptionally fit jumper for Eric Musgrove who will press forward.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "2",
+                        "horse_name": "Hayai Tsuru",
+                        "handicapper_notes": "Third-up today and steps up to her preferred 2200m stamina trip after finishing mid-pack over shorter journeys. Inside barrier 2 gives her a ground-saving trip.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "6",
+                        "horse_name": "Truly Fierce",
+                        "handicapper_notes": "Lightly-raced 4yo filly who made her career debut over 2200m at Sale, finishing 6th beaten under 5 lengths. Entitled to strip much fitter second-up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Now Perform",
+                        "handicapper_notes": "Exits a 5th place effort at Sale over 2200m behind King Of Savoy. Also finished 5th over this track and distance two back, but lacks winning dash.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Chateau Dancer",
+                    "rating": 94.0,
+                    "reason": "Drops out of Sandown midweek metropolitan ($38k) and Sale provincial company into country $22k Maiden grade. Ran a excellent second over 7f at Sale two starts back on wet track. Drawn ideally in stall 3 to settle handy over 2200m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Clydebank Robber",
+                    "rating": 89.0,
+                    "reason": "Consistent veteran maiden who loves this venue and distance, boasting a close second over this track and trip on Soft ground two runs back. Comes off another solid third at Sale over 2200m."
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Lucky Chance",
+                    "rating": 86.0,
+                    "reason": "Dominant steeplechase winner over 3600m at Coleraine last start and previously placed third in a Warrnambool high-weight maiden. Exceptionally fit jumper for Eric Musgrove who will press forward. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Hayai Tsuru",
+                    "rating": 82.0,
+                    "reason": "Third-up today and steps up to her preferred 2200m stamina trip after finishing mid-pack over shorter journeys. Inside barrier 2 gives her a ground-saving trip. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Truly Fierce",
+                    "rating": 80.0,
+                    "reason": "Lightly-raced 4yo filly who made her career debut over 2200m at Sale, finishing 6th beaten under 5 lengths. Entitled to strip much fitter second-up."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "3",
+                    "name": "Chateau Dancer",
+                    "rating": 94.0,
+                    "reason": "Drops out of Sandown midweek metropolitan ($38k) and Sale provincial company into country $22k Maiden grade. Ran a excellent second over 7f at Sale two starts back on wet track. Drawn ideally in stall 3 to settle handy over 2200m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "8",
+                    "name": "Clydebank Robber",
+                    "rating": 89.0,
+                    "reason": "Consistent veteran maiden who loves this venue and distance, boasting a close second over this track and trip on Soft ground two runs back. Comes off another solid third at Sale over 2200m."
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Lucky Chance",
+                    "rating": 86.0,
+                    "reason": "Dominant steeplechase winner over 3600m at Coleraine last start and previously placed third in a Warrnambool high-weight maiden. Exceptionally fit jumper for Eric Musgrove who will press forward. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "2",
+                    "name": "Hayai Tsuru",
+                    "rating": 82.0,
+                    "reason": "Third-up today and steps up to her preferred 2200m stamina trip after finishing mid-pack over shorter journeys. Inside barrier 2 gives her a ground-saving trip. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "6",
+                    "name": "Truly Fierce",
+                    "rating": 80.0,
+                    "reason": "Lightly-raced 4yo filly who made her career debut over 2200m at Sale, finishing 6th beaten under 5 lengths. Entitled to strip much fitter second-up."
+                },
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Now Perform",
+                    "rating": 77.0,
+                    "reason": "Exits a 5th place effort at Sale over 2200m behind King Of Savoy. Also finished 5th over this track and distance two back, but lacks winning dash."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "4",
+                "name": "Lucky Chance",
+                "rating": 86.0,
+                "reason": "Dominant steeplechase winner over 3600m at Coleraine last start and previously placed third in a Warrnambool high-weight maiden. Exceptionally fit jumper for Eric Musgrove who will press forward. | <i>\ud83d\udccf Route to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#5 Chateau Dancer</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #5 over (#1, #2) [$9 total stake]"
+        },
+        {
+            "number": 5,
+            "distance": "1 3/8 m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 3/8 m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1, Exacta Box 1, 6, 8",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Winter Grace",
+                        "handicapper_notes": "Undefeated 2-for-2 over the Bairnsdale track and distance, winning the local BM56 last start. Drops from Metro BM74 two starts back at Sandown and holds a strong class and course edge.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 94,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Chateau Vega",
+                        "handicapper_notes": "Ran a close second to Winter Grace over this course and distance on July 13. Draws stall 2 to control the pace early and receives weight relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "7",
+                        "horse_name": "Blue Ismay",
+                        "handicapper_notes": "Cranbourne shipper for Busuttin and Young dropping from Seymour BM62 level. Third-up fit, proficient on soft ground, and looms as a high-upside danger.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Stretchout",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "10",
+                        "horse_name": "Outdrive",
+                        "handicapper_notes": "Mornington shipper dropping back from BM62 company at Seymour and Geelong. Has solid stamina and strong wet-track credentials.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Papal Army",
+                        "handicapper_notes": "Pakenham entrant returning to turf BM56 after competing in BM62 and BM70 company on the synthetic track. Distance suits and gets effective weight relief.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "Tee Eight",
+                        "handicapper_notes": "Cranbourne shipper for Williams yard, fit fourth-up. Previously placed over 2500m at Cranbourne and won over 2300m at Warrnambool.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Same",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Winter Grace",
+                    "rating": 94.0,
+                    "reason": "Undefeated 2-for-2 over the Bairnsdale track and distance, winning the local BM56 last start. Drops from Metro BM74 two starts back at Sandown and holds a strong class and course edge. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Outdrive",
+                    "rating": 92.0,
+                    "reason": "Mornington shipper dropping back from BM62 company at Seymour and Geelong. Has solid stamina and strong wet-track credentials. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Papal Army",
+                    "rating": 91.0,
+                    "reason": "Pakenham entrant returning to turf BM56 after competing in BM62 and BM70 company on the synthetic track. Distance suits and gets effective weight relief. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Chateau Vega",
+                    "rating": 89.0,
+                    "reason": "Ran a close second to Winter Grace over this course and distance on July 13. Draws stall 2 to control the pace early and receives weight relief. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Blue Ismay",
+                    "rating": 86.0,
+                    "reason": "Cranbourne shipper for Busuttin and Young dropping from Seymour BM62 level. Third-up fit, proficient on soft ground, and looms as a high-upside danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Stretchout</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Winter Grace",
+                    "rating": 94.0,
+                    "reason": "Undefeated 2-for-2 over the Bairnsdale track and distance, winning the local BM56 last start. Drops from Metro BM74 two starts back at Sandown and holds a strong class and course edge. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "10",
+                    "name": "Outdrive",
+                    "rating": 92.0,
+                    "reason": "Mornington shipper dropping back from BM62 company at Seymour and Geelong. Has solid stamina and strong wet-track credentials. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Papal Army",
+                    "rating": 91.0,
+                    "reason": "Pakenham entrant returning to turf BM56 after competing in BM62 and BM70 company on the synthetic track. Distance suits and gets effective weight relief. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Chateau Vega",
+                    "rating": 89.0,
+                    "reason": "Ran a close second to Winter Grace over this course and distance on July 13. Draws stall 2 to control the pace early and receives weight relief. | <i>\ud83d\udccf Same</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "7",
+                    "name": "Blue Ismay",
+                    "rating": 86.0,
+                    "reason": "Cranbourne shipper for Busuttin and Young dropping from Seymour BM62 level. Third-up fit, proficient on soft ground, and looms as a high-upside danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Stretchout</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "Tee Eight",
+                    "rating": 82.0,
+                    "reason": "Cranbourne shipper for Williams yard, fit fourth-up. Previously placed over 2500m at Cranbourne and won over 2300m at Warrnambool. | <i>\ud83d\udccf Same</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "7",
+                "name": "Blue Ismay",
+                "rating": 86.0,
+                "reason": "Cranbourne shipper for Busuttin and Young dropping from Seymour BM62 level. Third-up fit, proficient on soft ground, and looms as a high-upside danger. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Stretchout</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Winter Grace</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #3, #6 (Selective Box)"
+        },
+        {
+            "number": 6,
+            "distance": "1600m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1600m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 1; Exacta 1 / 3, 9, 10; Trifecta 1 / 3, 10 / 3, 6, 8, 9, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "15",
+                        "horse_name": "Square Deal",
+                        "handicapper_notes": "Dominant last-start winner at Echuca over 1400m in heavy conditions. Proven at the 1600m distance (6: 1-0-2) and gains significant weight relief via a 3kg apprentice claim down to 53kg effective weight. Holds superior class ratings over this field.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 93,
+                            "running_style": "E/P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "8",
+                        "horse_name": "Bank Heist",
+                        "handicapper_notes": "Last-start course-and-distance maiden winner right here on July 13 on Soft ground. Fitness is peaking, handles affected tracks well, and maps ideally from barrier 8 to settle on the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "12",
+                        "horse_name": "Miss Tramell",
+                        "handicapper_notes": "Ran a stellar 3rd over this course and distance on July 13 in BM56 company, beaten less than a length. Boasts an impressive record over 1600m (9: 2-2-2) and Soft ground (9: 2-1-2). Dangerous late closer.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "10",
+                        "horse_name": "Grand Sage",
+                        "handicapper_notes": "Proven 7-time career winner dropping back into country BM56 grade after competing in Sale BM62 company. Fresh after 37 days and possesses the tactical speed to offset a wide stall.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "5",
+                        "horse_name": "Cuban Dawn",
+                        "handicapper_notes": "Finished a narrow 2nd at Bendigo in 0-56 grade two starts back. Gets an advantageous inside barrier draw (stall 5) and will be doing his best work late.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "13",
+                        "horse_name": "Almago",
+                        "handicapper_notes": "Fitter second-up after a solid 5th at Sale in BM62 company. Won second-up last preparation over the mile and drops into country apprentice grade.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "15",
+                    "name": "Square Deal",
+                    "rating": 93.0,
+                    "reason": "Dominant last-start winner at Echuca over 1400m in heavy conditions. Proven at the 1600m distance (6: 1-0-2) and gains significant weight relief via a 3kg apprentice claim down to 53kg effective weight. Holds superior class ratings over this field. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "10",
+                    "name": "Grand Sage",
+                    "rating": 91.0,
+                    "reason": "Proven 7-time career winner dropping back into country BM56 grade after competing in Sale BM62 company. Fresh after 37 days and possesses the tactical speed to offset a wide stall. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "Bank Heist",
+                    "rating": 88.0,
+                    "reason": "Last-start course-and-distance maiden winner right here on July 13 on Soft ground. Fitness is peaking, handles affected tracks well, and maps ideally from barrier 8 to settle on the speed."
+                },
+                {
+                    "number": "8",
+                    "barrier": "13",
+                    "name": "Almago",
+                    "rating": 88.0,
+                    "reason": "Fitter second-up after a solid 5th at Sale in BM62 company. Won second-up last preparation over the mile and drops into country apprentice grade. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "12",
+                    "name": "Miss Tramell",
+                    "rating": 86.0,
+                    "reason": "Ran a stellar 3rd over this course and distance on July 13 in BM56 company, beaten less than a length. Boasts an impressive record over 1600m (9: 2-2-2) and Soft ground (9: 2-1-2). Dangerous late closer."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "15",
+                    "name": "Square Deal",
+                    "rating": 93.0,
+                    "reason": "Dominant last-start winner at Echuca over 1400m in heavy conditions. Proven at the 1600m distance (6: 1-0-2) and gains significant weight relief via a 3kg apprentice claim down to 53kg effective weight. Holds superior class ratings over this field. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "10",
+                    "name": "Grand Sage",
+                    "rating": 91.0,
+                    "reason": "Proven 7-time career winner dropping back into country BM56 grade after competing in Sale BM62 company. Fresh after 37 days and possesses the tactical speed to offset a wide stall. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "8",
+                    "name": "Bank Heist",
+                    "rating": 88.0,
+                    "reason": "Last-start course-and-distance maiden winner right here on July 13 on Soft ground. Fitness is peaking, handles affected tracks well, and maps ideally from barrier 8 to settle on the speed."
+                },
+                {
+                    "number": "8",
+                    "barrier": "13",
+                    "name": "Almago",
+                    "rating": 88.0,
+                    "reason": "Fitter second-up after a solid 5th at Sale in BM62 company. Won second-up last preparation over the mile and drops into country apprentice grade. | <i>\ud83d\udd3b Class Drop</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "12",
+                    "name": "Miss Tramell",
+                    "rating": 86.0,
+                    "reason": "Ran a stellar 3rd over this course and distance on July 13 in BM56 company, beaten less than a length. Boasts an impressive record over 1600m (9: 2-2-2) and Soft ground (9: 2-1-2). Dangerous late closer."
+                },
+                {
+                    "number": "6",
+                    "barrier": "5",
+                    "name": "Cuban Dawn",
+                    "rating": 81.0,
+                    "reason": "Finished a narrow 2nd at Bendigo in 0-56 grade two starts back. Gets an advantageous inside barrier draw (stall 5) and will be doing his best work late. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "12",
+                "name": "Miss Tramell",
+                "rating": 86.0,
+                "reason": "Ran a stellar 3rd over this course and distance on July 13 in BM56 company, beaten less than a length. Boasts an impressive record over 1600m (9: 2-2-2) and Soft ground (9: 2-1-2). Dangerous late closer."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Square Deal</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #9, #10 (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "1200m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1200m Soft5",
+                "confidence_level": "Medium",
+                "suggested_wager": "Win 1; Quinella/Exacta 1, 3; Trifecta 1 / 3, 6 / 2, 3, 5, 6, 10",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "12",
+                        "horse_name": "Magnardo",
+                        "handicapper_notes": "Dominant winner of a Ballarat Synthetic F&M BM56 last start and subsequently won a Pakenham trial on July 21. Receives key 2kg apprentice claim relief to offset the top weight tax. Holds superior recent winning form in this class.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Racetothebottom",
+                        "handicapper_notes": "Strips much fitter second-up after a commendable 3rd place finish over this track and distance on July 13 when returning from an 11-month layoff. Maps nicely in barrier 6 to stalk the pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "4",
+                        "horse_name": "Scholl Deep",
+                        "handicapper_notes": "Gave a tremendous sight on speed when finishing 2nd over this track and distance on Soft 5 ground last start. Ideal barrier 4 geometry allows for a ground-saving lead or presser position.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Pantoja",
+                        "handicapper_notes": "Ran a close 6th over 1000m here on July 13 and steps back up to 1200m where he previously scored. Consistent provincial form and ideal barrier draw make him a major contender.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Blondie's Toronado",
+                        "handicapper_notes": "Proven wet track performer with victories on Soft 5 and Heavy 8 tracks this preparation, including an Echuca BM56 win. High upside closer if front-runners engage in an early speed duel.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Fast Pace Setup",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Soobooma",
+                        "handicapper_notes": "Proven track winner who gains a huge tactical boost from barrier 1 along the inside rail. Strips third-up and ready to peak.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "12",
+                    "name": "Magnardo",
+                    "rating": 92.0,
+                    "reason": "Dominant winner of a Ballarat Synthetic F&M BM56 last start and subsequently won a Pakenham trial on July 21. Receives key 2kg apprentice claim relief to offset the top weight tax. Holds superior recent winning form in this class."
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Racetothebottom",
+                    "rating": 88.0,
+                    "reason": "Strips much fitter second-up after a commendable 3rd place finish over this track and distance on July 13 when returning from an 11-month layoff. Maps nicely in barrier 6 to stalk the pace."
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Scholl Deep",
+                    "rating": 86.0,
+                    "reason": "Gave a tremendous sight on speed when finishing 2nd over this track and distance on Soft 5 ground last start. Ideal barrier 4 geometry allows for a ground-saving lead or presser position."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Pantoja",
+                    "rating": 84.0,
+                    "reason": "Ran a close 6th over 1000m here on July 13 and steps back up to 1200m where he previously scored. Consistent provincial form and ideal barrier draw make him a major contender. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Blondie's Toronado",
+                    "rating": 83.0,
+                    "reason": "Proven wet track performer with victories on Soft 5 and Heavy 8 tracks this preparation, including an Echuca BM56 win. High upside closer if front-runners engage in an early speed duel."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "12",
+                    "name": "Magnardo",
+                    "rating": 92.0,
+                    "reason": "Dominant winner of a Ballarat Synthetic F&M BM56 last start and subsequently won a Pakenham trial on July 21. Receives key 2kg apprentice claim relief to offset the top weight tax. Holds superior recent winning form in this class."
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Racetothebottom",
+                    "rating": 88.0,
+                    "reason": "Strips much fitter second-up after a commendable 3rd place finish over this track and distance on July 13 when returning from an 11-month layoff. Maps nicely in barrier 6 to stalk the pace."
+                },
+                {
+                    "number": "6",
+                    "barrier": "4",
+                    "name": "Scholl Deep",
+                    "rating": 86.0,
+                    "reason": "Gave a tremendous sight on speed when finishing 2nd over this track and distance on Soft 5 ground last start. Ideal barrier 4 geometry allows for a ground-saving lead or presser position."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Pantoja",
+                    "rating": 84.0,
+                    "reason": "Ran a close 6th over 1000m here on July 13 and steps back up to 1200m where he previously scored. Consistent provincial form and ideal barrier draw make him a major contender. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Blondie's Toronado",
+                    "rating": 83.0,
+                    "reason": "Proven wet track performer with victories on Soft 5 and Heavy 8 tracks this preparation, including an Echuca BM56 win. High upside closer if front-runners engage in an early speed duel."
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Soobooma",
+                    "rating": 80.0,
+                    "reason": "Proven track winner who gains a huge tactical boost from barrier 1 along the inside rail. Strips third-up and ready to peak."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "10",
+                "name": "Blondie's Toronado",
+                "rating": 83.0,
+                "reason": "Proven wet track performer with victories on Soft 5 and Heavy 8 tracks this preparation, including an Echuca BM56 win. High upside closer if front-runners engage in an early speed duel."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Magnardo</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #3, #2 (Selective Box)"
+        },
+        {
+            "number": 8,
+            "distance": "1000m Soft5",
+            "surface": "Soft5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1000m Soft5",
+                "confidence_level": "High",
+                "suggested_wager": "Win: 10, Exacta: 10 / 1, 6, 7, 13",
+                "contenders": [
+                    {
+                        "program_number": "10",
+                        "barrier": "3",
+                        "horse_name": "My China Plate",
+                        "handicapper_notes": "Unbeaten filly who produced a dominant 2.8-length debut victory over this track and distance on Soft ground on July 13. Draws stall 3 to capitalize on Bairnsdale inside sprint bias and remains open to huge upside for the Lindsay Park yard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Favorable Inside Speed",
+                            "ai_holistic_score": 94,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "13",
+                        "barrier": "1",
+                        "horse_name": "Wind Dreamer",
+                        "handicapper_notes": "Last start 1000m Echuca winner in heavy ground who secures barrier 1. Gets significant weight relief carrying 119 lbs and has proven track experience.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Inside Rail Advantage",
+                            "ai_holistic_score": 89,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Poisonous",
+                        "handicapper_notes": "Former NSW metropolitan runner dropping sharply into Country BM56 grade. Has early speed to cross and lead or press, making him a major threat dropping back to 1000m.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Fast Front-Running Pace",
+                            "ai_holistic_score": 87,
+                            "running_style": "Leader",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "I'm Savvy As",
+                        "handicapper_notes": "Resumes following a breakout 1000m maiden victory at Seymour on soft ground. Appears to have strong scope, though 139 lbs top weight tax and wide draw present minor hurdles.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "2",
+                        "horse_name": "Dismantle",
+                        "handicapper_notes": "Third-up for the Mark Walker stable. Showed high speed when placing 3rd at Sale two starts back and gets barrier 2 on a track favoring inside gates.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Tactical Inside Pace",
+                            "ai_holistic_score": 84,
+                            "running_style": "Presser",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Wide Last Start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "4",
+                        "horse_name": "Eye Succeed",
+                        "handicapper_notes": "Ran a game 2nd over this track and distance on July 13 on Soft 5 ground. Draws stall 4 to gain an economical run on the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "Off-Pace",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "My China Plate",
+                    "rating": 94.0,
+                    "reason": "Unbeaten filly who produced a dominant 2.8-length debut victory over this track and distance on Soft ground on July 13. Draws stall 3 to capitalize on Bairnsdale inside sprint bias and remains open to huge upside for the Lindsay Park yard."
+                },
+                {
+                    "number": "13",
+                    "barrier": "1",
+                    "name": "Wind Dreamer",
+                    "rating": 89.0,
+                    "reason": "Last start 1000m Echuca winner in heavy ground who secures barrier 1. Gets significant weight relief carrying 119 lbs and has proven track experience."
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Poisonous",
+                    "rating": 87.0,
+                    "reason": "Former NSW metropolitan runner dropping sharply into Country BM56 grade. Has early speed to cross and lead or press, making him a major threat dropping back to 1000m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "I'm Savvy As",
+                    "rating": 85.0,
+                    "reason": "Resumes following a breakout 1000m maiden victory at Seymour on soft ground. Appears to have strong scope, though 139 lbs top weight tax and wide draw present minor hurdles."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Dismantle",
+                    "rating": 84.0,
+                    "reason": "Third-up for the Mark Walker stable. Showed high speed when placing 3rd at Sale two starts back and gets barrier 2 on a track favoring inside gates. | <i>\u26a0\ufe0f Wide Last Start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "10",
+                    "barrier": "3",
+                    "name": "My China Plate",
+                    "rating": 94.0,
+                    "reason": "Unbeaten filly who produced a dominant 2.8-length debut victory over this track and distance on Soft ground on July 13. Draws stall 3 to capitalize on Bairnsdale inside sprint bias and remains open to huge upside for the Lindsay Park yard."
+                },
+                {
+                    "number": "13",
+                    "barrier": "1",
+                    "name": "Wind Dreamer",
+                    "rating": 89.0,
+                    "reason": "Last start 1000m Echuca winner in heavy ground who secures barrier 1. Gets significant weight relief carrying 119 lbs and has proven track experience."
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Poisonous",
+                    "rating": 87.0,
+                    "reason": "Former NSW metropolitan runner dropping sharply into Country BM56 grade. Has early speed to cross and lead or press, making him a major threat dropping back to 1000m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "I'm Savvy As",
+                    "rating": 85.0,
+                    "reason": "Resumes following a breakout 1000m maiden victory at Seymour on soft ground. Appears to have strong scope, though 139 lbs top weight tax and wide draw present minor hurdles."
+                },
+                {
+                    "number": "7",
+                    "barrier": "2",
+                    "name": "Dismantle",
+                    "rating": 84.0,
+                    "reason": "Third-up for the Mark Walker stable. Showed high speed when placing 3rd at Sale two starts back and gets barrier 2 on a track favoring inside gates. | <i>\u26a0\ufe0f Wide Last Start \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "4",
+                    "name": "Eye Succeed",
+                    "rating": 82.0,
+                    "reason": "Ran a game 2nd over this track and distance on July 13 on Soft 5 ground. Draws stall 4 to gain an economical run on the speed."
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "8",
+                "name": "Poisonous",
+                "rating": 87.0,
+                "reason": "Former NSW metropolitan runner dropping sharply into Country BM56 grade. Has early speed to cross and lead or press, making him a major threat dropping back to 1000m. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#10 My China Plate</b> (Solo Lock - Gap: +5.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #10 over (#13, #6) [$9 total stake]"
+        }
+    ],
+    "daily_doubles": [
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R1 \u2794 R2):</b> Single <b>#7 King Tagaloa</b> in R1 & <b>#11 Jourama</b> in R2 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R4 \u2794 R5):</b> Single <b>#5 Chateau Dancer</b> in R4 & <b>#1 Winter Grace</b> in R5 on rolling Pick 3/4/DD tickets.",
+        "<b>\ud83d\udd25 CONSECUTIVE LOCK SEQUENCE (R5 \u2794 R6):</b> Single <b>#1 Winter Grace</b> in R5 & <b>#1 Square Deal</b> in R6 on rolling Pick 3/4/DD tickets.",
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#7 (Solo Lock)) with (#11 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#11 (Solo Lock)) with (#10, #7)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#10, #7) with (#5 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1, #3)",
+        "<b>R7 \u2794 R8 DAILY DOUBLE:</b> Play (#1, #3) with (#10 (Solo Lock))"
+    ]
+}
