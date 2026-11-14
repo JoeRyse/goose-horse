@@ -44,14 +44,18 @@ DB_PATH = os.path.join(LOGS_DIR, "master_betting_history.db")
 
 
 def normalize_model_name(name):
-  """Maps legacy or deprecated Gemini model strings to active supported API endpoints."""
+  """Maps legacy or shorthand Gemini model strings to active supported API endpoints."""
   clean = str(name).strip()
   if clean.startswith("models/"):
     clean = clean.replace("models/", "")
 
   mapping = {
-      "gemini-1.5-pro": "gemini-1.5-pro-latest",
-      "gemini-1.5-flash": "gemini-1.5-flash-latest",
+      "gemini-1.5-pro": "gemini-3.8-flash",
+      "gemini-1.5-flash": "gemini-3.8-flash",
+      "gemini-1.5-flash-latest": "gemini-3.8-flash",
+      "3.8-flash": "gemini-3.8-flash",
+      "4-hydrogen": "gemini-4-hydrogen",
+      "hydrogen": "gemini-4-hydrogen",
   }
   return mapping.get(clean, clean)
 
@@ -949,19 +953,28 @@ if st.sidebar.button("🚀 PUSH NEW CARDS TO VERCEL"):
     st.sidebar.error(f"Deploy error: {e}")
 
 st.sidebar.markdown("---")
-st.sidebar.subheader("🤖 AI Model")
-model_options = [
+st.sidebar.subheader("🤖 Dual-Engine AI Pipeline")
+parser_model_options = [
+    "gemini-3.8-flash",
     "gemini-3.7-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-    "gemini-3.6-flash",
-    "gemini-2.0-flash-exp",
-    "gemini-1.5-pro",
+    "gemini-3.5-flash-lite",
 ]
-target_model = st.sidebar.selectbox("Select Model", model_options, index=0)
+parser_model = st.sidebar.selectbox(
+    "📄 PDF Parser Model (Fast Extraction)", parser_model_options, index=0
+)
+model_options = [
+    "gemini-4-hydrogen",
+    "gemini-4-argon",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.1-pro-preview",
+]
+target_model = st.sidebar.selectbox(
+    "🧠 Handicapping Model (Deep Analysis)", model_options, index=0
+)
 if st.sidebar.checkbox("Type a Custom Model Name?"):
   target_model = st.sidebar.text_input(
-      "Model Name", value="gemini-3.7-flash"
+      "Handicapping Model Name", value="gemini-4-hydrogen"
   )
 creativity_temp = st.sidebar.slider("Creativity (Temperature)", 0.0, 1.0, 0.4, 0.1)
 manual_races_input = st.sidebar.number_input(
@@ -1044,8 +1057,8 @@ with tab_handicap:
       st.error("Please provide an API Key and a PDF file.")
     else:
       with st.spinner(
-          f"Reading and Analyzing with {target_model} (Temp:"
-          f" {creativity_temp})..."
+          f"⚡ Parsing PDF with {parser_model} ➔ 🧠 Handicapping with"
+          f" {target_model} (Temp: {creativity_temp})..."
       ):
         try:
           temp_pdf_path = os.path.join(TEMP_DIR, "current_card.pdf")
@@ -1211,7 +1224,7 @@ with tab_handicap:
               )
               try:
                 pre_model = genai.GenerativeModel(
-                    "gemini-1.5-flash-latest",
+                    normalize_model_name(parser_model),
                     generation_config={"response_mime_type": "application/json"},
                 )
                 count_response = pre_model.generate_content(
@@ -1228,8 +1241,12 @@ with tab_handicap:
 
             st.success(f"📋 Detected **{total_races} Races** on today's card.")
 
-          # --- 3. MAIN MODEL INITIALIZATION FOR RACE ANALYSIS ---
+          # --- 3. DUAL-ENGINE PIPELINE: 3.8-FLASH PDF PARSER -> 4-HYDROGEN HANDICAPPER ---
+          import concurrent.futures
+
+          active_parser_name = normalize_model_name(parser_model)
           active_model_name = normalize_model_name(target_model)
+
           try:
             model = genai.GenerativeModel(
                 active_model_name,
@@ -1241,7 +1258,7 @@ with tab_handicap:
                 },
             )
           except Exception:
-            active_model_name = "gemini-2.0-flash"
+            active_model_name = "gemini-3.8-flash"
             model = genai.GenerativeModel(
                 active_model_name,
                 system_instruction=system_instruction,
@@ -1252,21 +1269,76 @@ with tab_handicap:
                 },
             )
 
-          # --- 3. RACE-BY-RACE API LOOP ---
-          raw_extracted_data = []
-          progress_bar = st.progress(0, text="Starting Race-by-Race Analysis...")
+          def parse_race_from_pdf(r_num):
+            """Stage 1: Fast PDF extraction for a single race using gemini-3.8-flash."""
+            extract_prompt = f"""
+            Extract ALL past performance and race card data for RACE {r_num} ONLY from the attached PDF program for {selected_track}.
+            OFFICIAL SCRATCHES TO EXCLUDE: {scratches if scratches.strip() else "None"}
+            Include:
+            1. Race {r_num} exact distance, surface, class/grade, purse, and conditions.
+            2. Every active (non-scratched) runner: Program #, Post/Barrier, Horse Name, Jockey/Driver, Trainer, Weight/Claim/Medications, Morning Line/Odds.
+            3. Running Style (E, E/P, P, S, C), early pace call positions, fractional/sectional splits, last 3-5 Speed Figures & Class Ratings, class transitions (e.g. MSW/Allowance to Claiming, Metro to Provincial/Country), recent finishes, track/distance/wet record, workouts, and trip/comment notes.
+            Be comprehensive and concise so the downstream handicapping engine has 100% of Race {r_num}'s form facts.
+            """
+            for p_name in [active_parser_name, "gemini-3.8-flash", "gemini-3.7-flash"]:
+              try:
+                p_model = genai.GenerativeModel(
+                    p_name,
+                    generation_config={
+                        "temperature": 0.1,
+                        "max_output_tokens": 6144,
+                    },
+                )
+                p_resp = p_model.generate_content([extract_prompt, remote_file])
+                if p_resp and p_resp.text and len(p_resp.text.strip()) > 80:
+                  return p_resp.text.strip()
+              except Exception:
+                continue
+            return ""
 
+          # Stage 1: Launch parallel PDF parsing across races with gemini-3.8-flash
+          raw_extracted_data = []
+          progress_bar = st.progress(
+              0,
+              text=f"⚡ Stage 1: {active_parser_name} parsing {total_races} races from PDF...",
+          )
+
+          executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+          parse_futures = {
+              r_num: executor.submit(parse_race_from_pdf, r_num)
+              for r_num in range(1, total_races + 1)
+          }
+
+          # Stage 2: Deep Race-by-Race Handicapping with gemini-4-hydrogen
           for race_num in range(1, total_races + 1):
             progress_bar.progress(
+                (race_num - 0.5) / total_races,
+                text=(
+                    f"📄 {active_parser_name} extracting Race {race_num} of"
+                    f" {total_races}..."
+                ),
+            )
+            try:
+              parsed_race_sheet = parse_futures[race_num].result(timeout=60)
+            except Exception:
+              parsed_race_sheet = ""
+
+            progress_bar.progress(
                 race_num / total_races,
-                text=f"🐎 Handicapping Race {race_num} of {total_races}...",
+                text=(
+                    f"🧠 {active_model_name} handicapping Race {race_num} of"
+                    f" {total_races}..."
+                ),
             )
 
             race_user_prompt = f"""
-                        [TASK] Deeply handicap Race {race_num} ONLY from the attached PDF for {selected_track}.
+                        [TASK] Deeply handicap Race {race_num} ONLY for {selected_track}.
                         [TRACK PROFILE] {current_track_profile}
                         [OFFICIAL SCRATCHES & UPDATES]
                         {scratches if scratches.strip() else "No scratches provided."}
+
+                        [EXTRACTED RACE {race_num} PAST PERFORMANCES (Parsed by {active_parser_name})]
+                        {parsed_race_sheet if parsed_race_sheet else "Use attached PDF directly for Race " + str(race_num)}
 
                         [CRITICAL HANDICAPPING DIRECTIVES FOR RACE {race_num}]
                             1. ANALYZE RACE {race_num} ONLY.
@@ -1276,16 +1348,21 @@ with tab_handicap:
                             5. ENFORCE OVERRIDE RULES:
                             - Class Drop Elevator: If dropping from MSW ($75k+) or Allowance to MCL/CLM, set 'class_drop_bonus_applied': true and grant +10 points.
                             - Post-Scratch Lone Speed: If scratches leave only ONE 'E' runner, set 'is_lone_speed': true, set 'pace_scenario_eval': 'Lone Speed (+6)', and grant +6 points.
-                            6. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.                        
+                            6. STRICT STRING SANITIZATION: NEVER use double quotes (") inside text string fields like 'handicapper_notes'. Use single quotes (') or omit them entirely to maintain valid JSON syntax.
                         """
+
+            # Only attach the heavy PDF binary if Stage 1 text extraction was empty
+            handicap_payload = (
+                [race_user_prompt]
+                if len(parsed_race_sheet) > 80
+                else [race_user_prompt, remote_file]
+            )
 
             response = None
             last_err = None
             for attempt in range(3):
               try:
-                response = model.generate_content(
-                    [race_user_prompt, remote_file]
-                )
+                response = model.generate_content(handicap_payload)
                 if response and response.text:
                   break
               except Exception as err:
@@ -1293,9 +1370,10 @@ with tab_handicap:
                 err_str = str(err)
                 if "404" in err_str or "not found" in err_str.lower():
                   for alt_name in [
-                      "gemini-3.7-flash-latest",
-                      "gemini-2.0-flash",
-                      "gemini-1.5-flash-latest",
+                      "gemini-4-hydrogen",
+                      "gemini-4-argon",
+                      "gemini-3.8-flash",
+                      "gemini-3.7-flash",
                   ]:
                     try:
                       fallback_model = genai.GenerativeModel(
@@ -1308,10 +1386,11 @@ with tab_handicap:
                           },
                       )
                       response = fallback_model.generate_content(
-                          [race_user_prompt, remote_file]
+                          handicap_payload
                       )
                       if response and response.text:
                         model = fallback_model
+                        active_model_name = alt_name
                         break
                     except Exception as f_err:
                       last_err = f_err
@@ -1350,6 +1429,7 @@ with tab_handicap:
             except Exception as e:
               st.error(f"⚠️ Error parsing JSON for Race {race_num}: {e}")
 
+          executor.shutdown(wait=False)
           progress_bar.empty()
 
           # --- 4. TRACK WEIGHTS & RATING CALCULATOR ---
