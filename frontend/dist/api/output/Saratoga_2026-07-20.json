@@ -1,0 +1,1692 @@
+{
+    "meta": {
+        "track": "Saratoga",
+        "date": "2026-07-20",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1 1/8 Miles Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1 1/8 Miles Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 3,
+                        "horse_name": "Mcdiesel",
+                        "handicapper_notes": "Inside draw is a plus at 1 1/8 miles. Will need to save ground and look for a late run.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "American Grant",
+                        "handicapper_notes": "Strong speed figures and closing style fits the tiring dirt route profile.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Natural Hunk",
+                        "handicapper_notes": "Mid-pack runner with okay figures, needs a step forward.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Sturdy",
+                        "handicapper_notes": "Classy runner but outside post at this distance is a negative. Still a major threat.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Curvino",
+                        "handicapper_notes": "Closer who will be running late, but wide draw hurts.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Sturdy",
+                    "rating": 92.0,
+                    "reason": "Classy runner but outside post at this distance is a negative. Still a major threat."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Mcdiesel",
+                    "rating": 85.0,
+                    "reason": "Inside draw is a plus at 1 1/8 miles. Will need to save ground and look for a late run."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Curvino",
+                    "rating": 84.0,
+                    "reason": "Closer who will be running late, but wide draw hurts."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Natural Hunk",
+                    "rating": 80.0,
+                    "reason": "Mid-pack runner with okay figures, needs a step forward."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "American Grant",
+                "rating": 88.0,
+                "reason": "Strong speed figures and closing style fits the tiring dirt route profile."
+            }
+        },
+        {
+            "number": 2,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "Low",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "Low",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Iwokeuplikethis",
+                        "handicapper_notes": "First time starter, needs to show.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Emergency Nine",
+                        "handicapper_notes": "One start, showed little, needs improvement.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Montevertine",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Froghollowsummer",
+                        "handicapper_notes": "Has some experience, tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Raynham Hall",
+                        "handicapper_notes": "Tactical speed fits the Mellon turf profile.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Dreamy Girl",
+                        "handicapper_notes": "Closer, might struggle with the pace.",
+                        "features": {
+                            "ai_holistic_score": 76,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Battle Rifle",
+                        "handicapper_notes": "Longshot, needs a lot of help.",
+                        "features": {
+                            "ai_holistic_score": 70,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "All Bright",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Forever To Go",
+                        "handicapper_notes": "Early speed, but drawn outside which is a plus on this course.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 10,
+                        "horse_name": "Ticket To Ride",
+                        "handicapper_notes": "Tactical speed and drawn well outside for this course.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 11,
+                        "horse_name": "Mizty Fog",
+                        "handicapper_notes": "Outside draw is a plus, tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 12,
+                        "horse_name": "Waitin'onapromise",
+                        "handicapper_notes": "Early speed drawn far outside, fits the bias perfectly.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "10",
+                    "barrier": "10",
+                    "name": "Ticket To Ride",
+                    "rating": 88.0,
+                    "reason": "Tactical speed and drawn well outside for this course."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Forever To Go",
+                    "rating": 85.0,
+                    "reason": "Early speed, but drawn outside which is a plus on this course."
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Mizty Fog",
+                    "rating": 84.0,
+                    "reason": "Outside draw is a plus, tactical speed."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Raynham Hall",
+                    "rating": 82.0,
+                    "reason": "Tactical speed fits the Mellon turf profile."
+                }
+            ],
+            "danger_horse": {
+                "number": "12",
+                "barrier": "12",
+                "name": "Waitin'onapromise",
+                "rating": 90.0,
+                "reason": "Early speed drawn far outside, fits the bias perfectly."
+            }
+        },
+        {
+            "number": 3,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Bargain Purchase",
+                        "handicapper_notes": "Inside draw, tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Baby Meanie",
+                        "handicapper_notes": "Closer, might pick up pieces.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Bootsy's A Rascal",
+                        "handicapper_notes": "Needs improvement.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Start The Day",
+                        "handicapper_notes": "Closer, could benefit from tiring track.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Mr R T",
+                        "handicapper_notes": "Early/Presser, solid figures.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Inherent Promise",
+                        "handicapper_notes": "Presser, okay figures.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Big Brooklyn",
+                        "handicapper_notes": "Early speed, might get tired late.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Sfumato",
+                        "handicapper_notes": "Tactical speed, strong connections.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Yahearmenow",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sfumato",
+                    "rating": 90.0,
+                    "reason": "Tactical speed, strong connections."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Mr R T",
+                    "rating": 88.0,
+                    "reason": "Early/Presser, solid figures."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Bargain Purchase",
+                    "rating": 85.0,
+                    "reason": "Inside draw, tactical speed."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Big Brooklyn",
+                    "rating": 84.0,
+                    "reason": "Early speed, might get tired late."
+                }
+            ],
+            "danger_horse": {
+                "number": "4",
+                "barrier": "4",
+                "name": "Start The Day",
+                "rating": 80.0,
+                "reason": "Closer, could benefit from tiring track."
+            }
+        },
+        {
+            "number": 4,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Celestial Body",
+                        "handicapper_notes": "Early speed, inside draw.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Spitfire",
+                        "handicapper_notes": "Presser, strong figures, fits well.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Quality Of Essence",
+                        "handicapper_notes": "Closer, needs pace meltdown.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Killa Sally",
+                        "handicapper_notes": "Early/Presser, solid contender.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Hot Gossip",
+                        "handicapper_notes": "Presser, consistent.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Ubique",
+                        "handicapper_notes": "Presser, needs a step forward.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Ur Desire",
+                        "handicapper_notes": "Presser, okay figures.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Sparkling Mama",
+                        "handicapper_notes": "Early speed, outside draw.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Spitfire",
+                    "rating": 92.0,
+                    "reason": "Presser, strong figures, fits well."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Killa Sally",
+                    "rating": 88.0,
+                    "reason": "Early/Presser, solid contender."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Hot Gossip",
+                    "rating": 85.0,
+                    "reason": "Presser, consistent."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Ubique",
+                    "rating": 84.0,
+                    "reason": "Presser, needs a step forward."
+                }
+            ],
+            "danger_horse": {
+                "number": "8",
+                "barrier": "8",
+                "name": "Sparkling Mama",
+                "rating": 86.0,
+                "reason": "Early speed, outside draw."
+            }
+        },
+        {
+            "number": 5,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Factory Setting",
+                        "handicapper_notes": "Inside post is a massive advantage on the inner turf. Tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Little Finch",
+                        "handicapper_notes": "Inside draw helps, but closing style might be tough.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Amazing Gracer",
+                        "handicapper_notes": "Inside draw is great, tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Adroit",
+                        "handicapper_notes": "Closer, needs a lot of pace.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Magic In My Eyes",
+                        "handicapper_notes": "Presser, needs improvement.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "No Tide",
+                        "handicapper_notes": "Closer, solid connections.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Okay Annie",
+                        "handicapper_notes": "Closer, good figures.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Saratoga Daisy",
+                        "handicapper_notes": "Presser, needs to step up.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Rizz",
+                        "handicapper_notes": "Presser, outside draw is tough.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 10,
+                        "horse_name": "Ganderella",
+                        "handicapper_notes": "Closer, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 11,
+                        "horse_name": "Axis Point",
+                        "handicapper_notes": "Early speed, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 12,
+                        "horse_name": "Pelican Pride",
+                        "handicapper_notes": "Presser, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Factory Setting",
+                    "rating": 95.0,
+                    "reason": "Inside post is a massive advantage on the inner turf. Tactical speed."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Rizz",
+                    "rating": 85.0,
+                    "reason": "Presser, outside draw is tough."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Okay Annie",
+                    "rating": 84.0,
+                    "reason": "Closer, good figures."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "No Tide",
+                    "rating": 82.0,
+                    "reason": "Closer, solid connections."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Amazing Gracer",
+                "rating": 88.0,
+                "reason": "Inside draw is great, tactical speed."
+            }
+        },
+        {
+            "number": 6,
+            "distance": "5 1/2 Furlongs Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "5 1/2 Furlongs Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Ed Charles",
+                        "handicapper_notes": "First time starter, inside draw.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Vapor Trail",
+                        "handicapper_notes": "Presser, experience helps.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Bet Bold",
+                        "handicapper_notes": "Presser, solid debut.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "George St.",
+                        "handicapper_notes": "First time starter, strong connections.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Diamond Juan",
+                        "handicapper_notes": "Closer, needs pace.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Braums Run",
+                        "handicapper_notes": "Presser, good figures.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Crypto King",
+                        "handicapper_notes": "First time starter, early speed profile fits juvenile sprint bias.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Tonja's Treasure",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Tutto A Posto",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 10,
+                        "horse_name": "Covered Option",
+                        "handicapper_notes": "First time starter.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Braums Run",
+                    "rating": 88.0,
+                    "reason": "Presser, good figures."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "George St.",
+                    "rating": 85.0,
+                    "reason": "First time starter, strong connections."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Bet Bold",
+                    "rating": 84.0,
+                    "reason": "Presser, solid debut."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Vapor Trail",
+                    "rating": 82.0,
+                    "reason": "Presser, experience helps."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Crypto King",
+                "rating": 90.0,
+                "reason": "First time starter, early speed profile fits juvenile sprint bias."
+            }
+        },
+        {
+            "number": 7,
+            "distance": "1 3/8 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1 3/8 Miles Turf",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Silvology",
+                        "handicapper_notes": "Presser, inside draw.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Agia Marina",
+                        "handicapper_notes": "Presser, solid figures.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "National Archive",
+                        "handicapper_notes": "Presser, strong form and class.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Sailaway",
+                        "handicapper_notes": "Closer, needs pace.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Snipsnippitysnip",
+                        "handicapper_notes": "Presser, consistent.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Don't Jinx It",
+                        "handicapper_notes": "Presser, good connections.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Vronti (gb)",
+                        "handicapper_notes": "Presser, strong European form.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Sol D'oro",
+                        "handicapper_notes": "Presser, solid figures.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "National Archive",
+                    "rating": 92.0,
+                    "reason": "Presser, strong form and class."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Silvology",
+                    "rating": 88.0,
+                    "reason": "Presser, inside draw."
+                },
+                {
+                    "number": "8",
+                    "barrier": "8",
+                    "name": "Sol D'oro",
+                    "rating": 88.0,
+                    "reason": "Presser, solid figures."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Don't Jinx It",
+                    "rating": 86.0,
+                    "reason": "Presser, good connections."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "7",
+                "name": "Vronti (gb)",
+                "rating": 90.0,
+                "reason": "Presser, strong European form."
+            }
+        },
+        {
+            "number": 8,
+            "distance": "1 Mile Dirt",
+            "surface": "Dirt",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 8,
+                "distance_surface": "1 Mile Dirt",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Georgia Magic",
+                        "handicapper_notes": "Presser, inside draw.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Playa Del Mar",
+                        "handicapper_notes": "Early speed, strong figures.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Iron Dome",
+                        "handicapper_notes": "Presser, top figures and class.",
+                        "features": {
+                            "ai_holistic_score": 95,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Thrilla",
+                        "handicapper_notes": "Presser, needs improvement.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Freddie B",
+                        "handicapper_notes": "Early speed, stepping up.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Forever Man",
+                        "handicapper_notes": "Early speed, outside draw.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Iron Dome",
+                    "rating": 95.0,
+                    "reason": "Presser, top figures and class."
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Georgia Magic",
+                    "rating": 88.0,
+                    "reason": "Presser, inside draw."
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Forever Man",
+                    "rating": 84.0,
+                    "reason": "Early speed, outside draw."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Thrilla",
+                    "rating": 82.0,
+                    "reason": "Presser, needs improvement."
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "2",
+                "name": "Playa Del Mar",
+                "rating": 92.0,
+                "reason": "Early speed, strong figures."
+            }
+        },
+        {
+            "number": 9,
+            "distance": "5 1/2 Furlongs Turf",
+            "surface": "Turf",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 9,
+                "distance_surface": "5 1/2 Furlongs Turf",
+                "confidence_level": "High",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Ewing",
+                        "handicapper_notes": "Early speed, inside draw.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Learntodiscover (gb)",
+                        "handicapper_notes": "Presser, European form.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Throckmorton",
+                        "handicapper_notes": "Early speed, solid figures.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Intricate Spirit",
+                        "handicapper_notes": "Early speed, consistent.",
+                        "features": {
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Monster",
+                        "handicapper_notes": "Early speed, needs to step up.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Unwritten Rule",
+                        "handicapper_notes": "Presser, good connections.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 7,
+                        "horse_name": "Longshoreman",
+                        "handicapper_notes": "Presser, outside draw is a plus on this course.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Stradale",
+                        "handicapper_notes": "Presser, outside draw helps.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 10,
+                        "horse_name": "Johnny's Red Storm",
+                        "handicapper_notes": "Early speed, outside draw fits the bias perfectly.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 11,
+                        "horse_name": "Rockies Balboa",
+                        "handicapper_notes": "Presser, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 12,
+                        "horse_name": "Bobrovsky",
+                        "handicapper_notes": "Presser, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 13,
+                        "horse_name": "El Magnate",
+                        "handicapper_notes": "Early speed, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Longshoreman",
+                    "rating": 90.0,
+                    "reason": "Presser, outside draw is a plus on this course."
+                },
+                {
+                    "number": "3",
+                    "barrier": "3",
+                    "name": "Throckmorton",
+                    "rating": 88.0,
+                    "reason": "Early speed, solid figures."
+                },
+                {
+                    "number": "9",
+                    "barrier": "9",
+                    "name": "Stradale",
+                    "rating": 88.0,
+                    "reason": "Presser, outside draw helps."
+                },
+                {
+                    "number": "4",
+                    "barrier": "4",
+                    "name": "Intricate Spirit",
+                    "rating": 86.0,
+                    "reason": "Early speed, consistent."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "10",
+                "name": "Johnny's Red Storm",
+                "rating": 92.0,
+                "reason": "Early speed, outside draw fits the bias perfectly."
+            }
+        },
+        {
+            "number": 10,
+            "distance": "1 1/16 Miles Turf",
+            "surface": "Turf",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 10,
+                "distance_surface": "1 1/16 Miles Turf",
+                "confidence_level": "Medium",
+                "contenders": [
+                    {
+                        "barrier": 1,
+                        "horse_name": "Twirly",
+                        "handicapper_notes": "Inside post is a massive advantage on the inner turf. Tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 90,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 2,
+                        "horse_name": "Roagna",
+                        "handicapper_notes": "Inside draw helps, presser.",
+                        "features": {
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 3,
+                        "horse_name": "Mermaid",
+                        "handicapper_notes": "Inside draw is great, tactical speed.",
+                        "features": {
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "barrier": 4,
+                        "horse_name": "Luckforyou",
+                        "handicapper_notes": "Presser, needs improvement.",
+                        "features": {
+                            "ai_holistic_score": 80,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 5,
+                        "horse_name": "Artistic Success",
+                        "handicapper_notes": "Presser, solid figures.",
+                        "features": {
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 6,
+                        "horse_name": "Leslie's Star",
+                        "handicapper_notes": "Early speed, consistent.",
+                        "features": {
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 8,
+                        "horse_name": "Doppio Espresso",
+                        "handicapper_notes": "Presser, outside draw.",
+                        "features": {
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 9,
+                        "horse_name": "Roseberns Dream",
+                        "handicapper_notes": "Early speed, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 78,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "barrier": 10,
+                        "horse_name": "Greyjoy",
+                        "handicapper_notes": "Closer, wide draw.",
+                        "features": {
+                            "ai_holistic_score": 75,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Twirly",
+                    "rating": 90.0,
+                    "reason": "Inside post is a massive advantage on the inner turf. Tactical speed."
+                },
+                {
+                    "number": "2",
+                    "barrier": "2",
+                    "name": "Roagna",
+                    "rating": 88.0,
+                    "reason": "Inside draw helps, presser."
+                },
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Artistic Success",
+                    "rating": 85.0,
+                    "reason": "Presser, solid figures."
+                },
+                {
+                    "number": "6",
+                    "barrier": "6",
+                    "name": "Leslie's Star",
+                    "rating": 84.0,
+                    "reason": "Early speed, consistent."
+                }
+            ],
+            "danger_horse": {
+                "number": "3",
+                "barrier": "3",
+                "name": "Mermaid",
+                "rating": 92.0,
+                "reason": "Inside draw is great, tactical speed."
+            }
+        }
+    ]
+}
