@@ -1,0 +1,40 @@
+{
+    "track_code": "MARY",
+    "type": "Harness",
+    "dual_catalog": true,
+    "location": "Maryborough (Carisbrook Raceway), Central Goldfields, Victoria, Australia",
+    "nicknames": [
+        "Maryborough Harness Racing Club",
+        "Carisbrook Raceway",
+        "Home of the Redwood All-Trotting Carnival",
+        "Central Goldfields Fast Mile Track"
+    ],
+    "courses": {
+        "main_all_weather": {
+            "circumference": "1,000 metres (5 Furlongs)",
+            "surface": "All-Weather Crushed Bluestone Dust (Fast-draining granite cushion)",
+            "stretch_length": "224 metres — equipped with inside Passing / Sprint Lane",
+            "bias_notes": "Anti-clockwise (left-handed). One of Victoria's fastest and best-cambered 1,000-metre provincial harness circuits, located at Carisbrook near Maryborough. Features sweeping banked turns, a 224-metre home straight, and an active inside Sprint Lane (Passing Lane). Mobile-start sprints (1690m) heavily favor fast Front-Row gate beginners ('E' style, Barriers 1-5) and the horse trailing on the 'Leader's Back' ('P' style, often Barrier 1 or Barrier 8), which gets an unobstructed inside shot up the 224m Sprint Lane.",
+            "post_bias": "FRONT ROW (1-5) & BARRIER 8 (LEADER'S BACK) GOLDMINE: Mobile configuration places 7 horses on the Front Row (Barriers 1-7) and up to 6 on the Second Row / Back Row (Barriers 8-13). Barrier 1 ('The Pole') and fast-breaking Front Row draws (2-5) command the marker pegs. Barrier 8 starts directly behind Barrier 1 — if #1 leads or trails the leader, #8 gets an economical marker-peg trip into the Sprint Lane. Wide Front Row (6-7) and outside Back Row (10-13) suffer heavy ground loss over 1690m."
+        }
+    },
+    "handicapping_angles": {
+        "sprint_lane_224m_leaders_back_pocket_play": "Maryborough's active 224m Sprint Lane makes the 'Leader's Back' (gardenia/pocket seat, 'P' style) the highest-value trip on the card. Horses drawn Barrier 1 (handing up to a superior favourite) or Barrier 8 (trailing #1) save 100% of their fuel for a 27-second final quarter up the inside Sprint Lane (+3.5 pts pocket/sprint-lane angle).",
+        "1690m_short_course_front_end_lock": "In 1690m mobile sprints, the start is just before the winning post with a short run to the first turn. Horses that cross to the marker-peg lead ('E' style with 'is_lone_speed': true) win at an elite rate (+4.0 pts). Heavily downgrade backmarkers ('C') drawn wide on the second row over 1690m.",
+        "2190m_and_2690m_class_and_three_wide_train": "Over 2190m and 2690m routes, strong pacers/trotters in the running line ('1x1' or 3-wide with cover 'S' style) driven by patient top-tier reinsmen can loop tired front-runners in the final 400m.",
+        "redwood_trotting_headquarters_gait_manners": "Maryborough is Australia's spiritual home of squaregaiting (hosting the famous Group 1 Redwood Classic & Victoria Trotters Derby). In Trotting races, clean gait manners are 80% of the handicap — heavily penalize trotters that broke gait ('galloped') in 2+ of their last 4 starts (-4.0 pts) and upgrade safe-stepping trotters off the Front Mark (+3.0 pts).",
+        "premier_victorian_stables_and_reinsmen": "Central Victorian and Melton powerhouses dominate Maryborough cards: trainers Emma Stewart, Andy Gath, Jess Tubbs, Brent Lilley, Anton Golino, Julie Douglas, and David Abrahams; and elite drivers James Herbertson (Maryborough specialist), Chris Alford, Greg Sugars, Kate Gath, Mark Pitt, and Nathan Jack (+2.5 pts).",
+        "typical_distances": "Standard mobile & standing-start distances: 1690m (Sprint), 2190m (Middle Distance), 2690m (Cup / Staying Trot)."
+    },
+    "par_adjustment": {
+        "tier": "Tier 2 (Victorian Premier 1000m Harness HQ)",
+        "class_rating": 90,
+        "speed_par_offsets": {
+            "sprint_1690m": "+1.0",
+            "route_2190m": "+1.5"
+        },
+        "lengths": 0.0,
+        "points": 2.0
+    },
+    "region_group": "Australia_Harness"
+}

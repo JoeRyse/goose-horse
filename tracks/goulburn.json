@@ -1,34 +1,38 @@
 {
     "track_code": "GOUL",
-    "location": "Goulburn, New South Wales, Australia",
+    "location": "Goulburn, Southern Tablelands, NSW, Australia",
     "nicknames": [
         "Goulburn Racecourse",
         "Goulburn & District Racing Club",
-        "Australia's Oldest Inland City"
+        "Southern Tablelands Championship HQ",
+        "Home of the Goulburn Cup & Guy Walter Stakes"
     ],
     "courses": {
         "main_turf": {
             "circumference": "1,750 metres",
-            "surface": "Turf",
-            "stretch_length": "400 metres",
-            "bias_notes": "Clockwise (right-handed). A highly regarded, modern country HQ track featuring a perfectly symmetrical oval shape. The 1,750m circumference and generous 400m home straight make it one of the fairest galloping tracks on the New South Wales country and provincial circuits, giving all running styles a legitimate chance.",
-            "post_bias": "Extremely fair. The track utilizes two massive chutes for the 1000m and 1600m starts, which provide long, uninterrupted straight runs before the first corner. Wide barriers are rarely a severe penalty here compared to tighter NSW country tracks."
+            "surface": "Turf (Cool-climate Rye and Couch grass on deep free-draining sandy loam)",
+            "stretch_length": "400 metres (24m championship track width)",
+            "bias_notes": "Clockwise (right-handed). Widely regarded as one of the finest, fairest galloping surfaces in New South Wales outside Metropolitan Sydney. Features a symmetrical 1,750m oval, a broad 24-metre width, sweeping cambered turns, and a testing 400-metre home straight. Because of the wide 24m expanse and long 400m run-in, weak front-runners ('E') cannot hide late — tactical pressers ('P') and sustained big-striding swoopers ('S' and 'C') have every chance to reel in leaders.",
+            "post_bias": "ULTRA-FAIR CHUTE GEOMETRY: Goulburn utilizes two massive starting chutes at 1000m and 1600m (plus 1400m/1500m extensions) that provide long, straight runs of 450m-600m before the first bend. Do NOT heavily penalize wide barrier draws (9+) in 1000m, 1400m, or 1600m chute starts (cap penalty at -1 pt max)."
         }
     },
     "handicapping_angles": {
-        "the_fairway_swoop": "Because the track is so spacious and features a massive 400m straight, one-dimensional 'Need-the-Lead' front runners often find themselves exposed in the final furlong. Upgrade 'Swoopers' (closers) with sustained galloping strides.",
-        "the_chute_allowance": "In 1000m and 1600m events, do not aggressively downgrade horses drawn wide. The chutes provide a massive runway to balance up and find cover without burning excessive early energy.",
-        "sydney_metro_and_provincial_shippers": "As a premier NSW country racing hub, Goulburn attracts high-quality regional horses as well as elite Sydney metropolitan trainers (Warwick Farm, Randwick, Rosehill) looking for confidence-boosting maiden or class 1 wins. Respect Metro-grade shippers heavily (+3.0 pts)."
+        "sydney_metro_and_warwick_farm_strike_zone": "Situated just 1 hour down the Hume Highway from Warwick Farm and Kembla Grange, Goulburn is a primary target for top Sydney Metropolitan stables (Bjorn Baker, Waterhouse & Bott, Annabel Neasham & Rob Archibald, Chris Waller, Ciaron Maher, Richard & Will Freedman, Brad Widdup, Matthew Smith) debuting blue-blood maidens or dropping benchmark horses for confidence wins. Heavily upgrade Sydney Metro/Provincial shippers (+3.5 pts).",
+        "championship_24m_width_and_400m_swooper_lane": "Over the 24m-wide, 400m home straight, horses with top L600m/L400m closing sectionals ('P' and 'S' styles) regularly overpower one-paced leaders in the final 150m (+2.5 pts sectional stamina angle).",
+        "1000m_and_1600m_long_chute_wide_draw_forgiveness": "In 1000m sprints and 1600m mile races out of the long chutes, horses drawn wide (barriers 8-14) have ample straight runway to find cover or press forward without being trapped 3-wide on a turn.",
+        "local_goulburn_and_canberra_specialist_yards": "Respect strong home-track Goulburn trainers (Danielle Seib, Danny Williams, Kurt Goldman, Tash Burleigh, Pat Murphy, Scott Collings) and neighboring Canberra raiders (Matthew Dale, Keith Dryden, Norm Gardner) when well-supported.",
+        "goulburn_cup_and_guy_walter_showcase_class": "Home of the Goulburn Cup ($200k Showcase / Big Dance Eligibility Qualifier) and Group 2/3-producing Guy Walter Stakes. Feature meetings run at full Saturday Midweek Metro / Provincial speed pars.",
+        "typical_distances": "Standard distances: 1000m (Chute), 1200m, 1300m, 1400m (Chute), 1500m, 1600m (Chute - Goulburn Cup), 2100m."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Premium Country NSW)",
-        "class_rating": 88,
+        "tier": "Tier 2.5 (NSW Premier Southern Tablelands Showcase HQ)",
+        "class_rating": 90,
         "speed_par_offsets": {
-            "turf_sprint": "+0.0",
-            "turf_route": "+0.5"
+            "turf_sprint": "+0.5",
+            "turf_route": "+1.0"
         },
-        "lengths": 1.0,
-        "points": 3.0
+        "lengths": 0.5,
+        "points": 2.0
     },
     "region_group": "Australia_Thoroughbred_New_South_Wales_Country"
 }

@@ -1,16 +1,38 @@
 {
-    "location": "Wangaratta, VIC",
-    "track_type": "Turf",
-    "direction": "Anti-clockwise",
-    "straight_length": "350m",
-    "bias_notes": "Anti-clockwise (left-handed). A unique undulating country track.",
+    "track_code": "WANG",
+    "location": "Wangaratta, North-East Victoria (Ovens & King Region), Australia",
+    "nicknames": [
+        "Wangaratta Racecourse",
+        "Wangaratta Turf Club",
+        "Ovens & Murray Racing Hub",
+        "Home of the Wangaratta Cup"
+    ],
+    "courses": {
+        "main_turf": {
+            "circumference": "1,730 metres",
+            "surface": "Turf (Kikuyu and Rye grass blend on well-draining Ovens Valley sandy loam)",
+            "stretch_length": "350 metres (20m track width) — 3.0m uphill climb to the winning post",
+            "bias_notes": "Anti-clockwise (left-handed). One of Victoria's most technical undulating country circuits. Features a distinct 4.25-metre downhill descent from the 1000m mark to the 600m mark that naturally accelerates mid-race tempo, followed by a sweeping cambered home turn and a testing 3.0-metre uphill climb through the entire 350m home straight. Pure tearaway leaders ('E') that go too fast down the 1000m-600m hill frequently hit a brick wall on the uphill straight. Balanced on-pace stalkers ('P') and strong-striding momentum swoopers ('S') that slingshot off the turn thrive.",
+            "post_bias": "INSIDE-TO-MIDDLE DRAW EDGE IN SPRINTS / FAIR ON ROUTES: In 1000m, 1100m, and 1170m sprint dashes, barriers 1 through 6 allow runners to hold cover down the hill before the home turn. Over 1300m, 1400m, 1590m, and 2000m routes, starting chutes provide fair run-ups."
+        }
+    },
     "handicapping_angles": {
-        "track_bias": "Relatively fair, but downhill run into final turn."
+        "downhill_1000m_to_600m_and_uphill_350m_straight": "SIGNATURE WANGARATTA PHYSICS: The course drops 4.25m between the 1000m and 600m before climbing 3.0m uphill to the finish post. Heavily penalize one-dimensional front-runners ('E') caught in a speed battle down the hill (-2.5 pts). Upgrade tactical stalkers ('P') and proven Wangaratta track specialists (+3.5 pts).",
+        "ben_brisbourne_and_lindsay_park_euroa_dominance": "Wangaratta is the home track of high-volume trainer Ben Brisbourne, and sits just up the Hume Freeway from Lindsay Park's Euroa training estate (Ben, Will & JD Hayes) plus Wodonga/Albury yards (Craig Widdison, Mitchell Beer, Andrew Dale, Dan McCarthy) and Melbourne metro shippers (Ciaron Maher, Patrick & Michelle Payne, Griffiths & de Kock). Upgrade Lindsay Park and Melbourne metro droppers (+3.0 pts).",
+        "cutaway_rail_and_portable_rail_shifts": "When the portable rail is moved out (Out 3m to 7m), monitor cutaway rail availability at the top of the 350m straight — box-seat stalkers ('P') tracking the leader from barriers 1-4 gain a golden inside run.",
+        "murray_river_cross_border_direction_switch": "Wangaratta runs Anti-Clockwise (Left-Handed). Horses shipping across the Murray River from NSW Clockwise tracks (Albury, Wagga, Corowa) must handle switching back to the left-handed Victorian leg.",
+        "wangaratta_cup_carnival_class": "During the March Wangaratta Cup ($100k+) carnival, field quality spikes to Melbourne Midweek Metro / Provincial BM70-BM84 standard.",
+        "typical_distances": "Standard distances: 1000m, 1100m, 1170m, 1300m, 1400m, 1590m, 2000m (Wangaratta Cup)."
     },
     "par_adjustment": {
-        "tier": "Tier 3 (Provincial Baseline)",
-        "lengths": 0.0,
-        "points": 0.0
+        "tier": "Tier 2.5 (Victorian North-East Regional HQ)",
+        "class_rating": 88,
+        "speed_par_offsets": {
+            "turf_sprint": "+0.0",
+            "turf_route": "+0.5"
+        },
+        "lengths": 0.5,
+        "points": 1.5
     },
     "region_group": "Australia_Thoroughbred_Victoria"
 }

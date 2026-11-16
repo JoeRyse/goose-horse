@@ -612,6 +612,14 @@ def load_track_catalog():
             catalog[category][region] = []
 
           catalog[category][region].append(track_display_name)
+
+          if data.get("dual_catalog"):
+            alt_category = "Thoroughbred" if category == "Harness" else "Harness"
+            if alt_category not in catalog:
+              catalog[alt_category] = {}
+            if region not in catalog[alt_category]:
+              catalog[alt_category][region] = []
+            catalog[alt_category][region].append(track_display_name)
       except:
         continue
 
@@ -1083,13 +1091,13 @@ with tab_handicap:
           category_str = str(selected_category).upper()
           track_str = str(selected_track).upper()
 
-          if "HARNESS" in category_str or "HARNESS" in track_str or "HARNESS" in region_str:
-            system_file = "system_harness.md"
-          elif any(
+          if any(
               k in region_str or k in track_str or region_str.startswith("AU") or track_str.startswith("AU")
               for k in ["AUSTRALIA", "AUS", "NEW ZEALAND", "NZ", "AU"]
           ):
             system_file = "system_aus.md"
+          elif "HARNESS" in category_str or "HARNESS" in track_str or "HARNESS" in region_str:
+            system_file = "system_harness.md"
           elif any(
               k in region_str or k in track_str
               for k in ["EUROPE", "UK", "UNITED KINGDOM", "IRELAND", "GB"]
