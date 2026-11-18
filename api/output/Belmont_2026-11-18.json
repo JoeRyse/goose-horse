@@ -1,0 +1,934 @@
+{
+    "meta": {
+        "track": "Belmont",
+        "date": "2026-11-18",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1200m Turf Good 4",
+            "surface": "4",
+            "confidence_level": "Medium-High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1200m Turf Good 4",
+                "confidence_level": "Medium-High",
+                "suggested_wager": "Win 8 / Exacta Box 1, 7, 8 / Saver 10",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "5",
+                        "horse_name": "Mystic Smile",
+                        "handicapper_notes": "Top pick racing at peak fitness third-up. Canonical P stalker maps cleanly from barrier 5 right behind early speed (#2, #3) in a Standard pace scenario on Belmont's 333m StrathAyr straight (+1m rail). Covered ground at Ascot last start and still won at 1200m (SR 72), and gets a key 3kg weight edge (57.0kg vs 60.0kg) over main rival #1 Merivale Louvain for an in-form Trevor Andrews yard (22% L50).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide throughout",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "6",
+                        "horse_name": "Merivale Louvain",
+                        "handicapper_notes": "High-upside filly with the field's top career speed rating (SR 74 when 2nd in Belmont 2yo Open over 1200m) and an effortless 2.1L Class 1 win at Bunbury first-up. S swooper style and tendency to begin slowly from barrier 6 while carrying topweight 60.0kg (+3kg on #8) are the slight knocks in a Standard pace setup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow start, keen",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "7",
+                        "horse_name": "Twilight Star",
+                        "handicapper_notes": "Third-up peak fitness after defeating #5 Dune Runner and #3 Clobberconi in an Ascot 3yo NMW1Y over 1100m (SR 71). Steps up to 1200m with Chris Parnham taking over at 57.5kg. Tactical P style gives her a solid stalk-and-pounce map.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Ginger Machino",
+                        "handicapper_notes": "Designated Danger Horse. Beaten just a nose on debut over this exact 1200m Belmont course after beginning awkwardly and racing wide throughout from barrier 8. Draws barrier 1 in the advantageous inside chute with a 3kg apprentice claim dropping her effective weight to 52.5kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Awkward start, wide throughout",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Dune Runner",
+                        "handicapper_notes": "Encouraging debut when 4th by 1.0L behind #7 Twilight Star at Ascot (SR 72) despite being bumped at the start and racing keenly. Draws barrier 4 second-up and the rise to 1200m suits his S closing style.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped at start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "10",
+                        "horse_name": "Ace Queen Suited",
+                        "handicapper_notes": "Proven Belmont performer (4: 1-1-1, SR 77 in 2yo Open) who needed the 1000m Ascot run first-up. Steps back up to 1200m second-up at 57.5kg with S style, though wide barrier 10 makes the map tricky.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "2",
+                        "horse_name": "Cryptomania",
+                        "handicapper_notes": "Resumes with a host of gear changes, barrier 2, two solid Belmont trials, and William Pike taking the ride for the Dion Luciani stable (20% L50). C closer needs to improve sharply on a thin soft-track debut.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 76,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Mystic Smile",
+                    "rating": 88.0,
+                    "reason": "Top pick racing at peak fitness third-up. Canonical P stalker maps cleanly from barrier 5 right behind early speed (#2, #3) in a Standard pace scenario on Belmont's 333m StrathAyr straight (+1m rail). Covered ground at Ascot last start and still won at 1200m (SR 72), and gets a key 3kg weight edge (57.0kg vs 60.0kg) over main rival #1 Merivale Louvain for an in-form Trevor Andrews yard (22% L50). | <i>\u26a0\ufe0f Wide throughout</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Merivale Louvain",
+                    "rating": 85.0,
+                    "reason": "High-upside filly with the field's top career speed rating (SR 74 when 2nd in Belmont 2yo Open over 1200m) and an effortless 2.1L Class 1 win at Bunbury first-up. S swooper style and tendency to begin slowly from barrier 6 while carrying topweight 60.0kg (+3kg on #8) are the slight knocks in a Standard pace setup. | <i>\u26a0\ufe0f Slow start, keen</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Twilight Star",
+                    "rating": 83.0,
+                    "reason": "Third-up peak fitness after defeating #5 Dune Runner and #3 Clobberconi in an Ascot 3yo NMW1Y over 1100m (SR 71). Steps up to 1200m with Chris Parnham taking over at 57.5kg. Tactical P style gives her a solid stalk-and-pounce map."
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Ginger Machino",
+                    "rating": 81.0,
+                    "reason": "Designated Danger Horse. Beaten just a nose on debut over this exact 1200m Belmont course after beginning awkwardly and racing wide throughout from barrier 8. Draws barrier 1 in the advantageous inside chute with a 3kg apprentice claim dropping her effective weight to 52.5kg. | <i>\u26a0\ufe0f Awkward start, wide throughout</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Dune Runner",
+                    "rating": 79.0,
+                    "reason": "Encouraging debut when 4th by 1.0L behind #7 Twilight Star at Ascot (SR 72) despite being bumped at the start and racing keenly. Draws barrier 4 second-up and the rise to 1200m suits his S closing style. | <i>\u26a0\ufe0f Bumped at start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "8",
+                    "barrier": "5",
+                    "name": "Mystic Smile",
+                    "rating": 88.0,
+                    "reason": "Top pick racing at peak fitness third-up. Canonical P stalker maps cleanly from barrier 5 right behind early speed (#2, #3) in a Standard pace scenario on Belmont's 333m StrathAyr straight (+1m rail). Covered ground at Ascot last start and still won at 1200m (SR 72), and gets a key 3kg weight edge (57.0kg vs 60.0kg) over main rival #1 Merivale Louvain for an in-form Trevor Andrews yard (22% L50). | <i>\u26a0\ufe0f Wide throughout</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "6",
+                    "name": "Merivale Louvain",
+                    "rating": 85.0,
+                    "reason": "High-upside filly with the field's top career speed rating (SR 74 when 2nd in Belmont 2yo Open over 1200m) and an effortless 2.1L Class 1 win at Bunbury first-up. S swooper style and tendency to begin slowly from barrier 6 while carrying topweight 60.0kg (+3kg on #8) are the slight knocks in a Standard pace setup. | <i>\u26a0\ufe0f Slow start, keen</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "7",
+                    "name": "Twilight Star",
+                    "rating": 83.0,
+                    "reason": "Third-up peak fitness after defeating #5 Dune Runner and #3 Clobberconi in an Ascot 3yo NMW1Y over 1100m (SR 71). Steps up to 1200m with Chris Parnham taking over at 57.5kg. Tactical P style gives her a solid stalk-and-pounce map."
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Ginger Machino",
+                    "rating": 81.0,
+                    "reason": "Designated Danger Horse. Beaten just a nose on debut over this exact 1200m Belmont course after beginning awkwardly and racing wide throughout from barrier 8. Draws barrier 1 in the advantageous inside chute with a 3kg apprentice claim dropping her effective weight to 52.5kg. | <i>\u26a0\ufe0f Awkward start, wide throughout</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Dune Runner",
+                    "rating": 79.0,
+                    "reason": "Encouraging debut when 4th by 1.0L behind #7 Twilight Star at Ascot (SR 72) despite being bumped at the start and racing keenly. Draws barrier 4 second-up and the rise to 1200m suits his S closing style. | <i>\u26a0\ufe0f Bumped at start</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "10",
+                    "name": "Ace Queen Suited",
+                    "rating": 78.0,
+                    "reason": "Proven Belmont performer (4: 1-1-1, SR 77 in 2yo Open) who needed the 1000m Ascot run first-up. Steps back up to 1200m second-up at 57.5kg with S style, though wide barrier 10 makes the map tricky."
+                },
+                {
+                    "number": "4",
+                    "barrier": "2",
+                    "name": "Cryptomania",
+                    "rating": 76.0,
+                    "reason": "Resumes with a host of gear changes, barrier 2, two solid Belmont trials, and William Pike taking the ride for the Dion Luciani stable (20% L50). C closer needs to improve sharply on a thin soft-track debut."
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "1",
+                "name": "Ginger Machino",
+                "rating": 81.0,
+                "reason": "Designated Danger Horse. Beaten just a nose on debut over this exact 1200m Belmont course after beginning awkwardly and racing wide throughout from barrier 8. Draws barrier 1 in the advantageous inside chute with a 3kg apprentice claim dropping her effective weight to 52.5kg. | <i>\u26a0\ufe0f Awkward start, wide throughout</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#8 Mystic Smile</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #8, #1, #10 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "1300m Turf Good 4",
+            "surface": "4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1300m Turf Good 4",
+                "confidence_level": "High",
+                "suggested_wager": "Win 13; Exacta Key 13 over 6, 14; Trifecta 13 / 6, 14 / 5, 6, 12, 14",
+                "contenders": [
+                    {
+                        "program_number": "13",
+                        "barrier": "2",
+                        "horse_name": "Fallen City",
+                        "handicapper_notes": "Clear Best Bet dropping from Saturday Metropolitan 3yo NMW1Y company into a maiden. Beaten only 0.4 lengths behind subsequent city winners Twilight Star and Juniper over 1100m. Maps for an economical low-draw run from barrier 2, steps up ideally to 1300m, and gains significant relief carrying just 54.0kg via apprentice Jefferson Tsang.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Buster's Babe",
+                        "handicapper_notes": "Main danger who is knocking on the door after back-to-back narrow second-place finishes behind Mystic Smile and Von Rommel. Possesses crisp tactical early speed to land in the box seat, reaches peak 3rd-up fitness, and retains premier jockey Paul Harvey.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "14",
+                        "barrier": "5",
+                        "horse_name": "Venetian Gem",
+                        "handicapper_notes": "Promising filly from the top Grant and Alana Williams stable. Ran a very encouraging third on debut over 1400m at this track behind Encroaching, hitting the line with authority. Will appreciate a genuine tempo and the slight freshening back to 1300m from a soft midfield stalking draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "15",
+                        "horse_name": "Brave Move",
+                        "handicapper_notes": "Boasts significant juvenile class, having placed in $56k Open company behind Swift Ruler and Barron Bill during the winter. Finished off solidly first-up over 1200m at Ascot. The widest barrier is the major hurdle, but Chris Parnham riding provides elite sectional timing.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "Covered Ground",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "3",
+                        "horse_name": "Nicaboom",
+                        "handicapper_notes": "Ran an improved second at Bunbury first-up when running on strongly. Receives a major equipment upgrade with Blinkers First Time and draws perfectly in gate 3 to protect position along the rail throughout.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "18",
+                        "horse_name": "God's Enchantment",
+                        "handicapper_notes": "Resumes from a spell for Stephen Miller with Brad Parnham aboard. Showed metropolitan ability when 4th in 2yo Open grade behind Rok 'N' Rom earlier this year. Needs luck negotiating the extreme outside gate.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Fresh",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "13",
+                    "barrier": "2",
+                    "name": "Fallen City",
+                    "rating": 92.0,
+                    "reason": "Clear Best Bet dropping from Saturday Metropolitan 3yo NMW1Y company into a maiden. Beaten only 0.4 lengths behind subsequent city winners Twilight Star and Juniper over 1100m. Maps for an economical low-draw run from barrier 2, steps up ideally to 1300m, and gains significant relief carrying just 54.0kg via apprentice Jefferson Tsang. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Buster's Babe",
+                    "rating": 88.0,
+                    "reason": "Main danger who is knocking on the door after back-to-back narrow second-place finishes behind Mystic Smile and Von Rommel. Possesses crisp tactical early speed to land in the box seat, reaches peak 3rd-up fitness, and retains premier jockey Paul Harvey."
+                },
+                {
+                    "number": "14",
+                    "barrier": "5",
+                    "name": "Venetian Gem",
+                    "rating": 85.0,
+                    "reason": "Promising filly from the top Grant and Alana Williams stable. Ran a very encouraging third on debut over 1400m at this track behind Encroaching, hitting the line with authority. Will appreciate a genuine tempo and the slight freshening back to 1300m from a soft midfield stalking draw."
+                },
+                {
+                    "number": "5",
+                    "barrier": "15",
+                    "name": "Brave Move",
+                    "rating": 84.0,
+                    "reason": "Boasts significant juvenile class, having placed in $56k Open company behind Swift Ruler and Barron Bill during the winter. Finished off solidly first-up over 1200m at Ascot. The widest barrier is the major hurdle, but Chris Parnham riding provides elite sectional timing. | <i>\u26a0\ufe0f Covered Ground \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "3",
+                    "name": "Nicaboom",
+                    "rating": 82.0,
+                    "reason": "Ran an improved second at Bunbury first-up when running on strongly. Receives a major equipment upgrade with Blinkers First Time and draws perfectly in gate 3 to protect position along the rail throughout. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "13",
+                    "barrier": "2",
+                    "name": "Fallen City",
+                    "rating": 92.0,
+                    "reason": "Clear Best Bet dropping from Saturday Metropolitan 3yo NMW1Y company into a maiden. Beaten only 0.4 lengths behind subsequent city winners Twilight Star and Juniper over 1100m. Maps for an economical low-draw run from barrier 2, steps up ideally to 1300m, and gains significant relief carrying just 54.0kg via apprentice Jefferson Tsang. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Buster's Babe",
+                    "rating": 88.0,
+                    "reason": "Main danger who is knocking on the door after back-to-back narrow second-place finishes behind Mystic Smile and Von Rommel. Possesses crisp tactical early speed to land in the box seat, reaches peak 3rd-up fitness, and retains premier jockey Paul Harvey."
+                },
+                {
+                    "number": "14",
+                    "barrier": "5",
+                    "name": "Venetian Gem",
+                    "rating": 85.0,
+                    "reason": "Promising filly from the top Grant and Alana Williams stable. Ran a very encouraging third on debut over 1400m at this track behind Encroaching, hitting the line with authority. Will appreciate a genuine tempo and the slight freshening back to 1300m from a soft midfield stalking draw."
+                },
+                {
+                    "number": "5",
+                    "barrier": "15",
+                    "name": "Brave Move",
+                    "rating": 84.0,
+                    "reason": "Boasts significant juvenile class, having placed in $56k Open company behind Swift Ruler and Barron Bill during the winter. Finished off solidly first-up over 1200m at Ascot. The widest barrier is the major hurdle, but Chris Parnham riding provides elite sectional timing. | <i>\u26a0\ufe0f Covered Ground \u2022 \ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "3",
+                    "name": "Nicaboom",
+                    "rating": 82.0,
+                    "reason": "Ran an improved second at Bunbury first-up when running on strongly. Receives a major equipment upgrade with Blinkers First Time and draws perfectly in gate 3 to protect position along the rail throughout. | <i>\ud83d\udccf Sprint to Sprint</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "18",
+                    "name": "God's Enchantment",
+                    "rating": 80.0,
+                    "reason": "Resumes from a spell for Stephen Miller with Brad Parnham aboard. Showed metropolitan ability when 4th in 2yo Open grade behind Rok 'N' Rom earlier this year. Needs luck negotiating the extreme outside gate. | <i>\ud83d\udccf Fresh</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "6",
+                "barrier": "8",
+                "name": "Buster's Babe",
+                "rating": 88.0,
+                "reason": "Main danger who is knocking on the door after back-to-back narrow second-place finishes behind Mystic Smile and Von Rommel. Possesses crisp tactical early speed to land in the box seat, reaches peak 3rd-up fitness, and retains premier jockey Paul Harvey."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#13 Fallen City</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #13, #6, #14 (Selective Box)"
+        },
+        {
+            "number": 3,
+            "distance": "1000m Turf Good 4",
+            "surface": "4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1000m Turf Good 4",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5; Exacta Key 5 over 7, 6, 2",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "9",
+                        "horse_name": "Flying Swagman",
+                        "handicapper_notes": "Top selection with a clear speed-figure edge (SR 78 last start 2nd by 0.4L in Ascot Cl1 1000m; SR 74 prior in Listed Belgravia 1200m). Maps as a P stalker just off a hot Pace Meltdown (+3.0 pts) behind #6, #8, and #2, which helps offset the wide barrier 9 chute draw (-1.5 pts). Carries 56.5kg with Paul Harvey riding.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "8",
+                        "horse_name": "The Mighty Bell",
+                        "handicapper_notes": "Danger Horse. Proven 1000m specialist (2 wins, 3 placings in 9 starts) hitting 3rd-up peak fitness (+1.5 pts) after a strong closing 2nd in Bunbury Cl3 and a prior Cl1 win. Canonical S swooper ideally suited to capitalise on the Pace Meltdown (+3.0 pts) down Belmont's 333m straight carrying 56.0kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 85,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "1",
+                        "horse_name": "Intimidation Time",
+                        "handicapper_notes": "Drawn the pole barrier 1 (+2.0 pts) in the 1000m chute with the rail +1m. Maps as an E pace factor cutting back from 1200m to 1000m after leading and holding 3rd in Belmont Cl1 last start. Apprentice claim brings net weight down from 56.0kg, though faces early pace pressure from #2 and #8 in a Pace Meltdown.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 82,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "6f to 5f",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "Mighty Hosanna",
+                        "handicapper_notes": "Resumes 1st-up off two solid Belmont 1000m trials (3rd and 4th) from an advantageous inside barrier 3 (+2.0 pts). Proven Belmont performer (5: 1-0-2) with apprentice relief off 58.5kg, but E style faces contested early speed in a Pace Meltdown and 1000m record is 0-0-1 from 4 tries.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "6f to 5f",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "4",
+                        "horse_name": "Perfect Chant",
+                        "handicapper_notes": "Drops from Ascot 1MW ($42K) into a $21K Handicap, though fails the class-drop bonus threshold after finishing tailed off (99-99) on 17Oct26. Won a Lark Hill trial on 2Nov26 and Chris Parnham sticks. Canonical S closer from barrier 4 who gets a Pace Meltdown setup (+3.0 pts), tempered by 59.0kg topweight (-2.0 pts).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 78,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Slow away prior; failed to finish last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "7",
+                        "horse_name": "We Love Charlie",
+                        "handicapper_notes": "First-up off a spell with an Albany trial 2nd (1Nov26) and apprentice relief off 57.5kg. Maps as a P tactical type who won three straight at Albany, but all three victories came on Soft or Heavy ground (0-for-2 on Good turf) and she failed in her lone prior Belmont start.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 76,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Tightened at start prior",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Scenic George",
+                        "handicapper_notes": "Second-up after beginning awkwardly and finishing 6th (beaten 3.3L) at Ascot Cl1 on 3Nov26. Maps as a P stalker from barrier 5 carrying 58.0kg. Placed 6 times in 19 starts at 1000m, but is 0-from-8 at Belmont and only 1 win in 25 career starts.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Pace Meltdown",
+                            "ai_holistic_score": 74,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Began awkwardly last start",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "Flying Swagman",
+                    "rating": 89.0,
+                    "reason": "Top selection with a clear speed-figure edge (SR 78 last start 2nd by 0.4L in Ascot Cl1 1000m; SR 74 prior in Listed Belgravia 1200m). Maps as a P stalker just off a hot Pace Meltdown (+3.0 pts) behind #6, #8, and #2, which helps offset the wide barrier 9 chute draw (-1.5 pts). Carries 56.5kg with Paul Harvey riding."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "The Mighty Bell",
+                    "rating": 85.0,
+                    "reason": "Danger Horse. Proven 1000m specialist (2 wins, 3 placings in 9 starts) hitting 3rd-up peak fitness (+1.5 pts) after a strong closing 2nd in Bunbury Cl3 and a prior Cl1 win. Canonical S swooper ideally suited to capitalise on the Pace Meltdown (+3.0 pts) down Belmont's 333m straight carrying 56.0kg."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Intimidation Time",
+                    "rating": 82.0,
+                    "reason": "Drawn the pole barrier 1 (+2.0 pts) in the 1000m chute with the rail +1m. Maps as an E pace factor cutting back from 1200m to 1000m after leading and holding 3rd in Belmont Cl1 last start. Apprentice claim brings net weight down from 56.0kg, though faces early pace pressure from #2 and #8 in a Pace Meltdown. | <i>\ud83d\udccf 6f to 5f</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Mighty Hosanna",
+                    "rating": 80.0,
+                    "reason": "Resumes 1st-up off two solid Belmont 1000m trials (3rd and 4th) from an advantageous inside barrier 3 (+2.0 pts). Proven Belmont performer (5: 1-0-2) with apprentice relief off 58.5kg, but E style faces contested early speed in a Pace Meltdown and 1000m record is 0-0-1 from 4 tries. | <i>\ud83d\udccf 6f to 5f</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Perfect Chant",
+                    "rating": 78.0,
+                    "reason": "Drops from Ascot 1MW ($42K) into a $21K Handicap, though fails the class-drop bonus threshold after finishing tailed off (99-99) on 17Oct26. Won a Lark Hill trial on 2Nov26 and Chris Parnham sticks. Canonical S closer from barrier 4 who gets a Pace Meltdown setup (+3.0 pts), tempered by 59.0kg topweight (-2.0 pts). | <i>\u26a0\ufe0f Slow away prior; failed to finish last start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "9",
+                    "name": "Flying Swagman",
+                    "rating": 89.0,
+                    "reason": "Top selection with a clear speed-figure edge (SR 78 last start 2nd by 0.4L in Ascot Cl1 1000m; SR 74 prior in Listed Belgravia 1200m). Maps as a P stalker just off a hot Pace Meltdown (+3.0 pts) behind #6, #8, and #2, which helps offset the wide barrier 9 chute draw (-1.5 pts). Carries 56.5kg with Paul Harvey riding."
+                },
+                {
+                    "number": "7",
+                    "barrier": "8",
+                    "name": "The Mighty Bell",
+                    "rating": 85.0,
+                    "reason": "Danger Horse. Proven 1000m specialist (2 wins, 3 placings in 9 starts) hitting 3rd-up peak fitness (+1.5 pts) after a strong closing 2nd in Bunbury Cl3 and a prior Cl1 win. Canonical S swooper ideally suited to capitalise on the Pace Meltdown (+3.0 pts) down Belmont's 333m straight carrying 56.0kg."
+                },
+                {
+                    "number": "6",
+                    "barrier": "1",
+                    "name": "Intimidation Time",
+                    "rating": 82.0,
+                    "reason": "Drawn the pole barrier 1 (+2.0 pts) in the 1000m chute with the rail +1m. Maps as an E pace factor cutting back from 1200m to 1000m after leading and holding 3rd in Belmont Cl1 last start. Apprentice claim brings net weight down from 56.0kg, though faces early pace pressure from #2 and #8 in a Pace Meltdown. | <i>\ud83d\udccf 6f to 5f</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "Mighty Hosanna",
+                    "rating": 80.0,
+                    "reason": "Resumes 1st-up off two solid Belmont 1000m trials (3rd and 4th) from an advantageous inside barrier 3 (+2.0 pts). Proven Belmont performer (5: 1-0-2) with apprentice relief off 58.5kg, but E style faces contested early speed in a Pace Meltdown and 1000m record is 0-0-1 from 4 tries. | <i>\ud83d\udccf 6f to 5f</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "4",
+                    "name": "Perfect Chant",
+                    "rating": 78.0,
+                    "reason": "Drops from Ascot 1MW ($42K) into a $21K Handicap, though fails the class-drop bonus threshold after finishing tailed off (99-99) on 17Oct26. Won a Lark Hill trial on 2Nov26 and Chris Parnham sticks. Canonical S closer from barrier 4 who gets a Pace Meltdown setup (+3.0 pts), tempered by 59.0kg topweight (-2.0 pts). | <i>\u26a0\ufe0f Slow away prior; failed to finish last start</i>"
+                },
+                {
+                    "number": "4",
+                    "barrier": "7",
+                    "name": "We Love Charlie",
+                    "rating": 76.0,
+                    "reason": "First-up off a spell with an Albany trial 2nd (1Nov26) and apprentice relief off 57.5kg. Maps as a P tactical type who won three straight at Albany, but all three victories came on Soft or Heavy ground (0-for-2 on Good turf) and she failed in her lone prior Belmont start. | <i>\u26a0\ufe0f Tightened at start prior</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Scenic George",
+                    "rating": 74.0,
+                    "reason": "Second-up after beginning awkwardly and finishing 6th (beaten 3.3L) at Ascot Cl1 on 3Nov26. Maps as a P stalker from barrier 5 carrying 58.0kg. Placed 6 times in 19 starts at 1000m, but is 0-from-8 at Belmont and only 1 win in 25 career starts. | <i>\u26a0\ufe0f Began awkwardly last start</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "8",
+                "name": "The Mighty Bell",
+                "rating": 85.0,
+                "reason": "Danger Horse. Proven 1000m specialist (2 wins, 3 placings in 9 starts) hitting 3rd-up peak fitness (+1.5 pts) after a strong closing 2nd in Bunbury Cl3 and a prior Cl1 win. Canonical S swooper ideally suited to capitalise on the Pace Meltdown (+3.0 pts) down Belmont's 333m straight carrying 56.0kg."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Flying Swagman</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #7, #6 (Selective Box)"
+        },
+        {
+            "number": 4,
+            "distance": "1400m Turf Good 4",
+            "surface": "4",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "1400m Turf Good 4",
+                "confidence_level": "High",
+                "suggested_wager": "Best Bet Win 1 / Exacta Key 1 over 2, 4, 3",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "9",
+                        "horse_name": "Rok 'N' Rom",
+                        "handicapper_notes": "Canonical style E. Clear Best Bet (+4.0 pt gap) dropping sharply in class from Tier 1 Ascot 1MW ($42k) to midweek FM Hcp ($21k) within 24 days after finishing 2.9L behind Have A Crack (SR 74) and 1.1L second to God's Gate prior (SR 81); class_drop_bonus_applied granted. Standard pace with #5 London's Rascal drawn inside, but William Pike ('The Wizard') takes the ride and offsets barrier 9 and 60.0kg topweight at her first 1400m test on Belmont's 333m straight (+1m rail).",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 90,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "3",
+                        "horse_name": "The Nun",
+                        "handicapper_notes": "Canonical style S. Drawn ideally in barrier 3 with 58.5kg for 2nd-up fitness on the 333m straight. Finished 5.3L behind Tribal Ruler in Ascot Cl3 (6f) fresh with documented late interference, and her prior Belmont 1400m Cl3 runner-up effort (SR 75) puts her right in the mix under a Standard pace.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route"
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Rok 'N' Rom",
+                    "rating": 90.0,
+                    "reason": "Canonical style E. Clear Best Bet (+4.0 pt gap) dropping sharply in class from Tier 1 Ascot 1MW ($42k) to midweek FM Hcp ($21k) within 24 days after finishing 2.9L behind Have A Crack (SR 74) and 1.1L second to God's Gate prior (SR 81); class_drop_bonus_applied granted. Standard pace with #5 London's Rascal drawn inside, but William Pike ('The Wizard') takes the ride and offsets barrier 9 and 60.0kg topweight at her first 1400m test on Belmont's 333m straight (+1m rail). | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "The Nun",
+                    "rating": 86.0,
+                    "reason": "Canonical style S. Drawn ideally in barrier 3 with 58.5kg for 2nd-up fitness on the 333m straight. Finished 5.3L behind Tribal Ruler in Ascot Cl3 (6f) fresh with documented late interference, and her prior Belmont 1400m Cl3 runner-up effort (SR 75) puts her right in the mix under a Standard pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "9",
+                    "name": "Rok 'N' Rom",
+                    "rating": 90.0,
+                    "reason": "Canonical style E. Clear Best Bet (+4.0 pt gap) dropping sharply in class from Tier 1 Ascot 1MW ($42k) to midweek FM Hcp ($21k) within 24 days after finishing 2.9L behind Have A Crack (SR 74) and 1.1L second to God's Gate prior (SR 81); class_drop_bonus_applied granted. Standard pace with #5 London's Rascal drawn inside, but William Pike ('The Wizard') takes the ride and offsets barrier 9 and 60.0kg topweight at her first 1400m test on Belmont's 333m straight (+1m rail). | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "3",
+                    "name": "The Nun",
+                    "rating": 86.0,
+                    "reason": "Canonical style S. Drawn ideally in barrier 3 with 58.5kg for 2nd-up fitness on the 333m straight. Finished 5.3L behind Tribal Ruler in Ascot Cl3 (6f) fresh with documented late interference, and her prior Belmont 1400m Cl3 runner-up effort (SR 75) puts her right in the mix under a Standard pace. | <i>\ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "2",
+                "barrier": "3",
+                "name": "The Nun",
+                "rating": 86.0,
+                "reason": "Canonical style S. Drawn ideally in barrier 3 with 58.5kg for 2nd-up fitness on the 333m straight. Finished 5.3L behind Tribal Ruler in Ascot Cl3 (6f) fresh with documented late interference, and her prior Belmont 1400m Cl3 runner-up effort (SR 75) puts her right in the mix under a Standard pace. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Rok 'N' Rom</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #2 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1400m (7f) Turf Good 4",
+            "surface": "4",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1400m (7f) Turf Good 4",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 4, 2, 1",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "Von Rommel",
+                        "handicapper_notes": "Canonical style P stalking a Standard two-speed pace map from barrier 6 on Belmont's anti-clockwise 333m straight (+1m rail). Drops from Class 3 to Class 1 at the same venue after closing strongly in 0:34.1 for 3rd beaten 1.0L behind I'm Odette over 1300m. Peak 3rd-up fitness stepping to 1400m with Clint Johnston-Porter aboard, though must handle 60.0kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "10",
+                        "horse_name": "Barron Bill",
+                        "handicapper_notes": "Canonical style E pushing forward from barrier 10 (slides to 9 post-scratch of #9) in a Standard pace setup. Brings the race's top recent speed rating (77) when held up at straightening and beaten 2.3L in Class 3 over 1400m here 7 days ago. Quick back-up, 3rd-up fitness, and Daniel Morton/Lucy Fiore combo offset the 60.0kg weight and wide chute draw.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Blocked at straightening last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "5",
+                        "horse_name": "Arizona Sky",
+                        "handicapper_notes": "Canonical style S settling midpack from barrier 5 for elite WA stable Grant & Alana Williams (32% L50). Strong fresh 2nd at 21.00 odds in Northam Class 3 over 1300m (0:34.3 final split) and owns a prior 76 SR 3rd over 1600m at Belmont. Fitter 2nd-up and suited by the rise to 1400m despite carrying 60.0kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Blue Sparx",
+                        "handicapper_notes": "Canonical style P drawn ideally in barrier 4 to hold a forward-stalking spot before the turn on Good 4 turf. Drops sharply from the $88K Listed Fairetha Stakes at Ascot (beaten 9.0L, exceeding the 5.0L cap for the formal class drop bonus) back into Class 1. Prior Northam Class 1 3rd posted a 77 SR with a 0:34.3 closing split; carries 58.0kg 2nd-up.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Manhattan Rhythm",
+                        "handicapper_notes": "Canonical style E expected to dictate or share the lead from prime inside barrier 2 with +1m rail. Proven 1400m maiden winner at Northam (76 SR) and ran competitively in 2yo Open metro company last prep. Resumes off a 5-month spell with two unplaced trials and carries 58.0kg for Daniel Morton.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "",
+                        "horse_name": "Unknown",
+                        "handicapper_notes": "Contender.",
+                        "features": {
+                            "ai_holistic_score": 82
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Von Rommel",
+                    "rating": 87.0,
+                    "reason": "Canonical style P stalking a Standard two-speed pace map from barrier 6 on Belmont's anti-clockwise 333m straight (+1m rail). Drops from Class 3 to Class 1 at the same venue after closing strongly in 0:34.1 for 3rd beaten 1.0L behind I'm Odette over 1300m. Peak 3rd-up fitness stepping to 1400m with Clint Johnston-Porter aboard, though must handle 60.0kg."
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Barron Bill",
+                    "rating": 85.0,
+                    "reason": "Canonical style E pushing forward from barrier 10 (slides to 9 post-scratch of #9) in a Standard pace setup. Brings the race's top recent speed rating (77) when held up at straightening and beaten 2.3L in Class 3 over 1400m here 7 days ago. Quick back-up, 3rd-up fitness, and Daniel Morton/Lucy Fiore combo offset the 60.0kg weight and wide chute draw. | <i>\u26a0\ufe0f Blocked at straightening last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Arizona Sky",
+                    "rating": 83.0,
+                    "reason": "Canonical style S settling midpack from barrier 5 for elite WA stable Grant & Alana Williams (32% L50). Strong fresh 2nd at 21.00 odds in Northam Class 3 over 1300m (0:34.3 final split) and owns a prior 76 SR 3rd over 1600m at Belmont. Fitter 2nd-up and suited by the rise to 1400m despite carrying 60.0kg."
+                },
+                {
+                    "number": "5",
+                    "barrier": "",
+                    "name": "Unknown",
+                    "rating": 82.0,
+                    "reason": "Contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Blue Sparx",
+                    "rating": 81.0,
+                    "reason": "Canonical style P drawn ideally in barrier 4 to hold a forward-stalking spot before the turn on Good 4 turf. Drops sharply from the $88K Listed Fairetha Stakes at Ascot (beaten 9.0L, exceeding the 5.0L cap for the formal class drop bonus) back into Class 1. Prior Northam Class 1 3rd posted a 77 SR with a 0:34.3 closing split; carries 58.0kg 2nd-up."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "Von Rommel",
+                    "rating": 87.0,
+                    "reason": "Canonical style P stalking a Standard two-speed pace map from barrier 6 on Belmont's anti-clockwise 333m straight (+1m rail). Drops from Class 3 to Class 1 at the same venue after closing strongly in 0:34.1 for 3rd beaten 1.0L behind I'm Odette over 1300m. Peak 3rd-up fitness stepping to 1400m with Clint Johnston-Porter aboard, though must handle 60.0kg."
+                },
+                {
+                    "number": "2",
+                    "barrier": "10",
+                    "name": "Barron Bill",
+                    "rating": 85.0,
+                    "reason": "Canonical style E pushing forward from barrier 10 (slides to 9 post-scratch of #9) in a Standard pace setup. Brings the race's top recent speed rating (77) when held up at straightening and beaten 2.3L in Class 3 over 1400m here 7 days ago. Quick back-up, 3rd-up fitness, and Daniel Morton/Lucy Fiore combo offset the 60.0kg weight and wide chute draw. | <i>\u26a0\ufe0f Blocked at straightening last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "5",
+                    "name": "Arizona Sky",
+                    "rating": 83.0,
+                    "reason": "Canonical style S settling midpack from barrier 5 for elite WA stable Grant & Alana Williams (32% L50). Strong fresh 2nd at 21.00 odds in Northam Class 3 over 1300m (0:34.3 final split) and owns a prior 76 SR 3rd over 1600m at Belmont. Fitter 2nd-up and suited by the rise to 1400m despite carrying 60.0kg."
+                },
+                {
+                    "number": "5",
+                    "barrier": "",
+                    "name": "Unknown",
+                    "rating": 82.0,
+                    "reason": "Contender."
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Blue Sparx",
+                    "rating": 81.0,
+                    "reason": "Canonical style P drawn ideally in barrier 4 to hold a forward-stalking spot before the turn on Good 4 turf. Drops sharply from the $88K Listed Fairetha Stakes at Ascot (beaten 9.0L, exceeding the 5.0L cap for the formal class drop bonus) back into Class 1. Prior Northam Class 1 3rd posted a 77 SR with a 0:34.3 closing split; carries 58.0kg 2nd-up."
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Manhattan Rhythm",
+                    "rating": 79.0,
+                    "reason": "Canonical style E expected to dictate or share the lead from prime inside barrier 2 with +1m rail. Proven 1400m maiden winner at Northam (76 SR) and ran competitively in 2yo Open metro company last prep. Resumes off a 5-month spell with two unplaced trials and carries 58.0kg for Daniel Morton."
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "4",
+                "name": "Blue Sparx",
+                "rating": 81.0,
+                "reason": "Canonical style P drawn ideally in barrier 4 to hold a forward-stalking spot before the turn on Good 4 turf. Drops sharply from the $88K Listed Fairetha Stakes at Ascot (beaten 9.0L, exceeding the 5.0L cap for the formal class drop bonus) back into Class 1. Prior Northam Class 1 3rd posted a 77 SR with a 0:34.3 closing split; carries 58.0kg 2nd-up."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#4 Von Rommel</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #4, #2, #7 (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#8 (Solo Lock)) with (#13 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#13 (Solo Lock)) with (#5 (Solo Lock))",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#4, #2)"
+    ]
+}
