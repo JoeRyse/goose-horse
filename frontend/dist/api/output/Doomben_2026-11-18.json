@@ -1,0 +1,1535 @@
+{
+    "meta": {
+        "track": "Doomben",
+        "date": "2026-11-18",
+        "track_condition": "Standard"
+    },
+    "races": [
+        {
+            "number": 1,
+            "distance": "1350m Turf Soft 5 (Chute Soft 7)",
+            "surface": "7)",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 1,
+                "distance_surface": "1350m Turf Soft 5 (Chute Soft 7)",
+                "confidence_level": "High",
+                "suggested_wager": "Win 3 / Exacta Key 3 over 7, 12, 11",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "4",
+                        "horse_name": "Fracus",
+                        "handicapper_notes": "Top selection (+4.0 pt Best Bet gap). Stalking P style maps ideally from barrier 4 with the +9m rail creating an on-pace edge in a race lacking true E speed. Brings superior Eagle Farm 1400m form (71 SR, beaten 0.5L) and solid Soft-ground Lismore merit. Carries 59.5kg top weight on the Soft 7 chute, but clear class/speed figure edge.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "5",
+                        "horse_name": "Vice Royal",
+                        "handicapper_notes": "Primary threat from the dominant Gollan/Maloney Doomben combination. Deep closer (C) who hits peak 3rd-up fitness rising to 1350m after suffering trouble in both 1200m runs (63 SR last start when awkward away and blocked late). Barrier 5 helps, though +9m rail makes closing from the rear trickier.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 85,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Awkward start, blocked late",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "8",
+                        "horse_name": "Spirit Falls",
+                        "handicapper_notes": "Danger Horse. Swooper (S) who exploded from the tail on Heavy ground at Eagle Farm last start (63 SR, 2nd by 1.5L), making her ideally suited to the Soft 7 1350m chute. Reaches 3rd-up peak fitness with 56.5kg, though barrier 8 requires a clever ride around Doomben's +9m rail.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "11",
+                        "horse_name": "Drive To Zouvive",
+                        "handicapper_notes": "Jack Bruce and top Doomben rider Ben Thompson team up 2nd-up after she blundered at the start and ran on for 3rd here over 1200m (51 SR). Drops to 56.5kg and won a trial prior, but slides only to effective gate 10 on the +9m rail, a sharp wide-draw tax around the 1350m turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Blundered at start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "6",
+                        "horse_name": "D'oro Benefice",
+                        "handicapper_notes": "Intriguing Profiteer debutant (59.0kg) from the in-form Robl/Franklin camp. Won and placed in two Gold Coast Soft 5f trials, suggesting tactical P speed to sit near the pace in a race devoid of confirmed E leaders. Unknown at 1350m first-up, but",
+                        "features": {
+                            "ai_holistic_score": 82
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Fracus",
+                    "rating": 89.0,
+                    "reason": "Top selection (+4.0 pt Best Bet gap). Stalking P style maps ideally from barrier 4 with the +9m rail creating an on-pace edge in a race lacking true E speed. Brings superior Eagle Farm 1400m form (71 SR, beaten 0.5L) and solid Soft-ground Lismore merit. Carries 59.5kg top weight on the Soft 7 chute, but clear class/speed figure edge."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "Vice Royal",
+                    "rating": 85.0,
+                    "reason": "Primary threat from the dominant Gollan/Maloney Doomben combination. Deep closer (C) who hits peak 3rd-up fitness rising to 1350m after suffering trouble in both 1200m runs (63 SR last start when awkward away and blocked late). Barrier 5 helps, though +9m rail makes closing from the rear trickier. | <i>\u26a0\ufe0f Awkward start, blocked late</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "8",
+                    "name": "Spirit Falls",
+                    "rating": 83.0,
+                    "reason": "Danger Horse. Swooper (S) who exploded from the tail on Heavy ground at Eagle Farm last start (63 SR, 2nd by 1.5L), making her ideally suited to the Soft 7 1350m chute. Reaches 3rd-up peak fitness with 56.5kg, though barrier 8 requires a clever ride around Doomben's +9m rail."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "D'oro Benefice",
+                    "rating": 82.0,
+                    "reason": "Intriguing Profiteer debutant (59.0kg) from the in-form Robl/Franklin camp. Won and placed in two Gold Coast Soft 5f trials, suggesting tactical P speed to sit near the pace in a race devoid of confirmed E leaders. Unknown at 1350m first-up, but"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Drive To Zouvive",
+                    "rating": 81.0,
+                    "reason": "Jack Bruce and top Doomben rider Ben Thompson team up 2nd-up after she blundered at the start and ran on for 3rd here over 1200m (51 SR). Drops to 56.5kg and won a trial prior, but slides only to effective gate 10 on the +9m rail, a sharp wide-draw tax around the 1350m turn. | <i>\u26a0\ufe0f Blundered at start</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "4",
+                    "name": "Fracus",
+                    "rating": 89.0,
+                    "reason": "Top selection (+4.0 pt Best Bet gap). Stalking P style maps ideally from barrier 4 with the +9m rail creating an on-pace edge in a race lacking true E speed. Brings superior Eagle Farm 1400m form (71 SR, beaten 0.5L) and solid Soft-ground Lismore merit. Carries 59.5kg top weight on the Soft 7 chute, but clear class/speed figure edge."
+                },
+                {
+                    "number": "7",
+                    "barrier": "5",
+                    "name": "Vice Royal",
+                    "rating": 85.0,
+                    "reason": "Primary threat from the dominant Gollan/Maloney Doomben combination. Deep closer (C) who hits peak 3rd-up fitness rising to 1350m after suffering trouble in both 1200m runs (63 SR last start when awkward away and blocked late). Barrier 5 helps, though +9m rail makes closing from the rear trickier. | <i>\u26a0\ufe0f Awkward start, blocked late</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "8",
+                    "name": "Spirit Falls",
+                    "rating": 83.0,
+                    "reason": "Danger Horse. Swooper (S) who exploded from the tail on Heavy ground at Eagle Farm last start (63 SR, 2nd by 1.5L), making her ideally suited to the Soft 7 1350m chute. Reaches 3rd-up peak fitness with 56.5kg, though barrier 8 requires a clever ride around Doomben's +9m rail."
+                },
+                {
+                    "number": "4",
+                    "barrier": "6",
+                    "name": "D'oro Benefice",
+                    "rating": 82.0,
+                    "reason": "Intriguing Profiteer debutant (59.0kg) from the in-form Robl/Franklin camp. Won and placed in two Gold Coast Soft 5f trials, suggesting tactical P speed to sit near the pace in a race devoid of confirmed E leaders. Unknown at 1350m first-up, but"
+                },
+                {
+                    "number": "11",
+                    "barrier": "11",
+                    "name": "Drive To Zouvive",
+                    "rating": 81.0,
+                    "reason": "Jack Bruce and top Doomben rider Ben Thompson team up 2nd-up after she blundered at the start and ran on for 3rd here over 1200m (51 SR). Drops to 56.5kg and won a trial prior, but slides only to effective gate 10 on the +9m rail, a sharp wide-draw tax around the 1350m turn. | <i>\u26a0\ufe0f Blundered at start</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "12",
+                "barrier": "8",
+                "name": "Spirit Falls",
+                "rating": 83.0,
+                "reason": "Danger Horse. Swooper (S) who exploded from the tail on Heavy ground at Eagle Farm last start (63 SR, 2nd by 1.5L), making her ideally suited to the Soft 7 1350m chute. Reaches 3rd-up peak fitness with 56.5kg, though barrier 8 requires a clever ride around Doomben's +9m rail."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Fracus</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #7, #12 (Selective Box)"
+        },
+        {
+            "number": 2,
+            "distance": "1350m Turf Soft 5",
+            "surface": "5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 2,
+                "distance_surface": "1350m Turf Soft 5",
+                "confidence_level": "High",
+                "suggested_wager": "Exacta Box 1, 11, 4",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "11",
+                        "horse_name": "Filthy",
+                        "handicapper_notes": "Brings the strongest peak figure into this maiden handicap after a narrow second over 1400m on soft ground at the Gold Coast carrying 60.0kg. Maps for an aggressive forward stalk ('P' style) under Ryan Maloney to overcome the wide draw. Soft 5 track profile suits (3: 0-2-1 on wet tracks) and he has the tactical zip to clear mid-field traffic before the Doomben home turn.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 92,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "4",
+                        "horse_name": "Prize Witness",
+                        "handicapper_notes": "First-up specialist candidate returning off an 8-month spell with a dynamic 2.5-length Sunshine Coast barrier trial victory in hand. Draws the golden gate 4 on the +9m rail layout, guaranteeing a textbook box-seat stalk ('P' style) with zero ground conceded. Gets genuine 3.5kg weight relief from the topweight under Emily Lang.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "4",
+                        "barrier": "13",
+                        "horse_name": "I Am Louie",
+                        "handicapper_notes": "Tony Gollan-trained gelding proven at this track and distance profile with two prior metro placings on soft ground at Doomben. Ran a solid third over 1400m at Eagle Farm five weeks ago. Slide inward post-scratches aids Cejay Graham in finding cover midfield before unwinding in the 350m technical straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "15",
+                        "horse_name": "Worthy Stunnah",
+                        "handicapper_notes": "Primary speed influence ('E' style) who dictated terms and only surrendered late when second over 1400m at the Gold Coast. Will cross aggressively toward the inside fence where the +9m portable rail provides maximum assistance. Solid consistency with three consecutive placings this preparation.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "8",
+                        "horse_name": "Sun In June",
+                        "handicapper_notes": "Well-bred mare from the Tony Gollan stable who closed hard from the rear to grab third over 1200m at Ipswich first-up despite suffering traffic issues at the 300m mark. Extra 150m suits her pedigree, but she must navigate the short Doomben straight from an off-pace posture ('S' style).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Traffic",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Martindale Kid",
+                        "handicapper_notes": "Ran an encouraging second over 1400m on soft going at Sunshine Coast nine days ago when finishing with purpose despite early bumping. Backs up quickly with top provincial hoop Jag Guthmann-Chester retaining the mount; viable exotic inclusion.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "11",
+                    "name": "Filthy",
+                    "rating": 92.0,
+                    "reason": "Brings the strongest peak figure into this maiden handicap after a narrow second over 1400m on soft ground at the Gold Coast carrying 60.0kg. Maps for an aggressive forward stalk ('P' style) under Ryan Maloney to overcome the wide draw. Soft 5 track profile suits (3: 0-2-1 on wet tracks) and he has the tactical zip to clear mid-field traffic before the Doomben home turn."
+                },
+                {
+                    "number": "11",
+                    "barrier": "4",
+                    "name": "Prize Witness",
+                    "rating": 89.0,
+                    "reason": "First-up specialist candidate returning off an 8-month spell with a dynamic 2.5-length Sunshine Coast barrier trial victory in hand. Draws the golden gate 4 on the +9m rail layout, guaranteeing a textbook box-seat stalk ('P' style) with zero ground conceded. Gets genuine 3.5kg weight relief from the topweight under Emily Lang."
+                },
+                {
+                    "number": "4",
+                    "barrier": "13",
+                    "name": "I Am Louie",
+                    "rating": 86.0,
+                    "reason": "Tony Gollan-trained gelding proven at this track and distance profile with two prior metro placings on soft ground at Doomben. Ran a solid third over 1400m at Eagle Farm five weeks ago. Slide inward post-scratches aids Cejay Graham in finding cover midfield before unwinding in the 350m technical straight."
+                },
+                {
+                    "number": "7",
+                    "barrier": "15",
+                    "name": "Worthy Stunnah",
+                    "rating": 84.0,
+                    "reason": "Primary speed influence ('E' style) who dictated terms and only surrendered late when second over 1400m at the Gold Coast. Will cross aggressively toward the inside fence where the +9m portable rail provides maximum assistance. Solid consistency with three consecutive placings this preparation."
+                },
+                {
+                    "number": "10",
+                    "barrier": "8",
+                    "name": "Sun In June",
+                    "rating": 83.0,
+                    "reason": "Well-bred mare from the Tony Gollan stable who closed hard from the rear to grab third over 1200m at Ipswich first-up despite suffering traffic issues at the 300m mark. Extra 150m suits her pedigree, but she must navigate the short Doomben straight from an off-pace posture ('S' style). | <i>\u26a0\ufe0f Traffic \u2022 \ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "11",
+                    "name": "Filthy",
+                    "rating": 92.0,
+                    "reason": "Brings the strongest peak figure into this maiden handicap after a narrow second over 1400m on soft ground at the Gold Coast carrying 60.0kg. Maps for an aggressive forward stalk ('P' style) under Ryan Maloney to overcome the wide draw. Soft 5 track profile suits (3: 0-2-1 on wet tracks) and he has the tactical zip to clear mid-field traffic before the Doomben home turn."
+                },
+                {
+                    "number": "11",
+                    "barrier": "4",
+                    "name": "Prize Witness",
+                    "rating": 89.0,
+                    "reason": "First-up specialist candidate returning off an 8-month spell with a dynamic 2.5-length Sunshine Coast barrier trial victory in hand. Draws the golden gate 4 on the +9m rail layout, guaranteeing a textbook box-seat stalk ('P' style) with zero ground conceded. Gets genuine 3.5kg weight relief from the topweight under Emily Lang."
+                },
+                {
+                    "number": "4",
+                    "barrier": "13",
+                    "name": "I Am Louie",
+                    "rating": 86.0,
+                    "reason": "Tony Gollan-trained gelding proven at this track and distance profile with two prior metro placings on soft ground at Doomben. Ran a solid third over 1400m at Eagle Farm five weeks ago. Slide inward post-scratches aids Cejay Graham in finding cover midfield before unwinding in the 350m technical straight."
+                },
+                {
+                    "number": "7",
+                    "barrier": "15",
+                    "name": "Worthy Stunnah",
+                    "rating": 84.0,
+                    "reason": "Primary speed influence ('E' style) who dictated terms and only surrendered late when second over 1400m at the Gold Coast. Will cross aggressively toward the inside fence where the +9m portable rail provides maximum assistance. Solid consistency with three consecutive placings this preparation."
+                },
+                {
+                    "number": "10",
+                    "barrier": "8",
+                    "name": "Sun In June",
+                    "rating": 83.0,
+                    "reason": "Well-bred mare from the Tony Gollan stable who closed hard from the rear to grab third over 1200m at Ipswich first-up despite suffering traffic issues at the 300m mark. Extra 150m suits her pedigree, but she must navigate the short Doomben straight from an off-pace posture ('S' style). | <i>\u26a0\ufe0f Traffic \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Martindale Kid",
+                    "rating": 81.0,
+                    "reason": "Ran an encouraging second over 1400m on soft going at Sunshine Coast nine days ago when finishing with purpose despite early bumping. Backs up quickly with top provincial hoop Jag Guthmann-Chester retaining the mount; viable exotic inclusion."
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "4",
+                "name": "Prize Witness",
+                "rating": 89.0,
+                "reason": "First-up specialist candidate returning off an 8-month spell with a dynamic 2.5-length Sunshine Coast barrier trial victory in hand. Draws the golden gate 4 on the +9m rail layout, guaranteeing a textbook box-seat stalk ('P' style) with zero ground conceded. Gets genuine 3.5kg weight relief from the topweight under Emily Lang."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Filthy</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #11, #4 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#11 Prize Witness</b>"
+        },
+        {
+            "number": 3,
+            "distance": "1600m Turf Soft 5",
+            "surface": "5",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 3,
+                "distance_surface": "1600m Turf Soft 5",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 1, 11; Trifecta 1, 11 / 1, 6, 11 / 1, 6, 8, 10, 11, 12",
+                "contenders": [
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Dual Mastery",
+                        "handicapper_notes": "Gains the ultimate tactical setup from barrier 1 with the rail out 9m on a Soft 5 surface. Boasts proven track-and-trip credentials over the Doomben 1600m where he led and missed by just 0.5L to Ancestral (who subsequently placed in BM68 grade). Maps to control the rail and dictate terms under Guthmann-Chester.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "3",
+                        "horse_name": "Xami",
+                        "handicapper_notes": "High-value $410k yearling and half-sister to G1 winner Skew Wiff from the Chris Waller stable. Produced a sharp debut 3rd behind the talented Veomas over 1350m here and steps up to the mile with a massive 3.5kg weight pull (55kg). Perfectly drawn in barrier 3 to stalk in the box seat behind the speed.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "11",
+                        "horse_name": "Icy Lad",
+                        "handicapper_notes": "Progressive 3yo gelding by Too Darn Hot for Tony Gollan who showed big improvement 2nd-up when leading and going down by only 0.7L over 1400m at Eagle Farm. Untested at 1600m and must navigate barrier 11 before the first turn, but possesses the tactical speed to press forward with Emily Lang claiming down to 57kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "7",
+                        "horse_name": "Symbolise",
+                        "handicapper_notes": "Gollan runner ridden by premier jockey Ben Thompson. Hit the line solidly when 4th beaten under a length over 1400m at Gold Coast after an awkward getaway. Stays at 56.5kg and has the stamina to appreciate the rise to 1600m, but will need luck tucking in from barrier 7.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Broke Slowly",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "9",
+                        "horse_name": "Sea The Falls",
+                        "handicapper_notes": "Maurice filly for Tony Gollan who closed off well for 3rd behind Icy Lad over 1400m at Eagle Farm despite traffic near the 200m mark. Gets in light at 55kg with Kyle Wilson-Taylor, but wide gate 9 around Doomben with rail out 9m makes midfield tracking difficult.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Route",
+                            "trouble_trip": "Traffic",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "6",
+                        "horse_name": "Kawerau",
+                        "handicapper_notes": "Gains a run as emergency for Chris Waller and picks up top hoop Ryan Maloney. Raced in solid NSW provincial maiden company and now receives first-time blinkers stepping up to 1600m. Needs sharp turnaround from latest Hawkesbury effort, but stable/jockey combo commands exotics respect.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Dual Mastery",
+                    "rating": 89.0,
+                    "reason": "Gains the ultimate tactical setup from barrier 1 with the rail out 9m on a Soft 5 surface. Boasts proven track-and-trip credentials over the Doomben 1600m where he led and missed by just 0.5L to Ancestral (who subsequently placed in BM68 grade). Maps to control the rail and dictate terms under Guthmann-Chester."
+                },
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Xami",
+                    "rating": 86.0,
+                    "reason": "High-value $410k yearling and half-sister to G1 winner Skew Wiff from the Chris Waller stable. Produced a sharp debut 3rd behind the talented Veomas over 1350m here and steps up to the mile with a massive 3.5kg weight pull (55kg). Perfectly drawn in barrier 3 to stalk in the box seat behind the speed. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "11",
+                    "name": "Icy Lad",
+                    "rating": 83.0,
+                    "reason": "Progressive 3yo gelding by Too Darn Hot for Tony Gollan who showed big improvement 2nd-up when leading and going down by only 0.7L over 1400m at Eagle Farm. Untested at 1600m and must navigate barrier 11 before the first turn, but possesses the tactical speed to press forward with Emily Lang claiming down to 57kg. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Symbolise",
+                    "rating": 81.0,
+                    "reason": "Gollan runner ridden by premier jockey Ben Thompson. Hit the line solidly when 4th beaten under a length over 1400m at Gold Coast after an awkward getaway. Stays at 56.5kg and has the stamina to appreciate the rise to 1600m, but will need luck tucking in from barrier 7. | <i>\u26a0\ufe0f Broke Slowly \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "9",
+                    "name": "Sea The Falls",
+                    "rating": 79.0,
+                    "reason": "Maurice filly for Tony Gollan who closed off well for 3rd behind Icy Lad over 1400m at Eagle Farm despite traffic near the 200m mark. Gets in light at 55kg with Kyle Wilson-Taylor, but wide gate 9 around Doomben with rail out 9m makes midfield tracking difficult. | <i>\u26a0\ufe0f Traffic \u2022 \ud83d\udccf Sprint to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Dual Mastery",
+                    "rating": 89.0,
+                    "reason": "Gains the ultimate tactical setup from barrier 1 with the rail out 9m on a Soft 5 surface. Boasts proven track-and-trip credentials over the Doomben 1600m where he led and missed by just 0.5L to Ancestral (who subsequently placed in BM68 grade). Maps to control the rail and dictate terms under Guthmann-Chester."
+                },
+                {
+                    "number": "11",
+                    "barrier": "3",
+                    "name": "Xami",
+                    "rating": 86.0,
+                    "reason": "High-value $410k yearling and half-sister to G1 winner Skew Wiff from the Chris Waller stable. Produced a sharp debut 3rd behind the talented Veomas over 1350m here and steps up to the mile with a massive 3.5kg weight pull (55kg). Perfectly drawn in barrier 3 to stalk in the box seat behind the speed. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "11",
+                    "name": "Icy Lad",
+                    "rating": 83.0,
+                    "reason": "Progressive 3yo gelding by Too Darn Hot for Tony Gollan who showed big improvement 2nd-up when leading and going down by only 0.7L over 1400m at Eagle Farm. Untested at 1600m and must navigate barrier 11 before the first turn, but possesses the tactical speed to press forward with Emily Lang claiming down to 57kg. | <i>\ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "7",
+                    "name": "Symbolise",
+                    "rating": 81.0,
+                    "reason": "Gollan runner ridden by premier jockey Ben Thompson. Hit the line solidly when 4th beaten under a length over 1400m at Gold Coast after an awkward getaway. Stays at 56.5kg and has the stamina to appreciate the rise to 1600m, but will need luck tucking in from barrier 7. | <i>\u26a0\ufe0f Broke Slowly \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "9",
+                    "name": "Sea The Falls",
+                    "rating": 79.0,
+                    "reason": "Maurice filly for Tony Gollan who closed off well for 3rd behind Icy Lad over 1400m at Eagle Farm despite traffic near the 200m mark. Gets in light at 55kg with Kyle Wilson-Taylor, but wide gate 9 around Doomben with rail out 9m makes midfield tracking difficult. | <i>\u26a0\ufe0f Traffic \u2022 \ud83d\udccf Sprint to Route</i>"
+                },
+                {
+                    "number": "12",
+                    "barrier": "6",
+                    "name": "Kawerau",
+                    "rating": 77.0,
+                    "reason": "Gains a run as emergency for Chris Waller and picks up top hoop Ryan Maloney. Raced in solid NSW provincial maiden company and now receives first-time blinkers stepping up to 1600m. Needs sharp turnaround from latest Hawkesbury effort, but stable/jockey combo commands exotics respect. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "11",
+                "barrier": "3",
+                "name": "Xami",
+                "rating": 86.0,
+                "reason": "High-value $410k yearling and half-sister to G1 winner Skew Wiff from the Chris Waller stable. Produced a sharp debut 3rd behind the talented Veomas over 1350m here and steps up to the mile with a massive 3.5kg weight pull (55kg). Perfectly drawn in barrier 3 to stalk in the box seat behind the speed. | <i>\ud83d\udccf Sprint to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#1 Dual Mastery</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #1, #11, #6 (Selective Box)<br><b>\u26a0\ufe0f DANGER OVERLAY:</b> $5 Win/Place Side-Car on <b>#11 Xami</b>"
+        },
+        {
+            "number": 4,
+            "distance": "2000m Turf Soft 5",
+            "surface": "5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 4,
+                "distance_surface": "2000m Turf Soft 5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 5 / Exacta Box 1, 5 / Trifecta 5 with 1, 7, 10 with 1, 2, 6, 7, 10",
+                "contenders": [
+                    {
+                        "program_number": "5",
+                        "barrier": "5",
+                        "horse_name": "Peccavi",
+                        "handicapper_notes": "Top selection with Class Drop Elevator applied, dropping from Saturday Metro Class 3 at Eagle Farm (beaten 4.2L, 11 days ago) to Wednesday Metro Class 3. Canonical style 'S' (midpack swooper) under standard pace with three 'E' runners ensuring honest tempo. Strong Soft-track specialist (2 wins, 1 placing from 4 starts) who crushed Vermilion Kirin by 6.3L two back; 57.5kg with Ben Thompson from barrier 5 offsets the +9m Conveyor Belt rail bias.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 89,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "3",
+                        "horse_name": "Taravia (NZ)",
+                        "handicapper_notes": "Primary danger. Canonical style 'E' who maps to control or share the fence from barrier 3 (sliding inward after scratches) on a +9m Doomben rail favoring on-pace inside runners. Drops from Saturday BM70/BM80 company (missed by a head in Doomben BM80 two back), though excluded from class-drop bonus after tiring 6.1L on Heavy ground last start. Carries 60.0kg topweight tax on Soft 5 and drops back from 2200m to 2000m, keeping him just behind Peccavi despite Angela Jones aboard.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "1",
+                        "horse_name": "Chance De Lune",
+                        "handicapper_notes": "Flagged as Danger Horse at generous odds. Canonical style 'E' drawn the coveted barrier 1 pole on a +9m Conveyor Belt rail at Doomben's tight 1715m oval. Backs up off a gutsy all-the-way Soft-track Class 1 win at Sunshine Coast 10 days ago and carries just 56.0kg. If he holds the rail cleanly behind or alongside Taravia, the track-bias edge makes him a major threat to stick on for a top-three finish.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "9",
+                        "horse_name": "Down Under Stunnah",
+                        "handicapper_notes": "Consistent mare with canonical style 'P' who handles Soft ground well and carries a featherweight 55.0kg (further aided by Olivia Kendal's claim). Solid fourth in Ipswich Class 3 last start after a close second in Class 2 prior, and owns solid Doomben 2000m form. Outside barrier 9 on a +9m rail is the main obstacle, forcing her to work to find midfield cover around the first bend.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "4",
+                        "horse_name": "Vermilion Kirin",
+                        "handicapper_notes": "Doomben and 2000m track-distance winner with strong Soft-track credentials (3 wins, 3 placings). Canonical style 'P' maps for a textbook box-seat stalk from barrier 4 behind the leaders on the +9m rail. Rebounded with a close second at Gold Coast last start, though he carries 59.0kg and was soundly beaten 6.3L by Peccavi two starts back at Eagle Farm.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Amelioration",
+                        "handicapper_notes": "Canonical style 'P' stalker who picks up top Doomben jockey Ryan Maloney at 57.0kg. Scored back-to-back Sunshine Coast wins (including Soft ground) before two plain efforts on Heavy at Eagle Farm and Synthetic at Gold Coast after awkward starts. Barrier 8 is sticky on the +9m rail, requiring a clean jump to slot into a trailing spot.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "Awkward start in last two outings",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "6",
+                        "horse_name": "Backhander",
+                        "handicapper_notes": "Front-running mare (canonical style 'E') who led throughout to win a Dubbo BM58 before fading to fifth in Ipswich Class 3 last start after beginning awkwardly. Drops 4.5kg to 55.5kg which helps, but faces pressure for the lead from Taravia and Chance De Lune on a tight +9m rail in tougher midweek Metro company.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "Awkward start last outing",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "11",
+                        "barrier": "2",
+                        "horse_name": "He's A Saint (NZ)",
+                        "handicapper_notes": "Draws well in barrier 2 with a light 54.0kg weight, but canonical style 'S' lacks the sharp turn of foot needed off a +9m Doomben rail. Unplaced in last two runs at Gold Coast against easier BM62/BM65 opposition and has only 1 win from 23 starts (0-for-5 at Doomben).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 69,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "7",
+                        "horse_name": "Crypto Magic",
+                        "handicapper_notes": "Deep closer (canonical style 'C') on a quick 4-day backup after finishing eighth in an Ipswich BM0-58. Racing pattern from barrier 7 is severely disadvantaged by the +9m Conveyor Belt rail and 350m straight, and recent speed figures at lower provincial class leave him well short.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 67,
+                            "running_style": "C",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Route",
+                            "trouble_trip": "Checked near 2f two starts back"
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Peccavi",
+                    "rating": 89.0,
+                    "reason": "Top selection with Class Drop Elevator applied, dropping from Saturday Metro Class 3 at Eagle Farm (beaten 4.2L, 11 days ago) to Wednesday Metro Class 3. Canonical style 'S' (midpack swooper) under standard pace with three 'E' runners ensuring honest tempo. Strong Soft-track specialist (2 wins, 1 placing from 4 starts) who crushed Vermilion Kirin by 6.3L two back; 57.5kg with Ben Thompson from barrier 5 offsets the +9m Conveyor Belt rail bias. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Taravia (NZ)",
+                    "rating": 86.0,
+                    "reason": "Primary danger. Canonical style 'E' who maps to control or share the fence from barrier 3 (sliding inward after scratches) on a +9m Doomben rail favoring on-pace inside runners. Drops from Saturday BM70/BM80 company (missed by a head in Doomben BM80 two back), though excluded from class-drop bonus after tiring 6.1L on Heavy ground last start. Carries 60.0kg topweight tax on Soft 5 and drops back from 2200m to 2000m, keeping him just behind Peccavi despite Angela Jones aboard. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Chance De Lune",
+                    "rating": 80.0,
+                    "reason": "Flagged as Danger Horse at generous odds. Canonical style 'E' drawn the coveted barrier 1 pole on a +9m Conveyor Belt rail at Doomben's tight 1715m oval. Backs up off a gutsy all-the-way Soft-track Class 1 win at Sunshine Coast 10 days ago and carries just 56.0kg. If he holds the rail cleanly behind or alongside Taravia, the track-bias edge makes him a major threat to stick on for a top-three finish. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "9",
+                    "name": "Down Under Stunnah",
+                    "rating": 79.0,
+                    "reason": "Consistent mare with canonical style 'P' who handles Soft ground well and carries a featherweight 55.0kg (further aided by Olivia Kendal's claim). Solid fourth in Ipswich Class 3 last start after a close second in Class 2 prior, and owns solid Doomben 2000m form. Outside barrier 9 on a +9m rail is the main obstacle, forcing her to work to find midfield cover around the first bend. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Vermilion Kirin",
+                    "rating": 78.0,
+                    "reason": "Doomben and 2000m track-distance winner with strong Soft-track credentials (3 wins, 3 placings). Canonical style 'P' maps for a textbook box-seat stalk from barrier 4 behind the leaders on the +9m rail. Rebounded with a close second at Gold Coast last start, though he carries 59.0kg and was soundly beaten 6.3L by Peccavi two starts back at Eagle Farm. | <i>\ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "5",
+                    "barrier": "5",
+                    "name": "Peccavi",
+                    "rating": 89.0,
+                    "reason": "Top selection with Class Drop Elevator applied, dropping from Saturday Metro Class 3 at Eagle Farm (beaten 4.2L, 11 days ago) to Wednesday Metro Class 3. Canonical style 'S' (midpack swooper) under standard pace with three 'E' runners ensuring honest tempo. Strong Soft-track specialist (2 wins, 1 placing from 4 starts) who crushed Vermilion Kirin by 6.3L two back; 57.5kg with Ben Thompson from barrier 5 offsets the +9m Conveyor Belt rail bias. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "3",
+                    "name": "Taravia (NZ)",
+                    "rating": 86.0,
+                    "reason": "Primary danger. Canonical style 'E' who maps to control or share the fence from barrier 3 (sliding inward after scratches) on a +9m Doomben rail favoring on-pace inside runners. Drops from Saturday BM70/BM80 company (missed by a head in Doomben BM80 two back), though excluded from class-drop bonus after tiring 6.1L on Heavy ground last start. Carries 60.0kg topweight tax on Soft 5 and drops back from 2200m to 2000m, keeping him just behind Peccavi despite Angela Jones aboard. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "1",
+                    "name": "Chance De Lune",
+                    "rating": 80.0,
+                    "reason": "Flagged as Danger Horse at generous odds. Canonical style 'E' drawn the coveted barrier 1 pole on a +9m Conveyor Belt rail at Doomben's tight 1715m oval. Backs up off a gutsy all-the-way Soft-track Class 1 win at Sunshine Coast 10 days ago and carries just 56.0kg. If he holds the rail cleanly behind or alongside Taravia, the track-bias edge makes him a major threat to stick on for a top-three finish. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "9",
+                    "name": "Down Under Stunnah",
+                    "rating": 79.0,
+                    "reason": "Consistent mare with canonical style 'P' who handles Soft ground well and carries a featherweight 55.0kg (further aided by Olivia Kendal's claim). Solid fourth in Ipswich Class 3 last start after a close second in Class 2 prior, and owns solid Doomben 2000m form. Outside barrier 9 on a +9m rail is the main obstacle, forcing her to work to find midfield cover around the first bend. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "2",
+                    "barrier": "4",
+                    "name": "Vermilion Kirin",
+                    "rating": 78.0,
+                    "reason": "Doomben and 2000m track-distance winner with strong Soft-track credentials (3 wins, 3 placings). Canonical style 'P' maps for a textbook box-seat stalk from barrier 4 behind the leaders on the +9m rail. Rebounded with a close second at Gold Coast last start, though he carries 59.0kg and was soundly beaten 6.3L by Peccavi two starts back at Eagle Farm. | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Amelioration",
+                    "rating": 77.0,
+                    "reason": "Canonical style 'P' stalker who picks up top Doomben jockey Ryan Maloney at 57.0kg. Scored back-to-back Sunshine Coast wins (including Soft ground) before two plain efforts on Heavy at Eagle Farm and Synthetic at Gold Coast after awkward starts. Barrier 8 is sticky on the +9m rail, requiring a clean jump to slot into a trailing spot. | <i>\u26a0\ufe0f Awkward start in last two outings \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "6",
+                    "name": "Backhander",
+                    "rating": 75.0,
+                    "reason": "Front-running mare (canonical style 'E') who led throughout to win a Dubbo BM58 before fading to fifth in Ipswich Class 3 last start after beginning awkwardly. Drops 4.5kg to 55.5kg which helps, but faces pressure for the lead from Taravia and Chance De Lune on a tight +9m rail in tougher midweek Metro company. | <i>\u26a0\ufe0f Awkward start last outing \u2022 \ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "11",
+                    "barrier": "2",
+                    "name": "He's A Saint (NZ)",
+                    "rating": 69.0,
+                    "reason": "Draws well in barrier 2 with a light 54.0kg weight, but canonical style 'S' lacks the sharp turn of foot needed off a +9m Doomben rail. Unplaced in last two runs at Gold Coast against easier BM62/BM65 opposition and has only 1 win from 23 starts (0-for-5 at Doomben). | <i>\ud83d\udccf Route to Route</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "7",
+                    "name": "Crypto Magic",
+                    "rating": 67.0,
+                    "reason": "Deep closer (canonical style 'C') on a quick 4-day backup after finishing eighth in an Ipswich BM0-58. Racing pattern from barrier 7 is severely disadvantaged by the +9m Conveyor Belt rail and 350m straight, and recent speed figures at lower provincial class leave him well short. | <i>\u26a0\ufe0f Checked near 2f two starts back \u2022 \ud83d\udccf Route to Route</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "7",
+                "barrier": "1",
+                "name": "Chance De Lune",
+                "rating": 80.0,
+                "reason": "Flagged as Danger Horse at generous odds. Canonical style 'E' drawn the coveted barrier 1 pole on a +9m Conveyor Belt rail at Doomben's tight 1715m oval. Backs up off a gutsy all-the-way Soft-track Class 1 win at Sunshine Coast 10 days ago and carries just 56.0kg. If he holds the rail cleanly behind or alongside Taravia, the track-bias edge makes him a major threat to stick on for a top-three finish. | <i>\ud83d\udccf Route to Route</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#5 Peccavi</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #5, #1, #7 (Selective Box)"
+        },
+        {
+            "number": 5,
+            "distance": "1600m Turf Soft 5",
+            "surface": "5",
+            "confidence_level": "High",
+            "raw_features_dump": {
+                "race_number": 5,
+                "distance_surface": "1600m Turf Soft 5",
+                "confidence_level": "High",
+                "suggested_wager": "Win 4; Exacta Key 4 over 8, 10; Trifecta 4 / 8, 10 / 2, 3, 8, 10",
+                "contenders": [
+                    {
+                        "program_number": "4",
+                        "barrier": "9",
+                        "horse_name": "Cryption's Desire",
+                        "handicapper_notes": "Secures huge post-scratch pace advantage as the designated lone leader (E). With the portable rail out +9m into conveyor belt territory and scratches eliminating key rivals, Brandon Lerena can cross and control an uncontested lead. Drops 3.5kg from a courageous 3rd in metro BM68 grade to carried 56.5kg in Class 2, rating as a prime Solo Lock.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 93,
+                            "running_style": "E",
+                            "is_lone_speed": true,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "10",
+                        "barrier": "1",
+                        "horse_name": "Saveur",
+                        "handicapper_notes": "Major threat dropping from Saturday metropolitan BM68 grade where she closed into 3rd at Eagle Farm. Draws the coveted pole position (Barrier 1) to land the box-seat stalking trip (P) on the back of the leader with Ben Thompson up. Carries featherweight 55kg, class drop bonus applied.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Mile",
+                            "trouble_trip": "Held Up",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "8",
+                        "barrier": "2",
+                        "horse_name": "Sorrenti",
+                        "handicapper_notes": "Trained by Matthew Dunn and drawn ideally in barrier 2. Closed well for 5th in a BM68 here two weeks ago and gains first-time blinkers today. Gets a soft economy run along the inside lanes with Andrew Mallyon aboard and drops to carried 55.5kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 85,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "7",
+                        "horse_name": "Till Dusk",
+                        "handicapper_notes": "Consistent mare from the Munce yard with elite metro rider Ryan Maloney engaged. Ran 4th in BM70 company at Gold Coast last start, but stretching out to 1600m for the first time while conceding weight (58kg) leaves her vulnerable late on tight turns.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Sprint to Mile",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "6",
+                        "horse_name": "Misting",
+                        "handicapper_notes": "David Vandyke trainee who ran an honest 5th in Saturday BM70 grade at this venue on Oct 31. Possesses proven wet track credentials, but her get-back swooping style (S) faces a severe tactical disadvantage around Doomben when the rail is +9m.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 81,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide Without Cover",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "8",
+                        "horse_name": "Wedding Vow",
+                        "handicapper_notes": "Last-start Ipswich Class 1 winner over the mile who handles soft going. Faces a sharper class rise here to metro Class 2 and must navigate an awkward midfield map from a wide gate without apprentice claim relief.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Lone Speed (+6)",
+                            "ai_holistic_score": 79,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Tightened / Crowded",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Cryption's Desire",
+                    "rating": 96.0,
+                    "reason": "Secures huge post-scratch pace advantage as the designated lone leader (E). With the portable rail out +9m into conveyor belt territory and scratches eliminating key rivals, Brandon Lerena can cross and control an uncontested lead. Drops 3.5kg from a courageous 3rd in metro BM68 grade to carried 56.5kg in Class 2, rating as a prime Solo Lock. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Saveur",
+                    "rating": 88.0,
+                    "reason": "Major threat dropping from Saturday metropolitan BM68 grade where she closed into 3rd at Eagle Farm. Draws the coveted pole position (Barrier 1) to land the box-seat stalking trip (P) on the back of the leader with Ben Thompson up. Carries featherweight 55kg, class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Held Up \u2022 \ud83d\udccf Route to Mile</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Sorrenti",
+                    "rating": 85.0,
+                    "reason": "Trained by Matthew Dunn and drawn ideally in barrier 2. Closed well for 5th in a BM68 here two weeks ago and gains first-time blinkers today. Gets a soft economy run along the inside lanes with Andrew Mallyon aboard and drops to carried 55.5kg."
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Till Dusk",
+                    "rating": 83.0,
+                    "reason": "Consistent mare from the Munce yard with elite metro rider Ryan Maloney engaged. Ran 4th in BM70 company at Gold Coast last start, but stretching out to 1600m for the first time while conceding weight (58kg) leaves her vulnerable late on tight turns. | <i>\ud83d\udccf Sprint to Mile</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Misting",
+                    "rating": 81.0,
+                    "reason": "David Vandyke trainee who ran an honest 5th in Saturday BM70 grade at this venue on Oct 31. Possesses proven wet track credentials, but her get-back swooping style (S) faces a severe tactical disadvantage around Doomben when the rail is +9m. | <i>\u26a0\ufe0f Wide Without Cover</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "4",
+                    "barrier": "9",
+                    "name": "Cryption's Desire",
+                    "rating": 96.0,
+                    "reason": "Secures huge post-scratch pace advantage as the designated lone leader (E). With the portable rail out +9m into conveyor belt territory and scratches eliminating key rivals, Brandon Lerena can cross and control an uncontested lead. Drops 3.5kg from a courageous 3rd in metro BM68 grade to carried 56.5kg in Class 2, rating as a prime Solo Lock. | <i>\ud83d\udd25 Lone Speed</i>"
+                },
+                {
+                    "number": "10",
+                    "barrier": "1",
+                    "name": "Saveur",
+                    "rating": 88.0,
+                    "reason": "Major threat dropping from Saturday metropolitan BM68 grade where she closed into 3rd at Eagle Farm. Draws the coveted pole position (Barrier 1) to land the box-seat stalking trip (P) on the back of the leader with Ben Thompson up. Carries featherweight 55kg, class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Held Up \u2022 \ud83d\udccf Route to Mile</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "2",
+                    "name": "Sorrenti",
+                    "rating": 85.0,
+                    "reason": "Trained by Matthew Dunn and drawn ideally in barrier 2. Closed well for 5th in a BM68 here two weeks ago and gains first-time blinkers today. Gets a soft economy run along the inside lanes with Andrew Mallyon aboard and drops to carried 55.5kg."
+                },
+                {
+                    "number": "2",
+                    "barrier": "7",
+                    "name": "Till Dusk",
+                    "rating": 83.0,
+                    "reason": "Consistent mare from the Munce yard with elite metro rider Ryan Maloney engaged. Ran 4th in BM70 company at Gold Coast last start, but stretching out to 1600m for the first time while conceding weight (58kg) leaves her vulnerable late on tight turns. | <i>\ud83d\udccf Sprint to Mile</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "6",
+                    "name": "Misting",
+                    "rating": 81.0,
+                    "reason": "David Vandyke trainee who ran an honest 5th in Saturday BM70 grade at this venue on Oct 31. Possesses proven wet track credentials, but her get-back swooping style (S) faces a severe tactical disadvantage around Doomben when the rail is +9m. | <i>\u26a0\ufe0f Wide Without Cover</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "8",
+                    "name": "Wedding Vow",
+                    "rating": 79.0,
+                    "reason": "Last-start Ipswich Class 1 winner over the mile who handles soft going. Faces a sharper class rise here to metro Class 2 and must navigate an awkward midfield map from a wide gate without apprentice claim relief. | <i>\u26a0\ufe0f Tightened / Crowded</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "10",
+                "barrier": "1",
+                "name": "Saveur",
+                "rating": 88.0,
+                "reason": "Major threat dropping from Saturday metropolitan BM68 grade where she closed into 3rd at Eagle Farm. Draws the coveted pole position (Barrier 1) to land the box-seat stalking trip (P) on the back of the leader with Ben Thompson up. Carries featherweight 55kg, class drop bonus applied. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Held Up \u2022 \ud83d\udccf Route to Mile</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf TIER 1 WIN:</b> $25 Win on <b>#4 Cryption's Desire</b> (Solo Lock - Gap: +8.0 pts)<br><b>\ud83c\udf9f\ufe0f $3 EXACTA KEY:</b> #4 over (#10, #8) [$9 total stake]"
+        },
+        {
+            "number": 6,
+            "distance": "1200m Turf Soft 5",
+            "surface": "5",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 6,
+                "distance_surface": "1200m Turf Soft 5",
+                "confidence_level": "Medium",
+                "suggested_wager": "Exacta Box 3, 1, 16e with 6",
+                "contenders": [
+                    {
+                        "program_number": "3",
+                        "barrier": "5",
+                        "horse_name": "Abender",
+                        "handicapper_notes": "Top selection in a competitive field (gap +2). Canonical P style maps for a prime one-off box-seat stalk in a Standard post-scratch pace scenario on Doomben's +9m rail (350m straight). Class Drop applied: drops from Saturday NMW ($53K) within 18 days after a 4.9L wide-trip 6th, and ran 3rd (0.9L, SR 81) at Eagle Farm BM68 prior. Proven Doomben 1200m specialist (3 wins) for the elite Gollan/Maloney combo despite carrying 59.5kg.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 88,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Wide trip last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "1",
+                        "horse_name": "Puff 'N' Harry",
+                        "handicapper_notes": "Primary threat. Canonical P stalker drawing Barrier 1 on Doomben's +9m Conveyor Belt rail, securing an economical rails trip in a Standard pace race. Huge recent form, finishing 2nd by 0.5L in Eagle Farm BM72 (Heavy, SR 80) and 5th (1.9L) in Class 3 prior. Apprentice Jade Hampson's 3kg claim relieves weight to 58.5kg net; only knock is 0-for-2 at 1200m and needing clear air in the 350m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "6.5f to 6f",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "9",
+                        "horse_name": "Divine Source",
+                        "handicapper_notes": "Class Drop applied: drops from Saturday Class 6 ($60K, 5th beaten 3.7L over 5f) to midweek BM68 ($27K) within 25 days, returning to the 1200m trip and track where she won a BM65 two starts back. Canonical E speed runner in a Standard pace map with Ben Thompson aboard (58.5kg), though sliding inward from PP 12 to barrier 9 still leaves her with work to cross on the +9m rail.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "5f to 6f",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "16e",
+                        "barrier": "2",
+                        "horse_name": "Herman Said",
+                        "handicapper_notes": "Designated Danger Horse. Canonical P stalker drawn Barrier 2 on the +9m rail for late rider upgrade Andrew Mallyon (58kg). Excels on Soft ground (7: 3-1-0) and enters off a narrow 0.2L 2nd at Gold Coast BM65 after a wide-trip 4th prior. Maps for a cozy pocket run behind the two E leaders on a tight 350m straight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 83,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "14e",
+                        "barrier": "8",
+                        "horse_name": "Capital Heart",
+                        "handicapper_notes": "Canonical S swooper who won a Doomben BM65 over 1200m in April (SR 76) and closed strongly for 2nd (1.3L) at Ipswich Class 5 last start after overcoming an awkward start and early traffic. Barrier 8 on the +9m rail is tricky for a backmarker on Doomben's 350m straight, keeping him to minor/exotic appeal at 58.5kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 80,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Awkward start and held up last start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "17e",
+                        "barrier": "3",
+                        "horse_name": "Davikar",
+                        "handicapper_notes": "Canonical P presser resuming off a 5-month break with a close 2nd in a Gold Coast Soft trial, picking up Michael Rodd from barrier 3 with a light 56kg. Needs to improve on her 0-for-2 Doomben record first-up, but inside draw on the +9m rail gives her a soft stalking setup.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 77,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "7f to 6f",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "7",
+                        "barrier": "4",
+                        "horse_name": "Moscow Circus",
+                        "handicapper_notes": "Canonical P tactical runner drawing barrier 4 with Jett Newman's 3kg claim reducing effective weight to 55.5kg. Drops out of Eagle Farm Class 3 (5th, 5.2L after leading on Heavy), and has two Soft-track wins, though recent form has been patchy.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 75,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "12",
+                        "barrier": "7",
+                        "horse_name": "Jungle Law",
+                        "handicapper_notes": "Canonical E speed type who led before weakening to 5th (3.3L) in Gold Coast BM65 last start. Drops in weight to 57.5kg with Fred Larson aboard, but barrier 7 with Divine Source to her outside creates early pressure on a tougher metro track (0-for-3 at Doomben).",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 72,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "2",
+                        "barrier": "6",
+                        "horse_name": "Devil Devil",
+                        "handicapper_notes": "Canonical S off-pace runner making his Doomben debut after a 6th (3.8L) first-up over 5f at Sunshine Coast where he began awkwardly and was held up. Has strong provincial wet form, but 60kg weight tax and an 0-for-3 record at 1200m make this a steep rise for late rider Daniel Moor.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Divine Source",
+                    "rating": 92.0,
+                    "reason": "Class Drop applied: drops from Saturday Class 6 ($60K, 5th beaten 3.7L over 5f) to midweek BM68 ($27K) within 25 days, returning to the 1200m trip and track where she won a BM65 two starts back. Canonical E speed runner in a Standard pace map with Ben Thompson aboard (58.5kg), though sliding inward from PP 12 to barrier 9 still leaves her with work to cross on the +9m rail. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf 5f to 6f</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Abender",
+                    "rating": 88.0,
+                    "reason": "Top selection in a competitive field (gap +2). Canonical P style maps for a prime one-off box-seat stalk in a Standard post-scratch pace scenario on Doomben's +9m rail (350m straight). Class Drop applied: drops from Saturday NMW ($53K) within 18 days after a 4.9L wide-trip 6th, and ran 3rd (0.9L, SR 81) at Eagle Farm BM68 prior. Proven Doomben 1200m specialist (3 wins) for the elite Gollan/Maloney combo despite carrying 59.5kg. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Wide trip last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Puff 'N' Harry",
+                    "rating": 86.0,
+                    "reason": "Primary threat. Canonical P stalker drawing Barrier 1 on Doomben's +9m Conveyor Belt rail, securing an economical rails trip in a Standard pace race. Huge recent form, finishing 2nd by 0.5L in Eagle Farm BM72 (Heavy, SR 80) and 5th (1.9L) in Class 3 prior. Apprentice Jade Hampson's 3kg claim relieves weight to 58.5kg net; only knock is 0-for-2 at 1200m and needing clear air in the 350m straight. | <i>\ud83d\udccf 6.5f to 6f</i>"
+                },
+                {
+                    "number": "16e",
+                    "barrier": "2",
+                    "name": "Herman Said",
+                    "rating": 83.0,
+                    "reason": "Designated Danger Horse. Canonical P stalker drawn Barrier 2 on the +9m rail for late rider upgrade Andrew Mallyon (58kg). Excels on Soft ground (7: 3-1-0) and enters off a narrow 0.2L 2nd at Gold Coast BM65 after a wide-trip 4th prior. Maps for a cozy pocket run behind the two E leaders on a tight 350m straight."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Devil Devil",
+                    "rating": 82.0,
+                    "reason": "Canonical S off-pace runner making his Doomben debut after a 6th (3.8L) first-up over 5f at Sunshine Coast where he began awkwardly and was held up. Has strong provincial wet form, but 60kg weight tax and an 0-for-3 record at 1200m make this a steep rise for late rider Daniel Moor."
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "6",
+                    "barrier": "9",
+                    "name": "Divine Source",
+                    "rating": 92.0,
+                    "reason": "Class Drop applied: drops from Saturday Class 6 ($60K, 5th beaten 3.7L over 5f) to midweek BM68 ($27K) within 25 days, returning to the 1200m trip and track where she won a BM65 two starts back. Canonical E speed runner in a Standard pace map with Ben Thompson aboard (58.5kg), though sliding inward from PP 12 to barrier 9 still leaves her with work to cross on the +9m rail. | <i>\ud83d\udd3b Class Drop \u2022 \ud83d\udccf 5f to 6f</i>"
+                },
+                {
+                    "number": "3",
+                    "barrier": "5",
+                    "name": "Abender",
+                    "rating": 88.0,
+                    "reason": "Top selection in a competitive field (gap +2). Canonical P style maps for a prime one-off box-seat stalk in a Standard post-scratch pace scenario on Doomben's +9m rail (350m straight). Class Drop applied: drops from Saturday NMW ($53K) within 18 days after a 4.9L wide-trip 6th, and ran 3rd (0.9L, SR 81) at Eagle Farm BM68 prior. Proven Doomben 1200m specialist (3 wins) for the elite Gollan/Maloney combo despite carrying 59.5kg. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Wide trip last start</i>"
+                },
+                {
+                    "number": "1",
+                    "barrier": "1",
+                    "name": "Puff 'N' Harry",
+                    "rating": 86.0,
+                    "reason": "Primary threat. Canonical P stalker drawing Barrier 1 on Doomben's +9m Conveyor Belt rail, securing an economical rails trip in a Standard pace race. Huge recent form, finishing 2nd by 0.5L in Eagle Farm BM72 (Heavy, SR 80) and 5th (1.9L) in Class 3 prior. Apprentice Jade Hampson's 3kg claim relieves weight to 58.5kg net; only knock is 0-for-2 at 1200m and needing clear air in the 350m straight. | <i>\ud83d\udccf 6.5f to 6f</i>"
+                },
+                {
+                    "number": "16e",
+                    "barrier": "2",
+                    "name": "Herman Said",
+                    "rating": 83.0,
+                    "reason": "Designated Danger Horse. Canonical P stalker drawn Barrier 2 on the +9m rail for late rider upgrade Andrew Mallyon (58kg). Excels on Soft ground (7: 3-1-0) and enters off a narrow 0.2L 2nd at Gold Coast BM65 after a wide-trip 4th prior. Maps for a cozy pocket run behind the two E leaders on a tight 350m straight."
+                },
+                {
+                    "number": "2",
+                    "barrier": "6",
+                    "name": "Devil Devil",
+                    "rating": 82.0,
+                    "reason": "Canonical S off-pace runner making his Doomben debut after a 6th (3.8L) first-up over 5f at Sunshine Coast where he began awkwardly and was held up. Has strong provincial wet form, but 60kg weight tax and an 0-for-3 record at 1200m make this a steep rise for late rider Daniel Moor."
+                },
+                {
+                    "number": "14e",
+                    "barrier": "8",
+                    "name": "Capital Heart",
+                    "rating": 80.0,
+                    "reason": "Canonical S swooper who won a Doomben BM65 over 1200m in April (SR 76) and closed strongly for 2nd (1.3L) at Ipswich Class 5 last start after overcoming an awkward start and early traffic. Barrier 8 on the +9m rail is tricky for a backmarker on Doomben's 350m straight, keeping him to minor/exotic appeal at 58.5kg. | <i>\u26a0\ufe0f Awkward start and held up last start</i>"
+                },
+                {
+                    "number": "17e",
+                    "barrier": "3",
+                    "name": "Davikar",
+                    "rating": 77.0,
+                    "reason": "Canonical P presser resuming off a 5-month break with a close 2nd in a Gold Coast Soft trial, picking up Michael Rodd from barrier 3 with a light 56kg. Needs to improve on her 0-for-2 Doomben record first-up, but inside draw on the +9m rail gives her a soft stalking setup. | <i>\ud83d\udccf 7f to 6f</i>"
+                },
+                {
+                    "number": "7",
+                    "barrier": "4",
+                    "name": "Moscow Circus",
+                    "rating": 75.0,
+                    "reason": "Canonical P tactical runner drawing barrier 4 with Jett Newman's 3kg claim reducing effective weight to 55.5kg. Drops out of Eagle Farm Class 3 (5th, 5.2L after leading on Heavy), and has two Soft-track wins, though recent form has been patchy."
+                },
+                {
+                    "number": "12",
+                    "barrier": "7",
+                    "name": "Jungle Law",
+                    "rating": 72.0,
+                    "reason": "Canonical E speed type who led before weakening to 5th (3.3L) in Gold Coast BM65 last start. Drops in weight to 57.5kg with Fred Larson aboard, but barrier 7 with Divine Source to her outside creates early pressure on a tougher metro track (0-for-3 at Doomben)."
+                }
+            ],
+            "danger_horse": {
+                "number": "16e",
+                "barrier": "2",
+                "name": "Herman Said",
+                "rating": 83.0,
+                "reason": "Designated Danger Horse. Canonical P stalker drawn Barrier 2 on the +9m rail for late rider upgrade Andrew Mallyon (58kg). Excels on Soft ground (7: 3-1-0) and enters off a narrow 0.2L 2nd at Gold Coast BM65 after a wide-trip 4th prior. Maps for a cozy pocket run behind the two E leaders on a tight 350m straight."
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#6 Divine Source</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #6, #3, #16e (Selective Box)"
+        },
+        {
+            "number": 7,
+            "distance": "1350m Turf Soft 5 (Chute Soft 7)",
+            "surface": "7)",
+            "confidence_level": "Medium",
+            "raw_features_dump": {
+                "race_number": 7,
+                "distance_surface": "1350m Turf Soft 5 (Chute Soft 7)",
+                "confidence_level": "Medium",
+                "suggested_wager": "Win/Place 8; Exacta Box 1, 5, 8, 18e",
+                "contenders": [
+                    {
+                        "program_number": "8",
+                        "barrier": "3",
+                        "horse_name": "Veomas (NZ)",
+                        "handicapper_notes": "Canonical style E. Standard post-scratch pace map with 2 E runners (Veomas and Nozomu), but Veomas holds a decisive rail-and-speed advantage from barrier 3 over Nozomu (barrier 9 post-scratch) on a +9m Conveyor Belt rail at Doomben (+3.0 pts on-pace rail lock). Proven T/D winner leading all the way here Nov 3, Gollan/Angela Jones combo, and 57.5kg net weight.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 87,
+                            "running_style": "E",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "1",
+                        "barrier": "2",
+                        "horse_name": "Climb The Ladder (NZ)",
+                        "handicapper_notes": "Canonical style S. Highest class/speed figure runner (SR 78-81 in Sydney BM72) returning 2nd-up for Tony Gollan. Jett Newman's 3kg claim reduces effective weight to 57kg from barrier 2. Standard pace map and +9m rail slightly temper deep closers, but stepping up to 1350m after closing strongly for 3rd over 1200m here Nov 3 makes him the main threat.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 86,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Began awkwardly",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "5",
+                        "barrier": "4",
+                        "horse_name": "Switz",
+                        "handicapper_notes": "Canonical style P. Box-seat stalker from barrier 4 in a Standard pace scenario (+2.0 pts) with +9m rail boost for inside on-pacers (+3.0 pts). Won his maiden over this exact track and 1350m trip on Soft ground in May, and Ben Thompson rides 2nd-up with 58kg.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 84,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Began awkwardly",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "18e",
+                        "barrier": "1",
+                        "horse_name": "Disparate",
+                        "handicapper_notes": "Canonical style P. Danger Horse mapping on the fence in the pocket behind Veomas from barrier 1 (+2.0 box-seat, +3.0 +9m rail lock). Had a Grade A/B trouble trip when held up in the straight over 1200m here Nov 3, finishing just 0.2L behind Climb The Ladder with a light 55.8kg weight for Tony Gollan.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 82,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Held up in straight",
+                            "is_danger_horse": true
+                        }
+                    },
+                    {
+                        "program_number": "3",
+                        "barrier": "7",
+                        "horse_name": "Rewrite",
+                        "handicapper_notes": "Canonical style P. Class Drop bonus applied dropping from Metro BM70 at Eagle Farm (within 3.3L 21 days ago after being bumped at start) back to Class 1. Proven on Soft ground and runner-up over Doomben 1350m in April, though barrier 7 and 58.5kg require a sharp ride from Kyle Wilson-Taylor on the +9m rail.",
+                        "features": {
+                            "class_drop_bonus_applied": true,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 81,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Bumped at start",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "9",
+                        "barrier": "10",
+                        "horse_name": "Sir Arrogonce",
+                        "handicapper_notes": "Canonical style P. Progressive Chris Waller 3yo paired with Ryan Maloney at 56.7kg. Bolted in by 4.2L at Ipswich over 1700m before a 10-week break and brings two solid barrier trials, but sliding in to barrier 10 on the +9m Doomben rail while dropping back in trip (Route to Sprint) poses tactical hurdles.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 78,
+                            "running_style": "P",
+                            "is_lone_speed": false,
+                            "distance_transition": "Route to Sprint",
+                            "trouble_trip": "None",
+                            "is_danger_horse": false
+                        }
+                    },
+                    {
+                        "program_number": "6",
+                        "barrier": "8",
+                        "horse_name": "Vandevelde",
+                        "handicapper_notes": "Canonical style S. Competed in 3yo Group 2/3 company during winter and won at 1350m previously, but 1st-up run at Sunshine Coast was flat (beaten 5.3L) and barrier 8 on a +9m rail limits his closer profile.",
+                        "features": {
+                            "class_drop_bonus_applied": false,
+                            "pace_scenario_eval": "Standard",
+                            "ai_holistic_score": 74,
+                            "running_style": "S",
+                            "is_lone_speed": false,
+                            "distance_transition": "None",
+                            "trouble_trip": "Began awkwardly",
+                            "is_danger_horse": false
+                        }
+                    }
+                ]
+            },
+            "selections": [
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Rewrite",
+                    "rating": 89.0,
+                    "reason": "Canonical style P. Class Drop bonus applied dropping from Metro BM70 at Eagle Farm (within 3.3L 21 days ago after being bumped at start) back to Class 1. Proven on Soft ground and runner-up over Doomben 1350m in April, though barrier 7 and 58.5kg require a sharp ride from Kyle Wilson-Taylor on the +9m rail. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Bumped at start</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Veomas (NZ)",
+                    "rating": 87.0,
+                    "reason": "Canonical style E. Standard post-scratch pace map with 2 E runners (Veomas and Nozomu), but Veomas holds a decisive rail-and-speed advantage from barrier 3 over Nozomu (barrier 9 post-scratch) on a +9m Conveyor Belt rail at Doomben (+3.0 pts on-pace rail lock). Proven T/D winner leading all the way here Nov 3, Gollan/Angela Jones combo, and 57.5kg net weight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Climb The Ladder (NZ)",
+                    "rating": 86.0,
+                    "reason": "Canonical style S. Highest class/speed figure runner (SR 78-81 in Sydney BM72) returning 2nd-up for Tony Gollan. Jett Newman's 3kg claim reduces effective weight to 57kg from barrier 2. Standard pace map and +9m rail slightly temper deep closers, but stepping up to 1350m after closing strongly for 3rd over 1200m here Nov 3 makes him the main threat. | <i>\u26a0\ufe0f Began awkwardly</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Switz",
+                    "rating": 84.0,
+                    "reason": "Canonical style P. Box-seat stalker from barrier 4 in a Standard pace scenario (+2.0 pts) with +9m rail boost for inside on-pacers (+3.0 pts). Won his maiden over this exact track and 1350m trip on Soft ground in May, and Ben Thompson rides 2nd-up with 58kg. | <i>\u26a0\ufe0f Began awkwardly</i>"
+                },
+                {
+                    "number": "18e",
+                    "barrier": "1",
+                    "name": "Disparate",
+                    "rating": 82.0,
+                    "reason": "Canonical style P. Danger Horse mapping on the fence in the pocket behind Veomas from barrier 1 (+2.0 box-seat, +3.0 +9m rail lock). Had a Grade A/B trouble trip when held up in the straight over 1200m here Nov 3, finishing just 0.2L behind Climb The Ladder with a light 55.8kg weight for Tony Gollan. | <i>\u26a0\ufe0f Held up in straight</i>"
+                }
+            ],
+            "all_contenders": [
+                {
+                    "number": "3",
+                    "barrier": "7",
+                    "name": "Rewrite",
+                    "rating": 89.0,
+                    "reason": "Canonical style P. Class Drop bonus applied dropping from Metro BM70 at Eagle Farm (within 3.3L 21 days ago after being bumped at start) back to Class 1. Proven on Soft ground and runner-up over Doomben 1350m in April, though barrier 7 and 58.5kg require a sharp ride from Kyle Wilson-Taylor on the +9m rail. | <i>\ud83d\udd3b Class Drop \u2022 \u26a0\ufe0f Bumped at start</i>"
+                },
+                {
+                    "number": "8",
+                    "barrier": "3",
+                    "name": "Veomas (NZ)",
+                    "rating": 87.0,
+                    "reason": "Canonical style E. Standard post-scratch pace map with 2 E runners (Veomas and Nozomu), but Veomas holds a decisive rail-and-speed advantage from barrier 3 over Nozomu (barrier 9 post-scratch) on a +9m Conveyor Belt rail at Doomben (+3.0 pts on-pace rail lock). Proven T/D winner leading all the way here Nov 3, Gollan/Angela Jones combo, and 57.5kg net weight."
+                },
+                {
+                    "number": "1",
+                    "barrier": "2",
+                    "name": "Climb The Ladder (NZ)",
+                    "rating": 86.0,
+                    "reason": "Canonical style S. Highest class/speed figure runner (SR 78-81 in Sydney BM72) returning 2nd-up for Tony Gollan. Jett Newman's 3kg claim reduces effective weight to 57kg from barrier 2. Standard pace map and +9m rail slightly temper deep closers, but stepping up to 1350m after closing strongly for 3rd over 1200m here Nov 3 makes him the main threat. | <i>\u26a0\ufe0f Began awkwardly</i>"
+                },
+                {
+                    "number": "5",
+                    "barrier": "4",
+                    "name": "Switz",
+                    "rating": 84.0,
+                    "reason": "Canonical style P. Box-seat stalker from barrier 4 in a Standard pace scenario (+2.0 pts) with +9m rail boost for inside on-pacers (+3.0 pts). Won his maiden over this exact track and 1350m trip on Soft ground in May, and Ben Thompson rides 2nd-up with 58kg. | <i>\u26a0\ufe0f Began awkwardly</i>"
+                },
+                {
+                    "number": "18e",
+                    "barrier": "1",
+                    "name": "Disparate",
+                    "rating": 82.0,
+                    "reason": "Canonical style P. Danger Horse mapping on the fence in the pocket behind Veomas from barrier 1 (+2.0 box-seat, +3.0 +9m rail lock). Had a Grade A/B trouble trip when held up in the straight over 1200m here Nov 3, finishing just 0.2L behind Climb The Ladder with a light 55.8kg weight for Tony Gollan. | <i>\u26a0\ufe0f Held up in straight</i>"
+                },
+                {
+                    "number": "9",
+                    "barrier": "10",
+                    "name": "Sir Arrogonce",
+                    "rating": 78.0,
+                    "reason": "Canonical style P. Progressive Chris Waller 3yo paired with Ryan Maloney at 56.7kg. Bolted in by 4.2L at Ipswich over 1700m before a 10-week break and brings two solid barrier trials, but sliding in to barrier 10 on the +9m Doomben rail while dropping back in trip (Route to Sprint) poses tactical hurdles. | <i>\ud83d\udccf Route to Sprint</i>"
+                },
+                {
+                    "number": "6",
+                    "barrier": "8",
+                    "name": "Vandevelde",
+                    "rating": 74.0,
+                    "reason": "Canonical style S. Competed in 3yo Group 2/3 company during winter and won at 1350m previously, but 1st-up run at Sunshine Coast was flat (beaten 5.3L) and barrier 8 on a +9m rail limits his closer profile. | <i>\u26a0\ufe0f Began awkwardly</i>"
+                }
+            ],
+            "danger_horse": {
+                "number": "18e",
+                "barrier": "1",
+                "name": "Disparate",
+                "rating": 82.0,
+                "reason": "Canonical style P. Danger Horse mapping on the fence in the pocket behind Veomas from barrier 1 (+2.0 box-seat, +3.0 +9m rail lock). Had a Grade A/B trouble trip when held up in the straight over 1200m here Nov 3, finishing just 0.2L behind Climb The Ladder with a light 55.8kg weight for Tony Gollan. | <i>\u26a0\ufe0f Held up in straight</i>"
+            },
+            "exotic_strategy": "<b>\ud83c\udfaf WIN:</b> $10 Win on <b>#3 Rewrite</b><br><b>\ud83c\udf9f\ufe0f $2 EXACTA BOX:</b> #3, #8, #18e (Selective Box)"
+        }
+    ],
+    "daily_doubles": [
+        "<b>R1 \u2794 R2 DAILY DOUBLE:</b> Play (#3 (Solo Lock)) with (#1 (Solo Lock))",
+        "<b>R2 \u2794 R3 DAILY DOUBLE:</b> Play (#1 (Solo Lock)) with (#1, #11)",
+        "<b>R3 \u2794 R4 DAILY DOUBLE:</b> Play (#1, #11) with (#5 (Solo Lock))",
+        "<b>R4 \u2794 R5 DAILY DOUBLE:</b> Play (#5 (Solo Lock)) with (#4 (Solo Lock))",
+        "<b>R5 \u2794 R6 DAILY DOUBLE:</b> Play (#4 (Solo Lock)) with (#6, #3)",
+        "<b>R6 \u2794 R7 DAILY DOUBLE:</b> Play (#6, #3) with (#3, #8)"
+    ]
+}
